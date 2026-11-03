@@ -33,9 +33,9 @@
 
 ### 预览
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 前右轴测**
 
-[![全览大图 · 离线模型预览](project/review/previews/S06_Qilou02/exterior_FL.png)](project/review/previews/S06_Qilou02/exterior_FL.png)
+[![原 HTML 首屏主视图 · 前右轴测](project/review/previews/S06_Qilou02/exterior_FR.png)](project/review/previews/S06_Qilou02/exterior_FR.png)
 
 **街景与细节拼图**
 

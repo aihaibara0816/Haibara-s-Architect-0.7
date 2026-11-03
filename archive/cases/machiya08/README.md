@@ -27,10 +27,10 @@
 
 ### 预览
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 临街店口**
 
-[![全览大图 · 离线模型预览](project/review/previews/M08/exterior_SW.png)](project/review/previews/M08/exterior_SW.png)
+[![原 HTML 首屏主视图 · 临街店口](project/review/previews/M08/front_eye.png)](project/review/previews/M08/front_eye.png)
 
-**门面与入口细节 · M08**
+**整栋概览 · 离线模型预览**
 
-[![门面与入口细节 · M08](project/review/previews/M08/front_eye.png)](project/review/previews/M08/front_eye.png)
+[![整栋概览 · 离线模型预览](project/review/previews/M08/exterior_SE.png)](project/review/previews/M08/exterior_SE.png)

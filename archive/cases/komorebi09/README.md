@@ -32,9 +32,9 @@
 
 ### 预览
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 东南鸟瞰**
 
-[![全览大图 · 离线模型预览](project/review/previews/T07/day_NE.png)](project/review/previews/T07/day_NE.png)
+[![原 HTML 首屏主视图 · 东南鸟瞰](project/review/previews/T07/day_SE.png)](project/review/previews/T07/day_SE.png)
 
 **山溪街巷细节 · T07**
 

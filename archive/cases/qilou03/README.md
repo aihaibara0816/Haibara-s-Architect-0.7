@@ -49,9 +49,9 @@
 
 ### 预览
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 街巷视角**
 
-[![全览大图 · 离线模型预览](project/review/previews/G05_Qilou03/exterior_FL.png)](project/review/previews/G05_Qilou03/exterior_FL.png)
+[![原 HTML 首屏主视图 · 街巷视角](project/review/previews/G05_Qilou03/street.png)](project/review/previews/G05_Qilou03/street.png)
 
 **街景与细节拼图**
 

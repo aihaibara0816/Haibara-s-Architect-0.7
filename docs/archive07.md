@@ -937,13 +937,13 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-machiya08.zip)
  · [案例文件与完整图片目录](../archive/cases/machiya08/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 临街店口**
 
-[![全览大图 · 离线模型预览](../archive/cases/machiya08/project/review/previews/M08/exterior_SW.png)](../archive/cases/machiya08/project/review/previews/M08/exterior_SW.png)
+[![原 HTML 首屏主视图 · 临街店口](../archive/cases/machiya08/project/review/previews/M08/front_eye.png)](../archive/cases/machiya08/project/review/previews/M08/front_eye.png)
 
-**门面与入口细节 · M08**
+**整栋概览 · 离线模型预览**
 
-[![门面与入口细节 · M08](../archive/cases/machiya08/project/review/previews/M08/front_eye.png)](../archive/cases/machiya08/project/review/previews/M08/front_eye.png)
+[![整栋概览 · 离线模型预览](../archive/cases/machiya08/project/review/previews/M08/exterior_SE.png)](../archive/cases/machiya08/project/review/previews/M08/exterior_SE.png)
 
 ## komorebi09
 
@@ -960,9 +960,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-komorebi09.zip)
  · [案例文件与完整图片目录](../archive/cases/komorebi09/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 东南鸟瞰**
 
-[![全览大图 · 离线模型预览](../archive/cases/komorebi09/project/review/previews/T07/day_NE.png)](../archive/cases/komorebi09/project/review/previews/T07/day_NE.png)
+[![原 HTML 首屏主视图 · 东南鸟瞰](../archive/cases/komorebi09/project/review/previews/T07/day_SE.png)](../archive/cases/komorebi09/project/review/previews/T07/day_SE.png)
 
 **山溪街巷细节 · T07**
 
@@ -1022,9 +1022,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-taisho12.zip)
  · [案例文件与完整图片目录](../archive/cases/taisho12/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 青葉書肆东南视角**
 
-[![全览大图 · 离线模型预览](../archive/cases/taisho12/project/review/previews/A06_Taisho12/day_NE.png)](../archive/cases/taisho12/project/review/previews/A06_Taisho12/day_NE.png)
+[![原 HTML 首屏主视图 · 青葉書肆东南视角](../archive/cases/taisho12/project/review/previews/A06_Bookshop/day_SE.png)](../archive/cases/taisho12/project/review/previews/A06_Bookshop/day_SE.png)
 
 **街屋与内饰拼图**
 
@@ -1064,9 +1064,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-taisho14.zip)
  · [案例文件与完整图片目录](../archive/cases/taisho14/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 西坡商店街东南视角**
 
-[![全览大图 · 离线模型预览](../archive/cases/taisho14/project/review/previews/Q03_Taisho14/overview_NE.png)](../archive/cases/taisho14/project/review/previews/Q03_Taisho14/overview_NE.png)
+[![原 HTML 首屏主视图 · 西坡商店街东南视角](../archive/cases/taisho14/project/review/previews/Q03_Taisho14/district_west_SE.png)](../archive/cases/taisho14/project/review/previews/Q03_Taisho14/district_west_SE.png)
 
 **街区与细节拼图**
 
@@ -1087,9 +1087,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-taisho15.zip)
  · [案例文件与完整图片目录](../archive/cases/taisho15/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 山脚街屋与院落东南视角**
 
-[![全览大图 · 离线模型预览](../archive/cases/taisho15/project/review/previews/O09_Taisho15/overview_NE.png)](../archive/cases/taisho15/project/review/previews/O09_Taisho15/overview_NE.png)
+[![原 HTML 首屏主视图 · 山脚街屋与院落东南视角](../archive/cases/taisho15/project/review/previews/O09_Taisho15/district_west_SE.png)](../archive/cases/taisho15/project/review/previews/O09_Taisho15/district_west_SE.png)
 
 **街区与细节拼图 · 返工前版本**
 
@@ -1110,9 +1110,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-taisho16.zip)
  · [案例文件与完整图片目录](../archive/cases/taisho16/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 山脚街屋与院落东南视角**
 
-[![全览大图 · 离线模型预览](../archive/cases/taisho16/project/review/previews/V09_Taisho16/overview_NE.png)](../archive/cases/taisho16/project/review/previews/V09_Taisho16/overview_NE.png)
+[![原 HTML 首屏主视图 · 山脚街屋与院落东南视角](../archive/cases/taisho16/project/review/previews/V09_Taisho16/district_west_SE.png)](../archive/cases/taisho16/project/review/previews/V09_Taisho16/district_west_SE.png)
 
 **街区与细节拼图**
 
@@ -1133,9 +1133,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-qilou01.zip)
  · [案例文件与完整图片目录](../archive/cases/qilou01/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 前右轴测**
 
-[![全览大图 · 离线模型预览](../archive/cases/qilou01/project/review/previews/Q05_Qilou01/exterior_FL.png)](../archive/cases/qilou01/project/review/previews/Q05_Qilou01/exterior_FL.png)
+[![原 HTML 首屏主视图 · 前右轴测](../archive/cases/qilou01/project/review/previews/Q05_Qilou01/exterior_FR.png)](../archive/cases/qilou01/project/review/previews/Q05_Qilou01/exterior_FR.png)
 
 **街景与细节拼图**
 
@@ -1156,9 +1156,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-qilou02.zip)
  · [案例文件与完整图片目录](../archive/cases/qilou02/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 前右轴测**
 
-[![全览大图 · 离线模型预览](../archive/cases/qilou02/project/review/previews/S06_Qilou02/exterior_FL.png)](../archive/cases/qilou02/project/review/previews/S06_Qilou02/exterior_FL.png)
+[![原 HTML 首屏主视图 · 前右轴测](../archive/cases/qilou02/project/review/previews/S06_Qilou02/exterior_FR.png)](../archive/cases/qilou02/project/review/previews/S06_Qilou02/exterior_FR.png)
 
 **街景与细节拼图**
 
@@ -1179,9 +1179,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-qilou03.zip)
  · [案例文件与完整图片目录](../archive/cases/qilou03/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 街巷视角**
 
-[![全览大图 · 离线模型预览](../archive/cases/qilou03/project/review/previews/G05_Qilou03/exterior_FL.png)](../archive/cases/qilou03/project/review/previews/G05_Qilou03/exterior_FL.png)
+[![原 HTML 首屏主视图 · 街巷视角](../archive/cases/qilou03/project/review/previews/G05_Qilou03/street.png)](../archive/cases/qilou03/project/review/previews/G05_Qilou03/street.png)
 
 **街景与细节拼图**
 
@@ -1268,9 +1268,9 @@ Corner01 remains needs_revision；原版碰撞、门、睡眠、光照、审美 
 [下载学习包](../downloads/study-rail-depot01.zip)
  · [案例文件与完整图片目录](../archive/cases/rail-depot01/README.md)
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 咽喉与检修库**
 
-[![全览大图 · 离线模型预览](../archive/cases/rail-depot01/project/review/previews/R15_RailDepot01/day_NE.png)](../archive/cases/rail-depot01/project/review/previews/R15_RailDepot01/day_NE.png)
+[![原 HTML 首屏主视图 · 咽喉与检修库](../archive/cases/rail-depot01/project/review/previews/R15_RailDepot01/day_NW.png)](../archive/cases/rail-depot01/project/review/previews/R15_RailDepot01/day_NW.png)
 
 **检修区与连桥细节**
 

@@ -28,9 +28,9 @@
 
 ### 预览
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 咽喉与检修库**
 
-[![全览大图 · 离线模型预览](project/review/previews/R15_RailDepot01/day_NE.png)](project/review/previews/R15_RailDepot01/day_NE.png)
+[![原 HTML 首屏主视图 · 咽喉与检修库](project/review/previews/R15_RailDepot01/day_NW.png)](project/review/previews/R15_RailDepot01/day_NW.png)
 
 **检修区与连桥细节**
 

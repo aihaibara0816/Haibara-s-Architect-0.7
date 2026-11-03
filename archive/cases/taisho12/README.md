@@ -28,9 +28,9 @@
 
 ### 预览
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 青葉書肆东南视角**
 
-[![全览大图 · 离线模型预览](project/review/previews/A06_Taisho12/day_NE.png)](project/review/previews/A06_Taisho12/day_NE.png)
+[![原 HTML 首屏主视图 · 青葉書肆东南视角](project/review/previews/A06_Bookshop/day_SE.png)](project/review/previews/A06_Bookshop/day_SE.png)
 
 **街屋与内饰拼图**
 

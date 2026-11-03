@@ -39,9 +39,9 @@
 
 ### 预览
 
-**全览大图 · 离线模型预览**
+**原 HTML 首屏主视图 · 西坡商店街东南视角**
 
-[![全览大图 · 离线模型预览](project/review/previews/Q03_Taisho14/overview_NE.png)](project/review/previews/Q03_Taisho14/overview_NE.png)
+[![原 HTML 首屏主视图 · 西坡商店街东南视角](project/review/previews/Q03_Taisho14/district_west_SE.png)](project/review/previews/Q03_Taisho14/district_west_SE.png)
 
 **街区与细节拼图**
 
