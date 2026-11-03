@@ -28,15 +28,10 @@
 
 ### 预览
 
-![Taisho12_Preview](project/delivery/Taisho12_Preview.png)
+**全览大图 · 离线模型预览**
 
-![layer_roof](project/review/previews/A06_Bookshop/layer_roof.png)
+[![全览大图 · 离线模型预览](project/review/previews/A06_Taisho12/day_NE.png)](project/review/previews/A06_Taisho12/day_NE.png)
 
-![day_NW](project/review/previews/A06_Inn/day_NW.png)
+**街屋与内饰拼图**
 
-![layer_upper](project/review/previews/A06_Inn/layer_upper.png)
-
-![day_SE](project/review/previews/A06_Pharmacy/day_SE.png)
-
-![night_SW](project/review/previews/A06_Pharmacy/night_SW.png)
-
+[![街屋与内饰拼图](project/delivery/Taisho12_Preview.png)](project/delivery/Taisho12_Preview.png)

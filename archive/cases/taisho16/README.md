@@ -40,15 +40,10 @@
 
 ### 预览
 
-![Taisho16_Preview](project/delivery/Taisho16_Preview.png)
+**全览大图 · 离线模型预览**
 
-![exterior_FR_night](project/review/previews/V09_Clinic/exterior_FR_night.png)
+[![全览大图 · 离线模型预览](project/review/previews/V09_Taisho16/overview_NE.png)](project/review/previews/V09_Taisho16/overview_NE.png)
 
-![elevation_B](project/review/previews/V09_Library/elevation_B.png)
+**街区与细节拼图**
 
-![exterior_BR](project/review/previews/V09_Post/exterior_BR.png)
-
-![inside_night](project/review/previews/V09_School/inside_night.png)
-
-![overview_SW_night](project/review/previews/V09_Taisho16/overview_SW_night.png)
-
+[![街区与细节拼图](project/delivery/Taisho16_Preview.png)](project/delivery/Taisho16_Preview.png)

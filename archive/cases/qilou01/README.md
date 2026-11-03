@@ -24,15 +24,10 @@
 
 ### 预览
 
-![Qilou01_Preview](project/delivery/Qilou01_Preview.png)
+**全览大图 · 离线模型预览**
 
-![front_night](project/review/previews/Q05_Apothecary/front_night.png)
+[![全览大图 · 离线模型预览](project/review/previews/Q05_Qilou01/exterior_FL.png)](project/review/previews/Q05_Qilou01/exterior_FL.png)
 
-![elevation_B](project/review/previews/Q05_Grocery/elevation_B.png)
+**街景与细节拼图**
 
-![plan_0](project/review/previews/Q05_Grocery/plan_0.png)
-
-![exterior_BR_night](project/review/previews/Q05_Qilou01/exterior_BR_night.png)
-
-![exterior_BL](project/review/previews/Q05_Teahouse/exterior_BL.png)
-
+[![街景与细节拼图](project/delivery/Qilou01_Preview.png)](project/delivery/Qilou01_Preview.png)

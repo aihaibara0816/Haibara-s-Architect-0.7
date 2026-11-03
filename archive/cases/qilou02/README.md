@@ -33,15 +33,10 @@
 
 ### 预览
 
-![Qilou02_Preview](project/delivery/Qilou02_Preview.png)
+**全览大图 · 离线模型预览**
 
-![elevation_F](project/review/previews/S06_Barber/elevation_F.png)
+[![全览大图 · 离线模型预览](project/review/previews/S06_Qilou02/exterior_FL.png)](project/review/previews/S06_Qilou02/exterior_FL.png)
 
-![exterior_FL](project/review/previews/S06_Clinic/exterior_FL.png)
+**街景与细节拼图**
 
-![inside](project/review/previews/S06_Grocery/inside.png)
-
-![section](project/review/previews/S06_Inn/section.png)
-
-![plan_1](project/review/previews/S06_Qilou02/plan_1.png)
-
+[![街景与细节拼图](project/delivery/Qilou02_Preview.png)](project/delivery/Qilou02_Preview.png)

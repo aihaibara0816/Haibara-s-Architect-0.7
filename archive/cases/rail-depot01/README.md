@@ -28,15 +28,10 @@
 
 ### 预览
 
-![bridge_detail](project/review/previews/R15_RailDepot01/bridge_detail.png)
+**全览大图 · 离线模型预览**
 
-![day_NW](project/review/previews/R15_RailDepot01/day_NW.png)
+[![全览大图 · 离线模型预览](project/review/previews/R15_RailDepot01/day_NE.png)](project/review/previews/R15_RailDepot01/day_NE.png)
 
-![elevation_south](project/review/previews/R15_RailDepot01/elevation_south.png)
+**检修区与连桥细节**
 
-![night_NE](project/review/previews/R15_RailDepot01/night_NE.png)
-
-![podium_F2](project/review/previews/R15_RailDepot01/podium_F2.png)
-
-![tower_exploded](project/review/previews/R15_RailDepot01/tower_exploded.png)
-
+[![检修区与连桥细节](project/review/previews/R15_RailDepot01/bridge_overview.png)](project/review/previews/R15_RailDepot01/bridge_overview.png)

@@ -40,15 +40,10 @@
 
 ### 预览
 
-![Taisho15_Preview](project/delivery/Taisho15_Preview.png)
+**全览大图 · 离线模型预览**
 
-![exterior_FR_night](project/review/previews/O09_Clinic/exterior_FR_night.png)
+[![全览大图 · 离线模型预览](project/review/previews/O09_Taisho15/overview_NE.png)](project/review/previews/O09_Taisho15/overview_NE.png)
 
-![elevation_F](project/review/previews/O09_Library/elevation_F.png)
+**街区与细节拼图 · 返工前版本**
 
-![exterior_FL](project/review/previews/O09_Post/exterior_FL.png)
-
-![plan_0](project/review/previews/O09_School/plan_0.png)
-
-![school_court_night](project/review/previews/O09_Taisho15/school_court_night.png)
-
+[![街区与细节拼图 · 返工前版本](project/delivery/Taisho15_Preview.png)](project/delivery/Taisho15_Preview.png)

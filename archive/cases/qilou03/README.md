@@ -49,15 +49,10 @@
 
 ### 预览
 
-![Qilou03_Preview](project/delivery/Qilou03_Preview.png)
+**全览大图 · 离线模型预览**
 
-![bedroom_night](project/review/previews/G05_Grain/bedroom_night.png)
+[![全览大图 · 离线模型预览](project/review/previews/G05_Qilou03/exterior_FL.png)](project/review/previews/G05_Qilou03/exterior_FL.png)
 
-![corner_SW_night](project/review/previews/G05_Qilou03/corner_SW_night.png)
+**街景与细节拼图**
 
-![plan_3](project/review/previews/G05_V02/plan_3.png)
-
-![front_night](project/review/previews/G05_V07/front_night.png)
-
-![exploded](project/review/previews/G05_V12/exploded.png)
-
+[![街景与细节拼图](project/delivery/Qilou03_Preview.png)](project/delivery/Qilou03_Preview.png)

@@ -32,15 +32,10 @@
 
 ### 预览
 
-![B01_front](project/review/previews/J03/B01_front.png)
+**全览大图 · 离线模型预览**
 
-![B08_inside](project/review/previews/J03/B08_inside.png)
+[![全览大图 · 离线模型预览](project/review/previews/T07/day_NE.png)](project/review/previews/T07/day_NE.png)
 
-![B15_inside](project/review/previews/J03/B15_inside.png)
+**山溪街巷细节 · T07**
 
-![elevation_west](project/review/previews/J03/elevation_west.png)
-
-![B05_inside](project/review/previews/T07/B05_inside.png)
-
-![B17_front](project/review/previews/T07/B17_front.png)
-
+[![山溪街巷细节 · T07](project/review/previews/T07/main_bend.png)](project/review/previews/T07/main_bend.png)

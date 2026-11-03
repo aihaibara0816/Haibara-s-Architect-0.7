@@ -65,15 +65,10 @@
 
 ### 预览
 
-![game-preview](game-preview.png)
+**全览大图 · 离线模型预览**
 
-![street_east](project/review/game/street_east.png)
+[![全览大图 · 离线模型预览](project/deliverables/Qilou04_Preview.png)](project/deliverables/Qilou04_Preview.png)
 
-![front_night](project/review/previews/R19h_B3/front_night.png)
+**街景补充 · Java 1.21.1 实机截图**
 
-![front](project/review/previews/R19h_D2/front.png)
-
-![front](project/review/previews/R19h_E6/front.png)
-
-![lane](project/review/previews/R19h_Qilou04/lane.png)
-
+[![街景补充 · Java 1.21.1 实机截图](project/deliverables/Qilou04_Game_Preview.png)](project/deliverables/Qilou04_Game_Preview.png)

@@ -27,15 +27,10 @@
 
 ### 预览
 
-![entry_eye](project/review/previews/M03/entry_eye.png)
+**全览大图 · 离线模型预览**
 
-![elevation_west](project/review/previews/M06/elevation_west.png)
+[![全览大图 · 离线模型预览](project/review/previews/M08/exterior_SW.png)](project/review/previews/M08/exterior_SW.png)
 
-![night_SE](project/review/previews/M06/night_SE.png)
+**门面与入口细节 · M08**
 
-![understair_section](project/review/previews/M06/understair_section.png)
-
-![exterior_NE](project/review/previews/M08/exterior_NE.png)
-
-![plan_2](project/review/previews/M08/plan_2.png)
-
+[![门面与入口细节 · M08](project/review/previews/M08/front_eye.png)](project/review/previews/M08/front_eye.png)

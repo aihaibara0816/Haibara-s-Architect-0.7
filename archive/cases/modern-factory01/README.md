@@ -22,15 +22,10 @@
 
 ### 预览
 
-![bridge_detail](project/review/previews/E07_ModernFactory01/bridge_detail.png)
+**全览大图 · 离线模型预览**
 
-![day_NW](project/review/previews/E07_ModernFactory01/day_NW.png)
+[![全览大图 · 离线模型预览](project/review/previews/E07_ModernFactory01/day_NE.png)](project/review/previews/E07_ModernFactory01/day_NE.png)
 
-![elevation_back](project/review/previews/E07_ModernFactory01/elevation_back.png)
+**生产车间内部细节**
 
-![night_NW](project/review/previews/E07_ModernFactory01/night_NW.png)
-
-![office_F4](project/review/previews/E07_ModernFactory01/office_F4.png)
-
-![production_inside](project/review/previews/E07_ModernFactory01/production_inside.png)
-
+[![生产车间内部细节](project/review/previews/E07_ModernFactory01/production_inside.png)](project/review/previews/E07_ModernFactory01/production_inside.png)
