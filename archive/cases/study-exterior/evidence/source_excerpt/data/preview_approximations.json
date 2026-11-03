@@ -1,0 +1,1135 @@
+{
+  "geometry_aliases": {
+    "minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]",
+    "minecraft:sandstone_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]",
+    "minecraft:spruce_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]",
+    "minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:stone_brick_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=none]",
+    "minecraft:cobblestone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:andesite_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=low]": "minecraft:diorite_wall[east=none,north=none,south=none,up=false,waterlogged=false,west=low]",
+    "minecraft:granite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=tall]",
+    "minecraft:granite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=tall]",
+    "minecraft:granite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:cobblestone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": "minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:sandstone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=low]": "minecraft:diorite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=low]",
+    "minecraft:spruce_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]",
+    "minecraft:stone_brick_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=none,south=tall,up=false,waterlogged=false,west=none]",
+    "minecraft:sandstone_wall[east=low,north=none,south=tall,up=true,waterlogged=false,west=low]": "minecraft:diorite_wall[east=low,north=none,south=tall,up=true,waterlogged=false,west=low]",
+    "minecraft:sandstone_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=tall]",
+    "minecraft:granite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=tall]",
+    "minecraft:mossy_cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]",
+    "minecraft:sandstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]": "minecraft:diorite_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]",
+    "minecraft:mossy_cobblestone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:polished_diorite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": "minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:stone_brick_wall[east=tall,north=low,south=none,up=false,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=low,south=none,up=false,waterlogged=false,west=none]",
+    "minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]",
+    "minecraft:granite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:dark_oak_leaves[distance=7,persistent=false,waterlogged=false]": "minecraft:oak_leaves[distance=7,persistent=false,waterlogged=false]",
+    "minecraft:jungle_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]",
+    "minecraft:lightning_rod[facing=south,powered=false,waterlogged=false]": "minecraft:end_rod[facing=south]",
+    "minecraft:sandstone_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]",
+    "minecraft:granite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:polished_diorite_slab[type=top,waterlogged=false]": "minecraft:smooth_stone_slab[type=top,waterlogged=false]",
+    "minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]": "minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]",
+    "minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]",
+    "minecraft:granite_wall[east=low,north=none,south=tall,up=true,waterlogged=false,west=low]": "minecraft:diorite_wall[east=low,north=none,south=tall,up=true,waterlogged=false,west=low]",
+    "minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]": "minecraft:oak_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]",
+    "minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]": "minecraft:oak_trapdoor[facing=west,half=bottom,open=false,powered=true,waterlogged=false]",
+    "minecraft:sandstone_wall[east=tall,north=low,south=none,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=tall,north=low,south=none,up=true,waterlogged=false,west=tall]",
+    "minecraft:acacia_leaves[distance=7,persistent=false,waterlogged=false]": "minecraft:oak_leaves[distance=7,persistent=false,waterlogged=false]",
+    "minecraft:lightning_rod[facing=west,powered=false,waterlogged=false]": "minecraft:end_rod[facing=west]",
+    "minecraft:andesite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:granite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=tall]",
+    "minecraft:sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:granite_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=none]",
+    "minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]",
+    "minecraft:cobblestone_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:sandstone_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=tall]",
+    "minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:granite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=low]": "minecraft:diorite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=low]",
+    "minecraft:granite_wall[east=tall,north=tall,south=tall,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=tall,south=tall,up=true,waterlogged=false,west=none]",
+    "minecraft:spruce_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]",
+    "minecraft:sandstone_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=tall,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:lightning_rod[facing=up,powered=false,waterlogged=false]": "minecraft:end_rod[facing=up]",
+    "minecraft:granite_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=none,north=tall,south=low,up=true,waterlogged=false,west=tall]",
+    "minecraft:andesite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=none]",
+    "minecraft:granite_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=tall]",
+    "minecraft:andesite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=none,south=low,up=true,waterlogged=false,west=none]",
+    "minecraft:polished_diorite_stairs[facing=north,half=top,shape=straight,waterlogged=false]": "minecraft:quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]",
+    "minecraft:sandstone_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=low]": "minecraft:diorite_wall[east=low,north=tall,south=none,up=true,waterlogged=false,west=low]",
+    "minecraft:stone_brick_wall[east=tall,north=low,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=low,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:jungle_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]",
+    "minecraft:lightning_rod[facing=east,powered=false,waterlogged=false]": "minecraft:end_rod[facing=east]",
+    "minecraft:stone_brick_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=tall,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:lightning_rod[facing=north,powered=false,waterlogged=false]": "minecraft:end_rod[facing=north]",
+    "minecraft:granite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=none]",
+    "minecraft:granite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=tall]",
+    "minecraft:granite_wall[east=tall,north=low,south=none,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=low,south=none,up=true,waterlogged=false,west=none]",
+    "minecraft:lightning_rod[facing=down,powered=false,waterlogged=false]": "minecraft:end_rod[facing=down]",
+    "minecraft:sandstone_wall[east=tall,north=none,south=low,up=true,waterlogged=false,west=tall]": "minecraft:diorite_wall[east=tall,north=none,south=low,up=true,waterlogged=false,west=tall]",
+    "minecraft:spruce_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]": "minecraft:oak_trapdoor[facing=east,half=bottom,open=false,powered=true,waterlogged=false]",
+    "minecraft:polished_diorite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:spruce_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]": "minecraft:oak_trapdoor[facing=south,half=bottom,open=false,powered=true,waterlogged=false]",
+    "minecraft:spruce_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]": "minecraft:oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]",
+    "minecraft:granite_wall[east=tall,north=none,south=low,up=true,waterlogged=false,west=none]": "minecraft:diorite_wall[east=tall,north=none,south=low,up=true,waterlogged=false,west=none]",
+    "minecraft:cobblestone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]": "minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+  },
+  "fallback_boxes": {
+    "minecraft:lever[face=wall,facing=north,powered=true]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:rail[shape=south_west,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=ceiling,facing=south,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=true]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:lever[face=ceiling,facing=east,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:lever[face=wall,facing=south,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:yellow_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:birch_button[face=wall,facing=south,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:cave_vines[age=9,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=true]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:ladder[facing=east,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:magenta_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:ochre_froglight[axis=z]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:cave_vines[age=8,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:spruce_fence_gate[facing=north,in_wall=false,open=false,powered=false,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:polished_granite": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:ochre_froglight[axis=y]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:cave_vines[age=20,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:birch_button[face=wall,facing=west,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:dead_tube_coral_wall_fan[facing=east,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:red_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:rail[shape=north_west,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:dead_tube_coral_wall_fan[facing=west,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:azure_bluet": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:spruce_fence[east=true,north=false,south=true,waterlogged=false,west=false]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:cave_vines_plant[berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:cyan_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:gray_concrete_powder": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:ochre_froglight[axis=x]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:dead_tube_coral_wall_fan[facing=south,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:snow_block": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:birch_button[face=wall,facing=north,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:lime_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:red_sandstone": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:birch_button[face=wall,facing=east,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:lever[face=floor,facing=west,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:lever[face=wall,facing=north,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:spruce_fence_gate[facing=south,in_wall=false,open=true,powered=false,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=ceiling,facing=south,powered=true]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:orange_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:orange_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:green_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:light_blue_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:cave_vines[age=4,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:yellow_concrete_powder": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:short_grass": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=floor,facing=north,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:cave_vines[age=2,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:large_fern[half=upper]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:bone_block[axis=y]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=floor,facing=south,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:birch_sapling[stage=0]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=wall,facing=south,powered=true]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:lever[face=wall,facing=east,powered=true]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:light[level=10,waterlogged=false]": [],
+    "minecraft:blue_ice": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:small_dripleaf[facing=south,half=upper,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:pink_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:red_sand": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:white_terracotta": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:polished_diorite": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:cave_vines[age=6,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:sand": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:dead_tube_coral_fan[waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:rail[shape=north_east,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:gray_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:small_dripleaf[facing=north,half=upper,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=wall,facing=west,powered=true]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:orange_stained_glass": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:stone": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:cave_vines[age=19,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:white_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=wall,facing=east,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:dead_tube_coral_wall_fan[facing=north,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:white_carpet": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:diorite": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=wall,facing=west,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:lever[face=ceiling,facing=north,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:cave_vines[age=21,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:stripped_birch_wood[axis=y]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:cave_vines[age=5,berries=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:large_fern[half=lower]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:tall_grass[half=lower]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:rail[shape=south_east,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=false]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:spruce_fence_gate[facing=north,in_wall=true,open=false,powered=false,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:birch_planks": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:observer[facing=west,powered=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=floor,facing=east,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:spruce_fence_gate[facing=north,in_wall=false,open=true,powered=false,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:stone_button[face=wall,facing=south,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:spruce_fence[east=true,north=true,south=false,waterlogged=false,west=false]": [
+      [
+        0.375,
+        0,
+        0.375,
+        0.625,
+        1,
+        0.625
+      ]
+    ],
+    "minecraft:ladder[facing=west,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:crying_obsidian": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:orange_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:lever[face=ceiling,facing=west,powered=false]": [
+      [
+        0.3,
+        0.3,
+        0.3,
+        0.7,
+        0.7,
+        0.7
+      ]
+    ],
+    "minecraft:orange_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:light_gray_wool": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:dead_brain_coral[waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:spruce_fence_gate[facing=west,in_wall=true,open=false,powered=false,waterlogged=false]": [
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "minecraft:light[level=15,waterlogged=false]": []
+  },
+  "warning": "Diagnostic geometry only; no resource pack; no collision validation."
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-30",
+  "scope": "bounded reference review for Machiya08 street/roof refit",
+  "sources": [
+    {
+      "id": "F80",
+      "title": "Freedom. — Japanese Yakitori Tavern #80",
+      "original": "https://www.youtube.com/watch?v=KLR765Njya0",
+      "status": "primary page metadata verified; playback failed to load; public still visually inspected",
+      "still_source": "https://in.pinterest.com/pin/minecraft-yakitori-tavern-tutorial--658088564314845518/",
+      "still_asset": "https://i.pinimg.com/736x/cd/37/17/cd3717fa620b6ad9bc9aad38b487def0.jpg",
+      "sha256": "cb4543106c74e36277518b0d15e2b06dd481ccaa01c6313a45c8013998bbac4d",
+      "redistribution": "not bundled; viewed for analysis only",
+      "time": null,
+      "observed": [
+        "Ground floor has an opening with a low display/cooking counter visible from street",
+        "Entrance is beside the counter rather than a centered residential door between repeated small windows",
+        "Two eave levels; upper display behind a shallow rail; lamps attached near posts",
+        "Plain continuous side wall contrasts with detailed front; do not open every face indiscriminately"
+      ],
+      "limits": "One public reposted still bearing Freedom watermark; no full video review or exact block recipe. Upper zone may be display/window rather than a walkable balcony."
+    },
+    {
+      "id": "F104",
+      "title": "Freedom. — Store on the corner of the road #104",
+      "original": "https://www.youtube.com/watch?v=I40jEm-xIsU",
+      "viewed": "https://www.bilibili.com/video/BV1aG4y1B7fo/",
+      "status": "new browser visual sampling of opening shots",
+      "samples": [
+        {
+          "time": "00:12",
+          "observed": "Two storeys, wide main roof with visible edge strips, lower roof turns corner; upper frontage and planter/rail layers."
+        },
+        {
+          "time": "00:25",
+          "observed": "Entrance sits to one side of an open sales bay; purple hanging curtains do not seal the entire opening; display/rear backdrop visible between posts; red low furnishings and plants extend into the eave zone."
+        }
+      ],
+      "limits": "Opening shots only. No measured dimensions, no exact material/command recipe; no claim full viewing."
+    }
+  ],
+  "decisions": [
+    {
+      "component": "street_frontage",
+      "evidence": [
+        "F80 still",
+        "F104 00:25"
+      ],
+      "interpretation": "Our facade repeats residential windows and closes the shop view. Reorganize by function and depth.",
+      "consumer": "src/frontage_revision.py: refit_frontage",
+      "implementation": "4-wide low counter opening, 3-wide open recessed portal, distinct dining bay and short side service window"
+    },
+    {
+      "component": "upper_front",
+      "evidence": [
+        "F104 00:12/00:25"
+      ],
+      "interpretation": "Use rear glazing, thin outer lattice and locally planted sill rather than flat repeated wall panels.",
+      "consumer": "src/frontage_revision.py",
+      "implementation": "narrow study bay, longer living group, supported ledge end pots; not a walkable balcony"
+    },
+    {
+      "component": "roof",
+      "evidence": [
+        "F80 still",
+        "F104 00:12"
+      ],
+      "interpretation": "References support separate principal/secondary eaves and visible edge/soffit layers. Added smaller front gable is our design choice, not copied evidence.",
+      "consumer": "src/frontage_revision.py",
+      "implementation": "one main ridge and one small transverse gable over eastern bay; varying hood depth, ridge caps/verges, gable timber/vents"
+    }
+  ],
+  "not_done": [
+    "Full #80 tutorial playback",
+    "Exact Freedom block-by-block reconstruction",
+    "Model-weight training",
+    "Minecraft client validation"
+  ]
+}

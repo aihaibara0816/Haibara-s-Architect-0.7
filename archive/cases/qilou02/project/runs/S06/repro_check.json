@@ -1,0 +1,183 @@
+{
+  "source_nbt_sha256": "34e810f69c7251f87eb8085b7bc6e0f834de5f2c9f113ef0e843bb30fa4b1c07",
+  "identical_replay": {
+    "Qilou02": true,
+    "Post": true,
+    "Apothecary": true,
+    "Grain": true,
+    "Bookshop": true,
+    "Barber": true,
+    "Hardware": true,
+    "Teahouse": true,
+    "Textile": true,
+    "Grocery": true,
+    "Inn": true,
+    "Clinic": true,
+    "Bakery": true
+  },
+  "seed_base": 311145,
+  "seed_variant": 311146,
+  "changed_cells": 1213,
+  "scope_counts": {
+    "tree_and_groundcover": 1023,
+    "local_facade_or_pots": 184,
+    "court_pots": 6
+  },
+  "local_variations": [
+    {
+      "id": "Post",
+      "scope_counts": {
+        "coping_material": 41,
+        "potted_species": 3,
+        "shutters": 8
+      }
+    },
+    {
+      "id": "Apothecary",
+      "scope_counts": {
+        "potted_species": 3
+      }
+    },
+    {
+      "id": "Grain",
+      "scope_counts": {
+        "potted_species": 4
+      }
+    },
+    {
+      "id": "Bookshop",
+      "scope_counts": {
+        "potted_species": 3,
+        "shutters": 8
+      }
+    },
+    {
+      "id": "Barber",
+      "scope_counts": {
+        "potted_species": 4
+      }
+    },
+    {
+      "id": "Hardware",
+      "scope_counts": {
+        "potted_species": 3
+      }
+    },
+    {
+      "id": "Teahouse",
+      "scope_counts": {
+        "coping_material": 43,
+        "potted_species": 7
+      }
+    },
+    {
+      "id": "Textile",
+      "scope_counts": {
+        "potted_species": 3
+      }
+    },
+    {
+      "id": "Grocery",
+      "scope_counts": {
+        "potted_species": 3
+      }
+    },
+    {
+      "id": "Inn",
+      "scope_counts": {
+        "potted_species": 8,
+        "shutters": 16
+      }
+    },
+    {
+      "id": "Clinic",
+      "scope_counts": {
+        "potted_species": 6
+      }
+    },
+    {
+      "id": "Bakery",
+      "scope_counts": {
+        "coping_material": 17,
+        "potted_species": 4
+      }
+    }
+  ],
+  "scope_violations": [],
+  "assembly": [
+    {
+      "id": "Post",
+      "compared_non_air": 4716,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Apothecary",
+      "compared_non_air": 4792,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Grain",
+      "compared_non_air": 3329,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Bookshop",
+      "compared_non_air": 4777,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Barber",
+      "compared_non_air": 3331,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Hardware",
+      "compared_non_air": 3695,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Teahouse",
+      "compared_non_air": 6186,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Textile",
+      "compared_non_air": 3709,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Grocery",
+      "compared_non_air": 3424,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Inn",
+      "compared_non_air": 6287,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Clinic",
+      "compared_non_air": 4302,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    },
+    {
+      "id": "Bakery",
+      "compared_non_air": 3794,
+      "mismatches": 0,
+      "pane_boundary_connection_updates": 0
+    }
+  ],
+  "protected_layout_identical": true,
+  "scope": "Authored placements, programmes, floors and routes remain fixed. Seeds vary shutters, coping material, supported potted species and bounded tree/groundcover groups only."
+}

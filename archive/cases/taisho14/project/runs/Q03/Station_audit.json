@@ -1,0 +1,56 @@
+{
+  "source_nbt_sha256": "35a5bd486737ec4ec1e860732c436d2c118e6612e2eb533b7a8cbeb7c7845ac8",
+  "non_air": 8375,
+  "entries": [
+    {
+      "id": "Station",
+      "pos": [
+        18,
+        3,
+        32
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 3,
+  "use_checks": [
+    {
+      "id": "Station.ticket",
+      "pos": [
+        13,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Station.waiting",
+      "pos": [
+        18,
+        3,
+        26
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Station.platform",
+      "pos": [
+        18,
+        3,
+        8
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 9,
+  "paintings": 0,
+  "official_model_states": 45,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

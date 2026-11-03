@@ -1,0 +1,1250 @@
+{
+  "case_id": "Clinic",
+  "run": "Q03",
+  "seed": 141145,
+  "buildings": [
+    {
+      "id": "Clinic",
+      "name": "白川診療所｜诊所",
+      "size": [
+        22,
+        28,
+        28
+      ],
+      "floors": [
+        2,
+        8
+      ],
+      "entry": [
+        11,
+        3,
+        23
+      ],
+      "rooms": [
+        {
+          "id": "Clinic.main",
+          "name": "白川診療所｜诊所",
+          "bounds": [
+            7,
+            3,
+            4,
+            18,
+            7,
+            23
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Clinic.upper",
+          "name": "二层功能空间",
+          "bounds": [
+            7,
+            9,
+            4,
+            18,
+            13,
+            23
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Clinic.stairs.bottom",
+          "pos": [
+            4,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Clinic.stairs.top",
+          "pos": [
+            4,
+            9,
+            5
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Clinic.entry",
+          "pos": [
+            11,
+            3,
+            22
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Clinic.reception",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Clinic.waiting",
+          "pos": [
+            13,
+            3,
+            19
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Clinic.ward",
+          "pos": [
+            14,
+            9,
+            13
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "doors": [
+        {
+          "id": "Clinic.door.0",
+          "pos": [
+            11,
+            3,
+            23
+          ],
+          "lintel": [
+            11,
+            5,
+            23
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            11,
+            6,
+            19
+          ],
+          "support": [
+            11,
+            7,
+            19
+          ]
+        },
+        {
+          "position": [
+            15,
+            6,
+            7
+          ],
+          "support": [
+            15,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            14
+          ],
+          "support": [
+            7,
+            7,
+            14
+          ]
+        },
+        {
+          "position": [
+            11,
+            12,
+            19
+          ],
+          "support": [
+            11,
+            13,
+            19
+          ]
+        },
+        {
+          "position": [
+            15,
+            12,
+            7
+          ],
+          "support": [
+            15,
+            13,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            12,
+            14
+          ],
+          "support": [
+            7,
+            13,
+            14
+          ]
+        }
+      ],
+      "stairs": [
+        [
+          [
+            4.5,
+            3,
+            12.5
+          ],
+          [
+            4.5,
+            3,
+            12.375
+          ],
+          [
+            4.5,
+            3,
+            12.25
+          ],
+          [
+            4.5,
+            3,
+            12.125
+          ],
+          [
+            4.5,
+            3,
+            12.0
+          ],
+          [
+            4.5,
+            3,
+            11.875
+          ],
+          [
+            4.5,
+            3,
+            11.75
+          ],
+          [
+            4.5,
+            3,
+            11.625
+          ],
+          [
+            4.5,
+            3,
+            11.5
+          ],
+          [
+            4.5,
+            3,
+            11.375
+          ],
+          [
+            4.5,
+            3,
+            11.25
+          ],
+          [
+            4.5,
+            3,
+            11.125
+          ],
+          [
+            4.5,
+            3,
+            11.0
+          ],
+          [
+            4.5,
+            3,
+            10.875
+          ],
+          [
+            4.5,
+            3,
+            10.75
+          ],
+          [
+            4.5,
+            3,
+            10.625
+          ],
+          [
+            4.5,
+            3,
+            10.5
+          ],
+          [
+            4.5,
+            3,
+            10.375
+          ],
+          [
+            4.5,
+            3,
+            10.25
+          ],
+          [
+            4.5,
+            3,
+            10.125
+          ],
+          [
+            4.5,
+            3,
+            10.0
+          ],
+          [
+            4.5,
+            3,
+            9.875
+          ],
+          [
+            4.5,
+            3,
+            9.75
+          ],
+          [
+            4.5,
+            3,
+            9.625
+          ],
+          [
+            4.5,
+            3,
+            9.5
+          ],
+          [
+            4.5,
+            3,
+            9.375
+          ],
+          [
+            4.5,
+            3,
+            9.25
+          ],
+          [
+            4.5,
+            3,
+            9.125
+          ],
+          [
+            4.5,
+            3,
+            9.0
+          ],
+          [
+            4.5,
+            3,
+            8.875
+          ],
+          [
+            4.5,
+            3,
+            8.75
+          ],
+          [
+            4.5,
+            3,
+            8.625
+          ],
+          [
+            4.5,
+            3,
+            8.5
+          ],
+          [
+            4.5,
+            3,
+            8.375
+          ],
+          [
+            4.5,
+            3,
+            8.25
+          ],
+          [
+            4.5,
+            3,
+            8.125
+          ],
+          [
+            4.5,
+            3,
+            8.0
+          ],
+          [
+            4.5,
+            3,
+            7.875
+          ],
+          [
+            4.5,
+            3,
+            7.75
+          ],
+          [
+            4.5,
+            3,
+            7.625
+          ],
+          [
+            4.5,
+            3,
+            7.5
+          ],
+          [
+            4.5,
+            3,
+            7.375
+          ],
+          [
+            4.5,
+            3,
+            7.25
+          ],
+          [
+            4.5,
+            3,
+            7.125
+          ],
+          [
+            4.5,
+            3,
+            7.0
+          ],
+          [
+            4.5,
+            3,
+            6.875
+          ],
+          [
+            4.5,
+            3,
+            6.75
+          ],
+          [
+            4.5,
+            3,
+            6.625
+          ],
+          [
+            4.5,
+            3,
+            6.5
+          ],
+          [
+            4.5,
+            3,
+            6.375
+          ],
+          [
+            4.5,
+            3,
+            6.25
+          ],
+          [
+            4.5,
+            3,
+            6.125
+          ],
+          [
+            4.5,
+            3,
+            6.0
+          ],
+          [
+            4.5,
+            3,
+            5.875
+          ],
+          [
+            4.5,
+            3,
+            5.75
+          ],
+          [
+            4.5,
+            3,
+            5.625
+          ],
+          [
+            4.5,
+            3,
+            5.5
+          ]
+        ]
+      ],
+      "groups": [
+        {
+          "id": "Clinic.waiting.dining_table.8_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            17,
+            11,
+            4,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Clinic.sink.water_basin.17_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            17,
+            3,
+            4,
+            18,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              17,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.12_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            12,
+            3,
+            4,
+            13,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              12,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.12_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            12,
+            4,
+            4,
+            13,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              12,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.13_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            13,
+            3,
+            4,
+            14,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              13,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.13_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            13,
+            4,
+            4,
+            14,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              13,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.14_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            3,
+            4,
+            15,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              14,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.14_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            4,
+            4,
+            15,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              14,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_wall.12_1_4",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            12,
+            3,
+            4,
+            15,
+            6,
+            5
+          ],
+          "use_points": [
+            [
+              12,
+              3,
+              5
+            ],
+            [
+              13,
+              3,
+              5
+            ],
+            [
+              14,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.bed.bed.11_1_7",
+          "recipe": "bed",
+          "bounds_xyz": [
+            11,
+            9,
+            7,
+            12,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              12,
+              9,
+              8
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.bed.bed.16_1_7",
+          "recipe": "bed",
+          "bounds_xyz": [
+            16,
+            9,
+            7,
+            17,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              8
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.bed.bed.11_1_16",
+          "recipe": "bed",
+          "bounds_xyz": [
+            11,
+            9,
+            16,
+            12,
+            10,
+            18
+          ],
+          "use_points": [
+            [
+              12,
+              9,
+              17
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.bed.bed.16_1_16",
+          "recipe": "bed",
+          "bounds_xyz": [
+            16,
+            9,
+            16,
+            17,
+            10,
+            18
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              17
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.sink.water_basin.17_1_21",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            17,
+            9,
+            21,
+            18,
+            10,
+            22
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotated_180": false,
+      "entry_world": [
+        136,
+        10,
+        41
+      ],
+      "upper_start": [
+        4,
+        5
+      ],
+      "street_row": 0
+    }
+  ],
+  "uses": [
+    {
+      "id": "Clinic.stairs.bottom",
+      "pos": [
+        4,
+        3,
+        12
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Clinic.stairs.top",
+      "pos": [
+        4,
+        9,
+        5
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Clinic.entry",
+      "pos": [
+        11,
+        3,
+        22
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Clinic.reception",
+      "pos": [
+        12,
+        3,
+        12
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Clinic.waiting",
+      "pos": [
+        13,
+        3,
+        19
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Clinic.ward",
+      "pos": [
+        14,
+        9,
+        13
+      ],
+      "floor_block_y": 8
+    }
+  ],
+  "doors": [
+    {
+      "id": "Clinic.door.0",
+      "pos": [
+        11,
+        3,
+        23
+      ],
+      "lintel": [
+        11,
+        5,
+        23
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        11,
+        6,
+        19
+      ],
+      "support": [
+        11,
+        7,
+        19
+      ]
+    },
+    {
+      "position": [
+        15,
+        6,
+        7
+      ],
+      "support": [
+        15,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        14
+      ],
+      "support": [
+        7,
+        7,
+        14
+      ]
+    },
+    {
+      "position": [
+        11,
+        12,
+        19
+      ],
+      "support": [
+        11,
+        13,
+        19
+      ]
+    },
+    {
+      "position": [
+        15,
+        12,
+        7
+      ],
+      "support": [
+        15,
+        13,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        12,
+        14
+      ],
+      "support": [
+        7,
+        13,
+        14
+      ]
+    }
+  ],
+  "stairs": [
+    [
+      [
+        4.5,
+        3,
+        12.5
+      ],
+      [
+        4.5,
+        3,
+        12.375
+      ],
+      [
+        4.5,
+        3,
+        12.25
+      ],
+      [
+        4.5,
+        3,
+        12.125
+      ],
+      [
+        4.5,
+        3,
+        12.0
+      ],
+      [
+        4.5,
+        3,
+        11.875
+      ],
+      [
+        4.5,
+        3,
+        11.75
+      ],
+      [
+        4.5,
+        3,
+        11.625
+      ],
+      [
+        4.5,
+        3,
+        11.5
+      ],
+      [
+        4.5,
+        3,
+        11.375
+      ],
+      [
+        4.5,
+        3,
+        11.25
+      ],
+      [
+        4.5,
+        3,
+        11.125
+      ],
+      [
+        4.5,
+        3,
+        11.0
+      ],
+      [
+        4.5,
+        3,
+        10.875
+      ],
+      [
+        4.5,
+        3,
+        10.75
+      ],
+      [
+        4.5,
+        3,
+        10.625
+      ],
+      [
+        4.5,
+        3,
+        10.5
+      ],
+      [
+        4.5,
+        3,
+        10.375
+      ],
+      [
+        4.5,
+        3,
+        10.25
+      ],
+      [
+        4.5,
+        3,
+        10.125
+      ],
+      [
+        4.5,
+        3,
+        10.0
+      ],
+      [
+        4.5,
+        3,
+        9.875
+      ],
+      [
+        4.5,
+        3,
+        9.75
+      ],
+      [
+        4.5,
+        3,
+        9.625
+      ],
+      [
+        4.5,
+        3,
+        9.5
+      ],
+      [
+        4.5,
+        3,
+        9.375
+      ],
+      [
+        4.5,
+        3,
+        9.25
+      ],
+      [
+        4.5,
+        3,
+        9.125
+      ],
+      [
+        4.5,
+        3,
+        9.0
+      ],
+      [
+        4.5,
+        3,
+        8.875
+      ],
+      [
+        4.5,
+        3,
+        8.75
+      ],
+      [
+        4.5,
+        3,
+        8.625
+      ],
+      [
+        4.5,
+        3,
+        8.5
+      ],
+      [
+        4.5,
+        3,
+        8.375
+      ],
+      [
+        4.5,
+        3,
+        8.25
+      ],
+      [
+        4.5,
+        3,
+        8.125
+      ],
+      [
+        4.5,
+        3,
+        8.0
+      ],
+      [
+        4.5,
+        3,
+        7.875
+      ],
+      [
+        4.5,
+        3,
+        7.75
+      ],
+      [
+        4.5,
+        3,
+        7.625
+      ],
+      [
+        4.5,
+        3,
+        7.5
+      ],
+      [
+        4.5,
+        3,
+        7.375
+      ],
+      [
+        4.5,
+        3,
+        7.25
+      ],
+      [
+        4.5,
+        3,
+        7.125
+      ],
+      [
+        4.5,
+        3,
+        7.0
+      ],
+      [
+        4.5,
+        3,
+        6.875
+      ],
+      [
+        4.5,
+        3,
+        6.75
+      ],
+      [
+        4.5,
+        3,
+        6.625
+      ],
+      [
+        4.5,
+        3,
+        6.5
+      ],
+      [
+        4.5,
+        3,
+        6.375
+      ],
+      [
+        4.5,
+        3,
+        6.25
+      ],
+      [
+        4.5,
+        3,
+        6.125
+      ],
+      [
+        4.5,
+        3,
+        6.0
+      ],
+      [
+        4.5,
+        3,
+        5.875
+      ],
+      [
+        4.5,
+        3,
+        5.75
+      ],
+      [
+        4.5,
+        3,
+        5.625
+      ],
+      [
+        4.5,
+        3,
+        5.5
+      ]
+    ]
+  ],
+  "spawn_local": [
+    11,
+    3,
+    24
+  ],
+  "upper_start": [
+    4,
+    5
+  ],
+  "source_nbt_sha256": "943d47125800eedc4c334bbd55e45682adb7d61e81056b70f56cc769cafbf6ce",
+  "non_air": 5172,
+  "size_xyz": [
+    22,
+    28,
+    28
+  ],
+  "block_entities": 29,
+  "entities": 0
+}

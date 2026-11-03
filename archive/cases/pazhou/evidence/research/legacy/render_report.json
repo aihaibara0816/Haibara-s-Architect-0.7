@@ -1,0 +1,172 @@
+[
+  {
+    "image": "hero.png",
+    "sha256": "c36f4038b5be861202e31f7196df7ee43b897b7b549daaa4a9366851310b44a4",
+    "source_nbt_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+    "camera": {
+      "id": "hero",
+      "title": "\u6574\u4f53\u659c\u89c6",
+      "width": 1600,
+      "height": 1800,
+      "eye": [
+        160,
+        95,
+        -170
+      ],
+      "target": [
+        28,
+        47,
+        42
+      ],
+      "ortho": true,
+      "spanX": 102,
+      "spanZ": 115
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "back.png",
+    "sha256": "45d4da02a7a80bcbf51fdfc91e96f4a4c0ce9f65f2009bdc6c8059d0fce283b1",
+    "source_nbt_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+    "camera": {
+      "id": "back",
+      "title": "\u80cc\u9762\u659c\u89c6",
+      "width": 1600,
+      "height": 1800,
+      "eye": [
+        -150,
+        110,
+        220
+      ],
+      "target": [
+        28,
+        45,
+        42
+      ],
+      "ortho": true,
+      "spanX": 102,
+      "spanZ": 115
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "top.png",
+    "sha256": "41de65ddb8b6c82db64e9204f56463b018211b2b2701d457dea496160d534432",
+    "source_nbt_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+    "camera": {
+      "id": "top",
+      "title": "\u603b\u5e73\u9762\u4fef\u89c6",
+      "width": 1600,
+      "height": 1900,
+      "eye": [
+        28,
+        220,
+        41
+      ],
+      "target": [
+        28,
+        0,
+        41
+      ],
+      "ortho": true,
+      "spanX": 66,
+      "spanZ": 90
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "canyon.png",
+    "sha256": "f3a55a91e0088be75e380deee3e66fee4f043354e1983174b01745e15225eea4",
+    "source_nbt_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+    "camera": {
+      "id": "canyon",
+      "title": "\u5ce1\u8c37\u4e0e\u5e73\u53f0\u8fd1\u666f",
+      "width": 1600,
+      "height": 1300,
+      "eye": [
+        70,
+        68,
+        -35
+      ],
+      "target": [
+        28,
+        60,
+        49
+      ],
+      "fov": 40
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "base.png",
+    "sha256": "333a3e82298511fe63b63cbe92a3e9370f8a1a844f89f7b66e165f3435ce2f8f",
+    "source_nbt_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+    "camera": {
+      "id": "base",
+      "title": "\u88d9\u697c\u4e0e\u8de8\u8def\u8fde\u63a5",
+      "width": 1600,
+      "height": 1300,
+      "eye": [
+        85,
+        35,
+        -40
+      ],
+      "target": [
+        28,
+        12,
+        35
+      ],
+      "fov": 42
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "crown.png",
+    "sha256": "bf83421e62c999df4d9480fedef7b33a65835cb6cd786a22e89cf137c9ac3696",
+    "source_nbt_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+    "camera": {
+      "id": "crown",
+      "title": "\u9876\u90e8\u60ac\u6311\u8fd1\u666f",
+      "width": 1600,
+      "height": 1300,
+      "eye": [
+        85,
+        120,
+        -20
+      ],
+      "target": [
+        28,
+        80,
+        48
+      ],
+      "fov": 38
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "night.png",
+    "sha256": "edffb7f67f5d98eb49fd3ff4a1ecc0d4897001fe308bbad676eedfed8d208a31",
+    "source_nbt_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+    "camera": {
+      "id": "night",
+      "title": "\u706f\u4f4d\u591c\u666f\u793a\u610f",
+      "width": 1600,
+      "height": 1800,
+      "eye": [
+        160,
+        95,
+        -170
+      ],
+      "target": [
+        28,
+        47,
+        42
+      ],
+      "ortho": true,
+      "spanX": 102,
+      "spanZ": 115,
+      "night": true
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

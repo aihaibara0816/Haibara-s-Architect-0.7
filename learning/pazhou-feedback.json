@@ -1,0 +1,164 @@
+{
+  "case_id": "pazhou-wechat-ha03-haf-20261023",
+  "record_kind": "failure_case_and_observation_exercise",
+  "date": "2026-10-23",
+  "user_feedback_source": "本会话用户对两版相同、壳体感、幕墙和吊顶还原不足的反馈",
+  "status": "needs_revision",
+  "closed": false,
+  "archive": {
+    "filename": "琶洲微信总部_HA03_HAF_完整工程.zip",
+    "library_file_id": "libfile_1e21486f42bc8191ba7ac08a65935f32"
+  },
+  "baseline": {
+    "nbt_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+    "geometry_sha256": "81ebbabc833db411e47dbc6a1f50d516367ebb07fa00b1fda242587df154e2ec",
+    "both_routes_identical": true,
+    "comparison_scope": "工程一致性；非独立还原能力对照",
+    "case_spec_sha256": "751ef31022ca5d159fc13a334bbbc63db78ca62c42463af881e6a39ce873d2ad",
+    "code_findings": [
+      "两路 parameters 相同，并使用同一个 compile_spec",
+      "shell 使用 rectangle、mullion_pitch_m=0，塔楼 floors=range(ya,yb,3)",
+      "平台以矩形 deck、围栏和重复绿块表达，底面分格与桥底梁肋未落实",
+      "研究中存在局部图片，但大多数构件共用 img-001 / img-007 的概括 provenance"
+    ]
+  },
+  "images": [
+    {
+      "image_id": "img-001",
+      "title": "朝平台方向的整体斜视",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5607-1600x2400.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "sha256": "30bbbb402e6c90e79d3241a0c599abefb48d4f9b7a3e9aa65ff086c09052d5fd",
+      "reused_local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-001.jpg",
+      "viewed_this_exercise": true,
+      "source_page_revisited_this_exercise": false
+    },
+    {
+      "image_id": "img-003",
+      "title": "悬挑底板和开口",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0715-1600x1067.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "sha256": "5f12e838e45721aefe87ac6c59ea2797bdf03e4f7f8ea4705809f998cb3b4162",
+      "reused_local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-003.jpg",
+      "viewed_this_exercise": true,
+      "source_page_revisited_this_exercise": false
+    },
+    {
+      "image_id": "img-004",
+      "title": "倾斜玻璃峡谷近景",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0573-1600x1091.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "sha256": "09264878e113fb72e3f7f3fd60a171d3ff992360cfbb978e7afaef7a46c4e2a8",
+      "reused_local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-004.jpg",
+      "viewed_this_exercise": true,
+      "source_page_revisited_this_exercise": false
+    },
+    {
+      "image_id": "img-005",
+      "title": "峡谷上望与桥接",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0462.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "sha256": "26f2a6f867e4182856e8185d6d0cb75333f50a4497cbaa79c5031ed3b71c2c6d",
+      "reused_local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-005.jpg",
+      "viewed_this_exercise": true,
+      "source_page_revisited_this_exercise": false
+    },
+    {
+      "image_id": "img-006",
+      "title": "玻璃反射细节",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5317.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "sha256": "27aeb0c36d4567a631b00ce14e44f0419918fbeb9e8f4798a9062d6cb8c3b14a",
+      "reused_local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-006.jpg",
+      "viewed_this_exercise": true,
+      "source_page_revisited_this_exercise": false
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "obs-soffit-grid",
+      "image_id": "img-003",
+      "bbox_norm": [
+        0.3,
+        0,
+        1,
+        0.72
+      ],
+      "bbox_kind": "approximate_context_not_mask",
+      "region_description": "上半部悬挑下表面",
+      "finding": "密集二维分格与蓝色/金属色区域；与下方较疏玻璃分格不同",
+      "uncertainty": "通孔性质、隐蔽构造、精确模块尺寸及层位待核实",
+      "component_id": "platform.soffit.study",
+      "id_scope": "proposed_research_only",
+      "kind": "observation",
+      "execution_state": "proposal"
+    },
+    {
+      "observation_id": "obs-bridge-ribs",
+      "image_id": "img-005",
+      "bbox_norm": [
+        0.42,
+        0,
+        0.61,
+        0.5
+      ],
+      "bbox_kind": "approximate_context_not_mask",
+      "region_description": "上半部中央窄桥底",
+      "finding": "中央横向梁肋与左右密集分格底面使用不同节奏",
+      "uncertainty": "完整桥位、构造材质与尺寸待核实",
+      "component_id": "bridge.soffit.study",
+      "id_scope": "proposed_research_only",
+      "kind": "observation",
+      "execution_state": "proposal"
+    },
+    {
+      "observation_id": "obs-canyon-panels",
+      "image_id": "img-004",
+      "bbox_norm": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_kind": "approximate_context_not_mask",
+      "region_description": "中部与两侧玻璃界面",
+      "finding": "界面交接、分格和反射共同表达空间深度",
+      "uncertainty": "精确倾角与净深不由本单张透视图确定",
+      "component_id": "canyon.envelope",
+      "id_scope": "existing",
+      "kind": "observation",
+      "execution_state": "proposal"
+    },
+    {
+      "observation_id": "obs-reflection",
+      "image_id": "img-006",
+      "bbox_norm": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_kind": "approximate_context_not_mask",
+      "region_description": "彩色镜面近景",
+      "finding": "颜色强烈变化，伴反射扭曲；不等于固定实体墙色或真实曲面",
+      "uncertainty": "材料本色与反射/透射贡献需其他视角与资料",
+      "component_id": "canyon.material.study",
+      "id_scope": "proposed_research_only",
+      "kind": "observation",
+      "execution_state": "proposal"
+    }
+  ],
+  "next_validation": [
+    "关键幕墙区域与转角/开敞接口局部样板",
+    "分别验证平台密格、桥底梁肋与镜面界面",
+    "另补可定位的室内吊顶资料，不能以外部底面充数",
+    "至少另一栋幕墙建筑及另一类雨棚/柱廊底面迁移测试"
+  ],
+  "not_completed": [
+    "未新增生成",
+    "未修改现有引擎",
+    "未验证照片相机或精确倾角",
+    "未证明还原度提升或泛化",
+    "未进行神经网络训练"
+  ]
+}

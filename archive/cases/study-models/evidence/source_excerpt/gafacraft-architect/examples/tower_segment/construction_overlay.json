@@ -1,0 +1,517 @@
+{
+  "schema_version": "0.1",
+  "spec_id": "tower_segment",
+  "revision": 1,
+  "mode": "study",
+  "building": {
+    "name": "变截面塔楼结构测试段",
+    "identity_status": "design_study",
+    "real_world_reference": null,
+    "scope": "检验下部收分、中段鼓起、顶部再收窄及多层楼板；非广州IFC复原，无完整室内交通。"
+  },
+  "coordinates": {
+    "units": "m",
+    "axis_convention": "X_right_Y_up_Z_back",
+    "front": "-Z",
+    "north": null,
+    "blocks_per_metre": 1,
+    "size_blocks": [
+      32,
+      76,
+      30
+    ],
+    "extent_m": [
+      32,
+      76,
+      30
+    ],
+    "rounding": "half_up"
+  },
+  "environment": {
+    "minecraft_version": "1.21.1",
+    "data_version": 3955,
+    "neoforge_version": "21.1.244",
+    "create_version": "6.0.10",
+    "configuration_status": "historical_target_unverified",
+    "world": {
+      "min_y": null,
+      "max_y_exclusive": null,
+      "origin_xyz": null,
+      "confirmed": false,
+      "basis": "历史目标版本；未连接当前Minecraft客户端或服务器，无已确认放置位置。"
+    },
+    "budgets": {
+      "max_cells": 1000000,
+      "max_non_air_blocks": 250000,
+      "max_cell_visits": 5000000
+    }
+  },
+  "study_parameters": {
+    "extent_m": [
+      32,
+      76,
+      30
+    ],
+    "basis": "本轮工程试值，包含地景与边缘余量；不覆盖现实尺寸。"
+  },
+  "materials": {
+    "base": {
+      "block_state": "minecraft:stone_bricks",
+      "preview_color": "#8C9690",
+      "role": "基础"
+    },
+    "paving": {
+      "block_state": "minecraft:smooth_stone",
+      "preview_color": "#C9CEC5",
+      "role": "铺装"
+    },
+    "glass": {
+      "block_state": "minecraft:light_blue_stained_glass",
+      "preview_color": "#5B8C9D",
+      "role": "幕墙示意"
+    },
+    "frame": {
+      "block_state": "minecraft:white_concrete",
+      "preview_color": "#E1E1D4",
+      "role": "竖向框架和楼板"
+    },
+    "green": {
+      "block_state": "minecraft:moss_block",
+      "preview_color": "#668457",
+      "role": "边界绿化"
+    }
+  },
+  "components": [
+    {
+      "component_id": "site.foundation",
+      "name": "site.foundation",
+      "kind": "box",
+      "operation": "add",
+      "material": "base",
+      "targets": [],
+      "after": [],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          0,
+          0,
+          0
+        ],
+        "max_m": [
+          32,
+          1,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "site.paving",
+      "name": "site.paving",
+      "kind": "box",
+      "operation": "add",
+      "material": "paving",
+      "targets": [],
+      "after": [
+        "site.foundation"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          1,
+          1,
+          1
+        ],
+        "max_m": [
+          31,
+          2,
+          29
+        ]
+      }
+    },
+    {
+      "component_id": "site.left_green",
+      "name": "site.left_green",
+      "kind": "box",
+      "operation": "add",
+      "material": "green",
+      "targets": [],
+      "after": [
+        "site.paving"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          2,
+          2,
+          5
+        ],
+        "max_m": [
+          4,
+          3,
+          25
+        ]
+      }
+    },
+    {
+      "component_id": "site.right_green",
+      "name": "site.right_green",
+      "kind": "box",
+      "operation": "add",
+      "material": "green",
+      "targets": [],
+      "after": [
+        "site.left_green"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          28,
+          2,
+          5
+        ],
+        "max_m": [
+          30,
+          3,
+          25
+        ]
+      }
+    },
+    {
+      "component_id": "tower.shell",
+      "name": "连续变截面主体",
+      "kind": "profile_shell",
+      "operation": "add",
+      "material": "glass",
+      "targets": [],
+      "after": [
+        "site.right_green"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "sections": [
+          {
+            "y_m": 2,
+            "cx_m": 16,
+            "cz_m": 15,
+            "width_m": 14,
+            "depth_m": 12
+          },
+          {
+            "y_m": 14,
+            "cx_m": 16,
+            "cz_m": 15,
+            "width_m": 12,
+            "depth_m": 10
+          },
+          {
+            "y_m": 38,
+            "cx_m": 16,
+            "cz_m": 15,
+            "width_m": 22,
+            "depth_m": 18
+          },
+          {
+            "y_m": 56,
+            "cx_m": 16,
+            "cz_m": 15,
+            "width_m": 16,
+            "depth_m": 14
+          },
+          {
+            "y_m": 72,
+            "cx_m": 16,
+            "cz_m": 15,
+            "width_m": 10,
+            "depth_m": 8
+          }
+        ],
+        "section_shape": "ellipse",
+        "interpolation": "linear",
+        "wall_thickness_m": 1,
+        "floor_levels_m": [
+          2,
+          8,
+          14,
+          20,
+          26,
+          32,
+          38,
+          44,
+          50,
+          56,
+          62,
+          68
+        ],
+        "floor_thickness_m": 1,
+        "floor_material": "frame",
+        "mullion_pitch_m": 4,
+        "mullion_material": "frame",
+        "cap_top": true
+      }
+    }
+  ],
+  "levels": [
+    {
+      "level_id": "level_0",
+      "floor_top_m": 3,
+      "ceiling_bottom_m": 8,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_1",
+      "floor_top_m": 9,
+      "ceiling_bottom_m": 14,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_2",
+      "floor_top_m": 15,
+      "ceiling_bottom_m": 20,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_3",
+      "floor_top_m": 21,
+      "ceiling_bottom_m": 26,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_4",
+      "floor_top_m": 27,
+      "ceiling_bottom_m": 32,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_5",
+      "floor_top_m": 33,
+      "ceiling_bottom_m": 38,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_6",
+      "floor_top_m": 39,
+      "ceiling_bottom_m": 44,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_7",
+      "floor_top_m": 45,
+      "ceiling_bottom_m": 50,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_8",
+      "floor_top_m": 51,
+      "ceiling_bottom_m": 56,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_9",
+      "floor_top_m": 57,
+      "ceiling_bottom_m": 62,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    },
+    {
+      "level_id": "level_10",
+      "floor_top_m": 63,
+      "ceiling_bottom_m": 68,
+      "use": "结构检验楼板；无垂直交通设计",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    }
+  ],
+  "lighting": {
+    "component_ids": [],
+    "simulation_status": "blocks_only_no_game_light_simulation"
+  },
+  "acceptance": {
+    "clear_air_boxes": [
+      {
+        "check_id": "interior_headroom",
+        "min_m": [
+          15,
+          3,
+          14
+        ],
+        "max_m": [
+          17,
+          8,
+          16
+        ]
+      }
+    ],
+    "walk_paths": [],
+    "minimum_level_clearance_m": 3,
+    "profile_relationships": [
+      {
+        "component_id": "tower.shell",
+        "lower_y_m": 4,
+        "middle_y_m": 38,
+        "upper_y_m": 69,
+        "expectation": "middle_wider_than_ends"
+      }
+    ]
+  },
+  "unresolved": [
+    "此塔楼仅为结构段，未设计入口、楼梯、电梯、消防或完整室内流线，不能作为可使用整楼。"
+  ],
+  "deviations": [
+    {
+      "component_id": null,
+      "description": "仅使用整立方体方块；细小窗框、弧面采用整格表达。",
+      "authorization": "研究样板技术范围；非声称现实原型的精确复原。"
+    }
+  ],
+  "review": {
+    "approved_for_strict_reconstruction": false,
+    "basis": "技术研究样板；事实尺度和游戏验收尚未完成。"
+  },
+  "output": {
+    "format": "java_structure_nbt",
+    "include_air": true,
+    "views": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "iso45"
+    ]
+  }
+}

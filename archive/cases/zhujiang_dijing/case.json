@@ -1,0 +1,21 @@
+{
+  "id": "zhujiang_dijing",
+  "name": "广州珠江帝景苑",
+  "style": "estate",
+  "origin": "HAF 0.4 快照",
+  "version": "V1_r03",
+  "history": "V1_r03",
+  "achievement": "先选定赏湖轩型楼组，不能把全小区不同屋顶混在同楼；阳台、窗后空间、屋顶柱脚分别检查。",
+  "lesson": "窗透明性与栏杆连接分开检查；水不是玻璃片/栏杆的实体邻块；HTML内嵌且短文件名，单独试开下载。",
+  "failure": "窗洞36个样点被实墙遮挡，31处柱脚缺承托；阳台被挡及纵深过大，r03限制到5格；交付文件反复下载失败。",
+  "open": "不代表整个小区；真实楼栋身份、绿化分布与户型细节待核；夜景远景偏弱。",
+  "acceptance": "技术问题修过；用户主要反馈下载失败，未有视觉验收",
+  "game": "待实测",
+  "source": "HAF04.zip",
+  "source_evidence": [
+    "learning/zhujiang_dijing_v1.json",
+    "cases/zhujiang_dijing/runs/V1_r03/validation.json"
+  ],
+  "nbt_member": "HAF-0.4/cases/zhujiang_dijing/runs/V1_r03/building.nbt",
+  "style_name": "城市住区"
+}

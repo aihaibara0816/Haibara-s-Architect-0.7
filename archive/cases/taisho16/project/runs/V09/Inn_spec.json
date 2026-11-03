@@ -1,0 +1,2161 @@
+{
+  "case_id": "Inn",
+  "run": "V09",
+  "seed": 151145,
+  "buildings": [
+    {
+      "id": "Inn",
+      "name": "松風館｜和洋小旅馆",
+      "size": [
+        40,
+        28,
+        40
+      ],
+      "floors": [
+        2,
+        8
+      ],
+      "entry": [
+        18,
+        3,
+        29
+      ],
+      "rooms": [
+        {
+          "id": "Inn.lobby",
+          "name": "玄关、接待、茶歇",
+          "bounds": [
+            9,
+            3,
+            18,
+            32,
+            7,
+            29
+          ],
+          "floor_y": 3,
+          "capacity": 10,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.bath",
+          "name": "共用盥洗与毛巾",
+          "bounds": [
+            9,
+            3,
+            8,
+            17,
+            7,
+            16
+          ],
+          "floor_y": 3,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.kitchen",
+          "name": "早餐后厨",
+          "bounds": [
+            24,
+            3,
+            8,
+            32,
+            7,
+            16
+          ],
+          "floor_y": 3,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.guest.west",
+          "name": "和式客房",
+          "bounds": [
+            9,
+            9,
+            8,
+            20,
+            13,
+            21
+          ],
+          "floor_y": 9,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.guest.east",
+          "name": "和洋客房",
+          "bounds": [
+            21,
+            9,
+            8,
+            32,
+            13,
+            21
+          ],
+          "floor_y": 9,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.hall",
+          "name": "休息廊与阳台",
+          "bounds": [
+            9,
+            9,
+            22,
+            32,
+            13,
+            32
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Inn.stairs.bottom",
+          "pos": [
+            6,
+            3,
+            17
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.stairs.top",
+          "pos": [
+            6,
+            9,
+            10
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.lobby",
+          "pos": [
+            18,
+            3,
+            27
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.reception",
+          "pos": [
+            24,
+            3,
+            23
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.tea",
+          "pos": [
+            14,
+            3,
+            23
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.bath",
+          "pos": [
+            13,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.kitchen",
+          "pos": [
+            27,
+            3,
+            14
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.dining",
+          "pos": [
+            22,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.hall",
+          "pos": [
+            18,
+            9,
+            25
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.west.room",
+          "pos": [
+            14,
+            9,
+            20
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.east.room",
+          "pos": [
+            26,
+            9,
+            20
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.bed.west",
+          "pos": [
+            14,
+            9,
+            11
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.bed.east",
+          "pos": [
+            27,
+            9,
+            11
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.balcony",
+          "pos": [
+            18,
+            9,
+            31
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "doors": [
+        {
+          "id": "Inn.door.0",
+          "pos": [
+            18,
+            3,
+            29
+          ],
+          "lintel": [
+            18,
+            5,
+            29
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Inn.door.1",
+          "pos": [
+            18,
+            9,
+            29
+          ],
+          "lintel": [
+            18,
+            11,
+            29
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Inn.door.2",
+          "pos": [
+            13,
+            3,
+            16
+          ],
+          "lintel": [
+            13,
+            5,
+            16
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Inn.door.3",
+          "pos": [
+            27,
+            3,
+            16
+          ],
+          "lintel": [
+            27,
+            5,
+            16
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Inn.door.4",
+          "pos": [
+            14,
+            9,
+            21
+          ],
+          "lintel": [
+            14,
+            11,
+            21
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Inn.door.5",
+          "pos": [
+            26,
+            9,
+            21
+          ],
+          "lintel": [
+            26,
+            11,
+            21
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            12,
+            6,
+            23
+          ],
+          "support": [
+            12,
+            7,
+            23
+          ]
+        },
+        {
+          "position": [
+            19,
+            6,
+            19
+          ],
+          "support": [
+            19,
+            7,
+            19
+          ]
+        },
+        {
+          "position": [
+            23,
+            6,
+            26
+          ],
+          "support": [
+            23,
+            7,
+            26
+          ]
+        },
+        {
+          "position": [
+            29,
+            6,
+            23
+          ],
+          "support": [
+            29,
+            7,
+            23
+          ]
+        },
+        {
+          "position": [
+            27,
+            6,
+            12
+          ],
+          "support": [
+            27,
+            7,
+            12
+          ]
+        },
+        {
+          "position": [
+            12,
+            6,
+            13
+          ],
+          "support": [
+            12,
+            7,
+            13
+          ]
+        },
+        {
+          "position": [
+            8,
+            6,
+            19
+          ],
+          "support": [
+            8,
+            7,
+            19
+          ]
+        },
+        {
+          "position": [
+            12,
+            12,
+            17
+          ],
+          "support": [
+            12,
+            13,
+            17
+          ]
+        },
+        {
+          "position": [
+            25,
+            12,
+            17
+          ],
+          "support": [
+            25,
+            13,
+            17
+          ]
+        },
+        {
+          "position": [
+            14,
+            12,
+            11
+          ],
+          "support": [
+            14,
+            13,
+            11
+          ]
+        },
+        {
+          "position": [
+            27,
+            12,
+            11
+          ],
+          "support": [
+            27,
+            13,
+            11
+          ]
+        },
+        {
+          "position": [
+            18,
+            12,
+            25
+          ],
+          "support": [
+            18,
+            13,
+            25
+          ]
+        },
+        {
+          "position": [
+            8,
+            12,
+            11
+          ],
+          "support": [
+            8,
+            13,
+            11
+          ]
+        },
+        {
+          "position": [
+            18,
+            5,
+            33
+          ],
+          "support": [
+            18,
+            6,
+            33
+          ]
+        }
+      ],
+      "stairs": [
+        [
+          [
+            6.5,
+            3,
+            17.5
+          ],
+          [
+            6.5,
+            3,
+            17.375
+          ],
+          [
+            6.5,
+            3,
+            17.25
+          ],
+          [
+            6.5,
+            3,
+            17.125
+          ],
+          [
+            6.5,
+            3,
+            17.0
+          ],
+          [
+            6.5,
+            3,
+            16.875
+          ],
+          [
+            6.5,
+            3,
+            16.75
+          ],
+          [
+            6.5,
+            3,
+            16.625
+          ],
+          [
+            6.5,
+            3,
+            16.5
+          ],
+          [
+            6.5,
+            3,
+            16.375
+          ],
+          [
+            6.5,
+            3,
+            16.25
+          ],
+          [
+            6.5,
+            3,
+            16.125
+          ],
+          [
+            6.5,
+            3,
+            16.0
+          ],
+          [
+            6.5,
+            3,
+            15.875
+          ],
+          [
+            6.5,
+            3,
+            15.75
+          ],
+          [
+            6.5,
+            3,
+            15.625
+          ],
+          [
+            6.5,
+            3,
+            15.5
+          ],
+          [
+            6.5,
+            3,
+            15.375
+          ],
+          [
+            6.5,
+            3,
+            15.25
+          ],
+          [
+            6.5,
+            3,
+            15.125
+          ],
+          [
+            6.5,
+            3,
+            15.0
+          ],
+          [
+            6.5,
+            3,
+            14.875
+          ],
+          [
+            6.5,
+            3,
+            14.75
+          ],
+          [
+            6.5,
+            3,
+            14.625
+          ],
+          [
+            6.5,
+            3,
+            14.5
+          ],
+          [
+            6.5,
+            3,
+            14.375
+          ],
+          [
+            6.5,
+            3,
+            14.25
+          ],
+          [
+            6.5,
+            3,
+            14.125
+          ],
+          [
+            6.5,
+            3,
+            14.0
+          ],
+          [
+            6.5,
+            3,
+            13.875
+          ],
+          [
+            6.5,
+            3,
+            13.75
+          ],
+          [
+            6.5,
+            3,
+            13.625
+          ],
+          [
+            6.5,
+            3,
+            13.5
+          ],
+          [
+            6.5,
+            3,
+            13.375
+          ],
+          [
+            6.5,
+            3,
+            13.25
+          ],
+          [
+            6.5,
+            3,
+            13.125
+          ],
+          [
+            6.5,
+            3,
+            13.0
+          ],
+          [
+            6.5,
+            3,
+            12.875
+          ],
+          [
+            6.5,
+            3,
+            12.75
+          ],
+          [
+            6.5,
+            3,
+            12.625
+          ],
+          [
+            6.5,
+            3,
+            12.5
+          ],
+          [
+            6.5,
+            3,
+            12.375
+          ],
+          [
+            6.5,
+            3,
+            12.25
+          ],
+          [
+            6.5,
+            3,
+            12.125
+          ],
+          [
+            6.5,
+            3,
+            12.0
+          ],
+          [
+            6.5,
+            3,
+            11.875
+          ],
+          [
+            6.5,
+            3,
+            11.75
+          ],
+          [
+            6.5,
+            3,
+            11.625
+          ],
+          [
+            6.5,
+            3,
+            11.5
+          ],
+          [
+            6.5,
+            3,
+            11.375
+          ],
+          [
+            6.5,
+            3,
+            11.25
+          ],
+          [
+            6.5,
+            3,
+            11.125
+          ],
+          [
+            6.5,
+            3,
+            11.0
+          ],
+          [
+            6.5,
+            3,
+            10.875
+          ],
+          [
+            6.5,
+            3,
+            10.75
+          ],
+          [
+            6.5,
+            3,
+            10.625
+          ],
+          [
+            6.5,
+            3,
+            10.5
+          ]
+        ]
+      ],
+      "groups": [
+        {
+          "id": "Inn.stove.cooking.25_1_8",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            25,
+            3,
+            8,
+            26,
+            4,
+            9
+          ],
+          "use_points": [
+            [
+              25,
+              3,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.sink.water_basin.28_1_8",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            28,
+            3,
+            8,
+            29,
+            4,
+            9
+          ],
+          "use_points": [
+            [
+              28,
+              3,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.prep.dining_table.25_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            25,
+            3,
+            12,
+            30,
+            4,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.key.cabinet.bookshelf_group.30_1_23",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            30,
+            3,
+            23,
+            31,
+            7,
+            24
+          ],
+          "use_points": [
+            [
+              30,
+              3,
+              24
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.reception.work.dining_table.28_1_25",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            28,
+            3,
+            25,
+            31,
+            4,
+            26
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.29_1_24",
+          "recipe": "seat",
+          "bounds_xyz": [
+            29,
+            3,
+            24,
+            30,
+            4,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.tea.low_table.9_1_22",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            9,
+            3,
+            22,
+            13,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.breakfast.dining_table.18_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            18,
+            3,
+            19,
+            21,
+            4,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.18_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            3,
+            18,
+            19,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.20_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            20,
+            3,
+            18,
+            21,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.18_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            3,
+            22,
+            19,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.20_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            20,
+            3,
+            22,
+            21,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.bed.bed.12_1_10",
+          "recipe": "bed",
+          "bounds_xyz": [
+            12,
+            9,
+            10,
+            13,
+            10,
+            12
+          ],
+          "use_points": [
+            [
+              13,
+              9,
+              11
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.bed.bed.13_1_10",
+          "recipe": "bed",
+          "bounds_xyz": [
+            13,
+            9,
+            10,
+            14,
+            10,
+            12
+          ],
+          "use_points": [
+            [
+              14,
+              9,
+              11
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.bed.bed.25_1_10",
+          "recipe": "bed",
+          "bounds_xyz": [
+            25,
+            9,
+            10,
+            26,
+            10,
+            12
+          ],
+          "use_points": [
+            [
+              26,
+              9,
+              11
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.bed.bed.26_1_10",
+          "recipe": "bed",
+          "bounds_xyz": [
+            26,
+            9,
+            10,
+            27,
+            10,
+            12
+          ],
+          "use_points": [
+            [
+              27,
+              9,
+              11
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.17_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            17,
+            9,
+            8,
+            18,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.17_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            17,
+            10,
+            8,
+            18,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.18_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            18,
+            9,
+            8,
+            19,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              18,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.18_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            18,
+            10,
+            8,
+            19,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              18,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.19_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            19,
+            9,
+            8,
+            20,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              19,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.19_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            19,
+            10,
+            8,
+            20,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              19,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_wall.17_1_8",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            17,
+            9,
+            8,
+            20,
+            12,
+            9
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              9
+            ],
+            [
+              18,
+              9,
+              9
+            ],
+            [
+              19,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.29_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            29,
+            9,
+            8,
+            30,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              29,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.29_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            29,
+            10,
+            8,
+            30,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              29,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.30_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            30,
+            9,
+            8,
+            31,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              30,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.30_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            30,
+            10,
+            8,
+            31,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              30,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.31_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            31,
+            9,
+            8,
+            32,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              31,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.31_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            31,
+            10,
+            8,
+            32,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              31,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_wall.29_1_8",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            29,
+            9,
+            8,
+            32,
+            12,
+            9
+          ],
+          "use_points": [
+            [
+              29,
+              9,
+              9
+            ],
+            [
+              30,
+              9,
+              9
+            ],
+            [
+              31,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.low.tea.low_table.13_1_17",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            13,
+            9,
+            17,
+            16,
+            10,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.low.tea.low_table.26_1_17",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            26,
+            9,
+            17,
+            29,
+            10,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.hall.tea.low_table.10_1_24",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            10,
+            9,
+            24,
+            14,
+            10,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.window.desk.dining_table.30_1_14",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            30,
+            9,
+            14,
+            31,
+            10,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.28_1_15",
+          "recipe": "seat",
+          "bounds_xyz": [
+            28,
+            9,
+            15,
+            29,
+            10,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.writing.dining_table.17_1_14",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            9,
+            14,
+            19,
+            10,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.18_1_13",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            9,
+            13,
+            19,
+            10,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "Notoya-official",
+        "Notoya-bunka"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "entry_world": [
+        18,
+        3,
+        29
+      ]
+    }
+  ],
+  "uses": [
+    {
+      "id": "Inn.stairs.bottom",
+      "pos": [
+        6,
+        3,
+        17
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Inn.stairs.top",
+      "pos": [
+        6,
+        9,
+        10
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Inn.lobby",
+      "pos": [
+        18,
+        3,
+        27
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Inn.reception",
+      "pos": [
+        24,
+        3,
+        23
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Inn.tea",
+      "pos": [
+        14,
+        3,
+        23
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Inn.bath",
+      "pos": [
+        13,
+        3,
+        15
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Inn.kitchen",
+      "pos": [
+        27,
+        3,
+        14
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Inn.dining",
+      "pos": [
+        22,
+        3,
+        20
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Inn.hall",
+      "pos": [
+        18,
+        9,
+        25
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Inn.west.room",
+      "pos": [
+        14,
+        9,
+        20
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Inn.east.room",
+      "pos": [
+        26,
+        9,
+        20
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Inn.bed.west",
+      "pos": [
+        14,
+        9,
+        11
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Inn.bed.east",
+      "pos": [
+        27,
+        9,
+        11
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Inn.balcony",
+      "pos": [
+        18,
+        9,
+        31
+      ],
+      "floor_block_y": 8
+    }
+  ],
+  "doors": [
+    {
+      "id": "Inn.door.0",
+      "pos": [
+        18,
+        3,
+        29
+      ],
+      "lintel": [
+        18,
+        5,
+        29
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Inn.door.1",
+      "pos": [
+        18,
+        9,
+        29
+      ],
+      "lintel": [
+        18,
+        11,
+        29
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Inn.door.2",
+      "pos": [
+        13,
+        3,
+        16
+      ],
+      "lintel": [
+        13,
+        5,
+        16
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Inn.door.3",
+      "pos": [
+        27,
+        3,
+        16
+      ],
+      "lintel": [
+        27,
+        5,
+        16
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Inn.door.4",
+      "pos": [
+        14,
+        9,
+        21
+      ],
+      "lintel": [
+        14,
+        11,
+        21
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Inn.door.5",
+      "pos": [
+        26,
+        9,
+        21
+      ],
+      "lintel": [
+        26,
+        11,
+        21
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        12,
+        6,
+        23
+      ],
+      "support": [
+        12,
+        7,
+        23
+      ]
+    },
+    {
+      "position": [
+        19,
+        6,
+        19
+      ],
+      "support": [
+        19,
+        7,
+        19
+      ]
+    },
+    {
+      "position": [
+        23,
+        6,
+        26
+      ],
+      "support": [
+        23,
+        7,
+        26
+      ]
+    },
+    {
+      "position": [
+        29,
+        6,
+        23
+      ],
+      "support": [
+        29,
+        7,
+        23
+      ]
+    },
+    {
+      "position": [
+        27,
+        6,
+        12
+      ],
+      "support": [
+        27,
+        7,
+        12
+      ]
+    },
+    {
+      "position": [
+        12,
+        6,
+        13
+      ],
+      "support": [
+        12,
+        7,
+        13
+      ]
+    },
+    {
+      "position": [
+        8,
+        6,
+        19
+      ],
+      "support": [
+        8,
+        7,
+        19
+      ]
+    },
+    {
+      "position": [
+        12,
+        12,
+        17
+      ],
+      "support": [
+        12,
+        13,
+        17
+      ]
+    },
+    {
+      "position": [
+        25,
+        12,
+        17
+      ],
+      "support": [
+        25,
+        13,
+        17
+      ]
+    },
+    {
+      "position": [
+        14,
+        12,
+        11
+      ],
+      "support": [
+        14,
+        13,
+        11
+      ]
+    },
+    {
+      "position": [
+        27,
+        12,
+        11
+      ],
+      "support": [
+        27,
+        13,
+        11
+      ]
+    },
+    {
+      "position": [
+        18,
+        12,
+        25
+      ],
+      "support": [
+        18,
+        13,
+        25
+      ]
+    },
+    {
+      "position": [
+        8,
+        12,
+        11
+      ],
+      "support": [
+        8,
+        13,
+        11
+      ]
+    },
+    {
+      "position": [
+        18,
+        5,
+        33
+      ],
+      "support": [
+        18,
+        6,
+        33
+      ]
+    }
+  ],
+  "stairs": [
+    [
+      [
+        6.5,
+        3,
+        17.5
+      ],
+      [
+        6.5,
+        3,
+        17.375
+      ],
+      [
+        6.5,
+        3,
+        17.25
+      ],
+      [
+        6.5,
+        3,
+        17.125
+      ],
+      [
+        6.5,
+        3,
+        17.0
+      ],
+      [
+        6.5,
+        3,
+        16.875
+      ],
+      [
+        6.5,
+        3,
+        16.75
+      ],
+      [
+        6.5,
+        3,
+        16.625
+      ],
+      [
+        6.5,
+        3,
+        16.5
+      ],
+      [
+        6.5,
+        3,
+        16.375
+      ],
+      [
+        6.5,
+        3,
+        16.25
+      ],
+      [
+        6.5,
+        3,
+        16.125
+      ],
+      [
+        6.5,
+        3,
+        16.0
+      ],
+      [
+        6.5,
+        3,
+        15.875
+      ],
+      [
+        6.5,
+        3,
+        15.75
+      ],
+      [
+        6.5,
+        3,
+        15.625
+      ],
+      [
+        6.5,
+        3,
+        15.5
+      ],
+      [
+        6.5,
+        3,
+        15.375
+      ],
+      [
+        6.5,
+        3,
+        15.25
+      ],
+      [
+        6.5,
+        3,
+        15.125
+      ],
+      [
+        6.5,
+        3,
+        15.0
+      ],
+      [
+        6.5,
+        3,
+        14.875
+      ],
+      [
+        6.5,
+        3,
+        14.75
+      ],
+      [
+        6.5,
+        3,
+        14.625
+      ],
+      [
+        6.5,
+        3,
+        14.5
+      ],
+      [
+        6.5,
+        3,
+        14.375
+      ],
+      [
+        6.5,
+        3,
+        14.25
+      ],
+      [
+        6.5,
+        3,
+        14.125
+      ],
+      [
+        6.5,
+        3,
+        14.0
+      ],
+      [
+        6.5,
+        3,
+        13.875
+      ],
+      [
+        6.5,
+        3,
+        13.75
+      ],
+      [
+        6.5,
+        3,
+        13.625
+      ],
+      [
+        6.5,
+        3,
+        13.5
+      ],
+      [
+        6.5,
+        3,
+        13.375
+      ],
+      [
+        6.5,
+        3,
+        13.25
+      ],
+      [
+        6.5,
+        3,
+        13.125
+      ],
+      [
+        6.5,
+        3,
+        13.0
+      ],
+      [
+        6.5,
+        3,
+        12.875
+      ],
+      [
+        6.5,
+        3,
+        12.75
+      ],
+      [
+        6.5,
+        3,
+        12.625
+      ],
+      [
+        6.5,
+        3,
+        12.5
+      ],
+      [
+        6.5,
+        3,
+        12.375
+      ],
+      [
+        6.5,
+        3,
+        12.25
+      ],
+      [
+        6.5,
+        3,
+        12.125
+      ],
+      [
+        6.5,
+        3,
+        12.0
+      ],
+      [
+        6.5,
+        3,
+        11.875
+      ],
+      [
+        6.5,
+        3,
+        11.75
+      ],
+      [
+        6.5,
+        3,
+        11.625
+      ],
+      [
+        6.5,
+        3,
+        11.5
+      ],
+      [
+        6.5,
+        3,
+        11.375
+      ],
+      [
+        6.5,
+        3,
+        11.25
+      ],
+      [
+        6.5,
+        3,
+        11.125
+      ],
+      [
+        6.5,
+        3,
+        11.0
+      ],
+      [
+        6.5,
+        3,
+        10.875
+      ],
+      [
+        6.5,
+        3,
+        10.75
+      ],
+      [
+        6.5,
+        3,
+        10.625
+      ],
+      [
+        6.5,
+        3,
+        10.5
+      ]
+    ]
+  ],
+  "spawn_local": [
+    18,
+    3,
+    30
+  ],
+  "upper_start": [
+    6,
+    10
+  ],
+  "source_nbt_sha256": "062effe7a8b0159a08af9a226fdcefb92c45939dc6454bee087c38ef20ecb7a4",
+  "non_air": 10968,
+  "size_xyz": [
+    40,
+    28,
+    40
+  ],
+  "block_entities": 57,
+  "entities": 5
+}

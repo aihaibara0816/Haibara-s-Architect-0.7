@@ -1,0 +1,93 @@
+{
+  "source_nbt_sha256": "1d05c4645e6d46eafaa9cbf982fa1c6f5c508ca7359677a0d269d1b7d5f9661b",
+  "non_air": 4489,
+  "entries": [
+    {
+      "id": "Post",
+      "pos": [
+        10,
+        3,
+        21
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 6,
+  "use_checks": [
+    {
+      "id": "Post.stairs.bottom",
+      "pos": [
+        3,
+        3,
+        11
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Post.stairs.top",
+      "pos": [
+        3,
+        9,
+        4
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Post.counter",
+      "pos": [
+        12,
+        3,
+        16
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Post.sorting",
+      "pos": [
+        12,
+        3,
+        7
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Post.upstairs.work",
+      "pos": [
+        13,
+        9,
+        16
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Post.upstairs.bed",
+      "pos": [
+        15,
+        9,
+        7
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 36,
+  "paintings": 4,
+  "official_model_states": 73,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

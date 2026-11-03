@@ -1,0 +1,459 @@
+[
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "overview",
+    "eye": [
+      1010,
+      490,
+      1120
+    ],
+    "target": [
+      320,
+      20,
+      330
+    ],
+    "spanX": 850,
+    "spanZ": 566.6666666666666
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "night",
+    "eye": [
+      1010,
+      490,
+      1120
+    ],
+    "target": [
+      320,
+      20,
+      330
+    ],
+    "spanX": 850,
+    "spanZ": 566.6666666666666,
+    "night": true
+  },
+  {
+    "width": 2400,
+    "height": 2300,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "top",
+    "eye": [
+      320,
+      1100,
+      330
+    ],
+    "target": [
+      320,
+      0,
+      330
+    ],
+    "spanX": 690,
+    "spanZ": 661.25
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "south_roof",
+    "eye": [
+      310,
+      190,
+      1000
+    ],
+    "target": [
+      310,
+      27,
+      330
+    ],
+    "spanX": 500,
+    "spanZ": 333.3333333333333
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "west_entrance",
+    "eye": [
+      -200,
+      88,
+      360
+    ],
+    "target": [
+      117,
+      28,
+      330
+    ],
+    "spanX": 210,
+    "spanZ": 140.0
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "east_entrance",
+    "eye": [
+      820,
+      86,
+      360
+    ],
+    "target": [
+      505,
+      24,
+      330
+    ],
+    "spanX": 210,
+    "spanZ": 140.0
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "entrance_night",
+    "eye": [
+      -200,
+      72,
+      350
+    ],
+    "target": [
+      117,
+      27,
+      330
+    ],
+    "spanX": 190,
+    "spanZ": 126.66666666666667,
+    "night": true
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "roof_detail",
+    "eye": [
+      130,
+      235,
+      100
+    ],
+    "target": [
+      237,
+      46,
+      310
+    ],
+    "spanX": 220,
+    "spanZ": 146.66666666666666
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 80,
+    "ortho": false,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "platform",
+    "eye": [
+      256,
+      18,
+      548
+    ],
+    "target": [
+      245,
+      26,
+      447
+    ],
+    "spanX": 125,
+    "spanZ": 83.33333333333333
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 80,
+    "ortho": false,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "platform_night",
+    "eye": [
+      256,
+      18,
+      548
+    ],
+    "target": [
+      245,
+      26,
+      447
+    ],
+    "spanX": 125,
+    "spanZ": 83.33333333333333,
+    "night": true
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 80,
+    "ortho": false,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "hall",
+    "eye": [
+      160,
+      27,
+      330
+    ],
+    "target": [
+      420,
+      43,
+      330
+    ],
+    "spanX": 100,
+    "spanZ": 66.66666666666667
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 80,
+    "ortho": false,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "hall_night",
+    "eye": [
+      160,
+      27,
+      330
+    ],
+    "target": [
+      420,
+      43,
+      330
+    ],
+    "spanX": 100,
+    "spanZ": 66.66666666666667,
+    "night": true
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 78,
+    "ortho": false,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "soffit",
+    "eye": [
+      260,
+      27,
+      270
+    ],
+    "target": [
+      274,
+      45,
+      279
+    ],
+    "spanX": 80,
+    "spanZ": 53.333333333333336
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 78,
+    "ortho": false,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "arrivals",
+    "eye": [
+      145,
+      6,
+      325
+    ],
+    "target": [
+      460,
+      7,
+      325
+    ],
+    "spanX": 85,
+    "spanZ": 56.666666666666664
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "section",
+    "eye": [
+      656,
+      235,
+      850
+    ],
+    "target": [
+      156,
+      25,
+      330
+    ],
+    "spanX": 700,
+    "spanZ": 466.6666666666667,
+    "cutX": 312
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "platform_plan",
+    "eye": [
+      310,
+      950,
+      330
+    ],
+    "target": [
+      310,
+      0,
+      330
+    ],
+    "spanX": 470,
+    "spanZ": 313.3333333333333,
+    "cutY": 20
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "waiting_plan",
+    "eye": [
+      310,
+      950,
+      330
+    ],
+    "target": [
+      310,
+      0,
+      330
+    ],
+    "spanX": 470,
+    "spanZ": 313.3333333333333,
+    "cutY": 29
+  },
+  {
+    "width": 2400,
+    "height": 1600,
+    "fov": 36,
+    "ortho": true,
+    "concept": false,
+    "sun_day": [
+      0.65,
+      0.9,
+      0.7
+    ],
+    "id": "plaza",
+    "eye": [
+      -170,
+      125,
+      530
+    ],
+    "target": [
+      56,
+      10,
+      330
+    ],
+    "spanX": 250,
+    "spanZ": 166.66666666666666
+  }
+]

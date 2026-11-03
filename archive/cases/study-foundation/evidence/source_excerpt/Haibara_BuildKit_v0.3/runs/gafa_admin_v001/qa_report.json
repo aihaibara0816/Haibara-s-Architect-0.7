@@ -1,0 +1,108 @@
+{
+  "file_name": "gafa_admin_colonnade.nbt",
+  "file_sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20",
+  "file_bytes": 36890,
+  "decoded_bytes": 539462,
+  "compression": "gzip",
+  "root_name": "",
+  "format": "java_structure",
+  "data_version": 3955,
+  "offset_xyz": [
+    0,
+    0,
+    0
+  ],
+  "block_entities_count": 0,
+  "entities_count": 0,
+  "structural_subset_check": "pass",
+  "usable_nonempty_sample": true,
+  "size_xyz": [
+    22,
+    20,
+    34
+  ],
+  "bounding_volume_cells": 14960,
+  "listed_block_entries": 14960,
+  "unlisted_cells": 0,
+  "non_air_non_void_blocks": 3774,
+  "explicit_air_entries": 11186,
+  "structure_void_entries": 0,
+  "occupied_bbox_inclusive": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      21,
+      18,
+      33
+    ]
+  ],
+  "palette_entries": 15,
+  "used_block_state_counts": {
+    "minecraft:air": 11186,
+    "minecraft:black_concrete": 8,
+    "minecraft:black_stained_glass": 12,
+    "minecraft:gray_concrete": 412,
+    "minecraft:light_gray_concrete": 108,
+    "minecraft:nether_brick_fence[east=true,north=false,south=false,waterlogged=false,west=true]": 24,
+    "minecraft:polished_blackstone": 32,
+    "minecraft:red_terracotta": 932,
+    "minecraft:smooth_quartz": 176,
+    "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]": 306,
+    "minecraft:smooth_quartz_slab[type=top,waterlogged=false]": 320,
+    "minecraft:smooth_stone": 640,
+    "minecraft:smooth_stone_slab[type=bottom,waterlogged=false]": 16,
+    "minecraft:smooth_stone_slab[type=top,waterlogged=false]": 40,
+    "minecraft:stone_bricks": 748
+  },
+  "non_air_blocks_by_y": {
+    "0": 748,
+    "1": 748,
+    "2": 110,
+    "3": 114,
+    "4": 114,
+    "5": 132,
+    "6": 100,
+    "7": 88,
+    "8": 88,
+    "9": 92,
+    "10": 92,
+    "11": 92,
+    "12": 92,
+    "13": 92,
+    "14": 96,
+    "15": 245,
+    "16": 413,
+    "17": 286,
+    "18": 32
+  },
+  "local_listed_blockstates_sha256": "11456d0055b621154fe1159bb8191309598ffd7de25aeb08c45ff2736dff1b9e",
+  "game_validation": "pending",
+  "warnings": [
+    "Subset structural checks only; no registry/property compatibility or game import test.",
+    "Entities, block-entity contents, biomes, NBT field tag kinds and extra metadata are not semantically validated.",
+    "Counts by Y are block distributions, not verified floor counts or collision/solidity measurements."
+  ],
+  "source_to_nbt_exact_blockstate_match": true,
+  "geometry_checks": {
+    "column_axes_z": [
+      5,
+      13,
+      21,
+      29
+    ],
+    "ground_surface": 2,
+    "stair_platform_surface": 6,
+    "stair_clear_width": 4,
+    "net_stair_rise": 4,
+    "bay_count": 3,
+    "round_column_deviation": "2x2 square voxel proxy at radius 1m",
+    "scale_verification": "pending",
+    "interior": "not_reconstructed"
+  },
+  "validation_scope": "Structural subset and source equality, not game or measured reconstruction",
+  "target_registry_validation": "pending",
+  "scale_validation": "pending"
+}

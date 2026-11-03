@@ -1,0 +1,105 @@
+[
+  {
+    "id": "modern",
+    "title": "现代幕墙 · 窗后空间与吊顶",
+    "sources": [
+      "jinmao",
+      "ifc",
+      "video_LMC",
+      "video_PLIN"
+    ],
+    "parameters": {
+      "bays": 4,
+      "bay_pitch": 6,
+      "floor_pitch": 6,
+      "glass_z": 5
+    },
+    "focus": "玻璃片、前置细肋、层间遮蔽、后退楼板、桌椅及顶灯分别建造。",
+    "limits": "局部两层样板；窗后是示意办公室，无完整楼梯和疏散路线。"
+  },
+  {
+    "id": "millennium",
+    "title": "千禧年语汇 · 蓝玻璃与白色横带",
+    "sources": [
+      "swan",
+      "ifc",
+      "jinmao"
+    ],
+    "parameters": {
+      "bays": 4,
+      "bay_pitch": 6,
+      "floor_pitch": 5,
+      "glass_z": 6
+    },
+    "focus": "白框、蓝玻璃、细竖肋、暖色背景；装饰横带不等于楼板。",
+    "limits": "千禧年为本轮风格探索标签，不是对三个原案例年代的考证结论。"
+  },
+  {
+    "id": "western",
+    "title": "西式砖石 · 厚墙窗洞与檐口",
+    "sources": [
+      "customs",
+      "station"
+    ],
+    "parameters": {
+      "bays": 4,
+      "bay_pitch": 6
+    },
+    "focus": "窗洞真实挖空，窗套前凸、玻璃后退；倒楼梯形成拱口边缘。",
+    "limits": "简化的阶梯拱、砖石和石英语汇；不代表所有西式建筑。"
+  },
+  {
+    "id": "chinese",
+    "title": "当代中式 · 白墙灰顶与院落开口",
+    "sources": [
+      "suzhou_official"
+    ],
+    "parameters": {},
+    "focus": "白墙、深灰坡顶、几何洞口、院内留白与木质屏片。",
+    "limits": "七份样本中缺少可靠的中式屋面范例；这是低证据探索样板，不是古建复原。"
+  },
+  {
+    "id": "antenna",
+    "title": "高层天线 · 粗杆到四脚细芯",
+    "sources": [
+      "skytree",
+      "shiba"
+    ],
+    "parameters": {},
+    "focus": "屋顶基座、主杆、撑杆、平台、四脚、单芯、灯标分段。",
+    "limits": "红白玻璃片用于细杆；不是幕墙。灯标不自动闪烁，无工程结构验算。"
+  },
+  {
+    "id": "planter",
+    "title": "广场花坛 · 铺装、压顶与座椅",
+    "sources": [
+      "shiba",
+      "station"
+    ],
+    "parameters": {},
+    "focus": "铺装带、抬高土层、半砖压顶、种植、坐凳和灯柱分别控制。",
+    "limits": "原创小型场地样板；不声称复原广州塔广场，也没有自动地形适配。"
+  },
+  {
+    "id": "framework",
+    "title": "开敞框架 · 核心、斜杆与有围护楼层",
+    "sources": [
+      "skytree",
+      "shiba"
+    ],
+    "parameters": {},
+    "focus": "外围粗细杆、独立核心、局部功能楼层；其余高度保持贯通。",
+    "limits": "正交栅格斜杆仍呈阶梯；不等于连续斜向网格或真实受力结构。"
+  },
+  {
+    "id": "canopy",
+    "title": "复合站房 · 砖石界面与玻璃拱棚",
+    "sources": [
+      "station",
+      "video_PLIN"
+    ],
+    "parameters": {},
+    "focus": "厚重站房、薄拱肋、透明棚顶、吊灯和站台家具使用不同表达。",
+    "limits": "棚顶使用玻璃块；原版玻璃片不能水平旋转为平板。无列车运行系统。"
+  }
+]

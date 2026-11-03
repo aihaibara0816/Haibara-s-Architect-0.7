@@ -1,0 +1,147 @@
+{
+  "schema_version": "canton-study-0.1",
+  "experiment": "Canton280 / image-only vs image+SKP",
+  "date_local": "2026-10-21",
+  "status": "prototype_first_uncalibrated",
+  "size_xyz": [
+    56,
+    282,
+    56
+  ],
+  "grade_y": 2,
+  "center_xz": [
+    28,
+    28
+  ],
+  "target_height_blocks": 280,
+  "reference_height_m": 600,
+  "blocks_per_metre": 0.4666666666666667,
+  "data_version": 3955,
+  "target_minecraft": "Java 1.21.1; user installation not inspected",
+  "source_images": [
+    "R01",
+    "R03",
+    "R06",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R14",
+    "R16"
+  ],
+  "new_reference_images": [
+    "R14",
+    "R16"
+  ],
+  "excluded_new_references": {
+    "R15": "2024 plaza excluded to hold historical site scope fixed",
+    "R17": "unlocated interior excluded from executable dimensions"
+  },
+  "references": {
+    "dimensions": "https://www.gzwxb.gov.cn/context/contextId/205808",
+    "capsules": "https://www.zc.gov.cn/gk/rdhy/content/post_3848242.html",
+    "new_drawing_and_photo": "https://www.stefanal.com/projects/canton-tower"
+  },
+  "capsule_count": 16,
+  "capsule_decision": "Use the dated official 2019 record in both trials; do not interpret 24 SKP candidates as verified real capsules. Original SKP unchanged.",
+  "photo_program_bands_blocks": [
+    [
+      3,
+      9
+    ],
+    [
+      17,
+      21
+    ],
+    [
+      43,
+      48
+    ],
+    [
+      138,
+      145
+    ],
+    [
+      181,
+      188
+    ],
+    [
+      193,
+      209
+    ]
+  ],
+  "program_band_status": "Study interpretation of R14's separated floor clusters and R16 upper enclosure. These are not surveyed heights, floor counts or a claim every surface is glass.",
+  "core_radii_blocks": [
+    3.3,
+    2.8
+  ],
+  "core_status": "Retained V1 study values; shell rather than solid core; 3x3 shaft kept empty, no operating elevator or full circulation claimed.",
+  "photo_frame": {
+    "columns": 24,
+    "rings": 46,
+    "body_blocks": 210,
+    "waist_m": 278.8,
+    "waist_diameter_m": [
+      27.5,
+      20.65
+    ],
+    "foundation_y_m": -10,
+    "foundation_diameter_m": [
+      80,
+      60
+    ],
+    "top_y_m": 450,
+    "top_diameter_m": [
+      54,
+      40.5
+    ],
+    "member_winding_trial_degrees": 135
+  },
+  "photo_mast": {
+    "transitions_blocks": [
+      210,
+      227,
+      244,
+      251,
+      280
+    ],
+    "radii_blocks": [
+      2.2,
+      1.6,
+      0.9,
+      0.55
+    ],
+    "platform_levels_blocks": [
+      227,
+      244
+    ],
+    "status": "R16-informed stepped study geometry; upper part cloud-occluded, dimensions approximate"
+  },
+  "control": {
+    "same_images": true,
+    "same_palette": true,
+    "same_site": true,
+    "same_cameras": true,
+    "same_target_height": true,
+    "blind_experiment": false,
+    "image_branch_no_model_read": true,
+    "note": "Exploratory paired comparison; developer has seen SKP. Not a blind causal or general accuracy benchmark."
+  },
+  "omitted": [
+    "full interior decoration",
+    "furniture",
+    "2024 commercial plaza",
+    "surrounding city",
+    "moving capsules",
+    "working elevator",
+    "real-world camera registration"
+  ],
+  "discretization": {
+    "columns": "full blocks",
+    "rings": "bottom half slabs",
+    "braces": "straight quartz stairs oriented along rising direction; geometric approximation, collision not tested",
+    "mast": "full blocks",
+    "comparison": "same block-detail policy in both branches"
+  }
+}

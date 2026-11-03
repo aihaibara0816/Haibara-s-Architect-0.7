@@ -1,0 +1,240 @@
+{
+  "schema": "interior-audit-0.2",
+  "source_nbt_sha256": "d92701b82acfce880610879f261320baa39c7779808dc8a0e831977c189de4a1",
+  "geometry_pass": true,
+  "errors": [],
+  "rooms": [
+    {
+      "id": "A",
+      "floor_cells": 224,
+      "walkable_cells": 175,
+      "reachable_cells": 175,
+      "required_points": 20,
+      "failed_points": 0,
+      "longest_open_row": 16,
+      "layout_review": "pending: explain large empty zones; no fixed fill ratio"
+    },
+    {
+      "id": "B",
+      "floor_cells": 224,
+      "walkable_cells": 176,
+      "reachable_cells": 176,
+      "required_points": 14,
+      "failed_points": 0,
+      "longest_open_row": 16,
+      "layout_review": "pending: explain large empty zones; no fixed fill ratio"
+    },
+    {
+      "id": "C",
+      "floor_cells": 224,
+      "walkable_cells": 171,
+      "reachable_cells": 171,
+      "required_points": 29,
+      "failed_points": 0,
+      "longest_open_row": 16,
+      "layout_review": "pending: explain large empty zones; no fixed fill ratio"
+    },
+    {
+      "id": "D",
+      "floor_cells": 224,
+      "walkable_cells": 171,
+      "reachable_cells": 171,
+      "required_points": 17,
+      "failed_points": 0,
+      "longest_open_row": 16,
+      "layout_review": "pending: explain large empty zones; no fixed fill ratio"
+    }
+  ],
+  "doors": [
+    {
+      "position": [
+        5,
+        1,
+        7
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        29,
+        1,
+        10
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        30,
+        1,
+        10
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        37,
+        1,
+        10
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        38,
+        1,
+        10
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        4,
+        1,
+        17
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        5,
+        1,
+        17
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        27,
+        1,
+        17
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        28,
+        1,
+        17
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        28,
+        1,
+        31
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        4,
+        1,
+        38
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        5,
+        1,
+        38
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        27,
+        1,
+        38
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    },
+    {
+      "position": [
+        28,
+        1,
+        38
+      ],
+      "paired": true,
+      "lintel": true,
+      "jambs": [
+        true,
+        true
+      ]
+    }
+  ],
+  "assumptions": [
+    "Approximate central 0.6-block avatar, two cells high",
+    "Doors assumed open for path audit; opening swing NOT game-tested",
+    "Carpet height ignored below 1/16 block",
+    "Does not score atmosphere, fit-out quality or completeness"
+  ],
+  "game": "pending",
+  "aesthetic": "pending"
+}

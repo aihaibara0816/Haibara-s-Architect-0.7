@@ -1,0 +1,355 @@
+{
+  "case_id": "Florist",
+  "run": "V09",
+  "seed": 151145,
+  "buildings": [
+    {
+      "id": "Florist",
+      "name": "花便り｜花店",
+      "size": [
+        27,
+        28,
+        22
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        8,
+        3,
+        17
+      ],
+      "rooms": [
+        {
+          "id": "Florist.main",
+          "name": "花便り｜花店",
+          "bounds": [
+            7,
+            3,
+            4,
+            12,
+            7,
+            17
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Florist.wing",
+          "name": "greenhouse",
+          "bounds": [
+            13,
+            3,
+            4,
+            23,
+            7,
+            15
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Florist.entry",
+          "pos": [
+            8,
+            3,
+            16
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Florist.flowers",
+          "pos": [
+            8,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Florist.wrap",
+          "pos": [
+            11,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Florist.wing.greenhouse",
+          "pos": [
+            14,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Florist.door.0",
+          "pos": [
+            8,
+            3,
+            17
+          ],
+          "lintel": [
+            8,
+            5,
+            17
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Florist.door.1",
+          "pos": [
+            12,
+            3,
+            9
+          ],
+          "lintel": [
+            12,
+            5,
+            9
+          ],
+          "facing": "east"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            8,
+            6,
+            13
+          ],
+          "support": [
+            8,
+            7,
+            13
+          ]
+        },
+        {
+          "position": [
+            9,
+            6,
+            7
+          ],
+          "support": [
+            9,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            11
+          ],
+          "support": [
+            7,
+            7,
+            11
+          ]
+        },
+        {
+          "position": [
+            18,
+            6,
+            9
+          ],
+          "support": [
+            18,
+            7,
+            9
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Florist.wrapping.dining_table.10_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            3,
+            13,
+            12,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Florist.potting.dining_table.15_1_8",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            15,
+            3,
+            8,
+            19,
+            4,
+            9
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "entry_world": [
+        8,
+        3,
+        17
+      ]
+    }
+  ],
+  "uses": [
+    {
+      "id": "Florist.entry",
+      "pos": [
+        8,
+        3,
+        16
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Florist.flowers",
+      "pos": [
+        8,
+        3,
+        11
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Florist.wrap",
+      "pos": [
+        11,
+        3,
+        15
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Florist.wing.greenhouse",
+      "pos": [
+        14,
+        3,
+        9
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Florist.door.0",
+      "pos": [
+        8,
+        3,
+        17
+      ],
+      "lintel": [
+        8,
+        5,
+        17
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Florist.door.1",
+      "pos": [
+        12,
+        3,
+        9
+      ],
+      "lintel": [
+        12,
+        5,
+        9
+      ],
+      "facing": "east"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        8,
+        6,
+        13
+      ],
+      "support": [
+        8,
+        7,
+        13
+      ]
+    },
+    {
+      "position": [
+        9,
+        6,
+        7
+      ],
+      "support": [
+        9,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        11
+      ],
+      "support": [
+        7,
+        7,
+        11
+      ]
+    },
+    {
+      "position": [
+        18,
+        6,
+        9
+      ],
+      "support": [
+        18,
+        7,
+        9
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    8,
+    3,
+    18
+  ],
+  "upper_start": [
+    4,
+    4
+  ],
+  "source_nbt_sha256": "af0c4d36de773f45c00fa5c34b836705a8d8a0fb1a3143f10eea1dee8ca22928",
+  "non_air": 3281,
+  "size_xyz": [
+    27,
+    28,
+    22
+  ],
+  "block_entities": 15,
+  "entities": 0
+}

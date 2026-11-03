@@ -1,0 +1,587 @@
+{
+  "pass": true,
+  "game": "Minecraft Java 1.21.1",
+  "mode": "actual unmodified vanilla client; local singleplayer preview world",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "external_shaders": false,
+  "resource_pack": "vanilla",
+  "capture_method": "Minecraft built-in F2 screenshot; original PNG bytes copied without resizing or recompression",
+  "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+  "source_world": "Qilou04 exported world copy; original deliverable not overwritten by play session",
+  "exterior_views": 12,
+  "interior_views": 11,
+  "day_night_pairs": 23,
+  "gallery_screenshots": 46,
+  "startup_proof": true,
+  "coverage": "Loaded world, real client render, painting/bed/furniture visuals at sampled viewpoints; not exhaustive per-house interactive gameplay test",
+  "audio": "disabled in capture environment",
+  "records": [
+    {
+      "name": "street_west",
+      "file": "street_west.png",
+      "source_f2_file": "2026-10-31_19.27.59.png",
+      "sha256": "37e762b0024af2f77382fbc610bffc107b90f9d0d034ebcfb3e0f8eda297f073",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1518456,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "street_west_night",
+      "file": "street_west_night.png",
+      "source_f2_file": "2026-10-31_19.32.20.png",
+      "sha256": "c3dbf72f8d709766e069d7b80f53553a3d0d5f2f2fe7bea93720608f7849b875",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1621109,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "street_east",
+      "file": "street_east.png",
+      "source_f2_file": "2026-10-31_19.28.10.png",
+      "sha256": "1d693aec10412f82b9ae8346e05fc5103121a0fd6f3ffdd7ca14cbfde5bdbdf4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1522836,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "street_east_night",
+      "file": "street_east_night.png",
+      "source_f2_file": "2026-10-31_19.32.31.png",
+      "sha256": "9b3a0a5aa789bc73ac35c16294f832a876494fffa84df547397d5272494a74ec",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1463938,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "plaza",
+      "file": "plaza.png",
+      "source_f2_file": "2026-10-31_19.28.21.png",
+      "sha256": "7a8e0a476347602f5566a59a3abb1ac4f81834c037f242a28ac486159eccb4de",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1655928,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "plaza_night",
+      "file": "plaza_night.png",
+      "source_f2_file": "2026-10-31_19.32.42.png",
+      "sha256": "830b0ecae25bfa08f62411f2b2869471bdc183cdfc8ac4148607b8b308a8c992",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1470121,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "lane",
+      "file": "lane.png",
+      "source_f2_file": "2026-10-31_19.28.32.png",
+      "sha256": "0d4f431745aa592cdf3913aeb2cd510f3ff8a4ae3062df7b8e7161f6f109c135",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1425828,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "lane_night",
+      "file": "lane_night.png",
+      "source_f2_file": "2026-10-31_19.32.53.png",
+      "sha256": "9e59809ff89a66301d83987d87b0e4937f4c99468e7ffc8b77bdac01ebcdb774",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1497776,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "arcade",
+      "file": "arcade.png",
+      "source_f2_file": "2026-10-31_19.28.43.png",
+      "sha256": "bb6e7586ea69fb65d9da292ee08505212be4328f6de3d24b2bed734fce97c0d5",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1023622,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "arcade_night",
+      "file": "arcade_night.png",
+      "source_f2_file": "2026-10-31_19.33.04.png",
+      "sha256": "8e60f5637bc8458599ef7924f15b541eb195c60e2c5bd770441f15af3ed34385",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1059642,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "village_entry",
+      "file": "village_entry.png",
+      "source_f2_file": "2026-10-31_19.28.54.png",
+      "sha256": "1ed9c93733cc4262000554ff81d7f49be84cb5621eb6a7b943de36edde3f6ca9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1437757,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "village_entry_night",
+      "file": "village_entry_night.png",
+      "source_f2_file": "2026-10-31_19.33.15.png",
+      "sha256": "884d08e3dbfa715ca2576db62cde0227fc8043d817a2b6677d1e15a929254b25",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1559720,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "across_road",
+      "file": "across_road.png",
+      "source_f2_file": "2026-10-31_19.29.05.png",
+      "sha256": "c8a4fdbaf38075f5180442cfd925c4852a67dfe65e7cd711514b7827cccb1191",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1855403,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "across_road_night",
+      "file": "across_road_night.png",
+      "source_f2_file": "2026-10-31_19.33.26.png",
+      "sha256": "6a4130e82408dd3fc453e008d998f5fc2832d31b3e2f49cf6b22a9766dc5d3a5",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1824863,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "tree_detail",
+      "file": "tree_detail.png",
+      "source_f2_file": "2026-10-31_19.29.16.png",
+      "sha256": "f8c43906f4a72288ae85835dd57776aa11ba98a0571c22b7b917b6e8d1f57113",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 2121375,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "tree_detail_night",
+      "file": "tree_detail_night.png",
+      "source_f2_file": "2026-10-31_19.33.37.png",
+      "sha256": "7bfadb6b32eea6c33cd9631e4acfd98b0a21631e1a6fe560b65835bca436ecec",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1902130,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "roof_mix",
+      "file": "roof_mix.png",
+      "source_f2_file": "2026-10-31_19.29.28.png",
+      "sha256": "6bf2535cc20264e5d0eadcc3c5ee9ca970b9f69344d191804615872b1438f131",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 2541787,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "roof_mix_night",
+      "file": "roof_mix_night.png",
+      "source_f2_file": "2026-10-31_19.33.48.png",
+      "sha256": "79b0162be2763e028119726e6b1c93fc1c5bbd924bb86bca0261ba54d9c3eebf",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 2355164,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "village_shops",
+      "file": "village_shops.png",
+      "source_f2_file": "2026-10-31_19.27.26.png",
+      "sha256": "78aa2c0bdc90c36a13ded525a50931f472627735fc4a7f6db4f0e4dcb36a67ac",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1216179,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "village_shops_night",
+      "file": "village_shops_night.png",
+      "source_f2_file": "2026-10-31_19.31.47.png",
+      "sha256": "6063ebc716c9429e8b51c80daad2b5a2731453d5ba6cc3c2a0cab0f393ae45dd",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1347005,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "cross_shops",
+      "file": "cross_shops.png",
+      "source_f2_file": "2026-10-31_19.36.08.png",
+      "sha256": "839c31a5a1f00148733d5b81bc58b5fdfbd8fa25e98d5b23f921266cbc333964",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 958737,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "cross_shops_night",
+      "file": "cross_shops_night.png",
+      "source_f2_file": "2026-10-31_19.36.02.png",
+      "sha256": "e72b08bb91de5cfd708a009564ea09a78b90e1d4f332df5a33ffee41949be50d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1217702,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "night_skyline",
+      "file": "night_skyline.png",
+      "source_f2_file": "2026-10-31_19.27.48.png",
+      "sha256": "a6deb4658dc7d47b75cb16cc3cb7d9d77cc371198ef438c43c9af49ed36e1228",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 2168329,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "night_skyline_night",
+      "file": "night_skyline_night.png",
+      "source_f2_file": "2026-10-31_19.32.09.png",
+      "sha256": "34a9e4f9008189a7d6268ac03f4ebb127d0106161c7f8fc1a632de97ee8d44c5",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 2232679,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "N03_interior",
+      "file": "N03_interior.png",
+      "source_f2_file": "2026-10-31_19.29.39.png",
+      "sha256": "76c758b65fa361807a8eefe24ed400f7dc78c563cbb5b9a3d2f7985e2d5239f9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1064290,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "N03_interior_night",
+      "file": "N03_interior_night.png",
+      "source_f2_file": "2026-10-31_19.33.59.png",
+      "sha256": "653df215298e9d5ca6c83ead2202dc746664e82f6aa3bf01029574750f86c02e",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1061755,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "N08_interior",
+      "file": "N08_interior.png",
+      "source_f2_file": "2026-10-31_19.29.50.png",
+      "sha256": "9d294d1652cf6f06f7617484ee72a728ca7ad477bb23f98a92b398839804fb7d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 999808,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "N08_interior_night",
+      "file": "N08_interior_night.png",
+      "source_f2_file": "2026-10-31_19.34.11.png",
+      "sha256": "0831eed86963e73019e0f4d4295a1cb1291c37e54fc0c723bbff874e28dceaa4",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1005401,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "S03_interior",
+      "file": "S03_interior.png",
+      "source_f2_file": "2026-10-31_19.30.01.png",
+      "sha256": "dfa2f0f748fe530068c2b2e1d9d69ce23246022424fa3755867187277631008f",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 962715,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "S03_interior_night",
+      "file": "S03_interior_night.png",
+      "source_f2_file": "2026-10-31_19.34.22.png",
+      "sha256": "46d431761f02f8c425d0e42a8b505553a97f26777725df83feef5bcfa5c091da",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 978108,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "A1_interior",
+      "file": "A1_interior.png",
+      "source_f2_file": "2026-10-31_19.30.12.png",
+      "sha256": "a24c3b69cdda76abd47f4e843f5d4b8f88197e89a42b0710ea318f3aac8ecda9",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 966279,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "A1_interior_night",
+      "file": "A1_interior_night.png",
+      "source_f2_file": "2026-10-31_19.34.33.png",
+      "sha256": "98f5b753089c13f66e6785d02c48fdd4ae950320c9b1a3555dcae9414a20c06d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 690239,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "A2_interior",
+      "file": "A2_interior.png",
+      "source_f2_file": "2026-10-31_19.30.24.png",
+      "sha256": "e29b64feeb7a104fd950e723c65df1fcf79fbabb662028c3769434dc955b1c39",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1100014,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "A2_interior_night",
+      "file": "A2_interior_night.png",
+      "source_f2_file": "2026-10-31_19.34.44.png",
+      "sha256": "e69c0515fa299130600db4542bcc49f88f0c9040d676891bda066434d358116a",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 708861,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "B3_interior",
+      "file": "B3_interior.png",
+      "source_f2_file": "2026-10-31_19.30.35.png",
+      "sha256": "bbbbdb59de7334fb27e6c682d1b3f8883e0134643ba8bc8fa12af3f1027e552e",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1090452,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "B3_interior_night",
+      "file": "B3_interior_night.png",
+      "source_f2_file": "2026-10-31_19.34.56.png",
+      "sha256": "3ef984666989b95cf6c89f42f3f6b94745bb82e7687a040c00239457b6c55995",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 979378,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "D5_interior",
+      "file": "D5_interior.png",
+      "source_f2_file": "2026-10-31_19.30.46.png",
+      "sha256": "9671be52cd35ed1ebfc2b0dd436ea7e561c29f14548ac7645d6a0f652ac9062f",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1108536,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "D5_interior_night",
+      "file": "D5_interior_night.png",
+      "source_f2_file": "2026-10-31_19.35.07.png",
+      "sha256": "07920c077e9b8c8154bf08cd1682e699352ab78f5258ac4fbb5e0b1287f46193",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1105032,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "E4_interior",
+      "file": "E4_interior.png",
+      "source_f2_file": "2026-10-31_19.30.57.png",
+      "sha256": "b12b2b8548dea5e0dd54f515931a6ae6cf0c761d4a4259f9c9d710d652484117",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 697136,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "E4_interior_night",
+      "file": "E4_interior_night.png",
+      "source_f2_file": "2026-10-31_19.35.17.png",
+      "sha256": "9efabb0a5d50112798542e5f568d7ad1d61d9c250cd70fb9970644a1290abda8",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 617732,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "E2_interior",
+      "file": "E2_interior.png",
+      "source_f2_file": "2026-10-31_19.31.08.png",
+      "sha256": "7a5e67da05f3c86ebc5f2ec812c9a58c3ffef29e344ce5074ced01c8b7cdda51",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 986799,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "E2_interior_night",
+      "file": "E2_interior_night.png",
+      "source_f2_file": "2026-10-31_19.35.28.png",
+      "sha256": "6109fb25ffb5c720a2eded67ab8702c36a344ecb648a974855db9f0351c0c242",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 963974,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "D4_interior",
+      "file": "D4_interior.png",
+      "source_f2_file": "2026-10-31_19.31.19.png",
+      "sha256": "8eb10997571554e99a4d7373b4dd71197a51f95c7c906bd9bdd1aaeb430ca355",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 918884,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "D4_interior_night",
+      "file": "D4_interior_night.png",
+      "source_f2_file": "2026-10-31_19.35.39.png",
+      "sha256": "caf23dd9b24ba9a353d3c69359ddb71da84d5d61903d9fcda58b4ebf570a444b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 925549,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "E1_interior",
+      "file": "E1_interior.png",
+      "source_f2_file": "2026-10-31_19.31.30.png",
+      "sha256": "50e407e1b7d6ec9b1062a31f628044605e9e4aa6e950aa00f6b2634c2d6f2eb7",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 989011,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "E1_interior_night",
+      "file": "E1_interior_night.png",
+      "source_f2_file": "2026-10-31_19.35.51.png",
+      "sha256": "85b1eab2b75e051061529775e5c29624dcdbe69befd2aae577340e4c9468765b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1011615,
+      "unaltered_client_png": true
+    },
+    {
+      "name": "startup_proof",
+      "file": "startup_proof.png",
+      "source_f2_file": "2026-10-31_19.26.57.png",
+      "sha256": "5a5a30e076680c6ea5edbcdf9ee67ad7fe0ffe4c0b891c4be6f3479f0a141920",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 1221454,
+      "unaltered_client_png": true
+    }
+  ]
+}

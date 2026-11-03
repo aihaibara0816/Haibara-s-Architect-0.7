@@ -1,0 +1,56 @@
+{
+  "case_version": "V1",
+  "frame": {
+    "size_xyz": [
+      100,
+      200,
+      96
+    ],
+    "blocks_per_metre": 2,
+    "tower_center_xz": [
+      62,
+      33
+    ],
+    "ground_y": 4
+  },
+  "tower": {
+    "height_blocks": 192,
+    "core_width": 24,
+    "dial_diameter_blocks": 14,
+    "clock_center_above_grade": 110,
+    "clock_time": [
+      10,
+      8
+    ],
+    "shaft_top": 92,
+    "clock_stage": [
+      96,
+      124
+    ],
+    "belfry": [
+      124,
+      142
+    ],
+    "lower_roof": [
+      142,
+      164
+    ],
+    "lantern": [
+      164,
+      177
+    ],
+    "upper_spire": [
+      177,
+      192
+    ]
+  },
+  "seed": 20261023,
+  "scope": "Elizabeth Tower and an explicitly cropped, approximate adjoining Westminster wing; no whole Palace of Westminster or London terrain",
+  "evidence": {
+    "height_m": 96,
+    "dial_diameter_m": 7,
+    "height_source": "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/facts-figures/",
+    "layer_heights": "photographic estimates, not a surveyed section",
+    "version": "restored blue/gold exterior, after 2022"
+  }
+}

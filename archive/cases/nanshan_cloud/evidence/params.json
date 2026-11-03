@@ -1,0 +1,162 @@
+{
+  "case_version": "nanshan-cloud-0.2.0",
+  "seed": 20261024,
+  "frame": {
+    "size_xyz": [
+      140,
+      244,
+      140
+    ],
+    "ground_y": 4,
+    "scale_blocks_per_m": 1,
+    "north": null,
+    "axes": "local X right, Y up, Z toward front; geographic orientation unverified"
+  },
+  "height_anchor": {
+    "adopted_m": 234.54,
+    "rounded_blocks": 235,
+    "source": "https://www.cncarbonneutral.com/Dgus/Detail?Id=2792",
+    "conflict": "2015 design references 246-250 m; not silently substituted for built reference",
+    "relative_height_note": "img-022 supports a near-equal high pair; the third roof remains photo-estimated"
+  },
+  "towers": [
+    {
+      "id": "A",
+      "rect": [
+        30,
+        66,
+        60,
+        98
+      ],
+      "height": 235
+    },
+    {
+      "id": "B",
+      "rect": [
+        72,
+        66,
+        102,
+        98
+      ],
+      "height": 235
+    },
+    {
+      "id": "C",
+      "rect": [
+        72,
+        22,
+        102,
+        54
+      ],
+      "height": 207
+    }
+  ],
+  "core": {
+    "rect": [
+      54,
+      46,
+      86,
+      78
+    ],
+    "height": 207
+  },
+  "tower_base": 14,
+  "floor_pitch": 4.2,
+  "cascades": {
+    "bands": [
+      14,
+      66,
+      118,
+      170
+    ],
+    "step_heights": 4,
+    "step_count": 7,
+    "profile_mode": "explicit_per_floor",
+    "profiles": [
+      {
+        "side": "front",
+        "axis": "x",
+        "center": 66,
+        "depth_range": [
+          90,
+          103
+        ],
+        "widths_bottom_to_top": [
+          50,
+          44,
+          38,
+          32,
+          26,
+          26,
+          26
+        ],
+        "confidence": "photo-constrained; same upper three rows, manual approximation"
+      },
+      {
+        "side": "right",
+        "axis": "z",
+        "center": 60,
+        "depth_range": [
+          94,
+          107
+        ],
+        "widths_bottom_to_top": [
+          52,
+          46,
+          40,
+          34,
+          28,
+          28,
+          28
+        ],
+        "confidence": "oblique-photo constrained; not a measured plan"
+      },
+      {
+        "side": "inner",
+        "axis": "z",
+        "center": 63,
+        "depth_range": [
+          48,
+          68
+        ],
+        "widths_bottom_to_top": [
+          30,
+          26,
+          22,
+          18,
+          14,
+          14,
+          14
+        ],
+        "confidence": "estimated concealed interface; not independently photo-verified"
+      }
+    ],
+    "interpretation": "Top three geometric glazing rows have equal widths, then widen in separate lower rows. These visible rows are not asserted to be measured occupied floors."
+  },
+  "facade": {
+    "glass": "gray_stained_glass_pane",
+    "fin": "iron_bars",
+    "fin_pitch": 2,
+    "fin_basis": "Thin iron bars replace overly wide dark oak panels after V1_r02 preview; material colour approximates dark metallic ribs. Bar connections are explicitly solved.",
+    "terrace_glass": "light_blue_stained_glass_pane"
+  },
+  "lighting": {
+    "activity": 0.35,
+    "night_basis": "img-001 and img-022; placement-based interpretation, not calibrated colour or illuminance",
+    "obstruction": "not placed: exact lamp anchors unverified",
+    "warm_outline_faces_note": {
+      "value": [
+        "front",
+        "right"
+      ],
+      "type": "documentation; fixed in Cloud.lightlines, not a runtime parameter"
+    }
+  },
+  "scope": "tower cluster, open ground colonnade, partial upper circulation and compact landscaped approach; adjacent Vanke buildings, proposed bridges and basement excluded",
+  "estimates": [
+    "Three tower footprints and relative roof heights are hand estimates from aerial/oblique photos, not surveyed plans.",
+    "Cascade floor heights, depths and planting are simplified; no SU model used.",
+    "Rear interfaces and office rooms need further photographic/game checks."
+  ],
+  "revision_scope": "V2: terrace footprint and grouped profile; tower prisms, total heights, floor pitch, site and materials unchanged"
+}

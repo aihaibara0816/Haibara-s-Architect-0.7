@@ -1,0 +1,54 @@
+{
+  "nbt": {
+    "file": "building.nbt",
+    "bytes": 1467,
+    "sha256": "d270a13e2a8f2dea8ad89bdbf5fd21d96e6f9561505b30722b468211467ae9ef",
+    "listed_blocks": 431,
+    "non_air_blocks": 431,
+    "size_xyz": [
+      36,
+      7,
+      14
+    ],
+    "contains_explicit_air": false,
+    "geometry_sha256": "59825b47cabaf9e4051a3ea21ce516599b96dbb89e60a9c88603e26f80aee8c1",
+    "data_version": 3955
+  },
+  "materials": {
+    "minecraft:smooth_stone": 408,
+    "minecraft:smooth_quartz": 10,
+    "minecraft:glowstone": 2,
+    "minecraft:red_stained_glass_pane": 8,
+    "minecraft:red_stained_glass": 2,
+    "minecraft:redstone_torch": 1
+  },
+  "notes": {
+    "occupied_footprints": [
+      [
+        3,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "interpretation": "Red lamp bodies; no blinking circuit or coloured radiance claim",
+    "positions_along_positive_x": [
+      "glass_ring",
+      "recessed_cap",
+      "torch"
+    ],
+    "display_left_to_right": [
+      "torch",
+      "recessed_cap",
+      "glass_ring"
+    ],
+    "board_note": "Exposed underside is a construction demonstration; recessed cap is concealed in the roof context."
+  },
+  "game_test": "pending"
+}

@@ -1,0 +1,93 @@
+{
+  "source_nbt_sha256": "a4c08fd9e77ae3ab6ef53a4183e3ae0f6cb849923f708641d24573402c1c608c",
+  "non_air": 4290,
+  "entries": [
+    {
+      "id": "Textile",
+      "pos": [
+        10,
+        3,
+        21
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 6,
+  "use_checks": [
+    {
+      "id": "Textile.stairs.bottom",
+      "pos": [
+        4,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Textile.stairs.top",
+      "pos": [
+        4,
+        9,
+        5
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Textile.entry",
+      "pos": [
+        10,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Textile.cutting",
+      "pos": [
+        13,
+        3,
+        14
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Textile.upper.work",
+      "pos": [
+        13,
+        9,
+        15
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Textile.upper.bed",
+      "pos": [
+        12,
+        9,
+        8
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 14,
+  "paintings": 1,
+  "official_model_states": 62,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

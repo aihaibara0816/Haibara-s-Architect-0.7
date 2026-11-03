@@ -1,0 +1,94 @@
+{
+  "scope": "synthetic fixture, not measured Canton data",
+  "input": [
+    {
+      "component_id": "fixture.deck",
+      "attribute": "height",
+      "source_type": "photograph",
+      "status": "estimated",
+      "phase": "as_built",
+      "epoch": "2025",
+      "source_id": "photo-a",
+      "source_family": "capture-a",
+      "value": 5,
+      "unit": "m"
+    },
+    {
+      "component_id": "fixture.deck",
+      "attribute": "height",
+      "source_type": "photograph",
+      "status": "estimated",
+      "phase": "as_built",
+      "epoch": "2025",
+      "source_id": "photo-b",
+      "source_family": "capture-b",
+      "value": 500,
+      "unit": "cm"
+    },
+    {
+      "component_id": "fixture.deck",
+      "attribute": "height",
+      "source_type": "photograph",
+      "status": "estimated",
+      "phase": "as_built",
+      "epoch": "2019",
+      "source_id": "historic",
+      "source_family": "capture-old",
+      "value": 8,
+      "unit": "m"
+    }
+  ],
+  "decision": {
+    "status": "proposal",
+    "selected": {
+      "component_id": "fixture.deck",
+      "attribute": "height",
+      "source_type": "photograph",
+      "status": "estimated",
+      "phase": "as_built",
+      "epoch": "2025",
+      "source_id": "photo-a",
+      "source_family": "capture-a",
+      "value": 5,
+      "unit": "m",
+      "normalized_value": 5.0,
+      "normalized_unit": "m"
+    },
+    "conflicts": [],
+    "excluded": [
+      {
+        "source_id": "historic",
+        "reason": "epoch_unknown_or_mismatch"
+      }
+    ],
+    "families": [
+      {
+        "family": "capture-a",
+        "source_ids": [
+          "photo-a"
+        ]
+      },
+      {
+        "family": "capture-b",
+        "source_ids": [
+          "photo-b"
+        ]
+      }
+    ],
+    "baseline_hash": "5cc210914079551a2d2906df88b2c2da0f8d3c2ca05522499d8ab6e92b01c8b4",
+    "automatic_write": false,
+    "policy": {
+      "kind": "length",
+      "tolerance": 0.02,
+      "epoch": "2025",
+      "phase": "as_built",
+      "source_order": [
+        "survey",
+        "photograph",
+        "3d_model"
+      ]
+    },
+    "independent_families": 2,
+    "reason": "explicit_attribute_policy"
+  }
+}

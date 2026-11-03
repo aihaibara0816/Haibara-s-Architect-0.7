@@ -1,0 +1,233 @@
+{
+  "schema": "pazhou-evidence-1.0",
+  "purpose": "supplemental explanatory index; engine does not parse this JSON",
+  "bindings": [
+    {
+      "id": "R01",
+      "component_id": "frame",
+      "image_ids": [
+        "img-001",
+        "img-007",
+        "img-009"
+      ],
+      "image_region_normalized": [
+        0.3,
+        0.04,
+        0.92,
+        0.96
+      ],
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "主楼与两翼开敞段",
+      "decision_summary": "总高96格；主楼宽28、深20为研究试值",
+      "parameter_path": "tower、platforms、bands",
+      "consumer": "build.py: frame/core + bands",
+      "status": "206.75m确认；其余estimated",
+      "review_views": [
+        "front",
+        "side",
+        "section"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    },
+    {
+      "id": "R02",
+      "component_id": "platform",
+      "image_ids": [
+        "img-001",
+        "img-009",
+        "img-011"
+      ],
+      "image_region_normalized": [
+        0.3,
+        0,
+        0.99,
+        0.45
+      ],
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "四道悬挑不同挑深；顶部有开口",
+      "decision_summary": "前沿z=35/40/40/33；顶部4×12格留空",
+      "parameter_path": "platforms[*].front_z; detail.upper_slot_x/z",
+      "consumer": "build.py: platform_cells",
+      "status": "开口存在观察；尺寸estimated",
+      "review_views": [
+        "roof_slot",
+        "top_day"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    },
+    {
+      "id": "R03",
+      "component_id": "soffit",
+      "image_ids": [
+        "img-003",
+        "img-011"
+      ],
+      "image_region_normalized": [
+        0.23,
+        0,
+        1,
+        0.79
+      ],
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "大平台底面双向密格",
+      "decision_summary": "2格节距的铁活板门双向格；与主体分owner",
+      "parameter_path": "detail.soffit_grid_pitch",
+      "consumer": "build.py: if x%pitch or z%pitch",
+      "status": "形态observed；网格间距粗化",
+      "review_views": [
+        "soffit",
+        "soffit_night"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    },
+    {
+      "id": "R04",
+      "component_id": "bridge_ribs",
+      "image_ids": [
+        "img-005",
+        "img-002"
+      ],
+      "image_region_normalized": [
+        0.4,
+        0,
+        0.6,
+        0.62
+      ],
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "窄桥单向横肋",
+      "decision_summary": "沿Z每3格一排横向薄板，保持下方道路净空",
+      "parameter_path": "detail.bridge_rib_pitch",
+      "consumer": "build.py: bridge_ribs loop",
+      "status": "形态observed；节距estimated",
+      "review_views": [
+        "bridge_under"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    },
+    {
+      "id": "R05",
+      "component_id": "canyon",
+      "image_ids": [
+        "img-004",
+        "img-005"
+      ],
+      "image_region_normalized": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "峡谷有分段倾斜玻璃，不是平板实心墙",
+      "decision_summary": "节点(7,58)→(21,48)→(34,61)→(56,48)→(78,61)→(94,49)",
+      "parameter_path": "canyon.sections_y_z",
+      "consumer": "build.py: sections interpolation",
+      "status": "折向参考BIAD剖透；数值estimated",
+      "review_views": [
+        "canyon",
+        "section"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    },
+    {
+      "id": "R06",
+      "component_id": "facade",
+      "image_ids": [
+        "img-001",
+        "img-006",
+        "img-007"
+      ],
+      "image_region_normalized": [
+        0.38,
+        0.12,
+        0.94,
+        0.83
+      ],
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "透明度、横向楼缘和侧向玻璃不同",
+      "decision_summary": "玻璃片+退入1格半砖+外沿活板门+浅色侧皮",
+      "parameter_path": "hardcoded planar_shell / floor_recessed / outer_glass",
+      "consumer": "build.py: bands façade construction",
+      "status": "材料是Minecraft近似，反射未实现",
+      "review_views": [
+        "facade_detail",
+        "side"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    },
+    {
+      "id": "R07",
+      "component_id": "podium",
+      "image_ids": [
+        "img-002",
+        "img-009"
+      ],
+      "image_region_normalized": [
+        0.06,
+        0.58,
+        0.85,
+        0.98
+      ],
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "裙楼开放柱间、屋顶小体量、两道跨路联系",
+      "decision_summary": "两道连接y=8/21；裙楼roof=26；小亭和景观非实测",
+      "parameter_path": "podium; bridges",
+      "consumer": "build.py: podium and bridge blocks",
+      "status": "层级观察；所有平面/层高estimated",
+      "review_views": [
+        "podium",
+        "bridge_under"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    },
+    {
+      "id": "R08",
+      "component_id": "lighting",
+      "image_ids": [
+        "img-008"
+      ],
+      "image_region_normalized": [
+        0.12,
+        0.07,
+        0.98,
+        0.97
+      ],
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "底部离散星点与非均匀窗灯",
+      "decision_summary": "10%候选格底灯；窗后随机占用28%；不是逐灯复刻",
+      "parameter_path": "detail.soffit_light_density; room_activity; seed",
+      "consumer": "build.py + hafusion.lighting.room_lighting",
+      "status": "空间分区observed；灯位procedural",
+      "review_views": [
+        "四向night",
+        "soffit_night"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    },
+    {
+      "id": "R09",
+      "component_id": "interior",
+      "image_ids": [],
+      "image_region_normalized": null,
+      "region_scope": "对应image_ids[0]的人工区域示意；不是像素分割或自动标注",
+      "observation": "只为窗后可见层次补示意空间",
+      "decision_summary": "退后5格背景、半砖桌面、92个示意单元",
+      "parameter_path": "hardcoded office alcoves",
+      "consumer": "build.py: interior loop",
+      "status": "synthetic；无真实办公布局证据",
+      "review_views": [
+        "section_night"
+      ],
+      "record_consumed_by_engine": false,
+      "geometry_implemented_by_case_adapter": true
+    }
+  ]
+}

@@ -1,0 +1,3751 @@
+{
+  "baseline": "HAF04.zip",
+  "sha256": "df38c5b405a6d0f7f0e471124baa192f1a95960c4af9fc019905e415b1bb7d3c",
+  "note": "Original import digests; listed UTF-8 portability patches and 0.6 additions may differ. Historical case outputs remain unchanged.",
+  "files": [
+    {
+      "path": "hafusion/bootstrap.py",
+      "source_sha256": "f1584b4c7816207bb456d9bdf3af1e75e28a8f4a90819d6696eeb70dc92058ad"
+    },
+    {
+      "path": "hafusion/cache.py",
+      "source_sha256": "1b056e4889b895b1f437e4e1475c61f1a4f08e3868b6e3ece81badc8a1136b8a"
+    },
+    {
+      "path": "hafusion/canton.py",
+      "source_sha256": "1ee37ba3a50d2ddb90db7bf90f6aea66583dbd57a2a394672c851179584fb207"
+    },
+    {
+      "path": "hafusion/case_io.py",
+      "source_sha256": "95dd30b5f65de5443ce3bf34c3cd21e46a4892e8bcdc197db0d5b29441c4ac1d"
+    },
+    {
+      "path": "hafusion/classical.py",
+      "source_sha256": "30ea697e6c7a463a6b1291ec5184f8c97ca57b188fdc2b272e53e345ae3cc297"
+    },
+    {
+      "path": "hafusion/constraints.py",
+      "source_sha256": "a38429a920a8493c21af549a119f04d807bdcd74c2d2ce622c2042c906fb5a0a"
+    },
+    {
+      "path": "hafusion/design_handoff.py",
+      "source_sha256": "5e628a3a2f1f9c8f0a7e7940d848c0f0a195ee0392fc1f579ff2a1648a41e335"
+    },
+    {
+      "path": "hafusion/evidence.py",
+      "source_sha256": "5c7ec938b9945959edf749ca48d3f9d12fc3662f2e8775beaaac51f497123984"
+    },
+    {
+      "path": "hafusion/facade.py",
+      "source_sha256": "7621a2362c6c68b66a16498c8fb8556344e19d2d25f2a9002b213c09027d5afd"
+    },
+    {
+      "path": "hafusion/interiors.py",
+      "source_sha256": "e7a533b3296378656812c8df19b3f4669113930a0fe36048ffd99134bb33cbc9"
+    },
+    {
+      "path": "hafusion/lighting.py",
+      "source_sha256": "06b2ccc02151909114f5afefa77b4f07047c8acc2a9633eb26bec85bed3a552d"
+    },
+    {
+      "path": "hafusion/pipeline.py",
+      "source_sha256": "c65db2a3b90e2d4bfee6f6635900148f3181e045337856f7be98c866e3c5e0cf"
+    },
+    {
+      "path": "hafusion/qa.py",
+      "source_sha256": "aafa7683275eb3fea0e9c5c46ea96e9cb97554fdf4a310cb5fd2be4c0dc82a74"
+    },
+    {
+      "path": "hafusion/review.py",
+      "source_sha256": "82997b66a32850ffba6924df8877490e0cb299798c3b4a2e01b20ecc3270510f"
+    },
+    {
+      "path": "hafusion/site_scene.py",
+      "source_sha256": "44d3c9a5ed3cc81e0759a8c1b1e24edc3dda83a99930890568852042facb7835"
+    },
+    {
+      "path": "hafusion/views.py",
+      "source_sha256": "cb093c0ecfdc517ebadde84c459ac69e3bfc5f89b8b6fd3021c9d0eff66e7fdb"
+    },
+    {
+      "path": "hafusion/__init__.py",
+      "source_sha256": "63065235a0a7c4b43d5a89753efb1993e8cd5c4fd6a4032db3f19736996a7131"
+    },
+    {
+      "path": "tools/agent.py",
+      "source_sha256": "c0dbb47e8e9c9609f3d92c78a90e4859171ab8e5fdf19c8838388909f86f0725"
+    },
+    {
+      "path": "tools/archive.py",
+      "source_sha256": "0c3c884a834132730c1ed341b50e1eccc19770672ad54fe622f11e849cf637e4"
+    },
+    {
+      "path": "tools/archive_london_cases.py",
+      "source_sha256": "b644e6d73e35d1f8997ac1bfa611753e2b90093cae07342397f09ee25cef564a"
+    },
+    {
+      "path": "tools/build.py",
+      "source_sha256": "9f4ca32b3b0fe3dd100e9daf57aaf608204131fe30d82f3473e4e0886759c968"
+    },
+    {
+      "path": "tools/deliver_guangzhou_south.py",
+      "source_sha256": "3462b9892b025d373586aa832c3023059913f213ea31312650d357d9e8c11332"
+    },
+    {
+      "path": "tools/document_london_cases.py",
+      "source_sha256": "69dd141ee8fc5fbb43856951e3c71db18509c99752760f769b966e2a61abe31a"
+    },
+    {
+      "path": "tools/export_preview.py",
+      "source_sha256": "ccda09cb3cd1841a8b8a046a0946cd9a4b157bd7ab64b6cc656d799e5098620b"
+    },
+    {
+      "path": "tools/make_london_review.py",
+      "source_sha256": "7465c52a52da4dfa656666e837ea121d512b83a3bd04bbdb9d8ac8c91e3d7375"
+    },
+    {
+      "path": "tools/package_building_case.py",
+      "source_sha256": "cc55f2fb3ead507a799f8469da6850b0dd27b6a9c735bf75f6444505111c1fbd"
+    },
+    {
+      "path": "tools/package_review.py",
+      "source_sha256": "4b6721f9f285d59503978343857bbb5a50c45101bdbf22b33c151cc1ba2e8f19"
+    },
+    {
+      "path": "tools/release_0_2_docs.py",
+      "source_sha256": "bffd945abc7833705c6b0418a2f320ce30a251786424ca86868d19403894280e"
+    },
+    {
+      "path": "tools/release_0_2_package.py",
+      "source_sha256": "5181e4a7600dc7dcf7bda05ef6073912290a2fd3318efa49bca2bb998e719974"
+    },
+    {
+      "path": "tools/release_0_2_report.py",
+      "source_sha256": "090146f8c7565407ed76ded8bef5156a95147d2466596c20f6daa785b8a61541"
+    },
+    {
+      "path": "tools/render_building_case.py",
+      "source_sha256": "159c4b527d666570014809f2c90a89b30474c31356ce3b55642d390a8e678aa9"
+    },
+    {
+      "path": "tools/render_egl.py",
+      "source_sha256": "fa56c6ad8b14414c24b327c28677921be6831c1f767011dd66d0ca9451261d8b"
+    },
+    {
+      "path": "tools/review_case.py",
+      "source_sha256": "330032b7bb37dba686fd1be91c017ee8446280866b7cc2845ad5aca3b7d9f49d"
+    },
+    {
+      "path": "tools/validate_london_cases.py",
+      "source_sha256": "83aeebe6dbc61cb457e33ee5d0225acec2893e6d6ccc7d1106c22bc70550d8e6"
+    },
+    {
+      "path": "tools/validate_release.py",
+      "source_sha256": "321accfe0e4bc1e96db040ddc8028ed846ef2773103b1e1ff6589576925dcbfd"
+    },
+    {
+      "path": "tools/validate_release_04.py",
+      "source_sha256": "01c7be41d6f28a2fe32ba6c8db9d198a8ba5e8c7361a7d7b40994faecb9ddf4f"
+    },
+    {
+      "path": "tools/verify_replay.py",
+      "source_sha256": "dba410825f772f8e2b7def892a7ba271f4eaf4a2c7e5f55c94e9b18aaf7bdd4b"
+    },
+    {
+      "path": "tests/test_bamboo_state.py",
+      "source_sha256": "fca09609f88354689c292446641eb8243134bb32655f6a6869cfb8fb74eb3293"
+    },
+    {
+      "path": "tests/test_classical.py",
+      "source_sha256": "cd054fc46e60fba378884aac3b9359231dd26571124ce6a80141d7cdbe6b5a6c"
+    },
+    {
+      "path": "tests/test_design_handoff.py",
+      "source_sha256": "1d694060e2b2eefcd2479b312af3598168ee6c8f9239e295f9612cf6dae51fb0"
+    },
+    {
+      "path": "tests/test_detail_feedback.py",
+      "source_sha256": "1614f357ebb4a02c45afae2d7fb4895d3613b73f2d1fa4a8bc6f633cf3c21a27"
+    },
+    {
+      "path": "tests/test_hafusion.py",
+      "source_sha256": "7193c5e54ce51b641fb19468955c786dbc38060109d404e1ae44d2a619af68db"
+    },
+    {
+      "path": "tests/test_lighting.py",
+      "source_sha256": "c8a7ee22eadf7afb1453f57e79896e0d5a7ba5baac7f7bf15ae7bfdb82d5f962"
+    },
+    {
+      "path": "tests/test_light_slots.py",
+      "source_sha256": "38955885bb00a845109d1fd8696b21e958b68cdbe9bca62f3d1f1625a8524f5e"
+    },
+    {
+      "path": "tests/test_mesh_write.py",
+      "source_sha256": "cd9daa4347b64bd594398166975b3318a50ee783081bad4217afc21e54f11a36"
+    },
+    {
+      "path": "tests/test_residential_materials.py",
+      "source_sha256": "0f26272fcacf7daf42852fc47e3cbd37f886ad8272d995afd3386ff4b369c850"
+    },
+    {
+      "path": "tests/test_review_contracts.py",
+      "source_sha256": "8ce2674bf6702c4a98059c92be41a927fd1207431195c192b26a59af4d77f0cc"
+    },
+    {
+      "path": "tests/test_review_views.py",
+      "source_sha256": "933bfcd9e5ad30e872d2e20b1696908023a8d62da72dc6aae152d4039e221a50"
+    },
+    {
+      "path": "tests/test_site_scene.py",
+      "source_sha256": "8ceabd350872c4f3d80fd516f89c4ea9f1cf0f7210d3e10d773784e6f9cf5117"
+    },
+    {
+      "path": "tests/test_vertical_facade.py",
+      "source_sha256": "959033f634e936052589b40de02622de93a7df75372b807b00aa76eb23a9240f"
+    },
+    {
+      "path": "ha03/architect/export_nbt.py",
+      "source_sha256": "cf7363c004a0e1a58a44e287e4770dd21b78988cd4d20038cd07dc37823daf55"
+    },
+    {
+      "path": "ha03/architect/geometry.py",
+      "source_sha256": "dd28c6828c6dc1a55998891e835bfaaf915ee8f7fe03c742519a661c71d15240"
+    },
+    {
+      "path": "ha03/architect/legacy.py",
+      "source_sha256": "668147c912376d1cbb1a7ef44ac3469af696b047c82818897c684073abef3b46"
+    },
+    {
+      "path": "ha03/architect/model_compare.py",
+      "source_sha256": "281bc87014a4f9452e1a6b4ce8664ccb89a837c3e24d4b50a506accb42702015"
+    },
+    {
+      "path": "ha03/architect/model_io.py",
+      "source_sha256": "053b5f02ca699fa5dbc9f51c97f42a11de9972762574e7b5ca0c85fee972fd80"
+    },
+    {
+      "path": "ha03/architect/model_preview.py",
+      "source_sha256": "d0edfc6ddd485e04c5a4d6c4954e28f26be19099baca8aca28aa9ae217ea3ec6"
+    },
+    {
+      "path": "ha03/architect/packet_adapter.py",
+      "source_sha256": "1e8a5a31f78a392238e65eeeceea7408a8ff0f3f8247e4a30819dc5cb0db07d6"
+    },
+    {
+      "path": "ha03/architect/palette.py",
+      "source_sha256": "b59da156b10faac63bcfe6a3aa44d39467bd91425ec04b3e43f9e35c5da3f9d0"
+    },
+    {
+      "path": "ha03/architect/pipeline.py",
+      "source_sha256": "fb7440f8a44aa9b98571ab7765cad6770e6ee3ff6db5c8bd26a9b214e8a09a10"
+    },
+    {
+      "path": "ha03/architect/reference_review.py",
+      "source_sha256": "e49e849a4f80aa37c7b7fde0645ef9bd2a4912bfb8fce3fdbfa4c4fd3375ddb4"
+    },
+    {
+      "path": "ha03/architect/render_views.py",
+      "source_sha256": "385dd3d352acc0fac9db10e5a77fb63a7f2c5e4f871c6c67898b27f154f86d3c"
+    },
+    {
+      "path": "ha03/architect/research_contract.py",
+      "source_sha256": "bfcecaede6d069d10e0d7444c3eec924512be37bed4abc8392227e4a546e41f7"
+    },
+    {
+      "path": "ha03/architect/revision.py",
+      "source_sha256": "99a04d44b3ff70b492e4adbf8851dfb05a19ddb22e07f3415cff7490a971ef77"
+    },
+    {
+      "path": "ha03/architect/spec_loader.py",
+      "source_sha256": "ba9f77681ec9a93eba2889a999ebaab0b660edd1e818012ebbdbabf57485cf87"
+    },
+    {
+      "path": "ha03/architect/validation.py",
+      "source_sha256": "049810b51fd93bec16d2fc7840e12c021a532338a870e123e1ccdb2ff009fda3"
+    },
+    {
+      "path": "ha03/architect/voxelizer.py",
+      "source_sha256": "af676f4daa9079c6fca71f2ddb77c7124b4785efbfef5f9ae6773752c9832394"
+    },
+    {
+      "path": "ha03/architect/__init__.py",
+      "source_sha256": "8f8876cfb516458af7f081d53aa8784f8305b6249548a5ef6c56feb01cff6669"
+    },
+    {
+      "path": "ha03/docs/ARCHITECTURE.md",
+      "source_sha256": "ebf83def21e19fde4ec8b721dc226aca81b0dfc1dc08ecc8d29ab4201c396851"
+    },
+    {
+      "path": "ha03/docs/ASSET_INVENTORY.md",
+      "source_sha256": "d175ac07ab7979da098970926a9f9c6a4c316765f700c941d42d22b91b47ac24"
+    },
+    {
+      "path": "ha03/docs/BUILDING_SPEC.md",
+      "source_sha256": "ef56ba76d463028cd94af82997d69e54360a1ff6462e70dbdfda18062415dce8"
+    },
+    {
+      "path": "ha03/docs/MODEL_RESEARCH_0.3.md",
+      "source_sha256": "310eaed464a6cfb2051c35f97ec43122f2fd889859f3e611d390b872fbfc45da"
+    },
+    {
+      "path": "ha03/docs/NEXT_STEPS.md",
+      "source_sha256": "00b8f4d395e626b3f86c7eeaf308c0eb3f0bb3f17762594b32b37169a4fe7704"
+    },
+    {
+      "path": "ha03/docs/STATE.md",
+      "source_sha256": "0fa978b29f58a5fee2300295a25747c878970e73fcc1debc700203c2dfd90b58"
+    },
+    {
+      "path": "ha03/docs/TEST_REPORT.md",
+      "source_sha256": "20475bfa05ac30c4b17a834b442b38bf1691e5648745bb755d87509aeb00a08d"
+    },
+    {
+      "path": "ha03/docs/UPGRADE_0.2.md",
+      "source_sha256": "65c3d4169e18af9a757817526b4fccb76dd4c745ae9a7baf4f7a65c1aef9413d"
+    },
+    {
+      "path": "ha03/docs/WEB_INTEGRATION.md",
+      "source_sha256": "343c059ae9781ae568f4bebca660afb6ca799e30701d1b320fe34f25fa112b6d"
+    },
+    {
+      "path": "ha03/schema/building_spec.schema.json",
+      "source_sha256": "a25714152ef191f3b7cb2d7fe317a5c71cef5acc53bb0f2dccbd73b3440ec55b"
+    },
+    {
+      "path": "ha03/schema/building_spec_v0.2.schema.json",
+      "source_sha256": "52086e8a617666e46a1493c8d6e507c97f6aec5355d34024b848c9800de7fae5"
+    },
+    {
+      "path": "ha03/schema/reference_review.schema.json",
+      "source_sha256": "3a60968b526387b559a0d7aab701544451521cf23453812846bd5219eba79483"
+    },
+    {
+      "path": "ha03/tools/adapt_packet.py",
+      "source_sha256": "72d637b818769532411bf162811ea3e141ceb8d080f1385bacb97b4ff8b92e6e"
+    },
+    {
+      "path": "ha03/tools/build.py",
+      "source_sha256": "f3a959c046169839a6e172c963790f27c706dbefda7602e2a7eb378eb23151b0"
+    },
+    {
+      "path": "ha03/tools/check_model_roundtrip.py",
+      "source_sha256": "a536a4340c24390d7b8dd229a068c125242723eb0962b0514bd93f84b084e999"
+    },
+    {
+      "path": "ha03/tools/create_examples.py",
+      "source_sha256": "176195dc5ae4f4e71a96a04cd999ae90a5d2999c32bc2ca735221d0ee6c1f2be"
+    },
+    {
+      "path": "ha03/tools/create_legacy_overlay.py",
+      "source_sha256": "ca09923878bdf99e04f23121d5586d2e5096a05d70c776ae2ef61272a2239ae6"
+    },
+    {
+      "path": "ha03/tools/create_upgrade_cases.py",
+      "source_sha256": "ca8eece25cc05fa842c96e3503599ff9c49f809ddb579e4d00eaa6589ade346c"
+    },
+    {
+      "path": "ha03/tools/make_review.py",
+      "source_sha256": "eedfa43815a4aa12ccba627ac3747825fe9acb789f94d4e57b7f2b15394640e9"
+    },
+    {
+      "path": "ha03/tools/make_review_schema.py",
+      "source_sha256": "428cab7e270815f1fbfecf4f46a8f6a945da854543ab27f2c905d2aad1265e1f"
+    },
+    {
+      "path": "ha03/tools/make_schema.py",
+      "source_sha256": "81417d20690a92cebde82f75be5d0731b7a4d65d32dc3b27c9b8d58d725e1754"
+    },
+    {
+      "path": "ha03/tools/make_schema_v02.py",
+      "source_sha256": "c5a5a46b7719e1731295c3634b0376ea8116e1412a6ace364c40cdf2d2324657"
+    },
+    {
+      "path": "ha03/tools/migrate_legacy_research.py",
+      "source_sha256": "7561768173b6c837e5f619d4c5aa62fe922d6dd7162585505a1b2b9cd7134b4d"
+    },
+    {
+      "path": "ha03/tools/migrate_spec.py",
+      "source_sha256": "886a4ab686efb145e970e9d43881611c3fa8c28ac4fd0156d1bb753f0f015889"
+    },
+    {
+      "path": "ha03/tools/model_research.py",
+      "source_sha256": "96daff3098596608f24f367ed4be8b7d2b3788b8d385edd4116f854d9949e684"
+    },
+    {
+      "path": "ha03/tools/package_release.py",
+      "source_sha256": "eb9973bc76fd46d7d5c619993c13e01cb84f2b99a8138994d4c5bcbc2647aa5f"
+    },
+    {
+      "path": "ha03/tools/research_tools.py",
+      "source_sha256": "e16f47c950b4af5b8ad5a0071be136ce54058bd2ea923dc2886e06607a82048d"
+    },
+    {
+      "path": "ha03/tools/revise_canopy.py",
+      "source_sha256": "c21dd5c5ac1422a8bacd1c953e924801c734fc91f3c56c657174e2a25d1900b0"
+    },
+    {
+      "path": "ha03/tools/run_all_tests.py",
+      "source_sha256": "e07b7d49ac3519954b2dd9b897044bbd8b63ed23441fa89c07c290f6a2a0b227"
+    },
+    {
+      "path": "ha03/tools/run_tests.py",
+      "source_sha256": "e7bb2efd97ed3975e3e3931b54662de31aae4ed8707277849d436e9119ca199b"
+    },
+    {
+      "path": "ha03/docs/handoff/01_项目目标与完整工作流.md",
+      "source_sha256": "b399f6c026fddcb2a59548a2f4c2cca7345ce2a55afc83362e0384cd25db19f5"
+    },
+    {
+      "path": "ha03/docs/handoff/02_已有成果与待核实资产.md",
+      "source_sha256": "ffbd105887820c2614006164507824fa6a667e29011b4cc00d0545683c653189"
+    },
+    {
+      "path": "ha03/docs/handoff/03_给ChatGPT_Work的立即执行任务书.md",
+      "source_sha256": "aa5137a697251bd86f5a1dc0dd28fba193df2b9ff4a276efa270f5272ff9a7c9"
+    },
+    {
+      "path": "ha03/examples/canton_reference_v11/checks.json",
+      "source_sha256": "1665ae03be82256301de92d95392f32c9a1221205cc6b746b1da4c09707bda78"
+    },
+    {
+      "path": "ha03/examples/canton_reference_v11/packet.json",
+      "source_sha256": "aefe5331aa3681959b650b8e3adaa809670f023ee2796db3bb15313fb27fb593"
+    },
+    {
+      "path": "ha03/examples/canton_reference_v11/README.md",
+      "source_sha256": "7f28497865817a5d6fedf68b1a23565b507d877cea30419a52f331732904876d"
+    },
+    {
+      "path": "ha03/examples/canton_reference_v11/reference_box.json",
+      "source_sha256": "9e04dba1717740ebb4d7f6cdf4cee299ab97a33bf87849853e4098d0455ba436"
+    },
+    {
+      "path": "ha03/examples/canton_reference_v11/research_context.json",
+      "source_sha256": "27232f20a5f17ea7304cd28d8e195c45d6d72e341e6053de2dbf2faf4fbcdc1c"
+    },
+    {
+      "path": "ha03/examples/canton_reference_v11/validation.json",
+      "source_sha256": "b371b0108d82304e8e7477ae6bbc00e43a1d83baa055286e8ae01bb0756b1f9d"
+    },
+    {
+      "path": "ha03/examples/legacy_gafa_research/building_spec.json",
+      "source_sha256": "c052f4bc461ac4c926977a972c5829b12fe17c597834c808d0821fba59f67640"
+    },
+    {
+      "path": "ha03/examples/legacy_gafa_research/construction_overlay.json",
+      "source_sha256": "eec23847bb286f8c31404b81a4768564d9b386036212bd7864291706d3f332e3"
+    },
+    {
+      "path": "ha03/examples/legacy_gafa_research/migration.json",
+      "source_sha256": "9b92bbf88dd7da957586c1dc79d37fc47453f8f546b044e40624e476659f72f7"
+    },
+    {
+      "path": "ha03/examples/legacy_gafa_research/original_evidence.json",
+      "source_sha256": "832a8e9169b2a4561f1b19b4b6451ade8a040b3867b9bd59bbe4a1470800ad97"
+    },
+    {
+      "path": "ha03/examples/legacy_gafa_research/packet.json",
+      "source_sha256": "507eb97982df84352ec401a47f3f3114730e8e3cbaec976245b6519fbc3caa7d"
+    },
+    {
+      "path": "ha03/examples/legacy_gafa_research/research_context.json",
+      "source_sha256": "93287297e3e891e7a0e44df55bce8e4fa25e0f808d0ff5ca169cd44c6b908d9c"
+    },
+    {
+      "path": "ha03/examples/retail_store/building_spec.json",
+      "source_sha256": "81024e7f5853d2439368ac95675935a1c243aee72df9ba3e1724d7d7ce1e4463"
+    },
+    {
+      "path": "ha03/examples/retail_store/construction_overlay.json",
+      "source_sha256": "e148d68acf5bf757f02ea8c6b597c82afb0946a8d87c85c4757794def3d967b7"
+    },
+    {
+      "path": "ha03/examples/retail_store/input.txt",
+      "source_sha256": "860a6cf9721c382bfd30b47a691dd222d69af88bf5e74f3eb93ff70491068654"
+    },
+    {
+      "path": "ha03/examples/retail_store/packet.json",
+      "source_sha256": "c5432df533e2b9a0404b8b8e4ae679dcdc537b50964bdd22f6d927155858c76c"
+    },
+    {
+      "path": "ha03/examples/retail_store/revision_canopy.json",
+      "source_sha256": "5c32f4ca741afdd06b026cb22b668bdf5cdcf7232300b29434df247c3839fbac"
+    },
+    {
+      "path": "ha03/examples/tower_segment/building_spec.json",
+      "source_sha256": "e8d74f2cf39053dab4c98aeb253742596b00181a142e3300be6e8ba34a065d3e"
+    },
+    {
+      "path": "ha03/examples/tower_segment/construction_overlay.json",
+      "source_sha256": "29d9867fe722e89ee2b4a741acf591e67f942ae25bda278a00c2458f7a385d44"
+    },
+    {
+      "path": "ha03/examples/tower_segment/input.txt",
+      "source_sha256": "eaeedd3b88caf935b02107b1e4ce2ba3aec28e870212626e08c6d587d754ced0"
+    },
+    {
+      "path": "ha03/examples/tower_segment/packet.json",
+      "source_sha256": "da71aec8012322eb19f3b052ebafa2d28ea67740ed2300482204d13d7ac2b8a2"
+    },
+    {
+      "path": "ha03/examples/upgrade/legacy_review.json",
+      "source_sha256": "fa0cbca40891ecf54938d9b420e68751625247fd1c8fe96aad252efaac81a5bd"
+    },
+    {
+      "path": "ha03/examples/upgrade/retail_bound.json",
+      "source_sha256": "2fb5317181f2726b62183c45cc99e7bf910cc4c113dce0c335193b57b33580f2"
+    },
+    {
+      "path": "ha03/examples/upgrade/retail_edit.json",
+      "source_sha256": "97a8e8ca1893424076756c7ad363d73e9c85cc2898153c6206f755d4964c0061"
+    },
+    {
+      "path": "ha03/examples/upgrade/revision_request.json",
+      "source_sha256": "1a9785b0c7f3641475d2a3a6f881891c28647cae5d3ca5d0872953e8cfd06b61"
+    },
+    {
+      "path": "ha03/examples/upgrade/legacy_gafa_colonnade/building_spec.json",
+      "source_sha256": "9d09be879c86c525e14c213d9335990888bbd8bceee451169ab28cc5e524b336"
+    },
+    {
+      "path": "ha03/examples/upgrade/packet11_roundtrip/building_spec.json",
+      "source_sha256": "c6557081506b5c4015396459898e6f9c59ae6bf922360c94868c28f7d7de5d1f"
+    },
+    {
+      "path": "ha03/examples/upgrade/packet11_roundtrip/construction_overlay.json",
+      "source_sha256": "a108149d902349bdb0bd925c28a0521e9312642bc7c53599dddea9aae6d0aeaf"
+    },
+    {
+      "path": "ha03/examples/upgrade/packet11_roundtrip/packet.json",
+      "source_sha256": "e38bb68c481445b18f12ff689f253507c24df72fa4f36cc1c675e17f3b5b826f"
+    },
+    {
+      "path": "ha03/examples/upgrade/retail_store/building_spec.json",
+      "source_sha256": "bc623b54587d6e05ad3ab01b8ea4c2f24194644f3f0bb979c06aec1f8ef15887"
+    },
+    {
+      "path": "ha03/examples/upgrade/retail_store_revision/building_spec.json",
+      "source_sha256": "1f6630a0b1adf2659ec6ab22c98fe61a9b6ffa577b52b32a97e7566f6f78ebc4"
+    },
+    {
+      "path": "ha03/examples/upgrade/tower_segment/building_spec.json",
+      "source_sha256": "d90165a35223b2e97c78c454ba7cf8d813bd62b17cf08015dc6623039e7dc6bf"
+    },
+    {
+      "path": "ha03/vendor/building_reference/SKILL.md",
+      "source_sha256": "558eba0c1acaf683a53175fda0e5173586647c3b4d1d3fa3c51e95e2474fdec1"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/AGENTS.md",
+      "source_sha256": "e5e5e0befdb7e57d774ce5f4457f4664bc35bb2c9a08912e20fccb3cc81f7d88"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/build.py",
+      "source_sha256": "232ece56c20d6a9a3e26f1e842d7ebed47da80a2faf5477752479ae0c13c2c82"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/README.md",
+      "source_sha256": "2ff13002123435917584d6238e938b6a5fdff894cc2b7cf65f566e4ec7447cdc"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/release_manifest.json",
+      "source_sha256": "2d0cdb79c9374169dd4a08932373cefb06ed5246b05f3ed0fb33aaf31180aa87"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/STATE.md",
+      "source_sha256": "bdaab2238ec7cab7c5556cd08efdafd4e5b09bc25db231382e39e6c6eae8e722"
+    },
+    {
+      "path": "ha03/vendor/building_reference/references/architectural-brief.md",
+      "source_sha256": "bc718cb5114c79a8eadf62e2f0c599ac28cd9eee45df0e4791df082e4b4f9045"
+    },
+    {
+      "path": "ha03/vendor/building_reference/references/data-contract.md",
+      "source_sha256": "3bdd70260a888d225eb5d111679ad250ac99859f2de6c0028faadc93f5850d75"
+    },
+    {
+      "path": "ha03/vendor/building_reference/references/download-manifest-template.json",
+      "source_sha256": "c4857ae95d596224673a2bff41cf6b34bf15f0e7128bfe935e9f91fb8e0e4b4c"
+    },
+    {
+      "path": "ha03/vendor/building_reference/references/download-workflow.md",
+      "source_sha256": "60c0a85b9de19a931115c7a70c5a12fef875e0c137490b64fb587737afe31577"
+    },
+    {
+      "path": "ha03/vendor/building_reference/references/packet-template.json",
+      "source_sha256": "673ed8dc6616871e62a00aa0925b41dbfc6b262dafd9446c52fb9d885bbece29"
+    },
+    {
+      "path": "ha03/vendor/building_reference/references/packet-v1.1-template.json",
+      "source_sha256": "9eeed1141b54d65eaf8b242924aa5d495507693c146573c8e9f3af2e32c04bb6"
+    },
+    {
+      "path": "ha03/vendor/building_reference/references/reference-box.md",
+      "source_sha256": "bf20fef6bbe2471d07d06ec43a7d8488133338078f5d6480fdd9109ffadcd5fe"
+    },
+    {
+      "path": "ha03/vendor/building_reference/references/report-template.md",
+      "source_sha256": "f5b9e1390abaff5896e36cce5a1e4c8f47663f8baf562ad93ca8cc2e4b7f7f22"
+    },
+    {
+      "path": "ha03/vendor/building_reference/scripts/bundle_reference_images.py",
+      "source_sha256": "131505f0a80bb72193acb710aa51c9c1fbaf808d9105e81f1601048265b2a2dc"
+    },
+    {
+      "path": "ha03/vendor/building_reference/scripts/migrate_packet.py",
+      "source_sha256": "a5532539998a87bc3742f37f6bc9758cda81cfa1b51fccb0331f0e5d6f7a7f81"
+    },
+    {
+      "path": "ha03/vendor/building_reference/scripts/reference_set.py",
+      "source_sha256": "063506fa0aee91d2955004c541a0181e8e299231c9cf2a14311373199000c756"
+    },
+    {
+      "path": "ha03/vendor/building_reference/scripts/scale.py",
+      "source_sha256": "b2b0a127c6fc5913e009a62d2dcf14661a67cd294c4db434673ae286b3a40b39"
+    },
+    {
+      "path": "ha03/vendor/building_reference/scripts/selftest.py",
+      "source_sha256": "de6ee585803807edf4749788b80ec354ce870b72192457d221869462e71b2ad1"
+    },
+    {
+      "path": "ha03/vendor/building_reference/scripts/selftest_bundle.py",
+      "source_sha256": "0ef60feab2a41cf8cfc59c879560ccfe87cb1648253f4f731bf0232169fd710f"
+    },
+    {
+      "path": "ha03/vendor/building_reference/scripts/selftest_reference.py",
+      "source_sha256": "ba976a6855065b95a93c32c1805e20e63c4dfab9182251ae3fc3314d08ed85fd"
+    },
+    {
+      "path": "ha03/vendor/building_reference/scripts/validate_packet.py",
+      "source_sha256": "2a14cf10b663fc25b95a9376052752fea1ce043e69a6aba63b038759d14efe51"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/reports/browser_controls.json",
+      "source_sha256": "226f5e4729409c75eda5cadb9979f26157bfe6adffd381e7d602f9d3c4ca4652"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/reports/legacy_inspector_tests.txt",
+      "source_sha256": "8e6d94936061f6bbc5527e5599c446fcaabc60850fc00b049a818b83a80031a4"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/reports/new_tests.txt",
+      "source_sha256": "0f297352bfd7ecc9a8e00cda16b18466b877e3ff0f56e77b421e7751e415814e"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/reports/reproducibility.json",
+      "source_sha256": "97ff7a339189c33b1c3cc35581436f3f5a8283e474b3c114b2c6ce7c650dc9d6"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/reports/v001_v002_stair_diff.json",
+      "source_sha256": "af96012753522c5938f5312ae752e52d3d5ef5b70b5d223d49c417277352fb21"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/reports/validation_status.json",
+      "source_sha256": "0bd4620bb93590fd5d315ea68c03ae39ea731b24b388167f76a697700169a0e2"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/reports/visual_review.md",
+      "source_sha256": "3e7be6ba7143029c82b82f8b2910f2b567bebb059bf8e3d8f3d37587cf934085"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/tests/test_buildkit.py",
+      "source_sha256": "b12cb75e64e806e11db0e202af69d6538da1287efce67ba046cf87af51d60353"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/tools/capture_previews.py",
+      "source_sha256": "5211b2d5660cb50c2cb29f8c20ec3048efea08edf6465a567e70dc24b3fef69e"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/tools/gafa_colonnade.py",
+      "source_sha256": "3ffa17ec1e8dee6280f77640f2b48a8545ad000598cf0d3d1140f7d0c715bfc3"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/tools/inspect_build.py",
+      "source_sha256": "4ee3f59ef2fe3b5139a383b079ea73aaa4fb486c8cf67dd01678e3f874ef7902"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/tools/make_viewer.py",
+      "source_sha256": "d1ce552a7907489c3c6a0e556f410e5600cd1224f9dc30046567dc80147c48cf"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/tools/README.md",
+      "source_sha256": "2278e40b142f148c6db67535d89515e27d9c98b748d69a92f483c409f1b5b1eb"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/tools/voxel_core.py",
+      "source_sha256": "117eb7af8f87f23f95f3a18f978638d263026694b9cd98ef0659ef4e1cf8fef0"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/CHANGELOG.md",
+      "source_sha256": "12f842d9b5fe08488553a4e754abe3b9b28a0945ad921bc89e5dfbf993bdd83c"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/SKILL.md",
+      "source_sha256": "371db6c64a14d90df27a3ff777d884d6934b927933a468b7fcc9b5aedf435293"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/START_HERE.md",
+      "source_sha256": "5dceba7ca49bdb964383b7005d4136f5fbc995fde9600263c19333835c283525"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/evals/cases.json",
+      "source_sha256": "b1efe7f8e9c4d884d29307696420ef65aba1d88429020397df9a15883f9a9279"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/black-box-study.md",
+      "source_sha256": "d1c9b9e12971c90021f324009c85a1a5078c4ded6fa0b5e566e1f73256190596"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/building-routes.md",
+      "source_sha256": "6f8ad3544552641cebe1a3411df6e4a9aab5cd538638df87bd999a5076d0abf9"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/evidence-and-scale.md",
+      "source_sha256": "27f227eb55d18079241d6142a85b274b0560d4bb14805d34bacfcfadf41f55d4"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/execution-first.md",
+      "source_sha256": "bfbb1c72546cd55d9e5fd8794130a92e755d5f27ebb31915c861c7d66afe511f"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/export-and-qa.md",
+      "source_sha256": "a640f892f1f40d694f1e17fc1717d515242891ae4766ea306a98563b47eadf90"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/sources.md",
+      "source_sha256": "3786c7aa2401430bd84a9cc2805105eba5e2f7052a954689cb93b6a589ec3bb3"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/reports/unit_tests.txt",
+      "source_sha256": "cbc67c8826c238606883c9b6d024eaf274b7ca02eced13bef9f7021003a55280"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/reports/validation_status.json",
+      "source_sha256": "e4493a6db1e743d4b76a92f16e833bc5a6cedf21040dafb2bf39414e9a544a6f"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/tests/test_inspect_build.py",
+      "source_sha256": "957c6c5a174dd0c5409eaebf0e37d762d46b20ca5b8cb7c52ce26e58428d9780"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/tools/inspect_build.py",
+      "source_sha256": "4ee3f59ef2fe3b5139a383b079ea73aaa4fb486c8cf67dd01678e3f874ef7902"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/tools/README.md",
+      "source_sha256": "46c76d1c93218bafe930cf37fa759f6fe8cfc70bc0c9739e91a5e2fc3d11c791"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/dimensions.json",
+      "source_sha256": "69dcefff1ede6a32a0a21cb1530896243d322ae0b9ab3e4d22a10d70e3d88b74"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/evidence.json",
+      "source_sha256": "cc736627a57f91b33c79510db544d9728f9cd755b2611d44a1d6c275f5619b6b"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/placement_manifest.json",
+      "source_sha256": "f407da369c9bdac4991ed294cde54d29873e539639dfcf02ad49e9b1404ef68e"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/project.json",
+      "source_sha256": "313ebc5ac3b11fd13d25dbf18ca653c7681a8fc0e20c613f8554638e1f512a57"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/review.md",
+      "source_sha256": "8cf2eb85d79896dcc8bd09f5d3dfb65b73a1c14117b331c7320a2038e3b61514"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/run_record.json",
+      "source_sha256": "75e494a9d1f2d82b2e14d2396bba5188512568864b06829696234dae4aaad934"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/STATE.md",
+      "source_sha256": "dd2468e86633a392b39d764228d7d63c0d0c855c29c3f1afa1a04d5ae88bea8b"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/study_parameters.json",
+      "source_sha256": "bcc725bada2e09be1031d666d3a61c93327c9667002bc74634e4d0d7d82af774"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/projects/gafa_admin/dimensions.json",
+      "source_sha256": "f93962cfb0b995d41bd2788e0c10609c4904d5386b00bd463344e14995afee68"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/projects/gafa_admin/evidence.json",
+      "source_sha256": "41e5d6e41dccc37431cab283c920902c40b8fed59ba18820794a9e04b176005e"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/projects/gafa_admin/parameters.json",
+      "source_sha256": "e5ffb79cf695b0613f6db4e77b8e3abd9aa67586563cc00a1d02cb40648eb339"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v001/components.json",
+      "source_sha256": "fbf6fedde3913f915a58e90ec2b6392fcf4a3e73e54bec815b493c208458a77a"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v001/materials.json",
+      "source_sha256": "f6de6eaf4971a3f2de71331ec121768d2fe98eefbe8f61bfe46d9c5df7893a81"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v001/model.json",
+      "source_sha256": "ea319d8857a37459a3603804941953ec78075c354f404cd7eeed66b8e8c6fd17"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v001/parameters_snapshot.json",
+      "source_sha256": "c54223b1fb977407dc99492b2a7fddc4b420f7175d8934acda77e01943bc38ea"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v001/placement_manifest.json",
+      "source_sha256": "ae1356fc1def1c4d0d5338690cc09b711578fdc4722d2d2768918eae7c5d1d05"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v001/qa_report.json",
+      "source_sha256": "6cdf957a785c181a79da675012811b7dbd504181cce4307bbf0e2759851ff7d7"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v001/run_record.json",
+      "source_sha256": "92dd3568b70975d1f92f0db28ebe6c8056d840f40f539e1c1cc335e9ffb41926"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v002/components.json",
+      "source_sha256": "27dfd3fcf35a180bf0237bdb5874070576dc306265aabe5ca687ef148c38a9c3"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v002/materials.json",
+      "source_sha256": "a3e5997fbf49c887f3eac0df876826214a5e1a14595ab90ea122f1d352f1df27"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v002/model.json",
+      "source_sha256": "e8501407577b3882a6d3797c796d5a42f55c4fbabd61cca0ecf5f902caf0d147"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v002/parameters_snapshot.json",
+      "source_sha256": "c54223b1fb977407dc99492b2a7fddc4b420f7175d8934acda77e01943bc38ea"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v002/placement_manifest.json",
+      "source_sha256": "0a175013788ea35a6bf9972f21ab14ec5925ec2d758f64a8768f87eca39ee382"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v002/qa_report.json",
+      "source_sha256": "d3427575aedb785b084dc6f45ba5a2a48729809641d1892b016204fa5edcddff"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v002/run_record.json",
+      "source_sha256": "e93425a386cc4ea9eb0ceceff399fa077a6e48c3ed7b4e2fa0025fa482d7f2fc"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v001/previews/render_report.json",
+      "source_sha256": "482862e416443b480e45eeb22be54d16a1b162e2807a751f258df49bb29cb25d"
+    },
+    {
+      "path": "ha03/vendor/buildkit_v03/runs/gafa_admin_v002/previews/render_report.json",
+      "source_sha256": "ae8ad3cbe0d6469c6583f1ceced3e8985e4dfda60c434f93f2fd28c50cdd4a30"
+    },
+    {
+      "path": "case/src/archive_v5.py",
+      "source_sha256": "923104ca8a63ff3d758f0fabfd2dcfa76ebef5969719229906345b70696408c2"
+    },
+    {
+      "path": "case/src/build_v5.py",
+      "source_sha256": "b803401d1ad656efa0339b186a97fa9442dd38d6b4946316231bfe387ab286e5"
+    },
+    {
+      "path": "case/src/common.py",
+      "source_sha256": "5561a931d1c0dfdadb2c57cecd97f7cffaf0869f9768525105e9bbc5c6b0ac40"
+    },
+    {
+      "path": "case/src/hybrid_geometry.py",
+      "source_sha256": "cbe01cac3e0bc245932a6c788f97be1e1b6e4b59ed495ab5cb76ad49bc887395"
+    },
+    {
+      "path": "case/src/make_research.py",
+      "source_sha256": "70ce0b5d0505e480d4783c1b4991209edf19a02a21430c79a26d44f704c6479d"
+    },
+    {
+      "path": "case/src/member_shapes.py",
+      "source_sha256": "0f024a8504c000172e18c5a58855f6e5b9ab2314c8be844e19230af186c4f9ad"
+    },
+    {
+      "path": "case/src/model_route.py",
+      "source_sha256": "89ce5c0178795d1f8c356902ff582306fce4a2a0f19ae6ae2fcc92bb6291fc8a"
+    },
+    {
+      "path": "case/src/open_lattice.py",
+      "source_sha256": "f6a71b9c7026c88bdd2f8576e5445aaa82fe08b787bc21af83d39be5202660c0"
+    },
+    {
+      "path": "case/src/package_v5.py",
+      "source_sha256": "87c52a10c39fcee907a8f4181c837d8d7e0ccc2e07fb6c4cf5e8d272e400ebff"
+    },
+    {
+      "path": "case/src/qa_files.py",
+      "source_sha256": "afab781ee7196e18a9ae44566042a9c157609c268626b6ba7e34ee28582bee25"
+    },
+    {
+      "path": "case/src/v4_geometry.py",
+      "source_sha256": "1e872b42b4bb304d3403c29d3f368c306750a49734bb20b1ee1c888c47ab383a"
+    },
+    {
+      "path": "case/src/v5_geometry.py",
+      "source_sha256": "7584f58b6ded125987e99e48eb6d1f8a78c63a803b8553fa374a5c176812f07b"
+    },
+    {
+      "path": "case/vendor/inspect_build.py",
+      "source_sha256": "4ee3f59ef2fe3b5139a383b079ea73aaa4fb486c8cf67dd01678e3f874ef7902"
+    },
+    {
+      "path": "case/vendor/renderer.py",
+      "source_sha256": "aa3e655443999317452607284179a69445abcc6712232fed6552665ce0a24e29"
+    },
+    {
+      "path": "case/vendor/voxel_core.py",
+      "source_sha256": "117eb7af8f87f23f95f3a18f978638d263026694b9cd98ef0659ef4e1cf8fef0"
+    },
+    {
+      "path": "docs/civic_capabilities.json",
+      "source_sha256": "0bae38170f8e9486a23e7f52ffa4d5b15cc9b35961df1dceac8c4ee32cb73d6c"
+    },
+    {
+      "path": "docs/design_catalog.json",
+      "source_sha256": "1a53b1b40310dd151c70ce9eb55bdc4b0aa1477c528ad2ae9b956f17f9a027d7"
+    },
+    {
+      "path": "docs/HAF_0.2.md",
+      "source_sha256": "d0f5b6cbb69efac7207649cfd18465e6a44ea55fc217e231899390c304c7506a"
+    },
+    {
+      "path": "docs/haf_0_2_capabilities.json",
+      "source_sha256": "0d5a04757297eb610b01556e8ed364b514c48520f7f4dad56138b9e07319a767"
+    },
+    {
+      "path": "docs/haf_0_3_capabilities.json",
+      "source_sha256": "c0029ed9208260714d2f94b40cbf97b4383def3955c79e8a9a484ee42157dc44"
+    },
+    {
+      "path": "docs/haf_0_4_capabilities.json",
+      "source_sha256": "b06bf31e4b7fa673934a1235a5bc53f6ffb2bd4cc656fa898094f6aa06caa58c"
+    },
+    {
+      "path": "docs/haf_0_4_workflow.md",
+      "source_sha256": "d3b71d465ac9fd5bbbe23cdae8878ba44019895882e8c2dca95f9aa9fe3a884a"
+    },
+    {
+      "path": "examples/handoff/civic-scope.json",
+      "source_sha256": "919187b2f8ee3e180e36c27c59c67122fa535cd400b4f7e49152e9e2abe23d1d"
+    },
+    {
+      "path": "examples/handoff/library.json",
+      "source_sha256": "135f23786c07ec398daac782700c5236264652cbbfdea73aad4bc738641b0928"
+    },
+    {
+      "path": "research_lab/alignment.py",
+      "source_sha256": "74ed6b3418328e88a42587c2b7059faaa757cfc5b0e2a0ac0c44aa7721cf8b50"
+    },
+    {
+      "path": "research_lab/evidence.py",
+      "source_sha256": "91cf0930fbbfb628786faad3b47cb5a3c2ee4ec62abba20542b33dd82955e50a"
+    },
+    {
+      "path": "research_lab/run_experiments.py",
+      "source_sha256": "50aff175fc2e7fcdf741085abcbdc88ed3abdd618f81e698c082ac8ba07055bc"
+    },
+    {
+      "path": "research_lab/stage_cache.py",
+      "source_sha256": "6a90f3ecc136f5c243dfdd98ffa402719764a3602e91926499ab219087d3865f"
+    },
+    {
+      "path": "research_lab/test_lab.py",
+      "source_sha256": "98b64197d7e787660b227a1e46b82e9c4094a12e0224e1060e77d40f3d0663b8"
+    },
+    {
+      "path": "upstream/PlanCraft/LICENSE",
+      "source_sha256": "aaa917767ae12835b3d71af1b4211a2291e64704e6a9839c6ce735d197e20fc7"
+    },
+    {
+      "path": "upstream/PlanCraft/README.md",
+      "source_sha256": "af5fe081c4d19ecc618fe2c0afb0c0a207948dded28feb8639074c15216197cf"
+    },
+    {
+      "path": "upstream/PlanCraft/docs/buildpaste.md",
+      "source_sha256": "b518d0adcbce7bde2f7b996fb489008d563ad96c9bb1b844270ff063445d07ba"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/README.md",
+      "source_sha256": "c007df80b75777c1ddd3a9de43554865ff9073557eccaf0d0a7c56a6a6e61d41"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/requirements.txt",
+      "source_sha256": "fdac6b8562178b411bd728a64493c62655f9f3bcbae13e8b974765c549d3451a"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/buildpaste.py",
+      "source_sha256": "a2ef1d226bcfd077f9fd73a476fc462c8b598eb05fe4651d55a75d069b41ad03"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/grid.py",
+      "source_sha256": "8717d8aae1644b738da849e26acbb1e3c6685a368e022fc975e563b877077636"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/model.py",
+      "source_sha256": "40ed3ef9bc63f07815c515fb61d51ce82023fc40015502ae5ecc082b62a39039"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/pdfplan.py",
+      "source_sha256": "a2b111d12432573083b478da5aa16ae8ff06f9298d414c03713ab7bf52396dda"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/preview.py",
+      "source_sha256": "d7733cf387e0f1ca24122c7bb13bcc45e169dc7e4e9af60eee302cb6d3c10b4f"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/project.py",
+      "source_sha256": "31781f5560664903e7adbf4f670e9c8787c910af5e95c59f1159ef2b5820f196"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/publish.py",
+      "source_sha256": "a490920da4bfabeb99668f16fcc1a361ebb26bed0b1140931ee9edd2bf91c7d9"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/registry.py",
+      "source_sha256": "76791d8cef1949fe638196147352e2c24b182476ffe4a787b72e891c07eec595"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/review.py",
+      "source_sha256": "8446272f7a4efdce9c258906d64fd15d54b27e33cdf5320e3ab8d222b4777676"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/validate.py",
+      "source_sha256": "8230af0803d5871fcb05937e911829372a364445789d1b673d3ac3cc20971fc8"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/walkthrough.py",
+      "source_sha256": "1cbf77e08c8d778fb101baea29c6130f6534e97115cdb75313545d03a9f63bc5"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/__init__.py",
+      "source_sha256": "ca73e4887e18146d3edcf3a73b77a2bc24cce4a2113613c18fa178c028506e4f"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/building/__main__.py",
+      "source_sha256": "f2f572475d31fcad85cb082218c6f387d44f2b8a5ef8d3f3ab156b4cf9ce9971"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/tests/test_model.py",
+      "source_sha256": "718b6510cbab708e7bf369f67b3c2b53b4e3665acbc94b0e4a0d6ff2366deae7"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/tests/test_publish.py",
+      "source_sha256": "b7ac087260b32a74c6d81f1d4d20def92916fab1f7c5bba9fbdbd14018629373"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/tests/test_review.py",
+      "source_sha256": "2200a9506c9cef7ee391734e27b5858b25582d0bb085c9c1403244f5596a1d55"
+    },
+    {
+      "path": "upstream/PlanCraft/tools/building/tests/test_walkthrough.py",
+      "source_sha256": "43a480152d2c269ebcb43251c61fc24f3ec9f75e85722c3a5fd5bba974d7db83"
+    },
+    {
+      "path": "learning/case_registry.json",
+      "source_sha256": "d8dcc43daa141f6078a6d9efa0154657dc4719f18a23fd623791139b6664161c"
+    },
+    {
+      "path": "learning/ctf_night_detail_study.md",
+      "source_sha256": "2131b140cf6ac3e25f0fde92590e01a2c0b0f83bbf6f084bfa70791e1421d0a0"
+    },
+    {
+      "path": "learning/customs_v3_user_acceptance.json",
+      "source_sha256": "7cb20cd685a35ee266cf5ab51e362f87a0d748e7925bbb5075a51500d3c49bc8"
+    },
+    {
+      "path": "learning/feedback_ledger.json",
+      "source_sha256": "ce47e1b2bc16efd7e8e1d9557dc5e005a79da4b060b08126491bcd6893ba19b4"
+    },
+    {
+      "path": "learning/guangzhou_customs_v1.json",
+      "source_sha256": "8e6b36b64ee352b1391eaa3c8db0d3dd8568fa3310c361807a95cedf1526e4bd"
+    },
+    {
+      "path": "learning/guangzhou_customs_v3.json",
+      "source_sha256": "b969f719c564b8602ba11701d73feb5e7d1afa3584abc2c9f0611c77cce94276"
+    },
+    {
+      "path": "learning/guangzhou_memorial_v1.json",
+      "source_sha256": "449c27ee9e4d00de46ccc08f2b7ba9ef12960cdcc66c9b0974767167f14346aa"
+    },
+    {
+      "path": "learning/guangzhou_memorial_v2.json",
+      "source_sha256": "e102e95db0a02efcb9469834d9b753b5a68d8cf0595fc84632b4dfa26a5ffdcc"
+    },
+    {
+      "path": "learning/guangzhou_south_v1.json",
+      "source_sha256": "6948d158a321fe5d5a556353a18deb667108b001a78eeeaf50e1bfe6efcc5b85"
+    },
+    {
+      "path": "learning/HAF_0_3_release_plan.json",
+      "source_sha256": "53d4a08e0624a1700213ec42fe8b777456b0f325b842efaa563c719872441f75"
+    },
+    {
+      "path": "learning/london_western_v1.json",
+      "source_sha256": "659c668e1d59ac950fb18bbfd3122cbdde9f5f9269fe53b98fe034416c7150aa"
+    },
+    {
+      "path": "learning/namsan_site_v1.md",
+      "source_sha256": "ce2fc3a76509781708d4d37c550f558033711fe0620544935e34634daaa5ac7d"
+    },
+    {
+      "path": "learning/nanshan_cloud_v1.json",
+      "source_sha256": "fbae0a02eb967d73508933a768added1cd10b20e76277ad587bf25f4a4322b28"
+    },
+    {
+      "path": "learning/nanshan_cloud_v2.json",
+      "source_sha256": "eabfe139e534b2146ceb1b230636fbd8b2ce68edafd90759d9e95c38871687e7"
+    },
+    {
+      "path": "learning/pazhou-feedback.json",
+      "source_sha256": "6502afc87ee35326e05618375e2e2d8502d53549c5389f7113e6590e02d17509"
+    },
+    {
+      "path": "learning/README.md",
+      "source_sha256": "8a705fb52ce68783b4618fee250fbe227f3a7038a5aac8824aa25426a3238f7d"
+    },
+    {
+      "path": "learning/vertical_facade_ctf_v1.md",
+      "source_sha256": "6a13927f162955da42fd430085b37179a46b6cc41574d5af2a37736d1417406e"
+    },
+    {
+      "path": "learning/zhujiang_dijing_v1.json",
+      "source_sha256": "7308fe3115703feefc05d8a831c6f71b4e8591b24f819356e516ddadd83df88f"
+    },
+    {
+      "path": "release/changes.json",
+      "source_sha256": "6c2a68afd11534d7f683e95b1478c4d9a3ab6100cbc0d74685d65247961a63ec"
+    },
+    {
+      "path": "release/civic_imported_run_files.json",
+      "source_sha256": "2babf088e305edeb625cd9741fcc80eaf36b8ac749a3350dff08ecded9ae86bd"
+    },
+    {
+      "path": "release/environment.json",
+      "source_sha256": "2c19b94dfc9e49911b5c20d7e251c4b25ecd51e7510baa11e7d25f711c857cef"
+    },
+    {
+      "path": "release/haf04_inputs.json",
+      "source_sha256": "d0c43412ead7c92139e210d1cec0a4cec837c0833995518c309698c35fddd47d"
+    },
+    {
+      "path": "release/haf04_release_notes.json",
+      "source_sha256": "5845e6b68ad34d66d90539d3c2813327517fc8a7f4f72da7ca856ffee163f177"
+    },
+    {
+      "path": "release/haf04_release_validation.json",
+      "source_sha256": "0eda8e4018cfb19d8873286aca7ba58e3f572cc244f59d36afdba2867b073756"
+    },
+    {
+      "path": "release/haf04_release_validation_attempt01.json",
+      "source_sha256": "a53898c8f09303214baee0c18c739afed795900052e2139d422cec58cc1e3c7e"
+    },
+    {
+      "path": "release/haf04_unit_tests.txt",
+      "source_sha256": "40b4d737c6eae8b78dd00b59bd6c75d3fbc21233b7beee1dceba3924a4748d48"
+    },
+    {
+      "path": "release/imported_files.json",
+      "source_sha256": "66e6a19f8b7bfe173f3f356559e251664838385d1a046f1287b1163568c85ef5"
+    },
+    {
+      "path": "release/MANIFEST.sha256",
+      "source_sha256": "dd91c0243f782700ebcca6521c23acda02a260505fa487f890b455ea1b7d7025"
+    },
+    {
+      "path": "release/merge_overrides.json",
+      "source_sha256": "2e1916b7e8086158a546de29bb340f67a97c842120715afcb8a326b695e901e5"
+    },
+    {
+      "path": "release/original_archives.json",
+      "source_sha256": "16f3a9769fb2cc2855a4509f3b7c7ca6c361cdbc1d2d56d695f5028fcf658ffa"
+    },
+    {
+      "path": "release/package_scope.json",
+      "source_sha256": "6ca4ed3ebed6f3c71858514c478a825a6a728a4dce498be829e41b5e84bef42a"
+    },
+    {
+      "path": "release/README_HAF03.md",
+      "source_sha256": "def19893f30510514d62bf6e50da53e0650f44eb2893cf080d60da06778f6e8d"
+    },
+    {
+      "path": "release/release_validation.json",
+      "source_sha256": "23f5c69aa5e58d698f64ad36aa758939967187e1bbe03ee6a9ec9590b5e803a5"
+    },
+    {
+      "path": "release/release_validation_initial.json",
+      "source_sha256": "bd4bf4773ebc80363af83fa4237fa1542d0e967ede39bd0db0977d9559789a85"
+    },
+    {
+      "path": "release/report_browser_qa.json",
+      "source_sha256": "768a6b0a67af93c4e1e978442ed43a0d642e8c12daa67b631c562bb3ae8f8fe3"
+    },
+    {
+      "path": "release/report_catalog.png",
+      "source_sha256": "ca843d34db8e456f80c0c95a05d9f7874ccfbcaded3c02f82803f11be2103b80"
+    },
+    {
+      "path": "release/report_desktop.png",
+      "source_sha256": "6162245dd9fac2167b187a4651a931b6b86dff7c97074d2b06d10e608402f0f6"
+    },
+    {
+      "path": "release/report_images.json",
+      "source_sha256": "de8b1ceca15a0fb638e81cc2c830dffb8c8c5e05adb1c9959353e91fdca410f5"
+    },
+    {
+      "path": "release/report_mobile.png",
+      "source_sha256": "bb1e6e3e0bfdb24560af0289374a11e0b539c5a7c5804d119bdfca5980ac3337"
+    },
+    {
+      "path": "release/skill_forward_tests.json",
+      "source_sha256": "0b81b0f959d342852eb8c438a2c80b285a0939f006128527d4d35de182ca4ba2"
+    },
+    {
+      "path": "releases/0.2/validation.json",
+      "source_sha256": "581977fd7761e23c43758d705c38dfc44eeaadb9fac569e32ea57e3200aa5245"
+    },
+    {
+      "path": "assets/report_fonts/NotoSC-Case.woff",
+      "source_sha256": "3d697960929f43b5f9589de81e58eb803eb8a65fff4d559a5a024244f3ec608f"
+    },
+    {
+      "path": "assets/report_fonts/NotoSC-HAF04.woff",
+      "source_sha256": "1d99678244cc3ff30882aacd692b75182e52198e7d3dc305790b77df4c151940"
+    },
+    {
+      "path": "assets/report_fonts/OFL.txt",
+      "source_sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "assets/report_fonts/source.json",
+      "source_sha256": "82b2c81c7ac5d0bd73865071386d66f82ae045561823c7b54352bba1b68a39f5"
+    },
+    {
+      "path": "support/detail_lab/builders.py",
+      "source_sha256": "8c5bd9cf5c3be3132ca3fb51e8121109f195b434e29700f73839f08c554fff92"
+    },
+    {
+      "path": "support/detail_lab/mesh.py",
+      "source_sha256": "e68f30ef3881aacdb4a627543aaa0cb7c23bdda7c866217c9d1d760a79db2b34"
+    },
+    {
+      "path": "support/detail_lab/shading.py",
+      "source_sha256": "f9815524091450f1d865c2b82b4aeee9b17bf0450b9d3647b756f167b35dcd3a"
+    },
+    {
+      "path": "support/detail_lab/states.py",
+      "source_sha256": "22f7a89062be01417784a3457890adf395ca837353e86fadd91a7f7aa775492f"
+    },
+    {
+      "path": "support/detail_lab/__init__.py",
+      "source_sha256": "0a95e2de31a5c76dd1bd1c94ee2cad38c66b9eca5d5b0e32a1f4bc9693f50095"
+    },
+    {
+      "path": "support/vendor/inspect_build.py",
+      "source_sha256": "4ee3f59ef2fe3b5139a383b079ea73aaa4fb486c8cf67dd01678e3f874ef7902"
+    },
+    {
+      "path": "support/vendor/render_egl.py",
+      "source_sha256": "77465ae2d8805ae4b500eaf831f5e62e6a9bd4d9a0eb9fffe65c64431cb827cd"
+    },
+    {
+      "path": "support/vendor/voxel_core.py",
+      "source_sha256": "ba56b20e1dc2533308734309f345116f83c70c5e3dee2805acc90aaf319e55bb"
+    },
+    {
+      "path": "support/vendor/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "agent_config.json",
+      "source_sha256": "f912a580e71eea9bbc1308fdf8ba93ad9a183bb4f9ff027c4a86416ce2b04228"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "source_sha256": "b36fdf489c6f9a3923c0ba68a2850c68f06d765f3a33b274bf0435468470dbe5"
+    },
+    {
+      "path": "requirements-model-optional.txt",
+      "source_sha256": "e7ff24298e36f21602e2af59de37b29ae2372385a52c33166e7c1b6420931d72"
+    },
+    {
+      "path": "docs/archive/requirements-core-0.4-linux.lock.txt",
+      "source_sha256": "e2f458c91561d0b3d72d3147c4140364cdefb45ff5ccb803a749a0c11670b22f"
+    },
+    {
+      "path": "docs/archive/README-HAF04.md",
+      "source_sha256": "72d9c3eadd1d9677d8786a15f8f482329207debb0bc0a251294d10ed452b393d"
+    },
+    {
+      "path": "docs/archive/CHANGELOG-HAF04.md",
+      "source_sha256": "91b03e5c3620a4ef9c02640330f3407a286cfddfbee95cacb56b8ee690fd0ae5"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "source_sha256": "b36fdf489c6f9a3923c0ba68a2850c68f06d765f3a33b274bf0435468470dbe5"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "source_sha256": "91b03e5c3620a4ef9c02640330f3407a286cfddfbee95cacb56b8ee690fd0ae5"
+    },
+    {
+      "path": "assets/report_fonts/OFL.txt",
+      "source_sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "assets/report_fonts/source.json",
+      "source_sha256": "82b2c81c7ac5d0bd73865071386d66f82ae045561823c7b54352bba1b68a39f5"
+    },
+    {
+      "path": "cases/buckingham_palace/README.md",
+      "source_sha256": "af90b53e78a66c589a4ea07379e52604a5cfe1eb5160903b963d258faffffa55"
+    },
+    {
+      "path": "cases/buckingham_palace/cameras.json",
+      "source_sha256": "a8623dcb50d5104589e5979e3b0cf1ce7d95c4ff15da1b2c2d316a0fc5d97379"
+    },
+    {
+      "path": "cases/buckingham_palace/feedback_template.json",
+      "source_sha256": "98ed6eed4d5bcb62d56c2378964a402b61d02d9dfab641428cb515b9e71ff3bb"
+    },
+    {
+      "path": "cases/buckingham_palace/params.json",
+      "source_sha256": "cdf18de3000ec78ce848a784759ad80a839acc748691386389657103eb699da8"
+    },
+    {
+      "path": "cases/buckingham_palace/research/aligned_plan.json",
+      "source_sha256": "3fbef4ac68e2fad6afbc58629f1b0d72ccc5287d5d9aa9d6b6bf5858e032c503"
+    },
+    {
+      "path": "cases/buckingham_palace/research/component_evidence.json",
+      "source_sha256": "bfbeb97bebe0e441cd4424903a94385cb38aaae5e682463fe71eaed5590e52bd"
+    },
+    {
+      "path": "cases/buckingham_palace/research/image_sources.json",
+      "source_sha256": "f18adda71739d2ae5497802c9bf81f5fdce89449abcf5c6d883bad4e786dca0e"
+    },
+    {
+      "path": "cases/buckingham_palace/research/osm_parts.json",
+      "source_sha256": "6d67bb799478f1f8fe5667f671693564935960feac5869cfbf4b9411ff3f5102"
+    },
+    {
+      "path": "cases/buckingham_palace/research/reference_box.json",
+      "source_sha256": "ceb38bf8fed366c54bc30286733c9b3197f1703c0e708f9b90740dafc4140a9d"
+    },
+    {
+      "path": "cases/buckingham_palace/review/previews/V1_r02/cameras.json",
+      "source_sha256": "a8623dcb50d5104589e5979e3b0cf1ce7d95c4ff15da1b2c2d316a0fc5d97379"
+    },
+    {
+      "path": "cases/buckingham_palace/review/previews/V1_r02/render_report.json",
+      "source_sha256": "4caa9fb852cf90e0252a39a532eb6610cbd97d3d5f9586a4387b8da0f0b08f8a"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/blockstates.csv",
+      "source_sha256": "a8084517ef2be876de24942a3be7ee6b0bb32fe2ce2a624a3ccea017ce65b260"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/build_case_snapshot.py",
+      "source_sha256": "2f66d44fcdd4fd1fe67af0bfd8cbcbac003e1ef912553b0993dcb3ae6014b202"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/building.nbt",
+      "source_sha256": "2d33529237c74937e6212037f40bb97facc645b87af153d97d4941bf85207a33"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/classical_snapshot.py",
+      "source_sha256": "30ea697e6c7a463a6b1291ec5184f8c97ca57b188fdc2b272e53e345ae3cc297"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/component_ownership.json.gz",
+      "source_sha256": "a91e6864cda9c8dd334916b6e6a4748e6746dcb2fa69bb2df3aa901e0d67018c"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/interiors.json",
+      "source_sha256": "10fe249823e92f6ed81f13d984832f3fdffd33f02007be44432b8cb6b294bc7c"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/manifest.json",
+      "source_sha256": "dcb177e1de59b8dffbd6cbbf586d54cbbb18d64ef12b856a501844707263a034"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/materials.csv",
+      "source_sha256": "a3dab29bdc09a4b521c661aa3cfbb3d49621da4de0f17efa7f97db607519f647"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/params_used.json",
+      "source_sha256": "a1d6d07f0711e867c41296cad70805c86b0b68a69043157cbaee0fce3d441088"
+    },
+    {
+      "path": "cases/buckingham_palace/runs/V1_r02/windows.json",
+      "source_sha256": "03dbe4ccb41613850fa3dbe8389be6994c4fd3d168425d98c54d2cac15a46a19"
+    },
+    {
+      "path": "cases/buckingham_palace/src/build_case.py",
+      "source_sha256": "2f66d44fcdd4fd1fe67af0bfd8cbcbac003e1ef912553b0993dcb3ae6014b202"
+    },
+    {
+      "path": "cases/buckingham_palace/validation/acceptance.json",
+      "source_sha256": "f7aa0e33d031918532191bf360d68e949e429df0ac9f05ddd8e474a2d8c1c2e8"
+    },
+    {
+      "path": "cases/buckingham_palace/validation/final_window_inventory.json",
+      "source_sha256": "28b95838b56624ceff83787b350dad82ea6e0d005804f1b1b94a882e7c248208"
+    },
+    {
+      "path": "cases/buckingham_palace/validation/portable_qa.json",
+      "source_sha256": "91b02aebbb4695caa4e030dcc8f987f9918980695362e8ad291e7bd2c98b247b"
+    },
+    {
+      "path": "cases/buckingham_palace/validation/portable_unit_tests.log",
+      "source_sha256": "8a89e7675e3f46f94672da8e0c535997cef12a592bf6f6aa647611b682c9a9c6"
+    },
+    {
+      "path": "cases/buckingham_palace/validation/review_ui.json",
+      "source_sha256": "d1db3f4db776e410c7aa0221ce053fcf588defa60b4c2cef19298a0ceaf0afe2"
+    },
+    {
+      "path": "cases/buckingham_palace/validation/unit_tests.log",
+      "source_sha256": "eed6a97d831266d79dd6da8727bb7a69f7d71085116ab2bc4c68091da3c01573"
+    },
+    {
+      "path": "cases/civic_center/STATE.md",
+      "source_sha256": "84f5aa9880363071a80601e6396516925ed49547523488a745a82ad16ae988ce"
+    },
+    {
+      "path": "cases/civic_center/build_case.py",
+      "source_sha256": "44e251cb6be635734481f0fc978595ea9e7516a142873d632e1bd1790a541a42"
+    },
+    {
+      "path": "cases/civic_center/cameras.json",
+      "source_sha256": "58b35f624d5b4fd7509423c302efc0bdc83f77376cb126edaa0867e846d519ec"
+    },
+    {
+      "path": "cases/civic_center/ceiling_section.py",
+      "source_sha256": "f668a4135e2829f3467dc8127fae333ddf4957734a97ead2e1a0cf2b6c45a82f"
+    },
+    {
+      "path": "cases/civic_center/create_reports.py",
+      "source_sha256": "4a7722f0a7830f6e9938628ad024a414f3f8228ecc72f91561e05973e92076ac"
+    },
+    {
+      "path": "cases/civic_center/input/START_HAF.md",
+      "source_sha256": "46df5f823c702e043a7216db81c5acb26af8976112f27bba1b3181b10aa25f6c"
+    },
+    {
+      "path": "cases/civic_center/input/data/facade-resolved.json",
+      "source_sha256": "f7fb0ae34db220410d7ba9673b06c32da7eee2036c801500d5a1b3d453180b08"
+    },
+    {
+      "path": "cases/civic_center/input/data/handoff.json",
+      "source_sha256": "60480f46f92761d54748d47b3fb6e1772e1a002d5c980c0958380d1bddff2957"
+    },
+    {
+      "path": "cases/civic_center/input/data/interior-handoff.json",
+      "source_sha256": "93ae4040e7a8d7141d20b41b391e3b019c24968c7fb11209cdfdad6d9eeda7d2"
+    },
+    {
+      "path": "cases/civic_center/input/data/spatial.json",
+      "source_sha256": "53f93eb1626dc661ab62d0bdad3c6f1d16cf00cbb7c450f166a762e8df67ce3f"
+    },
+    {
+      "path": "cases/civic_center/input/data/view-index.json",
+      "source_sha256": "5f04af847230128ad89f634f79fa51e5b9a0d2f69d61fe336b3e4ae19b2dc574"
+    },
+    {
+      "path": "cases/civic_center/input/manifest.json",
+      "source_sha256": "59022fbbf715a82c245af9401b055cc3126f1ad7a6de1315a2b3c115637a7ade"
+    },
+    {
+      "path": "cases/civic_center/input/validation.json",
+      "source_sha256": "7eac1eb3fc1b9fa76d05745e3289ca33b675ee7f1a77813abedbc27ceca96fe1"
+    },
+    {
+      "path": "cases/civic_center/make_sample.py",
+      "source_sha256": "36c0cdd9cdf40414fb7c1c7f6985fbbe5a006dd5e3330f9b7f6b29b5484f3559"
+    },
+    {
+      "path": "cases/civic_center/parameters.json",
+      "source_sha256": "507db03c85ee5e9da0328c6c6da7e995766fe8027f6bd1a0d1c549f77b710daa"
+    },
+    {
+      "path": "cases/civic_center/readback_assets.py",
+      "source_sha256": "8e3825afd3fdf2dc36a697adcbaacf6ffdb12084718b7dd2ba56ec663b2505ab"
+    },
+    {
+      "path": "cases/civic_center/review/font_assets/OFL.txt",
+      "source_sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "cases/civic_center/review/font_assets/source.json",
+      "source_sha256": "6e0d4a9d8250d9484b007a057df36e3eb04de4618cbba96d6bac4e62da6ae2b2"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r13_lighting/scene/blocklight.bin",
+      "source_sha256": "4c08a14597e8a9e7fecc98becfa0e770e21acd23a40e542c0fe3d1180d353d83"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r13_lighting/scene/scene.json",
+      "source_sha256": "3257b8a65fd90a26a35db3c5c0ee1de635c7da671f9f9b174777aaeeb6c1cccc"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r15_ceiling_landscape/scene/blocklight.bin",
+      "source_sha256": "c796a6ba029e0dcc6a0914183d0cdee2e5ba6a54f701ce065cad4212e0559fc9"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r15_ceiling_landscape/scene/scene.json",
+      "source_sha256": "e7e4fad223c0140ac87468dd8263408c4c63755772e479cc38d9bab91e86c627"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/bridge_cut.png",
+      "source_sha256": "2b75fdd076d3cfd0d5123bb1c362bd49351153d4afb94f7de04fd500ce0faf3b"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/bridge_cut_night.png",
+      "source_sha256": "0b339d37d46b02d94968dce1bdbb8eccb05e67a4abb57d88674f997bc570c40f"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/cameras.json",
+      "source_sha256": "5afc78653041cf3d8435e8239139b97872ad0fc0000429fcf7cabd468c1d514b"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/ceiling_eye.png",
+      "source_sha256": "398ddf8e09ab55d9d51156c7054aa4b3d144ed225731e18d23b29a5d84eeec99"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/community_interior.png",
+      "source_sha256": "946488759213d760f11525bc348bd2906b6c65517d8ac183a279c64337f78c04"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/entrance_garden_day.png",
+      "source_sha256": "c20f5d9e575bd66da4b0dbfa01a3f773500b01ab6c9025d11a95c323e4852b3f"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/entrance_garden_night.png",
+      "source_sha256": "1f8652bcf7a9c94ddade4f569ec4dba319879becb62fc62fd9055d76d07a1baa"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/entrance_garden_plan.png",
+      "source_sha256": "642807493bfaace6736bcb1e962ed0d747a747082980dca7743402c7bdc44619"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/facade_sample.png",
+      "source_sha256": "beada4a3d2fdd7527188816cfb52d7d23b2de0db435f6ae90130c31f14c8e240"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/ground_interior.png",
+      "source_sha256": "ee69f02792370650966bd0389042bded2b90eb13a787637d829785aa64c30b80"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/hall_cut.png",
+      "source_sha256": "e563df868c48d94c0eef067fdb6215b2b5bd6ea7c53dcd0dbd0d3d519da8357c"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/landscape_day.png",
+      "source_sha256": "3fdd3a64d353cbc25dc5bb7cb2a5946fc88672055520a60f95da09d0e5940cbe"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/landscape_night.png",
+      "source_sha256": "18d7859d930d7b5ec3497ff772c24d038381b42785f101711f5bb9ab11b94c09"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/landscape_plan.png",
+      "source_sha256": "5fab16d6752271682a4e2aa058be36fa46d90e9165ed7aa62b1553ebc63fb677"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/lounge_eye.png",
+      "source_sha256": "03ac37ddb84fb2ebfc519c48c662572421ccf7afdb2084c41e5c8cfbc3f2c1e9"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/lounge_eye_night.png",
+      "source_sha256": "8a13cd235c636fdd8c6ede6498e2559f47b446e6d29001a591278a0480ca4c5b"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/ne_day.png",
+      "source_sha256": "b20a8bcbb56d4c197d72b2293acde1df5d30a20538f7f89819a342244a1be49f"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/ne_night.png",
+      "source_sha256": "04047305d27ee14d3d093042a1d126581ed35638f0b9f620608cf1f8bfbf129b"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/north_elevation.png",
+      "source_sha256": "fb9bf21bd22a62b48c3f664d91d409dde52653b3b672ec71e350686f333044a5"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/nw_day.png",
+      "source_sha256": "6b2a8bea4ea8aa194f3e0edaecff6ee6b99f9692759e0d1a576c6dc8fd0dd5b9"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/nw_night.png",
+      "source_sha256": "fc6f18faf72a2cfbff3653d1e914e2044010b422c13c67525a1434fa9f47827d"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/overview.png",
+      "source_sha256": "5fc49d22a86b7c2d43750f629c88f56e49b43b51bc720d7e46dfcad940ae04ec"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/public_lounge_detail.png",
+      "source_sha256": "3162c09b8fcba26fb2d661eff49bd17d403d7982cb924aeb2a4aab058d055eb1"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/render_report.json",
+      "source_sha256": "d2f72b3294f79e2ea65a05a6758d430fc1756a28df80dd1cf140e125176c209b"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/roof_detail.png",
+      "source_sha256": "0e2c17c9e39bbd3a3247c293419eb222f01dc45b5b2c56afb3fd702f7636d963"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/scene/blocklight.bin",
+      "source_sha256": "e96495b3037cf3e8dde77c25c7b4e9cdbb22731166b030b33c4b4daf1b999219"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/scene/scene.json",
+      "source_sha256": "54d4a9c1c4dce43a2d4a6ab3eb4a100d17c38f972d20d5b99fc30794a124dfb5"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/se_day.png",
+      "source_sha256": "3c9813f65cf07c8b3c55855100317f8465d3ec396de2c1d22ca37e70cc2ef04b"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/se_night.png",
+      "source_sha256": "d91a64553912436a79cc14680555f94d897c765ea8abf7bce2f782f3ecf7218c"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/service_detail.png",
+      "source_sha256": "e3c31866662926f5c2176b31ebc9597df0f66001585bbfe452d8c1deac99079f"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/service_eye.png",
+      "source_sha256": "530f7c6a73811b207ed5fe78314dfa4e31f252f212c8da39c5f3719f450af3f9"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/service_eye_night.png",
+      "source_sha256": "d4e262d8e56a64707dda289d7726c71caa2dbdefbb50228591a423058efdee5b"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/south_elevation.png",
+      "source_sha256": "92c3c12e4fbabe513b4fb0448ca379ad9f874e8c34251506a6b1f73cb0304dd1"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/sw_day.png",
+      "source_sha256": "a8e7ccbaf7c1fb752eeede246a39d1ba5100d9695e72206e7c08d11b8c86e4f3"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/sw_night.png",
+      "source_sha256": "a890772f17f8a87c2e84930936568e47f347daddace19cc157403389f2e3754d"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/top_day.png",
+      "source_sha256": "d840990d96eb29145a655820aba2408843745234bda07b4e712c608cf39e8cc5"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/upper_interior.png",
+      "source_sha256": "cd30f9e5d5a40148274541a800e99fbe02b34159ea74c88f8e9ccdb19ac22940"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/waiting_detail.png",
+      "source_sha256": "9dfbcaecbb7ef5454345de27a659ce99143c465fda59983d406bb7319e7ac12a"
+    },
+    {
+      "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/window_detail.png",
+      "source_sha256": "d0ad0e5003bce48ff2d42a7224f112396857e4298392a745632eb82d2245f52f"
+    },
+    {
+      "path": "cases/civic_center/revise_ceiling_landscape.py",
+      "source_sha256": "96f3345a4f4e3dabd76301e6507709612f7533b3b10196dd5ed672fd5bf5c4ec"
+    },
+    {
+      "path": "cases/civic_center/revise_interior.py",
+      "source_sha256": "906843a57d111d1d3695fdeffda430bd53a5af2a15face2ad6c08ff16e141310"
+    },
+    {
+      "path": "cases/civic_center/revise_lighting_garden.py",
+      "source_sha256": "b5f1e2786256744e78107b651c5540fe93cd7239cb27d9b6187a292ced2f87cf"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/adaptation.json",
+      "source_sha256": "a444623cb61e93fda8d3e8139c7f67911c880a343d8c37d84bd5ff5c922fe766"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/blockstates.csv",
+      "source_sha256": "b9d04cf3ba219277552fd312a81392173893eaff6b949ad493822e34b122bac0"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/build_case_snapshot.py",
+      "source_sha256": "44e251cb6be635734481f0fc978595ea9e7516a142873d632e1bd1790a541a42"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/building.nbt",
+      "source_sha256": "267e13eb5285bd0a781d7a05d8a9b4f7fe0c5b07ebcb8a08c376f848cc7d912c"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/component_ownership.json.gz",
+      "source_sha256": "e15d2e2c0a5724872dd3b698193d15a1230ee0e7b9d2d085a6e06a89b5acacf2"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/interiors.json",
+      "source_sha256": "3c48bc8ed6e0039b8ee056ed1fc447de7e96c74694a966714858e31f87eb2866"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/manifest.json",
+      "source_sha256": "ff18e61c1d2737f3d793f7375ae25aeca5166325b46531fc205ac903747a635a"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/materials.csv",
+      "source_sha256": "809301e27bfc5d9a1eecf1334b977f6f17aa98167f9fde4a2f362f9de88158dc"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/params_used.json",
+      "source_sha256": "b7c0ca8cd5254b64289f723255daedb62019899f563dd52743d0c5d7eea60033"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/validation.json",
+      "source_sha256": "ba481998d043d1815e2231fc88dd05b61f955ab57dae696ac870028624edbe15"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r06_final/windows.json",
+      "source_sha256": "64add3c9d8b60aec1a04b4b2f564419971126cc85cf4d0bce52c1b951b13cc45"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/adaptation.json",
+      "source_sha256": "121e20db7c025cddc804e43555e643c2f83cc9ceec0267f97184c59b90aa547e"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/blockstates.csv",
+      "source_sha256": "62a73fdb745a21d68fe0b294bf8abf353a35f6a8de3ca6bb3d6e852cb626ee20"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/build_case_snapshot.py",
+      "source_sha256": "b5f1e2786256744e78107b651c5540fe93cd7239cb27d9b6187a292ced2f87cf"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/building.nbt",
+      "source_sha256": "1e8b8c4516b8d0e0b26c0fc343de9faf18d0b296c2de850fdf5ca34889a96fb4"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/component_ownership.json.gz",
+      "source_sha256": "d5442fbb98bb5f05cbea0814546fa65d589ecee1aaef468e9b1b613a8b869bea"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/interior_validation.json",
+      "source_sha256": "567063f3544f832f490c7d141ae6a4ea492581ff99378ec026914f7034b2238a"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/interiors.json",
+      "source_sha256": "e96e6c61e135a06cd03c81fe7b9accf66be0af6e917f8a496c73882eba2b193e"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/lighting_garden_validation.json",
+      "source_sha256": "428396099b9be34cab6d4019260da4f8fa8aa4225bd7665120b666a4ea91146a"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/manifest.json",
+      "source_sha256": "b74e6ec327e999162d0a10deeac1083c995a01700722d27553b43495ad88c55f"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/materials.csv",
+      "source_sha256": "3e44b21c751b2538b73fd65eb3310355fe8f73286f2e13d0f84d84032ef39975"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/params_used.json",
+      "source_sha256": "8e5ee43a4eef2b7cb6b7f0bb1febe7d283ff8028c01a4bc790eb5715f2dd9f5c"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/validation.json",
+      "source_sha256": "013fabf7c224dba434a9e9cbead60aaf35d924c1ea9c5332211e9ba362a9ccf3"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r13_lighting/windows.json",
+      "source_sha256": "64add3c9d8b60aec1a04b4b2f564419971126cc85cf4d0bce52c1b951b13cc45"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/adaptation.json",
+      "source_sha256": "d862b8c0a3f127dc12bc542e4b0032c9509f80d3e8b5c4ea3d038a49db258eab"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/blockstates.csv",
+      "source_sha256": "e808f86dd1a71a375e8292de79c350d959ef696e2d0171937088b2a9687b99c7"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/build_case_snapshot.py",
+      "source_sha256": "da4d3e26dfa5c69443d968da02d7f004a57e7f34f56bbfa9ee2d21d1ebe4abd2"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/building.nbt",
+      "source_sha256": "9554d0edb35631df86145aeaf671e50aae37bc27339e5f080659e454e00f19fa"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/ceiling_landscape_validation.json",
+      "source_sha256": "2829acb523f1a31a5e6370dde225b0e383c19398c4370373a333384be289f9f7"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/component_ownership.json.gz",
+      "source_sha256": "1a518066b886d820f3f43293ac69b29de71b295e1a46a247a8a4b614bda69b2f"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/interior_validation.json",
+      "source_sha256": "b584e8c67aeab92e7fc7565f066984e7848a30f6bd0f00b52657b86dc9a57cf0"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/interiors.json",
+      "source_sha256": "e96e6c61e135a06cd03c81fe7b9accf66be0af6e917f8a496c73882eba2b193e"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/manifest.json",
+      "source_sha256": "6e2bddb995f91b100992580807f515c933d6722f1bbeb61201d9e952279bfa75"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/materials.csv",
+      "source_sha256": "bc81b229d6d81101da98e37f8279c133e4d38fd117eafaa389227ef9d8941b87"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/params_used.json",
+      "source_sha256": "970d7db33fe43d02cc2016a98afd8bf01aa34ad4acad2d19728adac327527c4e"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/validation.json",
+      "source_sha256": "4936cbdd2123633eeef97d3ad3a76ab9c3d7299b35d47f319c56badec46322b3"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r14_ceiling_landscape/windows.json",
+      "source_sha256": "64add3c9d8b60aec1a04b4b2f564419971126cc85cf4d0bce52c1b951b13cc45"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/adaptation.json",
+      "source_sha256": "58444ccf686d9b16ad9e62f25d41a6d44478b1f34e99f337b66af31f82c4616d"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/blockstates.csv",
+      "source_sha256": "585b02c2030110544d73f81ccba8f4530a09bc527d86e1cc2af47c00e7ba1448"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/build_case_snapshot.py",
+      "source_sha256": "ff3c66078794adbc94ff75d40d561d098c018b1518cf8231c981155b4128db3d"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/building.nbt",
+      "source_sha256": "297b2f6ea896f8e6a93b1bd2978c921bbaaa01e06827136985dfa214eace2a24"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/ceiling_landscape_validation.json",
+      "source_sha256": "2695d052c35a2a395518af468270e6daa6be99789cd87c766b897397c61dea56"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/component_ownership.json.gz",
+      "source_sha256": "86919d6bd7d697819da02891673647ca25cfa6efd89fcd749698dce424b10987"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/interior_validation.json",
+      "source_sha256": "d697384663ac9f36f53fe9c578002a48e4978e28be9214c7a9c9d936c4db85bc"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/interiors.json",
+      "source_sha256": "e96e6c61e135a06cd03c81fe7b9accf66be0af6e917f8a496c73882eba2b193e"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/manifest.json",
+      "source_sha256": "adced588a96dc44385119d5aaec155bde81ab6b97bb1b10d54a9870dc97e8f7d"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/materials.csv",
+      "source_sha256": "2abe3ab32c511413b6e5dadd5d020765031fa3555c40fc12861d43e5222f53ea"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/params_used.json",
+      "source_sha256": "970d7db33fe43d02cc2016a98afd8bf01aa34ad4acad2d19728adac327527c4e"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/validation.json",
+      "source_sha256": "47e03075ac35b7fa7d6ee704eb92ceb3e72b7bbc5f99825d29a6ad14eafeae67"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r15_ceiling_landscape/windows.json",
+      "source_sha256": "64add3c9d8b60aec1a04b4b2f564419971126cc85cf4d0bce52c1b951b13cc45"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/adaptation.json",
+      "source_sha256": "58444ccf686d9b16ad9e62f25d41a6d44478b1f34e99f337b66af31f82c4616d"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/blockstates.csv",
+      "source_sha256": "327a1e62984d37ada31e31d6da5ba25322ec88dc3f377f8d50944ea35cb812b2"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/build_case_snapshot.py",
+      "source_sha256": "96f3345a4f4e3dabd76301e6507709612f7533b3b10196dd5ed672fd5bf5c4ec"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/building.nbt",
+      "source_sha256": "5facdc6ad0ba108d9ff34c7e83d284836e449f10ab4786e277e3633bc8a84b9c"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/ceiling_landscape_validation.json",
+      "source_sha256": "c97663ce5cd569d1e9b186e551736fcd27589390ffce10671eb667a3357b6813"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/component_ownership.json.gz",
+      "source_sha256": "afcec453852af71eba706673563409cb2bd66060cfd1ce623f6121cd6c9125b3"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/interior_validation.json",
+      "source_sha256": "d9cdd189a02d885cb6c18ed35908aa15f055514d34f93fbc45d7a05f418c8aa6"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/interiors.json",
+      "source_sha256": "e96e6c61e135a06cd03c81fe7b9accf66be0af6e917f8a496c73882eba2b193e"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/manifest.json",
+      "source_sha256": "6df623e3ac3556263d108693c0cd38640ee964ce7907439f66f36df1196f41af"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/materials.csv",
+      "source_sha256": "ae9f69b34803aa76b966f3f0e689335963bf0685e8e1561ae575dfb6f93438da"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/params_used.json",
+      "source_sha256": "970d7db33fe43d02cc2016a98afd8bf01aa34ad4acad2d19728adac327527c4e"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/validation.json",
+      "source_sha256": "0286441eae5e1d083b863a33b92d4e4417569f546cd5f64e7e068147277ef552"
+    },
+    {
+      "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/windows.json",
+      "source_sha256": "64add3c9d8b60aec1a04b4b2f564419971126cc85cf4d0bce52c1b951b13cc45"
+    },
+    {
+      "path": "cases/civic_center/validate_case.py",
+      "source_sha256": "7c641394f91fb8edad7bc126aee4286babbbfb6068cac741e0777a56f1daf860"
+    },
+    {
+      "path": "cases/civic_center/validate_ceiling_landscape.py",
+      "source_sha256": "ec93fa4244c26f0994cfc58e92e967232f4a0df11170e8571e811aa782221930"
+    },
+    {
+      "path": "cases/civic_center/validate_interior.py",
+      "source_sha256": "c17559b8de0e669c6af6f81827c776e7ea217d87cb32c64e4fd23609c3e9af23"
+    },
+    {
+      "path": "cases/civic_center/validate_lighting_garden.py",
+      "source_sha256": "b57574c6d2027221bbbe4f0cf445d8cc6375fb3776bc30f90fa433a72b62e8cd"
+    },
+    {
+      "path": "cases/elizabeth_tower/README.md",
+      "source_sha256": "19b39c891025e4491460851519e9de9d7aa673d9420f8f3f3bc35985bfe4b81c"
+    },
+    {
+      "path": "cases/elizabeth_tower/cameras.json",
+      "source_sha256": "0b4a3b4545b33b241390b847f347f8c1db0f63f51b958c1fb8173be9e09dafa3"
+    },
+    {
+      "path": "cases/elizabeth_tower/feedback_template.json",
+      "source_sha256": "c7fe92e4b3f6e73b3012fded1d076d45a5e523ba0bf135a6bb3a949484092353"
+    },
+    {
+      "path": "cases/elizabeth_tower/params.json",
+      "source_sha256": "4b19da5f28386006f73c154ee1ccb1e2a02455edd180e43651b8278acb409a7d"
+    },
+    {
+      "path": "cases/elizabeth_tower/research/component_evidence.json",
+      "source_sha256": "6402804bf72cc35d302dca46b05276e5ea29a8f76f3fd64db60f9ce1bfbea649"
+    },
+    {
+      "path": "cases/elizabeth_tower/research/image_sources.json",
+      "source_sha256": "b606bb99cd33a788d2489a96b977c73a5821482fabffa309d2ad9afdd5c9397e"
+    },
+    {
+      "path": "cases/elizabeth_tower/research/reference_box.json",
+      "source_sha256": "8d0d18a3623489766f4303dd56a91ea27075408e5733eac4c0b820e3d20caf9c"
+    },
+    {
+      "path": "cases/elizabeth_tower/review/previews/V1_r02/cameras.json",
+      "source_sha256": "ad6f8a46ec0cf813ba80b8e3f169e9c1be63cea787c9f5236a733eb64ebb66bc"
+    },
+    {
+      "path": "cases/elizabeth_tower/review/previews/V1_r02/render_report.json",
+      "source_sha256": "6932c99b8356c4381fc04399df387c8d163471fd498438a14ce0a5f8319a8667"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/blockstates.csv",
+      "source_sha256": "1f79989ffe5f4d89469cc272fe152ff40f5c9f697fc60e9e39ea2ca0d7fda2e4"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/build_case_snapshot.py",
+      "source_sha256": "2627b1ac150bd750813aa8d433c503c1f2635f3d735720d227fe0e717353a91e"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/building.nbt",
+      "source_sha256": "88a187dcade9687223e9e80db62c832256db1f4d796ba292c5b46a6c4afd758f"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/classical_snapshot.py",
+      "source_sha256": "30ea697e6c7a463a6b1291ec5184f8c97ca57b188fdc2b272e53e345ae3cc297"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/component_ownership.json.gz",
+      "source_sha256": "6fe1094ff67b9bae27c52477ac0b3801c23b0ca117185b4242eaf57fe24334d9"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/interiors.json",
+      "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/manifest.json",
+      "source_sha256": "160d4aa55a1be1967cb688eb26722f3b8b9f1ddef7f3877b0ae7a57c72690a2e"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/materials.csv",
+      "source_sha256": "50f07d67193c4f11b539f6d1e3ae598e8d7119366da7c7326915bf2911b9b1fc"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/params_used.json",
+      "source_sha256": "4b19da5f28386006f73c154ee1ccb1e2a02455edd180e43651b8278acb409a7d"
+    },
+    {
+      "path": "cases/elizabeth_tower/runs/V1_r02/windows.json",
+      "source_sha256": "9821562dc37e9b7f833ab71d8831c5c16481b36a6a26e7692f686c518692b40a"
+    },
+    {
+      "path": "cases/elizabeth_tower/src/build_case.py",
+      "source_sha256": "2627b1ac150bd750813aa8d433c503c1f2635f3d735720d227fe0e717353a91e"
+    },
+    {
+      "path": "cases/elizabeth_tower/validation/acceptance.json",
+      "source_sha256": "8eb3d7be741efb6ade5ec17dbb2539a523a073cd8f02253b3af818d6a1355dc6"
+    },
+    {
+      "path": "cases/elizabeth_tower/validation/final_window_inventory.json",
+      "source_sha256": "8bd8b2a39c6c1d78a2b2375f40d32f05558499604ec5f34492a39b77a926f826"
+    },
+    {
+      "path": "cases/elizabeth_tower/validation/portable_qa.json",
+      "source_sha256": "91b02aebbb4695caa4e030dcc8f987f9918980695362e8ad291e7bd2c98b247b"
+    },
+    {
+      "path": "cases/elizabeth_tower/validation/portable_unit_tests.log",
+      "source_sha256": "8a89e7675e3f46f94672da8e0c535997cef12a592bf6f6aa647611b682c9a9c6"
+    },
+    {
+      "path": "cases/elizabeth_tower/validation/review_ui.json",
+      "source_sha256": "d1db3f4db776e410c7aa0221ce053fcf588defa60b4c2cef19298a0ceaf0afe2"
+    },
+    {
+      "path": "cases/elizabeth_tower/validation/unit_tests.log",
+      "source_sha256": "eed6a97d831266d79dd6da8727bb7a69f7d71085116ab2bc4c68091da3c01573"
+    },
+    {
+      "path": "cases/guangzhou_ctf/README.md",
+      "source_sha256": "e28f2881e1b9efeee8204019a27a9842a7878962acd6cc4e14bd18899cafddf5"
+    },
+    {
+      "path": "cases/guangzhou_ctf/input/manifest.json",
+      "source_sha256": "ae5a85de05b21faf9a010ee2d1f80f6dfff37ff9b993b7cce2f121604535ea1a"
+    },
+    {
+      "path": "cases/guangzhou_ctf/release.json",
+      "source_sha256": "c860f81e62a59a7b660e4835a6750e13f0abcd6ed6f9e0b913707fc04200302f"
+    },
+    {
+      "path": "cases/guangzhou_ctf/research/archi_manifest.json",
+      "source_sha256": "047bcea348da85fe9b03ff71c98a26542cddb2cffe556dcc288cb5410fc3e9f8"
+    },
+    {
+      "path": "cases/guangzhou_ctf/research/evidence_regions.json",
+      "source_sha256": "88c95a3a899877886b5c83c4fa30377c20adc1ad6285e0d8665e5e4bbb526094"
+    },
+    {
+      "path": "cases/guangzhou_ctf/research/feedback_log.json",
+      "source_sha256": "8ab0c35e05b2c6bce401219baba3fb43eba4dedafaba45bfaa0c59a50bc32d30"
+    },
+    {
+      "path": "cases/guangzhou_ctf/research/images_manifest_raw.json",
+      "source_sha256": "7f69b401d7dcddfc86f58ded5b9c8a251e894971def048c8bf419697320b6c69"
+    },
+    {
+      "path": "cases/guangzhou_ctf/research/parameters.json",
+      "source_sha256": "3f2d331618d3bc29a49f581232a0739ca43bd3f672ef9a03cac86b2a244155f7"
+    },
+    {
+      "path": "cases/guangzhou_ctf/research/prior_links.json",
+      "source_sha256": "3d2c2b9114fc8fd0dbd2fb2f8853149b446d1fb6e5ad20deb5350dc683225603"
+    },
+    {
+      "path": "cases/guangzhou_ctf/research/reference_box.json",
+      "source_sha256": "61be8c93c5cec81d47f883bec662407507bde727de1eb4f0d67208515af21385"
+    },
+    {
+      "path": "cases/guangzhou_ctf/review/bundle_source.py",
+      "source_sha256": "b78797ff70310143360b2f4b4add55be641f31e1ed2f7e7426079dd6588f130e"
+    },
+    {
+      "path": "cases/guangzhou_ctf/review/export_delivery.py",
+      "source_sha256": "367b35d4e0c95229cd7ae20ada94b8110669f6017dcf938c201aca9fc3bf81f2"
+    },
+    {
+      "path": "cases/guangzhou_ctf/review/package_review.py",
+      "source_sha256": "ab227585b8dd5a9da6bbda6a2db4d6555ed881d85c07bc0451d1a7e91adf94e7"
+    },
+    {
+      "path": "cases/guangzhou_ctf/review/previews/V1/cameras.json",
+      "source_sha256": "2402f8d4099602f71687dc0c349af080eb747e40cd519556d601644affd3d5f2"
+    },
+    {
+      "path": "cases/guangzhou_ctf/review/previews/V1/render_report.json",
+      "source_sha256": "635efdd10ed7654ac5b27a544c7c2d7173cfe94848bc81a433686cb053243981"
+    },
+    {
+      "path": "cases/guangzhou_ctf/review/previews/facade_sample_v2/cameras.json",
+      "source_sha256": "27d68e686eb6232d3b216fe0b3caa013eb458433a5e34fc24ce163779deef226"
+    },
+    {
+      "path": "cases/guangzhou_ctf/review/previews/facade_sample_v2/render_report.json",
+      "source_sha256": "b404f3b21e6398988b2d3c7d72b1a7e9a71c216116a25a11fcccfe06b57076c4"
+    },
+    {
+      "path": "cases/guangzhou_ctf/review/render_case.py",
+      "source_sha256": "f7438b03134449938fc20f223830182822eb9344d00030cc9cccb28b35a6f8ed"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/build_report.json",
+      "source_sha256": "9e8bf4b14833f45c60c091a359582176791dd643f5d977bade28541809904e98"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/building.nbt",
+      "source_sha256": "58db77a6499aab981ccf8efdd048c3ce80b9383053713059ca61010af7afcc96"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/cache_report.json",
+      "source_sha256": "9243c2652d4ed41b1946f5bb220c4cddceead7b93020143b6df6599abb2d98d9"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/components.json",
+      "source_sha256": "45a27325f7bddfe819658ed87c3abad5d4de82e5df496e3ef1ece27e55780ca7"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/floor_schedule.json",
+      "source_sha256": "dcc151e746b3957711d31a254dea8c718e640dc274abb6c13f9f1c8770231971"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/inspection.json",
+      "source_sha256": "ac5bebb22742b40745491c70decec2c90d24068056c07264331e36ef6b860c93"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/params_used.json",
+      "source_sha256": "3f2d331618d3bc29a49f581232a0739ca43bd3f672ef9a03cac86b2a244155f7"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/rooms.json",
+      "source_sha256": "32eaf4426f9dd6fc7a9086ccb0ad2bc5ff83414247ec4645929e05bf5afb1acd"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1/shape.json",
+      "source_sha256": "c4e4e28ee067c218ea54f07b73191b9b4a21a76dbb4f290c40a0cd92dc2d896a"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1_r05/build_report.json",
+      "source_sha256": "a24570fb391b14b2f8333fb953692038b1f33294765b09e2294ac5ca0afb41ea"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1_r05/building.nbt",
+      "source_sha256": "c5e2e2ed099b63a728dcc05ecc5e877b136d20e6c462fd68680be01e44466c5d"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/V1_r05/params_used.json",
+      "source_sha256": "3f2d331618d3bc29a49f581232a0739ca43bd3f672ef9a03cac86b2a244155f7"
+    },
+    {
+      "path": "cases/guangzhou_ctf/runs/facade_sample_v2/building.nbt",
+      "source_sha256": "ed072415979915c4d92ec00aa5f826f63ae7d96845f183808078292ec434ab45"
+    },
+    {
+      "path": "cases/guangzhou_ctf/src/build_case.py",
+      "source_sha256": "3506729ec27637289889c339f2d7e8e2e4540c86743c5f1065ab2395136a1cd2"
+    },
+    {
+      "path": "cases/guangzhou_ctf/src/facade_sample.py",
+      "source_sha256": "ef9e389eb86110b6f70746a455ce30bb8bf704915bb56e50fa24428581a36c43"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_build.log",
+      "source_sha256": "5b7367df22b028da2e241ac07fcf1a7d71471b9301fbe8b944be1b4b13f91a17"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_focused_render.log",
+      "source_sha256": "31c979892dca9be2de6795f15de586218aa9f7ead0908195be5134322be60c80"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_other_seed_build.log",
+      "source_sha256": "46690dc844c1916c4acb1dd99080a2e0c4720947c5becd81b0790bc5976971f0"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_r01_build.log",
+      "source_sha256": "6eafab5dc6a44325040a0a687395fa2d410c2287330b66ca89ff5415a8312e46"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_r02_build.log",
+      "source_sha256": "85d74b27bd53a210c5cc37382698c9cf0a85916ab6e0dfec9f7cfdfe7ff16caf"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_r03_build.log",
+      "source_sha256": "85d74b27bd53a210c5cc37382698c9cf0a85916ab6e0dfec9f7cfdfe7ff16caf"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_r04_build.log",
+      "source_sha256": "9c24e1221f51e4c6d4e76ce53c030d338fe367180390a0b7aceaf1934f38a6fc"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_r04_render.log",
+      "source_sha256": "99654a952ce9732062524fbe979bb19b03177f755c5c9883dc0a9bf8cbb3ec5e"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_r05_build.log",
+      "source_sha256": "820ef44f50c4a8aebf0b710dd7a08f09ab33fcebc939800dcb19a31fad8378c1"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_r05_render.log",
+      "source_sha256": "7c6e2c65648c555921eda3429d1cc3342f5b92e03ec2bd1c9c575dae22a31d62"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_render.log",
+      "source_sha256": "5229b3d5b769eab244d9bd63e216b2f884fd84b047230956b14e6e111db400d9"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/V1_replay_build.log",
+      "source_sha256": "e94cb36669a85798534141d8c3898b4f4fc4bd46f3427439fa643339212e5cb3"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/check.py",
+      "source_sha256": "63e95147c8ca80c8c0df14d1d67397d1893a35de5de09652f0ec34b6aa1c2e03"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/core_tests.txt",
+      "source_sha256": "58dcfed3d09d56a98b77ea156dddb09397c3000e91133d41f3858de2adc610fb"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/export_delivery.log",
+      "source_sha256": "96c88b1c7592debdb70d01d9010a57d2b8bf575c2c151c00f1a0c164b6e7fa5e"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/html_integrity.json",
+      "source_sha256": "938f748109ed54f354684d5d9071274c59219aa1e3192ae4a0ee9fdc29dd64b4"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/known_gaps.json",
+      "source_sha256": "7a0f863312dabe0933be469d69368f68cce79e5e3c83999f5776f524e5f268e6"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/other_seed_params.json",
+      "source_sha256": "25091a098907b41d09a270e9d9cb2a15b95d7c932da3cdc043f9b808f884ba94"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/portable_first_attempt.json",
+      "source_sha256": "af4d5fefb902ba455e7f5be332f1af815c3540c80e880a64a27893e7b59714cd"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/portable_replay.json",
+      "source_sha256": "6fd591c7b889403129332220d5884f08dc193c7217cad4191af8ef4c66edb66a"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/preserved_shenzhen_before.json",
+      "source_sha256": "fab4d864fa012de51581972027f3f996117cc79536b5c6eb66a91d8870be028f"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/release_validation.json",
+      "source_sha256": "f7072da8c068d47c35c8e556574bef6f988416b14ae170ae21272fbfe3ca5d65"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/sample_build.txt",
+      "source_sha256": "1d968549bb177e6927c9a1864d97d2093cec342e4aa8a3cd15ac80eef58b4a67"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/sample_v2_build.txt",
+      "source_sha256": "742825ac145693a68cbe065ab0c592f40c09167165619b54afc553e1d2ed3e29"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/shenzhen_regression.json",
+      "source_sha256": "e2677696ebe2ff1de14c6807567de359a594daacbe7d9a0cd6e147c457c6e1c5"
+    },
+    {
+      "path": "cases/guangzhou_ctf/validation/template_reassembly.json",
+      "source_sha256": "c6572ee8ae48f080332a9c9393770f7fcb662ee249f85e114e55a3c003958b8c"
+    },
+    {
+      "path": "cases/guangzhou_customs/README.md",
+      "source_sha256": "fe5f726de0e9cd2291ca1e5f07045df76df8fc93335d6e58ae57a042bdd27d29"
+    },
+    {
+      "path": "cases/guangzhou_customs/README_V2.md",
+      "source_sha256": "782c5f01a75342cfb809b85adac248f6eff421b50f610f8e9eb232fb747595c1"
+    },
+    {
+      "path": "cases/guangzhou_customs/README_V3.md",
+      "source_sha256": "95ecd400d1ab727912fbbe1d667ca239166b95053a132f9f0d3a0f3e585f81e5"
+    },
+    {
+      "path": "cases/guangzhou_customs/cameras.json",
+      "source_sha256": "be5d59b28d8872a54a9838afb9b56acaf81558bfc9516c6deff0e575ce77cc8c"
+    },
+    {
+      "path": "cases/guangzhou_customs/params.json",
+      "source_sha256": "5e6158f8e35042575a43a3cacefb354e057847f23b569af3a7e6c06b5aa744b7"
+    },
+    {
+      "path": "cases/guangzhou_customs/params_v2.json",
+      "source_sha256": "f1b73891ad4660866f7e947504de42811522d7cf744e701cfe0485db1e18f785"
+    },
+    {
+      "path": "cases/guangzhou_customs/params_v3.json",
+      "source_sha256": "bb3ec90a82902b3cfd09b6266238820b3f869993b63905cd04666d8d6374ae9a"
+    },
+    {
+      "path": "cases/guangzhou_customs/research/component_evidence.json",
+      "source_sha256": "ce2ccb5df765711c0872609e6f78ea43cf9408cdf710f02ae41913d0e3ac409f"
+    },
+    {
+      "path": "cases/guangzhou_customs/research/image_manifest.json",
+      "source_sha256": "926267caf704911aa748cb928d505f0a0696223a26d6211a931e70f7845a6259"
+    },
+    {
+      "path": "cases/guangzhou_customs/research/original_packet.json",
+      "source_sha256": "18b523001a547f60e36343e913e7e6995c508c5231e836d10c86841af396de03"
+    },
+    {
+      "path": "cases/guangzhou_customs/research/research_log.json",
+      "source_sha256": "bd928938e504b9173f79b6ea85b5051fea338c0996b01b939e01c3fd72f70e02"
+    },
+    {
+      "path": "cases/guangzhou_customs/review/previews/V3_r02/cameras.json",
+      "source_sha256": "9990ea9e3c710f20d9040aa8244de3feba80778ed4d7af7a7a8d75121c13e554"
+    },
+    {
+      "path": "cases/guangzhou_customs/review/previews/V3_r02/render_report.json",
+      "source_sha256": "c34ea024867289757d517f29e022e21af8aba6e7405e0c4434c1b84bb4abbc0e"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/blockstates.csv",
+      "source_sha256": "1635f5eac15eb25885821fc4fe514b55f0d47293ba66f66efccbd307e3b44b53"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/build_case_snapshot.py",
+      "source_sha256": "6f394646f584767a357b21f23a6adb1d434e2852b9d3ad1bf6a54c13d7b00afc"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/build_decisions.json",
+      "source_sha256": "7949524967a9468fe5649c1e119bd26775063dd93a2463427343c61087026ead"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/building.nbt",
+      "source_sha256": "56a665db8c46fa364c6c0ce7c8c769ffb051f91335ed81aa7863a2e42f312224"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/component_ownership.json.gz",
+      "source_sha256": "c58dc3c31ad27d8eb9a4354438fe6774cec035641a1959d2c43068898ab817c1"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/dependency_build_case.py",
+      "source_sha256": "c6f2dd0d222d0086f4649045370c723497e2d9fc167a2cbf8973ac142213f6ee"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/dependency_build_v2.py",
+      "source_sha256": "814a6542578e516545b4055dea186455cfcf8ce1a5b0aa65c715421bd3d04c3b"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/interiors.json",
+      "source_sha256": "2465463d8dd74aaeceb24364f0b8beb04bb7819e2d4e08761b904666237cdda9"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/manifest.json",
+      "source_sha256": "a6ffbfa3854ca8537939bc471f61efc40351b65cc45084cb35ab9025a8ce75ef"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/materials.csv",
+      "source_sha256": "0cd71621e21eb6061cf8e33eabed3d53f534f2c25e34ed7ed11d88c4d4debaa8"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/params_used.json",
+      "source_sha256": "bb3ec90a82902b3cfd09b6266238820b3f869993b63905cd04666d8d6374ae9a"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/validation_v3.json",
+      "source_sha256": "13b790990246ea21644ff08e03629eeb41b2d2b234199fccf9a4d077265ef4d8"
+    },
+    {
+      "path": "cases/guangzhou_customs/runs/V3_r02/windows.json",
+      "source_sha256": "1761abe81f7defcb21079dac59987ba33c25af5c812b62579792f6024ea8817b"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/add_v2_views.py",
+      "source_sha256": "98a503da2fcab8581b1393bce35603bd22ea2c687d7988ac2ec2477c25cfd4e0"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/archive_case.py",
+      "source_sha256": "97126d6cc342cdf6349e715ac9695241523890f5e797ba3d9bb805fffba3c8e4"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/archive_v2.py",
+      "source_sha256": "8da264e1407ca7e5f70b8f59f47dc8d2a0bf7d438ac74f4b10048647eb4ff76f"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/archive_v3.py",
+      "source_sha256": "0bb9d284163c0bdb85c9618249588057c7a57699ace4730e2efda876b701137f"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/build_case.py",
+      "source_sha256": "c6f2dd0d222d0086f4649045370c723497e2d9fc167a2cbf8973ac142213f6ee"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/build_v2.py",
+      "source_sha256": "814a6542578e516545b4055dea186455cfcf8ce1a5b0aa65c715421bd3d04c3b"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/build_v3.py",
+      "source_sha256": "6f394646f584767a357b21f23a6adb1d434e2852b9d3ad1bf6a54c13d7b00afc"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/make_review.py",
+      "source_sha256": "79c0f11027b518ea174fa089079abe5d70aa6ca1b617993115b5330728ccdacd"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/prepare_v2.py",
+      "source_sha256": "ac7ca16ad4c42f78ac68359f31a3683854ab26889f388728ee6a409a62e87ff8"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/prepare_v3.py",
+      "source_sha256": "9817264518e50f8674d1d249b384faaeace72737586f5441abc80f1cd9ccfbca"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/research_v2.py",
+      "source_sha256": "e3e18c597615a6bd33dcf1d6dfb6d206ea1e0a7f0728c373af5283bed0ad3f71"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/review_v2.py",
+      "source_sha256": "46466fcaf9c6df3a04d2c9417dc256bf93107721309c49f9ef3d4e9517f68d18"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/review_v3.py",
+      "source_sha256": "ebb7042784d9208774e4e7b6ef25aebc57e11d288e48ae7ee164cd6531ae92c9"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/validate_case.py",
+      "source_sha256": "5201a12b863cf154e2a65207ac6837e1b19976c3239b85fa432faef448725668"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/validate_v2.py",
+      "source_sha256": "3cbfbc8c9263bc2bfb647dbb6c1890f3c080521d6c11f5f02c76f1c6b294a864"
+    },
+    {
+      "path": "cases/guangzhou_customs/src/validate_v3.py",
+      "source_sha256": "bdfe3baa8db2e0e97519cf334af1efecd3a11be6d7af3ccba06d5ef2a465d024"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/acceptance.json",
+      "source_sha256": "e14708471800b478dd6adbdddd572d60843f718db1eefaf454435ab8d0a271ee"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/geometry_acceptance.json",
+      "source_sha256": "0575791586aceef8ab59f8dfd26da1844739937c64f3e54525a663d05fc3accd"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/portable_check.json",
+      "source_sha256": "cfe36aec96e343cc1f63b31992d3774bfaccf4fcbd83893396c6e01092de20a7"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/portable_unit_tests.log",
+      "source_sha256": "65d3c9768e8d2cf65bf12d53ebdcaab97ccc8c6d50aa8edc248dfebcf661593e"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/previews_v3.json",
+      "source_sha256": "2403e7ec2f1402af7fd3134a9ca9a169231025a0fd51985022b9b0293b0c5126"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/shared_tests.log",
+      "source_sha256": "1abbb10454050b2c44a6c1dd96c81ca31a18e991c527cf8ec5656c701b8de026"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/shared_tests_v3.json",
+      "source_sha256": "1c8187e26555aec6c3270975bfbaf2fa26258080b67046fd802eb24935e14d27"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/ui_v2.json",
+      "source_sha256": "6f11a95ba68675409dbe2631db98aa8c00b523ee29aac6a20b50d98d2c72ad5e"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/ui_v3.json",
+      "source_sha256": "890896f36a4c5147769308a3af7bf78a7d7d2eed58248c4e0603fc417b6e2573"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/ui_validation.json",
+      "source_sha256": "1da553c528015eb522e4dff09c7265debf2e2a9a0d552c82ded443293567db59"
+    },
+    {
+      "path": "cases/guangzhou_customs/validation/v2_preservation.json",
+      "source_sha256": "19d9c7f35337f4056cdb882736bdc528c8c9e3770ab074449b4cbc1402616483"
+    },
+    {
+      "path": "cases/guangzhou_memorial/README.txt",
+      "source_sha256": "9900b92b0d941ebe3d16e1309ba896d5e97b518c5426a383eb9896aebfd677af"
+    },
+    {
+      "path": "cases/guangzhou_memorial/cameras.json",
+      "source_sha256": "903521da5282568851fdb86ec0512ee6545015e34373dc98c1533120d3c2c0a5"
+    },
+    {
+      "path": "cases/guangzhou_memorial/feedback_template.json",
+      "source_sha256": "957134cadf3d807bc5f378de372c1bbe9c4d61a493dddb24cb989529e22568fc"
+    },
+    {
+      "path": "cases/guangzhou_memorial/research/component_evidence.json",
+      "source_sha256": "53ffe7874c19ee22cf6a6b006e7a3ab435f04158de92e98d0d842cee7fa19211"
+    },
+    {
+      "path": "cases/guangzhou_memorial/research/engine_baseline_hashes.json",
+      "source_sha256": "3506d2ffcb12e07f3c226908e7a69373bbb541df9a162708e6aef07cd5258c58"
+    },
+    {
+      "path": "cases/guangzhou_memorial/research/image_manifest.json",
+      "source_sha256": "39818c1bf718c64298785648fb9c84a09d28404324a9c7b90b1ff12b3b83e1f0"
+    },
+    {
+      "path": "cases/guangzhou_memorial/research/parameters.json",
+      "source_sha256": "5c9f508af35459de4923accf2756b04273f0fc8140d4a9acab9cadac6553600b"
+    },
+    {
+      "path": "cases/guangzhou_memorial/research/parameters_v2.json",
+      "source_sha256": "495751fa0a35bfe36ba2d9a6fc2bd573bf85f73330a14e5872caf6c161e1ada9"
+    },
+    {
+      "path": "cases/guangzhou_memorial/research/sources.json",
+      "source_sha256": "529820c04c3959b2d98c0651363d78eee652e4e464a0ccccb2dcc159aa1cf7b0"
+    },
+    {
+      "path": "cases/guangzhou_memorial/review/previews/V1_r03/cameras.json",
+      "source_sha256": "9928b49b5c5d4cdaf128b413d6a70adae43728565629a892edb6efaf1f506e9c"
+    },
+    {
+      "path": "cases/guangzhou_memorial/review/previews/V1_r03/render_report.json",
+      "source_sha256": "fef24f1a0323695eddf7aff2f6baa39972cf7ffed307272b79c6f113526c028e"
+    },
+    {
+      "path": "cases/guangzhou_memorial/review/previews/V2_r02/cameras.json",
+      "source_sha256": "9928b49b5c5d4cdaf128b413d6a70adae43728565629a892edb6efaf1f506e9c"
+    },
+    {
+      "path": "cases/guangzhou_memorial/review/previews/V2_r02/render_report.json",
+      "source_sha256": "4cbe78072bcdc215901f53dc1f6462881320eb57a8376620f0a46980ac8ab0ae"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/blockstates.csv",
+      "source_sha256": "af54ae2ce8e662d3f336b5d88796b95647d952cf130af521178342d827ecb6b1"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/build_case_snapshot.py",
+      "source_sha256": "23240ab0172318a3447f1775948f632592eeed50799b3b9b8f58fd0f6cbe5177"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/building.nbt",
+      "source_sha256": "1b0b5b6f8299dd4c81011634a0d73c1d9675e3057565c78a83be9c46b963c3d7"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/case_geometry.json",
+      "source_sha256": "0d7f29db247ab85c0c33ea1dbd4b8e8041b70691278ee03aa2c3a42dc9fa9406"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/component_ownership.json.gz",
+      "source_sha256": "4a9f01c5b20367a7abd6ff27eec53b364fcc47132debcdd3befb3b3702da9b8a"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/interiors.json",
+      "source_sha256": "7a7b184695c35573df6a1a3f4be569975f44a4e4c9003874c9e525a0654a99ad"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/manifest.json",
+      "source_sha256": "1321e8eb07137198a7ee3fae03963e1f66dd2c47d077379107d235a8fc7ad761"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/materials.csv",
+      "source_sha256": "23bca084fc3b0824dcc44c1a4bf298611307b481d49e77899086782d70311ad1"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/params_used.json",
+      "source_sha256": "6a9943852ad2c0bf15902c2c256dd5e6ce5ebcb4ef2a7664589572bf0644539c"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/validation.json",
+      "source_sha256": "16796001a440c00bad78ad1811c681e05b1ffaf0c81a6a8c9c9755228ae7a775"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V1_r03/windows.json",
+      "source_sha256": "461972e451629dba8d35ee340768f51e92fece45ec184f9766c478812a7a1211"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/adapter_dependencies.json",
+      "source_sha256": "998de033668d2d9cd0cbee4e6338a5a6a9ac2f5b997d2ae71c5c898f789f404b"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/blockstates.csv",
+      "source_sha256": "595052a43909963a25f5e9b0aac3efe49ee88cfd56dcd541224a0589dc812cae"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/build_case_snapshot.py",
+      "source_sha256": "23043ffc959b1b060b32401313d99cfa5d7fdb791a18b040f75a080f1a35e6b8"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/building.nbt",
+      "source_sha256": "81b06dce9e1ba323f1f34a522be08d2716e56fe942c2c7ab2aa40c55fdd66995"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/case_geometry.json",
+      "source_sha256": "3579584eaffcd0f007251d6e39e86f1c93838d357c0934de9e47a986e64225bc"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/component_ownership.json.gz",
+      "source_sha256": "3a66079c66a933d206b03a0d227ef8bf5146c538fc5d295e661494a9982ecb28"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/dependency_build_case.py",
+      "source_sha256": "23240ab0172318a3447f1775948f632592eeed50799b3b9b8f58fd0f6cbe5177"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/dependency_build_case_v2.py",
+      "source_sha256": "23043ffc959b1b060b32401313d99cfa5d7fdb791a18b040f75a080f1a35e6b8"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/interiors.json",
+      "source_sha256": "7a7b184695c35573df6a1a3f4be569975f44a4e4c9003874c9e525a0654a99ad"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/manifest.json",
+      "source_sha256": "02221c3dc09581340f31465d30ddeffd7ed1af1de55f9e076ef83496dcf0c859"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/materials.csv",
+      "source_sha256": "c1fbdd91111d9b618ca438b8e01c5ce2016541c3ed98baf09b2755d115fa0cc5"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/params_used.json",
+      "source_sha256": "91fe21a7d5cadc0d8251f26773b21448db610123a4eb8a7dade128306660d44a"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/repair_validation.json",
+      "source_sha256": "ad2ab9f7b49d490ac99140ecc6b000b5bad6e5152a6cbde4fb8bb0005c7994c8"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/validation.json",
+      "source_sha256": "9586722fe4c2b886df3ae46f5a4073468bea6a7bd8f3d41f51d0e1f869d826dd"
+    },
+    {
+      "path": "cases/guangzhou_memorial/runs/V2_r02/windows.json",
+      "source_sha256": "461972e451629dba8d35ee340768f51e92fece45ec184f9766c478812a7a1211"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/build_case.py",
+      "source_sha256": "23240ab0172318a3447f1775948f632592eeed50799b3b9b8f58fd0f6cbe5177"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/build_case_v2.py",
+      "source_sha256": "23043ffc959b1b060b32401313d99cfa5d7fdb791a18b040f75a080f1a35e6b8"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/make_delivery.py",
+      "source_sha256": "abfce8ab4e0d976a51195f3254614041f847cd2f9e461720e204f219a8eddaa5"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/make_delivery_v2.py",
+      "source_sha256": "0bf79449c95a6a6fe2c606d6622c8d7e7773379dd9db6730f7841452e7459a2f"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/make_v2_comparison.py",
+      "source_sha256": "901edfa22b35071731ba9360e9599519bdad926103592fe9413238015e9faf05"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/research_download.py",
+      "source_sha256": "57cefc9bb4244f159c8530c6c71afbeb84dc073574fb4e54bc498dc132484f94"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/review_samples.py",
+      "source_sha256": "afc463eb3b0107750a8e722ec04f4a756fa31bd9f9a12aa4b090a4807083d95a"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/validate_case.py",
+      "source_sha256": "3bf5de09f8457e504430dd31856196df0d172af89e6a9789c45bd08740582cb4"
+    },
+    {
+      "path": "cases/guangzhou_memorial/src/validate_repairs.py",
+      "source_sha256": "34ccb62835ed185d2eccf471728dc691838cb5858c346cc1d0b42f3138183d6a"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/case_checks_r02.txt",
+      "source_sha256": "1686237794147cbde52981ee1b3efd6c004d590b24eb6623cbd14e577ac30f68"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/case_checks_r03.txt",
+      "source_sha256": "a94b665eb1d0f6d30783ee7ed4f3abdf072656690b61f56378ee98f05d5e64be"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/core_preservation.json",
+      "source_sha256": "e2feae898d9436054a88d1a7d1cf352de6d682a7a1a3dfe893d6f69eb5160ed3"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/core_preservation_v2.json",
+      "source_sha256": "0758076b44ed36703bd24e74c036805007ac213ab42fce06ca568357239409c8"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/html_qa.json",
+      "source_sha256": "cc0a361b9911e04f349fd8818ae3f8c949b84d62f27ca627bb0e02f9e5dab8e2"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/html_qa_v2.json",
+      "source_sha256": "7a478f1daf73d95593052c9b873690682b9fdccb75799d5ab145ca6d2cfd80f5"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/shared_tests.txt",
+      "source_sha256": "d4315f2aa97786ac7ca38917ff3278b097e884ce87681aca87af0213eca42a8e"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/shared_tests_v2.txt",
+      "source_sha256": "01de71fd316139a4a17d27b37bcc95f5696b4739ef4c4788548010bcd838408f"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/v2_comparison_cameras.json",
+      "source_sha256": "2d7679f9bb32b3a1c7125d5227a8fdbdc308f43934a4bce9bd15bc120ab61226"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/v2_r01_repairs.txt",
+      "source_sha256": "d26afa6c5ab0dad9663a54d0895ceb81640f3dd392d466acd3802a6eeddf28d6"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/v2_r02_base.txt",
+      "source_sha256": "e0bb6e3f5249f1f199a1788dba4c53a0efc185d6291988ff1ea7c57611f45a89"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/v2_r02_repairs.txt",
+      "source_sha256": "71726a7cba25884b29e0cc599c2cfbcdb64997c20282e1884cf464a0531d9558"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/visual_review.json",
+      "source_sha256": "cf53f4850e637bb680352b274c29d484190bec6d9a92771f020f87e4fe977c80"
+    },
+    {
+      "path": "cases/guangzhou_memorial/validation/visual_review_v2.json",
+      "source_sha256": "7448674decd478e7c56042f39c3414e66bc79d907543b55771511ccb27706f5c"
+    },
+    {
+      "path": "cases/guangzhou_south/cameras.json",
+      "source_sha256": "cc3c9a90df8bfa1f062d8417fe2199d901cf07320aff6ba21f3ddfeafacdc87c"
+    },
+    {
+      "path": "cases/guangzhou_south/feedback.json",
+      "source_sha256": "d4dfad426096c36e91775b535f9e62bbfeb44b0e0debd4c205066684ee5303e4"
+    },
+    {
+      "path": "cases/guangzhou_south/research/component_evidence.json",
+      "source_sha256": "91f35ec9c385c9c595d574f2e6c9cf869bfde36ebecc98ecefc705251e28d509"
+    },
+    {
+      "path": "cases/guangzhou_south/research/downloads.json",
+      "source_sha256": "fc0351d95d1875980c59f7f6d53f402bf0fe8aff8b9e34e42f0a55f5bce7d30f"
+    },
+    {
+      "path": "cases/guangzhou_south/research/image_manifest.json",
+      "source_sha256": "c4420a463f91d791414407edf3afdcb3f81fe4fdb614ac50d6d7e0d19739f598"
+    },
+    {
+      "path": "cases/guangzhou_south/research/parameters.json",
+      "source_sha256": "67d23d871ab86aa9674c18489d0e3c389375326f13f00b5ec316eeec9820e74a"
+    },
+    {
+      "path": "cases/guangzhou_south/research/sources.json",
+      "source_sha256": "d830c68db1c5101bc703e8d89cf66961c218b785981cb44245e301f3650e7e15"
+    },
+    {
+      "path": "cases/guangzhou_south/review/previews/V1_r01/cameras.json",
+      "source_sha256": "e2f8051a30026520dbcd854269439e9f76b1c5f13b6df6eec1ace4989d3d1df8"
+    },
+    {
+      "path": "cases/guangzhou_south/review/previews/V1_r01/render_report.json",
+      "source_sha256": "004acc1dfa388b3ce49eb79fdd4dc54b48ac8dc7b528ff5e46ec64d8b4350845"
+    },
+    {
+      "path": "cases/guangzhou_south/review/previews/V1_r02/cameras.json",
+      "source_sha256": "5fe662e012e7b4ad81581f8f14872fd7d5d0abb02608836c847325bfe731eda3"
+    },
+    {
+      "path": "cases/guangzhou_south/review/previews/V1_r02/render_report.json",
+      "source_sha256": "d8161f6c82f9da56cef78f128bc0449dfc00ca57bac5aa59342d155b7c1624c3"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/blockstates.csv",
+      "source_sha256": "6b3baa4283bbf29d48b2ac07780cb35af5b1ed7fad320819718f148e47568b60"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/build_case_snapshot.py",
+      "source_sha256": "87777c95e7bc9a42a12cdf1d8283dcb4387d7f7f9f9eefad63da739c0a7ac574"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/building.nbt",
+      "source_sha256": "473edcad768aa2b2bbb90d67d3b75f70efd2e7afbcae4d4e6843360d613a2b15"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/component_ownership.json.gz",
+      "source_sha256": "ac5563458c3f3bcf92d489759a71a98044850f9f81de562052296bb810dfe901"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/construction_records.json",
+      "source_sha256": "8fa0cb12024ebb6b5cfe61a6be5b63394b7a2c5970a3e066cf59f02f8020679b"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/interiors.json",
+      "source_sha256": "728b9f955dd67f58935809d19c8312ea7df85ffe646b549979a90310f7cd6ac8"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/manifest.json",
+      "source_sha256": "8cbf5983851748caa220b029b6d6c3060faa82f7c5150218b4e0cd8046b45a9e"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/materials.csv",
+      "source_sha256": "2105778e5172f9605a3e62cc4ccc42ff9f18a6cd5bc002f86fd97fde63dbea53"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/params_used.json",
+      "source_sha256": "28a327be193f5a00bb66ffee41626c381ae9ce07fd39ced1551fe9e08676bce3"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/validation.json",
+      "source_sha256": "ad67e1181c7f3607a9482fb50bc03024a2c7781700fdfe99ce99efaf098bfb52"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r01/windows.json",
+      "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/blockstates.csv",
+      "source_sha256": "c84f6718a3724ae1d6a08e36bebb3d663228dab119a7d01b42540e100347ede3"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/build_case_snapshot.py",
+      "source_sha256": "16fe3bec5ba2271bbfc88dad842da7f87c4062473e43b3b03225ca2196f4e451"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/building.nbt",
+      "source_sha256": "d1be52d98763c1337d9a9ecee53d82bac9a8d6ed9842ee00ac89d32d4f1be245"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/component_ownership.json.gz",
+      "source_sha256": "e9729057cd956650acac073750e030d023eb8b9dd913787b9ac50aae46b8e943"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/construction_records.json",
+      "source_sha256": "8fa0cb12024ebb6b5cfe61a6be5b63394b7a2c5970a3e066cf59f02f8020679b"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/interiors.json",
+      "source_sha256": "728b9f955dd67f58935809d19c8312ea7df85ffe646b549979a90310f7cd6ac8"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/manifest.json",
+      "source_sha256": "4ec8a2f217164b83216a73aa5ea44376ddc05679af8d5fc3c8f57c892e9405af"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/materials.csv",
+      "source_sha256": "7885034f626d734230e7b507ea051d1de030d572f892a3e78ff7bba782b7f4a8"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/params_used.json",
+      "source_sha256": "28a327be193f5a00bb66ffee41626c381ae9ce07fd39ced1551fe9e08676bce3"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/validation.json",
+      "source_sha256": "a6c69490e9ff10f2404821d9f22a074582eee15a58d5ef99b8dd18fa176016c1"
+    },
+    {
+      "path": "cases/guangzhou_south/runs/V1_r02/windows.json",
+      "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "cases/guangzhou_south/src/build_case.py",
+      "source_sha256": "16fe3bec5ba2271bbfc88dad842da7f87c4062473e43b3b03225ca2196f4e451"
+    },
+    {
+      "path": "cases/guangzhou_south/src/review_samples.py",
+      "source_sha256": "f31f0683260f63b724cf8b65771086fde574d4120316f81f0cd4d03fd1ebc545"
+    },
+    {
+      "path": "cases/guangzhou_south/src/validate_case.py",
+      "source_sha256": "f6e9ca4ccc0af8adde00e3a77ac770a7b15efe8ee569f45189371b4b27e1b36d"
+    },
+    {
+      "path": "cases/guangzhou_south/validation/dependency_changes.json",
+      "source_sha256": "55f5e765bc8222abb4e87f29974f2fbfa752dde86d1dca412809b77bdf49fc06"
+    },
+    {
+      "path": "cases/guangzhou_south/validation/report_functional.json",
+      "source_sha256": "ac94ca8bdb84f45dc14393590b6e013b6fc8c1583ba1476f44e95a0bf6c9dc43"
+    },
+    {
+      "path": "cases/guangzhou_south/validation/shared_tests.txt",
+      "source_sha256": "085fe182cbc4d4e3180b2b961e9de4fef6e1f0cc369920214cf38abe87de4a2f"
+    },
+    {
+      "path": "cases/guangzhou_south/validation/shared_tests_final.txt",
+      "source_sha256": "993b4d287d0afb0fc905f0eff152168d8d987b7c808d5ddc630721aac8e9a350"
+    },
+    {
+      "path": "cases/guangzhou_south/validation/visual_review.json",
+      "source_sha256": "47606a09be7c14a6b44ed79e9322fb48dd3e89e9e28460da631b4c7d08258e40"
+    },
+    {
+      "path": "cases/namsan_tower/README.md",
+      "source_sha256": "04f7e3de7ab6b0cd598169e112a11cff6155d37de6e90e3d31db193548278fc3"
+    },
+    {
+      "path": "cases/namsan_tower/params.json",
+      "source_sha256": "b6eb7032d03ec5182abea86530668d33bb7369ff1e56ca5dc86502d21c1ab6f0"
+    },
+    {
+      "path": "cases/namsan_tower/research/component_decisions.json",
+      "source_sha256": "9a2b1c99570e62fd1fd13a705accc0e96efb51808217737ed61f2fdac2e4fd2a"
+    },
+    {
+      "path": "cases/namsan_tower/research/image_sources.json",
+      "source_sha256": "3be08ac757b396fb00bb4d8c8700987910aacdafe7bb9acb60cfa96dcea996e8"
+    },
+    {
+      "path": "cases/namsan_tower/research/page_sources.json",
+      "source_sha256": "c87c139011663047de9e65824305e89c2e42ce34ccbf7fed48647b69acbfd2d1"
+    },
+    {
+      "path": "cases/namsan_tower/research/terrain/building_relations.json",
+      "source_sha256": "8e5819952da6b3784cc0cc564d96de7ce31e6f3f60bd29d7b90f03fc9c04befb"
+    },
+    {
+      "path": "cases/namsan_tower/research/terrain/dem_grid.json",
+      "source_sha256": "400e486685d57a1175941cd479f28b806049410d9c77962d3e4cf0dc0630d1ce"
+    },
+    {
+      "path": "cases/namsan_tower/research/terrain/osm.xml",
+      "source_sha256": "1a39eda1dbf25d5291b8a1cf9c06461c4beffcaa44bb70030e2c6e709343a495"
+    },
+    {
+      "path": "cases/namsan_tower/review/previews/V1_r02/cameras.json",
+      "source_sha256": "ffde807d5193a9110c34584ac9efd2a00a088661a2b0d15f69780199d36b8a1e"
+    },
+    {
+      "path": "cases/namsan_tower/review/previews/V1_r02/render_report.json",
+      "source_sha256": "dddb706cdf1cb4d92f54708f083d0d48b51e0e56dbd5cb7f164764fbd598317b"
+    },
+    {
+      "path": "cases/namsan_tower/runs/V1_r02/build_case_snapshot.py",
+      "source_sha256": "dd1e9299833485d8100db09389346d13279a3913645d6b5b4e16872a4c68c925"
+    },
+    {
+      "path": "cases/namsan_tower/runs/V1_r02/building.nbt",
+      "source_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6"
+    },
+    {
+      "path": "cases/namsan_tower/runs/V1_r02/component_ownership.json.gz",
+      "source_sha256": "0b0cb5c8a51f43c2ca933077ae20b30fcb063c51814125d17dfb2ff89625330b"
+    },
+    {
+      "path": "cases/namsan_tower/runs/V1_r02/interior_lighting.json",
+      "source_sha256": "945ad64afbaada5f4794b01864f3aaed81e482fc5bf9692c4cd4f7f76c24f228"
+    },
+    {
+      "path": "cases/namsan_tower/runs/V1_r02/manifest.json",
+      "source_sha256": "a54c8547ad1625f0f33eaa2da03fb6f7f8d2f56fa52776688f37bc46c532f85d"
+    },
+    {
+      "path": "cases/namsan_tower/runs/V1_r02/materials.csv",
+      "source_sha256": "f43beb123ae2fe11a6ad59d489000d6dbf228e54e7739847188197b19d47687c"
+    },
+    {
+      "path": "cases/namsan_tower/runs/V1_r02/params_used.json",
+      "source_sha256": "8457419a5f87a85ce39f78116165a8b06a1df37d3e09e038b7a516b127920006"
+    },
+    {
+      "path": "cases/namsan_tower/runs/V1_r02/site_profile.json",
+      "source_sha256": "655836148cdbef12b6676c6bd84381b7416f82c2268734b02c063cab1000820f"
+    },
+    {
+      "path": "cases/namsan_tower/src/archive_case.py",
+      "source_sha256": "d75d2031c826a6a239434c510fccce6d562e622400490faa90253028f653ea1f"
+    },
+    {
+      "path": "cases/namsan_tower/src/build_case.py",
+      "source_sha256": "dd1e9299833485d8100db09389346d13279a3913645d6b5b4e16872a4c68c925"
+    },
+    {
+      "path": "cases/namsan_tower/src/make_review.py",
+      "source_sha256": "a9349317920f2f3d4f76a08e5a2a42cff9b03501fd6fa29e826650589447ac34"
+    },
+    {
+      "path": "cases/namsan_tower/src/package_import.py",
+      "source_sha256": "163a489f0654388290fe55ea6f5e63817787a800bfe9bd2143a2457b78bf8b6e"
+    },
+    {
+      "path": "cases/namsan_tower/src/plot_terrain.py",
+      "source_sha256": "4320417aa17a4d9bc12b6842018df20e4c51d46f73aa36da174717f8e4aa4b7d"
+    },
+    {
+      "path": "cases/namsan_tower/src/render_case.py",
+      "source_sha256": "65e8f2b60181d3c80fd5ef0aeaadf0702ef480deaf66f7b4b269e40240ed4f89"
+    },
+    {
+      "path": "cases/namsan_tower/src/render_egl_site.py",
+      "source_sha256": "242a0219181454162358b2201315aea349060695f4f30d4a62f3e04b61532915"
+    },
+    {
+      "path": "cases/namsan_tower/src/validate_case.py",
+      "source_sha256": "63ff2ef41e9216afb185e74c5ba3c9f8255614875b4f045e82b04a5c43400c65"
+    },
+    {
+      "path": "cases/namsan_tower/validation/acceptance.json",
+      "source_sha256": "584d5a7d89b413db9f17aa723616568ae50a7f66cf1d6caa12e2ae5d6f5d6013"
+    },
+    {
+      "path": "cases/namsan_tower/validation/core_tests.txt",
+      "source_sha256": "8bd766765647f226617c217431b00533ca52ccb55b7e3d0934273eaea4394c65"
+    },
+    {
+      "path": "cases/namsan_tower/validation/environment.json",
+      "source_sha256": "96377ff7912e87c251832ea6559ea8d235d46e35749538b55e6158dfbc47f75a"
+    },
+    {
+      "path": "cases/namsan_tower/validation/packaging_scope.txt",
+      "source_sha256": "140e0eb8dc81e29d135a77a325a33eeccb93324a96f9c970cbdb6c324209d124"
+    },
+    {
+      "path": "cases/namsan_tower/validation/portable_build.txt",
+      "source_sha256": "db40f32a51cae2ea1934a21d6010035011a08f7aa5e93baab55af88f2026c838"
+    },
+    {
+      "path": "cases/namsan_tower/validation/portable_replay.json",
+      "source_sha256": "83b9ddebdfbbcf2d3ea95f291c932de2d75106db4ac60e8e8c4fa4a3c717069c"
+    },
+    {
+      "path": "cases/namsan_tower/validation/portable_unit_tests.txt",
+      "source_sha256": "53ab75df562021af930a1290a421a955edb8056c6a4fa868a639513edb810501"
+    },
+    {
+      "path": "cases/namsan_tower/validation/protected_baseline.json",
+      "source_sha256": "062666c925ef0dd743d3f90bdd535d24c6e525bca05b66ffcbeee180762fca7e"
+    },
+    {
+      "path": "cases/namsan_tower/validation/rejected_camera/reason.txt",
+      "source_sha256": "4d8bde624cee5fc4c719975e260a97151e23f373d28dc4ec06386e0bc63cdf0a"
+    },
+    {
+      "path": "cases/namsan_tower/validation/review_ui.json",
+      "source_sha256": "55c4fba14ecd06e2dbc0d76a8fcfca237bfbeb450083d8dc6dc6cdf0d7a8f0d0"
+    },
+    {
+      "path": "cases/nanshan_cloud/README.md",
+      "source_sha256": "e757192dff00cdc873e9ebcdecca42913524577aec29a399247ddda68491261f"
+    },
+    {
+      "path": "cases/nanshan_cloud/cameras.json",
+      "source_sha256": "e77e1df4fe862b8ac4c9cc062648d47c0b6c9d052fca91b26e0faa56e750f803"
+    },
+    {
+      "path": "cases/nanshan_cloud/params.json",
+      "source_sha256": "eed1175b8bfd4b78249e756b1b1fe42984f3c23efc5b4fd0aee500200f266f17"
+    },
+    {
+      "path": "cases/nanshan_cloud/research/component_evidence.json",
+      "source_sha256": "a1149a31ca70d1f6184f5d6ff84966c4c6443cab20570b698a45bf2ff74870c2"
+    },
+    {
+      "path": "cases/nanshan_cloud/research/images.json",
+      "source_sha256": "b63dd2843558a44d1a5bb6b19fe2f894728807ecb074d54374568b5fc41a435e"
+    },
+    {
+      "path": "cases/nanshan_cloud/research/source_pages.json",
+      "source_sha256": "81643f31c3792d070f0570993b0216da5a16ac0606a39d9e3bf9b974886599e9"
+    },
+    {
+      "path": "cases/nanshan_cloud/research/v2_feedback.json",
+      "source_sha256": "5765c80ce7bd9b508463452cb6d47c73262f324ee02bd7c416b33101f135ce25"
+    },
+    {
+      "path": "cases/nanshan_cloud/review/previews/V2_r01/cameras.json",
+      "source_sha256": "c3d6dc836bd86398380d646e408c7cefe2b8e818c5c54f89305a2ecae480f9d9"
+    },
+    {
+      "path": "cases/nanshan_cloud/review/previews/V2_r01/render_report.json",
+      "source_sha256": "d7f6e3169fac89db0a6c8bf9f70a5429fa142256b2f4e52fde98cbff953febb5"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/blockstates.csv",
+      "source_sha256": "b08ec0582b8c29b2bd7a5c2274374c7bc3fdfce699f1a1841ffdd4962aa3ff71"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/build_case_snapshot.py",
+      "source_sha256": "6189fa4171effef7561d9a77ba92e5f2772535c76d5895879b48bfb13fcea28b"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/building.nbt",
+      "source_sha256": "11cdb08cb2d0202fcb802ae0bd91648e523a74d5599349d5fe56b223bd288425"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/cascade_components.json",
+      "source_sha256": "6497de6b477214a1906a887de4515527237839a7c4f04bc68407a294c984e225"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/component_ownership.json.gz",
+      "source_sha256": "a29f912d0eacdf874bde8d625c8a8486e6b2d3906c6615f481134c7aeb026552"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/interiors.json",
+      "source_sha256": "2b1668e7fe096407acf54fd3e945124f2fc87f6a07f564cf240a0ec001e772db"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/manifest.json",
+      "source_sha256": "32655c4860aba7575b4013d40420f2346e6a0d3ab9acd07e3be8392d4363d60a"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/materials.csv",
+      "source_sha256": "7e538792ffcbe9a33511bd7afd60f9203c7be7951dc84adfb92456adf15ab35d"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/params_used.json",
+      "source_sha256": "eed1175b8bfd4b78249e756b1b1fe42984f3c23efc5b4fd0aee500200f266f17"
+    },
+    {
+      "path": "cases/nanshan_cloud/runs/V2_r01/windows.json",
+      "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/archive_case.py",
+      "source_sha256": "0a21e9730a9cfdbc8c0791142cd13cfc9026a3c5091ff947bc44fc0eea1b0a84"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/archive_v2.py",
+      "source_sha256": "77426e94239c1ef67474c6c19edd1771ee665dbdfe53c50582ac19540b29017d"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/build_case.py",
+      "source_sha256": "6189fa4171effef7561d9a77ba92e5f2772535c76d5895879b48bfb13fcea28b"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/compose_review_v2.py",
+      "source_sha256": "2780da1c0e3596a88822fa8c58bf7f8c11e67ca1a8c0d938fcd5fe73cef31243"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/document_case.py",
+      "source_sha256": "d7be0cec3212eb10fbfc09b92a83788f65d4309cdae8d3c9d6efb7e6ad6929a6"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/document_v2.py",
+      "source_sha256": "96a112e8085ca7c873a4b69a92208d2c90dceb2882bccda8e0d85ede6aac53ef"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/make_review.py",
+      "source_sha256": "b5b6af35a4d4d459bced98fe686226c61c02710f203645e8b1f521d0d5947596"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/make_review_v2.py",
+      "source_sha256": "1fce714a646f043ab14bf5e7e68768bcd24f5d0c806eea748c29d00881ed3442"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/validate_case.py",
+      "source_sha256": "0d680aae1ae5633bbc4ce311bb889d14bf9a74d5dd83b0b14c90517caaa40afc"
+    },
+    {
+      "path": "cases/nanshan_cloud/src/validate_v2.py",
+      "source_sha256": "1c844fbe0e2b3c7225d8a7007cb0dae63e1f7c5c81afbf119a4a1107f6b11558"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/acceptance.json",
+      "source_sha256": "3a99d5abfc44f77c0ba10dca31ea353d2992eeb00759a56d79fc6b0f110f9b71"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/portable_replay.log",
+      "source_sha256": "283e448f64ed7421745968c7980e48afbb5ca4560138dc3dd31727d4c1133706"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/portable_tests.log",
+      "source_sha256": "ac157b2211135795bfe08bb426665676603d76a757e8d1eccee3ec5ccf1d4ea4"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/portable_validation.json",
+      "source_sha256": "d86dcd15ee300dbfc65eda5cc58c522befa4240e279c1fed2c558acb76cccbea"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/technical_notes.json",
+      "source_sha256": "4edf0665947332418206c035669b6b48776183f7a3f67fdab6c616fe5769c2bb"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/ui_validation.json",
+      "source_sha256": "74560046a398bf4fb3942c245452a5ec53bc623f3a2a65a6e4a6d22779c641a1"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/v2/acceptance.json",
+      "source_sha256": "2866e885bd060d48c93f56bd3e25120c847ebfa31fc8e66e267b7535435c0599"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/v2/block_diff.json",
+      "source_sha256": "07a07d9475db93cf7a509479373896ec1b55089c3101d7de8a9d399626a403bc"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/v2/portable_checks.log",
+      "source_sha256": "7a3e92dd16e39c8946910695c14d41bdff4c9c9ea3779886316b167d750c5d3d"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/v2/portable_replay.log",
+      "source_sha256": "886a1d6713ca66626176532138383d36c0db427f55028383e3f5c598cefabc08"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/v2/portable_tests.log",
+      "source_sha256": "5906c98e514d19fc201cef27ab1f261cf4563ce236d649b3c50baa2e7cf8518a"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/v2/portable_validation.json",
+      "source_sha256": "db9ad44b903bff491c43e21045ba459ef448cc650ae47fe1f34955caf12e8e29"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/v2/ui_validation.json",
+      "source_sha256": "1c4b74819d89eb2b3d8a9fcddf879403ddcfdc7bbe1e120bb9d8a67d26ab4141"
+    },
+    {
+      "path": "cases/nanshan_cloud/validation/v2/unit_tests.log",
+      "source_sha256": "88c1de910ae1ae39d1526a84f8b310aec8a4185eed8768fe9843c30d4f0c066c"
+    },
+    {
+      "path": "cases/shenzhen_press/README.md",
+      "source_sha256": "f9088d833c2df96cdaf5eabe2ab2562e14561f129662738c033567c6b71b16db"
+    },
+    {
+      "path": "cases/shenzhen_press/input/manifest.json",
+      "source_sha256": "12a764095f49f745825e734ab8b7f67a1476bb1c2b7ca93af2a55e9ccc9d1645"
+    },
+    {
+      "path": "cases/shenzhen_press/release.json",
+      "source_sha256": "47bc527dc3add40c662fe8c3142a355d56935a0fc64a7b2db9be249c7c7b7abe"
+    },
+    {
+      "path": "cases/shenzhen_press/research/parameters.json",
+      "source_sha256": "7cb9faa63a6781febd417e8310e352c0b8b07441c87a53220f05cadd5533f1b2"
+    },
+    {
+      "path": "cases/shenzhen_press/runs/V2/build_report.json",
+      "source_sha256": "3be29ea474a62e187579bbee6e50a4053f7e86d1a8e563652cce6758adf8f1e3"
+    },
+    {
+      "path": "cases/shenzhen_press/runs/V2/building.nbt",
+      "source_sha256": "e1aefdd2383fed8747c69c5806ab5cd367d7d91eeaf0092cd77c1a1f25176e20"
+    },
+    {
+      "path": "cases/shenzhen_press/runs/V2/rooms.json",
+      "source_sha256": "2828903f92413d9e69a505048706bea7d3b1ad9aef4e58412aa8663ca6ce4797"
+    },
+    {
+      "path": "cases/shenzhen_press/src/build_case.py",
+      "source_sha256": "7cbcf5157553e913a9966b6218c9177c2a432374c0319e88e035ebf8b3ca2dac"
+    },
+    {
+      "path": "cases/zhujiang_dijing/README.txt",
+      "source_sha256": "0c3216bd62da35671ae1f66a63e0e6ea8053f5dcf57632399e251940c218bd19"
+    },
+    {
+      "path": "cases/zhujiang_dijing/cameras.json",
+      "source_sha256": "6e30a7296bd0192e1b8c820776281c2e7d1e112a5b2c862a6e7937098ad58cae"
+    },
+    {
+      "path": "cases/zhujiang_dijing/feedback_template.json",
+      "source_sha256": "300093eac911e5904ed25acf70b59f7a1ff38f81dddd0077d6c708d98ce53d6c"
+    },
+    {
+      "path": "cases/zhujiang_dijing/research/component_evidence.json",
+      "source_sha256": "2fe3aa24a38b9329aa717eff1f772e151424194d2f6efacb929cec9ac219aceb"
+    },
+    {
+      "path": "cases/zhujiang_dijing/research/downloads.json",
+      "source_sha256": "776c6a7e360cd706c19c80face03e7b13ff3d3aeefc13a36c7e8b95feb7a6766"
+    },
+    {
+      "path": "cases/zhujiang_dijing/research/image_manifest.json",
+      "source_sha256": "fa0d65759d7d216ef835626a168b2270832a81a610efaa994b2743d67ada1513"
+    },
+    {
+      "path": "cases/zhujiang_dijing/research/parameters.json",
+      "source_sha256": "8a0b85f8c4bef6a73998b7d483c637204521daf2b94a4e8bbb4a55f22352b31f"
+    },
+    {
+      "path": "cases/zhujiang_dijing/research/sources.json",
+      "source_sha256": "61e4af69614d6e96f9c9f5d2001ad563ad0a5885af311e38c4ca8668295f5155"
+    },
+    {
+      "path": "cases/zhujiang_dijing/review/previews/V1_r03/cameras.json",
+      "source_sha256": "600d54c5849673811094a512287cb5c9247e9ba6b8f2e99890993330e6420e14"
+    },
+    {
+      "path": "cases/zhujiang_dijing/review/previews/V1_r03/render_report.json",
+      "source_sha256": "6b46abe56cddf8b7ce390d7f13c0d7c1876b642ea29740e2126d73cd310e3b42"
+    },
+    {
+      "path": "cases/zhujiang_dijing/review/previews/V1_r03/verified_render_manifest.json",
+      "source_sha256": "a88151821704f83c3394ab2f12299147f7f8854fe12069a5970f4d6f52810867"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/blockstates.csv",
+      "source_sha256": "ebef109beb14b8a80f2bd6fd709e3bbbb94ef525c50b164c9ebf1955b4b3fd96"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/build_case_snapshot.py",
+      "source_sha256": "d41d811e5bf7cacf96cc1074db18b1d7c51092f7c026bdf630dd3766fa7b9405"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/building.nbt",
+      "source_sha256": "47d8dac25bda3241ebe47c2504259cc9cc862241d0a94e0e71d6844a8d871855"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/component_ownership.json.gz",
+      "source_sha256": "6f224d929c2855f1ee46e69e9ec5e9938c3f991c48d7848fb642c6260cba72aa"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/construction_records.json",
+      "source_sha256": "84949fbf04ae693dc661eb35434d889aa91148d7485154f39074e6bab80f3609"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/interiors.json",
+      "source_sha256": "8f1c0ac906071c1acd28a98916697857493000a84a84e2fc97cb1c4031909a48"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/manifest.json",
+      "source_sha256": "1730585c0b96d0529a7f18ffd8819857450f8ea4d3cbc3b7d153e9d87551571c"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/materials.csv",
+      "source_sha256": "28df6fc0f8897cb59d04d985093175722b190be03c075f4620228ec5c5e928d0"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/params_used.json",
+      "source_sha256": "dbbbc415d700751a92eedae7e938639632f203d2d34f4968f9aea9355dd0cc03"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/validation.json",
+      "source_sha256": "af1e9ca72977b1e48440245e5ef89eb44ee2ddef2c818376896a41d725493f51"
+    },
+    {
+      "path": "cases/zhujiang_dijing/runs/V1_r03/windows.json",
+      "source_sha256": "4f9444f73feb1eab64530a9127984235f7793fe535a2b92d4d46c834d8c81435"
+    },
+    {
+      "path": "cases/zhujiang_dijing/src/build_case.py",
+      "source_sha256": "d41d811e5bf7cacf96cc1074db18b1d7c51092f7c026bdf630dd3766fa7b9405"
+    },
+    {
+      "path": "cases/zhujiang_dijing/src/make_delivery.py",
+      "source_sha256": "4420c5285dfcfbf012a0147d881942d2a2d96f77babcfae8a3254a66dcd427ba"
+    },
+    {
+      "path": "cases/zhujiang_dijing/src/validate_case.py",
+      "source_sha256": "f41acc400470e732ff04a779c9267701bca4f85977f8a5019f815fa92a34b5aa"
+    },
+    {
+      "path": "cases/zhujiang_dijing/validation/core_preservation.json",
+      "source_sha256": "3214c88bc3ea7f57d3bfdd401875bf0e730419d8a3cc2d4a2e2586e833d255cf"
+    },
+    {
+      "path": "cases/zhujiang_dijing/validation/html_qa.json",
+      "source_sha256": "819a78a8d0080e2d98a37f1ba056b73a01e158c4a092275ed1287a64aadf0f52"
+    },
+    {
+      "path": "cases/zhujiang_dijing/validation/shared_tests.txt",
+      "source_sha256": "3fc87f74f01238125ad992ee04d8c6126452e4999c178c7aec690bed398323f9"
+    },
+    {
+      "path": "cases/zhujiang_dijing/validation/visual_review.json",
+      "source_sha256": "099db03e781f0cc0404584babf80a95c8adc3c00e1fd60a8d516e422b7119022"
+    },
+    {
+      "path": "docs/HAF_0.2.md",
+      "source_sha256": "d0f5b6cbb69efac7207649cfd18465e6a44ea55fc217e231899390c304c7506a"
+    },
+    {
+      "path": "docs/haf_0_4_workflow.md",
+      "source_sha256": "d3b71d465ac9fd5bbbe23cdae8878ba44019895882e8c2dca95f9aa9fe3a884a"
+    },
+    {
+      "path": "history/canton/README.md",
+      "source_sha256": "411c084d6ea5b2d0bdf35ed0a235d9fdf1588de0e3ef3c6106eced22a1ba6edc"
+    },
+    {
+      "path": "history/canton/case/feedback/feedback_template.json",
+      "source_sha256": "aeb13d55b3c7740f47906839cfeecdc277fba7d62555823dd60d13dc14c665df"
+    },
+    {
+      "path": "history/canton/case/feedback/learning_record.json",
+      "source_sha256": "404dcb9d656c5bcd599a64db4b163fc7936ee2d69f0733fdcf13151427f6a166"
+    },
+    {
+      "path": "history/canton/case/inputs/common.json",
+      "source_sha256": "9d6e77437e3a03ff9c65b1a5054abc272f650469a42892f37ff193790c1c654a"
+    },
+    {
+      "path": "history/canton/case/inputs/component_evidence.json",
+      "source_sha256": "68d078661dfa44084113e3b0e956e336761b65d38af1bf3a69435a4890391725"
+    },
+    {
+      "path": "history/canton/case/inputs/hybrid_parameters.json",
+      "source_sha256": "abf96023cc51b27f07af32a4ee09b1e5c890803a4a4230ec4304c91299cd45ca"
+    },
+    {
+      "path": "history/canton/case/inputs/image_manifest.json",
+      "source_sha256": "5f5d14ad3739679179f309fc04e9d0670b36b5a2535e27d2d8f2e22a3dfcba15"
+    },
+    {
+      "path": "history/canton/case/inputs/model/model_document.json",
+      "source_sha256": "cd21bfccf8ce30227d245fe455aa1561e3af2668d004cb64ab2214c8dea93aa2"
+    },
+    {
+      "path": "history/canton/case/inputs/model/model_groups.json",
+      "source_sha256": "b41af280bfa65a2a57b8f5d33ac408aa133d7a06d00d525bda44e2bf7767d56c"
+    },
+    {
+      "path": "history/canton/case/inputs/plaza_reference_manifest.json",
+      "source_sha256": "9efce81bd8cad1ec0019f037977a6f9433090c06a7f5267efdbf05e9198d0884"
+    },
+    {
+      "path": "history/canton/case/inputs/podium_feedback_record.json",
+      "source_sha256": "75d4bc8c16a99164ce8047fa7b29466410ebf4aa96acc4a61a85b4e5dcebb204"
+    },
+    {
+      "path": "history/canton/case/inputs/podium_images.json",
+      "source_sha256": "868883ee47268b7e0b435ad4719101787cb802e29f8e23edefe2989ac49032d0"
+    },
+    {
+      "path": "history/canton/case/inputs/podium_view_record.json",
+      "source_sha256": "943d1ca7d5fb54a242906f78db55ced76719eecaac542fdae212c01fe878c6f5"
+    },
+    {
+      "path": "history/canton/case/inputs/research_archive.json",
+      "source_sha256": "f096f638b3b2cd48b9a60e4b77b00db877a004dd31b491dfe939cf08ac4bf4ce"
+    },
+    {
+      "path": "history/canton/case/inputs/v1_parameters.json",
+      "source_sha256": "9fa13f51bbf4928dbf9ab453b74fbc79b8fbfdf14ef1c44faeb751d6c2321a0b"
+    },
+    {
+      "path": "history/canton/case/inputs/v3a_parameters.json",
+      "source_sha256": "916386e6f0c54f3b28b13c162a2dbe03e935a2fc073724be59b5f24f3fad6fb4"
+    },
+    {
+      "path": "history/canton/case/inputs/v4_parameters.json",
+      "source_sha256": "d22c414eb1b422ab9194cad88036bcb84127fe69b7e62fea9e87c894fe003017"
+    },
+    {
+      "path": "history/canton/case/inputs/v5_parameters.json",
+      "source_sha256": "ba97afb6f99f9d29d1da4898488245b622225cd28a338a6d818dd0aaf37086a6"
+    },
+    {
+      "path": "history/canton/case/inputs/v5_reference_manifest.json",
+      "source_sha256": "89a653196609d83fc4b3294322f123419d786d60c4536bf2ebea75d2b25f4a32"
+    },
+    {
+      "path": "history/canton/case/runs/V5_r02/component_decisions.json",
+      "source_sha256": "1105634065fb208785fb0e6a2f88c94a6f3c389ccc78aac982962256902bca71"
+    },
+    {
+      "path": "history/canton/case/runs/V5_r02/site_validation.json",
+      "source_sha256": "2929bbc9543b14ba9e43b2a2080c0737e36a6c4e3207562a400b6d21b8136f72"
+    },
+    {
+      "path": "history/canton/reports/axis_probe.json",
+      "source_sha256": "a4a494c0faa661c796babfc79c38ba4ab92fb524b605c4401a96620dfde0d76a"
+    },
+    {
+      "path": "history/canton/reports/comparison_metrics.json",
+      "source_sha256": "c0de019c2bf46d1ca786a489d28d140800ae38896577d647ae72d8e8cd62ad78"
+    },
+    {
+      "path": "history/canton/reports/delivery_validation.json",
+      "source_sha256": "5f31832d1c930f23145fc298e9723c621d4d913968a50e66bf00dab1c118657a"
+    },
+    {
+      "path": "history/canton/reports/feedback_validation.json",
+      "source_sha256": "f2306f34572a9de1da8b5a1654695903e0bf928d89f5d8e16009335d0a1cf0a3"
+    },
+    {
+      "path": "history/canton/reports/original_asset_hashes.json",
+      "source_sha256": "2d967d79655d412ab77fbd8db3b7c054f8a1ab89e7634405c064621f060df967"
+    },
+    {
+      "path": "history/canton/reports/original_integrity.json",
+      "source_sha256": "b4de6d874a57cea3f8ebdd559251f1045fdaef5da96b4cebca8a478bf8dcc24c"
+    },
+    {
+      "path": "history/canton/reports/portable_replay.json",
+      "source_sha256": "9aee5b5d8ae57670411da9edeba9886ecb578fdd6990f6e5c23bc1efd3d48627"
+    },
+    {
+      "path": "history/canton/reports/replay_validation.json",
+      "source_sha256": "de3062b7cb867b0444bbbaa2cc9665a9b8407f76dcf923192dee4ddd0b9a255c"
+    },
+    {
+      "path": "history/canton/reports/review_manifest.json",
+      "source_sha256": "0a30a7ccdbb7499ed80a9f5472b41e8b6472b6a36334fca2253a73229a67f96b"
+    },
+    {
+      "path": "history/canton/reports/runtime.json",
+      "source_sha256": "b3c8a6601812207534b278ba3c6239f04262ce993fc02fc122906fb725fff212"
+    },
+    {
+      "path": "history/canton/reports/upstream_replay/alignment_demo.json",
+      "source_sha256": "3b7c42d76325653d6c3d19a86c5604a61b9354c2078ed3982dc7381e97f04d37"
+    },
+    {
+      "path": "history/canton/reports/upstream_replay/cache_demo.json",
+      "source_sha256": "786442f16d0dedd6697bc1293ded9931ec6fcae596994fb85a646725ebf88ffc"
+    },
+    {
+      "path": "history/canton/reports/upstream_replay/environment.json",
+      "source_sha256": "27439032280bf6945d9cf470ed98cff8543170a5e0cb353bda174b24cc834e87"
+    },
+    {
+      "path": "history/canton/reports/upstream_replay/evidence_demo.json",
+      "source_sha256": "e834872758dadb26f1df45442a0e1ab7873646ca094c230e31e43f4a815c48a1"
+    },
+    {
+      "path": "history/canton/reports/upstream_replay/plancraft_house.buildpaste.json",
+      "source_sha256": "5c3e3e39f02568b9efb4f02eb5c54cd035d4178d0369f8a0cd33a3d8cc92f1b2"
+    },
+    {
+      "path": "history/canton/reports/upstream_replay/plancraft_house_bridge.nbt",
+      "source_sha256": "a908eec99f000a8e8ab587e9c5984e65bd92e17bc8c907bacd4c34b9158999a9"
+    },
+    {
+      "path": "history/canton/reports/upstream_replay/quantization_bridge.json",
+      "source_sha256": "3089a6ec876627d1e42a51753f330593cb480abe40615623d33f8970fb803c09"
+    },
+    {
+      "path": "history/canton/reports/upstream_replay/v5_readback.json",
+      "source_sha256": "3618538d78a96e5b925f1efbe9ff81ee07cfd213f925810081578873f15d847d"
+    },
+    {
+      "path": "history/canton/reports/upstream_sha256.json",
+      "source_sha256": "48b380e379b2ec9e1d6552e949809d5eebddc1e5f172d913e6109e81dabfb7b8"
+    },
+    {
+      "path": "history/canton/reports/v5_route_probe.json",
+      "source_sha256": "a5daa851cbc69e59ca2286618972f570e7fb2f556538ef11c2d0861631c7b6c8"
+    },
+    {
+      "path": "history/canton/reports/working_dependency_integrity.json",
+      "source_sha256": "f06091abcc2c00274498d79219c54f197baee5bf82e0c0602542f426a82891b0"
+    },
+    {
+      "path": "history/pazhou/README.md",
+      "source_sha256": "c6ea25f5d15fbf4624bcb22c9e784af82defe8e67b774af208a4ca8e262b4385"
+    },
+    {
+      "path": "history/pazhou/reports/comparison.json",
+      "source_sha256": "14a91297a6b4e2b95ee1980cc9e9ea4b38c41689e519312ca4e7fdde5132c03a"
+    },
+    {
+      "path": "history/pazhou/reports/engine_snapshot_manifest.json",
+      "source_sha256": "3380364de6b323fd43175ff7b64e0466b08c9e8b82e9afb93f367abf4615b665"
+    },
+    {
+      "path": "history/pazhou/reports/html_interaction_tests.json",
+      "source_sha256": "5a20edb6ac3dca31a6b0a4a4cdc23d9f22f676032b9ca73a19aca6ed85aab911"
+    },
+    {
+      "path": "history/pazhou/reports/html_verification.json",
+      "source_sha256": "22696c98df4c2a8ae94a26c0292ad1f534bde432e96896d469e476534793d526"
+    },
+    {
+      "path": "history/pazhou/reports/render_comparison.json",
+      "source_sha256": "490abe593b45a575b70ca74f9cce86ae73d2981e13795a6c33745a36f97e5e82"
+    },
+    {
+      "path": "history/pazhou/reports/source_package_manifest.json",
+      "source_sha256": "dd1a935ff3425b9366b24d59642802806daf8fc506b8fd5b9cc9c470b5110061"
+    },
+    {
+      "path": "history/pazhou/reports/third_party_usage.json",
+      "source_sha256": "eb0661f88ae6266b0ed367f84233f920515a779ccc5c9b279e92fa2b15c03c4d"
+    },
+    {
+      "path": "history/pazhou/routes/HA03/runs/baseline/building.nbt",
+      "source_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042"
+    },
+    {
+      "path": "history/pazhou/routes/HAF/runs/baseline/building.nbt",
+      "source_sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042"
+    },
+    {
+      "path": "learning/HAF_0_3_release_plan.json",
+      "source_sha256": "53d4a08e0624a1700213ec42fe8b777456b0f325b842efaa563c719872441f75"
+    },
+    {
+      "path": "learning/README.md",
+      "source_sha256": "8a705fb52ce68783b4618fee250fbe227f3a7038a5aac8824aa25426a3238f7d"
+    },
+    {
+      "path": "learning/case_registry.json",
+      "source_sha256": "d8dcc43daa141f6078a6d9efa0154657dc4719f18a23fd623791139b6664161c"
+    },
+    {
+      "path": "learning/ctf_night_detail_study.md",
+      "source_sha256": "2131b140cf6ac3e25f0fde92590e01a2c0b0f83bbf6f084bfa70791e1421d0a0"
+    },
+    {
+      "path": "learning/customs_v3_user_acceptance.json",
+      "source_sha256": "7cb20cd685a35ee266cf5ab51e362f87a0d748e7925bbb5075a51500d3c49bc8"
+    },
+    {
+      "path": "learning/feedback_ledger.json",
+      "source_sha256": "ce47e1b2bc16efd7e8e1d9557dc5e005a79da4b060b08126491bcd6893ba19b4"
+    },
+    {
+      "path": "learning/guangzhou_customs_v1.json",
+      "source_sha256": "8e6b36b64ee352b1391eaa3c8db0d3dd8568fa3310c361807a95cedf1526e4bd"
+    },
+    {
+      "path": "learning/guangzhou_customs_v3.json",
+      "source_sha256": "b969f719c564b8602ba11701d73feb5e7d1afa3584abc2c9f0611c77cce94276"
+    },
+    {
+      "path": "learning/guangzhou_memorial_v1.json",
+      "source_sha256": "449c27ee9e4d00de46ccc08f2b7ba9ef12960cdcc66c9b0974767167f14346aa"
+    },
+    {
+      "path": "learning/guangzhou_memorial_v2.json",
+      "source_sha256": "e102e95db0a02efcb9469834d9b753b5a68d8cf0595fc84632b4dfa26a5ffdcc"
+    },
+    {
+      "path": "learning/guangzhou_south_v1.json",
+      "source_sha256": "6948d158a321fe5d5a556353a18deb667108b001a78eeeaf50e1bfe6efcc5b85"
+    },
+    {
+      "path": "learning/london_western_v1.json",
+      "source_sha256": "659c668e1d59ac950fb18bbfd3122cbdde9f5f9269fe53b98fe034416c7150aa"
+    },
+    {
+      "path": "learning/namsan_site_v1.md",
+      "source_sha256": "ce2fc3a76509781708d4d37c550f558033711fe0620544935e34634daaa5ac7d"
+    },
+    {
+      "path": "learning/nanshan_cloud_v1.json",
+      "source_sha256": "fbae0a02eb967d73508933a768added1cd10b20e76277ad587bf25f4a4322b28"
+    },
+    {
+      "path": "learning/nanshan_cloud_v2.json",
+      "source_sha256": "eabfe139e534b2146ceb1b230636fbd8b2ce68edafd90759d9e95c38871687e7"
+    },
+    {
+      "path": "learning/pazhou-feedback.json",
+      "source_sha256": "6502afc87ee35326e05618375e2e2d8502d53549c5389f7113e6590e02d17509"
+    },
+    {
+      "path": "learning/vertical_facade_ctf_v1.md",
+      "source_sha256": "6a13927f162955da42fd430085b37179a46b6cc41574d5af2a37736d1417406e"
+    },
+    {
+      "path": "learning/zhujiang_dijing_v1.json",
+      "source_sha256": "7308fe3115703feefc05d8a831c6f71b4e8591b24f819356e516ddadd83df88f"
+    },
+    {
+      "path": "release/README_HAF03.md",
+      "source_sha256": "def19893f30510514d62bf6e50da53e0650f44eb2893cf080d60da06778f6e8d"
+    },
+    {
+      "path": "release/changes.json",
+      "source_sha256": "6c2a68afd11534d7f683e95b1478c4d9a3ab6100cbc0d74685d65247961a63ec"
+    },
+    {
+      "path": "release/haf04_inputs.json",
+      "source_sha256": "d0c43412ead7c92139e210d1cec0a4cec837c0833995518c309698c35fddd47d"
+    },
+    {
+      "path": "release/haf04_release_notes.json",
+      "source_sha256": "5845e6b68ad34d66d90539d3c2813327517fc8a7f4f72da7ca856ffee163f177"
+    },
+    {
+      "path": "release/haf04_release_validation.json",
+      "source_sha256": "0eda8e4018cfb19d8873286aca7ba58e3f572cc244f59d36afdba2867b073756"
+    },
+    {
+      "path": "release/original_archives.json",
+      "source_sha256": "16f3a9769fb2cc2855a4509f3b7c7ca6c361cdbc1d2d56d695f5028fcf658ffa"
+    },
+    {
+      "path": "release/release_validation.json",
+      "source_sha256": "23f5c69aa5e58d698f64ad36aa758939967187e1bbe03ee6a9ec9590b5e803a5"
+    },
+    {
+      "path": "releases/0.2/validation.json",
+      "source_sha256": "581977fd7761e23c43758d705c38dfc44eeaadb9fac569e32ea57e3200aa5245"
+    },
+    {
+      "path": "tests/test_mesh_write.py",
+      "source_sha256": "cd9daa4347b64bd594398166975b3318a50ee783081bad4217afc21e54f11a36"
+    },
+    {
+      "path": "hafusion/variation06.py",
+      "source_sha256": "805b5024450cdfaf20c51427d1cb430f3c436034a19b46a6481ee0aebfb6ea0a"
+    },
+    {
+      "path": "hafusion/workflow06.py",
+      "source_sha256": "3aee417bd9e9d7d8173f3d5f83955e7fdc72f3aa1d87cf78de2f4952779a9207"
+    },
+    {
+      "path": "tests/test_workflow06.py",
+      "source_sha256": "8e1d54f4633dbe1b1f1b55b3e7c2b160edc4f3f98f29ac430167e8f9b9c40077"
+    },
+    {
+      "path": "tools/haf.py",
+      "source_sha256": "7392c828e262ed58cdadb235798e4cd3c155d4db3503fe0e13b1a49900d38a89"
+    },
+    {
+      "path": "examples/workflow06/desk-proposal.json",
+      "source_sha256": "4b0060c0c1b35bff8fd59faa6258375d1d438c5a252624b30a5fbc6945c29622"
+    },
+    {
+      "path": "examples/workflow06/library-request.json",
+      "source_sha256": "e4ec116751987845833874f162c9e2bb73f2801c7ba549424240221af0fd9a2d"
+    },
+    {
+      "path": "examples/workflow06/model-call.json",
+      "source_sha256": "1e03858e1de20a5bf62f591a12f5045ad43a4ae724b198cecb6338e94831e95f"
+    },
+    {
+      "path": "examples/workflow06/tool-schema.json",
+      "source_sha256": "85d2d7553331293ba8ec7c82f0d20d0b2a18cbded33d7406391b8a87c4630beb"
+    },
+    {
+      "path": "docs/case-index.json",
+      "source_sha256": "7df9de6b7981f6890874967107569533ae54accf3708fce41f48c2e1a6525e3a"
+    },
+    {
+      "path": "docs/case-studies.md",
+      "source_sha256": "1a127d06430e0b3e29a5f97c642a864ffa21a42023f611c9f2cf89f6b1403e13"
+    },
+    {
+      "path": "docs/model-integration.md",
+      "source_sha256": "a7c8f9c10fa810557d77d1c37f05c34b2262bc3b507dd876ee1b76967bbe34e2"
+    },
+    {
+      "path": "docs/randomness.md",
+      "source_sha256": "ac440ae465d15718931a4c068b140b52c3b32f976842cd7f393d76af4ceb9ee0"
+    },
+    {
+      "path": "docs/version-history.md",
+      "source_sha256": "c3ce16fbcfcb897708a48ffbd7ffc2be85cb8e8fdef1952177bac27840a21990"
+    },
+    {
+      "path": "docs/workflow.md",
+      "source_sha256": "7837d2f7f44c7bd993b6a21470e3d63dbb11148ab2ad329963b32c6680385e74"
+    }
+  ]
+}

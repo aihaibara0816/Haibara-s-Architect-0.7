@@ -1,0 +1,45 @@
+{
+  "case_id": "Taisho14",
+  "mainline": "HAF 0.4",
+  "date": "2026-10-31",
+  "route": "original_reference_design",
+  "source_baseline": "Taisho13 S05, restored from current Library project",
+  "video_scope": "Reuses recorded partial viewing of BV1Dx41187iG; this turn adds original building programs, does not claim new footage review.",
+  "hard_constraints": [
+    "18 distinct building programs",
+    "Java 1.21.1 vanilla blocks",
+    "clock tower, school, local station",
+    "sloping terrain and connected streets",
+    "functional interiors",
+    "clear view/individual/direction/day-night controls"
+  ],
+  "coordinates": {
+    "x": "east",
+    "y": "up",
+    "z": "south",
+    "unit": "block; proposed design scale, not measured"
+  },
+  "seed": 141145,
+  "site": [
+    196,
+    60,
+    158
+  ],
+  "street_grade": "upper west 15 to east 7; lower west 13 to east 5; two transverse drops in connecting lanes",
+  "architectural_variation": [
+    "1–2 occupied stories, separate tall clock shaft",
+    "different frontage widths and depths",
+    "timber plaster, copper-front, pale civic, brick pilasters",
+    "projected bay surrounds, layered canopies, supported brackets",
+    "large school and station, mid-size inn/pharmacy, narrow everyday stores"
+  ],
+  "preserved": [
+    "Taisho13 original outputs remain unchanged"
+  ],
+  "status": {
+    "game": "pending",
+    "aesthetic": "pending user review"
+  },
+  "long_prompt": "一片18栋和洋混合的大正浪漫风貌街。两段缓弯的圆石坡路由西向东下降，西北山林、东侧溪流与两座桥接入。坡上学校、文库构成较大公共体量，铜板书店与布店夹成窄街；中段浅墙药局、木造旅馆与茶食店、照相馆、花店错落；南段住宅、面包房、邮便局、工房与浴场形成日常生活街；钟楼小广场衔接地方车站和站台。窗套、挑窗、檐口、柱帽、雨棚与门面有真实进深，大小、进退、屋顶方向和高度不同。草花成片、樱花成组、竹丛贴岸。每栋按用途配置室内，先保留通路，再安排家具、工作、储藏、休息及灯。",
+  "short_prompt": "十八栋和洋坡街，钟楼学校车站，大小高低错落，双街溪桥，厚檐窗套挑窗，营业内饰，樱花竹林。"
+}

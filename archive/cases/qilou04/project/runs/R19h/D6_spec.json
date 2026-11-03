@@ -1,0 +1,674 @@
+{
+  "id": "D6",
+  "name": "街坊肠粉铺",
+  "size": [
+    42,
+    84,
+    34
+  ],
+  "floors": [
+    2,
+    7,
+    12
+  ],
+  "entry": [
+    32,
+    3,
+    30
+  ],
+  "rooms": [
+    {
+      "id": "D6.F01.L.home",
+      "unit_id": "D6.F01.L",
+      "floor_id": "D6.F01",
+      "function": "living",
+      "bounds_xyz": [
+        298,
+        3,
+        83,
+        303,
+        6,
+        100
+      ],
+      "entrances": [
+        [
+          298,
+          3,
+          98
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        34,
+        3,
+        3,
+        39,
+        6,
+        20
+      ]
+    },
+    {
+      "id": "D6.F01.L.bath",
+      "unit_id": "D6.F01.L",
+      "floor_id": "D6.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        300,
+        3,
+        83,
+        303,
+        6,
+        86
+      ],
+      "entrances": [
+        [
+          300,
+          3,
+          85
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        36,
+        3,
+        3,
+        39,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "D6.F01.R.restaurant",
+      "unit_id": "D6.F01.R",
+      "floor_id": "D6.F01",
+      "function": "restaurant",
+      "bounds_xyz": [
+        267,
+        3,
+        83,
+        294,
+        6,
+        110
+      ],
+      "entrances": [
+        [
+          293,
+          3,
+          107
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        3,
+        3,
+        30,
+        6,
+        30
+      ]
+    },
+    {
+      "id": "D6.F01.R.bath",
+      "unit_id": "D6.F01.R",
+      "floor_id": "D6.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        291,
+        3,
+        83,
+        294,
+        6,
+        86
+      ],
+      "entrances": [
+        [
+          291,
+          3,
+          85
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        27,
+        3,
+        3,
+        30,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "D6.F01.R.service",
+      "unit_id": "D6.F01.R",
+      "floor_id": "D6.F01",
+      "function": "kitchen",
+      "bounds_xyz": [
+        267,
+        3,
+        83,
+        289,
+        6,
+        90
+      ],
+      "entrances": [
+        [
+          283,
+          3,
+          89
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        3,
+        3,
+        25,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "D6.F02.L.home",
+      "unit_id": "D6.F02.L",
+      "floor_id": "D6.F02",
+      "function": "living",
+      "bounds_xyz": [
+        298,
+        8,
+        83,
+        303,
+        11,
+        100
+      ],
+      "entrances": [
+        [
+          298,
+          8,
+          98
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        34,
+        8,
+        3,
+        39,
+        11,
+        20
+      ]
+    },
+    {
+      "id": "D6.F02.L.bath",
+      "unit_id": "D6.F02.L",
+      "floor_id": "D6.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        300,
+        8,
+        83,
+        303,
+        11,
+        86
+      ],
+      "entrances": [
+        [
+          300,
+          8,
+          85
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        36,
+        8,
+        3,
+        39,
+        11,
+        6
+      ]
+    },
+    {
+      "id": "D6.F02.R.studio",
+      "unit_id": "D6.F02.R",
+      "floor_id": "D6.F02",
+      "function": "living",
+      "bounds_xyz": [
+        281,
+        8,
+        87,
+        294,
+        11,
+        110
+      ],
+      "entrances": [
+        [
+          288,
+          8,
+          87
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        17,
+        8,
+        7,
+        30,
+        11,
+        30
+      ]
+    },
+    {
+      "id": "D6.F02.R.bath",
+      "unit_id": "D6.F02.R",
+      "floor_id": "D6.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        291,
+        8,
+        87,
+        294,
+        11,
+        91
+      ],
+      "entrances": [
+        [
+          291,
+          8,
+          90
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        27,
+        8,
+        7,
+        30,
+        11,
+        11
+      ]
+    },
+    {
+      "id": "D6.F02.R2.studio",
+      "unit_id": "D6.F02.R2",
+      "floor_id": "D6.F02",
+      "function": "living",
+      "bounds_xyz": [
+        267,
+        8,
+        87,
+        279,
+        11,
+        110
+      ],
+      "entrances": [
+        [
+          273,
+          8,
+          87
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        8,
+        7,
+        15,
+        11,
+        30
+      ]
+    },
+    {
+      "id": "D6.F02.R2.bath",
+      "unit_id": "D6.F02.R2",
+      "floor_id": "D6.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        276,
+        8,
+        87,
+        279,
+        11,
+        91
+      ],
+      "entrances": [
+        [
+          276,
+          8,
+          90
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        12,
+        8,
+        7,
+        15,
+        11,
+        11
+      ]
+    },
+    {
+      "id": "D6.F03.L.home",
+      "unit_id": "D6.F03.L",
+      "floor_id": "D6.F03",
+      "function": "living",
+      "bounds_xyz": [
+        298,
+        13,
+        83,
+        303,
+        16,
+        100
+      ],
+      "entrances": [
+        [
+          298,
+          13,
+          98
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        34,
+        13,
+        3,
+        39,
+        16,
+        20
+      ]
+    },
+    {
+      "id": "D6.F03.L.bath",
+      "unit_id": "D6.F03.L",
+      "floor_id": "D6.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        300,
+        13,
+        83,
+        303,
+        16,
+        86
+      ],
+      "entrances": [
+        [
+          300,
+          13,
+          85
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        36,
+        13,
+        3,
+        39,
+        16,
+        6
+      ]
+    },
+    {
+      "id": "D6.F03.R.studio",
+      "unit_id": "D6.F03.R",
+      "floor_id": "D6.F03",
+      "function": "living",
+      "bounds_xyz": [
+        281,
+        13,
+        87,
+        294,
+        16,
+        110
+      ],
+      "entrances": [
+        [
+          288,
+          13,
+          87
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        17,
+        13,
+        7,
+        30,
+        16,
+        30
+      ]
+    },
+    {
+      "id": "D6.F03.R.bath",
+      "unit_id": "D6.F03.R",
+      "floor_id": "D6.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        291,
+        13,
+        87,
+        294,
+        16,
+        91
+      ],
+      "entrances": [
+        [
+          291,
+          13,
+          90
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        27,
+        13,
+        7,
+        30,
+        16,
+        11
+      ]
+    },
+    {
+      "id": "D6.F03.R2.studio",
+      "unit_id": "D6.F03.R2",
+      "floor_id": "D6.F03",
+      "function": "living",
+      "bounds_xyz": [
+        267,
+        13,
+        87,
+        279,
+        16,
+        110
+      ],
+      "entrances": [
+        [
+          273,
+          13,
+          87
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        13,
+        7,
+        15,
+        16,
+        30
+      ]
+    },
+    {
+      "id": "D6.F03.R2.bath",
+      "unit_id": "D6.F03.R2",
+      "floor_id": "D6.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        276,
+        13,
+        87,
+        279,
+        16,
+        91
+      ],
+      "entrances": [
+        [
+          276,
+          13,
+          90
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        12,
+        13,
+        7,
+        15,
+        16,
+        11
+      ]
+    }
+  ],
+  "uses": [],
+  "doors": [],
+  "lights": [],
+  "stairs": [],
+  "groups": [],
+  "sources": [],
+  "kind": "rear_cut",
+  "program": "restaurant",
+  "urban": {
+    "id": "D6",
+    "name": "街坊肠粉铺",
+    "x": 266,
+    "z": 82,
+    "w": 38,
+    "d": 29,
+    "floors": 3,
+    "rotation": 2,
+    "ground": "restaurant",
+    "shape": "rear_cut",
+    "cut": 5,
+    "base_y": 3,
+    "palette": "rose",
+    "maintenance": 0.6695327926660888,
+    "balcony": true,
+    "street_role": "frontage",
+    "extra_shop_entry": false,
+    "corner_shop": false
+  },
+  "unit_count": 8,
+  "main_entries": [
+    {
+      "id": "D6",
+      "entry": [
+        296,
+        3,
+        110
+      ],
+      "outside": [
+        296,
+        3,
+        111
+      ],
+      "core_landing": [
+        298,
+        3,
+        102
+      ],
+      "width": 2
+    },
+    {
+      "id": "D6.shop",
+      "entry": [
+        269,
+        3,
+        110
+      ],
+      "outside": [
+        269,
+        3,
+        111
+      ],
+      "width": 2,
+      "kind": "restaurant",
+      "unit_id": "D6.F01.R",
+      "role": "customer"
+    },
+    {
+      "id": "D6.street.R",
+      "unit_id": "D6.F01.R",
+      "entry": [
+        280,
+        3,
+        110
+      ],
+      "inside": [
+        280,
+        3,
+        109
+      ],
+      "outside": [
+        280,
+        3,
+        111
+      ],
+      "width": 2,
+      "kind": "restaurant",
+      "role": "customer",
+      "face": "south"
+    }
+  ],
+  "upper_starts": {},
+  "stair_runs": [],
+  "family": "village",
+  "placement": {
+    "id": "D6",
+    "name": "街坊肠粉铺",
+    "origin": [
+      264,
+      0,
+      80
+    ],
+    "turn": 0,
+    "w": 42,
+    "d": 34,
+    "family": "village",
+    "kind": "rear_cut",
+    "program": "restaurant",
+    "lot": {
+      "id": "D6",
+      "name": "街坊肠粉铺",
+      "x": 266,
+      "z": 82,
+      "w": 38,
+      "d": 29,
+      "floors": 3,
+      "rotation": 2,
+      "ground": "restaurant",
+      "shape": "rear_cut",
+      "cut": 5,
+      "base_y": 3,
+      "palette": "rose",
+      "maintenance": 0.6695327926660888,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    "facade_revision": {
+      "palette": "rose",
+      "wall": "white_terracotta",
+      "roof": "flat_service",
+      "roof_label": "平屋顶与生活设备"
+    }
+  },
+  "source_nbt_sha256": "e9d19400206e70ffd45c153d56e01baf29db154b2f5e72bbbebc7c08bfa93fd6",
+  "size_xyz": [
+    42,
+    84,
+    34
+  ],
+  "non_air": 10807,
+  "block_entities": 66,
+  "entities": 0
+}

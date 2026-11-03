@@ -1,0 +1,111 @@
+[
+  {
+    "component_id": "central_roof",
+    "image_ids": [
+      "ref01",
+      "ref03",
+      "ref06",
+      "ref10"
+    ],
+    "context_box_normalized": [
+      0.32,
+      0.07,
+      0.74,
+      0.35
+    ],
+    "box_note": "视觉语义范围示意，以首张图片为主；非自动分割",
+    "parameter": "central_roof",
+    "consumer": "build_case.py: central octagonal roof",
+    "uncertainty": "弯曲程度/出檐伸出估算"
+  },
+  {
+    "component_id": "wing_roofs",
+    "image_ids": [
+      "ref01",
+      "ref03",
+      "ref07",
+      "ref10"
+    ],
+    "context_box_normalized": [
+      0.27,
+      0.35,
+      0.79,
+      0.64
+    ],
+    "box_note": "视觉语义范围示意，以首张图片为主；非自动分割",
+    "parameter": "wing_roofs",
+    "consumer": "build_case.py: roof_hip",
+    "uncertainty": "歇山端部和多屋面相交简化"
+  },
+  {
+    "component_id": "entry",
+    "image_ids": [
+      "ref01",
+      "ref04",
+      "ref06"
+    ],
+    "context_box_normalized": [
+      0.32,
+      0.58,
+      0.79,
+      0.78
+    ],
+    "box_note": "视觉语义范围示意，以首张图片为主；非自动分割",
+    "parameter": "entrance_columns_x",
+    "consumer": "build_case.py: entrance columns / facade",
+    "uncertainty": "柱径和柱数按照片解释"
+  },
+  {
+    "component_id": "auditorium",
+    "image_ids": [
+      "ref05",
+      "ref10"
+    ],
+    "context_box_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "box_note": "视觉语义范围示意，以首张图片为主；非自动分割",
+    "parameter": "floor_y",
+    "consumer": "build_case.py: interior gallery / ceiling",
+    "uncertainty": "非精确座位数和疏散设计"
+  },
+  {
+    "component_id": "forecourt",
+    "image_ids": [
+      "ref02",
+      "ref07",
+      "ref09"
+    ],
+    "context_box_normalized": [
+      0.2,
+      0.65,
+      0.9,
+      1
+    ],
+    "box_note": "视觉语义范围示意，以首张图片为主；非自动分割",
+    "parameter": "statue_xz",
+    "consumer": "build_case.py: statue / planting",
+    "uncertainty": "花坛位置和树木尺度估算"
+  },
+  {
+    "component_id": "lighting",
+    "image_ids": [
+      "ref06",
+      "ref08",
+      "ref09"
+    ],
+    "context_box_normalized": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "box_note": "视觉语义范围示意，以首张图片为主；非自动分割",
+    "parameter": "seed",
+    "consumer": "build_case.py: lamp and fixed lights",
+    "uncertainty": "固定分区，非真实灯具光度计算"
+  }
+]

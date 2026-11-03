@@ -1,0 +1,219 @@
+{
+  "status": "technical checks pass; visual/user/game acceptance separate",
+  "checks": [
+    {
+      "name": "NBT independent readback",
+      "passed": true,
+      "detail": 175730
+    },
+    {
+      "name": "Explicit bounded scene",
+      "passed": true,
+      "detail": [
+        80,
+        269,
+        92
+      ]
+    },
+    {
+      "name": "Tower height",
+      "passed": true,
+      "detail": "top surface267 - grade2 = 265 blocks"
+    },
+    {
+      "name": "Registered blockstates",
+      "passed": true,
+      "detail": 48
+    },
+    {
+      "name": "Thin fins and glass panes exist",
+      "passed": true,
+      "detail": {
+        "minecraft:smooth_stone": 4824,
+        "minecraft:polished_andesite": 941,
+        "minecraft:smooth_quartz_slab": 1280,
+        "minecraft:moss_block": 276,
+        "minecraft:smooth_stone_slab": 5675,
+        "minecraft:smooth_quartz": 974,
+        "minecraft:gray_stained_glass_pane": 26605,
+        "minecraft:gray_stained_glass": 3205,
+        "minecraft:polished_deepslate_slab": 64706,
+        "minecraft:end_rod": 6,
+        "minecraft:oak_log": 24,
+        "minecraft:oak_trapdoor": 1248,
+        "minecraft:yellow_terracotta": 888,
+        "minecraft:dark_oak_planks": 406,
+        "minecraft:dark_oak_slab": 336,
+        "minecraft:light_gray_concrete": 11856,
+        "minecraft:sea_lantern": 641,
+        "minecraft:glowstone": 544,
+        "minecraft:iron_trapdoor": 2349,
+        "minecraft:oak_leaves": 1317,
+        "minecraft:diorite_wall": 16044,
+        "minecraft:gray_concrete": 31359,
+        "minecraft:dark_oak_trapdoor": 24,
+        "minecraft:glass_pane": 48,
+        "minecraft:glass": 154
+      }
+    },
+    {
+      "name": "Partial-state floors",
+      "passed": true,
+      "detail": "Slabs retained as states"
+    },
+    {
+      "name": "All requested component groups",
+      "passed": true,
+      "detail": {
+        "site": 7678,
+        "podium": 11931,
+        "facade": 50550,
+        "roofs": 980,
+        "interior": 103430,
+        "lighting": 1161
+      }
+    },
+    {
+      "name": "Four facade directions",
+      "passed": true,
+      "detail": "Cardinal working frame, not surveyed north"
+    },
+    {
+      "name": "Corner infill and backing",
+      "passed": true,
+      "detail": "Physical infill at quantized turns; closed backing ring"
+    },
+    {
+      "name": "Upper floorplate reduction",
+      "passed": true,
+      "detail": [
+        {
+          "y": 40,
+          "enclosed_or_occupied_cells": 965
+        },
+        {
+          "y": 180,
+          "enclosed_or_occupied_cells": 880
+        },
+        {
+          "y": 235,
+          "enclosed_or_occupied_cells": 758
+        },
+        {
+          "y": 258,
+          "enclosed_or_occupied_cells": 678
+        }
+      ]
+    },
+    {
+      "name": "Sloping crown",
+      "passed": true,
+      "detail": {
+        "min": 261,
+        "max": 266
+      }
+    },
+    {
+      "name": "Room variation and mixed fixtures",
+      "passed": true,
+      "detail": {
+        "rooms": 2664,
+        "lit": 1161,
+        "sea_lantern": 641,
+        "glowstone": 544
+      }
+    },
+    {
+      "name": "Exact chunk reassembly",
+      "passed": true,
+      "detail": "All 32-cell tiles independently read"
+    },
+    {
+      "name": "Shenzhen reproduction",
+      "passed": true,
+      "detail": "e1aefdd2383fed8747c69c5806ab5cd367d7d91eeaf0092cd77c1a1f25176e20"
+    },
+    {
+      "name": "Prior Shenzhen files intact",
+      "passed": true,
+      "detail": 375
+    },
+    {
+      "name": "Deterministic replay",
+      "passed": true,
+      "detail": "Same seed, same NBT bytes"
+    },
+    {
+      "name": "Seed changes only light cells",
+      "passed": true,
+      "detail": 1515
+    },
+    {
+      "name": "Local lighting stage invalidation",
+      "passed": true,
+      "detail": {
+        "events": [
+          {
+            "stage": "shape",
+            "hit": true,
+            "key": "1a7514310ce37a4af0d0ecc8ce21a01bbf1511d2fbbfc81a035d50a5d9f35e62"
+          },
+          {
+            "stage": "site",
+            "hit": true,
+            "key": "fa35110a620e32684bc1f479f784b30aa56dcfc5249d2e585840cb0da8edddc7"
+          },
+          {
+            "stage": "podium",
+            "hit": true,
+            "key": "8420a2551b8d14a33dbbf4088e98889980c613cd1acad47357fae62239f09471"
+          },
+          {
+            "stage": "interior",
+            "hit": true,
+            "key": "c8a0e0519258ff8e2ae315a21f736c537249637d628c88166fef0ca6d792ff88"
+          },
+          {
+            "stage": "facade",
+            "hit": true,
+            "key": "c4eb21072c159e7f6b85557412968f90879a4019114ad9a0be37c8468b57ec7b"
+          },
+          {
+            "stage": "roofs",
+            "hit": true,
+            "key": "1a28952ca5b7616f3f1634c1a8de060d0185642eefc10be3791e1e98d6126907"
+          },
+          {
+            "stage": "lighting",
+            "hit": false,
+            "key": "d945712edb517451a3106c66c76f9b157781b5b87b8d4350984835595f6ce8cf"
+          }
+        ],
+        "hits": 6,
+        "rebuilt": [
+          "lighting"
+        ],
+        "scope": "Local single-writer artifact cache; NBT export and independent QA run every time."
+      }
+    },
+    {
+      "name": "Preview decodes and matches NBT",
+      "passed": true,
+      "detail": {
+        "images": 15,
+        "sha256": "58db77a6499aab981ccf8efdd048c3ce80b9383053713059ca61010af7afcc96"
+      }
+    }
+  ],
+  "count": 19,
+  "game_test": "not run",
+  "fidelity_score": null,
+  "known_limits": [
+    "Published design plans are not an as-built survey",
+    "Facade modules and storey spacing quantized at 1:2",
+    "Diorite wall is a material approximation, without resource-pack texture preview",
+    "Window-back interior is synthetic and not generally walkable",
+    "Podium/site extent estimated; below grade excluded",
+    "No geographic north calibration or game runtime acceptance"
+  ]
+}

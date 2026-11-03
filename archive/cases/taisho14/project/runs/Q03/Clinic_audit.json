@@ -1,0 +1,92 @@
+{
+  "source_nbt_sha256": "943d47125800eedc4c334bbd55e45682adb7d61e81056b70f56cc769cafbf6ce",
+  "non_air": 5172,
+  "entries": [
+    {
+      "id": "Clinic",
+      "pos": [
+        11,
+        3,
+        23
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 6,
+  "use_checks": [
+    {
+      "id": "Clinic.stairs.bottom",
+      "pos": [
+        4,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.stairs.top",
+      "pos": [
+        4,
+        9,
+        5
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.entry",
+      "pos": [
+        11,
+        3,
+        22
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.reception",
+      "pos": [
+        12,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.waiting",
+      "pos": [
+        13,
+        3,
+        19
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.ward",
+      "pos": [
+        14,
+        9,
+        13
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 29,
+  "paintings": 0,
+  "official_model_states": 60,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

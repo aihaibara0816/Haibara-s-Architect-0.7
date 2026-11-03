@@ -1,0 +1,512 @@
+{
+  "tests": [
+    {
+      "test": "HA03/baseline NBT fingerprint matches report",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HA03/baseline dimensions, non-empty and bounds",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HA03/baseline native geometry acceptance",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HA03/local_revision NBT fingerprint matches report",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HA03/local_revision dimensions, non-empty and bounds",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HA03/local_revision native geometry acceptance",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/baseline NBT fingerprint matches report",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/baseline dimensions, non-empty and bounds",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/baseline native geometry acceptance",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/warm_repeat NBT fingerprint matches report",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/warm_repeat dimensions, non-empty and bounds",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/warm_repeat native geometry acceptance",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/local_revision NBT fingerprint matches report",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/local_revision dimensions, non-empty and bounds",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF/local_revision native geometry acceptance",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Baseline equality at every block state",
+      "status": "pass",
+      "details": {
+        "changed_voxels": 0
+      }
+    },
+    {
+      "test": "Warm HAF output deterministic",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Warm all 13 stages reused",
+      "status": "pass",
+      "details": {
+        "events": [
+          {
+            "stage": "geometry.site",
+            "hit": true,
+            "key": "28d82ff7a2f49508709a06c178ec74871d7b6e35e30dc307a928eb690c0f5e28"
+          },
+          {
+            "stage": "geometry.cores",
+            "hit": true,
+            "key": "9509fd4b479dfaec9bbe5627b4aa7df6461f26f1e67d91e8de639203c192b1da"
+          },
+          {
+            "stage": "geometry.tower",
+            "hit": true,
+            "key": "9abc8831b72fd122f29813c25838b1d38e1a79a0ff38b0c1ef1c9224a038c35b"
+          },
+          {
+            "stage": "geometry.canyon",
+            "hit": true,
+            "key": "6d2606e40f4f4f23db2f0bf807d3b06d2b6ed5d07fa5b53976d1964bfa333a7f"
+          },
+          {
+            "stage": "geometry.frame",
+            "hit": true,
+            "key": "f167e71d3790f88c996d524ee113c4001f6aa8f8fb34bf6d56937dd3e13a0ac5"
+          },
+          {
+            "stage": "geometry.lobby",
+            "hit": true,
+            "key": "021cc6cf63628eba45051c386f1836551a644d0c6ed3fd13ae25153846327ca3"
+          },
+          {
+            "stage": "geometry.terrace1",
+            "hit": true,
+            "key": "0ece24062cad4f303c6401bbe7338b89f0a43613e4e0577413be99dec77f85c5"
+          },
+          {
+            "stage": "geometry.terrace2",
+            "hit": true,
+            "key": "dac33f387bf1f0e8237b9a51b69433f790b45004812104c01eb0b5e3a282fc43"
+          },
+          {
+            "stage": "geometry.terrace3",
+            "hit": true,
+            "key": "e1b09fd37f19fa94257ce34b2941ee7914a1f7220c381bd221dcdea16bba4c46"
+          },
+          {
+            "stage": "geometry.terrace4",
+            "hit": true,
+            "key": "1b244a48654f52462e292bc3e6ca1d387522d576cdba2a18161da6a424b56615"
+          },
+          {
+            "stage": "geometry.podium",
+            "hit": true,
+            "key": "1d97846428fc4b06a5fe26aa66d865ccb2caa3db491075981335c8b8fbf37dff"
+          },
+          {
+            "stage": "geometry.bridges",
+            "hit": true,
+            "key": "3637c0376c457d709d2f526a3338e660eaca60af720ae4492e049902e0518940"
+          },
+          {
+            "stage": "assembly.materials",
+            "hit": true,
+            "key": "eb4ab4f51b48015a8f93926a4d8ac8a6fb8c47281421d5b5c3d4af21875dcc07"
+          }
+        ],
+        "hits": 13,
+        "rebuilt": [],
+        "scope": "Local single-writer artifact cache; NBT export and independent QA run every time."
+      }
+    },
+    {
+      "test": "Local revision only terrace2 geometry + material assembly rebuilt",
+      "status": "pass",
+      "details": {
+        "events": [
+          {
+            "stage": "geometry.site",
+            "hit": true,
+            "key": "28d82ff7a2f49508709a06c178ec74871d7b6e35e30dc307a928eb690c0f5e28"
+          },
+          {
+            "stage": "geometry.cores",
+            "hit": true,
+            "key": "9509fd4b479dfaec9bbe5627b4aa7df6461f26f1e67d91e8de639203c192b1da"
+          },
+          {
+            "stage": "geometry.tower",
+            "hit": true,
+            "key": "9abc8831b72fd122f29813c25838b1d38e1a79a0ff38b0c1ef1c9224a038c35b"
+          },
+          {
+            "stage": "geometry.canyon",
+            "hit": true,
+            "key": "6d2606e40f4f4f23db2f0bf807d3b06d2b6ed5d07fa5b53976d1964bfa333a7f"
+          },
+          {
+            "stage": "geometry.frame",
+            "hit": true,
+            "key": "f167e71d3790f88c996d524ee113c4001f6aa8f8fb34bf6d56937dd3e13a0ac5"
+          },
+          {
+            "stage": "geometry.lobby",
+            "hit": true,
+            "key": "021cc6cf63628eba45051c386f1836551a644d0c6ed3fd13ae25153846327ca3"
+          },
+          {
+            "stage": "geometry.terrace1",
+            "hit": true,
+            "key": "0ece24062cad4f303c6401bbe7338b89f0a43613e4e0577413be99dec77f85c5"
+          },
+          {
+            "stage": "geometry.terrace2",
+            "hit": false,
+            "key": "78a4417d4a87c958d61166033b69ee9bbf81c193507b3194af9265cc65ea2e4d"
+          },
+          {
+            "stage": "geometry.terrace3",
+            "hit": true,
+            "key": "e1b09fd37f19fa94257ce34b2941ee7914a1f7220c381bd221dcdea16bba4c46"
+          },
+          {
+            "stage": "geometry.terrace4",
+            "hit": true,
+            "key": "1b244a48654f52462e292bc3e6ca1d387522d576cdba2a18161da6a424b56615"
+          },
+          {
+            "stage": "geometry.podium",
+            "hit": true,
+            "key": "1d97846428fc4b06a5fe26aa66d865ccb2caa3db491075981335c8b8fbf37dff"
+          },
+          {
+            "stage": "geometry.bridges",
+            "hit": true,
+            "key": "3637c0376c457d709d2f526a3338e660eaca60af720ae4492e049902e0518940"
+          },
+          {
+            "stage": "assembly.materials",
+            "hit": false,
+            "key": "ab80c614139a76049dabe9ac6a7704c3ce7409f80b403b1fe98b002982d96eba"
+          }
+        ],
+        "hits": 11,
+        "rebuilt": [
+          "geometry.terrace2",
+          "assembly.materials"
+        ],
+        "scope": "Local single-writer artifact cache; NBT export and independent QA run every time."
+      }
+    },
+    {
+      "test": "HA03 local edit confined to declared ROI",
+      "status": "pass",
+      "details": {
+        "changed_states": 6,
+        "roi_min": [
+          16,
+          57,
+          42
+        ],
+        "roi_max_exclusive": [
+          21,
+          58,
+          45
+        ],
+        "outside_roi": 0,
+        "coordinates": [
+          [
+            16,
+            57,
+            42
+          ],
+          [
+            16,
+            57,
+            43
+          ],
+          [
+            16,
+            57,
+            44
+          ],
+          [
+            20,
+            57,
+            42
+          ],
+          [
+            20,
+            57,
+            43
+          ],
+          [
+            20,
+            57,
+            44
+          ]
+        ]
+      }
+    },
+    {
+      "test": "HAF local edit confined to declared ROI",
+      "status": "pass",
+      "details": {
+        "changed_states": 6,
+        "roi_min": [
+          16,
+          57,
+          42
+        ],
+        "roi_max_exclusive": [
+          21,
+          58,
+          45
+        ],
+        "outside_roi": 0,
+        "coordinates": [
+          [
+            16,
+            57,
+            42
+          ],
+          [
+            16,
+            57,
+            43
+          ],
+          [
+            16,
+            57,
+            44
+          ],
+          [
+            20,
+            57,
+            42
+          ],
+          [
+            20,
+            57,
+            43
+          ],
+          [
+            20,
+            57,
+            44
+          ]
+        ]
+      }
+    },
+    {
+      "test": "Independent revision results equal",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Road below bridges remains air",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Front canyon recess remains air",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Four main cantilevers have solid leading-edge decks",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Tower highest occupied voxel is 96",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Stale baseline hash rejected",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Unreviewed write rejected",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "Podium conflict retained, not averaged",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "All copied and original engine assets unchanged",
+      "status": "pass",
+      "details": {
+        "files": 264,
+        "changed": []
+      }
+    },
+    {
+      "test": "HA03 uncertainty preserved",
+      "status": "pass",
+      "details": null
+    },
+    {
+      "test": "HAF uncertainty preserved",
+      "status": "pass",
+      "details": null
+    }
+  ],
+  "passed": 32,
+  "failed": 0,
+  "baseline_changed_voxels": 0,
+  "revision_diff": {
+    "HA03": {
+      "changed_states": 6,
+      "roi_min": [
+        16,
+        57,
+        42
+      ],
+      "roi_max_exclusive": [
+        21,
+        58,
+        45
+      ],
+      "outside_roi": 0,
+      "coordinates": [
+        [
+          16,
+          57,
+          42
+        ],
+        [
+          16,
+          57,
+          43
+        ],
+        [
+          16,
+          57,
+          44
+        ],
+        [
+          20,
+          57,
+          42
+        ],
+        [
+          20,
+          57,
+          43
+        ],
+        [
+          20,
+          57,
+          44
+        ]
+      ]
+    },
+    "HAF": {
+      "changed_states": 6,
+      "roi_min": [
+        16,
+        57,
+        42
+      ],
+      "roi_max_exclusive": [
+        21,
+        58,
+        45
+      ],
+      "outside_roi": 0,
+      "coordinates": [
+        [
+          16,
+          57,
+          42
+        ],
+        [
+          16,
+          57,
+          43
+        ],
+        [
+          16,
+          57,
+          44
+        ],
+        [
+          20,
+          57,
+          42
+        ],
+        [
+          20,
+          57,
+          43
+        ],
+        [
+          20,
+          57,
+          44
+        ]
+      ]
+    }
+  },
+  "scope": "file/geometry/workflow tests; no Minecraft process, registry, light or import acceptance",
+  "visual_review": {
+    "status": "host_reviewed",
+    "observed": [
+      "四个主悬挑与裙楼连接可辨",
+      "峡谷退凹与道路开口存在",
+      "外墙框格在96格缩尺下偏粗；与实景幕墙反射感有差距",
+      "裙楼仍偏规则方盒；斜玻璃、村落亭与绿化细节不足"
+    ],
+    "image_geometry_difference_expected": 0
+  }
+}

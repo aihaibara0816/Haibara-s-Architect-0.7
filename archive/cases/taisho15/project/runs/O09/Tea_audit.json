@@ -1,0 +1,57 @@
+{
+  "source_nbt_sha256": "210dcae67d53c61ba6e6f95625223ad0b936270c1672f33dad916ecbce22ec49",
+  "non_air": 2890,
+  "entries": [
+    {
+      "id": "Tea",
+      "pos": [
+        9,
+        3,
+        19
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 3,
+  "use_checks": [
+    {
+      "id": "Tea.order",
+      "pos": [
+        9,
+        3,
+        9
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Tea.table",
+      "pos": [
+        9,
+        3,
+        15
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Tea.kitchen",
+      "pos": [
+        10,
+        3,
+        5
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 22,
+  "paintings": 1,
+  "official_model_states": 57,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

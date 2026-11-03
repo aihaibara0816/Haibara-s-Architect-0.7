@@ -1,0 +1,57 @@
+{
+  "file": "building.nbt",
+  "bytes": 3622131,
+  "sha256": "3a2d48db1cc5bbdbe280f1c11f1e7c79cd6bbd117d8667ad8d6f659f39b9a6cd",
+  "listed_blocks": 1222372,
+  "non_air_blocks": 1222372,
+  "size_xyz": [
+    472,
+    88,
+    592
+  ],
+  "contains_explicit_air": false,
+  "geometry_sha256": "0c6b4f4cbe81f8dce1d5de2d2fe898337e2ead554198bd54787b3ba4c159b49c",
+  "data_version": 3955,
+  "case": "buckingham_palace",
+  "engine": "HAF 0.2.0",
+  "run": "V1_r01",
+  "readback_exact": true,
+  "connection_updates": 13441,
+  "components": {
+    "site": 585201,
+    "west_front": 27279,
+    "lighting": 197,
+    "forecourt": 6177,
+    "east_front": 85629,
+    "palace": 272919,
+    "facade": 121399,
+    "roof": 84314,
+    "quadrangle": 4508,
+    "memorial": 34749
+  },
+  "component_count": 4931,
+  "material_types": 39,
+  "state_types": 66,
+  "window_count": 472,
+  "synthetic_room_count": 430,
+  "source_code_sha256": "827fe0ae3814bacda07196e64e7d3ebc64ada9e96bc99e9188d14301c1f4b3c8",
+  "params_sha256": "a1d6d07f0711e867c41296cad70805c86b0b68a69043157cbaee0fce3d441088",
+  "game_status": "pending",
+  "scale_blocks_per_metre": 2,
+  "east_front_width_blocks": 216,
+  "east_front_bay_groups": [
+    3,
+    7,
+    3,
+    7,
+    3
+  ],
+  "plan_sha256": "3fbef4ac68e2fad6afbc58629f1b0d72ccc5287d5d9aa9d6b6bf5858e032c503",
+  "scope": "Main palace quadrangle and mapped side wings, forecourt, simplified Victoria Memorial and a garden-edge strip; not the whole 16-hectare garden",
+  "limitations": [
+    "Mapped plan is not a survey; roof and side-wing details approximated",
+    "Synthetic window-back rooms, not all 775 real rooms",
+    "Victoria Memorial sculpture simplified; basin uses coloured glass as static water proxy",
+    "No game import, collision or light-engine verification"
+  ]
+}

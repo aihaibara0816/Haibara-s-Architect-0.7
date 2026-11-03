@@ -1,0 +1,8801 @@
+{
+  "roof_components": [
+    {
+      "id": "front_lower",
+      "type": "curved_hip",
+      "axis": "z",
+      "center_uv": [
+        0,
+        49
+      ],
+      "half": [
+        55,
+        23
+      ],
+      "eave_y": 37,
+      "rise": 10
+    },
+    {
+      "id": "back_lower",
+      "type": "curved_hip",
+      "axis": "z",
+      "center_uv": [
+        0,
+        -51
+      ],
+      "half": [
+        50,
+        23
+      ],
+      "eave_y": 37,
+      "rise": 10
+    },
+    {
+      "id": "east_lower",
+      "type": "curved_hip",
+      "axis": "x",
+      "center_uv": [
+        0,
+        48
+      ],
+      "half": [
+        37,
+        15
+      ],
+      "eave_y": 37,
+      "rise": 10
+    },
+    {
+      "id": "west_lower",
+      "type": "curved_hip",
+      "axis": "x",
+      "center_uv": [
+        0,
+        -48
+      ],
+      "half": [
+        37,
+        15
+      ],
+      "eave_y": 37,
+      "rise": 10
+    },
+    {
+      "id": "front_upper",
+      "type": "curved_xieshan_proxy",
+      "axis": "z",
+      "center_uv": [
+        0,
+        45
+      ],
+      "half": [
+        43,
+        15
+      ],
+      "eave_y": 52,
+      "rise": 9
+    },
+    {
+      "id": "back_upper",
+      "type": "curved_xieshan_proxy",
+      "axis": "z",
+      "center_uv": [
+        0,
+        -49
+      ],
+      "half": [
+        43,
+        20
+      ],
+      "eave_y": 52,
+      "rise": 9
+    },
+    {
+      "id": "east_upper",
+      "type": "curved_xieshan_proxy",
+      "axis": "x",
+      "center_uv": [
+        0,
+        41
+      ],
+      "half": [
+        31,
+        14
+      ],
+      "eave_y": 52,
+      "rise": 9
+    },
+    {
+      "id": "west_upper",
+      "type": "curved_xieshan_proxy",
+      "axis": "x",
+      "center_uv": [
+        0,
+        -41
+      ],
+      "half": [
+        31,
+        14
+      ],
+      "eave_y": 52,
+      "rise": 9
+    },
+    {
+      "id": "central",
+      "type": "curved_octagonal_pyramid",
+      "radius": 44,
+      "eave_y": 72,
+      "peak_y": 97
+    }
+  ],
+  "placed_light_records": [
+    {
+      "xyz": [
+        82,
+        18,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        82,
+        31,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        94,
+        18,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        94,
+        31,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        106,
+        18,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        118,
+        18,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        130,
+        18,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        142,
+        18,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        142,
+        31,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        154,
+        18,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        154,
+        31,
+        150
+      ],
+      "zone": "front.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        148,
+        18,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        148,
+        31,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        136,
+        18,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        136,
+        31,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        124,
+        18,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        124,
+        31,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        112,
+        18,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        112,
+        31,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        100,
+        18,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        100,
+        31,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        88,
+        18,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        88,
+        31,
+        31
+      ],
+      "zone": "rear.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        18,
+        124
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        31,
+        124
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        18,
+        112
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        31,
+        112
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        18,
+        100
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        31,
+        100
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        18,
+        88
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        31,
+        88
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        18,
+        76
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        176,
+        31,
+        76
+      ],
+      "zone": "east.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        18,
+        76
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        31,
+        76
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        18,
+        88
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        31,
+        88
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        18,
+        100
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        31,
+        100
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        18,
+        112
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        31,
+        112
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        18,
+        124
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        60,
+        31,
+        124
+      ],
+      "zone": "west.windows",
+      "material": "glowstone"
+    },
+    {
+      "xyz": [
+        76,
+        32,
+        161
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit"
+    },
+    {
+      "xyz": [
+        88,
+        32,
+        161
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit"
+    },
+    {
+      "xyz": [
+        100,
+        32,
+        161
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit"
+    },
+    {
+      "xyz": [
+        112,
+        32,
+        161
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit"
+    },
+    {
+      "xyz": [
+        124,
+        32,
+        161
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit"
+    },
+    {
+      "xyz": [
+        136,
+        32,
+        161
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit"
+    },
+    {
+      "xyz": [
+        148,
+        32,
+        161
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit"
+    },
+    {
+      "xyz": [
+        160,
+        32,
+        161
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit"
+    },
+    {
+      "xyz": [
+        63,
+        37,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        63,
+        35,
+        134
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        63,
+        35,
+        141
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        63,
+        35,
+        148
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        63,
+        35,
+        155
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        63,
+        35,
+        162
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        63,
+        36,
+        169
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        64,
+        37,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        64,
+        35,
+        133
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        64,
+        35,
+        140
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        64,
+        35,
+        147
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        64,
+        35,
+        154
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        64,
+        35,
+        161
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        64,
+        36,
+        168
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        67,
+        36,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        68,
+        36,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        70,
+        36,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        71,
+        36,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        74,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        75,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        77,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        78,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        81,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        82,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        88,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        89,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        91,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        92,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        95,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        96,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        98,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        99,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        102,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        103,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        105,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        106,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        109,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        110,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        112,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        113,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        116,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        117,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        119,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        120,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        123,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        124,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        126,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        127,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        130,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        131,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        133,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        134,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        137,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        138,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        140,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        141,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        144,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        145,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        147,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        148,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        154,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        155,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        158,
+        35,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        159,
+        35,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        161,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        162,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        165,
+        36,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        166,
+        36,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        36,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        169,
+        36,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        172,
+        36,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        172,
+        35,
+        137
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        172,
+        35,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        172,
+        35,
+        151
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        172,
+        35,
+        158
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        172,
+        35,
+        165
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        172,
+        37,
+        172
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        173,
+        36,
+        129
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        173,
+        35,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        173,
+        35,
+        143
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        173,
+        35,
+        150
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        173,
+        35,
+        157
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        173,
+        35,
+        164
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        173,
+        37,
+        171
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_lower.eave"
+    },
+    {
+      "xyz": [
+        68,
+        35,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        68,
+        35,
+        38
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        68,
+        35,
+        45
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        68,
+        35,
+        52
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        68,
+        35,
+        59
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        68,
+        35,
+        66
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        69,
+        36,
+        30
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        69,
+        35,
+        37
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        69,
+        35,
+        44
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        69,
+        35,
+        51
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        69,
+        35,
+        58
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        69,
+        35,
+        65
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        69,
+        37,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        70,
+        36,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        72,
+        36,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        73,
+        36,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        76,
+        36,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        77,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        79,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        80,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        83,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        86,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        87,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        90,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        91,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        93,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        94,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        97,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        98,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        100,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        101,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        104,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        105,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        107,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        108,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        111,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        112,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        114,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        115,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        118,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        119,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        121,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        122,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        125,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        126,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        128,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        129,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        132,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        133,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        135,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        136,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        139,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        140,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        142,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        143,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        146,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        147,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        149,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        150,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        153,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        154,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        156,
+        35,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        157,
+        35,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        160,
+        36,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        161,
+        36,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        163,
+        36,
+        27
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        164,
+        36,
+        26
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        167,
+        36,
+        30
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        167,
+        35,
+        37
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        167,
+        35,
+        44
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        167,
+        35,
+        51
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        167,
+        35,
+        58
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        167,
+        35,
+        65
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        167,
+        37,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        36,
+        29
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        35,
+        36
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        35,
+        43
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        35,
+        50
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        35,
+        57
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        35,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        37,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_lower.eave"
+    },
+    {
+      "xyz": [
+        155,
+        35,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        162,
+        35,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        169,
+        35,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        176,
+        35,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        154,
+        36,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        161,
+        35,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        168,
+        35,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        175,
+        35,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        37,
+        65
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        36,
+        66
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        36,
+        66
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        36,
+        67
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        73
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        73
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        74
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        79
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        80
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        80
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        81
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        88
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        93
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        95
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        100
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        102
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        107
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        109
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        121
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        122
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        122
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        123
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        35,
+        128
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        35,
+        129
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        35,
+        129
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        35,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        181,
+        37,
+        135
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        152,
+        36,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        159,
+        35,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        173,
+        35,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        180,
+        36,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        151,
+        38,
+        137
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        158,
+        35,
+        137
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        172,
+        35,
+        137
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        179,
+        36,
+        137
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_lower.eave"
+    },
+    {
+      "xyz": [
+        57,
+        36,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        64,
+        35,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        71,
+        35,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        78,
+        35,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        38,
+        63
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        36,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        63,
+        35,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        70,
+        35,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        77,
+        35,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        36,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        37,
+        65
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        77
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        78
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        78
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        79
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        91
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        93
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        98
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        100
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        105
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        107
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        112
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        119
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        120
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        120
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        121
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        35,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        35,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        35,
+        128
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        85,
+        36,
+        133
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        56,
+        36,
+        134
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        84,
+        36,
+        134
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        55,
+        37,
+        135
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        61,
+        35,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        82,
+        36,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        60,
+        35,
+        137
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        67,
+        35,
+        137
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        81,
+        35,
+        137
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_lower.eave"
+    },
+    {
+      "xyz": [
+        75,
+        50,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        50,
+        143
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        50,
+        150
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        51,
+        157
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        50,
+        135
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        50,
+        142
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        50,
+        149
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        51,
+        156
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        79,
+        51,
+        160
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        80,
+        51,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        86,
+        50,
+        160
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        87,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        87,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        88,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        93,
+        50,
+        160
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        94,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        94,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        95,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        101,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        101,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        102,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        108,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        108,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        109,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        115,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        115,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        116,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        122,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        122,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        123,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        129,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        129,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        130,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        136,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        136,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        137,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        142,
+        50,
+        160
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        143,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        143,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        144,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        149,
+        50,
+        160
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        150,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        150,
+        50,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        151,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        156,
+        51,
+        160
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        157,
+        51,
+        159
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        50,
+        135
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        50,
+        142
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        50,
+        149
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        51,
+        156
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        134
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        141
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        148
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        155
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.front_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        52,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        50,
+        38
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        50,
+        45
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        50,
+        52
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        50,
+        59
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        75,
+        50,
+        66
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        50,
+        37
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        50,
+        44
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        50,
+        51
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        50,
+        58
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        76,
+        50,
+        65
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        81,
+        51,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        82,
+        51,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        84,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        85,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        88,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        89,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        92,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        95,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        96,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        98,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        99,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        102,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        103,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        105,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        106,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        109,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        110,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        112,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        113,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        116,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        117,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        119,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        120,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        123,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        124,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        126,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        127,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        130,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        131,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        133,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        134,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        137,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        138,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        140,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        141,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        144,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        147,
+        50,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        148,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        151,
+        50,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        152,
+        50,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        154,
+        51,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        158,
+        51,
+        32
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        159,
+        52,
+        31
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        50,
+        37
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        50,
+        44
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        50,
+        51
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        50,
+        58
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        160,
+        50,
+        65
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        36
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        43
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        50
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        57
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        161,
+        50,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.back_upper.eave"
+    },
+    {
+      "xyz": [
+        149,
+        50,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        156,
+        50,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        163,
+        50,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        170,
+        50,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        148,
+        51,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        155,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        162,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        169,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        51,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        51,
+        73
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        51,
+        73
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        51,
+        74
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        50,
+        79
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        50,
+        80
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        50,
+        80
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        50,
+        81
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        50,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        50,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        50,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        50,
+        88
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        50,
+        93
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        50,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        50,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        50,
+        95
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        50,
+        100
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        50,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        50,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        50,
+        102
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        50,
+        107
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        50,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        50,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        50,
+        109
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        50,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        50,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        50,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        50,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        50,
+        121
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        50,
+        122
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        50,
+        122
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        50,
+        123
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        146,
+        51,
+        128
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        145,
+        51,
+        129
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        173,
+        51,
+        129
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        151,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        158,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        165,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        172,
+        51,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        150,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        157,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        164,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        171,
+        51,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.east_upper.eave"
+    },
+    {
+      "xyz": [
+        65,
+        51,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        72,
+        50,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        79,
+        50,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        86,
+        50,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        51,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        71,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        78,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        85,
+        50,
+        70
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        51,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        51,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        51,
+        72
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        50,
+        77
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        50,
+        78
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        50,
+        78
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        50,
+        79
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        50,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        50,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        50,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        50,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        50,
+        91
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        50,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        50,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        50,
+        93
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        50,
+        98
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        50,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        50,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        50,
+        100
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        50,
+        105
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        50,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        50,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        50,
+        107
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        50,
+        112
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        50,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        50,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        50,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        50,
+        119
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        50,
+        120
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        50,
+        120
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        50,
+        121
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        64,
+        51,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        63,
+        51,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        91,
+        51,
+        127
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        90,
+        51,
+        128
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        67,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        74,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        81,
+        50,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        88,
+        51,
+        130
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        66,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        73,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        80,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        87,
+        50,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.west_upper.eave"
+    },
+    {
+      "xyz": [
+        156.4,
+        68,
+        103.37395774442085
+      ],
+      "material": "glowstone",
+      "zone": "central.clerestory"
+    },
+    {
+      "xyz": [
+        156.4,
+        68,
+        111.08586116023993
+      ],
+      "material": "glowstone",
+      "zone": "central.clerestory"
+    },
+    {
+      "xyz": [
+        148.22029119822795,
+        68,
+        124.0855095968989
+      ],
+      "material": "glowstone",
+      "zone": "central.clerestory"
+    },
+    {
+      "xyz": [
+        130.04984908721732,
+        68,
+        138.4
+      ],
+      "material": "glowstone",
+      "zone": "central.clerestory"
+    },
+    {
+      "xyz": [
+        122.33794567139823,
+        68,
+        138.4
+      ],
+      "material": "glowstone",
+      "zone": "central.clerestory"
+    },
+    {
+      "xyz": [
+        83.00821200073835,
+        68,
+        119.31401279586521
+      ],
+      "material": "glowstone",
+      "zone": "central.clerestory"
+    },
+    {
+      "xyz": [
+        82.32656960059069,
+        68,
+        81.36762960428246
+      ],
+      "material": "glowstone",
+      "zone": "central.clerestory"
+    },
+    {
+      "xyz": [
+        93.23284800295343,
+        68,
+        70.46135120191973
+      ],
+      "material": "glowstone",
+      "zone": "central.clerestory"
+    },
+    {
+      "xyz": [
+        102,
+        71,
+        56
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        107,
+        71,
+        56
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        112,
+        71,
+        56
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        117,
+        71,
+        56
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        122,
+        71,
+        56
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        127,
+        71,
+        56
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        132,
+        71,
+        56
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        136,
+        70,
+        57
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        139,
+        70,
+        59
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        141,
+        70,
+        62
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        144,
+        70,
+        64
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        146,
+        70,
+        67
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        149,
+        70,
+        69
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        152,
+        71,
+        71
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        154,
+        70,
+        74
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        157,
+        71,
+        76
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        159,
+        70,
+        79
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        162,
+        71,
+        81
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        74,
+        71,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        162,
+        71,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        74,
+        71,
+        89
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        162,
+        71,
+        91
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        74,
+        71,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        162,
+        71,
+        96
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        74,
+        71,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        162,
+        71,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        74,
+        71,
+        104
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        162,
+        71,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        74,
+        71,
+        109
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        162,
+        71,
+        111
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        74,
+        71,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        162,
+        71,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        75,
+        70,
+        118
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        77,
+        70,
+        121
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        80,
+        70,
+        123
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        82,
+        70,
+        126
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        85,
+        70,
+        128
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        87,
+        70,
+        131
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        89,
+        71,
+        134
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        92,
+        70,
+        136
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        94,
+        71,
+        139
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        97,
+        70,
+        141
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        99,
+        71,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        104,
+        71,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        109,
+        71,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        114,
+        71,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        119,
+        71,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        124,
+        71,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        129,
+        71,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        134,
+        71,
+        144
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.eave"
+    },
+    {
+      "xyz": [
+        82,
+        33,
+        164
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit_visible"
+    },
+    {
+      "xyz": [
+        80,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        84,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        80,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        84,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        94,
+        33,
+        164
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit_visible"
+    },
+    {
+      "xyz": [
+        92,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        96,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        92,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        96,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        106,
+        33,
+        164
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit_visible"
+    },
+    {
+      "xyz": [
+        104,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        108,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        104,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        108,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        118,
+        33,
+        164
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit_visible"
+    },
+    {
+      "xyz": [
+        116,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        120,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        116,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        120,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        130,
+        33,
+        164
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit_visible"
+    },
+    {
+      "xyz": [
+        128,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        132,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        128,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        132,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        142,
+        33,
+        164
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit_visible"
+    },
+    {
+      "xyz": [
+        140,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        144,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        140,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        144,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        154,
+        33,
+        164
+      ],
+      "material": "glowstone",
+      "zone": "entry.soffit_visible"
+    },
+    {
+      "xyz": [
+        152,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        156,
+        16,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        152,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        156,
+        30,
+        153
+      ],
+      "material": "glowstone",
+      "zone": "entry.window_visible"
+    },
+    {
+      "xyz": [
+        79,
+        9,
+        167
+      ],
+      "material": "glowstone",
+      "zone": "entry.column_uplight"
+    },
+    {
+      "xyz": [
+        91,
+        9,
+        167
+      ],
+      "material": "glowstone",
+      "zone": "entry.column_uplight"
+    },
+    {
+      "xyz": [
+        103,
+        9,
+        167
+      ],
+      "material": "glowstone",
+      "zone": "entry.column_uplight"
+    },
+    {
+      "xyz": [
+        115,
+        9,
+        167
+      ],
+      "material": "glowstone",
+      "zone": "entry.column_uplight"
+    },
+    {
+      "xyz": [
+        127,
+        9,
+        167
+      ],
+      "material": "glowstone",
+      "zone": "entry.column_uplight"
+    },
+    {
+      "xyz": [
+        139,
+        9,
+        167
+      ],
+      "material": "glowstone",
+      "zone": "entry.column_uplight"
+    },
+    {
+      "xyz": [
+        151,
+        9,
+        167
+      ],
+      "material": "glowstone",
+      "zone": "entry.column_uplight"
+    },
+    {
+      "xyz": [
+        163,
+        9,
+        167
+      ],
+      "material": "glowstone",
+      "zone": "entry.column_uplight"
+    },
+    {
+      "xyz": [
+        157.2,
+        68,
+        109.09281612121418
+      ],
+      "material": "glowstone",
+      "zone": "central.window_visible"
+    },
+    {
+      "xyz": [
+        145.25932925541318,
+        68,
+        128.17784238961215
+      ],
+      "material": "glowstone",
+      "zone": "central.window_visible"
+    },
+    {
+      "xyz": [
+        139.28899388311976,
+        68,
+        134.14817776190557
+      ],
+      "material": "glowstone",
+      "zone": "central.window_visible"
+    },
+    {
+      "xyz": [
+        126.44332925541318,
+        68,
+        139.2
+      ],
+      "material": "glowstone",
+      "zone": "central.window_visible"
+    },
+    {
+      "xyz": [
+        117.35051313419899,
+        68,
+        139.2
+      ],
+      "material": "glowstone",
+      "zone": "central.window_visible"
+    },
+    {
+      "xyz": [
+        84.31107880519392,
+        68,
+        78.25174954978075
+      ],
+      "material": "glowstone",
+      "zone": "central.window_visible"
+    },
+    {
+      "xyz": [
+        118.0,
+        74,
+        56.0
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        127.11269837220809,
+        74,
+        56.0
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        162.0,
+        74,
+        100.0
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        162.0,
+        74,
+        109.11269837220809
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        149.1126983722081,
+        74,
+        131.1126983722081
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        127.11269837220809,
+        74,
+        144.0
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        118.0,
+        74,
+        144.0
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        74.0,
+        74,
+        109.11269837220809
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        74.0,
+        74,
+        100.0
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        80.44365081389596,
+        74,
+        75.33095244168786
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        93.33095244168786,
+        74,
+        62.44365081389596
+      ],
+      "material": "sea_lantern",
+      "zone": "roof.central.uplight"
+    },
+    {
+      "xyz": [
+        68,
+        19,
+        100
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        78,
+        19,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        78,
+        19,
+        90
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        78,
+        19,
+        100
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        78,
+        19,
+        110
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        78,
+        19,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        78,
+        19,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        88,
+        19,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        88,
+        19,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        98,
+        19,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        108,
+        19,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        118,
+        19,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        118,
+        19,
+        150
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        128,
+        19,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        138,
+        19,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        148,
+        19,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        148,
+        19,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        158,
+        19,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        158,
+        19,
+        90
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        158,
+        19,
+        100
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        158,
+        19,
+        110
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        158,
+        19,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        158,
+        19,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        168,
+        19,
+        100
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery1"
+    },
+    {
+      "xyz": [
+        68,
+        30,
+        90
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        68,
+        30,
+        100
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        68,
+        30,
+        110
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        78,
+        30,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        78,
+        30,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        78,
+        30,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        88,
+        30,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        98,
+        30,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        108,
+        30,
+        150
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        118,
+        30,
+        150
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        128,
+        30,
+        150
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        138,
+        30,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        148,
+        30,
+        140
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        158,
+        30,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        158,
+        30,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        158,
+        30,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        168,
+        30,
+        90
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        168,
+        30,
+        100
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        168,
+        30,
+        110
+      ],
+      "material": "glowstone",
+      "zone": "interior.gallery2"
+    },
+    {
+      "xyz": [
+        88,
+        57,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        88,
+        57,
+        90
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        88,
+        57,
+        100
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        88,
+        57,
+        110
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        88,
+        57,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        98,
+        57,
+        70
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        98,
+        57,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        98,
+        57,
+        90
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        98,
+        57,
+        110
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        98,
+        57,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        98,
+        57,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        95
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        96
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        97
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        98
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        100
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        102
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        103
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        104
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        101,
+        57,
+        105
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        93
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        95
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        96
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        97
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        98
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        102
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        103
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        104
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        105
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        107
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        102,
+        57,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        103,
+        57,
+        91
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        103,
+        57,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        103,
+        57,
+        93
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        103,
+        57,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        103,
+        57,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        103,
+        57,
+        107
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        103,
+        57,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        103,
+        57,
+        109
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        104,
+        57,
+        89
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        104,
+        57,
+        90
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        104,
+        57,
+        91
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        104,
+        57,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        104,
+        57,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        104,
+        57,
+        109
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        104,
+        57,
+        110
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        104,
+        57,
+        111
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        105,
+        57,
+        88
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        105,
+        57,
+        89
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        105,
+        57,
+        90
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        105,
+        57,
+        110
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        105,
+        57,
+        111
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        105,
+        57,
+        112
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        106,
+        57,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        106,
+        57,
+        88
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        106,
+        57,
+        89
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        106,
+        57,
+        111
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        106,
+        57,
+        112
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        106,
+        57,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        107,
+        57,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        107,
+        57,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        107,
+        57,
+        88
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        107,
+        57,
+        112
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        107,
+        57,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        107,
+        57,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        108,
+        57,
+        70
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        108,
+        57,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        108,
+        57,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        108,
+        57,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        108,
+        57,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        108,
+        57,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        108,
+        57,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        108,
+        57,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        109,
+        57,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        109,
+        57,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        109,
+        57,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        109,
+        57,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        110,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        110,
+        57,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        110,
+        57,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        110,
+        57,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        110,
+        57,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        110,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        111,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        111,
+        57,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        111,
+        57,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        111,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        112,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        112,
+        57,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        112,
+        57,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        112,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        113,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        113,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        113,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        113,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        114,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        114,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        114,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        114,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        115,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        115,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        115,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        115,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        116,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        116,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        116,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        116,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        117,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        117,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        117,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        117,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        118,
+        57,
+        70
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        118,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        118,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        118,
+        57,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        119,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        119,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        119,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        119,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        120,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        120,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        120,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        120,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        121,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        121,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        121,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        121,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        122,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        122,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        122,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        122,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        123,
+        57,
+        83
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        123,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        123,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        123,
+        57,
+        117
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        124,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        124,
+        57,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        124,
+        57,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        124,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        125,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        125,
+        57,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        125,
+        57,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        125,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        126,
+        57,
+        84
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        126,
+        57,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        126,
+        57,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        126,
+        57,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        126,
+        57,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        126,
+        57,
+        116
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        127,
+        57,
+        85
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        127,
+        57,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        127,
+        57,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        127,
+        57,
+        115
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        128,
+        57,
+        70
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        128,
+        57,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        128,
+        57,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        128,
+        57,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        128,
+        57,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        128,
+        57,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        128,
+        57,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        128,
+        57,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        129,
+        57,
+        86
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        129,
+        57,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        129,
+        57,
+        88
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        129,
+        57,
+        112
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        129,
+        57,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        129,
+        57,
+        114
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        130,
+        57,
+        87
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        130,
+        57,
+        88
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        130,
+        57,
+        89
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        130,
+        57,
+        111
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        130,
+        57,
+        112
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        130,
+        57,
+        113
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        131,
+        57,
+        88
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        131,
+        57,
+        89
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        131,
+        57,
+        90
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        131,
+        57,
+        110
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        131,
+        57,
+        111
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        131,
+        57,
+        112
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        132,
+        57,
+        89
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        132,
+        57,
+        90
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        132,
+        57,
+        91
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        132,
+        57,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        132,
+        57,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        132,
+        57,
+        109
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        132,
+        57,
+        110
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        132,
+        57,
+        111
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        133,
+        57,
+        91
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        133,
+        57,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        133,
+        57,
+        93
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        133,
+        57,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        133,
+        57,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        133,
+        57,
+        107
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        133,
+        57,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        133,
+        57,
+        109
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        92
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        93
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        94
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        95
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        96
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        97
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        98
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        102
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        103
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        104
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        105
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        106
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        107
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        134,
+        57,
+        108
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        95
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        96
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        97
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        98
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        99
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        100
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        101
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        102
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        103
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        104
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        135,
+        57,
+        105
+      ],
+      "material": "sea_lantern",
+      "zone": "interior.ceiling_ring"
+    },
+    {
+      "xyz": [
+        138,
+        57,
+        70
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        138,
+        57,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        138,
+        57,
+        90
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        138,
+        57,
+        110
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        138,
+        57,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        138,
+        57,
+        130
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        148,
+        57,
+        80
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        148,
+        57,
+        90
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        148,
+        57,
+        100
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        148,
+        57,
+        110
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        148,
+        57,
+        120
+      ],
+      "material": "glowstone",
+      "zone": "interior.ceiling_coffers"
+    },
+    {
+      "xyz": [
+        107,
+        4,
+        229
+      ],
+      "material": "glowstone",
+      "zone": "site.statue_uplight"
+    },
+    {
+      "xyz": [
+        129,
+        4,
+        229
+      ],
+      "material": "glowstone",
+      "zone": "site.statue_uplight"
+    }
+  ],
+  "light_zones": {
+    "front.windows": 11,
+    "rear.windows": 12,
+    "east.windows": 10,
+    "west.windows": 10,
+    "entry.soffit": 8,
+    "roof.front_lower.eave": 88,
+    "roof.back_lower.eave": 82,
+    "roof.east_lower.eave": 57,
+    "roof.west_lower.eave": 56,
+    "roof.front_upper.eave": 54,
+    "roof.back_upper.eave": 66,
+    "roof.east_upper.eave": 51,
+    "roof.west_upper.eave": 51,
+    "central.clerestory": 8,
+    "roof.central.eave": 50,
+    "entry.soffit_visible": 7,
+    "entry.window_visible": 28,
+    "entry.column_uplight": 8,
+    "central.window_visible": 6,
+    "roof.central.uplight": 11,
+    "interior.gallery1": 24,
+    "interior.gallery2": 19,
+    "interior.ceiling_coffers": 32,
+    "interior.ceiling_ring": 208,
+    "site.statue_uplight": 2
+  },
+  "envelope_blocks": [
+    127,
+    97,
+    145
+  ],
+  "source_dimensions_m": [
+    63.32,
+    48.63,
+    72.65
+  ]
+}

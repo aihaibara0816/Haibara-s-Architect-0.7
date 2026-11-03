@@ -1,0 +1,186 @@
+{
+  "case_id": "InteriorDetail05",
+  "mainline": "HAF 0.4",
+  "status": "bounded_research_complete",
+  "feedback": {
+    "Corner01": "needs_revision",
+    "issues": [
+      "单块/台阶家具占位感",
+      "沙发床组缺少软硬分层",
+      "内饰刻意且单薄",
+      "通路和功能检查不能替代精致度"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "title": "小憩一会儿吧 / 沙发组合",
+      "creator": "孔同学KKK",
+      "url": "https://www.bilibili.com/video/BV1GY41137z8/",
+      "status": "bounded_frames_reviewed",
+      "frames": [
+        {
+          "time": "00:30 approximate",
+          "observed": "浅色低座面，连续木质靠背/扶手与左侧贵妃延伸；具体方块ID未确认"
+        },
+        {
+          "time": "01:10",
+          "observed": "制作阶段：深色木质阶梯背框、棕色端块、红色薄背饰；未当成成品"
+        },
+        {
+          "time": "01:49",
+          "observed": "完整组景：浅色床榻式软座、薄木围边、两侧座椅、低茶几/托盘、错落边桌、上方壁架和一株高植物"
+        }
+      ],
+      "adopt": "薄框+软座分工、成组而非散点、主次不对称",
+      "not_claimed": "逐格复刻、确定原作所有方块和依赖"
+    },
+    {
+      "id": "B01",
+      "title": "钻进被窝里 / 床装饰",
+      "creator": "孔同学KKK",
+      "url": "https://www.bilibili.com/video/BV1n3411W7BW/?vd_source=095f618f639990440118c69811815fa4",
+      "status": "bounded_frames_reviewed",
+      "frames": [
+        {
+          "time": "00:26.070",
+          "observed": "宽床垫、多层床尾、两个抬高枕形、木质床头与深色端部"
+        },
+        {
+          "time": "00:42.703",
+          "observed": "四柱床搭建中，头部有燃烧营火式构件；并非最终床组，不作为室内明火推荐"
+        }
+      ],
+      "adopt": "床头/枕区/床侧/床尾分别设计",
+      "not_claimed": "装饰大床可睡眠；原作最终营火状态"
+    },
+    {
+      "id": "F104",
+      "title": "Freedom #104",
+      "url": "https://www.bilibili.com/list/ml2584547842?bvid=BV1aG4y1B7fo&oid=815759550",
+      "status": "prior_bounded_frames",
+      "frames": [
+        {
+          "time": "40:59",
+          "observed": "JapanDetail01旧记录：红色床形、低家具、脚手架式台面与小色块陈设"
+        }
+      ],
+      "adopt": "作为旧研究起点，不能冒称本轮重新看完Freedom系列"
+    },
+    {
+      "id": "UIMG1",
+      "title": "用户提供的紧凑木作厨房截图",
+      "status": "user_image_reviewed",
+      "adopt": "地柜-台面-吊柜连成工作带；窄房间用转角台、局部食物和吊灯形成生活片段"
+    },
+    {
+      "id": "UIMG2",
+      "title": "用户提供的现代卧室缩略图",
+      "status": "user_image_reviewed",
+      "adopt": "床头连续面、软装、帘侧、局部灯光分层；水族箱/高精纹理只作为依赖未知的视觉参考"
+    },
+    {
+      "id": "Y01",
+      "url": "https://www.youtube.com/watch?v=HXh1taa_bkc",
+      "title": "50 Minecraft Interior Designs & Furniture Ideas",
+      "creator": "soujju",
+      "style": "mixed",
+      "status": "page_metadata_reviewed",
+      "note": "已核对简介和章节：0:12客厅，2:26卧室，8:13厨房，12:54储物，15:25走廊；作者声明 Complementary Reimagined + Vanilla Tweaks trapdoors/3D blocks。正文画面卡在加载，未逐件拆解。"
+    },
+    {
+      "id": "Y02",
+      "url": "https://www.youtube.com/watch?v=V4DJsNEYV1c",
+      "title": "Minecraft Tutorial | Kitchen Design | Interior #1",
+      "creator": "JINTUBE",
+      "style": "modern",
+      "status": "bounded_frame_via_repost",
+      "note": "已从标明原作者与原YouTube链接的转载看到局部画面；07:30跳转未稳定载入，未计入已看。",
+      "repost": "https://www.bilibili.com/video/BV11h411R7GX/?vd_source=095f618f639990440118c69811815fa4",
+      "frames": [
+        {
+          "time": "00:37 approximately (media 36.34s then screenshot)",
+          "observed": "完整厨房总览：沿墙台面/吊柜、中央窄岛台、另一侧餐桌、薄直立椅背；灯具分为桌上吊灯和细线吊灯。没有据此确认全部方块ID。"
+        }
+      ]
+    },
+    {
+      "id": "Y03",
+      "url": "https://www.youtube.com/watch?v=VTAVoQFidUE",
+      "title": "Minecraft : 20 Modern Interior Decoration Ideas and Design!",
+      "creator": "Heyimrobby",
+      "style": "modern",
+      "status": "page_metadata_reviewed",
+      "note": "已由YouTube原页核对标题与作者Heyimrobby；8:31，具体家具画面未稳定播放。旧记录将该ID与NeatCraft/18:09绑定的记录不能沿用。"
+    },
+    {
+      "id": "Y04",
+      "url": "https://www.youtube.com/watch?v=rPx_9mbuI-o",
+      "title": "How to Build Cherry Japanese House Interior | Minecraft Tutorial",
+      "creator": "MrMattRanger",
+      "style": "japanese_residential",
+      "status": "page_metadata_reviewed",
+      "note": "已核对作者章节：0:15 Inside Layout，13:05 Inside Furniture；尚未验证具体方块做法。"
+    },
+    {
+      "id": "Y05",
+      "url": "https://www.youtube.com/watch?v=CdIXp0-184M",
+      "title": "Minecraft JAPANESE House Ideas | 4 simply JAPANESE swords (katana, tachi,...)",
+      "creator": "Tryggツ",
+      "style": "japanese_details",
+      "status": "page_metadata_reviewed",
+      "note": "刀具陈设专项，不能代替整套日式内饰；简介有与标题不符的胡萝卜农场文字，不采纳该段。"
+    },
+    {
+      "id": "Y06",
+      "url": "https://www.youtube.com/watch?v=E-b-aMvfiPs",
+      "title": "16 Minecraft Japanese build hacks and decorations",
+      "creator": "AverageTuna",
+      "style": "japanese_details",
+      "status": "page_metadata_reviewed",
+      "note": "已核对标题、作者与日式主题简介；具体16项尚未逐项拆解。"
+    },
+    {
+      "id": "Y07",
+      "url": "https://www.youtube.com/watch?v=hUZ6QkDKZz4",
+      "title": "Make Your Own Ramen Cart in Minecraft!",
+      "creator": "JustPanda",
+      "style": "japanese_food",
+      "status": "page_metadata_reviewed",
+      "note": "简介明确储物、烟熏炉、面锅视觉及装饰旗帜；这是街边摊车，不直接称居酒屋内部。"
+    },
+    {
+      "id": "Y08",
+      "url": "https://www.youtube.com/watch?v=vhV4uFIAzn8",
+      "title": "30+ Japanese Build Hacks and Ideas in Minecraft",
+      "creator": "GoodCraft",
+      "style": "japanese_details",
+      "status": "page_metadata_reviewed",
+      "note": "已核对作者为GoodCraft；日式/亚洲小构件合集，不与JustPanda混记。"
+    }
+  ],
+  "date": "2026-10-29",
+  "verification": {
+    "tutorials": "bounded frames and page metadata explicitly separated",
+    "minecraft": "not tested in client",
+    "user_aesthetic": "pending",
+    "Corner01": "needs_revision"
+  },
+  "planting_addendum": {
+    "date": "2026-10-30",
+    "rule_version": "0.4.3",
+    "user_feedback": "植被也是尝试的一部分；纯室内太干太硬，需花盆与随机植物带来软感",
+    "sources": [
+      "UIMG1",
+      "UIMG2",
+      "S01 old frame 01:49"
+    ],
+    "new_video_review": false,
+    "artifact": "seeded SVG planting plan",
+    "status": "schematic_only",
+    "nbt_changed": false,
+    "game_checked": false,
+    "aesthetic": "pending",
+    "next": "同一起居角同时精修家具、植物、软装，再做同机位近看与实机测试"
+  }
+}

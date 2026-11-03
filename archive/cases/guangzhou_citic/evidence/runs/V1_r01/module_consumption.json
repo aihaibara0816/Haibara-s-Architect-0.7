@@ -1,0 +1,222 @@
+[
+  {
+    "component_id": "lobby.reception.reception",
+    "room_id": "lobby.reception",
+    "kind": "reception",
+    "bounds_xyz": [
+      50,
+      4,
+      69,
+      53,
+      6,
+      71
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 4
+  },
+  {
+    "component_id": "lobby.waiting.lounge",
+    "room_id": "lobby.waiting",
+    "kind": "lounge",
+    "bounds_xyz": [
+      35,
+      4,
+      62,
+      39,
+      6,
+      66
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 4
+  },
+  {
+    "component_id": "office_A.work.desk_group",
+    "room_id": "office_A.work",
+    "kind": "desk_group",
+    "bounds_xyz": [
+      35,
+      25,
+      57,
+      39,
+      27,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 11
+  },
+  {
+    "component_id": "office_A.meeting.meeting",
+    "room_id": "office_A.meeting",
+    "kind": "meeting",
+    "bounds_xyz": [
+      51,
+      25,
+      57,
+      54,
+      27,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 15
+  },
+  {
+    "component_id": "office_A.rest.lounge",
+    "room_id": "office_A.rest",
+    "kind": "lounge",
+    "bounds_xyz": [
+      51,
+      25,
+      66,
+      54,
+      27,
+      70
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 6
+  },
+  {
+    "component_id": "office_B.work.desk_group",
+    "room_id": "office_B.work",
+    "kind": "desk_group",
+    "bounds_xyz": [
+      35,
+      81,
+      57,
+      39,
+      83,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 11
+  },
+  {
+    "component_id": "office_B.meeting.meeting",
+    "room_id": "office_B.meeting",
+    "kind": "meeting",
+    "bounds_xyz": [
+      51,
+      81,
+      57,
+      54,
+      83,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 15
+  },
+  {
+    "component_id": "office_B.rest.lounge",
+    "room_id": "office_B.rest",
+    "kind": "lounge",
+    "bounds_xyz": [
+      51,
+      81,
+      66,
+      54,
+      83,
+      70
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 6
+  },
+  {
+    "component_id": "lounge.rest.lounge",
+    "room_id": "lounge.rest",
+    "kind": "lounge",
+    "bounds_xyz": [
+      35,
+      130,
+      57,
+      39,
+      132,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 7
+  },
+  {
+    "component_id": "lounge.tea.pantry",
+    "room_id": "lounge.tea",
+    "kind": "pantry",
+    "bounds_xyz": [
+      51,
+      130,
+      57,
+      54,
+      132,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 7
+  },
+  {
+    "component_id": "lounge.reading.lounge",
+    "room_id": "lounge.reading",
+    "kind": "lounge",
+    "bounds_xyz": [
+      51,
+      130,
+      66,
+      54,
+      132,
+      70
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.build_case:authored_module",
+    "geometry_status": "generated",
+    "net_blocks_added": 6
+  }
+]

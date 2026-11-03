@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "scope": "parent controller regression; actual WebGL/browser rendering is separate",
+  "checks": [
+    "srcdoc embeds the complete UTF-8 model without blob page navigation",
+    "static preview stays visible until first rendered-frame acknowledgement",
+    "facility choice queued until model readiness",
+    "unrelated message sources ignored",
+    "load error and timeout retain image, enable retry and standalone download",
+    "retry can return to ready state"
+  ],
+  "source_nbt_sha256": "be2a371a680a03c5ba89e65f6bd6245c0db72a0c3e601ef42f6fe9b76f0e28cc"
+}

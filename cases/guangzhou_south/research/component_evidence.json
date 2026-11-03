@@ -1,0 +1,193 @@
+{
+  "schema": "haf-component-evidence-1",
+  "image_count": 27,
+  "full_image_reviewed": 22,
+  "method": "manual image/drawing interpretation, parameterized case adapter; no ML training",
+  "model_research": {
+    "input": null,
+    "route": "pure image and drawing route"
+  },
+  "components": [
+    {
+      "component_id": "roof.bay*",
+      "evidence_ids": [
+        "D02",
+        "D03",
+        "A01",
+        "N01"
+      ],
+      "image_region_description": "立面屋盖及航拍整片屋面",
+      "decision": "六个不等宽拱跨；主厅较高，两侧站台雨棚下降且端部错落",
+      "parameter_paths": [
+        "roof_bay_edges_x",
+        "roof_north_ends_z",
+        "roof_south_ends_z",
+        "roof_main_edge_y",
+        "roof_main_rise",
+        "roof_outer_edge_y"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium",
+      "limits": "竣工端头的具体伸出量与曲率仍为估算"
+    },
+    {
+      "component_id": "roof.spine",
+      "evidence_ids": [
+        "F06",
+        "S01",
+        "R04",
+        "R08"
+      ],
+      "image_region_description": "中央长条采光带及两端入口",
+      "decision": "窄中段、加宽端头；白玻璃替代ETFE，石英斜格构",
+      "parameter_paths": [
+        "skylight"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium",
+      "limits": "1m方块的斜格较粗；348m文字长度与含端头包络未闭合"
+    },
+    {
+      "component_id": "roof.*.truss*",
+      "evidence_ids": [
+        "F02",
+        "F03",
+        "N03",
+        "D01"
+      ],
+      "image_region_description": "檐下白色V叉支撑与弧形弦杆",
+      "decision": "石英主杆、铁栏杆细弦杆，保持壳下空气",
+      "parameter_paths": [
+        "roof_bay_edges_x",
+        "platform_y",
+        "departure_y"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium",
+      "limits": "柱位迁就规整站台；非结构计算"
+    },
+    {
+      "component_id": "roof.*.soffit*",
+      "evidence_ids": [
+        "F03",
+        "N03",
+        "R04"
+      ],
+      "image_region_description": "候车及雨棚下条状吊顶",
+      "decision": "活板门条板、拱形主杆、玻璃和金属壳分层",
+      "parameter_paths": [
+        "roof_main_edge_y"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium",
+      "limits": "固定条板间距为Minecraft近似"
+    },
+    {
+      "component_id": "rail.*",
+      "evidence_ids": [
+        "F02",
+        "N03",
+        "D01"
+      ],
+      "image_region_description": "站台层、双轨间岛式站台",
+      "decision": "28装饰轨道通道/15站台体，位于候车厅下方",
+      "parameter_paths": [
+        "track_layout",
+        "rail_y",
+        "platform_y"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium",
+      "limits": "轨距、站台间距规整；链条轨道和列车均不能运行"
+    },
+    {
+      "component_id": "arrivals.*",
+      "evidence_ids": [
+        "F04",
+        "S02",
+        "D01"
+      ],
+      "image_region_description": "地面到达大厅",
+      "decision": "Y形柱、局部吊顶和有序点灯",
+      "parameter_paths": [
+        "ground_y",
+        "rail_y"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium",
+      "limits": "只做主要公共空间，非完整功能流线"
+    },
+    {
+      "component_id": "entrance.*",
+      "evidence_ids": [
+        "D02",
+        "F05",
+        "N02"
+      ],
+      "image_region_description": "两侧玻璃大厅与落客平台",
+      "decision": "西侧三层/东侧二层；门洞切穿玻璃及外竖杆",
+      "parameter_paths": [
+        "departure_y",
+        "platform_y",
+        "glazing_material"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium",
+      "limits": "道路曲线、实际门洞数量与位置估算；入口层级采用官方文字"
+    },
+    {
+      "component_id": "interior.seating.*",
+      "evidence_ids": [
+        "F03",
+        "F06"
+      ],
+      "image_region_description": "主厅两侧座椅与中轴通道",
+      "decision": "规则座位岛保留中轴，服务盒子少量暖光",
+      "parameter_paths": [
+        "departure_y",
+        "lighting.warm_commercial_activity"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium-low",
+      "limits": "数量、服务台样式为可调整补充"
+    },
+    {
+      "component_id": "lighting.*",
+      "evidence_ids": [
+        "N01",
+        "N02",
+        "N03"
+      ],
+      "image_region_description": "高侧窗、入口与站台",
+      "decision": "公共区域规则冷白；道路与小商铺暖光；随机仅限商业活跃度",
+      "parameter_paths": [
+        "lighting"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "medium",
+      "limits": "预览暖冷是材质渲染；原版实际光色由游戏/光影决定"
+    },
+    {
+      "component_id": "site.*",
+      "evidence_ids": [
+        "A01",
+        "D04"
+      ],
+      "image_region_description": "两侧广场边缘及概念总图",
+      "decision": "有限范围的铺装、树阵与花坛",
+      "parameter_paths": [
+        "scope.include"
+      ],
+      "consumer": "src/build_case.py",
+      "confidence": "low",
+      "limits": "非完整现状测绘，未还原周边TOD与地下区域"
+    }
+  ],
+  "research_gaps": [
+    "入口雨棚包络与348m文字尺寸对齐",
+    "实测屋面端头曲线与平面坐标",
+    "东西广场现状铺装/绿化测绘",
+    "游戏内门/楼梯/栏杆碰撞及照明更新"
+  ],
+  "stop_reason": "V1可检查主形、交通层次、屋盖与下部结构；场地和隐藏构造仍保留估算"
+}

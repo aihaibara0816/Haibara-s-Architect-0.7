@@ -1,0 +1,174 @@
+{
+  "schema_version": "0.4",
+  "project_id": "library-with-small-cafe",
+  "route": "original",
+  "primary_use": "library",
+  "secondary_uses": [
+    "coffee side wing"
+  ],
+  "identity_features": [
+    "分类书架与连续书墙",
+    "借还与检索台",
+    "独立阅读桌与安静阅读区"
+  ],
+  "style": "medieval",
+  "interior_level": "L2",
+  "coordinates": {
+    "unit": "block",
+    "up": "Y",
+    "north": "-Z"
+  },
+  "storeys_total": 2,
+  "storeys_assumption": "本次原创设计指定两层",
+  "authorized_scope": {
+    "editable_regions": [
+      [
+        0,
+        0,
+        0,
+        40,
+        25,
+        40
+      ]
+    ],
+    "locked_component_ids": [
+      "facade.windows",
+      "facade.ledges",
+      "cores"
+    ]
+  },
+  "floor_levels": [
+    {
+      "id": "F1",
+      "floor_y": 3,
+      "upper_floor_y": 10,
+      "min_clear_height": 4
+    },
+    {
+      "id": "F2",
+      "floor_y": 10,
+      "upper_floor_y": 17,
+      "min_clear_height": 4
+    }
+  ],
+  "rooms": [
+    {
+      "id": "reading.1",
+      "floor_id": "F1",
+      "function": "reading and borrowing",
+      "bounds_xyz": [
+        2,
+        3,
+        2,
+        25,
+        9,
+        30
+      ],
+      "entrances": [
+        [
+          12,
+          3,
+          2
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "reading.2",
+      "floor_id": "F2",
+      "function": "reading and stacks",
+      "bounds_xyz": [
+        2,
+        10,
+        2,
+        25,
+        16,
+        30
+      ],
+      "entrances": [
+        [
+          12,
+          10,
+          2
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "cafe.1",
+      "floor_id": "F1",
+      "function": "secondary cafe",
+      "bounds_xyz": [
+        25,
+        3,
+        2,
+        38,
+        9,
+        20
+      ],
+      "entrances": [
+        [
+          25,
+          3,
+          10
+        ]
+      ],
+      "color_intent": "warm"
+    }
+  ],
+  "circulation_keepouts": [
+    [
+      11,
+      3,
+      2,
+      14,
+      9,
+      30
+    ]
+  ],
+  "proposed_modules": [
+    {
+      "component_id": "reading.1.stacks.a",
+      "room_id": "reading.1",
+      "bounds_xyz": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        15
+      ],
+      "use_faces": [
+        "east"
+      ]
+    },
+    {
+      "component_id": "reading.1.desk",
+      "room_id": "reading.1",
+      "bounds_xyz": [
+        16,
+        3,
+        6,
+        20,
+        5,
+        10
+      ],
+      "use_faces": [
+        "north",
+        "south"
+      ]
+    }
+  ],
+  "landscape": {
+    "archetype": "reading",
+    "bounds_xyz": [
+      0,
+      0,
+      31,
+      40,
+      6,
+      40
+    ],
+    "water_requested": false
+  }
+}

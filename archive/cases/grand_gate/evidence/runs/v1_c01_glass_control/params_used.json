@@ -1,0 +1,134 @@
+{
+  "case": "Hiroshima JP Building / GRAND GATE host building",
+  "engine": "HAF 0.3",
+  "route": "image_only_plus_documents",
+  "scale_blocks_per_metre": 1,
+  "size": [
+    100,
+    94,
+    86
+  ],
+  "ground_y": 3,
+  "known_height_metres": 88.4,
+  "occupied_height_blocks": 88,
+  "scope": "whole above-ground building, podium and truncated second-floor deck; no station or underground",
+  "north_verified": false,
+  "tower": {
+    "x": [
+      14,
+      79
+    ],
+    "z": [
+      22,
+      53
+    ],
+    "corner_cut": 2,
+    "core_x": [
+      31,
+      62
+    ],
+    "core_z": [
+      18,
+      27
+    ],
+    "floor_y": [
+      27,
+      31,
+      36,
+      40,
+      44,
+      49,
+      53,
+      57,
+      62,
+      66,
+      70,
+      75,
+      79,
+      83,
+      88
+    ],
+    "fin_top": 90
+  },
+  "podium": {
+    "x": [
+      10,
+      83
+    ],
+    "z": [
+      14,
+      60
+    ],
+    "floor_y": [
+      3,
+      9,
+      15,
+      19,
+      23,
+      27
+    ],
+    "eave_y": [
+      15,
+      19,
+      23,
+      27
+    ],
+    "front_lobby_z": 49,
+    "soffit_y": 14
+  },
+  "facade": {
+    "fin_x": [
+      17,
+      20,
+      24,
+      27,
+      30,
+      34,
+      37,
+      40,
+      43,
+      47,
+      50,
+      53,
+      57,
+      60,
+      63,
+      67,
+      70,
+      73,
+      76
+    ],
+    "fin_z": [
+      25,
+      29,
+      33,
+      37,
+      41,
+      45,
+      49
+    ],
+    "glass_offset": 1,
+    "backing_offset": 4,
+    "glass_palette": [
+      "gray_stained_glass",
+      "cyan_stained_glass",
+      "gray_stained_glass",
+      "black_stained_glass"
+    ],
+    "mode": "glass_control"
+  },
+  "lighting": {
+    "seed": 271026,
+    "window_probability": 0.22,
+    "fixed_corner_rods": true,
+    "eave_lights": true,
+    "obstruction": "unknown_not_generated"
+  },
+  "uncertainty": {
+    "plan": "standard floorplan has no dimensions; 66 by 32 m main rectangle and rear core estimated",
+    "height": "88.4 m known; floor levels, facade pitch and crown are quantized estimates",
+    "deck": "connection exists; short interface fragment, not full measured route",
+    "roof": "equipment visible from oblique aerial; simplified layout, not mechanical as-built",
+    "interiors": "synthetic window backing, floor plates and sparse furniture; no complete food hall or office plan"
+  }
+}

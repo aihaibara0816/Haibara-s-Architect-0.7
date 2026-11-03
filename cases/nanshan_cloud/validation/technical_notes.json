@@ -1,0 +1,15 @@
+{
+  "rendering": {
+    "interruption": "Final mesh renderer stopped with exit 137 while concurrent export/replay jobs were running; remaining jobs were then run sequentially.",
+    "recovery": "Nine complete PNGs were verified using their embedded source NBT hash and camera. Their JSON manifest was reconstructed from those embedded values; last four views were rendered normally. No image was substituted or altered."
+  },
+  "acceptance_script_corrections": [
+    "Initial four-face probe included internal tower/core joins; corrected to actual exposed exterior points. No building geometry changed for that probe correction.",
+    "Initial roof air probe landed on mechanical grilles. Moved the air probe to the layer above the grilles; no model geometry changed."
+  ],
+  "visual_limits": [
+    "main tower material looks bluer/lighter than dark source photos",
+    "terrace planting is overly regular",
+    "rear interfaces and third tower remain approximations"
+  ]
+}

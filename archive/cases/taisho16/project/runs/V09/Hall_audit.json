@@ -1,0 +1,56 @@
+{
+  "source_nbt_sha256": "1aa1f99d470d004085e0d379b39525949953452691d6e00359a76c962ce6cc5d",
+  "non_air": 5534,
+  "entries": [
+    {
+      "id": "Hall",
+      "pos": [
+        16,
+        3,
+        21
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 3,
+  "use_checks": [
+    {
+      "id": "Hall.entry",
+      "pos": [
+        16,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Hall.meeting",
+      "pos": [
+        17,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Hall.info",
+      "pos": [
+        21,
+        3,
+        18
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 5,
+  "paintings": 1,
+  "official_model_states": 54,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

@@ -1,0 +1,58 @@
+{
+  "baseline": "CTF HAF V1, new building",
+  "prior_user_feedback": "深圳报业大厦横向幕墙有改善，要求测试周大福竖向幕墙",
+  "decisions": [
+    {
+      "id": "CTF-001",
+      "change": "Dedicated fin/glass/interior layers with diorite wall post",
+      "reason": "Keep vertical rhythm without full-block opaque ribs",
+      "sample": "runs/facade_sample_v2",
+      "status": "Generated and checked in sample and full V1; user/game acceptance pending"
+    },
+    {
+      "id": "CTF-002",
+      "change": "Asymmetric traced tier polygons, bowed sides and sloping roof",
+      "reason": "Avoid concentric wedding-cake boxes",
+      "status": "Compared from four model directions against public photos/plans; uncalibrated, user acceptance pending"
+    },
+    {
+      "id": "CTF-003",
+      "change": "Curved/stair-step turns use full-glass infill; room backing follows eroded floorplate",
+      "reason": "V1_r04/r05 oblique close-ups exposed dark discontinuous strips; straight panel sample did not cover all turn conditions",
+      "status": "Implemented in final candidate; original runs retained"
+    },
+    {
+      "id": "CTF-004",
+      "change": "Scene budget explicitly 2,000,000 cells, default remains 1,000,000",
+      "reason": "Combined tower/podium bounds exceed old one-million-cell scene; no automatic unbounded budget",
+      "verification": "Shenzhen V2 independently reproduced with identical NBT SHA256"
+    },
+    {
+      "id": "CTF-005",
+      "change": "Shared first_clear_slot reserves air-only fixtures away from connection-sensitive glass panes; slots also reserved for dark rooms",
+      "reason": "Seed regression detected 509 non-lamp/state differences in a draft; collisions with backing and new pane connections were rejected",
+      "consumer": "hafusion/lighting.py; CTF lighting()",
+      "status": "Passed final seed regression: changes only air/sea_lantern/glowstone; no structural or pane-state differences"
+    },
+    {
+      "id": "CTF-006",
+      "change": "Decouple RNG namespace from module VERSION; preserve old default stream and explicitly pin CTF V1 stream",
+      "reason": "Portable archive replay exposed 851 Shenzhen voxel/owner differences after helper-only version bump",
+      "consumer": "hafusion/lighting.py; CTF explicit partial wrappers",
+      "status": "Passed 20 core tests and fresh archive replay: CTF V1 and Shenzhen V2 both reproduce exact published NBT bytes"
+    }
+  ],
+  "next_user_feedback": [],
+  "final_nbt_sha256": "58db77a6499aab981ccf8efdd048c3ce80b9383053713059ca61010af7afcc96",
+  "user_acceptance": "pending",
+  "known_gaps": [
+    {
+      "id": "CTF-GAP-001",
+      "component": "crown_lighting",
+      "actual_crown_accent_blocks": 0,
+      "reason": "All requested crown fixture candidates rejected by collision and pane-connection guards",
+      "next": "Design explicit safe fixture recesses before re-enabling crown accents; LPA fin/roof line lighting not implemented",
+      "status": "pending"
+    }
+  ]
+}

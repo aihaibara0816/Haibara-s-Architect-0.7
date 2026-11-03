@@ -1,0 +1,46 @@
+{
+  "case": "Taisho14",
+  "run": "Q03",
+  "source_nbt_sha256": "a85632cae4e46464bfd50a272084974dfd813eda9408cec0a6aac1a34a21eac8",
+  "reviewed": [
+    "whole overview SE/SW",
+    "west district SE day/night",
+    "station district NE",
+    "upper/lower street",
+    "clock square",
+    "station front",
+    "school court",
+    "School exterior FR",
+    "Library front",
+    "Clock exterior FR",
+    "Station platform",
+    "Workshop exterior FR",
+    "Bath inside",
+    "Clinic upper inside",
+    "Inn upper inside",
+    "Bookshop inside"
+  ],
+  "observations": [
+    "两段坡街的连续关系可见，近景能识别入口、屋檐和转角遮挡。",
+    "学校中央山墙、铜绿文库、工房采光体、钟楼和车站屋顶形成不同轮廓。",
+    "单栋构件较上一轮增加真实进深，尚不等于用户审美验收。",
+    "站台、教室、诊室、浴池和书店内饰可按活动辨认。"
+  ],
+  "resolved": [
+    "Q02人眼镜头高度偏低，Q03将实际机位修正到所在路面上方。",
+    "学校中央山墙从屋顶内部调整为外露的正面构件。",
+    "钟面增大并调整白底黑边与指针。"
+  ],
+  "remaining": [
+    "完整场地仍保留矩形小样边界，未来接入真实地图需处理外围融合。",
+    "部分屋面仍较大片，背街附属构造和橱窗经营细节可继续深化。",
+    "线缆、画、文字等在离线渲染中简化。"
+  ],
+  "states": {
+    "file": "checked",
+    "geometry": "checked within audit scope",
+    "visual": "selected views reviewed",
+    "aesthetic": "pending user",
+    "game": "not run"
+  }
+}

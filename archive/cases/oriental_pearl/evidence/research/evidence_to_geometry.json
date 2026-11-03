@@ -1,0 +1,114 @@
+[
+  {
+    "region_id": "region-1",
+    "image_id": "img-03",
+    "rect_normalized": [
+      0.3,
+      0.06,
+      0.65,
+      0.96
+    ],
+    "component_id": "structure",
+    "observation": "三筒和上下球的整体比例",
+    "parameter": "structure.tube_axis_radius_m",
+    "consumer": "Pearl.construct",
+    "review": "overview / four diagonals",
+    "method": "manual context rectangle, not pixel segmentation"
+  },
+  {
+    "region_id": "region-2",
+    "image_id": "img-04",
+    "rect_normalized": [
+      0.38,
+      0.35,
+      0.63,
+      0.74
+    ],
+    "component_id": "structure",
+    "observation": "五个小球处于两侧主筒间，六道横梁分段",
+    "parameter": "small_spheres.centers_m; structure.beam_levels_m",
+    "consumer": "Pearl.construct",
+    "review": "upper_detail + section",
+    "method": "manual context rectangle, not pixel segmentation"
+  },
+  {
+    "region_id": "region-3",
+    "image_id": "img-05",
+    "rect_normalized": [
+      0.45,
+      0.02,
+      0.99,
+      0.99
+    ],
+    "component_id": "sphere.lower",
+    "observation": "细三角框在粉色面板外；下部银灰板有清晰边界",
+    "parameter": "shell_thickness_blocks; spheres[0].style=lower",
+    "consumer": "Pearl.sphere",
+    "review": "lower_detail; triangle grid pending",
+    "method": "manual context rectangle, not pixel segmentation"
+  },
+  {
+    "region_id": "region-4",
+    "image_id": "img-06",
+    "rect_normalized": [
+      0.01,
+      0.02,
+      0.98,
+      0.96
+    ],
+    "component_id": "sphere.lower",
+    "observation": "窗带与实体下壳分离，球底穿入主筒",
+    "parameter": "spheres[0].diameter_m=50",
+    "consumer": "Pearl.sphere + tube",
+    "review": "underside / section",
+    "method": "manual context rectangle, not pixel segmentation"
+  },
+  {
+    "region_id": "region-5",
+    "image_id": "img-02",
+    "rect_normalized": [
+      0.3,
+      0.66,
+      0.75,
+      0.98
+    ],
+    "component_id": "podium",
+    "observation": "底部一体空间被前景建筑遮挡",
+    "parameter": "site.radius_m=75 (design suggestion)",
+    "consumer": "Pearl.construct",
+    "review": "base_plan; actual plan pending",
+    "method": "manual context rectangle, not pixel segmentation"
+  },
+  {
+    "region_id": "region-6",
+    "image_id": "img-07",
+    "rect_normalized": [
+      0.28,
+      0.01,
+      0.7,
+      0.89
+    ],
+    "component_id": "lighting",
+    "observation": "柱间、球底、天线有不同照明分区",
+    "parameter": "lighting.enabled",
+    "consumer": "Pearl.construct",
+    "review": "night views; colour unresolved",
+    "method": "manual context rectangle, not pixel segmentation"
+  },
+  {
+    "region_id": "region-7",
+    "image_id": "img-08",
+    "rect_normalized": [
+      0.12,
+      0.19,
+      0.87,
+      0.8
+    ],
+    "component_id": "lighting",
+    "observation": "下球底面与斜撑被泛光照亮",
+    "parameter": "no colour propagation consumer",
+    "consumer": "research_only",
+    "review": "pending",
+    "method": "manual context rectangle, not pixel segmentation"
+  }
+]

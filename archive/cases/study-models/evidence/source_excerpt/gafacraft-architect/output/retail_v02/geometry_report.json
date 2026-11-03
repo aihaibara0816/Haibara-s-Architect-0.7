@@ -1,0 +1,1548 @@
+{
+  "overlaps": [
+    {
+      "earlier": "sign.amber_line",
+      "later": "canopy",
+      "cell_writes": 6
+    },
+    {
+      "earlier": "site.paving",
+      "later": "store.floor",
+      "cell_writes": 384
+    },
+    {
+      "earlier": "wall.front",
+      "later": "entry.frame_left",
+      "cell_writes": 4
+    },
+    {
+      "earlier": "wall.front",
+      "later": "entry.frame_right",
+      "cell_writes": 4
+    },
+    {
+      "earlier": "wall.front",
+      "later": "entry.header",
+      "cell_writes": 6
+    }
+  ],
+  "events": [
+    {
+      "component_id": "site.foundation",
+      "kind": "box",
+      "net_block_change": 884
+    },
+    {
+      "component_id": "site.paving",
+      "kind": "box",
+      "net_block_change": 768
+    },
+    {
+      "component_id": "store.floor",
+      "kind": "box",
+      "net_block_change": 0
+    },
+    {
+      "component_id": "wall.front",
+      "kind": "box",
+      "net_block_change": 144
+    },
+    {
+      "component_id": "wall.back",
+      "kind": "box",
+      "net_block_change": 144
+    },
+    {
+      "component_id": "wall.left",
+      "kind": "box",
+      "net_block_change": 84
+    },
+    {
+      "component_id": "wall.right",
+      "kind": "box",
+      "net_block_change": 84
+    },
+    {
+      "component_id": "opening.entry",
+      "kind": "box",
+      "net_block_change": -16
+    },
+    {
+      "component_id": "opening.front_left",
+      "kind": "box",
+      "net_block_change": -18
+    },
+    {
+      "component_id": "glazing.front_left",
+      "kind": "box",
+      "net_block_change": 18
+    },
+    {
+      "component_id": "opening.front_right",
+      "kind": "box",
+      "net_block_change": -18
+    },
+    {
+      "component_id": "glazing.front_right",
+      "kind": "box",
+      "net_block_change": 18
+    },
+    {
+      "component_id": "opening.left_window",
+      "kind": "box",
+      "net_block_change": -21
+    },
+    {
+      "component_id": "glazing.left_window",
+      "kind": "box",
+      "net_block_change": 21
+    },
+    {
+      "component_id": "opening.right_window",
+      "kind": "box",
+      "net_block_change": -18
+    },
+    {
+      "component_id": "glazing.right_window",
+      "kind": "box",
+      "net_block_change": 18
+    },
+    {
+      "component_id": "opening.service_door",
+      "kind": "box",
+      "net_block_change": -6
+    },
+    {
+      "component_id": "opening.rear_window",
+      "kind": "box",
+      "net_block_change": -12
+    },
+    {
+      "component_id": "glazing.rear_window",
+      "kind": "box",
+      "net_block_change": 12
+    },
+    {
+      "component_id": "entry.frame_left",
+      "kind": "box",
+      "net_block_change": 4
+    },
+    {
+      "component_id": "entry.frame_right",
+      "kind": "box",
+      "net_block_change": 4
+    },
+    {
+      "component_id": "entry.header",
+      "kind": "box",
+      "net_block_change": 6
+    },
+    {
+      "component_id": "roof.main",
+      "kind": "box",
+      "net_block_change": 468
+    },
+    {
+      "component_id": "roof.upper",
+      "kind": "box",
+      "net_block_change": 286
+    },
+    {
+      "component_id": "roof.vent",
+      "kind": "box",
+      "net_block_change": 9
+    },
+    {
+      "component_id": "sign.band",
+      "kind": "box",
+      "net_block_change": 44
+    },
+    {
+      "component_id": "sign.amber_line",
+      "kind": "box",
+      "net_block_change": 22
+    },
+    {
+      "component_id": "sign.emblem_0",
+      "kind": "box",
+      "net_block_change": 2
+    },
+    {
+      "component_id": "sign.emblem_1",
+      "kind": "box",
+      "net_block_change": 2
+    },
+    {
+      "component_id": "sign.emblem_2",
+      "kind": "box",
+      "net_block_change": 2
+    },
+    {
+      "component_id": "canopy",
+      "kind": "box",
+      "net_block_change": 12
+    },
+    {
+      "component_id": "ceiling.light_0",
+      "kind": "box",
+      "net_block_change": 10
+    },
+    {
+      "component_id": "ceiling.light_1",
+      "kind": "box",
+      "net_block_change": 10
+    },
+    {
+      "component_id": "ceiling.light_2",
+      "kind": "box",
+      "net_block_change": 10
+    },
+    {
+      "component_id": "ceiling.light_3",
+      "kind": "box",
+      "net_block_change": 10
+    },
+    {
+      "component_id": "shelf.base_0",
+      "kind": "box",
+      "net_block_change": 14
+    },
+    {
+      "component_id": "shelf.top_0",
+      "kind": "box",
+      "net_block_change": 14
+    },
+    {
+      "component_id": "shelf.side_0_12",
+      "kind": "box",
+      "net_block_change": 2
+    },
+    {
+      "component_id": "shelf.side_0_18",
+      "kind": "box",
+      "net_block_change": 2
+    },
+    {
+      "component_id": "shelf.base_1",
+      "kind": "box",
+      "net_block_change": 14
+    },
+    {
+      "component_id": "shelf.top_1",
+      "kind": "box",
+      "net_block_change": 14
+    },
+    {
+      "component_id": "shelf.side_1_12",
+      "kind": "box",
+      "net_block_change": 2
+    },
+    {
+      "component_id": "shelf.side_1_18",
+      "kind": "box",
+      "net_block_change": 2
+    },
+    {
+      "component_id": "counter",
+      "kind": "box",
+      "net_block_change": 20
+    },
+    {
+      "component_id": "counter.worktop",
+      "kind": "box",
+      "net_block_change": 10
+    },
+    {
+      "component_id": "rear.storage",
+      "kind": "box",
+      "net_block_change": 42
+    },
+    {
+      "component_id": "site.planter_left",
+      "kind": "polygon_prism",
+      "net_block_change": 30
+    },
+    {
+      "component_id": "site.plants_left",
+      "kind": "box",
+      "net_block_change": 7
+    },
+    {
+      "component_id": "site.plants_side",
+      "kind": "box",
+      "net_block_change": 5
+    },
+    {
+      "component_id": "site.planter_right",
+      "kind": "box",
+      "net_block_change": 14
+    },
+    {
+      "component_id": "site.plants_right",
+      "kind": "box",
+      "net_block_change": 5
+    },
+    {
+      "component_id": "site.bench",
+      "kind": "box",
+      "net_block_change": 5
+    },
+    {
+      "component_id": "site.service_pad",
+      "kind": "box",
+      "net_block_change": 15
+    }
+  ],
+  "profiles": {},
+  "quantization": [
+    {
+      "component_id": "site.foundation",
+      "input_min_m": [
+        0,
+        0,
+        0
+      ],
+      "input_max_m": [
+        34,
+        1,
+        26
+      ],
+      "min_blocks": [
+        0,
+        0,
+        0
+      ],
+      "max_blocks_exclusive": [
+        34,
+        1,
+        26
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "site.paving",
+      "input_min_m": [
+        1,
+        1,
+        1
+      ],
+      "input_max_m": [
+        33,
+        2,
+        25
+      ],
+      "min_blocks": [
+        1,
+        1,
+        1
+      ],
+      "max_blocks_exclusive": [
+        33,
+        2,
+        25
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "store.floor",
+      "input_min_m": [
+        5,
+        1,
+        7
+      ],
+      "input_max_m": [
+        29,
+        2,
+        23
+      ],
+      "min_blocks": [
+        5,
+        1,
+        7
+      ],
+      "max_blocks_exclusive": [
+        29,
+        2,
+        23
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "wall.front",
+      "input_min_m": [
+        5,
+        2,
+        7
+      ],
+      "input_max_m": [
+        29,
+        8,
+        8
+      ],
+      "min_blocks": [
+        5,
+        2,
+        7
+      ],
+      "max_blocks_exclusive": [
+        29,
+        8,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "wall.back",
+      "input_min_m": [
+        5,
+        2,
+        22
+      ],
+      "input_max_m": [
+        29,
+        8,
+        23
+      ],
+      "min_blocks": [
+        5,
+        2,
+        22
+      ],
+      "max_blocks_exclusive": [
+        29,
+        8,
+        23
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "wall.left",
+      "input_min_m": [
+        5,
+        2,
+        8
+      ],
+      "input_max_m": [
+        6,
+        8,
+        22
+      ],
+      "min_blocks": [
+        5,
+        2,
+        8
+      ],
+      "max_blocks_exclusive": [
+        6,
+        8,
+        22
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "wall.right",
+      "input_min_m": [
+        28,
+        2,
+        8
+      ],
+      "input_max_m": [
+        29,
+        8,
+        22
+      ],
+      "min_blocks": [
+        28,
+        2,
+        8
+      ],
+      "max_blocks_exclusive": [
+        29,
+        8,
+        22
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "opening.entry",
+      "input_min_m": [
+        15,
+        2,
+        7
+      ],
+      "input_max_m": [
+        19,
+        6,
+        8
+      ],
+      "min_blocks": [
+        15,
+        2,
+        7
+      ],
+      "max_blocks_exclusive": [
+        19,
+        6,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "opening.front_left",
+      "input_min_m": [
+        7,
+        3,
+        7
+      ],
+      "input_max_m": [
+        13,
+        6,
+        8
+      ],
+      "min_blocks": [
+        7,
+        3,
+        7
+      ],
+      "max_blocks_exclusive": [
+        13,
+        6,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "glazing.front_left",
+      "input_min_m": [
+        7,
+        3,
+        7
+      ],
+      "input_max_m": [
+        13,
+        6,
+        8
+      ],
+      "min_blocks": [
+        7,
+        3,
+        7
+      ],
+      "max_blocks_exclusive": [
+        13,
+        6,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "opening.front_right",
+      "input_min_m": [
+        21,
+        3,
+        7
+      ],
+      "input_max_m": [
+        27,
+        6,
+        8
+      ],
+      "min_blocks": [
+        21,
+        3,
+        7
+      ],
+      "max_blocks_exclusive": [
+        27,
+        6,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "glazing.front_right",
+      "input_min_m": [
+        21,
+        3,
+        7
+      ],
+      "input_max_m": [
+        27,
+        6,
+        8
+      ],
+      "min_blocks": [
+        21,
+        3,
+        7
+      ],
+      "max_blocks_exclusive": [
+        27,
+        6,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "opening.left_window",
+      "input_min_m": [
+        5,
+        3,
+        12
+      ],
+      "input_max_m": [
+        6,
+        6,
+        19
+      ],
+      "min_blocks": [
+        5,
+        3,
+        12
+      ],
+      "max_blocks_exclusive": [
+        6,
+        6,
+        19
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "glazing.left_window",
+      "input_min_m": [
+        5,
+        3,
+        12
+      ],
+      "input_max_m": [
+        6,
+        6,
+        19
+      ],
+      "min_blocks": [
+        5,
+        3,
+        12
+      ],
+      "max_blocks_exclusive": [
+        6,
+        6,
+        19
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "opening.right_window",
+      "input_min_m": [
+        28,
+        3,
+        10
+      ],
+      "input_max_m": [
+        29,
+        6,
+        16
+      ],
+      "min_blocks": [
+        28,
+        3,
+        10
+      ],
+      "max_blocks_exclusive": [
+        29,
+        6,
+        16
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "glazing.right_window",
+      "input_min_m": [
+        28,
+        3,
+        10
+      ],
+      "input_max_m": [
+        29,
+        6,
+        16
+      ],
+      "min_blocks": [
+        28,
+        3,
+        10
+      ],
+      "max_blocks_exclusive": [
+        29,
+        6,
+        16
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "opening.service_door",
+      "input_min_m": [
+        28,
+        2,
+        19
+      ],
+      "input_max_m": [
+        29,
+        5,
+        21
+      ],
+      "min_blocks": [
+        28,
+        2,
+        19
+      ],
+      "max_blocks_exclusive": [
+        29,
+        5,
+        21
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "opening.rear_window",
+      "input_min_m": [
+        9,
+        4,
+        22
+      ],
+      "input_max_m": [
+        15,
+        6,
+        23
+      ],
+      "min_blocks": [
+        9,
+        4,
+        22
+      ],
+      "max_blocks_exclusive": [
+        15,
+        6,
+        23
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "glazing.rear_window",
+      "input_min_m": [
+        9,
+        4,
+        22
+      ],
+      "input_max_m": [
+        15,
+        6,
+        23
+      ],
+      "min_blocks": [
+        9,
+        4,
+        22
+      ],
+      "max_blocks_exclusive": [
+        15,
+        6,
+        23
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "entry.frame_left",
+      "input_min_m": [
+        14,
+        2,
+        6
+      ],
+      "input_max_m": [
+        15,
+        6,
+        8
+      ],
+      "min_blocks": [
+        14,
+        2,
+        6
+      ],
+      "max_blocks_exclusive": [
+        15,
+        6,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "entry.frame_right",
+      "input_min_m": [
+        19,
+        2,
+        6
+      ],
+      "input_max_m": [
+        20,
+        6,
+        8
+      ],
+      "min_blocks": [
+        19,
+        2,
+        6
+      ],
+      "max_blocks_exclusive": [
+        20,
+        6,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "entry.header",
+      "input_min_m": [
+        14,
+        6,
+        6
+      ],
+      "input_max_m": [
+        20,
+        7,
+        8
+      ],
+      "min_blocks": [
+        14,
+        6,
+        6
+      ],
+      "max_blocks_exclusive": [
+        20,
+        7,
+        8
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "roof.main",
+      "input_min_m": [
+        4,
+        8,
+        6
+      ],
+      "input_max_m": [
+        30,
+        9,
+        24
+      ],
+      "min_blocks": [
+        4,
+        8,
+        6
+      ],
+      "max_blocks_exclusive": [
+        30,
+        9,
+        24
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "roof.upper",
+      "input_min_m": [
+        6,
+        9,
+        9
+      ],
+      "input_max_m": [
+        28,
+        10,
+        22
+      ],
+      "min_blocks": [
+        6,
+        9,
+        9
+      ],
+      "max_blocks_exclusive": [
+        28,
+        10,
+        22
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "roof.vent",
+      "input_min_m": [
+        24,
+        10,
+        18
+      ],
+      "input_max_m": [
+        27,
+        11,
+        21
+      ],
+      "min_blocks": [
+        24,
+        10,
+        18
+      ],
+      "max_blocks_exclusive": [
+        27,
+        11,
+        21
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "sign.band",
+      "input_min_m": [
+        6,
+        7,
+        5
+      ],
+      "input_max_m": [
+        28,
+        9,
+        6
+      ],
+      "min_blocks": [
+        6,
+        7,
+        5
+      ],
+      "max_blocks_exclusive": [
+        28,
+        9,
+        6
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "sign.amber_line",
+      "input_min_m": [
+        6,
+        6,
+        5
+      ],
+      "input_max_m": [
+        28,
+        7,
+        6
+      ],
+      "min_blocks": [
+        6,
+        6,
+        5
+      ],
+      "max_blocks_exclusive": [
+        28,
+        7,
+        6
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "sign.emblem_0",
+      "input_min_m": [
+        8,
+        7,
+        4
+      ],
+      "input_max_m": [
+        9,
+        9,
+        5
+      ],
+      "min_blocks": [
+        8,
+        7,
+        4
+      ],
+      "max_blocks_exclusive": [
+        9,
+        9,
+        5
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "sign.emblem_1",
+      "input_min_m": [
+        9,
+        8,
+        4
+      ],
+      "input_max_m": [
+        11,
+        9,
+        5
+      ],
+      "min_blocks": [
+        9,
+        8,
+        4
+      ],
+      "max_blocks_exclusive": [
+        11,
+        9,
+        5
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "sign.emblem_2",
+      "input_min_m": [
+        11,
+        7,
+        4
+      ],
+      "input_max_m": [
+        12,
+        9,
+        5
+      ],
+      "min_blocks": [
+        11,
+        7,
+        4
+      ],
+      "max_blocks_exclusive": [
+        12,
+        9,
+        5
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "canopy",
+      "input_min_m": [
+        14,
+        6,
+        3
+      ],
+      "input_max_m": [
+        20,
+        7,
+        6
+      ],
+      "min_blocks": [
+        14,
+        6,
+        3
+      ],
+      "max_blocks_exclusive": [
+        20,
+        7,
+        6
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "ceiling.light_0",
+      "input_min_m": [
+        7,
+        7,
+        10
+      ],
+      "input_max_m": [
+        8,
+        8,
+        20
+      ],
+      "min_blocks": [
+        7,
+        7,
+        10
+      ],
+      "max_blocks_exclusive": [
+        8,
+        8,
+        20
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "ceiling.light_1",
+      "input_min_m": [
+        12,
+        7,
+        10
+      ],
+      "input_max_m": [
+        13,
+        8,
+        20
+      ],
+      "min_blocks": [
+        12,
+        7,
+        10
+      ],
+      "max_blocks_exclusive": [
+        13,
+        8,
+        20
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "ceiling.light_2",
+      "input_min_m": [
+        21,
+        7,
+        10
+      ],
+      "input_max_m": [
+        22,
+        8,
+        20
+      ],
+      "min_blocks": [
+        21,
+        7,
+        10
+      ],
+      "max_blocks_exclusive": [
+        22,
+        8,
+        20
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "ceiling.light_3",
+      "input_min_m": [
+        26,
+        7,
+        10
+      ],
+      "input_max_m": [
+        27,
+        8,
+        20
+      ],
+      "min_blocks": [
+        26,
+        7,
+        10
+      ],
+      "max_blocks_exclusive": [
+        27,
+        8,
+        20
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "shelf.base_0",
+      "input_min_m": [
+        9,
+        2,
+        12
+      ],
+      "input_max_m": [
+        11,
+        3,
+        19
+      ],
+      "min_blocks": [
+        9,
+        2,
+        12
+      ],
+      "max_blocks_exclusive": [
+        11,
+        3,
+        19
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "shelf.top_0",
+      "input_min_m": [
+        9,
+        4,
+        12
+      ],
+      "input_max_m": [
+        11,
+        5,
+        19
+      ],
+      "min_blocks": [
+        9,
+        4,
+        12
+      ],
+      "max_blocks_exclusive": [
+        11,
+        5,
+        19
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "shelf.side_0_12",
+      "input_min_m": [
+        9,
+        3,
+        12
+      ],
+      "input_max_m": [
+        11,
+        4,
+        13
+      ],
+      "min_blocks": [
+        9,
+        3,
+        12
+      ],
+      "max_blocks_exclusive": [
+        11,
+        4,
+        13
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "shelf.side_0_18",
+      "input_min_m": [
+        9,
+        3,
+        18
+      ],
+      "input_max_m": [
+        11,
+        4,
+        19
+      ],
+      "min_blocks": [
+        9,
+        3,
+        18
+      ],
+      "max_blocks_exclusive": [
+        11,
+        4,
+        19
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "shelf.base_1",
+      "input_min_m": [
+        22,
+        2,
+        12
+      ],
+      "input_max_m": [
+        24,
+        3,
+        19
+      ],
+      "min_blocks": [
+        22,
+        2,
+        12
+      ],
+      "max_blocks_exclusive": [
+        24,
+        3,
+        19
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "shelf.top_1",
+      "input_min_m": [
+        22,
+        4,
+        12
+      ],
+      "input_max_m": [
+        24,
+        5,
+        19
+      ],
+      "min_blocks": [
+        22,
+        4,
+        12
+      ],
+      "max_blocks_exclusive": [
+        24,
+        5,
+        19
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "shelf.side_1_12",
+      "input_min_m": [
+        22,
+        3,
+        12
+      ],
+      "input_max_m": [
+        24,
+        4,
+        13
+      ],
+      "min_blocks": [
+        22,
+        3,
+        12
+      ],
+      "max_blocks_exclusive": [
+        24,
+        4,
+        13
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "shelf.side_1_18",
+      "input_min_m": [
+        22,
+        3,
+        18
+      ],
+      "input_max_m": [
+        24,
+        4,
+        19
+      ],
+      "min_blocks": [
+        22,
+        3,
+        18
+      ],
+      "max_blocks_exclusive": [
+        24,
+        4,
+        19
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "counter",
+      "input_min_m": [
+        22,
+        2,
+        9
+      ],
+      "input_max_m": [
+        27,
+        4,
+        11
+      ],
+      "min_blocks": [
+        22,
+        2,
+        9
+      ],
+      "max_blocks_exclusive": [
+        27,
+        4,
+        11
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "counter.worktop",
+      "input_min_m": [
+        22,
+        4,
+        9
+      ],
+      "input_max_m": [
+        27,
+        5,
+        11
+      ],
+      "min_blocks": [
+        22,
+        4,
+        9
+      ],
+      "max_blocks_exclusive": [
+        27,
+        5,
+        11
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "rear.storage",
+      "input_min_m": [
+        18,
+        2,
+        20
+      ],
+      "input_max_m": [
+        25,
+        5,
+        22
+      ],
+      "min_blocks": [
+        18,
+        2,
+        20
+      ],
+      "max_blocks_exclusive": [
+        25,
+        5,
+        22
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "site.plants_left",
+      "input_min_m": [
+        3,
+        3,
+        2
+      ],
+      "input_max_m": [
+        10,
+        4,
+        3
+      ],
+      "min_blocks": [
+        3,
+        3,
+        2
+      ],
+      "max_blocks_exclusive": [
+        10,
+        4,
+        3
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "site.plants_side",
+      "input_min_m": [
+        2,
+        3,
+        4
+      ],
+      "input_max_m": [
+        3,
+        4,
+        9
+      ],
+      "min_blocks": [
+        2,
+        3,
+        4
+      ],
+      "max_blocks_exclusive": [
+        3,
+        4,
+        9
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "site.planter_right",
+      "input_min_m": [
+        24,
+        2,
+        2
+      ],
+      "input_max_m": [
+        31,
+        3,
+        4
+      ],
+      "min_blocks": [
+        24,
+        2,
+        2
+      ],
+      "max_blocks_exclusive": [
+        31,
+        3,
+        4
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "site.plants_right",
+      "input_min_m": [
+        25,
+        3,
+        2
+      ],
+      "input_max_m": [
+        30,
+        4,
+        3
+      ],
+      "min_blocks": [
+        25,
+        3,
+        2
+      ],
+      "max_blocks_exclusive": [
+        30,
+        4,
+        3
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "site.bench",
+      "input_min_m": [
+        7,
+        2,
+        5
+      ],
+      "input_max_m": [
+        12,
+        3,
+        6
+      ],
+      "min_blocks": [
+        7,
+        2,
+        5
+      ],
+      "max_blocks_exclusive": [
+        12,
+        3,
+        6
+      ],
+      "max_endpoint_error_m": 0.0
+    },
+    {
+      "component_id": "site.service_pad",
+      "input_min_m": [
+        30,
+        2,
+        18
+      ],
+      "input_max_m": [
+        33,
+        3,
+        23
+      ],
+      "min_blocks": [
+        30,
+        2,
+        18
+      ],
+      "max_blocks_exclusive": [
+        33,
+        3,
+        23
+      ],
+      "max_endpoint_error_m": 0.0
+    }
+  ],
+  "cell_visits": 3826
+}

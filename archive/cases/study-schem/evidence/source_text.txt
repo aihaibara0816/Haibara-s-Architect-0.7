@@ -1,0 +1,633 @@
+HA · 七种建筑的方块构造研究
+HA RESEARCH / CONSTRUCTION VOCABULARY / 2026.10.23
+从七份建筑成品，
+拆出能迁移的构造方法
+研究外立面、幕墙、细杆框架，以及真实内部与伪内饰的区别。以下图像均由用户提供的 schematic 文件读回；本轮没有生成新的建筑。
+7 / 7
+输入已解析并交叉核对材料数量
+7 类样本
+按构造表达学习，不套一个塔楼模板
+0
+原模型及主引擎改动
+押上晴空塔
+珠江西塔
+白天鹅宾馆
+珠江海关大楼
+金茂大厦
+芝公园电波塔
+圣乔迪中央车站
+如何融入 HA
+这批样本真正补充了什么
+细节来自
+形状、状态、前后层次和构件关系
+共同作用：有的用细杆包住核心，有的用窗套和退距产生阴影，有的在玻璃后加很浅的空间与灯点。增加参考图片之外，生成器也必须能把这些区别写入最终方块。
+值得吸收
+主次杆件、凹窗、外置竖肋、楼板与横带的区别、窗后示意空间、分段收分、檐口转角，以及站房与大跨棚的组合。
+本轮结论的范围
+确认这些文件如何用方块表达建筑；没有反推出原网站算法，也没有证明它们准确还原了现实原型。文件名按用户命名保留。
+看图提示：
+点击大图可放大。可切换正反整体、近景、上部、剖开、平面和竖剖。图像为无纹理、按方块状态绘制的近似预览，颜色和透明度不等同游戏；二维切片按整格着色，半砖等会占满显示格。剖开图没有为切面补封口。
+样本一览
+文件名称
+尺寸 X × Y × Z
+非空气格数
+重点学习
+押上晴空塔
+107 × 280 × 81
+41,526
+开敞网架塔
+珠江西塔
+51 × 205 × 59
+74,197
+现代玻璃高层
+白天鹅宾馆
+164 × 102 × 105
+143,663
+板式酒店与退台裙楼
+珠江海关大楼
+133 × 137 × 118
+247,188
+石质窗套与檐口建筑
+金茂大厦
+47 × 196 × 54
+82,257
+分段收分的高层塔楼
+芝公园电波塔
+97 × 155 × 97
+17,183
+红白开敞铁塔
+圣乔迪中央车站
+192 × 76 × 224
+185,788
+砖砌站房与大跨玻璃棚
+尺寸是文件包络，含场地；格数不是材料实际体积。七份均为 Sponge schematic v2，DataVersion 4671。此信息不代替 Minecraft 版本兼容性测试。
+开敞网架塔
+押上晴空塔
+粗细分工比一根根粗柱更重要。
+01
+8,539 格铁栏与 6,382 格铁块并存，整体预览能看到外围网架和中央核心分开。铁栏还用于栏杆等部位，不能把总数全算成受力结构。
+核心附近有连续改变方向的八步环绕楼梯；这证明并非全空壳，但仍没有游戏行走验证。
+中段、观景舱和尖顶采用不同密度与材料，玻璃不是从地面连续包满全塔。
+整体 A
+整体 B
+近景
+上部 / 细部
+剖开
+关键平面
+关键竖剖
+整体读回视图；视角按文件坐标定义，不代表地理朝向。
+向 HA 迁移：
+建立主杆、次杆、核心和有围护楼层四类构件；按实际构件检查交接与镂空。
+待验证：“索链状”先描述为细杆或网架。本批样本没有 chain 方块，外观也不足以判断真实受力类别。
+查看原文件、代表坐标与材料统计
+押上晴空塔-1.21.11.schem
+SHA-256：9e0c97f550cc7a958b76429e51fd27ac84815d8ae9305656cd696b1178b4002b
+局部坐标 (x,y,z)
+原始方块状态
+(42, 48, 42)
+minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+(43, 49, 42)
+minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+(44, 50, 42)
+minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+(44, 51, 43)
+minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+(44, 52, 44)
+minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+(43, 53, 44)
+minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+(42, 54, 44)
+minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+(42, 55, 43)
+minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+材料（合并状态）
+非空气格数
+minecraft:smooth_stone
+13,375
+minecraft:iron_bars
+8,539
+minecraft:iron_block
+6,382
+minecraft:light_gray_concrete
+3,382
+minecraft:gray_stained_glass
+3,244
+minecraft:polished_andesite_slab
+1,736
+minecraft:oak_leaves
+1,099
+minecraft:gray_concrete
+983
+minecraft:light_blue_stained_glass
+983
+minecraft:polished_andesite_stairs
+954
+minecraft:smooth_stone_slab
+739
+minecraft:sea_lantern
+52
+minecraft:oak_log
+28
+minecraft:stone_brick_wall
+21
+minecraft:water
+9
+现代玻璃高层
+珠江西塔
+围护、楼板与窗后示意层需要分开生成。
+02
+22,974 格浅蓝玻璃与 3,233 格灰玻璃形成不同界面；不能仅凭这些色块认定现实玻璃的真实颜色。
+典型段楼板约每 4 格重复，存在楼梯和上段中央开洞，不能把所有高度都套同一实心板。
+窗后采样点 (20,10,26) 所在空气组件只有 15 格，包络内还有半砖；这是局部示意空间，不能据此称办公内饰完整。
+整体 A
+整体 B
+近景
+上部 / 细部
+剖开
+关键平面
+关键竖剖
+整体读回视图；视角按文件坐标定义，不代表地理朝向。
+向 HA 迁移：
+让幕墙分格、内层楼板、边界节点与中央开洞分别有参数；用剖切检查围护后面是否有空间层次。
+待验证：本轮没有按真实西塔照片校准比例、斜网格或开洞精度；学习的是所给模型的建造做法。
+查看原文件、代表坐标与材料统计
+珠江西塔-1.21.11.schem
+SHA-256：314300137ec73ba5780f33d31a4570391d253736590ca086356604616e8703b9
+局部坐标 (x,y,z)
+原始方块状态
+(23, 9, 34)
+minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+(23, 10, 35)
+minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+(23, 11, 36)
+minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+(27, 12, 36)
+minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+(27, 13, 35)
+minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+(27, 14, 34)
+minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+(27, 15, 33)
+minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+材料（合并状态）
+非空气格数
+minecraft:gray_concrete
+36,823
+minecraft:light_blue_stained_glass
+22,974
+minecraft:polished_andesite
+8,324
+minecraft:gray_stained_glass
+3,233
+minecraft:polished_andesite_slab
+1,357
+minecraft:gray_stained_glass_pane
+460
+minecraft:oak_leaves
+272
+minecraft:iron_block
+260
+minecraft:polished_andesite_stairs
+201
+minecraft:grass_block
+118
+minecraft:glowstone
+69
+minecraft:sea_lantern
+59
+minecraft:smooth_stone_slab
+29
+minecraft:oak_log
+18
+板式酒店与退台裙楼
+白天鹅宾馆
+立面横带不等于真实楼层。
+03
+白色框架、后退玻璃、部分窗后灯点形成进深；裙楼与上部板楼的重复方式不同。
+主体立面可见约 3 格一组的节奏，而近完整楼板约 6 格重复；一些中间横带只有边缘或横梁。
+窗后 (41,25,21) 属于 6 格空气的小腔体，边界是完整块。它能制造窗后的明暗与进深，但不能称可进入客房。
+整体 A
+整体 B
+近景
+上部 / 细部
+剖开
+关键平面
+关键竖剖
+整体读回视图；视角按文件坐标定义，不代表地理朝向。
+向 HA 迁移：
+把窗套、玻璃退距、窗后背景、灯光及实际楼板独立描述；楼板位置从剖面核对。
+待验证：不能把灯箱复制成真实酒店平面，也不能把每条横线都转为封闭楼板。
+查看原文件、代表坐标与材料统计
+白天鹅宾馆-1.21.11.schem
+SHA-256：b616a667bb1fd8897188d85f66ed6cf8abdb4dfa74620fa49be54b65a95375a3
+局部坐标 (x,y,z)
+原始方块状态
+(41, 25, 20)
+minecraft:light_blue_stained_glass
+(41, 25, 21)
+minecraft:air
+(42, 25, 22)
+minecraft:air
+(43, 25, 22)
+minecraft:white_concrete
+材料（合并状态）
+非空气格数
+minecraft:white_concrete
+51,202
+minecraft:andesite
+30,427
+minecraft:light_gray_concrete
+27,480
+minecraft:gray_concrete
+7,135
+minecraft:smooth_quartz_slab
+6,976
+minecraft:light_blue_stained_glass
+6,534
+minecraft:gray_stained_glass
+3,334
+minecraft:water
+3,054
+minecraft:polished_andesite_slab
+2,552
+minecraft:smooth_quartz_stairs
+2,096
+minecraft:light_blue_stained_glass_pane
+1,031
+minecraft:oak_leaves
+713
+minecraft:sea_lantern
+319
+minecraft:glowstone
+318
+minecraft:moss_block
+190
+minecraft:oak_planks
+101
+minecraft:polished_andesite_stairs
+51
+minecraft:dark_prismarine_slab
+44
+minecraft:oak_slab
+41
+minecraft:oak_log
+33
+minecraft:dark_prismarine_stairs
+32
+石质窗套与檐口建筑
+珠江海关大楼
+厚墙开口和檐口转角需要自己的几何。
+04
+石英窗套、楼梯与半砖檐口构成立面厚度，开口、框线和墙面在前后位置上不同。
+内部可读到分隔墙、开口、楼板及梯段组合，因此不仅是外围壳体。
+门洞和楼梯会让不同房间的空气连通；不能用单个空气连通组件判定“没有房间”。
+整体 A
+整体 B
+近景
+上部 / 细部
+剖开
+关键平面
+关键竖剖
+整体读回视图；视角按文件坐标定义，不代表地理朝向。
+向 HA 迁移：
+提炼窗套、檐口、转角、拱形开口和平台连接样板；内部空间另行验收。
+待验证：尚未验证实际房间布局、净高、楼梯可走性，也未验收现实建筑身份及还原度。
+查看原文件、代表坐标与材料统计
+珠江海关大楼-1.21.11.schem
+SHA-256：38aca6541a8dc18fa005622962366958e27688ed0a71564adeea744563985bc8
+材料（合并状态）
+非空气格数
+minecraft:smooth_stone
+100,473
+minecraft:smooth_quartz
+95,673
+minecraft:stone_bricks
+29,792
+minecraft:quartz_slab
+6,073
+minecraft:gray_stained_glass
+5,269
+minecraft:polished_andesite
+2,830
+minecraft:quartz_stairs
+2,268
+minecraft:stone_brick_slab
+1,891
+minecraft:stone_brick_stairs
+697
+minecraft:stone_brick_wall
+671
+minecraft:black_concrete
+510
+minecraft:grass_block
+402
+minecraft:sea_lantern
+214
+minecraft:glowstone
+197
+minecraft:oak_leaves
+156
+minecraft:iron_bars
+72
+分段收分的高层塔楼
+金茂大厦
+塔身轮廓、细肋和窗后层次共同构成辨识度。
+05
+上部在多个高度逐段收分，竖向细肋与每段檐口共同变化，不能仅挤出一个等截面柱体。
+同一条采样线上：(14,10,14) 是铁栏，后面 (14,10,15) 是灰玻璃，再后面 (14,10,16) 是混凝土。细肋、围护和内侧背景是三层。
+另一窗后 (12,9,16) 位于封闭的 2×2×2 空气小腔体；这属于有深度的伪内饰示例。
+整体 A
+整体 B
+近景
+上部 / 细部
+剖开
+关键平面
+关键竖剖
+整体读回视图；视角按文件坐标定义，不代表地理朝向。
+向 HA 迁移：
+先定义各高度段的轮廓，再布置与该段匹配的窗格、竖肋、腰线和转角。
+待验证：窗后背景不能推定成真实办公室；收分参数属于这个样本，不应直接套别的塔楼。
+查看原文件、代表坐标与材料统计
+金茂大厦-1.21.11.schem
+SHA-256：04811ef8112940dcee400ec57e8e3f25a5da792533e44a7fe394b94e9eeed2bb
+局部坐标 (x,y,z)
+原始方块状态
+(14, 10, 14)
+minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]
+(14, 10, 15)
+minecraft:gray_stained_glass
+(14, 10, 16)
+minecraft:light_gray_concrete
+(12, 9, 16)
+minecraft:air
+材料（合并状态）
+非空气格数
+minecraft:smooth_stone
+34,791
+minecraft:light_gray_concrete
+19,197
+minecraft:polished_deepslate
+16,783
+minecraft:gray_stained_glass
+6,647
+minecraft:iron_bars
+1,837
+minecraft:smooth_stone_slab
+1,516
+minecraft:polished_andesite_stairs
+672
+minecraft:polished_andesite_slab
+431
+minecraft:iron_block
+123
+minecraft:sea_lantern
+117
+minecraft:glowstone
+115
+minecraft:oak_leaves
+20
+minecraft:stone_brick_wall
+8
+红白开敞铁塔
+芝公园电波塔
+玻璃片也可以是细杆，而不一定是窗。
+06
+红白骨架、观景舱和尖顶各用不同表达；整体保留大量贯通空气。
+塔尖包含 58 格红玻璃片和 41 格白玻璃片。y130–144 有四角细杆和连接，y145–154 收为单芯。
+因此，仅按材料名称把所有 glass 分类为幕墙，会把塔尖的语义分错。
+整体 A
+整体 B
+近景
+上部 / 细部
+剖开
+关键平面
+关键竖剖
+整体读回视图；视角按文件坐标定义，不代表地理朝向。
+向 HA 迁移：
+构件身份由位置、连接和形态共同决定，再选可表达其视觉粗细的方块。
+待验证：预览中的玻璃透明度为分析器近似；实际资源包和游戏光照会影响红白细杆的显色。
+查看原文件、代表坐标与材料统计
+芝公园电波塔-1.21.11.schem
+SHA-256：5cd2507b9dec6dc0e46254838308a02f79a517de57ec4c23f5090b196e25e5c0
+局部坐标 (x,y,z)
+原始方块状态
+(47, 131, 47)
+minecraft:red_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+(49, 131, 49)
+minecraft:red_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+(48, 145, 48)
+minecraft:white_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+(48, 154, 48)
+minecraft:red_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]
+材料（合并状态）
+非空气格数
+minecraft:smooth_stone
+8,260
+minecraft:red_concrete
+3,997
+minecraft:gray_stained_glass
+1,544
+minecraft:white_concrete
+1,178
+minecraft:smooth_stone_slab
+614
+minecraft:polished_andesite_stairs
+329
+minecraft:smooth_quartz_slab
+284
+minecraft:oak_leaves
+218
+minecraft:iron_bars
+208
+minecraft:dirt
+204
+minecraft:smooth_quartz_stairs
+76
+minecraft:sea_lantern
+64
+minecraft:red_stained_glass_pane
+58
+minecraft:oxeye_daisy
+52
+minecraft:white_stained_glass_pane
+41
+minecraft:poppy
+36
+minecraft:oak_log
+10
+minecraft:glowstone
+10
+砖砌站房与大跨玻璃棚
+圣乔迪中央车站
+同一建筑里可以并存两套完全不同的构件体系。
+07
+前部站房用砖墙、白窗套、坡屋顶和钟楼表达；后部三跨棚则用透明围护、拱肋和长纵杆表达。
+模型确有 1,062 个 rail：九条直轨，每条 118 格，位于 y3、z106–223。它们不是用深色方块画出的线。
+还能看到站台、长椅式组合、分隔和中央挑空；但没有完成游戏运行或通行检查。
+整体 A
+整体 B
+近景
+上部 / 细部
+剖开
+关键平面
+关键竖剖
+整体读回视图；视角按文件坐标定义，不代表地理朝向。
+向 HA 迁移：
+分别研究站房、屋顶、玻璃棚、结构肋、站台和场地，再统一标高与连接。
+待验证：轨道连续不等于车站已具备运行功能；轨道没有因此被验收为可运营线路。
+查看原文件、代表坐标与材料统计
+圣乔迪中央车站-1.21.11.schem
+SHA-256：5ee3cc123b23124562d2f7af2737b8788c9bda2b649aed719ad1e9fc321ab931
+局部坐标 (x,y,z)
+原始方块状态
+(28, 3, 106)
+minecraft:rail[shape=north_south]
+(28, 3, 223)
+minecraft:rail[shape=north_south]
+(96, 42, 90)
+minecraft:iron_bars[east=true,north=false,south=true,waterlogged=false,west=true]
+(96, 42, 223)
+minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=true]
+材料（合并状态）
+非空气格数
+minecraft:glass
+32,427
+minecraft:bricks
+30,059
+minecraft:stone_bricks
+24,803
+minecraft:black_concrete
+18,228
+minecraft:polished_andesite
+10,273
+minecraft:dark_oak_planks
+9,697
+minecraft:andesite
+8,517
+minecraft:polished_blackstone
+8,171
+minecraft:red_sandstone_stairs
+8,166
+minecraft:gray_concrete
+5,290
+minecraft:iron_bars
+4,466
+minecraft:red_terracotta
+3,365
+minecraft:smooth_stone_slab
+3,118
+minecraft:smooth_quartz
+3,108
+minecraft:dark_oak_log
+2,184
+minecraft:light_blue_stained_glass
+1,894
+minecraft:smooth_quartz_stairs
+1,584
+minecraft:polished_blackstone_slab
+1,413
+minecraft:smooth_quartz_slab
+1,224
+minecraft:rail
+1,062
+minecraft:dark_oak_stairs
+740
+minecraft:dark_oak_slab
+695
+minecraft:quartz_block
+675
+minecraft:moss_block
+604
+minecraft:brick_slab
+512
+minecraft:stone_brick_slab
+500
+minecraft:brick_stairs
+496
+minecraft:polished_blackstone_wall
+435
+minecraft:stone_brick_stairs
+408
+minecraft:azalea_leaves
+376
+minecraft:polished_blackstone_stairs
+316
+minecraft:sea_lantern
+286
+minecraft:water
+150
+minecraft:cyan_terracotta
+131
+minecraft:iron_block
+110
+minecraft:yellow_terracotta
+78
+minecraft:granite
+70
+minecraft:blue_terracotta
+48
+minecraft:smooth_stone
+45
+minecraft:flowering_azalea_leaves
+36
+minecraft:lantern
+28
+“有内饰”需要拆成三个层级
+表达层级
+可观察证据
+不能自动推定
+窗后示意 / 伪内饰
+玻璃后有浅空间、背景、隔片或灯点。白天鹅采样腔体 6 格空气；金茂采样腔体 2×2×2。
+真实客房或办公室；可进入。
+基础内部空间
+真实楼板、分隔墙、开口、楼梯与挑空。海关和车站具备这些组合。
+整栋内部功能完整；所有楼梯可走。
+功能内饰
+还需要逐处检查净高、碰撞、路径、设施与游戏光照。
+本批尚未进行这些验收。
+同栋建筑可以混用不同等级。伪内饰适用于远中景表现：把进深、背景和灯光设计好，比玻璃后面一片空白更有层次。需要可进入的部位再补完整空间。
+空气连通统计是占格检查；门洞和楼梯可连通不同房间，不能以“一个连通组件”推断没有房间。半砖、栏杆等按非空气占格会造成额外误差；白天鹅和金茂上述采样腔体另外检查了完整块边界。
+如何融入 HA：先补表达，再做局部验证
+一个实际代码瓶颈：
+所核查的
+HAFusion-0.1/ha03/architect/palette.py::check_materials
+只接受
+FULL_CUBES
+白名单，并拒绝带属性的状态。因此通用入口无法直接使用样本中的半砖、楼梯、铁栏和玻璃片。BuildKit 与广州塔案例中虽有部分实现，但不等于已经进入通用流程。这是一个明确限制，不是旧成果质量差的唯一原因。
+下一步
+最小改动方向
+验收条件
+1. 方块状态与形状
+复用既有代码，明确支持半砖、楼梯、铁栏/玻璃片的方向、连接和几何；与 NBT 写出、读回保持一致。
+旋转、转角、上下半部、相邻连接及缝隙的局部样板通过；导入游戏后再验收碰撞和显示。
+2. 分层立面与窗后示意
+分别参数化外框、玻璃退距、层间带、背景和灯点，保留真实楼板与开洞。
+从最终文件读回正面、斜视和剖面；层次没有粘成壳，伪内饰与功能内饰标记清楚。
+3. 幕墙与底面重新练习
+回到微信总部，区分幕墙节点、平台密格、桥底梁肋及真正室内吊顶。
+每个样板对应照片区域与实际参数消费者；仰视、近景和剖面分别验收。七样本不能代替这一步。
+4. 跨建筑验证
+在未用于制定规则的新建筑上复用构件方法，重新研究该建筑的证据。
+不继承广州塔或本批样本尺寸；保留未参与参数选择的视角作验证，明确未通过项。
+本轮未修改主引擎。
+不能只解除材料白名单，让预览继续把所有块当立方体；上述修改需要在确定范围后另行实现。
+两条图片研究路线的规则稿
+原 Skill：外部建筑 AI 六图资料
+gafacraft-building-reference
+保留原六图默认、校验、资料包与十节报告机制，服务“建筑 AI 那边”的输入需求。
+新 Skill：HA 高保真建筑研究
+gafacraft-ha-research
+研究图片数量不限；按构件缺口继续补图，将图片区域、观察、构件参数和实际执行对应起来。本批 schematic 的表达经验也写入研究规则。
+Architect 编排入口的本地规则稿也相应区分了两条路线。这是操作规则与案例知识的更新；不代表神经网络训练完成，也不代表通用幕墙/吊顶生成能力已通过验证。
+保存状态：
+三份 Skill 的本地校验通过，但同步服务返回 HTTP 422，未确认保存或安装成功。现有已安装版本不能视为已经更新。研究报告本身可独立查看；规则稿及恢复副本已在本地保留。
+可回顾的证据
+原文件哈希、完整材料/状态计数、代表坐标、预览相机和分析代码均保留。分析源码包内不含原 schematic，也不含 Skill 安装文件。
+下载分析代码与 JSON 证据
+已完成：七文件解析、材料数量交叉核对、代表构件与空气腔体检查、预览来源哈希核对。
+交叉计数采用分别编写的统计代码，但共享已有 NBT 读取工具，不能称为两个独立解析器认证。
+未完成：Minecraft 导入与行走、真实建筑照片精度验收、原网站算法复现。
+七份样本已经参与规则提炼，后续不能再把它们称作未见过的独立测试集。
+GAFAcraft / HA · 用户提供模型的只读构造研究 · 2026-10-23
+原始大小
+关闭 ×

@@ -1,0 +1,709 @@
+{
+  "building_name": "广州塔",
+  "real_dimensions": {
+    "width": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    },
+    "depth": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    },
+    "height": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    }
+  },
+  "selected_s": null,
+  "evidence": {
+    "packet_id": "canton-tower-280-forward-reference",
+    "packet_schema_version": "1.1",
+    "packet_sha256": "aefe5331aa3681959b650b8e3adaa809670f023ee2796db3bb15313fb27fb593",
+    "sources": [
+      {
+        "source_id": "src-architect",
+        "title": null,
+        "url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "publisher": null,
+        "type": "other",
+        "accessed_at": null,
+        "legacy_source_key": "architect",
+        "metadata_basis": "原 case_parameters.source_urls 提供的链接；原网页标题和访问日期未知。",
+        "reported_credits": [
+          "Courtesy of Information Based Architecture; article 2010"
+        ]
+      },
+      {
+        "source_id": "src-owner",
+        "title": null,
+        "url": "https://www.gzci.net/groupbusiness/info.aspx?itemid=75&lcid=7",
+        "publisher": null,
+        "type": "other",
+        "accessed_at": null,
+        "legacy_source_key": "owner",
+        "metadata_basis": "原 case_parameters.source_urls 提供的链接；原网页标题和访问日期未知。",
+        "reported_credits": [
+          "广州城投项目页；2023-04-21"
+        ]
+      },
+      {
+        "source_id": "src-geometry-interview",
+        "title": null,
+        "url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+        "publisher": null,
+        "type": "other",
+        "accessed_at": null,
+        "legacy_source_key": "geometry_interview",
+        "metadata_basis": "原 case_parameters.source_urls 提供的链接；原网页标题和访问日期未知。",
+        "reported_credits": [
+          "广州网信网转载大洋网，2022-03-29；摄影署名见原文"
+        ]
+      },
+      {
+        "source_id": "src-structure-count",
+        "title": null,
+        "url": "https://www.eguangzhou.gov.cn/exploreguangzhouworldroutes/content/post_31124.html",
+        "publisher": null,
+        "type": "other",
+        "accessed_at": null,
+        "legacy_source_key": "structure_count",
+        "metadata_basis": "原 case_parameters.source_urls 提供的链接；原网页标题和访问日期未知。",
+        "reported_credits": []
+      },
+      {
+        "source_id": "src-platform-height",
+        "title": null,
+        "url": "https://www.gzass.gd.cn/whzc/wenhuaziyuan/wenhuajingguan/127.html",
+        "publisher": null,
+        "type": "other",
+        "accessed_at": null,
+        "legacy_source_key": "platform_height",
+        "metadata_basis": "原 case_parameters.source_urls 提供的链接；原网页标题和访问日期未知。",
+        "reported_credits": []
+      },
+      {
+        "source_id": "src-capsules",
+        "title": null,
+        "url": "https://www.zc.gov.cn/gk/rdhy/content/post_3848242.html",
+        "publisher": null,
+        "type": "other",
+        "accessed_at": null,
+        "legacy_source_key": "capsules",
+        "metadata_basis": "原 case_parameters.source_urls 提供的链接；原网页标题和访问日期未知。",
+        "reported_credits": []
+      }
+    ],
+    "facts": [],
+    "images": [
+      {
+        "image_id": "R01",
+        "source_ids": [
+          "src-architect"
+        ],
+        "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "direct_image_url": "https://images.adsttc.com/media/images/5012/fc2b/28ba/0d06/5800/09fd/large_jpg/stringio.jpg?1414211792",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "整体重复视角或本次外观试验不涉及的室内细节；保留在候选池",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/0",
+        "reported_credit": "Courtesy of Information Based Architecture; article 2010"
+      },
+      {
+        "image_id": "R02",
+        "source_ids": [
+          "src-architect"
+        ],
+        "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "direct_image_url": "https://images.adsttc.com/media/images/5012/fc2f/28ba/0d06/5800/09fe/medium_jpg/stringio.jpg?1414211795",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [
+          "component-base"
+        ],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "原选图用途：低视角 / 下部结构",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/1",
+        "reported_credit": "Courtesy of Information Based Architecture; article 2010"
+      },
+      {
+        "image_id": "R03",
+        "source_ids": [
+          "src-architect"
+        ],
+        "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "direct_image_url": "https://images.adsttc.com/media/images/5012/fc33/28ba/0d06/5800/09ff/medium_jpg/stringio.jpg?1414211798",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "整体重复视角或本次外观试验不涉及的室内细节；保留在候选池",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/2",
+        "reported_credit": "Courtesy of Information Based Architecture; article 2010"
+      },
+      {
+        "image_id": "R04",
+        "source_ids": [
+          "src-architect"
+        ],
+        "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "direct_image_url": "https://images.adsttc.com/media/images/5012/fc36/28ba/0d06/5800/0a00/medium_jpg/stringio.jpg?1414211801",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "整体重复视角或本次外观试验不涉及的室内细节；保留在候选池",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/3",
+        "reported_credit": "Courtesy of Information Based Architecture; article 2010"
+      },
+      {
+        "image_id": "R05",
+        "source_ids": [
+          "src-architect"
+        ],
+        "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "direct_image_url": "https://images.adsttc.com/media/images/5012/fc39/28ba/0d06/5800/0a01/medium_jpg/stringio.jpg?1414211804",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "整体重复视角或本次外观试验不涉及的室内细节；保留在候选池",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/4",
+        "reported_credit": "Courtesy of Information Based Architecture; article 2010"
+      },
+      {
+        "image_id": "R06",
+        "source_ids": [
+          "src-architect"
+        ],
+        "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "direct_image_url": "https://images.adsttc.com/media/images/5012/fc3d/28ba/0d06/5800/0a02/medium_jpg/stringio.jpg?1414211807",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [
+          "component-lattice"
+        ],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "原选图用途：钢构近景 / 粗细层级",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/5",
+        "reported_credit": "Courtesy of Information Based Architecture; article 2010"
+      },
+      {
+        "image_id": "R07",
+        "source_ids": [
+          "src-architect"
+        ],
+        "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "direct_image_url": "https://images.adsttc.com/media/images/5012/fc40/28ba/0d06/5800/0a03/medium_jpg/stringio.jpg?1414211809",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "整体重复视角或本次外观试验不涉及的室内细节；保留在候选池",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/6",
+        "reported_credit": "Courtesy of Information Based Architecture; article 2010"
+      },
+      {
+        "image_id": "R08",
+        "source_ids": [
+          "src-architect"
+        ],
+        "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+        "direct_image_url": "https://images.adsttc.com/media/images/5012/fc43/28ba/0d06/5800/0a04/medium_jpg/stringio.jpg?1414211812",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [
+          "component-inner"
+        ],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "原选图用途：格构内部 / 穿透性",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/7",
+        "reported_credit": "Courtesy of Information Based Architecture; article 2010"
+      },
+      {
+        "image_id": "R09",
+        "source_ids": [
+          "src-geometry-interview"
+        ],
+        "page_url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+        "direct_image_url": "https://cms.gzwxb.gov.cn/netcom/ueditor-file///image/20220329/1648523673070037741.jpg",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [
+          "component-crown"
+        ],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "原选图用途：塔冠日景 / 天线基座",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/8",
+        "reported_credit": "广州网信网转载大洋网，2022-03-29；摄影署名见原文"
+      },
+      {
+        "image_id": "R10",
+        "source_ids": [
+          "src-geometry-interview"
+        ],
+        "page_url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+        "direct_image_url": "https://cms.gzwxb.gov.cn/netcom/ueditor-file///image/20220329/1648523673484011704.jpg",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "整体重复视角或本次外观试验不涉及的室内细节；保留在候选池",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/9",
+        "reported_credit": "广州网信网转载大洋网，2022-03-29；摄影署名见原文"
+      },
+      {
+        "image_id": "R11",
+        "source_ids": [
+          "src-geometry-interview"
+        ],
+        "page_url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+        "direct_image_url": "https://cms.gzwxb.gov.cn/netcom/ueditor-file///image/20220329/1648523673763021664.jpg",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [
+          "component-waist"
+        ],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "原选图用途：俯视 / 腰部到塔冠",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/10",
+        "reported_credit": "广州网信网转载大洋网，2022-03-29；摄影署名见原文"
+      },
+      {
+        "image_id": "R12",
+        "source_ids": [
+          "src-geometry-interview"
+        ],
+        "page_url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+        "direct_image_url": "https://cms.gzwxb.gov.cn/netcom/ueditor-file///image/20220329/1648523673847066541.jpg",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [
+          "component-capsules-track"
+        ],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "原选图用途：观景舱 / 环轨细节",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/11",
+        "reported_credit": "广州网信网转载大洋网，2022-03-29；摄影署名见原文"
+      },
+      {
+        "image_id": "R13",
+        "source_ids": [
+          "src-owner"
+        ],
+        "page_url": "https://www.gzci.net/groupbusiness/info.aspx?itemid=75&lcid=7",
+        "direct_image_url": "https://www.gzci.net/gzscsj202204279851/uploadfiles/image/gz1.jpg",
+        "creator": null,
+        "media_type": "unknown",
+        "built_state": "unknown",
+        "version": null,
+        "view": null,
+        "orientation": null,
+        "covers": [],
+        "component_ids": [
+          "component-outline"
+        ],
+        "verification_state": "discovered",
+        "checked_at": null,
+        "building_match_confirmed": null,
+        "actual_pixels": null,
+        "quality": {
+          "eligible": null,
+          "assessment": null,
+          "limitations": [
+            "本次仅导入既有元数据；没有网页访问、图片字节核对或视觉核验。",
+            "原下载状态、像素、哈希、用途和回查结论完整保存在 reference_box.json；不能用作新的核验操作记录。"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "原选图用途：整体日景 / 轮廓",
+        "legacy_record_pointer": "reference_box.json#/original_inputs/evidence_pool.json/12",
+        "reported_credit": "广州城投项目页；2023-04-21"
+      }
+    ],
+    "selected_image_ids": [],
+    "upstream_component_ids": [
+      "component-tower",
+      "component-base",
+      "component-lattice",
+      "component-inner",
+      "component-crown",
+      "component-waist",
+      "component-capsules-track",
+      "component-outline"
+    ],
+    "notes": [
+      "Original packet source/fact/image IDs and epistemic states are retained. Geometry requires a separately reviewed construction overlay."
+    ]
+  },
+  "upstream_validation": {
+    "status": "PASS",
+    "errors": [],
+    "gaps": [
+      "src-architect.title: source page title not inspected",
+      "src-architect.accessed_at: source access date unknown; discovery only",
+      "src-owner.title: source page title not inspected",
+      "src-owner.accessed_at: source access date unknown; discovery only",
+      "src-geometry-interview.title: source page title not inspected",
+      "src-geometry-interview.accessed_at: source access date unknown; discovery only",
+      "src-structure-count.title: source page title not inspected",
+      "src-structure-count.accessed_at: source access date unknown; discovery only",
+      "src-platform-height.title: source page title not inspected",
+      "src-platform-height.accessed_at: source access date unknown; discovery only",
+      "src-capsules.title: source page title not inspected",
+      "src-capsules.accessed_at: source access date unknown; discovery only",
+      "R01: full image unverified or inaccessible",
+      "R02: full image unverified or inaccessible",
+      "R03: full image unverified or inaccessible",
+      "R04: full image unverified or inaccessible",
+      "R05: full image unverified or inaccessible",
+      "R06: full image unverified or inaccessible",
+      "R07: full image unverified or inaccessible",
+      "R08: full image unverified or inaccessible",
+      "R09: full image unverified or inaccessible",
+      "R10: full image unverified or inaccessible",
+      "R11: full image unverified or inaccessible",
+      "R12: full image unverified or inaccessible",
+      "R13: full image unverified or inaccessible",
+      "coverage: front/component-tower: 补查能够对应项目局部正面、从塔脚连续覆盖至尖顶的照片；现有 front 回查镜头不能证明照片朝向。",
+      "coverage: back/component-tower: 补查能够对应同一局部坐标系反面的完整主体照片；目前没有可确认的背面标注。",
+      "coverage: left/component-tower: 补查可确认项目局部左侧的完整主体照片，并记录定向依据；不能由透视猜地理方位。",
+      "coverage: right/component-tower: 补查可确认项目局部右侧的完整主体照片；旧 right 是模型回查视图，不计入方向覆盖。",
+      "coverage: top/component-crown: 补查塔冠、平台、天线基座的可辨俯视或正式几何资料；既有俯视用途文本不足以确认为 top。",
+      "coverage: oblique/component-lattice: 补查能够说明格构内外关系及主柱、环梁、斜撑粗细的斜向照片；先确认照片本身，不把 iso45 模型镜头当照片方向。",
+      "coverage: interior/component-inner: 如后续确需内部回查，补查内核与外壳层次的实际照片；内部功能、楼梯与节点不从现有文字补造。",
+      "selection.core: no core images; do not claim complete reconstruction",
+      "same_version: not confirmed",
+      "clean_subject: not confirmed",
+      "orientation_aligned: not confirmed"
+    ],
+    "coverage": [
+      {
+        "face": "front",
+        "component_id": "component-tower",
+        "image_ids": [],
+        "status": "missing"
+      },
+      {
+        "face": "back",
+        "component_id": "component-tower",
+        "image_ids": [],
+        "status": "missing"
+      },
+      {
+        "face": "left",
+        "component_id": "component-tower",
+        "image_ids": [],
+        "status": "missing"
+      },
+      {
+        "face": "right",
+        "component_id": "component-tower",
+        "image_ids": [],
+        "status": "missing"
+      },
+      {
+        "face": "top",
+        "component_id": "component-crown",
+        "image_ids": [],
+        "status": "missing"
+      },
+      {
+        "face": "oblique",
+        "component_id": "component-lattice",
+        "image_ids": [],
+        "status": "missing"
+      },
+      {
+        "face": "interior",
+        "component_id": "component-inner",
+        "image_ids": [],
+        "status": "missing"
+      }
+    ],
+    "limits": "Structural/provenance/consistency validation only; not independent web, image or generated-building verification."
+  },
+  "unresolved": [
+    "gap-source-metadata: 输入提供来源网址、credit 和来源用途键，但没有原网页实际标题、实际访问日期或访问日志。",
+    "gap-image-gate: downloaded、pixels、sha256 是既有记录，不等于大图已查看或质量合格；本次未打开图片、读取图片字节或访问原网页。",
+    "gap-direction: review_view 的 front/right/iso45 等是既有模型回查镜头；没有照片方向到项目局部轴或地理北向的对应证据。",
+    "gap-observation-labels: 已有文字包含局部遮挡、内外层等线索，但没有本次看图操作；不能将导入等同重新观察。",
+    "gap-review-model: 输入缺少同一 build_id 的预览、相机可比性与实际构件登记。中文 review_status 也不能无损等价为 pass/needs_revision/unverifiable/pending。",
+    "gap-license: 没有明确照片许可或训练授权依据；credit 不是许可。",
+    "gap-component-ids: column_*、ring_*、brace_*、crown_*、capsule_* 和中文 component 描述不是可解析的实际模型构件清单。",
+    "gap-scale: 280 格是旧需求目标；600 m、450 m、150 m、控制椭圆及其比例属于既有参数，没有逐项来源核验或已确认世界余量。",
+    "gap-duplicates: 原记录哈希互不相同只说明所报哈希未重复；没有核对图片字节，也没有进行裁剪/近似图视觉去重。",
+    "gap-version: 文章年份与转发/项目页日期不能替代照片拍摄日期或同一建成版本证明。",
+    "gap-input-format: 三份输入是候选数组、选图数组和案例参数对象，不是 schema_version=1.0 的 packet。Skill migrate_packet.py 只支持 v1.0 packet 到 v1.1。"
+  ],
+  "mapping": [
+    {
+      "from": "scale.building_dimensions.width",
+      "to": "real_dimensions.width"
+    },
+    {
+      "from": "scale.building_dimensions.length",
+      "to": "real_dimensions.depth"
+    },
+    {
+      "from": "scale.building_dimensions.overall_height",
+      "to": "real_dimensions.height"
+    }
+  ]
+}

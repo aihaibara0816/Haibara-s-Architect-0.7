@@ -1,0 +1,110 @@
+{
+  "run": "V2_r05",
+  "checks": [
+    {
+      "test": "V1 immutable NBT",
+      "pass": true,
+      "evidence": "SHA-256 against delivered V1"
+    },
+    {
+      "test": "frame and total study height unchanged",
+      "pass": true,
+      "evidence": "fixed comparison envelope; ground=4, spire=137"
+    },
+    {
+      "test": "front entry remains open",
+      "pass": true,
+      "evidence": "5×4 clear front doorway"
+    },
+    {
+      "test": "side entry remains open",
+      "pass": true,
+      "evidence": "3×4 side doorway in middle arched bay"
+    },
+    {
+      "test": "side stair top tread survives site clearance",
+      "pass": true,
+      "evidence": "landscape clearance must run before stair generation"
+    },
+    {
+      "test": "side colonnade is genuinely hollow",
+      "pass": true,
+      "evidence": "probe within colonnade, between columns"
+    },
+    {
+      "test": "rear court notch exists",
+      "pass": true,
+      "evidence": "was inside monolithic V1 podium"
+    },
+    {
+      "test": "tower rear reentrant exists",
+      "pass": true,
+      "evidence": "vertical groove between central and outer masses"
+    },
+    {
+      "test": "upper long tail removed",
+      "pass": true,
+      "evidence": "V1 central prism extended to z=28"
+    },
+    {
+      "test": "upper band wraps at 24,60",
+      "pass": true,
+      "evidence": "read actual NBT at side/rear/front band"
+    },
+    {
+      "test": "upper band wraps at 102,60",
+      "pass": true,
+      "evidence": "read actual NBT at side/rear/front band"
+    },
+    {
+      "test": "upper band wraps at 30,44",
+      "pass": true,
+      "evidence": "read actual NBT at side/rear/front band"
+    },
+    {
+      "test": "upper band wraps at 96,74",
+      "pass": true,
+      "evidence": "read actual NBT at side/rear/front band"
+    },
+    {
+      "test": "registered tower windows contain actual recessed glass",
+      "pass": true,
+      "evidence": {
+        "exceptions": []
+      }
+    },
+    {
+      "test": "dark warm cool rooms all present",
+      "pass": true,
+      "evidence": {
+        "sea_lantern": 174,
+        "off": 334,
+        "glowstone": 184
+      }
+    },
+    {
+      "test": "room lamps match delivered coordinates/materials",
+      "pass": true,
+      "evidence": "every recorded room light"
+    },
+    {
+      "test": "all exported states pass existing state validation",
+      "pass": true,
+      "evidence": 52
+    },
+    {
+      "test": "deterministic regenerated geometry equals exported NBT",
+      "pass": true,
+      "evidence": {
+        "nonair": 170673
+      }
+    }
+  ],
+  "passed": 18,
+  "total": 18,
+  "all_passed": true,
+  "shared_tests": "23 existing HAF tests passed on 2026-10-24",
+  "visual_acceptance": "pending user review",
+  "minecraft_import": "not run",
+  "height_and_bearing": "not surveyed"
+}

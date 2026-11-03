@@ -1,0 +1,61 @@
+{
+  "source_run": "V4_r02",
+  "source_nbt_sha256": "d6ba225adeb6801fb23637d4475d423773b4c9535edecc2480b555b97a47d9a4",
+  "nbt_unchanged": true,
+  "projection": "exact vertical orthographic, screen up = -Z; geographic north uncalibrated",
+  "display": "No cast shadows or distance fog; inherited schematic material palette. Right panel hides triangles above scene Y=32 (24 blocks above plaza grade), no cut cap added. Not a game screenshot or revised geometry.",
+  "views": [
+    {
+      "name": "full",
+      "cut_y": null,
+      "triangles": null,
+      "camera": {
+        "width": 1600,
+        "height": 2640,
+        "spanX": 152,
+        "spanZ": 250.8,
+        "eye": [
+          64,
+          500,
+          116
+        ],
+        "target": [
+          64,
+          0,
+          116
+        ],
+        "concept": true
+      },
+      "renderer": "WebKit WebGL",
+      "geometry_sha256": "9977d244821bb6a17f0fa81597268b872b33b715e6a6f8511e310e7eccf59069"
+    },
+    {
+      "name": "base",
+      "cut_y": 32,
+      "triangles": {
+        "opaque": 214416,
+        "glass": 16896,
+        "maximum_y": 32
+      },
+      "camera": {
+        "width": 1600,
+        "height": 2640,
+        "spanX": 152,
+        "spanZ": 250.8,
+        "eye": [
+          64,
+          500,
+          116
+        ],
+        "target": [
+          64,
+          0,
+          116
+        ],
+        "concept": true
+      },
+      "renderer": "WebKit WebGL",
+      "geometry_sha256": "9977d244821bb6a17f0fa81597268b872b33b715e6a6f8511e310e7eccf59069"
+    }
+  ]
+}

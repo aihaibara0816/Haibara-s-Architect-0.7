@@ -1,0 +1,25 @@
+{
+  "target_coverage": 0.7,
+  "actual_lit": 84,
+  "total_households": 120,
+  "preserved_previously_lit": 41,
+  "per_tower": {
+    "A1": 7,
+    "A2": 7,
+    "A3": 7,
+    "B1": 21,
+    "B2": 21,
+    "B3": 21
+  },
+  "lamp_materials": {
+    "end_rod": 52,
+    "glowstone": 316,
+    "sea_lantern": 259
+  },
+  "private_lamp_installations": {
+    "flush": 500,
+    "ceiling_rod": 46
+  },
+  "scope": "Coverage counts households, not blocks or window area. Every declared room in selected homes has one main fixture.",
+  "game_light_propagation": "pending"
+}

@@ -1,0 +1,47 @@
+{
+  "engine": "HAF 0.3",
+  "reused": [
+    "Builder",
+    "SiteScene",
+    "save_run",
+    "state connection",
+    "NBT serializer/readback",
+    "state-box mesh",
+    "fixed view EGL renderer"
+  ],
+  "case_specific": [
+    "frozen cell/opening consumer",
+    "hidden returns",
+    "stair core detail",
+    "interior layout",
+    "roof interfaces",
+    "authored public/rest/work zones with floor finishes",
+    "visual column and beam layout",
+    "atomic furniture groups preserving circulation",
+    "independent before/after NBT diff and room access",
+    "fixed ambient/landing/entry/landscape lighting",
+    "independent old/new lightfield sampling and garden access check",
+    "two-block floor-ceiling with stair/bridge exceptions",
+    "all 39 functional spaces have emitted lights",
+    "complete landscape paths, bamboo, trees, pergola, contained pond and benches",
+    "full-width landscape path and exact ceiling section verification"
+  ],
+  "small_palette_extension": [
+    "minecraft:orange_concrete full cube and display color",
+    "minecraft:bamboo native age/leaves/stage with official stem dimensions and simplified preview foliage"
+  ],
+  "pending": [
+    "real game",
+    "structural analysis",
+    "functional elevators",
+    "complete fitted interior"
+  ],
+  "not_executed": [
+    "photo to 3D reconstruction",
+    "AI image generation",
+    "model training",
+    "external BuildingSpec agent"
+  ],
+  "revision": "V0.3.3 flush ceiling and full forecourt R16",
+  "reference_access": "two YouTube watch-page metadata reads; video frames unavailable"
+}

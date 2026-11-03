@@ -1,0 +1,84 @@
+{
+  "source_nbt_sha256": "d4d840b1a92d1425a57ff70058a954543aa303eef466d54d0d14979d43ccee5d",
+  "size_xyz": [
+    126,
+    148,
+    116
+  ],
+  "schematic": {
+    "file": "Guangzhou_Customs_HAF_V2.schem",
+    "bytes": 34002,
+    "sha256": "854afeb4e93b263652b496d9426b04e74a0a65791e43bbc70ba6691263ed73e1",
+    "format": "Sponge schematic v3",
+    "contains_explicit_air": true,
+    "nonair_readback_exact": true,
+    "non_air_blocks": 171663
+  },
+  "modules": [
+    {
+      "file": "modules/partaa.nbt",
+      "offset_xyz": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 184394,
+      "sha256": "9fadb83dc5d25b409420e00fd95bc37afc2e9f4e114d288601c5cba1f58bf2a0",
+      "listed_blocks": 64867,
+      "non_air_blocks": 64867,
+      "size_xyz": [
+        63,
+        74,
+        116
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "e8724624cd97c59fba239104c9ecd6d5ad4c1f81ad3f061b2cc2a058fa974a32",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partab.nbt",
+      "offset_xyz": [
+        63,
+        0,
+        0
+      ],
+      "bytes": 192048,
+      "sha256": "f8f45110c4d2bafe1c7bbcd465e8afa324d2e58e639635279c8919d786821b1c",
+      "listed_blocks": 66588,
+      "non_air_blocks": 66588,
+      "size_xyz": [
+        63,
+        74,
+        116
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "bf76126df3e841a7fbef143dc577fc1414fbbf6314dada0dea6459dd301982d5",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partb.nbt",
+      "offset_xyz": [
+        0,
+        74,
+        0
+      ],
+      "bytes": 114394,
+      "sha256": "7e438481d69601112908f43f2f901bfe832cf8e2a0061ca9f502cd501e6e40dc",
+      "listed_blocks": 40208,
+      "non_air_blocks": 40208,
+      "size_xyz": [
+        126,
+        74,
+        116
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "a50575f011f067ddc106b96aef1562279a8f9871cb6f7ec91cafb489bec2e417",
+      "data_version": 3955
+    }
+  ],
+  "module_count": 3,
+  "module_union_exact": true,
+  "module_max_bytes": 192048,
+  "coordinate_convention": "Local X/Y/Z; module minimum corner = project origin + offset_xyz; no rotation. Geographic orientation is case-specific; see case parameters.",
+  "tested": "Offline readback and exact coordinate/state union only; game import pending"
+}

@@ -1,0 +1,161 @@
+{
+  "run": "V1_r02",
+  "source_nbt_sha256": "fda5fa777d90c565b2f6c4d12fd0f8a240f23f09e4eb4a7941391b59928d1625",
+  "checks": [
+    {
+      "check": "declared_bounds",
+      "pass": true,
+      "detail": "all final block coordinates"
+    },
+    {
+      "check": "owners_complete",
+      "pass": true,
+      "detail": "every non-air block has a component owner"
+    },
+    {
+      "check": "registered_states",
+      "pass": true,
+      "detail": 41
+    },
+    {
+      "check": "eight_faced_clerestory",
+      "pass": true,
+      "detail": "8 separately owned faces"
+    },
+    {
+      "check": "nine_roof_components",
+      "pass": true,
+      "detail": [
+        "front_lower",
+        "back_lower",
+        "east_lower",
+        "west_lower",
+        "front_upper",
+        "back_upper",
+        "east_upper",
+        "west_upper",
+        "central"
+      ]
+    },
+    {
+      "check": "central_auditorium_clear_span",
+      "pass": true,
+      "detail": {
+        "nonair_in_clear_volume": 0,
+        "floor_seating_and_ceiling_excluded": true
+      }
+    },
+    {
+      "check": "auditorium_stage_and_two_galleries",
+      "pass": true,
+      "detail": "source ref05"
+    },
+    {
+      "check": "rear_not_open_shell",
+      "pass": true,
+      "detail": "enclosed rear wall with door and window openings"
+    },
+    {
+      "check": "front_door_clear",
+      "pass": true,
+      "detail": "central entrance remains open"
+    },
+    {
+      "check": "thin_block_detail",
+      "pass": true,
+      "detail": "slabs, stairs, panes preserved in NBT"
+    },
+    {
+      "check": "lighting_zone_entry",
+      "pass": true,
+      "detail": {
+        "lamps": 51,
+        "air_or_glass_adjacent": 51,
+        "note": "fixture exposure only, not game lux or photometry"
+      }
+    },
+    {
+      "check": "lighting_zone_central",
+      "pass": true,
+      "detail": {
+        "lamps": 56,
+        "air_or_glass_adjacent": 56,
+        "note": "fixture exposure only, not game lux or photometry"
+      }
+    },
+    {
+      "check": "lighting_zone_roof",
+      "pass": true,
+      "detail": {
+        "lamps": 574,
+        "air_or_glass_adjacent": 573,
+        "note": "fixture exposure only, not game lux or photometry"
+      }
+    },
+    {
+      "check": "lighting_zone_interior",
+      "pass": true,
+      "detail": {
+        "lamps": 283,
+        "air_or_glass_adjacent": 283,
+        "note": "fixture exposure only, not game lux or photometry"
+      }
+    },
+    {
+      "check": "lighting_zone_site",
+      "pass": true,
+      "detail": {
+        "lamps": 18,
+        "air_or_glass_adjacent": 18,
+        "note": "fixture exposure only, not game lux or photometry"
+      }
+    },
+    {
+      "check": "both_warm_cool_materials",
+      "pass": true,
+      "detail": "material appearance; vanilla has no RGB tinted lighting"
+    },
+    {
+      "check": "height_envelope_97",
+      "pass": true,
+      "detail": "top 100, ground 3"
+    },
+    {
+      "check": "immutable_source_snapshot",
+      "pass": true,
+      "detail": "snapshot matches run manifest"
+    }
+  ],
+  "passed": 18,
+  "total": 18,
+  "game_status": "pending",
+  "aesthetic_status": "awaiting user review",
+  "light_counts": {
+    "site": 18,
+    "entry": 51,
+    "rear": 12,
+    "west": 10,
+    "east": 10,
+    "front": 11,
+    "interior": 283,
+    "roof": 574,
+    "central": 56
+  },
+  "lamp_exposure_counts": {
+    "site": 18,
+    "entry": 51,
+    "rear": 12,
+    "west": 10,
+    "east": 10,
+    "front": 11,
+    "interior": 283,
+    "roof": 573,
+    "central": 56
+  },
+  "placement": {
+    "world_assumption": "Java modern Overworld [-64,320)",
+    "origin_y_min": -64,
+    "origin_y_max": 212,
+    "instruction": "use a clear site; sparse NBT does not erase existing blocks; Sponge explicit-air copy can"
+  }
+}

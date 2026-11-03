@@ -1,0 +1,2890 @@
+{
+  "buildings": [
+    {
+      "id": "H01",
+      "name": "庭木之家",
+      "use": "home",
+      "x": 16,
+      "z": 42,
+      "w": 18,
+      "d": 16,
+      "g": 4,
+      "face": "S",
+      "floors": 2,
+      "roof": "gable",
+      "wall": "white_concrete",
+      "roof_color": "gray",
+      "age": 28,
+      "local_width": 18,
+      "local_depth": 16,
+      "door_u": 9,
+      "maintenance": 0.86,
+      "material_seed": 94665711,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "u"
+    },
+    {
+      "id": "H02",
+      "name": "坡上赤瓦宅",
+      "use": "home",
+      "x": 42,
+      "z": 13,
+      "w": 16,
+      "d": 19,
+      "g": 6,
+      "face": "E",
+      "floors": 2,
+      "roof": "gable",
+      "wall": "smooth_sandstone",
+      "roof_color": "red",
+      "age": 39,
+      "local_width": 19,
+      "local_depth": 16,
+      "door_u": 9,
+      "maintenance": 0.86,
+      "material_seed": 63515130,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "v"
+    },
+    {
+      "id": "H03",
+      "name": "蓝窗之家",
+      "use": "home",
+      "x": 85,
+      "z": 13,
+      "w": 19,
+      "d": 17,
+      "g": 7,
+      "face": "W",
+      "floors": 2,
+      "roof": "gable",
+      "wall": "white_concrete",
+      "roof_color": "gray",
+      "age": 12,
+      "local_width": 17,
+      "local_depth": 19,
+      "door_u": 8,
+      "maintenance": 0.86,
+      "material_seed": 70011402,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "u"
+    },
+    {
+      "id": "H04",
+      "name": "旧木庭院宅",
+      "use": "home",
+      "x": 119,
+      "z": 19,
+      "w": 20,
+      "d": 18,
+      "g": 6,
+      "face": "S",
+      "floors": 2,
+      "roof": "hip",
+      "wall": "smooth_sandstone",
+      "roof_color": "gray",
+      "age": 46,
+      "local_width": 20,
+      "local_depth": 18,
+      "door_u": 10,
+      "maintenance": 0.86,
+      "material_seed": 49364615,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "u"
+    },
+    {
+      "id": "H05",
+      "name": "街尾青瓦宅",
+      "use": "home",
+      "x": 139,
+      "z": 96,
+      "w": 18,
+      "d": 20,
+      "g": 4,
+      "face": "W",
+      "floors": 2,
+      "roof": "gable",
+      "wall": "white_concrete",
+      "roof_color": "blue",
+      "age": 16,
+      "local_width": 20,
+      "local_depth": 18,
+      "door_u": 10,
+      "maintenance": 0.86,
+      "material_seed": 15543027,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "v"
+    },
+    {
+      "id": "H06",
+      "name": "南侧阳台宅",
+      "use": "home",
+      "x": 125,
+      "z": 132,
+      "w": 19,
+      "d": 17,
+      "g": 4,
+      "face": "N",
+      "floors": 2,
+      "roof": "gable",
+      "wall": "light_gray_concrete",
+      "roof_color": "gray",
+      "age": 22,
+      "local_width": 19,
+      "local_depth": 17,
+      "door_u": 9,
+      "maintenance": 0.86,
+      "material_seed": 86153538,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "u"
+    },
+    {
+      "id": "H07",
+      "name": "转角小宅",
+      "use": "home",
+      "x": 77,
+      "z": 121,
+      "w": 17,
+      "d": 21,
+      "g": 4,
+      "face": "E",
+      "floors": 2,
+      "roof": "gable",
+      "wall": "white_concrete",
+      "roof_color": "red",
+      "age": 9,
+      "local_width": 21,
+      "local_depth": 17,
+      "door_u": 10,
+      "maintenance": 0.86,
+      "material_seed": 18347866,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "v"
+    },
+    {
+      "id": "S01",
+      "name": "日和杂货",
+      "use": "grocer",
+      "x": 25,
+      "z": 100,
+      "w": 21,
+      "d": 16,
+      "g": 4,
+      "face": "N",
+      "floors": 2,
+      "roof": "gable",
+      "wall": "smooth_sandstone",
+      "roof_color": "gray",
+      "age": 37,
+      "local_width": 21,
+      "local_depth": 16,
+      "door_u": 10,
+      "maintenance": 0.86,
+      "material_seed": 84232780,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "u"
+    },
+    {
+      "id": "S02",
+      "name": "小麦面包咖啡",
+      "use": "cafe",
+      "x": 64,
+      "z": 97,
+      "w": 19,
+      "d": 16,
+      "g": 4,
+      "face": "N",
+      "floors": 2,
+      "roof": "gable",
+      "wall": "white_concrete",
+      "roof_color": "gray",
+      "age": 24,
+      "local_width": 19,
+      "local_depth": 16,
+      "door_u": 9,
+      "maintenance": 0.86,
+      "material_seed": 34585518,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "u"
+    },
+    {
+      "id": "P01",
+      "name": "青叶诊所",
+      "use": "clinic",
+      "x": 132,
+      "z": 47,
+      "w": 24,
+      "d": 16,
+      "g": 4,
+      "face": "S",
+      "floors": 1,
+      "roof": "flat",
+      "wall": "white_concrete",
+      "roof_color": "gray",
+      "age": 8,
+      "local_width": 24,
+      "local_depth": 16,
+      "door_u": 12,
+      "maintenance": 0.86,
+      "material_seed": 15976513,
+      "interior_level": "L2; decorative furniture"
+    },
+    {
+      "id": "P02",
+      "name": "日和社区会馆",
+      "use": "community",
+      "x": 17,
+      "z": 129,
+      "w": 26,
+      "d": 19,
+      "g": 4,
+      "face": "N",
+      "floors": 1,
+      "roof": "hip",
+      "wall": "smooth_sandstone",
+      "roof_color": "gray",
+      "age": 31,
+      "local_width": 26,
+      "local_depth": 19,
+      "door_u": 13,
+      "maintenance": 0.86,
+      "material_seed": 35411007,
+      "interior_level": "L2; decorative furniture",
+      "ridge_axis": "u"
+    },
+    {
+      "id": "P03",
+      "name": "街角交番",
+      "use": "koban",
+      "x": 84,
+      "z": 47,
+      "w": 13,
+      "d": 14,
+      "g": 4,
+      "face": "S",
+      "floors": 1,
+      "roof": "flat",
+      "wall": "white_concrete",
+      "roof_color": "gray",
+      "age": 18,
+      "local_width": 13,
+      "local_depth": 14,
+      "door_u": 6,
+      "maintenance": 0.86,
+      "material_seed": 85698100,
+      "interior_level": "L2; decorative furniture"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "H01.F1",
+      "building": "H01",
+      "use": "home",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        17,
+        5,
+        43,
+        33,
+        10,
+        57
+      ]
+    },
+    {
+      "id": "H01.F2",
+      "building": "H01",
+      "use": "home",
+      "floor_block_y": 11,
+      "standing_y": 12,
+      "ceiling_y": 17,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        17,
+        12,
+        43,
+        33,
+        17,
+        57
+      ]
+    },
+    {
+      "id": "H02.F1",
+      "building": "H02",
+      "use": "home",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        43,
+        7,
+        14,
+        57,
+        12,
+        31
+      ]
+    },
+    {
+      "id": "H02.F2",
+      "building": "H02",
+      "use": "home",
+      "floor_block_y": 13,
+      "standing_y": 14,
+      "ceiling_y": 19,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        43,
+        14,
+        14,
+        57,
+        19,
+        31
+      ]
+    },
+    {
+      "id": "H03.F1",
+      "building": "H03",
+      "use": "home",
+      "floor_block_y": 7,
+      "standing_y": 8,
+      "ceiling_y": 13,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        86,
+        8,
+        14,
+        103,
+        13,
+        29
+      ]
+    },
+    {
+      "id": "H03.F2",
+      "building": "H03",
+      "use": "home",
+      "floor_block_y": 14,
+      "standing_y": 15,
+      "ceiling_y": 20,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        86,
+        15,
+        14,
+        103,
+        20,
+        29
+      ]
+    },
+    {
+      "id": "H04.F1",
+      "building": "H04",
+      "use": "home",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        120,
+        7,
+        20,
+        138,
+        12,
+        36
+      ]
+    },
+    {
+      "id": "H04.F2",
+      "building": "H04",
+      "use": "home",
+      "floor_block_y": 13,
+      "standing_y": 14,
+      "ceiling_y": 19,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        120,
+        14,
+        20,
+        138,
+        19,
+        36
+      ]
+    },
+    {
+      "id": "H05.F1",
+      "building": "H05",
+      "use": "home",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        140,
+        5,
+        97,
+        156,
+        10,
+        115
+      ]
+    },
+    {
+      "id": "H05.F2",
+      "building": "H05",
+      "use": "home",
+      "floor_block_y": 11,
+      "standing_y": 12,
+      "ceiling_y": 17,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        140,
+        12,
+        97,
+        156,
+        17,
+        115
+      ]
+    },
+    {
+      "id": "H06.F1",
+      "building": "H06",
+      "use": "home",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        126,
+        5,
+        133,
+        143,
+        10,
+        148
+      ]
+    },
+    {
+      "id": "H06.F2",
+      "building": "H06",
+      "use": "home",
+      "floor_block_y": 11,
+      "standing_y": 12,
+      "ceiling_y": 17,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        126,
+        12,
+        133,
+        143,
+        17,
+        148
+      ]
+    },
+    {
+      "id": "H07.F1",
+      "building": "H07",
+      "use": "home",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        78,
+        5,
+        122,
+        93,
+        10,
+        141
+      ]
+    },
+    {
+      "id": "H07.F2",
+      "building": "H07",
+      "use": "home",
+      "floor_block_y": 11,
+      "standing_y": 12,
+      "ceiling_y": 17,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        78,
+        12,
+        122,
+        93,
+        17,
+        141
+      ]
+    },
+    {
+      "id": "S01.F1",
+      "building": "S01",
+      "use": "grocer",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        26,
+        5,
+        101,
+        45,
+        10,
+        115
+      ]
+    },
+    {
+      "id": "S01.F2",
+      "building": "S01",
+      "use": "grocer",
+      "floor_block_y": 11,
+      "standing_y": 12,
+      "ceiling_y": 17,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        26,
+        12,
+        101,
+        45,
+        17,
+        115
+      ]
+    },
+    {
+      "id": "S02.F1",
+      "building": "S02",
+      "use": "cafe",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        65,
+        5,
+        98,
+        82,
+        10,
+        112
+      ]
+    },
+    {
+      "id": "S02.F2",
+      "building": "S02",
+      "use": "cafe",
+      "floor_block_y": 11,
+      "standing_y": 12,
+      "ceiling_y": 17,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        65,
+        12,
+        98,
+        82,
+        17,
+        112
+      ]
+    },
+    {
+      "id": "P01.F1",
+      "building": "P01",
+      "use": "clinic",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        133,
+        5,
+        48,
+        155,
+        10,
+        62
+      ]
+    },
+    {
+      "id": "P02.F1",
+      "building": "P02",
+      "use": "community",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        18,
+        5,
+        130,
+        42,
+        10,
+        147
+      ]
+    },
+    {
+      "id": "P03.F1",
+      "building": "P03",
+      "use": "koban",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "lighting": "all functional floors",
+      "bounds_xyz": [
+        85,
+        5,
+        48,
+        96,
+        10,
+        60
+      ]
+    }
+  ],
+  "roads": [
+    {
+      "id": "main",
+      "path": [
+        [
+          0,
+          86
+        ],
+        [
+          64,
+          86
+        ],
+        [
+          96,
+          73
+        ],
+        [
+          176,
+          73
+        ]
+      ],
+      "width": 9
+    },
+    {
+      "id": "north",
+      "path": [
+        [
+          66,
+          86
+        ],
+        [
+          66,
+          0
+        ]
+      ],
+      "width": 6
+    },
+    {
+      "id": "south",
+      "path": [
+        [
+          108,
+          73
+        ],
+        [
+          108,
+          160
+        ]
+      ],
+      "width": 6
+    }
+  ],
+  "entrances": [
+    {
+      "building": "H01",
+      "inside": [
+        25,
+        5,
+        56
+      ],
+      "door": [
+        25,
+        5,
+        57
+      ],
+      "outside": [
+        25,
+        5,
+        58
+      ]
+    },
+    {
+      "building": "H01",
+      "inside": [
+        26,
+        5,
+        56
+      ],
+      "door": [
+        26,
+        5,
+        57
+      ],
+      "outside": [
+        26,
+        5,
+        58
+      ]
+    },
+    {
+      "building": "H02",
+      "inside": [
+        56,
+        7,
+        22
+      ],
+      "door": [
+        57,
+        7,
+        22
+      ],
+      "outside": [
+        58,
+        7,
+        22
+      ]
+    },
+    {
+      "building": "H02",
+      "inside": [
+        56,
+        7,
+        21
+      ],
+      "door": [
+        57,
+        7,
+        21
+      ],
+      "outside": [
+        58,
+        7,
+        21
+      ]
+    },
+    {
+      "building": "H03",
+      "inside": [
+        86,
+        8,
+        21
+      ],
+      "door": [
+        85,
+        8,
+        21
+      ],
+      "outside": [
+        84,
+        8,
+        21
+      ]
+    },
+    {
+      "building": "H03",
+      "inside": [
+        86,
+        8,
+        22
+      ],
+      "door": [
+        85,
+        8,
+        22
+      ],
+      "outside": [
+        84,
+        8,
+        22
+      ]
+    },
+    {
+      "building": "H04",
+      "inside": [
+        129,
+        7,
+        35
+      ],
+      "door": [
+        129,
+        7,
+        36
+      ],
+      "outside": [
+        129,
+        7,
+        37
+      ]
+    },
+    {
+      "building": "H04",
+      "inside": [
+        130,
+        7,
+        35
+      ],
+      "door": [
+        130,
+        7,
+        36
+      ],
+      "outside": [
+        130,
+        7,
+        37
+      ]
+    },
+    {
+      "building": "H05",
+      "inside": [
+        140,
+        5,
+        106
+      ],
+      "door": [
+        139,
+        5,
+        106
+      ],
+      "outside": [
+        138,
+        5,
+        106
+      ]
+    },
+    {
+      "building": "H05",
+      "inside": [
+        140,
+        5,
+        107
+      ],
+      "door": [
+        139,
+        5,
+        107
+      ],
+      "outside": [
+        138,
+        5,
+        107
+      ]
+    },
+    {
+      "building": "H06",
+      "inside": [
+        134,
+        5,
+        133
+      ],
+      "door": [
+        134,
+        5,
+        132
+      ],
+      "outside": [
+        134,
+        5,
+        131
+      ]
+    },
+    {
+      "building": "H06",
+      "inside": [
+        133,
+        5,
+        133
+      ],
+      "door": [
+        133,
+        5,
+        132
+      ],
+      "outside": [
+        133,
+        5,
+        131
+      ]
+    },
+    {
+      "building": "H07",
+      "inside": [
+        92,
+        5,
+        131
+      ],
+      "door": [
+        93,
+        5,
+        131
+      ],
+      "outside": [
+        94,
+        5,
+        131
+      ]
+    },
+    {
+      "building": "H07",
+      "inside": [
+        92,
+        5,
+        130
+      ],
+      "door": [
+        93,
+        5,
+        130
+      ],
+      "outside": [
+        94,
+        5,
+        130
+      ]
+    },
+    {
+      "building": "S01",
+      "inside": [
+        35,
+        5,
+        101
+      ],
+      "door": [
+        35,
+        5,
+        100
+      ],
+      "outside": [
+        35,
+        5,
+        99
+      ]
+    },
+    {
+      "building": "S01",
+      "inside": [
+        34,
+        5,
+        101
+      ],
+      "door": [
+        34,
+        5,
+        100
+      ],
+      "outside": [
+        34,
+        5,
+        99
+      ]
+    },
+    {
+      "building": "S02",
+      "inside": [
+        73,
+        5,
+        98
+      ],
+      "door": [
+        73,
+        5,
+        97
+      ],
+      "outside": [
+        73,
+        5,
+        96
+      ]
+    },
+    {
+      "building": "S02",
+      "inside": [
+        72,
+        5,
+        98
+      ],
+      "door": [
+        72,
+        5,
+        97
+      ],
+      "outside": [
+        72,
+        5,
+        96
+      ]
+    },
+    {
+      "building": "P01",
+      "inside": [
+        144,
+        5,
+        61
+      ],
+      "door": [
+        144,
+        5,
+        62
+      ],
+      "outside": [
+        144,
+        5,
+        63
+      ]
+    },
+    {
+      "building": "P01",
+      "inside": [
+        145,
+        5,
+        61
+      ],
+      "door": [
+        145,
+        5,
+        62
+      ],
+      "outside": [
+        145,
+        5,
+        63
+      ]
+    },
+    {
+      "building": "P02",
+      "inside": [
+        29,
+        5,
+        130
+      ],
+      "door": [
+        29,
+        5,
+        129
+      ],
+      "outside": [
+        29,
+        5,
+        128
+      ]
+    },
+    {
+      "building": "P02",
+      "inside": [
+        28,
+        5,
+        130
+      ],
+      "door": [
+        28,
+        5,
+        129
+      ],
+      "outside": [
+        28,
+        5,
+        128
+      ]
+    },
+    {
+      "building": "P03",
+      "inside": [
+        90,
+        5,
+        59
+      ],
+      "door": [
+        90,
+        5,
+        60
+      ],
+      "outside": [
+        90,
+        5,
+        61
+      ]
+    },
+    {
+      "building": "P03",
+      "inside": [
+        91,
+        5,
+        59
+      ],
+      "door": [
+        91,
+        5,
+        60
+      ],
+      "outside": [
+        91,
+        5,
+        61
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "building": "H01",
+      "width": 3,
+      "path": [
+        [
+          25,
+          5,
+          60
+        ],
+        [
+          25,
+          5,
+          61
+        ],
+        [
+          25,
+          5,
+          62
+        ],
+        [
+          25,
+          5,
+          63
+        ],
+        [
+          25,
+          5,
+          64
+        ],
+        [
+          25,
+          5,
+          65
+        ],
+        [
+          25,
+          5,
+          66
+        ],
+        [
+          25,
+          5,
+          67
+        ],
+        [
+          25,
+          5,
+          68
+        ],
+        [
+          25,
+          5,
+          69
+        ],
+        [
+          25,
+          5,
+          70
+        ],
+        [
+          25,
+          5,
+          71
+        ],
+        [
+          25,
+          5,
+          72
+        ],
+        [
+          25,
+          5,
+          73
+        ],
+        [
+          25,
+          5,
+          74
+        ],
+        [
+          25,
+          5,
+          75
+        ],
+        [
+          25,
+          5,
+          76
+        ],
+        [
+          25,
+          5,
+          77
+        ],
+        [
+          25,
+          5,
+          78
+        ],
+        [
+          25,
+          5,
+          79
+        ]
+      ]
+    },
+    {
+      "building": "H02",
+      "width": 3,
+      "path": [
+        [
+          60,
+          7,
+          22
+        ],
+        [
+          60,
+          5,
+          22
+        ]
+      ]
+    },
+    {
+      "building": "H03",
+      "width": 3,
+      "path": [
+        [
+          82,
+          8,
+          21
+        ],
+        [
+          81,
+          8,
+          21
+        ],
+        [
+          80,
+          7,
+          21
+        ],
+        [
+          79,
+          7,
+          21
+        ],
+        [
+          78,
+          7,
+          21
+        ],
+        [
+          77,
+          7,
+          21
+        ],
+        [
+          76,
+          6,
+          21
+        ],
+        [
+          75,
+          6,
+          21
+        ],
+        [
+          74,
+          6,
+          21
+        ],
+        [
+          73,
+          6,
+          21
+        ],
+        [
+          72,
+          5,
+          21
+        ],
+        [
+          71,
+          5,
+          21
+        ]
+      ]
+    },
+    {
+      "building": "H04",
+      "width": 3,
+      "path": [
+        [
+          129,
+          7,
+          39
+        ],
+        [
+          129,
+          7,
+          40
+        ],
+        [
+          129,
+          7,
+          41
+        ],
+        [
+          129,
+          7,
+          42
+        ],
+        [
+          129,
+          7,
+          43
+        ],
+        [
+          129,
+          7,
+          44
+        ],
+        [
+          129,
+          7,
+          45
+        ],
+        [
+          129,
+          6,
+          46
+        ],
+        [
+          129,
+          6,
+          47
+        ],
+        [
+          129,
+          6,
+          48
+        ],
+        [
+          129,
+          6,
+          49
+        ],
+        [
+          129,
+          6,
+          50
+        ],
+        [
+          129,
+          6,
+          51
+        ],
+        [
+          129,
+          6,
+          52
+        ],
+        [
+          129,
+          6,
+          53
+        ],
+        [
+          129,
+          6,
+          54
+        ],
+        [
+          129,
+          6,
+          55
+        ],
+        [
+          129,
+          6,
+          56
+        ],
+        [
+          129,
+          6,
+          57
+        ],
+        [
+          129,
+          6,
+          58
+        ],
+        [
+          129,
+          6,
+          59
+        ],
+        [
+          129,
+          5,
+          60
+        ],
+        [
+          129,
+          5,
+          61
+        ],
+        [
+          129,
+          5,
+          62
+        ],
+        [
+          129,
+          5,
+          63
+        ],
+        [
+          129,
+          5,
+          64
+        ],
+        [
+          129,
+          5,
+          65
+        ],
+        [
+          129,
+          5,
+          66
+        ]
+      ]
+    },
+    {
+      "building": "H05",
+      "width": 3,
+      "path": [
+        [
+          136,
+          5,
+          106
+        ],
+        [
+          135,
+          5,
+          106
+        ],
+        [
+          134,
+          5,
+          106
+        ],
+        [
+          133,
+          5,
+          106
+        ],
+        [
+          132,
+          5,
+          106
+        ],
+        [
+          131,
+          5,
+          106
+        ],
+        [
+          130,
+          5,
+          106
+        ],
+        [
+          129,
+          5,
+          106
+        ],
+        [
+          128,
+          5,
+          106
+        ],
+        [
+          127,
+          5,
+          106
+        ],
+        [
+          126,
+          5,
+          106
+        ],
+        [
+          125,
+          5,
+          106
+        ],
+        [
+          124,
+          5,
+          106
+        ],
+        [
+          123,
+          5,
+          106
+        ],
+        [
+          122,
+          5,
+          106
+        ],
+        [
+          121,
+          5,
+          106
+        ],
+        [
+          120,
+          5,
+          106
+        ],
+        [
+          119,
+          5,
+          106
+        ],
+        [
+          118,
+          5,
+          106
+        ],
+        [
+          117,
+          5,
+          106
+        ],
+        [
+          116,
+          5,
+          106
+        ],
+        [
+          115,
+          5,
+          106
+        ],
+        [
+          114,
+          5,
+          106
+        ]
+      ]
+    },
+    {
+      "building": "H06",
+      "width": 3,
+      "path": [
+        [
+          134,
+          5,
+          129
+        ],
+        [
+          133,
+          5,
+          129
+        ],
+        [
+          132,
+          5,
+          129
+        ],
+        [
+          131,
+          5,
+          129
+        ],
+        [
+          130,
+          5,
+          129
+        ],
+        [
+          129,
+          5,
+          129
+        ],
+        [
+          128,
+          5,
+          129
+        ],
+        [
+          127,
+          5,
+          129
+        ],
+        [
+          126,
+          5,
+          129
+        ],
+        [
+          125,
+          5,
+          129
+        ],
+        [
+          124,
+          5,
+          129
+        ],
+        [
+          123,
+          5,
+          129
+        ],
+        [
+          122,
+          5,
+          129
+        ],
+        [
+          121,
+          5,
+          129
+        ],
+        [
+          120,
+          5,
+          129
+        ],
+        [
+          119,
+          5,
+          129
+        ],
+        [
+          118,
+          5,
+          129
+        ],
+        [
+          117,
+          5,
+          129
+        ],
+        [
+          116,
+          5,
+          129
+        ],
+        [
+          115,
+          5,
+          129
+        ],
+        [
+          114,
+          5,
+          129
+        ]
+      ]
+    },
+    {
+      "building": "H07",
+      "width": 3,
+      "path": [
+        [
+          96,
+          5,
+          131
+        ],
+        [
+          97,
+          5,
+          131
+        ],
+        [
+          98,
+          5,
+          131
+        ],
+        [
+          99,
+          5,
+          131
+        ],
+        [
+          100,
+          5,
+          131
+        ],
+        [
+          101,
+          5,
+          131
+        ],
+        [
+          102,
+          5,
+          131
+        ],
+        [
+          103,
+          5,
+          131
+        ]
+      ]
+    },
+    {
+      "building": "S01",
+      "width": 3,
+      "path": [
+        [
+          35,
+          5,
+          97
+        ],
+        [
+          35,
+          5,
+          96
+        ],
+        [
+          35,
+          5,
+          95
+        ],
+        [
+          35,
+          5,
+          94
+        ],
+        [
+          35,
+          5,
+          93
+        ]
+      ]
+    },
+    {
+      "building": "S02",
+      "width": 3,
+      "path": [
+        [
+          73,
+          5,
+          94
+        ],
+        [
+          73,
+          5,
+          93
+        ],
+        [
+          72,
+          5,
+          92
+        ],
+        [
+          72,
+          5,
+          91
+        ],
+        [
+          72,
+          5,
+          90
+        ]
+      ]
+    },
+    {
+      "building": "P01",
+      "width": 3,
+      "path": [
+        [
+          144,
+          5,
+          65
+        ],
+        [
+          144,
+          5,
+          66
+        ]
+      ]
+    },
+    {
+      "building": "P02",
+      "width": 3,
+      "path": [
+        [
+          29,
+          5,
+          126
+        ],
+        [
+          29,
+          5,
+          125
+        ],
+        [
+          29,
+          5,
+          124
+        ],
+        [
+          29,
+          5,
+          123
+        ],
+        [
+          29,
+          5,
+          122
+        ],
+        [
+          29,
+          5,
+          121
+        ],
+        [
+          29,
+          5,
+          120
+        ],
+        [
+          29,
+          5,
+          119
+        ],
+        [
+          29,
+          5,
+          118
+        ],
+        [
+          29,
+          5,
+          117
+        ],
+        [
+          29,
+          5,
+          116
+        ],
+        [
+          29,
+          5,
+          115
+        ],
+        [
+          29,
+          5,
+          114
+        ],
+        [
+          29,
+          5,
+          113
+        ],
+        [
+          29,
+          5,
+          112
+        ],
+        [
+          29,
+          5,
+          111
+        ],
+        [
+          29,
+          5,
+          110
+        ],
+        [
+          29,
+          5,
+          109
+        ],
+        [
+          29,
+          5,
+          108
+        ],
+        [
+          29,
+          5,
+          107
+        ],
+        [
+          29,
+          5,
+          106
+        ],
+        [
+          29,
+          5,
+          105
+        ],
+        [
+          29,
+          5,
+          104
+        ],
+        [
+          29,
+          5,
+          103
+        ],
+        [
+          29,
+          5,
+          102
+        ],
+        [
+          29,
+          5,
+          101
+        ],
+        [
+          29,
+          5,
+          100
+        ],
+        [
+          29,
+          5,
+          99
+        ],
+        [
+          29,
+          5,
+          98
+        ],
+        [
+          29,
+          5,
+          97
+        ],
+        [
+          29,
+          5,
+          96
+        ],
+        [
+          29,
+          5,
+          95
+        ],
+        [
+          29,
+          5,
+          94
+        ],
+        [
+          29,
+          5,
+          93
+        ]
+      ]
+    },
+    {
+      "building": "P03",
+      "width": 3,
+      "path": [
+        [
+          90,
+          5,
+          63
+        ],
+        [
+          91,
+          5,
+          64
+        ],
+        [
+          92,
+          5,
+          65
+        ],
+        [
+          92,
+          5,
+          66
+        ],
+        [
+          93,
+          5,
+          67
+        ]
+      ]
+    }
+  ],
+  "stair_clearance_samples": [
+    [
+      18,
+      6,
+      54
+    ],
+    [
+      19,
+      6,
+      54
+    ],
+    [
+      18,
+      7,
+      53
+    ],
+    [
+      19,
+      7,
+      53
+    ],
+    [
+      18,
+      8,
+      52
+    ],
+    [
+      19,
+      8,
+      52
+    ],
+    [
+      18,
+      9,
+      51
+    ],
+    [
+      19,
+      9,
+      51
+    ],
+    [
+      18,
+      10,
+      50
+    ],
+    [
+      19,
+      10,
+      50
+    ],
+    [
+      18,
+      11,
+      49
+    ],
+    [
+      19,
+      11,
+      49
+    ],
+    [
+      18,
+      12,
+      48
+    ],
+    [
+      19,
+      12,
+      48
+    ],
+    [
+      54,
+      8,
+      29
+    ],
+    [
+      54,
+      8,
+      28
+    ],
+    [
+      53,
+      9,
+      29
+    ],
+    [
+      53,
+      9,
+      28
+    ],
+    [
+      52,
+      10,
+      29
+    ],
+    [
+      52,
+      10,
+      28
+    ],
+    [
+      51,
+      11,
+      29
+    ],
+    [
+      51,
+      11,
+      28
+    ],
+    [
+      50,
+      12,
+      29
+    ],
+    [
+      50,
+      12,
+      28
+    ],
+    [
+      49,
+      13,
+      29
+    ],
+    [
+      49,
+      13,
+      28
+    ],
+    [
+      48,
+      14,
+      29
+    ],
+    [
+      48,
+      14,
+      28
+    ],
+    [
+      88,
+      9,
+      15
+    ],
+    [
+      88,
+      9,
+      16
+    ],
+    [
+      89,
+      10,
+      15
+    ],
+    [
+      89,
+      10,
+      16
+    ],
+    [
+      90,
+      11,
+      15
+    ],
+    [
+      90,
+      11,
+      16
+    ],
+    [
+      91,
+      12,
+      15
+    ],
+    [
+      91,
+      12,
+      16
+    ],
+    [
+      92,
+      13,
+      15
+    ],
+    [
+      92,
+      13,
+      16
+    ],
+    [
+      93,
+      14,
+      15
+    ],
+    [
+      93,
+      14,
+      16
+    ],
+    [
+      94,
+      15,
+      15
+    ],
+    [
+      94,
+      15,
+      16
+    ],
+    [
+      121,
+      8,
+      33
+    ],
+    [
+      122,
+      8,
+      33
+    ],
+    [
+      121,
+      9,
+      32
+    ],
+    [
+      122,
+      9,
+      32
+    ],
+    [
+      121,
+      10,
+      31
+    ],
+    [
+      122,
+      10,
+      31
+    ],
+    [
+      121,
+      11,
+      30
+    ],
+    [
+      122,
+      11,
+      30
+    ],
+    [
+      121,
+      12,
+      29
+    ],
+    [
+      122,
+      12,
+      29
+    ],
+    [
+      121,
+      13,
+      28
+    ],
+    [
+      122,
+      13,
+      28
+    ],
+    [
+      121,
+      14,
+      27
+    ],
+    [
+      122,
+      14,
+      27
+    ],
+    [
+      142,
+      6,
+      98
+    ],
+    [
+      142,
+      6,
+      99
+    ],
+    [
+      143,
+      7,
+      98
+    ],
+    [
+      143,
+      7,
+      99
+    ],
+    [
+      144,
+      8,
+      98
+    ],
+    [
+      144,
+      8,
+      99
+    ],
+    [
+      145,
+      9,
+      98
+    ],
+    [
+      145,
+      9,
+      99
+    ],
+    [
+      146,
+      10,
+      98
+    ],
+    [
+      146,
+      10,
+      99
+    ],
+    [
+      147,
+      11,
+      98
+    ],
+    [
+      147,
+      11,
+      99
+    ],
+    [
+      148,
+      12,
+      98
+    ],
+    [
+      148,
+      12,
+      99
+    ],
+    [
+      141,
+      6,
+      135
+    ],
+    [
+      140,
+      6,
+      135
+    ],
+    [
+      141,
+      7,
+      136
+    ],
+    [
+      140,
+      7,
+      136
+    ],
+    [
+      141,
+      8,
+      137
+    ],
+    [
+      140,
+      8,
+      137
+    ],
+    [
+      141,
+      9,
+      138
+    ],
+    [
+      140,
+      9,
+      138
+    ],
+    [
+      141,
+      10,
+      139
+    ],
+    [
+      140,
+      10,
+      139
+    ],
+    [
+      141,
+      11,
+      140
+    ],
+    [
+      140,
+      11,
+      140
+    ],
+    [
+      141,
+      12,
+      141
+    ],
+    [
+      140,
+      12,
+      141
+    ],
+    [
+      90,
+      6,
+      139
+    ],
+    [
+      90,
+      6,
+      138
+    ],
+    [
+      89,
+      7,
+      139
+    ],
+    [
+      89,
+      7,
+      138
+    ],
+    [
+      88,
+      8,
+      139
+    ],
+    [
+      88,
+      8,
+      138
+    ],
+    [
+      87,
+      9,
+      139
+    ],
+    [
+      87,
+      9,
+      138
+    ],
+    [
+      86,
+      10,
+      139
+    ],
+    [
+      86,
+      10,
+      138
+    ],
+    [
+      85,
+      11,
+      139
+    ],
+    [
+      85,
+      11,
+      138
+    ],
+    [
+      84,
+      12,
+      139
+    ],
+    [
+      84,
+      12,
+      138
+    ],
+    [
+      43,
+      6,
+      103
+    ],
+    [
+      42,
+      6,
+      103
+    ],
+    [
+      43,
+      7,
+      104
+    ],
+    [
+      42,
+      7,
+      104
+    ],
+    [
+      43,
+      8,
+      105
+    ],
+    [
+      42,
+      8,
+      105
+    ],
+    [
+      43,
+      9,
+      106
+    ],
+    [
+      42,
+      9,
+      106
+    ],
+    [
+      43,
+      10,
+      107
+    ],
+    [
+      42,
+      10,
+      107
+    ],
+    [
+      43,
+      11,
+      108
+    ],
+    [
+      42,
+      11,
+      108
+    ],
+    [
+      43,
+      12,
+      109
+    ],
+    [
+      42,
+      12,
+      109
+    ],
+    [
+      80,
+      6,
+      100
+    ],
+    [
+      79,
+      6,
+      100
+    ],
+    [
+      80,
+      7,
+      101
+    ],
+    [
+      79,
+      7,
+      101
+    ],
+    [
+      80,
+      8,
+      102
+    ],
+    [
+      79,
+      8,
+      102
+    ],
+    [
+      80,
+      9,
+      103
+    ],
+    [
+      79,
+      9,
+      103
+    ],
+    [
+      80,
+      10,
+      104
+    ],
+    [
+      79,
+      10,
+      104
+    ],
+    [
+      80,
+      11,
+      105
+    ],
+    [
+      79,
+      11,
+      105
+    ],
+    [
+      80,
+      12,
+      106
+    ],
+    [
+      79,
+      12,
+      106
+    ]
+  ],
+  "trees": [
+    {
+      "x": 20,
+      "z": 14,
+      "height": 9,
+      "radius": 5,
+      "id": "park",
+      "cherry": true
+    },
+    {
+      "x": 8,
+      "z": 29,
+      "height": 8,
+      "radius": 4,
+      "id": "park2",
+      "cherry": false
+    },
+    {
+      "x": 32,
+      "z": 23,
+      "height": 7,
+      "radius": 4,
+      "id": "park3",
+      "cherry": false
+    },
+    {
+      "x": 12,
+      "z": 64,
+      "height": 8,
+      "radius": 4,
+      "id": "H01",
+      "cherry": false
+    },
+    {
+      "x": 41,
+      "z": 64,
+      "height": 7,
+      "radius": 3,
+      "id": "H01b",
+      "cherry": false
+    },
+    {
+      "x": 29,
+      "z": 41,
+      "height": 7,
+      "radius": 3,
+      "id": "H01c",
+      "cherry": false
+    },
+    {
+      "x": 44,
+      "z": 8,
+      "height": 8,
+      "radius": 4,
+      "id": "H02",
+      "cherry": false
+    },
+    {
+      "x": 103,
+      "z": 9,
+      "height": 9,
+      "radius": 4,
+      "id": "H03",
+      "cherry": false
+    },
+    {
+      "x": 129,
+      "z": 9,
+      "height": 10,
+      "radius": 5,
+      "id": "H04",
+      "cherry": false
+    },
+    {
+      "x": 159,
+      "z": 24,
+      "height": 10,
+      "radius": 5,
+      "id": "H04b",
+      "cherry": false
+    },
+    {
+      "x": 153,
+      "z": 39,
+      "height": 7,
+      "radius": 3,
+      "id": "clinic",
+      "cherry": false
+    },
+    {
+      "x": 121,
+      "z": 106,
+      "height": 8,
+      "radius": 4,
+      "id": "pocket",
+      "cherry": true
+    },
+    {
+      "x": 152,
+      "z": 122,
+      "height": 8,
+      "radius": 4,
+      "id": "H05",
+      "cherry": false
+    },
+    {
+      "x": 160,
+      "z": 142,
+      "height": 9,
+      "radius": 4,
+      "id": "H06",
+      "cherry": false
+    },
+    {
+      "x": 89,
+      "z": 153,
+      "height": 9,
+      "radius": 5,
+      "id": "H07",
+      "cherry": false
+    },
+    {
+      "x": 55,
+      "z": 132,
+      "height": 9,
+      "radius": 4,
+      "id": "hall",
+      "cherry": true
+    },
+    {
+      "x": 9,
+      "z": 117,
+      "height": 7,
+      "radius": 3,
+      "id": "hall2",
+      "cherry": false
+    },
+    {
+      "x": 35,
+      "z": 94,
+      "height": 6,
+      "radius": 3,
+      "id": "shop",
+      "cherry": false
+    },
+    {
+      "x": 73,
+      "z": 147,
+      "id": "edge5"
+    },
+    {
+      "x": 142,
+      "z": 11,
+      "id": "edge15"
+    },
+    {
+      "x": 29,
+      "z": 154,
+      "id": "edge19"
+    },
+    {
+      "x": 9,
+      "z": 119,
+      "id": "edge26"
+    },
+    {
+      "x": 4,
+      "z": 43,
+      "id": "edge48"
+    },
+    {
+      "x": 171,
+      "z": 112,
+      "id": "edge56"
+    },
+    {
+      "x": 163,
+      "z": 46,
+      "id": "edge62"
+    },
+    {
+      "x": 11,
+      "z": 146,
+      "id": "edge73"
+    },
+    {
+      "x": 171,
+      "z": 86,
+      "id": "edge94"
+    },
+    {
+      "x": 169,
+      "z": 99,
+      "id": "edge100"
+    }
+  ],
+  "site": {
+    "size_xyz": [
+      176,
+      48,
+      160
+    ],
+    "base": 4,
+    "north_terraces": [
+      4,
+      6,
+      7
+    ]
+  },
+  "protected_regions": [
+    "street",
+    "entries",
+    "stairs",
+    "bus.boarding"
+  ]
+}

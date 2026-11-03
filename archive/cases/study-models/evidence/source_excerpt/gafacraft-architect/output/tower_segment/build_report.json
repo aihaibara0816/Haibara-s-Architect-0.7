@@ -1,0 +1,252 @@
+{
+  "engine_version": "0.1.0",
+  "build_id": "tower_segment-r1-aeb4cc302a",
+  "spec_sha256": "aeb4cc302ae7b29568fc696e368d52e94a29d1e1b75045f254d2bfdd14b713ef",
+  "geometry_sha256": "ede8d56c36ee25018e16c976a57f0263f1d9abf653642fed3a3619943dd368f9",
+  "nbt": {
+    "file": "building.nbt",
+    "bytes": 182249,
+    "sha256": "04e55184e2cbec19e1bdd60f0c40b17c2e405d04c423b03d65d4f95c53277f21",
+    "listed_blocks": 72960,
+    "non_air_blocks": 6556,
+    "size_xyz": [
+      32,
+      76,
+      30
+    ],
+    "contains_explicit_air": true,
+    "geometry_sha256": "ede8d56c36ee25018e16c976a57f0263f1d9abf653642fed3a3619943dd368f9",
+    "data_version": 3955
+  },
+  "size_xyz": [
+    32,
+    76,
+    30
+  ],
+  "non_air_blocks": 6556,
+  "materials": {
+    "minecraft:light_blue_stained_glass": 1440,
+    "minecraft:moss_block": 80,
+    "minecraft:smooth_stone": 840,
+    "minecraft:stone_bricks": 960,
+    "minecraft:white_concrete": 3236
+  },
+  "validation": {
+    "spec": {
+      "schema": "pass",
+      "semantic": "pass",
+      "world_placement": "pending_actual_configuration",
+      "mode": "study"
+    },
+    "nbt_readback_exact_match": true,
+    "geometry": {
+      "status": "pass",
+      "checks": [
+        {
+          "check_id": "interior_headroom",
+          "passed": true,
+          "occupied_cells": 0,
+          "examples": []
+        },
+        {
+          "check_id": "tower.shell.profile_relation",
+          "passed": true,
+          "widths_lower_middle_upper": [
+            14,
+            22,
+            10
+          ],
+          "expectation": "middle_wider_than_ends"
+        }
+      ],
+      "material_counts": {
+        "minecraft:light_blue_stained_glass": 1440,
+        "minecraft:moss_block": 80,
+        "minecraft:smooth_stone": 840,
+        "minecraft:stone_bricks": 960,
+        "minecraft:white_concrete": 3236
+      },
+      "limits": "Full-cube static geometry only. Floor labels do not prove reachability between levels; no player, light or Create test."
+    },
+    "registry": "pending_actual_configuration",
+    "game": "pending_game_test",
+    "create_import": "pending_game_test"
+  },
+  "views": [
+    {
+      "view": "front",
+      "projection": "orthographic",
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        0,
+        0,
+        -1
+      ],
+      "pixels_per_block": 10.131578947368421,
+      "build_id": "tower_segment-r1-aeb4cc302a",
+      "geometry_sha256": "ede8d56c36ee25018e16c976a57f0263f1d9abf653642fed3a3619943dd368f9",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_front.png",
+      "sha256": "29d0347189406b66b97c8698d832061fc9ab0e480dd062eeb4c20a6bf1e41b13",
+      "rendered_faces": 1978,
+      "non_background_pixels": 120938,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "back",
+      "projection": "orthographic",
+      "right": [
+        -1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        0,
+        0,
+        1
+      ],
+      "pixels_per_block": 10.131578947368421,
+      "build_id": "tower_segment-r1-aeb4cc302a",
+      "geometry_sha256": "ede8d56c36ee25018e16c976a57f0263f1d9abf653642fed3a3619943dd368f9",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_back.png",
+      "sha256": "c684c0f6944ba61387b40603be8c4cf2a1a734e5d12e97cf4e6847603b6a7e9d",
+      "rendered_faces": 1978,
+      "non_background_pixels": 120938,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "left",
+      "projection": "orthographic",
+      "right": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        -1,
+        0,
+        0
+      ],
+      "pixels_per_block": 10.131578947368421,
+      "build_id": "tower_segment-r1-aeb4cc302a",
+      "geometry_sha256": "ede8d56c36ee25018e16c976a57f0263f1d9abf653642fed3a3619943dd368f9",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_left.png",
+      "sha256": "2a7b045f0e13039554f0476fe6f382dd7fb219805cb29822386d88132b514e75",
+      "rendered_faces": 1680,
+      "non_background_pixels": 102518,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "right",
+      "projection": "orthographic",
+      "right": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        1,
+        0,
+        0
+      ],
+      "pixels_per_block": 10.131578947368421,
+      "build_id": "tower_segment-r1-aeb4cc302a",
+      "geometry_sha256": "ede8d56c36ee25018e16c976a57f0263f1d9abf653642fed3a3619943dd368f9",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_right.png",
+      "sha256": "e52f7f844135f95a41b4cbd65237256388638c897c9180a4594343cdad59f455",
+      "rendered_faces": 1680,
+      "non_background_pixels": 102518,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "iso45",
+      "projection": "orthographic",
+      "right": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865476
+      ],
+      "up": [
+        -0.5,
+        0.7071067811865476,
+        0.5
+      ],
+      "camera_direction": [
+        0.5,
+        0.7071067811865476,
+        -0.5
+      ],
+      "pixels_per_block": 9.086605518960436,
+      "build_id": "tower_segment-r1-aeb4cc302a",
+      "geometry_sha256": "ede8d56c36ee25018e16c976a57f0263f1d9abf653642fed3a3619943dd368f9",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_iso45.png",
+      "sha256": "26ea870c2e4e4dbe8a2b57fd5aea3e443b3deb179f76bb6131f6f58f71e7431e",
+      "rendered_faces": 6570,
+      "non_background_pixels": 112619,
+      "resolution": [
+        1280,
+        1000
+      ]
+    }
+  ],
+  "provenance": {
+    "packet_id": "packet-tower_segment",
+    "packet_sha256": "da71aec8012322eb19f3b052ebafa2d28ea67740ed2300482204d13d7ac2b8a2"
+  },
+  "limitations": [
+    "Study geometry; not surveyed reconstruction.",
+    "Full-cube renderer; glass uses opaque schematic color; no Minecraft textures or lighting.",
+    "No model inference, credential, network, world edit or website deployment in the engine.",
+    "All stages rebuilt; stable component IDs and external diffs do not imply internal incremental generation."
+  ]
+}

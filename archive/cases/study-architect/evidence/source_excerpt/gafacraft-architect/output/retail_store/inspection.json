@@ -1,0 +1,77 @@
+{
+  "file_name": "building.nbt",
+  "file_sha256": "a6e03c94f9d70198800408113c8c25f87d56eb8e565bd26b31e11824e3da7815",
+  "file_bytes": 27020,
+  "decoded_bytes": 382368,
+  "compression": "gzip",
+  "root_name": "",
+  "format": "java_structure",
+  "data_version": 3955,
+  "offset_xyz": [
+    0,
+    0,
+    0
+  ],
+  "block_entities_count": 0,
+  "entities_count": 0,
+  "structural_subset_check": "pass",
+  "usable_nonempty_sample": true,
+  "size_xyz": [
+    34,
+    12,
+    26
+  ],
+  "bounding_volume_cells": 10608,
+  "listed_block_entries": 10608,
+  "unlisted_cells": 0,
+  "non_air_non_void_blocks": 3204,
+  "explicit_air_entries": 7404,
+  "structure_void_entries": 0,
+  "occupied_bbox_inclusive": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      33,
+      10,
+      25
+    ]
+  ],
+  "palette_entries": 12,
+  "used_block_state_counts": {
+    "minecraft:air": 7404,
+    "minecraft:cyan_stained_glass": 87,
+    "minecraft:gray_concrete": 515,
+    "minecraft:green_concrete": 44,
+    "minecraft:moss_block": 17,
+    "minecraft:oak_planks": 99,
+    "minecraft:orange_concrete": 16,
+    "minecraft:polished_andesite": 59,
+    "minecraft:sea_lantern": 40,
+    "minecraft:smooth_stone": 384,
+    "minecraft:stone_bricks": 884,
+    "minecraft:white_concrete": 1059
+  },
+  "non_air_blocks_by_y": {
+    "0": 884,
+    "1": 768,
+    "2": 188,
+    "3": 121,
+    "4": 124,
+    "5": 74,
+    "6": 116,
+    "7": 140,
+    "8": 494,
+    "9": 286,
+    "10": 9
+  },
+  "local_listed_blockstates_sha256": "a050e14587fab903871c2198d81e362bbfc1fdb9adee4c529de7d13f20b77143",
+  "game_validation": "pending",
+  "warnings": [
+    "Subset structural checks only; no registry/property compatibility or game import test.",
+    "Entities, block-entity contents, biomes, NBT field tag kinds and extra metadata are not semantically validated.",
+    "Counts by Y are block distributions, not verified floor counts or collision/solidity measurements."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1"
+    },
+    "build_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "method": {
+      "const": "manual"
+    },
+    "game_status": {
+      "const": "pending_game_test"
+    },
+    "required_image_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9_.-]*$",
+        "maxLength": 100
+      },
+      "uniqueItems": true
+    },
+    "pairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pair_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.-]*$",
+            "maxLength": 100
+          },
+          "image_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9_.-]*$",
+            "maxLength": 100
+          },
+          "component_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9_.-]*$",
+              "maxLength": 100
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "view": {
+            "enum": [
+              "front",
+              "back",
+              "left",
+              "right",
+              "iso45"
+            ]
+          },
+          "camera_match": {
+            "enum": [
+              "matched",
+              "approximate",
+              "unverifiable"
+            ]
+          },
+          "status": {
+            "enum": [
+              "pass",
+              "needs_revision",
+              "unverifiable",
+              "pending"
+            ]
+          },
+          "severity": {
+            "enum": [
+              "major",
+              "minor",
+              null
+            ]
+          },
+          "finding": {
+            "type": "string",
+            "minLength": 1
+          },
+          "checkpoints": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "pair_id",
+          "image_id",
+          "component_ids",
+          "view",
+          "camera_match",
+          "status",
+          "severity",
+          "finding",
+          "checkpoints"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "build_id",
+    "method",
+    "game_status",
+    "required_image_ids",
+    "pairs"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

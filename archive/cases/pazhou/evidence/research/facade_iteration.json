@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-25",
+  "feedback": "太透明、像玻璃盒；以铁栏杆和黑/深蓝/青色玻璃板组织幕墙穿插",
+  "hypothesis": "有节奏的配色 + 外侧细肋 + 留空腔体 + 不透明后景，比单层玻璃壳更能表达深度",
+  "engine": "HAF 0.3 case experiment",
+  "case": "pazhou_wechat",
+  "run": "v3b_04_final",
+  "rule_module": "cases/pazhou_wechat/facade_layers.py",
+  "parameter_consumer": "apply(b, tower, layered_facade)",
+  "controls": [
+    "sample_r01_A_original",
+    "sample_r01_B_colour",
+    "sample_r01_C_layered"
+  ],
+  "observations": [
+    {
+      "image_id": "img-001",
+      "bbox_xyxy_normalized": [
+        0.7,
+        0.24,
+        0.94,
+        0.75
+      ],
+      "observation": "外侧幕墙为细密重复分格，平台开敞层有明显虚实反差",
+      "adoption": "保留开敞层；金属细条与玻璃分层",
+      "limit": "铁栏杆选材是Minecraft表达实验；不能由照片推定真实铁质或本轮离散间距"
+    },
+    {
+      "image_id": "img-004",
+      "bbox_xyxy_normalized": [
+        0.72,
+        0.15,
+        0.98,
+        0.89
+      ],
+      "observation": "可见多层玻璃、细梃、蓝青反射与背后结构的遮挡",
+      "adoption": "固定窗格配色与背衬试验",
+      "limit": "深蓝青色不是实测材料本色；内峡谷几何本轮不改"
+    }
+  ],
+  "ref_box": "沿用上轮多向参考盒；本轮复查已有原图，未新增网页/照片/模型检索，不增加背向覆盖",
+  "changes": [
+    "补蓝/青玻璃与玻璃板状态词表、有限形状与预览颜色",
+    "局部参数化幕墙层次消费者",
+    "外部细肋、玻璃平面、保留空气、间断灰色后景",
+    "完整NBT接缝校验：v3a新增细肋改变两处桥栏连接；v3b省略相邻新细肋并复检"
+  ],
+  "capability_rating": "case_specific / experimental",
+  "installed_skill_modified": false,
+  "trained_model": false,
+  "next_validation": [
+    "Java1.21.1原版默认材质、不开光影，导入A/B/C样板",
+    "检查更新后铁栏/玻璃连接、透视、碰撞与夜景灯光",
+    "按近中远景调整细条间距及蓝青比例",
+    "在另一栋未参与调参建筑迁移，再判断可复用性"
+  ],
+  "not_complete": [
+    "原版游戏验收",
+    "真实反射",
+    "背侧来源覆盖",
+    "照片还原度验收",
+    "可进入真实办公空间"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "template_version": "0.1",
+  "units": "metre",
+  "coordinate_definition": null,
+  "parameters": [],
+  "parameter_record_fields": {
+    "id": "stable parameter ID",
+    "component_id": null,
+    "definition": "exact measurement endpoints/datum",
+    "value_m": null,
+    "range_m": null,
+    "evidence_status": "unknown|assumed|inferred|confirmed",
+    "source_ids": [],
+    "method": null,
+    "assumptions": [],
+    "target_epoch": null,
+    "user_acceptance": "pending"
+  },
+  "footprint": [],
+  "anchors": [],
+  "levels": [],
+  "components": [],
+  "openings": [],
+  "circulation": [],
+  "minecraft_conversion": {
+    "blocks_per_metre": 1.0,
+    "rounding_rule": null,
+    "locked_anchors": [],
+    "parameters": [],
+    "deviations": []
+  },
+  "note": "真实米制参数与Minecraft参数分开维护；未知维度不可默认为0。"
+}

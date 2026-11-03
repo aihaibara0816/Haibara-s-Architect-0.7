@@ -1,0 +1,98 @@
+{
+  "version": "V3",
+  "previous_fidelity": "V2 podium rejected by user; offline technical checks did not validate footprint fidelity",
+  "feedback": "斜卫星有高层投影偏移。整体采用对称倒T：前横向展开，后部居中收窄；不要保留单侧突出。",
+  "references": [
+    {
+      "id": "user-plan",
+      "path": "research/v3/images/user-plan.jpg",
+      "sha256": "004577c060a74a396afc0777d42d58b60d30c0541357cd62a3fafadab9777e32",
+      "source": "user supplied",
+      "viewed": true,
+      "licence": "user supplied for this case"
+    },
+    {
+      "id": "user-v2-top",
+      "path": "research/v3/images/user-v2-top.png",
+      "sha256": "3a28525ca8b9b321a52a6d1ee4675a6785fef4710dd7cb440c313488bcdac262",
+      "source": "user supplied",
+      "viewed": true,
+      "licence": "user supplied for this case"
+    },
+    {
+      "id": "user-v2-oblique",
+      "path": "research/v3/images/user-v2-oblique.png",
+      "sha256": "a8c6628d8f03a94e17f5c7cf8407a0230a394079a9e4c38fc0cb2700d0c26182",
+      "source": "user supplied",
+      "viewed": true,
+      "licence": "user supplied for this case"
+    },
+    {
+      "id": "user-photo",
+      "path": "research/v3/images/user-photo.png",
+      "sha256": "52a508dae807b1192a1dc3a44f901ee8414c176ad1d3078ba202884f6dbaa8b5",
+      "source": "user supplied",
+      "viewed": true,
+      "licence": "user supplied for this case"
+    }
+  ],
+  "reuse": "11张V2已查看照片及原来源记录全部保留；本轮新增用户标注，不把模型截图算独立实景。",
+  "components": [
+    {
+      "id": "podium.front_bar",
+      "change": "前横段宽101格、主体进深15格；前柱廊独立向前延伸",
+      "evidence": [
+        "user-plan",
+        "OSM way313905695"
+      ],
+      "parameter": "v3.podium_components[0]",
+      "consumer": "CustomsV3.masks / inherited shell_and_floors",
+      "confidence": "topology medium-high; dimensions estimated"
+    },
+    {
+      "id": "podium.centered_stem",
+      "change": "后段宽77格，左右各退12格，延伸至轴线后门；删除V2单边翼",
+      "evidence": [
+        "user-plan",
+        "OSM way313905695"
+      ],
+      "parameter": "v3.podium_components[1]",
+      "consumer": "CustomsV3.masks",
+      "confidence": "topology medium-high; dimensions estimated"
+    },
+    {
+      "id": "tower.central",
+      "change": "中央后墙退入8格，下段深度32→24，避免把偏移屋顶解释成后伸实体",
+      "evidence": [
+        "user-plan",
+        "user-photo"
+      ],
+      "parameter": "tower.central_rect",
+      "consumer": "masks / tower_facades",
+      "confidence": "medium; no metric registration"
+    },
+    {
+      "id": "podium.roof",
+      "change": "两座玻璃房落在居中后段，绿灰屋面跟随承托面，不再构成单侧突起",
+      "evidence": [
+        "user-photo",
+        "img-nc-11"
+      ],
+      "parameter": "podium.glass_pavilions / roof_tinted_regions",
+      "consumer": "CustomsV3.podium",
+      "confidence": "presence confirmed; placement estimated"
+    },
+    {
+      "id": "podium.rear_portal",
+      "change": "三拱与后门移至中轴末端，去除侧面孤立突出",
+      "evidence": [
+        "user-photo",
+        "user interpretation"
+      ],
+      "parameter": "v3.rear_portal",
+      "consumer": "CustomsV3.podium",
+      "confidence": "provisional position; arch morphology photo-supported"
+    }
+  ],
+  "acceptance": "pending user visual review; not game tested"
+}

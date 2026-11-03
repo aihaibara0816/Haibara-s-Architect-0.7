@@ -1,0 +1,114 @@
+[
+  {
+    "image_id": "img-01",
+    "rect_normalized": [
+      0.27,
+      0.12,
+      0.69,
+      0.7
+    ],
+    "observation": "街侧连续错位窗格，窄窗与白墙交替",
+    "parameter": "facade.row_height/pitch/recess_blocks",
+    "consumer": "Osaka.facade(26,+1,...)",
+    "review": "facade / 三层坐标检查",
+    "execution_status": "generated; case-specific manual interpretation"
+  },
+  {
+    "image_id": "img-02",
+    "rect_normalized": [
+      0.4,
+      0.31,
+      0.98,
+      0.8
+    ],
+    "observation": "电视台转角斜玻璃、错位细框及独立底面",
+    "parameter": "Osaka.podium中的斜面常量；尚未全部参数化",
+    "consumer": "Osaka.podium tv.*",
+    "review": "underside / tv样板",
+    "execution_status": "generated; case-specific manual interpretation"
+  },
+  {
+    "image_id": "img-03",
+    "rect_normalized": [
+      0.28,
+      0.2,
+      0.82,
+      0.81
+    ],
+    "observation": "塔体前后错位、临河竖向实墙",
+    "parameter": "form.tower_x/z/y + 局部常量",
+    "consumer": "Osaka.tower",
+    "review": "四面 / 真俯视",
+    "execution_status": "generated; case-specific manual interpretation"
+  },
+  {
+    "image_id": "img-04",
+    "rect_normalized": [
+      0.13,
+      0.01,
+      0.93,
+      0.43
+    ],
+    "observation": "窗格旁的深缝和较宽竖向墙片",
+    "parameter": "tower.service_blade/left_blade代码常量",
+    "consumer": "Osaka.tower",
+    "review": "river / 非镜像检查",
+    "execution_status": "generated; case-specific manual interpretation"
+  },
+  {
+    "image_id": "img-04",
+    "rect_normalized": [
+      0.12,
+      0.4,
+      0.98,
+      0.61
+    ],
+    "observation": "白公共层横向薄带、凸窗及底面",
+    "parameter": "public.white_box/projecting_window/soffit常量",
+    "consumer": "Osaka.podium",
+    "review": "base / 独立凸窗层",
+    "execution_status": "generated; case-specific manual interpretation"
+  },
+  {
+    "image_id": "img-05",
+    "rect_normalized": [
+      0.01,
+      0.6,
+      0.99,
+      0.92
+    ],
+    "observation": "深灰基座横向窗和临河露台",
+    "parameter": "podium.ribbon + site.deck_y（地台实际坐标常量）",
+    "consumer": "Osaka.podium/site",
+    "review": "base / deck样板",
+    "execution_status": "generated; case-specific manual interpretation"
+  },
+  {
+    "image_id": "img-06",
+    "rect_normalized": [
+      0.22,
+      0.12,
+      0.42,
+      0.23
+    ],
+    "observation": "顶端设备凹槽与天线轮廓",
+    "parameter": "roof.antenna_recess/dish常量",
+    "consumer": "Osaka.tower",
+    "review": "四面；实际屋顶平面仍未知",
+    "execution_status": "generated; case-specific manual interpretation"
+  },
+  {
+    "image_id": "img-07",
+    "rect_normalized": [
+      0.12,
+      0.56,
+      0.93,
+      0.86
+    ],
+    "observation": "公共层部分窗亮，主体并非全亮",
+    "parameter": "lighting.seed/window_probability",
+    "consumer": "Osaka.facade / lighting.entry",
+    "review": "同机位夜景；具体灯位为合成",
+    "execution_status": "generated; case-specific manual interpretation"
+  }
+]

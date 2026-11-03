@@ -1,0 +1,173 @@
+{
+  "source_nbt_sha256": "062effe7a8b0159a08af9a226fdcefb92c45939dc6454bee087c38ef20ecb7a4",
+  "non_air": 10968,
+  "entries": [
+    {
+      "id": "Inn",
+      "pos": [
+        18,
+        3,
+        29
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 14,
+  "use_checks": [
+    {
+      "id": "Inn.stairs.bottom",
+      "pos": [
+        6,
+        3,
+        17
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.stairs.top",
+      "pos": [
+        6,
+        9,
+        10
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.lobby",
+      "pos": [
+        18,
+        3,
+        27
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.reception",
+      "pos": [
+        24,
+        3,
+        23
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.tea",
+      "pos": [
+        14,
+        3,
+        23
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.bath",
+      "pos": [
+        13,
+        3,
+        15
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.kitchen",
+      "pos": [
+        27,
+        3,
+        14
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.dining",
+      "pos": [
+        22,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.hall",
+      "pos": [
+        18,
+        9,
+        25
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.west.room",
+      "pos": [
+        14,
+        9,
+        20
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.east.room",
+      "pos": [
+        26,
+        9,
+        20
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.bed.west",
+      "pos": [
+        14,
+        9,
+        11
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.bed.east",
+      "pos": [
+        27,
+        9,
+        11
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.balcony",
+      "pos": [
+        18,
+        9,
+        31
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 57,
+  "paintings": 5,
+  "official_model_states": 97,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

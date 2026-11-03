@@ -1,0 +1,567 @@
+[
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "day_SE",
+    "eye": [
+      100.0,
+      64.0,
+      100.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "night_SE",
+    "eye": [
+      100.0,
+      64.0,
+      100.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "night": true
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "day_SW",
+    "eye": [
+      -60.0,
+      64.0,
+      100.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "night_SW",
+    "eye": [
+      -60.0,
+      64.0,
+      100.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "night": true
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "day_NW",
+    "eye": [
+      -60.0,
+      64.0,
+      -60.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "night_NW",
+    "eye": [
+      -60.0,
+      64.0,
+      -60.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "night": true
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "day_NE",
+    "eye": [
+      100.0,
+      64.0,
+      -60.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "night_NE",
+    "eye": [
+      100.0,
+      64.0,
+      -60.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "night": true
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "top",
+    "eye": [
+      20.0,
+      200,
+      20.0
+    ],
+    "target": [
+      20.0,
+      0,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 53.331999999999994,
+    "spanZ": 40
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "elevation_south",
+    "eye": [
+      20.0,
+      8,
+      100.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "elevation_east",
+    "eye": [
+      100.0,
+      8,
+      20.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "elevation_north",
+    "eye": [
+      20.0,
+      8,
+      -60.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "elevation_west",
+    "eye": [
+      -60.0,
+      8,
+      20.0
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "plan_ground",
+    "eye": [
+      20.0,
+      150,
+      20.0
+    ],
+    "target": [
+      20.0,
+      0,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "minY": 2,
+    "cutY": 5.99
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "section",
+    "eye": [
+      70,
+      27,
+      70
+    ],
+    "target": [
+      20.0,
+      8,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "cutX": 20.0
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "plan_upper",
+    "eye": [
+      20.0,
+      150,
+      20.0
+    ],
+    "target": [
+      20.0,
+      0,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "minY": 8,
+    "cutY": 11.99
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "layer_ground",
+    "eye": [
+      60.0,
+      40,
+      70.0
+    ],
+    "target": [
+      20.0,
+      3.995,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "minY": 0,
+    "cutY": 7.99
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "layer_upper",
+    "eye": [
+      60.0,
+      40,
+      70.0
+    ],
+    "target": [
+      20.0,
+      10.995000000000001,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "minY": 8,
+    "cutY": 13.99
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "layer_roof",
+    "eye": [
+      60.0,
+      40,
+      70.0
+    ],
+    "target": [
+      20.0,
+      21.0,
+      20.0
+    ],
+    "fov": 40,
+    "ortho": true,
+    "spanX": 65.06504,
+    "spanZ": 48.8,
+    "minY": 14,
+    "cutY": 28
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "front",
+    "eye": [
+      34,
+      4.62,
+      39
+    ],
+    "target": [
+      19,
+      10,
+      29
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "entry",
+    "eye": [
+      18,
+      4.62,
+      37
+    ],
+    "target": [
+      18,
+      5,
+      29
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "lounge",
+    "eye": [
+      16,
+      4.62,
+      26
+    ],
+    "target": [
+      11,
+      4.2,
+      23
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "reception",
+    "eye": [
+      22,
+      4.62,
+      27
+    ],
+    "target": [
+      28,
+      4.5,
+      23
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "kitchen",
+    "eye": [
+      30,
+      4.62,
+      15
+    ],
+    "target": [
+      27,
+      4.5,
+      9
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "bath",
+    "eye": [
+      15,
+      4.62,
+      15
+    ],
+    "target": [
+      12,
+      4.2,
+      10
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "guest",
+    "eye": [
+      16,
+      10.62,
+      20
+    ],
+    "target": [
+      13,
+      10.1,
+      12
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "guest_east",
+    "eye": [
+      28,
+      10.62,
+      20
+    ],
+    "target": [
+      25,
+      10.2,
+      12
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "hall",
+    "eye": [
+      20,
+      10.62,
+      25
+    ],
+    "target": [
+      12,
+      10.1,
+      26
+    ],
+    "fov": 78
+  },
+  {
+    "width": 1200,
+    "height": 900,
+    "concept": false,
+    "id": "balcony",
+    "eye": [
+      18,
+      10.62,
+      31
+    ],
+    "target": [
+      28,
+      11,
+      31
+    ],
+    "fov": 78
+  }
+]

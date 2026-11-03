@@ -1,0 +1,123 @@
+{
+  "source_nbt_sha256": "a3ffc910ebcdbd54e82c5ee0f45c28d0ef538976e55c9fbe8fd609632302e4b9",
+  "non_air": 7490,
+  "entries": [
+    {
+      "id": "Pharmacy",
+      "pos": [
+        25,
+        3,
+        22
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 9,
+  "use_checks": [
+    {
+      "id": "Pharmacy.stairs.bottom",
+      "pos": [
+        6,
+        3,
+        14
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.stairs.top",
+      "pos": [
+        6,
+        9,
+        7
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.entry",
+      "pos": [
+        25,
+        3,
+        23
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.shop",
+      "pos": [
+        16,
+        3,
+        21
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.service",
+      "pos": [
+        19,
+        3,
+        13
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.prep",
+      "pos": [
+        22,
+        3,
+        9
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.office",
+      "pos": [
+        16,
+        9,
+        21
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.stock",
+      "pos": [
+        22,
+        9,
+        15
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.bed",
+      "pos": [
+        24,
+        9,
+        22
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 78,
+  "paintings": 3,
+  "official_model_states": 106,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

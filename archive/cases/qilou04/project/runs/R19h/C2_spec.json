@@ -1,0 +1,634 @@
+{
+  "id": "C2",
+  "name": "南巷横宅",
+  "size": [
+    38,
+    84,
+    29
+  ],
+  "floors": [
+    2,
+    7,
+    12
+  ],
+  "entry": [
+    29,
+    3,
+    26
+  ],
+  "rooms": [
+    {
+      "id": "C2.F01.L.home",
+      "unit_id": "C2.F01.L",
+      "floor_id": "C2.F01",
+      "function": "living",
+      "bounds_xyz": [
+        74,
+        3,
+        182,
+        79,
+        6,
+        195
+      ],
+      "entrances": [
+        [
+          74,
+          3,
+          193
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        31,
+        3,
+        3,
+        36,
+        6,
+        16
+      ]
+    },
+    {
+      "id": "C2.F01.L.bath",
+      "unit_id": "C2.F01.L",
+      "floor_id": "C2.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        76,
+        3,
+        182,
+        79,
+        6,
+        185
+      ],
+      "entrances": [
+        [
+          76,
+          3,
+          184
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        33,
+        3,
+        3,
+        36,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "C2.F01.R.home",
+      "unit_id": "C2.F01.R",
+      "floor_id": "C2.F01",
+      "function": "living",
+      "bounds_xyz": [
+        45,
+        3,
+        182,
+        70,
+        6,
+        205
+      ],
+      "entrances": [
+        [
+          69,
+          3,
+          202
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        2,
+        3,
+        3,
+        27,
+        6,
+        26
+      ]
+    },
+    {
+      "id": "C2.F01.R.bath",
+      "unit_id": "C2.F01.R",
+      "floor_id": "C2.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        67,
+        3,
+        182,
+        70,
+        6,
+        185
+      ],
+      "entrances": [
+        [
+          67,
+          3,
+          184
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        24,
+        3,
+        3,
+        27,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "C2.F01.R.bedroom",
+      "unit_id": "C2.F01.R",
+      "floor_id": "C2.F01",
+      "function": "bedroom",
+      "bounds_xyz": [
+        45,
+        3,
+        198,
+        50,
+        6,
+        205
+      ],
+      "entrances": [
+        [
+          49,
+          3,
+          200
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        2,
+        3,
+        19,
+        7,
+        6,
+        26
+      ]
+    },
+    {
+      "id": "C2.F02.L.home",
+      "unit_id": "C2.F02.L",
+      "floor_id": "C2.F02",
+      "function": "living",
+      "bounds_xyz": [
+        74,
+        8,
+        182,
+        79,
+        11,
+        195
+      ],
+      "entrances": [
+        [
+          74,
+          8,
+          193
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        31,
+        8,
+        3,
+        36,
+        11,
+        16
+      ]
+    },
+    {
+      "id": "C2.F02.L.bath",
+      "unit_id": "C2.F02.L",
+      "floor_id": "C2.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        76,
+        8,
+        182,
+        79,
+        11,
+        185
+      ],
+      "entrances": [
+        [
+          76,
+          8,
+          184
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        33,
+        8,
+        3,
+        36,
+        11,
+        6
+      ]
+    },
+    {
+      "id": "C2.F02.R.studio",
+      "unit_id": "C2.F02.R",
+      "floor_id": "C2.F02",
+      "function": "living",
+      "bounds_xyz": [
+        59,
+        8,
+        186,
+        70,
+        11,
+        205
+      ],
+      "entrances": [
+        [
+          64,
+          8,
+          186
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        16,
+        8,
+        7,
+        27,
+        11,
+        26
+      ]
+    },
+    {
+      "id": "C2.F02.R.bath",
+      "unit_id": "C2.F02.R",
+      "floor_id": "C2.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        67,
+        8,
+        186,
+        70,
+        11,
+        190
+      ],
+      "entrances": [
+        [
+          67,
+          8,
+          189
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        24,
+        8,
+        7,
+        27,
+        11,
+        11
+      ]
+    },
+    {
+      "id": "C2.F02.R2.studio",
+      "unit_id": "C2.F02.R2",
+      "floor_id": "C2.F02",
+      "function": "living",
+      "bounds_xyz": [
+        45,
+        8,
+        186,
+        57,
+        11,
+        205
+      ],
+      "entrances": [
+        [
+          51,
+          8,
+          186
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        2,
+        8,
+        7,
+        14,
+        11,
+        26
+      ]
+    },
+    {
+      "id": "C2.F02.R2.bath",
+      "unit_id": "C2.F02.R2",
+      "floor_id": "C2.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        54,
+        8,
+        186,
+        57,
+        11,
+        190
+      ],
+      "entrances": [
+        [
+          54,
+          8,
+          189
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        11,
+        8,
+        7,
+        14,
+        11,
+        11
+      ]
+    },
+    {
+      "id": "C2.F03.L.home",
+      "unit_id": "C2.F03.L",
+      "floor_id": "C2.F03",
+      "function": "living",
+      "bounds_xyz": [
+        74,
+        13,
+        182,
+        79,
+        16,
+        195
+      ],
+      "entrances": [
+        [
+          74,
+          13,
+          193
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        31,
+        13,
+        3,
+        36,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "C2.F03.L.bath",
+      "unit_id": "C2.F03.L",
+      "floor_id": "C2.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        76,
+        13,
+        182,
+        79,
+        16,
+        185
+      ],
+      "entrances": [
+        [
+          76,
+          13,
+          184
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        33,
+        13,
+        3,
+        36,
+        16,
+        6
+      ]
+    },
+    {
+      "id": "C2.F03.R.studio",
+      "unit_id": "C2.F03.R",
+      "floor_id": "C2.F03",
+      "function": "living",
+      "bounds_xyz": [
+        59,
+        13,
+        186,
+        70,
+        16,
+        205
+      ],
+      "entrances": [
+        [
+          64,
+          13,
+          186
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        16,
+        13,
+        7,
+        27,
+        16,
+        26
+      ]
+    },
+    {
+      "id": "C2.F03.R.bath",
+      "unit_id": "C2.F03.R",
+      "floor_id": "C2.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        67,
+        13,
+        186,
+        70,
+        16,
+        190
+      ],
+      "entrances": [
+        [
+          67,
+          13,
+          189
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        24,
+        13,
+        7,
+        27,
+        16,
+        11
+      ]
+    },
+    {
+      "id": "C2.F03.R2.studio",
+      "unit_id": "C2.F03.R2",
+      "floor_id": "C2.F03",
+      "function": "living",
+      "bounds_xyz": [
+        45,
+        13,
+        186,
+        57,
+        16,
+        205
+      ],
+      "entrances": [
+        [
+          51,
+          13,
+          186
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        2,
+        13,
+        7,
+        14,
+        16,
+        26
+      ]
+    },
+    {
+      "id": "C2.F03.R2.bath",
+      "unit_id": "C2.F03.R2",
+      "floor_id": "C2.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        54,
+        13,
+        186,
+        57,
+        16,
+        190
+      ],
+      "entrances": [
+        [
+          54,
+          13,
+          189
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        11,
+        13,
+        7,
+        14,
+        16,
+        11
+      ]
+    }
+  ],
+  "uses": [],
+  "doors": [],
+  "lights": [],
+  "stairs": [],
+  "groups": [],
+  "sources": [],
+  "kind": "rear_cut",
+  "program": "home",
+  "urban": {
+    "id": "C2",
+    "name": "南巷横宅",
+    "x": 44,
+    "z": 181,
+    "w": 36,
+    "d": 25,
+    "floors": 3,
+    "rotation": 2,
+    "ground": "home",
+    "shape": "rear_cut",
+    "cut": 5,
+    "base_y": 3,
+    "palette": "rose",
+    "maintenance": 0.5283309392552532,
+    "balcony": true,
+    "street_role": "inner",
+    "extra_shop_entry": false,
+    "corner_shop": false
+  },
+  "unit_count": 8,
+  "main_entries": [
+    {
+      "id": "C2",
+      "entry": [
+        72,
+        3,
+        205
+      ],
+      "outside": [
+        72,
+        3,
+        206
+      ],
+      "core_landing": [
+        74,
+        3,
+        197
+      ],
+      "width": 2
+    }
+  ],
+  "upper_starts": {},
+  "stair_runs": [],
+  "family": "village",
+  "placement": {
+    "id": "C2",
+    "name": "南巷横宅",
+    "origin": [
+      43,
+      0,
+      179
+    ],
+    "turn": 0,
+    "w": 38,
+    "d": 29,
+    "family": "village",
+    "kind": "rear_cut",
+    "program": "home",
+    "lot": {
+      "id": "C2",
+      "name": "南巷横宅",
+      "x": 44,
+      "z": 181,
+      "w": 36,
+      "d": 25,
+      "floors": 3,
+      "rotation": 2,
+      "ground": "home",
+      "shape": "rear_cut",
+      "cut": 5,
+      "base_y": 3,
+      "palette": "rose",
+      "maintenance": 0.5283309392552532,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    "facade_revision": {
+      "palette": "rose",
+      "wall": "white_terracotta",
+      "roof": "flat_service",
+      "roof_label": "平屋顶与生活设备"
+    }
+  },
+  "source_nbt_sha256": "876e6094f021b717ceb271de9df8902f20e90ad7183967b4da501592e9876451",
+  "size_xyz": [
+    38,
+    84,
+    29
+  ],
+  "non_air": 8957,
+  "block_entities": 65,
+  "entities": 0
+}

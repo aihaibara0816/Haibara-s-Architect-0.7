@@ -1,0 +1,876 @@
+{
+  "case_id": "japanese_town_r01",
+  "research_release": "JapanTown01 · HAF 0.5 专题研究",
+  "date": "2026-10-29",
+  "status": "research_only",
+  "engine_consumer": null,
+  "build_run": null,
+  "model_weight_training": false,
+  "scope": "Freedom 系列目录、三类视频样本、真实街景对照、布局与随机性建议",
+  "sources": [
+    {
+      "source_id": "src-freedom",
+      "title": "Freedom. 日式建筑系列（原作者列表）",
+      "url": "https://www.youtube.com/watch?v=I40jEm-xIsU&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6",
+      "accessed_at": "2026-10-29",
+      "review_scope": "目录已读：页面 65 条；不等于 65 栋独立作品或全片已看"
+    },
+    {
+      "source_id": "src-shop",
+      "title": "Freedom #104 街角店：可播放转载",
+      "url": "https://www.bilibili.com/list/ml2584547842?bvid=BV1aG4y1B7fo&oid=815759550",
+      "accessed_at": "2026-10-29",
+      "review_scope": "抽查 00:25 外观、00:45 陈列、约 00:49 基底图；转载长度 47:03，原版 52:44，时间轴不通用"
+    },
+    {
+      "source_id": "src-inn",
+      "title": "Freedom #101 旅馆：可播放转载",
+      "url": "https://www.bilibili.com/video/BV1Kq4y1T7Sy/?vd_source=095f618f639990440118c69811815fa4",
+      "accessed_at": "2026-10-29",
+      "review_scope": "抽查约 00:15 正立面、00:33 室内；转载页标注授权，授权本身未独立核实"
+    },
+    {
+      "source_id": "src-garden",
+      "title": "Freedom #39 庭院住宅：可播放转载",
+      "url": "https://www.bilibili.com/video/BV1bt4y1q77Q/?vd_source=095f618f639990440118c69811815fa4",
+      "accessed_at": "2026-10-29",
+      "review_scope": "抽查开场鸟瞰、00:39 院落；转载页标注授权，未核实完整剪辑对应"
+    },
+    {
+      "source_id": "src-tour",
+      "title": "佐佐木百合：一年，一人，一城",
+      "url": "https://www.bilibili.com/video/BV1wUktYAE2G/",
+      "accessed_at": "2026-10-29",
+      "review_scope": "抽查约 01:15、03:01、03:14、05:39、06:42；不是完整逐帧分析"
+    },
+    {
+      "source_id": "src-shrine",
+      "title": "SheepGG：How To Build a Japanese Shrine",
+      "url": "https://www.youtube.com/watch?app=desktop&v=owNsauO6OxE",
+      "accessed_at": "2026-10-29",
+      "review_scope": "原页标题和作者已核；视频持续加载，未观察构造"
+    },
+    {
+      "source_id": "src-world",
+      "title": "用户提供的世界存档入口",
+      "url": "https://pan.baidu.com/s/1u5pI21PTSYN8mAuhtL5FWQ",
+      "accessed_at": "2026-10-29",
+      "review_scope": "提取码 1145；浏览器安全策略阻断，未下载、未读存档"
+    },
+    {
+      "source_id": "src-kawagoe",
+      "title": "川越市：传统建造物群保存地区",
+      "url": "https://www.city.kawagoe.saitama.jp/shisei/toshikei/1010554/1010635/1010636/1004111.html",
+      "accessed_at": "2026-10-29",
+      "review_scope": "官方文字与两幅街景照片已读；照片年代与朝向未知"
+    },
+    {
+      "source_id": "src-kura",
+      "title": "川越市立博物馆：蔵造り构造要点",
+      "url": "https://www.city.kawagoe.saitama.jp/museum/kura/1013742.html",
+      "accessed_at": "2026-10-29",
+      "review_scope": "厚土壁、箱棟、店蔵等构造文字已读"
+    },
+    {
+      "source_id": "src-yanaka",
+      "title": "GO TOKYO：谷中银座商店街",
+      "url": "https://www.gotokyo.org/en/spot/170/index.html",
+      "accessed_at": "2026-10-29",
+      "review_scope": "官方介绍与主图已读；日常小店及傍晚街景"
+    },
+    {
+      "source_id": "src-onomichi",
+      "title": "文化厅日本遗产：尾道箱庭都市",
+      "url": "https://japan-heritage.bunka.go.jp/ja/special/meguri/onomichi/",
+      "accessed_at": "2026-10-29",
+      "review_scope": "地形关系介绍、眺望与巷道照片已读"
+    },
+    {
+      "source_id": "src-taisho",
+      "title": "川越大正浪漫梦通：官方商店街",
+      "url": "https://www.koedo.com/",
+      "accessed_at": "2026-10-29",
+      "review_scope": "町屋与洋风看板建筑并存；街道电线地下化的具体反例"
+    },
+    {
+      "source_id": "src-night",
+      "title": "川越观光协会：2025 影绘灯光活动",
+      "url": "https://koedo.or.jp/notice/%E5%B7%9D%E8%B6%8A%E5%B8%82%E4%BB%B2%E7%94%BA%E8%A6%B3%E5%85%89%E6%A1%88%E5%86%85%E6%89%80%E5%BD%B1%E7%B5%B5%E3%83%A9%E3%82%A4%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%82%A4/",
+      "accessed_at": "2026-10-29",
+      "review_scope": "节庆照明资料；不作为常态街灯或每家住宅的灯光模板"
+    },
+    {
+      "source_id": "src-haf",
+      "title": "HAF05 研究案例与成果总库 v1",
+      "url": "[maintainer archive reference]",
+      "accessed_at": "2026-10-29",
+      "review_scope": "本轮读取当前报告中的田埂里、榕荫里、版本与流程记录；未重跑历史 NBT"
+    }
+  ],
+  "freedom_playlist": {
+    "url": "https://www.youtube.com/watch?v=I40jEm-xIsU&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6",
+    "observed_entries": 65,
+    "entries": [
+      {
+        "index": 1,
+        "video_id": "I40jEm-xIsU",
+        "number": "104",
+        "title": "街角和菓子店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=I40jEm-xIsU&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=1&pp=iAQB",
+        "status": "sampled_via_repost"
+      },
+      {
+        "index": 2,
+        "video_id": "QRdePpYnhBw",
+        "number": "101",
+        "title": "带禅风窗的传统旅馆",
+        "group": "旅宿",
+        "url": "https://www.youtube.com/watch?v=QRdePpYnhBw&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=2&pp=iAQB",
+        "status": "sampled_via_repost"
+      },
+      {
+        "index": 3,
+        "video_id": "NndX9m4N_18",
+        "number": "98",
+        "title": "旧式糖果店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=NndX9m4N_18&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=3&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 4,
+        "video_id": "gRdDy2JtC64",
+        "number": "97",
+        "title": "炉端烧酒馆",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=gRdDy2JtC64&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=4&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 5,
+        "video_id": "ap5Ste2LFSw",
+        "number": "95",
+        "title": "日式铁匠铺",
+        "group": "工坊",
+        "url": "https://www.youtube.com/watch?v=ap5Ste2LFSw&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=5&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 6,
+        "video_id": "hgMa57IjiFw",
+        "number": "92",
+        "title": "小型神社",
+        "group": "地标",
+        "url": "https://www.youtube.com/watch?v=hgMa57IjiFw&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=6&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 7,
+        "video_id": "hBvIvh87EXU",
+        "number": "91",
+        "title": "传统町屋",
+        "group": "住宅",
+        "url": "https://www.youtube.com/watch?v=hBvIvh87EXU&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=7&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 8,
+        "video_id": "OUyHmCbOGI0",
+        "number": "90",
+        "title": "漫画书店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=OUyHmCbOGI0&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=8&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 9,
+        "video_id": "MeaT3ZzHzMs",
+        "number": "—",
+        "title": "盆景",
+        "group": "细部",
+        "url": "https://www.youtube.com/watch?v=MeaT3ZzHzMs&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=9&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 10,
+        "video_id": "ZqjbU7vxKz4",
+        "number": "89",
+        "title": "传统腌菜店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=ZqjbU7vxKz4&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=10&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 11,
+        "video_id": "KBoFntZ0BTg",
+        "number": "88",
+        "title": "拉面店",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=KBoFntZ0BTg&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=11&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 12,
+        "video_id": "ZMkrpqAuo8Y",
+        "number": "—",
+        "title": "和服店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=ZMkrpqAuo8Y&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=12&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 13,
+        "video_id": "0j4LX74Yd1c",
+        "number": "85",
+        "title": "烤鱿鱼店",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=0j4LX74Yd1c&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=13&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 14,
+        "video_id": "4k8IB3gpt98",
+        "number": "84",
+        "title": "传统町屋",
+        "group": "住宅",
+        "url": "https://www.youtube.com/watch?v=4k8IB3gpt98&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=14&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 15,
+        "video_id": "o1S3L7jVAjo",
+        "number": "83",
+        "title": "回转寿司店",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=o1S3L7jVAjo&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=15&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 16,
+        "video_id": "mf5E854iVTg",
+        "number": "82",
+        "title": "大阪烧店",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=mf5E854iVTg&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=16&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 17,
+        "video_id": "dn0DATiKkIM",
+        "number": "81",
+        "title": "绿茶店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=dn0DATiKkIM&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=17&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 18,
+        "video_id": "KLR765Njya0",
+        "number": "80",
+        "title": "烧鸟酒馆",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=KLR765Njya0&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=18&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 19,
+        "video_id": "gTJ4Xq3tfGQ",
+        "number": "79",
+        "title": "屋敷宅邸",
+        "group": "住宅",
+        "url": "https://www.youtube.com/watch?v=gTJ4Xq3tfGQ&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=19&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 20,
+        "video_id": "MfB6pZOmAyQ",
+        "number": "78",
+        "title": "合掌造住宅",
+        "group": "地域专类",
+        "url": "https://www.youtube.com/watch?v=MfB6pZOmAyQ&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=20&pp=iAQB0gcJCSsMAYcqIYzv",
+        "status": "catalog_only"
+      },
+      {
+        "index": 21,
+        "video_id": "jfSDFLwpIA0",
+        "number": "73",
+        "title": "温泉基地",
+        "group": "旅宿",
+        "url": "https://www.youtube.com/watch?v=jfSDFLwpIA0&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=21&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 22,
+        "video_id": "lj3dPllnix4",
+        "number": "67",
+        "title": "茶屋基地",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=lj3dPllnix4&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=22&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 23,
+        "video_id": "kBoXoy8_i4I",
+        "number": "39",
+        "title": "庭院住宅",
+        "group": "住宅",
+        "url": "https://www.youtube.com/watch?v=kBoXoy8_i4I&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=23&pp=iAQB",
+        "status": "sampled_via_repost"
+      },
+      {
+        "index": 24,
+        "video_id": "Ng1ckuitB7o",
+        "number": "37",
+        "title": "日式甜品店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=Ng1ckuitB7o&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=24&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 25,
+        "video_id": "cnIeYfWfg9A",
+        "number": "105",
+        "title": "传统道场",
+        "group": "公共",
+        "url": "https://www.youtube.com/watch?v=cnIeYfWfg9A&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=25&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 26,
+        "video_id": "gNy7AgeOiGM",
+        "number": "—",
+        "title": "川越星巴克",
+        "group": "现实店铺",
+        "url": "https://www.youtube.com/watch?v=gNy7AgeOiGM&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=26&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 27,
+        "video_id": "k6vbxUZ7Xxo",
+        "number": "—",
+        "title": "星巴克招牌制作",
+        "group": "细部",
+        "url": "https://www.youtube.com/watch?v=k6vbxUZ7Xxo&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=27&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 28,
+        "video_id": "czQhG4qDk0A",
+        "number": "106",
+        "title": "京都星巴克内装",
+        "group": "内饰",
+        "url": "https://www.youtube.com/watch?v=czQhG4qDk0A&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=28&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 29,
+        "video_id": "8wNSJNqTDV4",
+        "number": "106",
+        "title": "京都星巴克外装",
+        "group": "现实店铺",
+        "url": "https://www.youtube.com/watch?v=8wNSJNqTDV4&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=29&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 30,
+        "video_id": "iI0BRfu6rTM",
+        "number": "108",
+        "title": "章鱼烧店",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=iI0BRfu6rTM&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=30&pp=iAQB0gcJCSsMAYcqIYzv",
+        "status": "catalog_only"
+      },
+      {
+        "index": 31,
+        "video_id": "4gjh99gcbCc",
+        "number": "—",
+        "title": "鬼灭之刃启发的游郭",
+        "group": "幻想专类",
+        "url": "https://www.youtube.com/watch?v=4gjh99gcbCc&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=31&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 32,
+        "video_id": "4bT0LTq-0Ag",
+        "number": "1",
+        "title": "鬼灭之刃启发的游郭第一部",
+        "group": "幻想专类",
+        "url": "https://www.youtube.com/watch?v=4bT0LTq-0Ag&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=32&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 33,
+        "video_id": "2F6b5po1Wdw",
+        "number": "111",
+        "title": "鬼灭之刃启发的游郭第二部",
+        "group": "幻想专类",
+        "url": "https://www.youtube.com/watch?v=2F6b5po1Wdw&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=33&pp=iAQB0gcJCSsMAYcqIYzv",
+        "status": "catalog_only"
+      },
+      {
+        "index": 34,
+        "video_id": "FvH0S4nK3M8",
+        "number": "112",
+        "title": "土锅饭餐厅",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=FvH0S4nK3M8&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=34&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 35,
+        "video_id": "nYimfIM1ZQY",
+        "number": "115",
+        "title": "刀具店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=nYimfIM1ZQY&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=35&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 36,
+        "video_id": "oswYY7ziFUo",
+        "number": "117",
+        "title": "传统日式住宅",
+        "group": "住宅",
+        "url": "https://www.youtube.com/watch?v=oswYY7ziFUo&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=36&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 37,
+        "video_id": "iU58VtGhnSs",
+        "number": "119",
+        "title": "金泽茶屋街廊",
+        "group": "街区",
+        "url": "https://www.youtube.com/watch?v=iU58VtGhnSs&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=37&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 38,
+        "video_id": "hFh6W-gSL2E",
+        "number": "120",
+        "title": "金泽町屋（同题条目 A）",
+        "group": "住宅",
+        "url": "https://www.youtube.com/watch?v=hFh6W-gSL2E&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=38&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 39,
+        "video_id": "98DPePLhqHA",
+        "number": "120",
+        "title": "金泽町屋（同题条目 B）",
+        "group": "住宅",
+        "url": "https://www.youtube.com/watch?v=98DPePLhqHA&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=39&pp=iAQB0gcJCSsMAYcqIYzv",
+        "status": "catalog_only"
+      },
+      {
+        "index": 40,
+        "video_id": "nD8B7H8pkb8",
+        "number": "—",
+        "title": "原创材质包：日式绘画",
+        "group": "材质",
+        "url": "https://www.youtube.com/watch?v=nD8B7H8pkb8&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=40&pp=iAQB0gcJCSsMAYcqIYzv",
+        "status": "catalog_only"
+      },
+      {
+        "index": 41,
+        "video_id": "_Rc-HXG1i6I",
+        "number": "120",
+        "title": "传统烟草店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=_Rc-HXG1i6I&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=41&pp=iAQB0gcJCSsMAYcqIYzv",
+        "status": "catalog_only"
+      },
+      {
+        "index": 42,
+        "video_id": "Vjj4spESXx8",
+        "number": "121",
+        "title": "传统公共浴场",
+        "group": "公共",
+        "url": "https://www.youtube.com/watch?v=Vjj4spESXx8&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=42&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 43,
+        "video_id": "AJkBOQj2gls",
+        "number": "121",
+        "title": "公共浴场演示",
+        "group": "公共",
+        "url": "https://www.youtube.com/watch?v=AJkBOQj2gls&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=43&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 44,
+        "video_id": "ki-jQWy0orA",
+        "number": "122",
+        "title": "寿司摊",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=ki-jQWy0orA&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=44&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 45,
+        "video_id": "KShEV9HvkXc",
+        "number": "121_2",
+        "title": "公共浴场第二部分",
+        "group": "公共",
+        "url": "https://www.youtube.com/watch?v=KShEV9HvkXc&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=45&pp=iAQB0gcJCSsMAYcqIYzv",
+        "status": "catalog_only"
+      },
+      {
+        "index": 46,
+        "video_id": "bTxqEZKwYlU",
+        "number": "121_3",
+        "title": "公共浴场第三部分",
+        "group": "公共",
+        "url": "https://www.youtube.com/watch?v=bTxqEZKwYlU&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=46&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 47,
+        "video_id": "e67elUAT-I4",
+        "number": "121_4",
+        "title": "公共浴场第四部分",
+        "group": "公共",
+        "url": "https://www.youtube.com/watch?v=e67elUAT-I4&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=47&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 48,
+        "video_id": "-22DBeF4tt4",
+        "number": "121_5",
+        "title": "公共浴场第五部分",
+        "group": "公共",
+        "url": "https://www.youtube.com/watch?v=-22DBeF4tt4&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=48&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 49,
+        "video_id": "t-tAYU-TuOQ",
+        "number": "124",
+        "title": "味噌店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=t-tAYU-TuOQ&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=49&pp=iAQB0gcJCSsMAYcqIYzv",
+        "status": "catalog_only"
+      },
+      {
+        "index": 50,
+        "video_id": "p4iQpU3sSU8",
+        "number": "125",
+        "title": "五重塔",
+        "group": "地标",
+        "url": "https://www.youtube.com/watch?v=p4iQpU3sSU8&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=50&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 51,
+        "video_id": "gsYyKQxltAQ",
+        "number": "—",
+        "title": "原创材质包：10 个方块变化",
+        "group": "材质",
+        "url": "https://www.youtube.com/watch?v=gsYyKQxltAQ&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=51&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 52,
+        "video_id": "pQNmHrjzpjA",
+        "number": "—",
+        "title": "原创材质包：22 个方块变化",
+        "group": "材质",
+        "url": "https://www.youtube.com/watch?v=pQNmHrjzpjA&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=52&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 53,
+        "video_id": "uSa6bQrI1b8",
+        "number": "126",
+        "title": "荞麦面店与旅馆",
+        "group": "旅宿",
+        "url": "https://www.youtube.com/watch?v=uSa6bQrI1b8&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=53&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 54,
+        "video_id": "IOKz5S4fHSc",
+        "number": "127",
+        "title": "带火车与车站的日式城镇",
+        "group": "街区",
+        "url": "https://www.youtube.com/watch?v=IOKz5S4fHSc&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=54&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 55,
+        "video_id": "yDlbbRliQzU",
+        "number": "—",
+        "title": "日式住宅与更新的材质包",
+        "group": "材质",
+        "url": "https://www.youtube.com/watch?v=yDlbbRliQzU&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=55&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 56,
+        "video_id": "WtBQ3OeAjOM",
+        "number": "128",
+        "title": "味噌店外装",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=WtBQ3OeAjOM&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=56&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 57,
+        "video_id": "AXg3qndKra8",
+        "number": "128",
+        "title": "味噌店内装",
+        "group": "内饰",
+        "url": "https://www.youtube.com/watch?v=AXg3qndKra8&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=57&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 58,
+        "video_id": "skGI-24ewLA",
+        "number": "129",
+        "title": "日式拉面摊",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=skGI-24ewLA&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=58&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 59,
+        "video_id": "s8kzBLr66Pc",
+        "number": "130",
+        "title": "神田竹村甜品店展示",
+        "group": "现实店铺",
+        "url": "https://www.youtube.com/watch?v=s8kzBLr66Pc&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=59&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 60,
+        "video_id": "gVIlPfItjlQ",
+        "number": "130",
+        "title": "神田竹村甜品店教程",
+        "group": "现实店铺",
+        "url": "https://www.youtube.com/watch?v=gVIlPfItjlQ&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=60&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 61,
+        "video_id": "-D8Z03xxyOg",
+        "number": "131",
+        "title": "日式甜品店",
+        "group": "商业",
+        "url": "https://www.youtube.com/watch?v=-D8Z03xxyOg&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=61&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 62,
+        "video_id": "_e1nmpcAUMI",
+        "number": "132",
+        "title": "川越风江户町屋",
+        "group": "住宅",
+        "url": "https://www.youtube.com/watch?v=_e1nmpcAUMI&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=62&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 63,
+        "video_id": "RVqtbo9OMQg",
+        "number": "136",
+        "title": "旧式日式咖啡店",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=RVqtbo9OMQg&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=63&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 64,
+        "video_id": "7wtWzXT8OXk",
+        "number": "137",
+        "title": "烧鸟酒馆",
+        "group": "餐饮",
+        "url": "https://www.youtube.com/watch?v=7wtWzXT8OXk&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=64&pp=iAQB",
+        "status": "catalog_only"
+      },
+      {
+        "index": 65,
+        "video_id": "EznMSB6gSEE",
+        "number": "—",
+        "title": "原创材质包 Sento：全部方块说明",
+        "group": "材质",
+        "url": "https://www.youtube.com/watch?v=EznMSB6gSEE&list=PL2oIiHsyXe3CTsc_S-c2iYUT9zT2X8FT6&index=65&pp=iAQB",
+        "status": "catalog_only"
+      }
+    ],
+    "note": "目录条目数，不等于已完整观看数或去重后的建筑数；中文为标题意译。"
+  },
+  "observations": [
+    {
+      "id": "obs-f01",
+      "source_id": "src-shop",
+      "time": "00:25 (repost)",
+      "region": "roof/eave/upper facade/shopfront",
+      "observation": "深灰坡顶、连续下层挑檐；上层细格窗，下层较大营业开口；招牌和暖帘落在营业侧。",
+      "component": "shop.frontage",
+      "proposed_rule": "先锁檐线、柱距、入口，再按营业界面配置陈列，不逐格随机开窗。"
+    },
+    {
+      "id": "obs-f02",
+      "source_id": "src-shop",
+      "time": "~00:49 (repost)",
+      "region": "plan",
+      "observation": "准备基底画面标注 12 与 9，铺地内部有不同分区。",
+      "component": "shop.base",
+      "proposed_rule": "可做 12×9 基底构件试验；非整栋含檐包围盒，不能推导米制尺寸。"
+    },
+    {
+      "id": "obs-f03",
+      "source_id": "src-inn",
+      "time": "~00:15,00:33 (repost)",
+      "region": "front facade/interior",
+      "observation": "双层横向檐线、成组窗格、居中入口；内景有深木、浅色面板、窗边植栽和悬挂灯。",
+      "component": "inn.facade_and_interior",
+      "proposed_rule": "旅馆采用重复房间节奏，但公共入口与窗后层单独设计。"
+    },
+    {
+      "id": "obs-f04",
+      "source_id": "src-garden",
+      "time": "opening,00:39 (repost)",
+      "region": "roof/courtyard",
+      "observation": "高低屋面组合围出庭院；院内台阶、石路、植栽与小构筑物共同形成路径。",
+      "component": "house.courtyard",
+      "proposed_rule": "先划院落与穿行路线，再布树和道具；主屋、门屋分体量。"
+    },
+    {
+      "id": "obs-t01",
+      "source_id": "src-tour",
+      "time": "03:14",
+      "region": "gate/platform",
+      "observation": "大型门楼在抬高台地上，中央台阶，两侧摊棚。",
+      "component": "landmark.platform",
+      "proposed_rule": "地标集中成一个节点，维持台阶与前场，而非均匀插到每条街。"
+    },
+    {
+      "id": "obs-t02",
+      "source_id": "src-tour",
+      "time": "05:39,06:42",
+      "region": "street/boundary",
+      "observation": "可见道路标线、路口与隧道；另一段有围墙、绿化与退后住宅，远处出现较高的传统地标。",
+      "component": "town.street_layers",
+      "proposed_rule": "分别组织交通主街、住宅巷道与地标视线；不把所有街道做成同一断面。"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "img-jp-001",
+      "url": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/004/111/140910130300_1.jpg",
+      "sha256": "ed9ddb6c4642e78719621b5c65f232916af333b62c00a7e370285869f7f79b42",
+      "pixels": [
+        320,
+        223
+      ],
+      "bytes": 13471,
+      "status": "visually_reviewed",
+      "orientation": null,
+      "capture_date": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "source_page_url": "https://www.city.kawagoe.saitama.jp/shisei/toshikei/1010554/1010635/1010636/1004111.html",
+      "title": "川越 · 一番街"
+    },
+    {
+      "image_id": "img-jp-002",
+      "url": "https://www.gotokyo.org/en/spot/170/images/main.webp",
+      "sha256": "6eece7e78a9e1d10f51492d527705061caaa66c326562a0382457830a786382e",
+      "pixels": [
+        1200,
+        525
+      ],
+      "bytes": 153594,
+      "status": "visually_reviewed",
+      "orientation": null,
+      "capture_date": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "source_page_url": "https://www.gotokyo.org/en/spot/170/index.html",
+      "title": "谷中银座 · 傍晚生活商街"
+    },
+    {
+      "image_id": "img-jp-004",
+      "url": "https://www.city.kawagoe.saitama.jp/_res/projects/default_project/_page_/001/004/111/yoruno.jpg",
+      "sha256": "e6abc326175ecafa8f697f1b74acc91e5f854e821b0e9b75aa4c3e91653a07b8",
+      "pixels": [
+        320,
+        223
+      ],
+      "bytes": 22588,
+      "status": "visually_reviewed",
+      "orientation": null,
+      "capture_date": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "source_page_url": "https://www.city.kawagoe.saitama.jp/shisei/toshikei/1010554/1010635/1010636/1004111.html",
+      "title": "川越 · 时之钟街口"
+    },
+    {
+      "image_id": "img-jp-005",
+      "url": "https://japan-heritage.bunka.go.jp/ja/special/meguri/onomichi/images/img_cou1_3.jpg",
+      "sha256": "e0074b921c1ec6ecad8d9c6a3b83859eb1413ae357d787f4c9ee0c4a6acf70c1",
+      "pixels": [
+        480,
+        320
+      ],
+      "bytes": 37266,
+      "status": "visually_reviewed",
+      "orientation": null,
+      "capture_date": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "source_page_url": "https://japan-heritage.bunka.go.jp/ja/special/meguri/onomichi/",
+      "title": "尾道 · 山坡与水岸"
+    },
+    {
+      "image_id": "img-jp-006",
+      "url": "https://japan-heritage.bunka.go.jp/ja/special/meguri/onomichi/images/img_cou1_9.jpg",
+      "sha256": "015f69206c63ef90b029bc7d234debd20c819a6ad109f4558869713f1a677514",
+      "pixels": [
+        480,
+        320
+      ],
+      "bytes": 39427,
+      "status": "visually_reviewed",
+      "orientation": null,
+      "capture_date": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "source_page_url": "https://japan-heritage.bunka.go.jp/ja/special/meguri/onomichi/",
+      "title": "尾道 · 通向水岸的巷道"
+    }
+  ],
+  "proposals": {
+    "prototype": "8 栋混合用途街段",
+    "site_blocks": [
+      80,
+      64
+    ],
+    "site_dimensions_status": "design_trial_not_measurement",
+    "seed_channels": [
+      "parcel",
+      "building",
+      "material",
+      "plants",
+      "room_lighting"
+    ],
+    "fixed_objects": [
+      "road_graph",
+      "drainage_graph",
+      "doors",
+      "walkways",
+      "public_lights"
+    ],
+    "independent_skill_created": false
+  },
+  "validation": {
+    "source_catalog": "reviewed",
+    "video_scope": "sampled_not_complete",
+    "world_archive": "unverifiable",
+    "geometry": "pending",
+    "visual_fidelity": "pending",
+    "minecraft": "pending"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "group": "Inn",
+  "source_nbt_sha256": "88e2fc17e0e5b2ffc62a54b7ebed90a35d066c6f55cb68539774b4a73bb563cc",
+  "blocks": 6770,
+  "states": 74,
+  "uses": [
+    {
+      "id": "Inn.side_entry",
+      "pos": [
+        16,
+        3,
+        16
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.main_entry",
+      "pos": [
+        10,
+        3,
+        22
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.reception",
+      "pos": [
+        10,
+        3,
+        19
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.lobby",
+      "pos": [
+        7,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.kitchen",
+      "pos": [
+        12,
+        3,
+        7
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.guest.9.9",
+      "pos": [
+        10,
+        10,
+        8
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Inn.guest.9.18",
+      "pos": [
+        19,
+        10,
+        8
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Inn.wash.9",
+      "pos": [
+        18,
+        10,
+        18
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Inn.lounge.9",
+      "pos": [
+        13,
+        10,
+        24
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Inn.guest.15.9",
+      "pos": [
+        10,
+        16,
+        8
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Inn.guest.15.18",
+      "pos": [
+        19,
+        16,
+        8
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Inn.wash.15",
+      "pos": [
+        18,
+        16,
+        18
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Inn.lounge.15",
+      "pos": [
+        13,
+        16,
+        24
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Inn.stairs.lower.2",
+      "pos": [
+        1,
+        3,
+        15
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Inn.stairs.upper.9",
+      "pos": [
+        1,
+        10,
+        7
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Inn.stairs.lower.9",
+      "pos": [
+        1,
+        10,
+        15
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Inn.stairs.upper.15",
+      "pos": [
+        1,
+        16,
+        8
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    }
+  ],
+  "stairs": [
+    {
+      "from_floor": 2,
+      "to_floor": 9,
+      "samples": 65,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "from_floor": 9,
+      "to_floor": 15,
+      "samples": 57,
+      "end_y": 16,
+      "errors": []
+    }
+  ],
+  "arcade": [],
+  "block_entities": 41,
+  "paintings": 2,
+  "errors": [],
+  "game": "pending",
+  "aesthetic": "pending user review",
+  "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+}

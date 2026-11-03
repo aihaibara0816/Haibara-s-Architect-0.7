@@ -1,0 +1,37 @@
+{
+  "case": "Taisho16",
+  "run": "V09",
+  "mainline": "HAF 0.4",
+  "predecessor": "Taisho15 / needs_revision by user",
+  "reference": "Komorebi09 / T07 relationship, expanded and reauthored",
+  "geometry": "passed final NBT checks",
+  "world": "passed source readback",
+  "game": "pending client run",
+  "aesthetic": "pending user review",
+  "building_count": 18,
+  "preserved_T15_modules": 17,
+  "retired": "Clock",
+  "added": "Hall",
+  "size_xyz": [
+    320,
+    92,
+    288
+  ],
+  "main_road_cross_sections": 1137,
+  "incomplete_paved_sections": 0,
+  "north_canopy_fraction": 0.8407,
+  "trees": 822,
+  "nbt_sha256": "38bbaf2e0c8284838302f179ef83b95bacb1b03e827034daf0448492ae3ea917",
+  "playback_reference": "YouTube page read, video buffered; zero tutorial frames claimed",
+  "limitations": [
+    "authored case terrain, not vanilla generation",
+    "no general arbitrary-terrain NBT building solver",
+    "offline first-frame texture previews",
+    "actual game collision, light and water updates pending"
+  ],
+  "gallery_views": 454,
+  "html_view_combinations_checked": 1464,
+  "embedded_downloads_checked": 24,
+  "html_test_method": "JS DOM stubs, not browser rendering",
+  "delivery": "ready to package"
+}

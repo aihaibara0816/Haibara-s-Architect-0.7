@@ -1,0 +1,323 @@
+{
+  "schema_version": "0.4",
+  "project_id": "ModernFactory01_V2",
+  "route": "original",
+  "primary_use": "manufacturing",
+  "interior_level": "L2",
+  "identity_features": [
+    "露天原料堆场与斜向输送线",
+    "成组筒仓、储罐和加工塔架",
+    "连续成型生产线和包装仓储",
+    "独立八层办公楼",
+    "两栋六层宿舍、食堂和员工连廊"
+  ],
+  "style": "modern",
+  "coordinates": {
+    "unit": "block",
+    "up": "Y",
+    "north": "unknown"
+  },
+  "storeys_total": 8,
+  "authorized_scope": {
+    "editable_regions": [
+      [
+        0,
+        0,
+        0,
+        448,
+        72,
+        336
+      ]
+    ],
+    "locked_component_ids": []
+  },
+  "floor_levels": [
+    {
+      "id": "F1",
+      "floor_y": 4,
+      "upper_floor_y": 12,
+      "min_clear_height": 5
+    },
+    {
+      "id": "F2",
+      "floor_y": 12,
+      "upper_floor_y": 20,
+      "min_clear_height": 5
+    },
+    {
+      "id": "F3",
+      "floor_y": 20,
+      "upper_floor_y": 28,
+      "min_clear_height": 5
+    },
+    {
+      "id": "F4",
+      "floor_y": 28,
+      "upper_floor_y": 36,
+      "min_clear_height": 5
+    },
+    {
+      "id": "F5",
+      "floor_y": 36,
+      "upper_floor_y": 44,
+      "min_clear_height": 5
+    },
+    {
+      "id": "F6",
+      "floor_y": 44,
+      "upper_floor_y": 52,
+      "min_clear_height": 5
+    },
+    {
+      "id": "F7",
+      "floor_y": 52,
+      "upper_floor_y": 60,
+      "min_clear_height": 5
+    },
+    {
+      "id": "F8",
+      "floor_y": 60,
+      "upper_floor_y": 68,
+      "min_clear_height": 5
+    }
+  ],
+  "rooms": [
+    {
+      "id": "office_1",
+      "floor_id": "F1",
+      "function": "研发办公、会议与公共交流",
+      "bounds_xyz": [
+        42,
+        4,
+        249,
+        119,
+        10,
+        275
+      ],
+      "entrances": [
+        [
+          117,
+          4,
+          257
+        ]
+      ]
+    },
+    {
+      "id": "office_2",
+      "floor_id": "F2",
+      "function": "研发办公、会议与公共交流",
+      "bounds_xyz": [
+        42,
+        12,
+        249,
+        119,
+        18,
+        275
+      ],
+      "entrances": [
+        [
+          117,
+          12,
+          257
+        ]
+      ]
+    },
+    {
+      "id": "office_3",
+      "floor_id": "F3",
+      "function": "研发办公、会议与公共交流",
+      "bounds_xyz": [
+        42,
+        20,
+        249,
+        119,
+        26,
+        275
+      ],
+      "entrances": [
+        [
+          117,
+          20,
+          257
+        ]
+      ]
+    },
+    {
+      "id": "office_4",
+      "floor_id": "F4",
+      "function": "研发办公、会议与公共交流",
+      "bounds_xyz": [
+        42,
+        28,
+        249,
+        119,
+        34,
+        275
+      ],
+      "entrances": [
+        [
+          117,
+          28,
+          257
+        ]
+      ]
+    },
+    {
+      "id": "office_5",
+      "floor_id": "F5",
+      "function": "研发办公、会议与公共交流",
+      "bounds_xyz": [
+        42,
+        36,
+        249,
+        119,
+        42,
+        275
+      ],
+      "entrances": [
+        [
+          117,
+          36,
+          257
+        ]
+      ]
+    },
+    {
+      "id": "office_6",
+      "floor_id": "F6",
+      "function": "研发办公、会议与公共交流",
+      "bounds_xyz": [
+        42,
+        44,
+        249,
+        119,
+        50,
+        275
+      ],
+      "entrances": [
+        [
+          117,
+          44,
+          257
+        ]
+      ]
+    },
+    {
+      "id": "office_7",
+      "floor_id": "F7",
+      "function": "研发办公、会议与公共交流",
+      "bounds_xyz": [
+        42,
+        52,
+        249,
+        119,
+        58,
+        275
+      ],
+      "entrances": [
+        [
+          117,
+          52,
+          257
+        ]
+      ]
+    },
+    {
+      "id": "office_8",
+      "floor_id": "F8",
+      "function": "研发办公、会议与公共交流",
+      "bounds_xyz": [
+        42,
+        60,
+        249,
+        119,
+        66,
+        275
+      ],
+      "entrances": [
+        [
+          117,
+          60,
+          257
+        ]
+      ]
+    }
+  ],
+  "circulation_keepouts": [
+    [
+      24,
+      3,
+      119,
+      443,
+      10,
+      126
+    ],
+    [
+      220,
+      3,
+      24,
+      232,
+      10,
+      215
+    ],
+    [
+      24,
+      3,
+      223,
+      425,
+      10,
+      232
+    ]
+  ],
+  "proposed_modules": [],
+  "lighting": {
+    "coverage_override": "all_occupied_spaces",
+    "override_reason": "新建低层工业园区，全部使用空间配置照明"
+  },
+  "design_brief": {
+    "user_feedback": "上一版像仓库且规模小；希望罐体、流水线、材料堆、仓储、独立大办公楼、员工廊桥、食堂宿舍。",
+    "route": "original integrated materials factory",
+    "maintenance": "new and well maintained",
+    "scope": "architectural scene, not engineering process specification"
+  },
+  "spatial_spec": {
+    "site_xyz": [
+      448,
+      72,
+      336
+    ],
+    "previous_site_xyz": [
+      272,
+      64,
+      224
+    ],
+    "ground_y": 2,
+    "office_storeys": 8,
+    "dormitory_buildings": 2,
+    "dormitory_storeys": 6,
+    "canteen_storeys": 2,
+    "bridge_floor_y": 12,
+    "bridge_under_clearance": 7,
+    "industrial_zone_z": [
+      23,
+      216
+    ],
+    "staff_zone_z": [
+      249,
+      313
+    ],
+    "green_buffer_and_bridges_z": [
+      236,
+      248
+    ]
+  },
+  "facade_spec": {
+    "plant": "white/gray vessels with blue bands; dark open steel frames; actual gaps around platforms",
+    "production": "long high-bay line halls, clerestory lighting and roof exhaust units",
+    "office": "independent L-shaped podium with eight-storey main wing and upper setbacks",
+    "dormitories": "six-storey paired blocks with room windows, sunshades, corridor and real bed/door data",
+    "canteen": "two-storey dining and activity center with separate kitchen/serving/washing",
+    "weathering": "none"
+  },
+  "engineering_limit": "原创建筑示意；物流动线不代表真实车型转弯或工程规范验收"
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "canton-v3a-0.1",
+  "revision": "V3a_r01",
+  "parent": "V3_r01",
+  "target_height_blocks": 280,
+  "size_xyz": [56, 282, 56],
+  "crown": {"source": "A_skp_r03_track_plane_and_ellipse", "capsule_count": 16, "deck": "stepped_quantization_of_A_plane", "preserve_body_until_y": 204.0},
+  "frame": {"column_count": 24, "ring_count": 46, "column_block": "minecraft:diorite_wall", "brace_block": "minecraft:iron_bars", "ring_block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]", "wall_post_width_blocks": 0.5, "bar_post_width_blocks": 0.125, "status": "Minecraft readability adaptation; material/texture/collision not game-validated"},
+  "enclosure": {
+    "source": "U03_user_function_diagram_crosschecked_qualitatively_with_R14",
+    "status": "schematic height interpretation, not surveyed or automatically recognized",
+    "inset_blocks": 3.0,
+    "floor_spacing_blocks": 5,
+    "zones": [
+      {"id": "A", "height_m": [0, 32], "status": "approximate reading of user diagram; lower bound at grade"},
+      {"id": "B", "height_m": [84, 116], "status": "diagram label reading; exact built envelope pending"},
+      {"id": "C", "height_m": [147, 168], "status": "diagram label reading; exact built envelope pending"},
+      {"id": "D", "height_m": [334, 355], "status": "diagram label reading; exact built envelope pending"},
+      {"id": "E", "height_m": [376, 450], "status": "upper extent approximate; clipped below adopted sloped roof"}
+    ],
+    "rounding": "round_half_up(metres * 280 / 600), upper bound exclusive",
+    "open_zone_policy": "no program glass or floors between these zones; retain core and frame; omitted stairs remain unmodeled"
+  },
+  "core": {"source": "V3 fixed hollow-core grammar", "center_xz": [28.5, 28.5], "radii_blocks": [3.3, 2.8], "shaft_xz_half_open": [[27, 30], [27, 30]], "shaft_y_half_open": [2, 211]},
+  "mast": {"source": "V3 photo stepped grammar", "top_local_y": 281},
+  "site": {"source": "V3 unchanged"},
+  "limits": ["No semantic segmentation model training", "No calibrated photo camera", "No measured room layout", "No game validation", "No new real-world survey", "Separate diagram and design/built epochs remain uncertain"]
+}

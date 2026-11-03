@@ -1,0 +1,103 @@
+{
+  "source_nbt_sha256": "646dc4ba808264b0292731ae9a99a4e3420160dce86c16835696549ac7f68ce6",
+  "non_air": 4784,
+  "entries": [
+    {
+      "id": "Photo",
+      "pos": [
+        10,
+        3,
+        21
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 7,
+  "use_checks": [
+    {
+      "id": "Photo.stairs.bottom",
+      "pos": [
+        3,
+        3,
+        11
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Photo.stairs.top",
+      "pos": [
+        3,
+        9,
+        4
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Photo.portrait",
+      "pos": [
+        15,
+        3,
+        7
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Photo.waiting",
+      "pos": [
+        13,
+        3,
+        17
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Photo.desk",
+      "pos": [
+        16,
+        3,
+        14
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Photo.upstairs.work",
+      "pos": [
+        13,
+        9,
+        16
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Photo.upstairs.bed",
+      "pos": [
+        15,
+        9,
+        7
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 23,
+  "paintings": 4,
+  "official_model_states": 81,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

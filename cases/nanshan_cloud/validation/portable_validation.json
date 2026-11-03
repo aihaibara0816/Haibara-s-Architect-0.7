@@ -1,0 +1,21 @@
+{
+  "zip_checks": [
+    {
+      "file": "Nanshan_Cloud_HAF_V1_Build.zip",
+      "crc_ok": true,
+      "files": 31
+    },
+    {
+      "file": "Nanshan_Cloud_HAF_V1_Source.zip",
+      "crc_ok": true,
+      "files": 182
+    }
+  ],
+  "all_packaged_source_hashes_verified": true,
+  "portable_unit_tests": 20,
+  "portable_generation": "exact NBT replay",
+  "nbt_sha256": "79497dd9b86ec1371c4da62259c5707a63ce403fb7fe4b312b3df4bec4793da8",
+  "generator_sha256": "c303ce7efca97bdc2401d7e714583b5801614e8ddefd345f586fa2950dd7e418",
+  "no_network_needed_for_generation": true,
+  "zip_checks_note": "CRC checked before packaging this QA log; final output manifest is rechecked separately."
+}

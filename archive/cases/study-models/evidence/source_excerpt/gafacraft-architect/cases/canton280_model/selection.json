@@ -1,0 +1,32 @@
+{
+  "model_id": "model-canton-upload",
+  "source_sha256": "26d4ca7237b4d3e870b421ba3260412d8e215d63e335beb559e48a4927c3fa72",
+  "included_root_ids": [
+    "node-18c3dccd26dbb06cada8"
+  ],
+  "excluded_root_ids": [
+    "node-b13b112cf0cede744c45",
+    "node-0fc1a4b846b65d62486c"
+  ],
+  "basis": "Explicit case selection using original named Earth Terrain/Snapshot nodes and remaining tower group, checked against native thumbnail and geometry preview. Not automatic semantic classification.",
+  "selected_bounds_m": [
+    [
+      -10.929065393550665,
+      -4.965100007922248,
+      -128.53129441253085
+    ],
+    [
+      66.79485746080654,
+      596.8904328915802,
+      -63.44214400074579
+    ]
+  ],
+  "selected_size_m": [
+    77.7239228543572,
+    601.8555328995025,
+    65.08915041178506
+  ],
+  "selected_triangles": 19588,
+  "full_scene_retained": true,
+  "physical_dimensions_verified": false
+}

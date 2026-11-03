@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.4",
+  "engine": "HAF 0.4.0",
+  "consumer": "hafusion.design_handoff.compile_handoff",
+  "project_id": "Guanggang01",
+  "source_sha256": "1a65cb73ace7036192ad0f2326543277c97f764ddfa2b2f6926ec82f43d471a0",
+  "status": "plan_ready_for_adapter",
+  "primary_use": "steelworks",
+  "identity_reference": {
+    "id": "steelworks",
+    "name": "钢铁厂区（本案例新增）",
+    "styles": [
+      "modern"
+    ],
+    "core": [
+      "高炉与热风炉组",
+      "料仓与上料斜廊",
+      "机修轧钢厂房与铁路"
+    ],
+    "scope": "case-specific architectural identity, not industrial process engineering"
+  },
+  "identity_features": [
+    "高炉塔架及可攀检修平台",
+    "三座热风炉与大型煤气柜",
+    "锯齿厂房与屋脊采光厂房",
+    "铁路侧线和料仓",
+    "天车、轧辊和检修台"
+  ],
+  "secondary_uses": [],
+  "interior_level": "L2",
+  "authorized_scope": {
+    "editable_regions": [
+      [
+        0,
+        0,
+        0,
+        240,
+        88,
+        192
+      ]
+    ],
+    "locked_component_ids": []
+  },
+  "lighting_coverage_policy": "all_occupied_spaces",
+  "ceiling_plans": [
+    {
+      "floor_id": "production",
+      "preferred_separator_layers": 2,
+      "ceiling_y": 15,
+      "clear_height_blocks": 11,
+      "exception": null,
+      "floor_levels_changed": false,
+      "fixture_rule": "flush_or_supported_thin_rod",
+      "fixture_collision": "pending",
+      "geometry_status": "pending_adapter"
+    }
+  ],
+  "lighting_tasks": [
+    {
+      "room_id": "workshop",
+      "function": "维修车间、钢材存放、天车作业",
+      "required": true,
+      "status": "planned_not_generated",
+      "color_intent": "unspecified"
+    },
+    {
+      "room_id": "rolling",
+      "function": "轧钢设备和吊装通道",
+      "required": true,
+      "status": "planned_not_generated",
+      "color_intent": "unspecified"
+    },
+    {
+      "room_id": "gate",
+      "function": "值班与控制",
+      "required": true,
+      "status": "planned_not_generated",
+      "color_intent": "unspecified"
+    }
+  ],
+  "modules": [],
+  "landscape_plan": null,
+  "pending": [],
+  "input_snapshot": {
+    "schema_version": "0.4",
+    "project_id": "Guanggang01",
+    "route": "original",
+    "primary_use": "steelworks",
+    "interior_level": "L2",
+    "identity_features": [
+      "高炉塔架及可攀检修平台",
+      "三座热风炉与大型煤气柜",
+      "锯齿厂房与屋脊采光厂房",
+      "铁路侧线和料仓",
+      "天车、轧辊和检修台"
+    ],
+    "style": "modern",
+    "coordinates": {
+      "unit": "block",
+      "up": "Y",
+      "north": "unknown"
+    },
+    "storeys_total": 1,
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          0,
+          0,
+          0,
+          240,
+          88,
+          192
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "floor_levels": [
+      {
+        "id": "production",
+        "floor_y": 4,
+        "upper_floor_y": 17,
+        "min_clear_height": 8
+      }
+    ],
+    "rooms": [
+      {
+        "id": "workshop",
+        "floor_id": "production",
+        "function": "维修车间、钢材存放、天车作业",
+        "bounds_xyz": [
+          42,
+          4,
+          125,
+          120,
+          17,
+          168
+        ],
+        "entrances": [
+          [
+            50,
+            4,
+            125
+          ],
+          [
+            108,
+            4,
+            125
+          ]
+        ]
+      },
+      {
+        "id": "rolling",
+        "floor_id": "production",
+        "function": "轧钢设备和吊装通道",
+        "bounds_xyz": [
+          153,
+          4,
+          125,
+          228,
+          21,
+          174
+        ],
+        "entrances": [
+          [
+            162,
+            4,
+            125
+          ],
+          [
+            215,
+            4,
+            125
+          ]
+        ]
+      },
+      {
+        "id": "gate",
+        "floor_id": "production",
+        "function": "值班与控制",
+        "bounds_xyz": [
+          105,
+          4,
+          173,
+          123,
+          12,
+          185
+        ],
+        "entrances": [
+          [
+            116,
+            4,
+            184
+          ]
+        ]
+      }
+    ],
+    "circulation_keepouts": [
+      [
+        28,
+        3,
+        110,
+        234,
+        6,
+        117
+      ],
+      [
+        128,
+        3,
+        121,
+        136,
+        6,
+        184
+      ]
+    ],
+    "proposed_modules": [],
+    "lighting": {
+      "coverage_override": "all_occupied_spaces",
+      "override_reason": "单层工业建筑，各使用区布置任务灯；大跨度屋顶使用有支撑的吊灯"
+    },
+    "industrial_roof_exception": "single-skin industrial roof, no residential double-ceiling assumption; supported pendant fixtures",
+    "evidence_refs": [
+      "https://lyylj.gz.gov.cn/ztzl/lvst/stsfd/content/post_9910092.html"
+    ],
+    "engine_scope": "HAF voxel core + explicit case adapter; not general industry generator"
+  },
+  "generated_geometry": false,
+  "game_status": "pending",
+  "limits": [
+    "Planning checks only; no automatic furniture placement or arbitrary building generator",
+    "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+    "Cold/warm materials do not imply vanilla colored-light propagation",
+    "Input snapshot preserves unconsumed fields; retention does not mean execution"
+  ],
+  "case_adapter_overrides": [
+    "工业棚顶采用薄屋面，照明悬吊支撑；编译器住宅双层吊顶建议未机械套用",
+    "高炉和煤气柜是工艺构筑物，检修标高不计为建筑楼层"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "civic_center",
+  "name": "市民服务中心（原创）",
+  "style": "public",
+  "origin": "HAF 0.4 快照",
+  "version": "v03_r16_ceiling_landscape",
+  "history": "v01/v02 空间研究 → v03 R01–R06 体块接口 → R07–R10 功能公共区 → R11–R13 灯光园林 → R14–R16 双层楼板/完整路径",
+  "achievement": "39 个功能空间、51 根视觉柱、142 组家具；保留 75 组错动窗。最终 1,867 个灯方块、192 处嵌入灯与 22 丛竹。",
+  "lesson": "保留批准窗口与标高；先动线和净空，再功能家具、灯具及植物；检查整条路径宽度。",
+  "failure": "早期散落桌椅、公共区不足、凸出灯块、孤立花池；R14/R15路径净空失败。",
+  "open": "R16 为案例冻结结果；handoff 仅输出计划，尚未形成任意建筑的功能内饰生成器。游戏内通行和实际光照待验证。",
+  "acceptance": "可以的；授权归纳升级 HAF0.4。不是游戏验收。",
+  "game": "待实测",
+  "source": "HAF04.zip",
+  "source_evidence": [
+    "cases/civic_center/STATE.md",
+    "cases/civic_center/runs/v03_r16_ceiling_landscape/validation.json",
+    "cases/civic_center/runs/v03_r16_ceiling_landscape/interior_validation.json",
+    "cases/civic_center/runs/v03_r16_ceiling_landscape/ceiling_landscape_validation.json"
+  ],
+  "nbt_member": "HAF-0.4/cases/civic_center/runs/v03_r16_ceiling_landscape/building.nbt",
+  "style_name": "现代公共与商业"
+}

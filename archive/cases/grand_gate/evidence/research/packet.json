@@ -1,0 +1,1417 @@
+{
+  "schema_version": "1.1",
+  "packet_id": "hiroshima-jp-v1-20261026",
+  "collected_at": "2026-10-26",
+  "subject": {
+    "name": "广岛 JP 大厦",
+    "aliases": [
+      "Hiroshima JP Building",
+      "広島ＪＰビルディング",
+      "GRAND GATE HIROSHIMA所在建筑"
+    ],
+    "city": "广岛",
+    "kind": "single",
+    "identity_status": "confirmed",
+    "version": "2022竣工建筑主体，含二层连廊接口；非整个2026车站环境",
+    "core_identifiers": [
+      "长矩形与单侧核心筒",
+      "白色深竖肋与玻璃转角",
+      "三层绿化停车层与四道挑檐",
+      "开敞柱廊与二层步行平台"
+    ],
+    "boundary": "整栋地上主体、裙楼、截断地台和连廊片段；不含地下及车站",
+    "areas": {
+      "land_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "gross_floor_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "footprint_area": {
+        "value_m2": null,
+        "fact_id": null
+      }
+    }
+  },
+  "provenance": {
+    "origin_conversation_id": null,
+    "user_input": "GRAND GATE HIROSHIMA；不是不是，是那一整栋建筑",
+    "research_status": "incomplete",
+    "scope_correction": "以广岛JP大厦整栋为对象；未生成餐饮大厅独立模型"
+  },
+  "sources": [
+    {
+      "source_id": "src-01",
+      "type": "primary_architecture_source",
+      "title": "日本郵政建築 项目",
+      "url": "https://www.jp-ae.japanpost.jp/projects/hiroshima-jp-building/",
+      "accessed_at": "2026-10-26"
+    },
+    {
+      "source_id": "src-02",
+      "type": "primary_architecture_source",
+      "title": "久米設計 项目",
+      "url": "https://www.kumesekkei.co.jp/project/0464.html",
+      "accessed_at": "2026-10-26"
+    },
+    {
+      "source_id": "src-03",
+      "type": "primary_architecture_source",
+      "title": "日本郵政建築 专题",
+      "url": "https://www.jp-ae.japanpost.jp/articles/hiroshimas-new-landmark-building/",
+      "accessed_at": "2026-10-26"
+    },
+    {
+      "source_id": "src-04",
+      "type": "primary_architecture_source",
+      "title": "Panasonic 照明案例",
+      "url": "https://www2.panasonic.biz/jp/works/region/detail/id/607580000/",
+      "accessed_at": "2026-10-26"
+    },
+    {
+      "source_id": "src-release",
+      "type": "owner_release",
+      "title": "日本郵政不動産 2022竣工公告",
+      "url": "https://www.jp-re.japanpost.jp/news/pdf/20220825_hiroshima.pdf",
+      "accessed_at": "2026-10-26"
+    },
+    {
+      "source_id": "src-plan",
+      "type": "owner_release",
+      "title": "日本郵政不動産 2022年3月计划及标准层平面",
+      "url": "https://prtimes.jp/main/html/rd/p/000000014.000083972.html",
+      "accessed_at": "2026-10-26"
+    },
+    {
+      "source_id": "src-gate",
+      "type": "operator",
+      "title": "GRAND GATE HIROSHIMA 官方",
+      "url": "https://grandgate-h.com/",
+      "accessed_at": "2026-10-26"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "img-01",
+      "title": "斜航空全景与屋顶",
+      "media_type": "photo",
+      "source_ids": [
+        "src-01"
+      ],
+      "component_ids": [
+        "tower",
+        "roof",
+        "podium"
+      ],
+      "page_url": "https://www.jp-ae.japanpost.jp/projects/hiroshima-jp-building/",
+      "image_url": "https://www.jp-ae.japanpost.jp/wp6/wp-content/uploads/2022/08/hiroshima-jp-building_image_01.jpg",
+      "local_file": null,
+      "original_sha256": "d41ce0bbedb5a6d7a5d4ca1e57a989cf21353791f342986b3d3689c4604758ec",
+      "actual_pixels": [
+        800,
+        450
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "斜航空全景与屋顶",
+      "covers": [
+        "tower",
+        "roof",
+        "podium"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "可见长矩形主楼、后部设备和较宽基座；倾斜视角不能直接量平面。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-02",
+      "title": "建成转角日景",
+      "media_type": "photo",
+      "source_ids": [
+        "src-02"
+      ],
+      "component_ids": [
+        "tower",
+        "facade"
+      ],
+      "page_url": "https://www.kumesekkei.co.jp/project/0464.html",
+      "image_url": "https://www.kumesekkei.co.jp/project/image/0464_gallery_02.jpg",
+      "local_file": null,
+      "original_sha256": "c5085da6a91915d1b26f489f69ddb4a34cdfcd33fce0907f3bb6c4a4114fe6b6",
+      "actual_pixels": [
+        1300,
+        1396
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "建成转角日景",
+      "covers": [
+        "tower",
+        "facade"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": "川澄・小林研二写真事務所",
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "浅色主竖肋突出于玻璃，转角玻璃退进；细梃与主肋尺度不同。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-03",
+      "title": "裙楼正向与三层绿化",
+      "media_type": "photo",
+      "source_ids": [
+        "src-01"
+      ],
+      "component_ids": [
+        "podium"
+      ],
+      "page_url": "https://www.jp-ae.japanpost.jp/projects/hiroshima-jp-building/",
+      "image_url": "https://www.jp-ae.japanpost.jp/wp6/wp-content/uploads/2022/08/hiroshima-jp-building_image_02.jpg",
+      "local_file": null,
+      "original_sha256": "4cf5432677eef45d67f713ee44ede85aa96cf46676229490ecb0abaf73aeb70d",
+      "actual_pixels": [
+        800,
+        450
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "裙楼正向与三层绿化",
+      "covers": [
+        "podium"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "三段停车层、四道白挑檐，绿化槽在暗色围护外侧。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-04",
+      "title": "开放柱廊与二层平台",
+      "media_type": "photo",
+      "source_ids": [
+        "src-01"
+      ],
+      "component_ids": [
+        "podium",
+        "deck"
+      ],
+      "page_url": "https://www.jp-ae.japanpost.jp/projects/hiroshima-jp-building/",
+      "image_url": "https://www.jp-ae.japanpost.jp/wp6/wp-content/uploads/2022/08/hiroshima-jp-building_image_03.jpg",
+      "local_file": null,
+      "original_sha256": "d4d06dea2b6588fb4b80bb62adb02817ef888116bc808c25590b0766d27a792f",
+      "actual_pixels": [
+        800,
+        450
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "开放柱廊与二层平台",
+      "covers": [
+        "podium",
+        "deck"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "大柱、退进玻璃、楼梯和二层平台在悬挑板下形成空间层次。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-05",
+      "title": "柱廊夜景与吊顶",
+      "media_type": "photo",
+      "source_ids": [
+        "src-03"
+      ],
+      "component_ids": [
+        "podium",
+        "lighting"
+      ],
+      "page_url": "https://www.jp-ae.japanpost.jp/articles/hiroshimas-new-landmark-building/",
+      "image_url": "https://www.jp-ae.japanpost.jp/wp6/wp-content/uploads/2025/09/hiroshimas-new-landmark-building_image_10.jpg",
+      "local_file": null,
+      "original_sha256": "c669ea2aede658e8dcfddafe80bb0f597e38bcb16c387d9f564a9e2a5079a427",
+      "actual_pixels": [
+        496,
+        728
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "柱廊夜景与吊顶",
+      "covers": [
+        "podium",
+        "lighting"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "可见平整金属感底面与细接缝、独立照明；未据此推断隐蔽吊杆。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-06",
+      "title": "挑檐、种植槽与幕墙交界",
+      "media_type": "photo",
+      "source_ids": [
+        "src-03"
+      ],
+      "component_ids": [
+        "podium",
+        "facade"
+      ],
+      "page_url": "https://www.jp-ae.japanpost.jp/articles/hiroshimas-new-landmark-building/",
+      "image_url": "https://www.jp-ae.japanpost.jp/wp6/wp-content/uploads/2025/09/hiroshimas-new-landmark-building_image_19.jpg",
+      "local_file": null,
+      "original_sha256": "78e15f2116be2734e04a512de65fa6e201113bffb47b5c1e653f633d0a4489c5",
+      "actual_pixels": [
+        562,
+        760
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "挑檐、种植槽与幕墙交界",
+      "covers": [
+        "podium",
+        "facade"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "种植槽错位排列，围护是通风暗带；挑檐不是四层发光实体。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-07",
+      "title": "转角固定照明实拍",
+      "media_type": "photo",
+      "source_ids": [
+        "src-04"
+      ],
+      "component_ids": [
+        "lighting",
+        "facade"
+      ],
+      "page_url": "https://www2.panasonic.biz/jp/works/region/detail/id/607580000/",
+      "image_url": "https://www2.panasonic.biz/jp/works/file/path/a/0/f/d4ad7227691deb95eebb483591698d53382ea812f314f52556bb357a959f39e00000000007105724/e/jpg/name/S220803-S017",
+      "local_file": null,
+      "original_sha256": "61f2db33608436d92d140a0f38cb52a3bbc9ef4a06790497d721e73809995d44",
+      "actual_pixels": [
+        1754,
+        1240
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "转角固定照明实拍",
+      "covers": [
+        "lighting",
+        "facade"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "四角线性灯有供应商说明；可见底部竖肋照明与檐口照明，窗户明暗变化。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-08",
+      "title": "正向暮色灯光与屋顶红点",
+      "media_type": "photo",
+      "source_ids": [
+        "src-02"
+      ],
+      "component_ids": [
+        "lighting",
+        "roof"
+      ],
+      "page_url": "https://www.kumesekkei.co.jp/project/0464.html",
+      "image_url": "https://www.kumesekkei.co.jp/project/image/0464_gallery_03.jpg",
+      "local_file": null,
+      "original_sha256": "0c57e57e777fc56fd40a905276a38f54c751ce223c55c6922a3b0c103918ce10",
+      "actual_pixels": [
+        1600,
+        1067
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "正向暮色灯光与屋顶红点",
+      "covers": [
+        "lighting",
+        "roof"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": "川澄・小林研二写真事務所",
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "屋顶多处粉红亮点可见，但用途/数量/闪烁未核实，暂不生成航空障碍灯。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-09",
+      "title": "高层幕墙实体样板",
+      "media_type": "photo",
+      "source_ids": [
+        "src-03"
+      ],
+      "component_ids": [
+        "facade",
+        "lighting"
+      ],
+      "page_url": "https://www.jp-ae.japanpost.jp/articles/hiroshimas-new-landmark-building/",
+      "image_url": "https://www.jp-ae.japanpost.jp/wp6/wp-content/uploads/2025/09/hiroshimas-new-landmark-building_image_13.jpg",
+      "local_file": null,
+      "original_sha256": "8571d3f14e38f7359ce12d2512557d6227dc4182ad21668e433c452f18d41b2e",
+      "actual_pixels": [
+        562,
+        316
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "design",
+      "building_match_confirmed": true,
+      "view": "高层幕墙实体样板",
+      "covers": [
+        "facade",
+        "lighting"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "设计方的现场样板，不是整栋已建全景；用于核对主肋、玻璃与竖向灯的位置关系。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-10",
+      "title": "中层绿化照明实体样板",
+      "media_type": "photo",
+      "source_ids": [
+        "src-03"
+      ],
+      "component_ids": [
+        "podium",
+        "lighting"
+      ],
+      "page_url": "https://www.jp-ae.japanpost.jp/articles/hiroshimas-new-landmark-building/",
+      "image_url": "https://www.jp-ae.japanpost.jp/wp6/wp-content/uploads/2025/09/hiroshimas-new-landmark-building_image_14.jpg",
+      "local_file": null,
+      "original_sha256": "6167ebe9664d03df93e513453d6f8aa3b1f101d266dc5e178e87b16544cd8012",
+      "actual_pixels": [
+        562,
+        316
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "design",
+      "building_match_confirmed": true,
+      "view": "中层绿化照明实体样板",
+      "covers": [
+        "podium",
+        "lighting"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "设计样板帮助区分暖光洗亮与整片自发光；本版光源退进。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    },
+    {
+      "image_id": "img-11",
+      "title": "二层联络步行网络图",
+      "media_type": "site_plan",
+      "source_ids": [
+        "src-03"
+      ],
+      "component_ids": [
+        "site",
+        "deck"
+      ],
+      "page_url": "https://www.jp-ae.japanpost.jp/articles/hiroshimas-new-landmark-building/",
+      "image_url": "https://www.jp-ae.japanpost.jp/wp6/wp-content/uploads/2025/09/hiroshimas-new-landmark-building_image_01.png",
+      "local_file": null,
+      "original_sha256": "7385116df82c093bc37fc8b454225295286070413f573eb2a0adc53e73694442",
+      "actual_pixels": [
+        1552,
+        720
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "design",
+      "building_match_confirmed": true,
+      "view": "二层联络步行网络图",
+      "covers": [
+        "site",
+        "deck"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "工作坐标；未作照片相机配准"
+      },
+      "version": "2022建成建筑；2025发表的专题含早期施工/样板照片，拍摄日未知",
+      "photo_date": null,
+      "photographer": null,
+      "license": null,
+      "license_status": "unknown",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看完整图片；按构件使用",
+        "limitations": [
+          "不是测绘资料；拍摄日未知",
+          "确认与广岛站的二层连接关系；该图无比例尺，不用于推定精确桥长。"
+        ]
+      },
+      "delivery": "reduced research thumbnail plus source link; original full-resolution bytes not included"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "fact-height",
+      "kind": "fact",
+      "status": "verified",
+      "field": "overall_height",
+      "value": 88.4,
+      "unit": "m",
+      "source_ids": [
+        "src-release"
+      ]
+    },
+    {
+      "fact_id": "fact-storeys",
+      "kind": "fact",
+      "status": "verified",
+      "field": "storeys_above",
+      "value": 19,
+      "source_ids": [
+        "src-release"
+      ]
+    },
+    {
+      "fact_id": "fact-area",
+      "kind": "fact",
+      "status": "verified",
+      "field": "office_typical_lettable_area",
+      "value": 1530,
+      "unit": "m2",
+      "source_ids": [
+        "src-release"
+      ]
+    },
+    {
+      "fact_id": "fact-plan",
+      "kind": "estimate",
+      "status": "proposed",
+      "field": "tower_main_rectangle",
+      "value": [
+        66,
+        32
+      ],
+      "unit": "m",
+      "source_ids": [
+        "src-plan"
+      ],
+      "image_ids": [
+        "img-01"
+      ],
+      "basis": "标准层无标尺；按长宽关系、单侧核心筒和面积作合理性约束，非实测"
+    }
+  ],
+  "components": [
+    {
+      "component_id": "tower",
+      "name": "塔楼与核心筒",
+      "fact_ids": []
+    },
+    {
+      "component_id": "facade",
+      "name": "竖肋分层幕墙",
+      "fact_ids": []
+    },
+    {
+      "component_id": "podium",
+      "name": "绿化停车层与底面",
+      "fact_ids": []
+    },
+    {
+      "component_id": "deck",
+      "name": "二层平台连廊",
+      "fact_ids": []
+    },
+    {
+      "component_id": "site",
+      "name": "截断地台",
+      "fact_ids": []
+    },
+    {
+      "component_id": "roof",
+      "name": "屋顶与设备",
+      "fact_ids": []
+    },
+    {
+      "component_id": "lighting",
+      "name": "固定灯及合成窗灯",
+      "fact_ids": []
+    },
+    {
+      "component_id": "interior",
+      "name": "合成窗后层",
+      "fact_ids": []
+    }
+  ],
+  "selection": {
+    "target_image_limit": null,
+    "consistency_checks": {
+      "same_version": false,
+      "clean_subject": false,
+      "orientation_aligned": null,
+      "layout_basis_image_ids": [
+        "img-01",
+        "img-11"
+      ],
+      "podium_closeup_image_ids": [
+        "img-03",
+        "img-04",
+        "img-06"
+      ],
+      "shell_crosscheck_image_ids": [
+        "img-02",
+        "img-07"
+      ],
+      "notes": [
+        "日景/夜景是同栋建筑；模型样板和示意图不当成建成照片",
+        "缩略图用于构件分析；原图开放许可未核实",
+        "2022标准层平面单独以PDF来源记录，非现场测绘"
+      ]
+    },
+    "omitted_constraints": [],
+    "legacy_slots": [],
+    "core": [
+      {
+        "image_id": "img-01",
+        "purpose": "斜航空全景与屋顶",
+        "rationale": "可见长矩形主楼、后部设备和较宽基座；倾斜视角不能直接量平面。"
+      },
+      {
+        "image_id": "img-02",
+        "purpose": "建成转角日景",
+        "rationale": "浅色主竖肋突出于玻璃，转角玻璃退进；细梃与主肋尺度不同。"
+      },
+      {
+        "image_id": "img-03",
+        "purpose": "裙楼正向与三层绿化",
+        "rationale": "三段停车层、四道白挑檐，绿化槽在暗色围护外侧。"
+      },
+      {
+        "image_id": "img-04",
+        "purpose": "开放柱廊与二层平台",
+        "rationale": "大柱、退进玻璃、楼梯和二层平台在悬挑板下形成空间层次。"
+      }
+    ],
+    "detail_groups": [
+      {
+        "component_id": "lighting",
+        "purpose": "固定灯位置与不确定项",
+        "image_ids": [
+          "img-07",
+          "img-08",
+          "img-10"
+        ]
+      },
+      {
+        "component_id": "podium",
+        "purpose": "底面与种植槽",
+        "image_ids": [
+          "img-05",
+          "img-06"
+        ]
+      },
+      {
+        "component_id": "facade",
+        "purpose": "主肋与玻璃进深",
+        "image_ids": [
+          "img-09"
+        ]
+      },
+      {
+        "component_id": "deck",
+        "purpose": "连接关系",
+        "image_ids": [
+          "img-11"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "image_id": "img-01",
+        "face": "oblique",
+        "orientation_basis": "斜航空全景与屋顶",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "tower",
+          "roof",
+          "podium"
+        ],
+        "duplicate_of": null,
+        "sha256": "d41ce0bbedb5a6d7a5d4ca1e57a989cf21353791f342986b3d3689c4604758ec"
+      },
+      {
+        "image_id": "img-02",
+        "face": "oblique",
+        "orientation_basis": "建成转角日景",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "tower",
+          "facade"
+        ],
+        "duplicate_of": null,
+        "sha256": "c5085da6a91915d1b26f489f69ddb4a34cdfcd33fce0907f3bb6c4a4114fe6b6"
+      },
+      {
+        "image_id": "img-03",
+        "face": "oblique",
+        "orientation_basis": "裙楼正向与三层绿化",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "podium"
+        ],
+        "duplicate_of": null,
+        "sha256": "4cf5432677eef45d67f713ee44ede85aa96cf46676229490ecb0abaf73aeb70d"
+      },
+      {
+        "image_id": "img-04",
+        "face": "oblique",
+        "orientation_basis": "开放柱廊与二层平台",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "podium",
+          "deck"
+        ],
+        "duplicate_of": null,
+        "sha256": "d4d06dea2b6588fb4b80bb62adb02817ef888116bc808c25590b0766d27a792f"
+      },
+      {
+        "image_id": "img-05",
+        "face": "oblique",
+        "orientation_basis": "柱廊夜景与吊顶",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "podium",
+          "lighting"
+        ],
+        "duplicate_of": null,
+        "sha256": "c669ea2aede658e8dcfddafe80bb0f597e38bcb16c387d9f564a9e2a5079a427"
+      },
+      {
+        "image_id": "img-06",
+        "face": "oblique",
+        "orientation_basis": "挑檐、种植槽与幕墙交界",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "podium",
+          "facade"
+        ],
+        "duplicate_of": null,
+        "sha256": "78e15f2116be2734e04a512de65fa6e201113bffb47b5c1e653f633d0a4489c5"
+      },
+      {
+        "image_id": "img-07",
+        "face": "oblique",
+        "orientation_basis": "转角固定照明实拍",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "lighting",
+          "facade"
+        ],
+        "duplicate_of": null,
+        "sha256": "61f2db33608436d92d140a0f38cb52a3bbc9ef4a06790497d721e73809995d44"
+      },
+      {
+        "image_id": "img-08",
+        "face": "oblique",
+        "orientation_basis": "正向暮色灯光与屋顶红点",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "lighting",
+          "roof"
+        ],
+        "duplicate_of": null,
+        "sha256": "0c57e57e777fc56fd40a905276a38f54c751ce223c55c6922a3b0c103918ce10"
+      },
+      {
+        "image_id": "img-09",
+        "face": "oblique",
+        "orientation_basis": "高层幕墙实体样板",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "facade",
+          "lighting"
+        ],
+        "duplicate_of": null,
+        "sha256": "8571d3f14e38f7359ce12d2512557d6227dc4182ad21668e433c452f18d41b2e"
+      },
+      {
+        "image_id": "img-10",
+        "face": "oblique",
+        "orientation_basis": "中层绿化照明实体样板",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "podium",
+          "lighting"
+        ],
+        "duplicate_of": null,
+        "sha256": "6167ebe9664d03df93e513453d6f8aa3b1f101d266dc5e178e87b16544cd8012"
+      },
+      {
+        "image_id": "img-11",
+        "face": "top",
+        "orientation_basis": "二层联络步行网络图",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "site",
+          "deck"
+        ],
+        "duplicate_of": null,
+        "sha256": "7385116df82c093bc37fc8b454225295286070413f573eb2a0adc53e73694442"
+      }
+    ],
+    "coverage_requirements": [
+      {
+        "face": "back",
+        "component_id": "tower",
+        "missing_search": "带尺寸后立面"
+      },
+      {
+        "face": "top",
+        "component_id": "roof",
+        "missing_search": "带尺寸现状总平与设备平面"
+      }
+    ]
+  },
+  "scale": {
+    "ratio_candidates": [
+      1
+    ],
+    "selected_s": 1,
+    "rounding": "half_up",
+    "world_budget": {
+      "width": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "depth": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "height": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      }
+    },
+    "building_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "overall_height": {
+        "value_m": 88.4,
+        "range_m": null,
+        "fact_id": "fact-height",
+        "basis": "业主竣工公告，约88.4m；本版占用88格"
+      },
+      "architectural_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "roof_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "tip_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "site_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "conversions": [],
+    "uniform_scale_max": null,
+    "uncertainty": [
+      "工作平面66×32格与偏置核心筒为估算",
+      "1F至6F及各标准层标高是量化方案，非逐层测量"
+    ],
+    "local_exaggerations": [
+      "主竖肋1格宽、玻璃后退1格、背衬后退4格",
+      "铁栅栏表现次梃；闭合活板门表现薄底面接缝",
+      "连廊截断；楼梯替代自动扶梯，无运行机构"
+    ]
+  },
+  "prompts": {
+    "full": "还原广岛 JP 大厦整栋地上建筑，即GRAND GATE HIROSHIMA餐饮大厅所在楼。强制参考img-01、img-02、img-03、img-04、img-05、img-06、img-07、img-08、img-09、img-10、img-11以及业主标准层平面，不擅自修改原型设计。按1:1统一比例，业主总高约88.4m量化88格，19层。100×94×86格为本工程含地台包围盒；地面local Y=3，工作+Z为所选长公共立面，未配准地理北向。\n建立长矩形主楼、偏置后侧核心筒、退进玻璃转角和宽于塔身的裙楼。主矩形66×32格是无标尺平面与照片的估算，不当作实测。6—19层办公塔楼用14个楼层区间，3—5层为三段绿化停车层，1—2层为退进公共玻璃和开敞柱廊。顶部保留主肋出头及简化设备，设备摆位非竣工图。\n白色主竖肋采用石英实体，次梃用铁栅栏，玻璃后退一格，按窗带有限组合灰、青和少量黑玻璃，保留暗色横向不透明带。暗背衬退后四格，楼板、少量书架式窗后陈设与暖窗为合成，禁止宣称真实办公室或完整餐饮厅。不要任意固定彩色天空反射；不要把四面镜像为全玻璃盒。\n三层绿化裙楼分别建立白色半砖挑檐、暗色通风带、错位种植槽、叶片和薄栏。檐下板、金属接缝、柱、玻璃、二层平台单独生成。楼梯与平台要连续，首层贯通通道留净空；楼梯是自动扶梯的静态替代。二层连廊仅保留接入片段，不生成完整广岛车站。地台树木和座椅按比例简化。\n依据实拍和照明供应商资料，设置转角细灯、主立面竖肋下端灯位和退到绿化后方的檐口光源。窗灯使用稳定ID、固定种子和22%概率作为试验值，不是实测开灯率。粉红屋顶点光用途未核实，航空障碍灯暂缺；不模拟闪烁。照片→人工区域→构件→参数/源码→NBT→同机位回读图全部可追踪。八面参考盒仅用于组织证据，不称相机恢复、八视图正交校准或通用图像建模。交付四面同尺度日夜、真正交俯视、底面和剖切，实际Java1.21.1导入/碰撞/原版光照保持待验收。",
+    "short": "广岛 JP 大厦整栋，GRAND GATE为二层局部。强制参考img-01、img-02、img-03、img-04、img-05、img-06、img-07、img-08、img-09、img-10、img-11及业主平面，不擅自修改原型设计。1:1约88格高，长矩形、单侧核心筒、退进玻璃转角；浅色深竖肋＋铁栏次梃＋灰青黑玻璃＋窗后暗层。三层绿化停车带和四道薄挑檐，开敞柱廊、连续楼梯与二层连廊片段。固定转角灯、檐口退灯与少量稳定暖窗；内部和屋顶设备为示意。保留来源、估算、NBT回读和同尺度日夜检查；实机待验收。",
+    "image_ids": [
+      "img-01",
+      "img-02",
+      "img-03",
+      "img-04",
+      "img-05",
+      "img-06",
+      "img-07",
+      "img-08",
+      "img-09",
+      "img-10",
+      "img-11"
+    ],
+    "excluded_image_ids": []
+  },
+  "guidance": {
+    "scope": "整栋地上主体、裙楼、截断地台和连廊片段；不含地下及车站",
+    "quality": "整栋V1估算基线，非竣工测绘",
+    "height": "88格占用高度",
+    "site": "截断地台和二层连接片段",
+    "landscape": {
+      "enabled": true,
+      "omission_reason": null,
+      "boundary": "局部地台",
+      "elements": [
+        "花池",
+        "树木",
+        "座椅"
+      ],
+      "reference_image_ids": [
+        "img-04"
+      ],
+      "access_connections": [
+        "首层贯通通道",
+        "楼梯接二层平台"
+      ],
+      "terrain_notes": "无地下",
+      "acceptance": []
+    },
+    "interior": "合成窗后层；非完整室内",
+    "lighting": "固定构件与随机窗灯分离",
+    "material_mappings": []
+  },
+  "staging": {
+    "required": false,
+    "reason": "单栋；使用不可覆盖run与局部裁片",
+    "coordinate_system": {
+      "origin": [
+        0,
+        3,
+        0
+      ],
+      "x_axis": "long facade",
+      "y_axis": "up",
+      "z_axis": "selected public frontage",
+      "north": "未配准",
+      "s": 1
+    },
+    "stages": []
+  },
+  "report_sections": [
+    {
+      "number": 1,
+      "title": "建筑概览与核心识别点",
+      "content": "对象经用户纠正为整栋广岛JP大厦；GRAND GATE只是二层餐饮设施。复原主体、裙楼及连廊接口。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "可靠尺度与Minecraft比例建议",
+      "content": "88.4m与19层来自业主；66×32主楼平面和各层标高为估算。1:1不单独压缩高度。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "设计语言/材料/幕墙",
+      "content": "深竖肋、次梃、退进玻璃、暗带与背衬分层；绿化裙楼、挑檐与底面分别消费。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "参考图片候选分类",
+      "content": "11项已查看图像：建成照片、实体样板、网络示意图分开；另查看业主标准层PDF。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "核心参考图与覆盖分析",
+      "content": "八面参考盒使用6张照片、1张网络图与1个缺口面板。不是八方向实测，更不是自动建模。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "完整生成提示词",
+      "content": "还原广岛 JP 大厦整栋地上建筑，即GRAND GATE HIROSHIMA餐饮大厅所在楼。强制参考img-01、img-02、img-03、img-04、img-05、img-06、img-07、img-08、img-09、img-10、img-11以及业主标准层平面，不擅自修改原型设计。按1:1统一比例，业主总高约88.4m量化88格，19层。100×94×86格为本工程含地台包围盒；地面local Y=3，工作+Z为所选长公共立面，未配准地理北向。\n建立长矩形主楼、偏置后侧核心筒、退进玻璃转角和宽于塔身的裙楼。主矩形66×32格是无标尺平面与照片的估算，不当作实测。6—19层办公塔楼用14个楼层区间，3—5层为三段绿化停车层，1—2层为退进公共玻璃和开敞柱廊。顶部保留主肋出头及简化设备，设备摆位非竣工图。\n白色主竖肋采用石英实体，次梃用铁栅栏，玻璃后退一格，按窗带有限组合灰、青和少量黑玻璃，保留暗色横向不透明带。暗背衬退后四格，楼板、少量书架式窗后陈设与暖窗为合成，禁止宣称真实办公室或完整餐饮厅。不要任意固定彩色天空反射；不要把四面镜像为全玻璃盒。\n三层绿化裙楼分别建立白色半砖挑檐、暗色通风带、错位种植槽、叶片和薄栏。檐下板、金属接缝、柱、玻璃、二层平台单独生成。楼梯与平台要连续，首层贯通通道留净空；楼梯是自动扶梯的静态替代。二层连廊仅保留接入片段，不生成完整广岛车站。地台树木和座椅按比例简化。\n依据实拍和照明供应商资料，设置转角细灯、主立面竖肋下端灯位和退到绿化后方的檐口光源。窗灯使用稳定ID、固定种子和22%概率作为试验值，不是实测开灯率。粉红屋顶点光用途未核实，航空障碍灯暂缺；不模拟闪烁。照片→人工区域→构件→参数/源码→NBT→同机位回读图全部可追踪。八面参考盒仅用于组织证据，不称相机恢复、八视图正交校准或通用图像建模。交付四面同尺度日夜、真正交俯视、底面和剖切，实际Java1.21.1导入/碰撞/原版光照保持待验收。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "短版提示词",
+      "content": "广岛 JP 大厦整栋，GRAND GATE为二层局部。强制参考img-01、img-02、img-03、img-04、img-05、img-06、img-07、img-08、img-09、img-10、img-11及业主平面，不擅自修改原型设计。1:1约88格高，长矩形、单侧核心筒、退进玻璃转角；浅色深竖肋＋铁栏次梃＋灰青黑玻璃＋窗后暗层。三层绿化停车带和四道薄挑檐，开敞柱廊、连续楼梯与二层连廊片段。固定转角灯、檐口退灯与少量稳定暖窗；内部和屋顶设备为示意。保留来源、估算、NBT回读和同尺度日夜检查；实机待验收。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "规模/质量/高度/附属广场与内部空间建议",
+      "content": "先完成整栋几何，再处理局部环境；不扩建车站。窗后层、设备和树木为简化补全。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "风险与失败排查",
+      "content": "r01暴露楼梯上端缺口与接缝过厚；r02缩短开洞、改薄活板门并将灯退入绿化。文件通过不代表还原通过。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "复杂项目拆分顺序",
+      "content": "体量run、分层初版、修订成品、玻璃控制共6个实际输出。R03检查失败的栏板/扶手悬空和边角灯在R04修复。下一步补后立面与有标尺平面，先在无光影条件验收幕墙/绿化/柱廊三个样板。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07",
+        "img-08",
+        "img-09",
+        "img-10",
+        "img-11"
+      ],
+      "source_ids": [
+        "src-01",
+        "src-02",
+        "src-03",
+        "src-04",
+        "src-release",
+        "src-plan",
+        "src-gate"
+      ]
+    }
+  ],
+  "experiments": [],
+  "risks": [
+    {
+      "risk": "精确尺寸不足",
+      "symptom": "宽深或层高与实物有偏差",
+      "correction": "以有标尺图纸校准，保留V1不覆盖"
+    },
+    {
+      "risk": "原版玻璃与预览不同",
+      "symptom": "深度或透视效果失真",
+      "correction": "导入无光影样板实际查看"
+    },
+    {
+      "risk": "后立面被过度补全",
+      "symptom": "背面核心筒与窗格不准",
+      "correction": "补后立面资料，不将估算升级为事实"
+    }
+  ],
+  "gaps": [
+    "带尺寸竣工平面与后立面",
+    "屋顶设备详细布局",
+    "完整真实餐饮/办公内部",
+    "二层连廊测绘与全车站环境",
+    "粉红顶灯用途及航空障碍灯",
+    "Minecraft实机材质、碰撞和导入"
+  ]
+}

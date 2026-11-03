@@ -1,0 +1,1016 @@
+{
+  "schema_version": "0.4",
+  "document_kind": "interior_planning_handoff",
+  "project_id": "clinic_shell_20x16",
+  "route": "constrained_completion",
+  "status": "proposed",
+  "primary_use": "clinic",
+  "secondary_uses": [
+    "waiting",
+    "reception",
+    "equipment_storage"
+  ],
+  "identity_features": [
+    "六席候诊与接待",
+    "有门围合的问诊",
+    "屏风后的检查榻",
+    "洗手与器材取用"
+  ],
+  "interior_level": "L3",
+  "coordinates": {
+    "units": "integer Minecraft block cells",
+    "axes": {
+      "X": "+east",
+      "Y": "+up",
+      "Z": "+south"
+    },
+    "bounds_xyz": "half-open [x0,y0,z0,x1,y1,z1]; user maxima inclusive",
+    "floor_y": "first standing air cell = 1"
+  },
+  "storeys_total": 1,
+  "storeys_assumption": "给定单层壳体",
+  "design_brief": {
+    "case_id": "clinic_shell_20x16",
+    "version": "0.1",
+    "keywords": [
+      "现代社区诊所",
+      "可进入",
+      "外壳冻结"
+    ],
+    "hard_constraints": [
+      "边界 X=0..19,Y=0..6,Z=0..15",
+      "地板 Y=0、天花 Y=5、外墙/门窗不改",
+      "南双门 (3,1,15),(4,1,15) 朝南",
+      "东窗 X=19,Z=3..6,Y=2..3；北窗 Z=0,X=11..15,Y=2..3"
+    ],
+    "assumptions": [
+      "室内 X=1..18,Z=1..14,Y=1..4 原为空气，Y=0 连续承托",
+      "原门两格高仅作保留包围盒假设，须回读原壳体",
+      "游戏空间意向，不等同现实医疗规范方案"
+    ],
+    "seed": null
+  },
+  "authorized_scope": {
+    "editable_regions": [
+      [1, 1, 1, 19, 5, 15]
+    ],
+    "locked_component_ids": [
+      "shell_all",
+      "fixed_floor",
+      "fixed_ceiling",
+      "south_entry",
+      "east_window",
+      "north_window"
+    ],
+    "edit_mode": "只增加内饰，不替换壳体"
+  },
+  "floor_levels": [
+    {
+      "id": "F1",
+      "floor_y": 1,
+      "upper_floor_y": null,
+      "min_clear_height": 2,
+      "fixed_ceiling_y": 5,
+      "existing_slab_recess_reason": "无上层完成面数据且天花禁止改动，保留既有四格净高，仅采用天花下 Y=4 细灯具"
+    }
+  ],
+  "spatial_spec": {
+    "components": [
+      {
+        "id": "partition_north_south",
+        "bounds_xyz": [1, 1, 7, 19, 5, 8],
+        "subtract_openings": [
+          "utility_door",
+          "consult_door"
+        ]
+      },
+      {
+        "id": "partition_utility_consult",
+        "bounds_xyz": [7, 1, 1, 8, 5, 7]
+      }
+    ],
+    "floors": [
+      {
+        "floor_id": "F1",
+        "floor_block_bounds_xyz": [0, 0, 0, 20, 1, 16],
+        "ceiling_bounds_xyz": [0, 5, 0, 20, 6, 16],
+        "void_refs": []
+      }
+    ],
+    "cores": [],
+    "voids": [],
+    "site": "外侧未提供，不增建场地",
+    "protected_regions": [
+      {
+        "id": "shell_all",
+        "method": "[0, 0, 0, 20, 7, 16] 内 editable_regions 以外全锁"
+      },
+      {
+        "id": "east_window",
+        "bounds_xyz": [19, 2, 3, 20, 4, 7]
+      },
+      {
+        "id": "north_window",
+        "bounds_xyz": [11, 2, 0, 16, 4, 1]
+      }
+    ]
+  },
+  "facade_spec": {
+    "status": "locked_no_changes",
+    "opening_refs": [
+      "south_entry",
+      "east_window",
+      "north_window"
+    ],
+    "variation": "disabled"
+  },
+  "rooms": [
+    {
+      "room_id": "public",
+      "primary_use": "接待/候诊",
+      "style": "modern",
+      "floor_id": "F1",
+      "floor_y": 1,
+      "bounds_xyz": [1, 1, 8, 19, 5, 15],
+      "capacity": {
+        "waiting": 6,
+        "reception_staff": 1
+      },
+      "activity_chain": [
+        "进入",
+        "接待",
+        "候诊",
+        "入诊室",
+        "返回出口"
+      ],
+      "zones": [
+        {
+          "id": "reception",
+          "bounds_xyz": [1, 1, 8, 8, 5, 12],
+          "role": "柜台、员工后台、绕行与患者服务面"
+        },
+        {
+          "id": "entry_pause",
+          "bounds_xyz": [1, 1, 12, 8, 5, 15],
+          "role": "入口转换；西侧留白为同行者短停"
+        },
+        {
+          "id": "waiting",
+          "bounds_xyz": [8, 1, 8, 19, 5, 15],
+          "role": "六席及座前使用面；东南留白为站立和转身，不追加候诊席"
+        }
+      ],
+      "unassigned_floor_area_policy": "zones 覆盖全室；家具、通路和使用面优先，剩余按区域说明作转身或静留白，不一概视为通路",
+      "openings": [
+        "south_entry",
+        "utility_door",
+        "consult_door"
+      ],
+      "protected_regions": [
+        "shell_all",
+        "fixed_floor",
+        "fixed_ceiling",
+        "fixed_openings"
+      ],
+      "finish_layers": {
+        "floor": "保留 Y=0，不铺覆盖层抬高脚底",
+        "wall": "仅新增隔墙浅色主体+局部青灰识别，原外墙不替换",
+        "ceiling": "保留 Y=5，灯具只占 Y=4 空气格"
+      },
+      "furniture_groups": [
+        "reception_counter",
+        "waiting_seat_1",
+        "waiting_seat_2",
+        "waiting_seat_3",
+        "waiting_seat_4",
+        "waiting_seat_5",
+        "waiting_seat_6"
+      ],
+      "approach_points": [
+        {
+          "component_id": "reception_counter",
+          "points": [
+            [3, 1, 11],
+            [4, 1, 9]
+          ]
+        },
+        {
+          "component_id": "waiting_seat_1",
+          "points": [
+            [10, 1, 13]
+          ]
+        },
+        {
+          "component_id": "waiting_seat_2",
+          "points": [
+            [12, 1, 13]
+          ]
+        },
+        {
+          "component_id": "waiting_seat_3",
+          "points": [
+            [14, 1, 13]
+          ]
+        },
+        {
+          "component_id": "waiting_seat_4",
+          "points": [
+            [14, 1, 10]
+          ]
+        },
+        {
+          "component_id": "waiting_seat_5",
+          "points": [
+            [16, 1, 10]
+          ]
+        },
+        {
+          "component_id": "waiting_seat_6",
+          "points": [
+            [18, 1, 10]
+          ]
+        }
+      ],
+      "lighting": [
+        "light_1",
+        "light_2",
+        "light_3",
+        "light_4",
+        "light_5"
+      ],
+      "interior_priority": "L3",
+      "clear_height": {
+        "nominal": 4,
+        "under_lights": 3,
+        "door": 2
+      },
+      "evidence": [
+        "user_shell",
+        "original_interior_plan"
+      ],
+      "review_status": "proposed"
+    },
+    {
+      "room_id": "utility",
+      "primary_use": "器材存储/后勤",
+      "style": "modern",
+      "floor_id": "F1",
+      "floor_y": 1,
+      "bounds_xyz": [1, 1, 1, 7, 5, 7],
+      "capacity": {
+        "staff": 1
+      },
+      "activity_chain": [
+        "进入",
+        "取物",
+        "器材暂存",
+        "返回"
+      ],
+      "zones": [
+        {
+          "id": "stock_and_work",
+          "bounds_xyz": [1, 1, 1, 7, 5, 3],
+          "role": "储物、台面与取用"
+        },
+        {
+          "id": "staff_storage",
+          "bounds_xyz": [1, 1, 3, 4, 5, 7],
+          "role": "员工柜与开柜取用"
+        },
+        {
+          "id": "utility_access",
+          "bounds_xyz": [4, 1, 3, 7, 5, 7],
+          "role": "通道与补货转身"
+        }
+      ],
+      "unassigned_floor_area_policy": "zones 覆盖全室；家具、通路和使用面优先，剩余按区域说明作转身或静留白，不一概视为通路",
+      "openings": [
+        "utility_door"
+      ],
+      "protected_regions": [
+        "shell_all",
+        "fixed_floor",
+        "fixed_ceiling",
+        "fixed_openings"
+      ],
+      "finish_layers": {
+        "floor": "保留 Y=0，不铺覆盖层抬高脚底",
+        "wall": "仅新增隔墙浅色主体+局部青灰识别，原外墙不替换",
+        "ceiling": "保留 Y=5，灯具只占 Y=4 空气格"
+      },
+      "furniture_groups": [
+        "clean_stock",
+        "staging_worktop",
+        "staff_locker"
+      ],
+      "approach_points": [
+        {
+          "component_id": "clean_stock",
+          "points": [
+            [2, 1, 2]
+          ]
+        },
+        {
+          "component_id": "staging_worktop",
+          "points": [
+            [5, 1, 2]
+          ]
+        },
+        {
+          "component_id": "staff_locker",
+          "points": [
+            [2, 1, 4]
+          ]
+        }
+      ],
+      "lighting": [
+        "light_6",
+        "light_7"
+      ],
+      "interior_priority": "L3",
+      "clear_height": {
+        "nominal": 4,
+        "under_lights": 3,
+        "door": 2
+      },
+      "evidence": [
+        "user_shell",
+        "original_interior_plan"
+      ],
+      "review_status": "proposed"
+    },
+    {
+      "room_id": "consult",
+      "primary_use": "独立诊室/洗手",
+      "style": "modern",
+      "floor_id": "F1",
+      "floor_y": 1,
+      "bounds_xyz": [8, 1, 1, 19, 5, 7],
+      "capacity": {
+        "doctor": 1,
+        "patient": 1,
+        "companion_optional": 1
+      },
+      "activity_chain": [
+        "进入关门",
+        "问诊",
+        "洗手/检查",
+        "取用器材",
+        "返回"
+      ],
+      "zones": [
+        {
+          "id": "exam_and_wash",
+          "bounds_xyz": [8, 1, 1, 11, 5, 5],
+          "role": "检查榻、洗手、L屏风及西侧一格宽操作带"
+        },
+        {
+          "id": "daylight_and_consult",
+          "bounds_xyz": [11, 1, 1, 19, 5, 5],
+          "role": "窗前净空、问诊桌椅、资料柜及桌边使用距离"
+        },
+        {
+          "id": "consult_turning",
+          "bounds_xyz": [8, 1, 5, 19, 5, 7],
+          "role": "入口转身与检查联系，东端静留白为陪同者站立"
+        }
+      ],
+      "unassigned_floor_area_policy": "zones 覆盖全室；家具、通路和使用面优先，剩余按区域说明作转身或静留白，不一概视为通路",
+      "openings": [
+        "consult_door"
+      ],
+      "protected_regions": [
+        "shell_all",
+        "fixed_floor",
+        "fixed_ceiling",
+        "fixed_openings"
+      ],
+      "finish_layers": {
+        "floor": "保留 Y=0，不铺覆盖层抬高脚底",
+        "wall": "仅新增隔墙浅色主体+局部青灰识别，原外墙不替换",
+        "ceiling": "保留 Y=5，灯具只占 Y=4 空气格"
+      },
+      "furniture_groups": [
+        "consult_desk",
+        "doctor_chair",
+        "patient_chair",
+        "exam_couch",
+        "wash_basin",
+        "privacy_screen_east",
+        "privacy_screen_south",
+        "records_low_cabinet"
+      ],
+      "approach_points": [
+        {
+          "component_id": "consult_desk",
+          "points": [
+            [14, 1, 2],
+            [14, 1, 4]
+          ]
+        },
+        {
+          "component_id": "doctor_chair",
+          "points": [
+            [14, 1, 2]
+          ]
+        },
+        {
+          "component_id": "patient_chair",
+          "points": [
+            [14, 1, 4]
+          ]
+        },
+        {
+          "component_id": "exam_couch",
+          "points": [
+            [8, 1, 2],
+            [8, 1, 3]
+          ]
+        },
+        {
+          "component_id": "wash_basin",
+          "points": [
+            [8, 1, 2]
+          ]
+        },
+        {
+          "component_id": "privacy_screen_east",
+          "points": [
+            [11, 1, 3]
+          ]
+        },
+        {
+          "component_id": "privacy_screen_south",
+          "points": [
+            [8, 1, 4]
+          ]
+        },
+        {
+          "component_id": "records_low_cabinet",
+          "points": [
+            [17, 1, 2]
+          ]
+        }
+      ],
+      "lighting": [
+        "light_8",
+        "light_9",
+        "light_10",
+        "light_11"
+      ],
+      "interior_priority": "L3",
+      "clear_height": {
+        "nominal": 4,
+        "under_lights": 3,
+        "door": 2
+      },
+      "evidence": [
+        "user_shell",
+        "original_interior_plan"
+      ],
+      "review_status": "proposed"
+    }
+  ],
+  "openings": [
+    {
+      "id": "south_entry",
+      "type": "existing_double_door",
+      "bounds_xyz": [3, 1, 15, 5, 3, 16],
+      "supplied_lower_cells": [
+        [3, 1, 15],
+        [4, 1, 15]
+      ],
+      "facing": "south",
+      "leaf_plane": {
+        "axis": "Z",
+        "value": 15
+      },
+      "frame_plane": {
+        "axis": "Z",
+        "value": 15,
+        "status": "expected_existing; actual_missing"
+      },
+      "hinge": "missing; preserve existing",
+      "swing_keepout": [
+        [3, 1, 14, 5, 3, 17]
+      ],
+      "threshold_y": 0,
+      "policy": "冻结；上半扇、门框、门楣和外侧承托待回读，不能补造为已知"
+    },
+    {
+      "id": "utility_door",
+      "type": "double_door",
+      "from_room": "public",
+      "to_room": "utility",
+      "bounds_xyz": [4, 1, 7, 6, 3, 8],
+      "leaf_plane": {
+        "axis": "Z",
+        "value": 7
+      },
+      "frame_plane": {
+        "axis": "Z",
+        "value": 7
+      },
+      "frame_side_bounds": [
+        [3, 1, 7, 4, 5, 8],
+        [6, 1, 7, 7, 5, 8]
+      ],
+      "lintel_bounds_xyz": [4, 3, 7, 6, 5, 8],
+      "threshold_y": 0,
+      "facing": "north",
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "leaf_half_pairs": "lower Y=1 + upper Y=2：方向/铰链相同；左右关系须按目标方块状态核验",
+      "swing_keepout": [
+        [4, 1, 6, 6, 3, 9]
+      ],
+      "status": "proposed; game collision pending"
+    },
+    {
+      "id": "consult_door",
+      "type": "double_door",
+      "from_room": "public",
+      "to_room": "consult",
+      "bounds_xyz": [12, 1, 7, 14, 3, 8],
+      "leaf_plane": {
+        "axis": "Z",
+        "value": 7
+      },
+      "frame_plane": {
+        "axis": "Z",
+        "value": 7
+      },
+      "frame_side_bounds": [
+        [11, 1, 7, 12, 5, 8],
+        [14, 1, 7, 15, 5, 8]
+      ],
+      "lintel_bounds_xyz": [12, 3, 7, 14, 5, 8],
+      "threshold_y": 0,
+      "facing": "north",
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "leaf_half_pairs": "lower Y=1 + upper Y=2：方向/铰链相同；左右关系须按目标方块状态核验",
+      "swing_keepout": [
+        [12, 1, 6, 14, 3, 9]
+      ],
+      "status": "proposed; game collision pending"
+    }
+  ],
+  "circulation_keepouts": [
+    {
+      "id": "entry_inside",
+      "bounds_xyz": [3, 1, 12, 5, 3, 15],
+      "support": "existing floor Y=0"
+    },
+    {
+      "id": "public_cross_aisle",
+      "bounds_xyz": [5, 1, 11, 14, 3, 13],
+      "support": "existing floor Y=0"
+    },
+    {
+      "id": "consult_approach",
+      "bounds_xyz": [12, 1, 8, 14, 3, 13],
+      "support": "existing floor Y=0"
+    },
+    {
+      "id": "consult_inner",
+      "bounds_xyz": [12, 1, 5, 16, 3, 7],
+      "support": "existing floor Y=0"
+    },
+    {
+      "id": "clinic_west_access",
+      "bounds_xyz": [8, 1, 5, 12, 3, 7],
+      "support": "existing floor Y=0"
+    },
+    {
+      "id": "reception_staff_bypass",
+      "bounds_xyz": [6, 1, 8, 8, 3, 13],
+      "support": "existing floor Y=0"
+    },
+    {
+      "id": "reception_staff_back",
+      "bounds_xyz": [2, 1, 8, 6, 3, 10],
+      "support": "existing floor Y=0"
+    },
+    {
+      "id": "utility_inner",
+      "bounds_xyz": [4, 1, 3, 6, 3, 7],
+      "support": "existing floor Y=0"
+    }
+  ],
+  "window_keepouts": [
+    {
+      "id": "east_daylight",
+      "bounds_xyz": [18, 1, 3, 19, 4, 7]
+    },
+    {
+      "id": "north_daylight",
+      "bounds_xyz": [11, 1, 1, 16, 4, 2]
+    }
+  ],
+  "proposed_modules": [
+    {
+      "component_id": "reception_counter",
+      "room_id": "public",
+      "bounds_xyz": [2, 1, 10, 6, 2, 11],
+      "recipe": "端部支撑+薄台面；南患者/北员工",
+      "approach_points": [
+        [3, 1, 11],
+        [4, 1, 9]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "clean_stock",
+      "room_id": "utility",
+      "bounds_xyz": [1, 1, 1, 3, 3, 2],
+      "recipe": "两层器材/物料柜；容器实体待适配",
+      "approach_points": [
+        [2, 1, 2]
+      ],
+      "interaction_status": "proposed; vanilla_unverified"
+    },
+    {
+      "component_id": "staging_worktop",
+      "room_id": "utility",
+      "bounds_xyz": [4, 1, 1, 7, 2, 2],
+      "recipe": "器材暂存工作台；不提供医疗操作",
+      "approach_points": [
+        [5, 1, 2]
+      ],
+      "interaction_status": "proposed; vanilla_unverified"
+    },
+    {
+      "component_id": "staff_locker",
+      "room_id": "utility",
+      "bounds_xyz": [1, 1, 4, 2, 3, 6],
+      "recipe": "员工储物柜",
+      "approach_points": [
+        [2, 1, 4]
+      ],
+      "interaction_status": "proposed; vanilla_unverified"
+    },
+    {
+      "component_id": "consult_desk",
+      "room_id": "consult",
+      "bounds_xyz": [14, 1, 3, 17, 2, 4],
+      "recipe": "薄桌面与支撑；北医生/南患者",
+      "approach_points": [
+        [14, 1, 2],
+        [14, 1, 4]
+      ],
+      "interaction_status": "proposed; vanilla_unverified"
+    },
+    {
+      "component_id": "doctor_chair",
+      "room_id": "consult",
+      "bounds_xyz": [15, 1, 2, 16, 2, 3],
+      "recipe": "朝南楼梯椅；装饰不可直接坐",
+      "approach_points": [
+        [14, 1, 2]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "patient_chair",
+      "room_id": "consult",
+      "bounds_xyz": [15, 1, 4, 16, 2, 5],
+      "recipe": "朝北楼梯椅；装饰不可直接坐",
+      "approach_points": [
+        [14, 1, 4]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "exam_couch",
+      "room_id": "consult",
+      "bounds_xyz": [9, 1, 2, 10, 2, 4],
+      "recipe": "两格白色底半砖检查榻；非真实床",
+      "approach_points": [
+        [8, 1, 2],
+        [8, 1, 3]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "wash_basin",
+      "room_id": "consult",
+      "bounds_xyz": [8, 1, 1, 9, 2, 2],
+      "recipe": "坩埚式洗手盆；不引入开放水源",
+      "approach_points": [
+        [8, 1, 2]
+      ],
+      "interaction_status": "proposed; vanilla_unverified"
+    },
+    {
+      "component_id": "privacy_screen_east",
+      "room_id": "consult",
+      "bounds_xyz": [10, 1, 1, 11, 4, 5],
+      "recipe": "浅色实体屏风",
+      "approach_points": [
+        [11, 1, 3]
+      ],
+      "interaction_status": "proposed; vanilla_unverified"
+    },
+    {
+      "component_id": "privacy_screen_south",
+      "room_id": "consult",
+      "bounds_xyz": [9, 1, 4, 10, 4, 5],
+      "recipe": "与侧屏风相接的回折",
+      "approach_points": [
+        [8, 1, 4]
+      ],
+      "interaction_status": "proposed; vanilla_unverified"
+    },
+    {
+      "component_id": "records_low_cabinet",
+      "room_id": "consult",
+      "bounds_xyz": [18, 1, 1, 19, 2, 3],
+      "recipe": "低资料柜，保留东窗前净空",
+      "approach_points": [
+        [17, 1, 2]
+      ],
+      "interaction_status": "proposed; vanilla_unverified"
+    },
+    {
+      "component_id": "waiting_seat_1",
+      "room_id": "public",
+      "bounds_xyz": [10, 1, 14, 11, 2, 15],
+      "recipe": "单格楼梯椅，朝north；装饰不可直接坐",
+      "approach_points": [
+        [10, 1, 13]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "waiting_seat_2",
+      "room_id": "public",
+      "bounds_xyz": [12, 1, 14, 13, 2, 15],
+      "recipe": "单格楼梯椅，朝north；装饰不可直接坐",
+      "approach_points": [
+        [12, 1, 13]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "waiting_seat_3",
+      "room_id": "public",
+      "bounds_xyz": [14, 1, 14, 15, 2, 15],
+      "recipe": "单格楼梯椅，朝north；装饰不可直接坐",
+      "approach_points": [
+        [14, 1, 13]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "waiting_seat_4",
+      "room_id": "public",
+      "bounds_xyz": [14, 1, 9, 15, 2, 10],
+      "recipe": "单格楼梯椅，朝south；装饰不可直接坐",
+      "approach_points": [
+        [14, 1, 10]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "waiting_seat_5",
+      "room_id": "public",
+      "bounds_xyz": [16, 1, 9, 17, 2, 10],
+      "recipe": "单格楼梯椅，朝south；装饰不可直接坐",
+      "approach_points": [
+        [16, 1, 10]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    },
+    {
+      "component_id": "waiting_seat_6",
+      "room_id": "public",
+      "bounds_xyz": [18, 1, 9, 19, 2, 10],
+      "recipe": "单格楼梯椅，朝south；装饰不可直接坐",
+      "approach_points": [
+        [18, 1, 10]
+      ],
+      "interaction_status": "proposed; vanilla_unverified",
+      "capacity": 1
+    }
+  ],
+  "lighting": {
+    "coverage": "全部三室",
+    "fixtures": [
+      {
+        "id": "light_1",
+        "room_id": "public",
+        "position": [4, 4, 12],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [4, 5, 12],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_2",
+        "room_id": "public",
+        "position": [7, 4, 9],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [7, 5, 9],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_3",
+        "room_id": "public",
+        "position": [11, 4, 12],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [11, 5, 12],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_4",
+        "room_id": "public",
+        "position": [16, 4, 12],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [16, 5, 12],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_5",
+        "room_id": "public",
+        "position": [16, 4, 9],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [16, 5, 9],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_6",
+        "room_id": "utility",
+        "position": [3, 4, 3],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [3, 5, 3],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_7",
+        "room_id": "utility",
+        "position": [5, 4, 5],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [5, 5, 5],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_8",
+        "room_id": "consult",
+        "position": [9, 4, 2],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [9, 5, 2],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_9",
+        "room_id": "consult",
+        "position": [13, 4, 5],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [13, 5, 5],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_10",
+        "room_id": "consult",
+        "position": [15, 4, 2],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [15, 5, 2],
+        "status": "proposed; vanilla_unverified"
+      },
+      {
+        "id": "light_11",
+        "room_id": "consult",
+        "position": [17, 4, 5],
+        "recipe": "minecraft:end_rod[facing=down]",
+        "support_cell": [17, 5, 5],
+        "status": "proposed; vanilla_unverified"
+      }
+    ],
+    "ceiling_modification": false,
+    "color_intent": "候诊暖白/工作区中性观感；不宣称原版彩色光传播",
+    "real_illumination": "pending game check"
+  },
+  "connections": [
+    {
+      "id": "patient_chain",
+      "from": "south_entry",
+      "to": "consult",
+      "path_xyz": [
+        [3, 1, 14],
+        [3, 1, 12],
+        [12, 1, 12],
+        [12, 1, 8],
+        [12, 1, 7],
+        [12, 1, 6]
+      ],
+      "width_target": 2,
+      "support": "Y=0 existing floor"
+    },
+    {
+      "id": "staff_chain",
+      "from": "public",
+      "to": "utility",
+      "path_xyz": [
+        [4, 1, 9],
+        [6, 1, 9],
+        [6, 1, 8],
+        [4, 1, 8],
+        [4, 1, 7],
+        [4, 1, 6]
+      ],
+      "width_target": 2,
+      "support": "Y=0 existing floor"
+    }
+  ],
+  "integration": {
+    "catalog_consumer": "pending_adapter",
+    "haf_compile_handoff": "not_run",
+    "geometry_consumer": "pending_adapter",
+    "note": "规划字段不代表 HAF 已消费或构件已生成"
+  },
+  "verification": {
+    "data_checked": {
+      "status": "pass",
+      "checks": [
+        "新增家具边界",
+        "家具占地互不重叠",
+        "六候诊席计数",
+        "通路/门前/窗前家具侵占",
+        "开门假设下南门至所有家具接近点二维连通"
+      ],
+      "waiting_seats": 6,
+      "reachable_air_floor_cells": 199,
+      "limit": "计划网格检查，不含真实方块碰撞、视线、光照与游戏交互"
+    },
+    "geometry_checked": "not_built",
+    "visually_reviewed": "pending",
+    "engine_consumed": false,
+    "game_checked": "pending",
+    "scope": "仅规划；不生成图片/NBT/地图",
+    "remaining": [
+      "回读原南门框、门扇状态及外侧承托",
+      "目标游戏版本与诊所配方适配",
+      "完整门碰撞、私密视线、真实光照和容器交互",
+      "入口/诊室/后勤人物眼高及实机检查"
+    ]
+  },
+  "evidence": {
+    "route_evidence": "user_supplied_shell + original proposed interior; 未读取实际壳体/NBT",
+    "skill_version": "0.4.1 / 2026-10-29",
+    "sources": [
+      {
+        "path": "/root/.codex/skills/remote-skills/skill-6adf5613141c8191a295bf2d31569548/SKILL.md",
+        "sha256": "f77fc9531b34627d5b4200f5a97d5703e27773799574e3c88331cc93a46c55ca",
+        "status": "actual_read"
+      },
+      {
+        "path": "/root/.codex/skills/remote-skills/skill-6adf5613141c8191a295bf2d31569548/references/interior-rebuild.md",
+        "sha256": "96034bbe94d10af1ad314b332dfd452d7084349a12805a9286cf138ff02a55e7",
+        "status": "actual_read"
+      },
+      {
+        "path": "/root/.codex/skills/remote-skills/skill-6adf5613141c8191a295bf2d31569548/references/interior-identity.md",
+        "sha256": "5c2dc7e0a803e0096562de18e4e8aaf03e400ec0fab4da9069f5489841c3630f",
+        "status": "actual_read"
+      },
+      {
+        "path": "/root/.codex/skills/remote-skills/skill-6adf5613141c8191a295bf2d31569548/references/interior-lighting-landscape.md",
+        "sha256": "c374e1b272f0153634d7a38943cfb791dbe9c601417c8235acf1f34a998023df",
+        "status": "actual_read"
+      },
+      {
+        "path": "/root/.codex/skills/remote-skills/skill-6adf5613141c8191a295bf2d31569548/references/spatial-contract.md",
+        "sha256": "6fdaf6dda583b6cd98a16fb8871c348ca12b2ced21e4a765b2d6f43ce18080db",
+        "status": "actual_read"
+      },
+      {
+        "path": "/root/.codex/skills/remote-skills/skill-6adf5613141c8191a295bf2d31569548/references/haf-0.4-handoff.md",
+        "sha256": "760fc315f68116d76e2e9697c70ba4df6a4db597479eb915f1819006931d7bbe",
+        "status": "actual_read"
+      },
+      {
+        "path": "/root/.codex/skills/remote-skills/skill-6adf5613141c8191a295bf2d31569548/references/interior-programs.json",
+        "sha256": "435825df505ebffae391d2807ead4b681019d825ce897b378d0f06cf5a15349e",
+        "status": "actual_read"
+      },
+      {
+        "path": "/root/.codex/skills/remote-skills/skill-6adf5613141c8191a295bf2d31569548/references/design-catalog.json",
+        "sha256": "1a53b1b40310dd151c70ce9eb55bdc4b0aa1477c528ad2ae9b956f17f9a027d7",
+        "status": "actual_read"
+      }
+    ]
+  }
+}

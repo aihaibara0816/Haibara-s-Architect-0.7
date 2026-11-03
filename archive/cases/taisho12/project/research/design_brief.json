@@ -1,0 +1,55 @@
+{
+  "case_id": "Taisho12",
+  "mainline": "HAF 0.4",
+  "seed": 1145,
+  "route": "original source-informed prototypes",
+  "units": "Minecraft block; authored dimensions, not measurements",
+  "coordinates": "+X east, +Z south; model directions only",
+  "floors": [
+    {
+      "floor_block_y": 2,
+      "feet_y": 3
+    },
+    {
+      "floor_block_y": 8,
+      "feet_y": 9
+    }
+  ],
+  "constraints": [
+    "Java1.21.1 vanilla blocks",
+    "three distinct silhouettes and programs",
+    "rich usable interiors",
+    "seed only changes legal plants/path materials",
+    "upper decorative roof lanterns not guest floors"
+  ],
+  "scope": [
+    "Bookshop",
+    "Pharmacy",
+    "Inn"
+  ],
+  "not_scope": [
+    "18-building town",
+    "full terrain redesign",
+    "historically exact replica",
+    "model training",
+    "gameplay verified"
+  ],
+  "variation": {
+    "algorithm": "per_lot_and_pot_hash-v1",
+    "seed": 1145,
+    "mutable": [
+      "potted plant species",
+      "grass/flower position",
+      "street material"
+    ],
+    "fixed": [
+      "doors",
+      "stairs",
+      "walls",
+      "furniture",
+      "facade composition"
+    ]
+  },
+  "long_prompt": "大正浪漫意象三栋原创街屋。青叶书肆为绿青铜板看板门脸与纵深木造屋身，三组竖窗、分层檐口、深窗台、古书陈列与包装柜台，楼上编辑阅读与店主卧室。白鹭药局为白色洋式柱带、砖基座、街角退入口、绿色雨篷和小屋顶灯楼，药柜、陈列、调配、账房、库存分开。松风馆为木框浅墙、入口小雨篷、连续阳台、交叉屋顶与小塔屋，玄关接待茶歇、后厨、盥洗、两间有真床的客房。植物按承托组景，门口与通道禁止摆物，固定种子。精确图纸与预览从同一最终NBT生成。",
+  "short_prompt": "铜板古书店／洋式转角药局／塔屋小旅馆；分层窗框檐口、用途内饰、暖灯、少量绿植；原版Java1.21.1，非实测复原。"
+}

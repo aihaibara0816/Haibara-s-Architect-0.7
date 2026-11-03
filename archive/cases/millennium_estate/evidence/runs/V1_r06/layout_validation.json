@@ -1,0 +1,65 @@
+{
+  "source_nbt_sha256": "33f846a9a8c7bd5ca75e70698c7084bb64029d962c93b51955482d319ade5184",
+  "checks": [
+    {
+      "id": "NBT_facade_origins_step_north_10",
+      "status": "pass",
+      "origins": {
+        "A1": {
+          "x": 18,
+          "z": 118
+        },
+        "A2": {
+          "x": 68,
+          "z": 108
+        },
+        "A3": {
+          "x": 118,
+          "z": 98
+        },
+        "B1": {
+          "x": 10,
+          "z": 31
+        },
+        "B2": {
+          "x": 60,
+          "z": 21
+        },
+        "B3": {
+          "x": 110,
+          "z": 11
+        }
+      },
+      "z_steps": {
+        "A": [
+          -10,
+          -10
+        ],
+        "B": [
+          -10,
+          -10
+        ]
+      }
+    },
+    {
+      "id": "NBT_rows_parallel_same_depth_gap",
+      "status": "pass",
+      "row_gaps": [
+        87,
+        87,
+        87
+      ],
+      "x_steps": {
+        "A": [
+          50,
+          50
+        ],
+        "B": [
+          50,
+          50
+        ]
+      }
+    }
+  ],
+  "passed": true
+}

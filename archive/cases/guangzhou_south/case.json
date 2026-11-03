@@ -1,0 +1,22 @@
+{
+  "id": "guangzhou_south",
+  "name": "广州南站",
+  "style": "public",
+  "origin": "HAF 0.4 快照",
+  "version": "V1_r02",
+  "history": "V1_r02",
+  "achievement": "6跨不等宽拱壳、错位檐边、采光脊、V/Y柱和东西落客高差分开表达；大场地先控制层级、通廊和尺度。",
+  "lesson": "入口契约必须在最终NBT检查；原子写入+网格字节长度+图像读回保护大场景预览；主次体量优先于重复细节密度。",
+  "failure": "玻璃开门后外侧竖梃仍堵门；巨型网格写入曾截断；灯数很多但入口/下层夜景依然暗。",
+  "open": "轨道和列车装饰性；ETFE/柱网/广场估算；采光脊文字尺寸与含端部包络未完全闭合；游戏未测。",
+  "acceptance": "用户认可当前体量下已足够；细节限制继续保留",
+  "game": "待实测",
+  "source": "HAF04.zip",
+  "source_evidence": [
+    "learning/guangzhou_south_v1.json",
+    "cases/guangzhou_south/src/validate_case.py",
+    "tests/test_mesh_write.py"
+  ],
+  "nbt_member": "HAF-0.4/cases/guangzhou_south/runs/V1_r02/building.nbt",
+  "style_name": "现代公共与商业"
+}

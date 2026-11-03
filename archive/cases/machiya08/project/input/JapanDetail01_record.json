@@ -1,0 +1,327 @@
+{
+  "schema_version": "japanese-detail-research-1.1",
+  "report_id": "JapanDetail01",
+  "date": "2026-10-29",
+  "baseline": "JapanTown12 J09; HAF 0.5 research collection / HAF 0.4 main engine lineage",
+  "route": "research_only",
+  "user_feedback": "日式感远远看有了，但还是差点感觉。先看 Freedom 屋檐、门面、立面与内饰；增加店铺门口排版、特殊建筑与其内饰的案例积累。",
+  "sources": [
+    {
+      "id": "F104",
+      "title": "Freedom · 转角沿街商铺 #104",
+      "url": "https://www.bilibili.com/list/ml2584547842?bvid=BV1aG4y1B7fo&oid=815759550",
+      "original": "https://www.youtube.com/watch?v=I40jEm-xIsU",
+      "duration": "47:03",
+      "status": "sampled_visual",
+      "scope": "外观、上层框架、檐底和木构装饰；分段抽查，非完整观看"
+    },
+    {
+      "id": "F101",
+      "title": "Freedom · 旅馆 #101",
+      "url": "https://www.bilibili.com/video/BV1Kq4y1T7Sy/?vd_source=095f618f639990440118c69811815fa4",
+      "original": "https://www.youtube.com/watch?v=QRdePpYnhBw",
+      "duration": "53:09",
+      "status": "sampled_visual",
+      "scope": "入口、走廊、室内水景及植物装修；分段抽查，非完整观看"
+    },
+    {
+      "id": "F128I",
+      "title": "Freedom · 味噌店内饰 #128",
+      "url": "https://www.youtube.com/watch?v=AXg3qndKra8",
+      "status": "metadata_only",
+      "scope": "已核对视频标题及作者；播放器未取得可用建筑画面，不作为本轮细节证据"
+    },
+    {
+      "id": "J09",
+      "title": "JapanTown12 · J09",
+      "url": "https://chatgpt.com/library?file_id=libfile_0ef06e9c97fc8191bab81430218fb37b&account_id=personal",
+      "status": "artifact_and_code_read",
+      "scope": "现有交付 HTML、商铺及住宅剖切预览、build_oldtown.py 源码"
+    },
+    {
+      "id": "T130",
+      "title": "现实参照 · 甘味处 竹むら",
+      "url": "https://with-tokyorekiken.metro.tokyo.lg.jp/rekiken/911/",
+      "status": "primary_article_read",
+      "scope": "东京历史建筑项目的一手说明；门前景物、店内桌席与小上阶座敷。用于补充空间类型，非 Freedom 视频观察。"
+    },
+    {
+      "id": "TBATH",
+      "title": "现实参照 · 钱汤 曙湯",
+      "url": "https://with-tokyorekiken.metro.tokyo.lg.jp/rekiken/1483/",
+      "status": "primary_article_read",
+      "scope": "东京历史建筑项目的一手说明；入口、鞋柜、接待、休息区与格天井。属于补充建筑类型研究，非 Freedom 作品。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "O01",
+      "source": "F104",
+      "time": "00:26",
+      "region": "正面整体与店口",
+      "observed": "上下两道灰色屋檐；上层木框窗、下层深店口；紫色暖帘和红色招牌形成局部色点。",
+      "limits": "不能仅凭展示画面确认全部方块 ID、材质包或光影配置。"
+    },
+    {
+      "id": "O02",
+      "source": "F104",
+      "time": "约 13:21",
+      "region": "上层未封闭窗洞",
+      "observed": "粗横梁与立柱围出窗口，下部已有木板窗下墙，窗口与外侧灰色屋面存在前后层次。",
+      "limits": "施工中间态；不能当成完工窗的全部构造。"
+    },
+    {
+      "id": "O03",
+      "source": "F104",
+      "time": "20:11",
+      "region": "上层外角、檐底仰视",
+      "observed": "深色屋面下表面与浅色柱梁分离；横向木端头伸出；薄片与栅栏形构件组合出托接和窗外屏架。",
+      "limits": "形态可确认；小构件精确状态与全套资源包依赖未逐块核实。"
+    },
+    {
+      "id": "O04",
+      "source": "F101",
+      "time": "00:33",
+      "region": "走廊内景",
+      "observed": "深色木顶、木地面、立柱和浅色竖向隔面围出走廊；中央悬灯；尽端有格窗、绿色植物和粉色花点。",
+      "limits": "局部视角；浅色面是否为纸、玻璃或白墙不能仅凭画面定材。"
+    },
+    {
+      "id": "O05",
+      "source": "F101",
+      "time": "00:51–00:59",
+      "region": "入口与立面",
+      "observed": "中央入口、两侧开间、连续上下檐、白色竖向墙面和蓝色帘幕形成主次；柱间灯与木端头加强檐下层次。",
+      "limits": "不是所有日式建筑的固定模板；旅馆的对称性不应复制到每一家小店。"
+    },
+    {
+      "id": "O06",
+      "source": "F101",
+      "time": "30:09",
+      "region": "入口台阶及檐端",
+      "observed": "浅灰台阶与门内木地板相接；檐端竖链靠近柱旁，下方有小型承接构件。",
+      "limits": "可作为雨链形态参考；未观察完整排水去向，不宣称已复原水力系统。"
+    },
+    {
+      "id": "O07",
+      "source": "F101",
+      "time": "43:20",
+      "region": "木顶下的水景空间",
+      "observed": "低木顶和白墙围出绿植水景；竹、叶块与水面有高低关系；一盏灯从木顶支点悬下。",
+      "limits": "该帧有顶，不能自动称为露天坪庭；不是标准客房平面证据。"
+    },
+    {
+      "id": "O08",
+      "source": "F101",
+      "time": "47:56",
+      "region": "水景边缘与门槛",
+      "observed": "木地面与绿植边缘分开，水旁有粉色花点、睡莲状叶片和局部竖向木构件，植物沿水岸聚集。",
+      "limits": "水、草与花的具体方块需后续独立试样；不把资源包形状直接等同原版。"
+    },
+    {
+      "id": "O09",
+      "source": "F104",
+      "time": "47:03 结束帧",
+      "region": "店铺正面排版",
+      "observed": "横向店名牌居上，紫色分片暖帘居中，售卖台在后；红色低矮座位状构件在前侧，花盆与竖向装饰聚在柱边。",
+      "limits": "只说明可见构图；不把座位状外观当作真实坐下交互功能。"
+    },
+    {
+      "id": "O10",
+      "source": "F104",
+      "time": "40:59",
+      "region": "店口斜视与陈列台",
+      "observed": "前方有红床形低家具、脚手架状小台；浅色柜台上集中彩色小件，后侧挂红色帘面；前景柱、暖帘和后架形成多重遮挡。",
+      "limits": "柜台彩色小件及柱边灯架的具体方块配方未逐一确认；不从屏幕外推完整店内平面。"
+    }
+  ],
+  "components": [
+    {
+      "id": "E01",
+      "name": "分层檐口与檐底",
+      "evidence": [
+        "O01",
+        "O03"
+      ],
+      "current_consumer": "roof(); lower_eave()",
+      "current": "单一坡率、连续台阶；檐底木条和少量端部托件已有，但层次弱。",
+      "proposed_fields": [
+        "roof_profile",
+        "eave_depth",
+        "verge_family",
+        "soffit_modules"
+      ],
+      "status": "research_only; pending implementation",
+      "priority": "P0"
+    },
+    {
+      "id": "F01",
+      "name": "营业门面",
+      "evidence": [
+        "O01",
+        "O05"
+      ],
+      "current_consumer": "主循环 facade bays / doors / storefront",
+      "current": "门窗仍共用开间逻辑，店口与住宅窗的差异不够明确。",
+      "proposed_fields": [
+        "opening_family",
+        "entry_recess",
+        "counter_span",
+        "noren_span"
+      ],
+      "status": "research_only; pending implementation",
+      "priority": "P0"
+    },
+    {
+      "id": "F02",
+      "name": "窗格与墙体深度",
+      "evidence": [
+        "O02",
+        "O03"
+      ],
+      "current_consumer": "lattice()",
+      "current": "连接栅栏两行加白玻璃片，重复横杆粗重。",
+      "proposed_fields": [
+        "lattice_family",
+        "frame_depth",
+        "backing_plane",
+        "sill_family"
+      ],
+      "status": "research_only; pending implementation",
+      "priority": "P0"
+    },
+    {
+      "id": "I01",
+      "name": "室内功能与装修",
+      "evidence": [
+        "O04",
+        "O07",
+        "O08"
+      ],
+      "current_consumer": "furniture(); zones",
+      "current": "已有用途和家具，但缺少空间分隔、入口高差、连续装修界面。",
+      "proposed_fields": [
+        "interior_zones",
+        "floor_levels",
+        "partition_family",
+        "view_target",
+        "furniture_clusters"
+      ],
+      "status": "research_only; pending implementation",
+      "priority": "P0"
+    },
+    {
+      "id": "D01",
+      "name": "雨链、道具与灯位",
+      "evidence": [
+        "O01",
+        "O06",
+        "O07"
+      ],
+      "current_consumer": "门前道具循环；室内与檐下灯循环",
+      "current": "已有挂链支点和照明；需由门口、柜台、交通节点决定位置。",
+      "proposed_fields": [
+        "prop_clusters",
+        "fixture_anchors",
+        "drain_endpoints"
+      ],
+      "status": "research_only; pending implementation",
+      "priority": "P1"
+    },
+    {
+      "id": "R01",
+      "name": "有约束的构件变体",
+      "evidence": [
+        "O01",
+        "O05",
+        "J09-code"
+      ],
+      "current_consumer": "rng(building_id + .facade)",
+      "current": "只在有限木色、树和田地变化；布局固定。",
+      "proposed_fields": [
+        "building_family",
+        "bay_sequence",
+        "maintenance_profile",
+        "neighbor_constraints"
+      ],
+      "status": "research_only; pending implementation",
+      "priority": "P1"
+    }
+  ],
+  "case_library": [
+    {
+      "id": "JP-S01",
+      "type": "转角沿街商铺",
+      "references": [
+        "F104"
+      ],
+      "status": "sampled_visual",
+      "front": "店名牌 / 分片暖帘 / 开放陈列台 / 前侧低家具 / 柱边花盆分层。",
+      "interior": "已见柜台与后架的局部深度；完整后勤与楼梯待核。",
+      "next": "做一个两面可看的店口角部，验证招牌与营业面的转折。"
+    },
+    {
+      "id": "JP-S02",
+      "type": "小旅馆",
+      "references": [
+        "F101"
+      ],
+      "status": "sampled_visual",
+      "front": "中央入口与两侧开间，连续檐线、柱间灯和帘幕。",
+      "interior": "木质走廊、浅色隔面、端景；有顶的水景与植物装修。",
+      "next": "先做入口—接待—走廊—客房的原创动线样本；客房家具另找证据。"
+    },
+    {
+      "id": "JP-S03",
+      "type": "甜品店 / 甘味处",
+      "references": [
+        "T130",
+        "Freedom #130 catalog_only"
+      ],
+      "status": "primary_article_plus_catalog",
+      "front": "竹むら的一手说明提到门前紧凑植栽、石灯笼与竹垣、檐灯及入口上方采光窗。",
+      "interior": "同一店内有桌席与小上阶座敷，竹意匠贯穿天花与窗。",
+      "next": "试建桌席与抬高茶席并存的小店；Freedom #130 的方块实现仍待核。"
+    },
+    {
+      "id": "JP-S04",
+      "type": "味噌店",
+      "references": [
+        "F128I"
+      ],
+      "status": "metadata_only",
+      "front": "研究目标：招牌、营业口、货品与储物容器怎样形成识别；本轮不声称已观察。",
+      "interior": "待研究：售卖、称量、备货与仓储分区；不预设为已复原。",
+      "next": "补看 #128 内外装配对片段，逐项记录柜台与容器的配方。"
+    },
+    {
+      "id": "JP-S05",
+      "type": "老式咖啡店 / 茶铺",
+      "references": [
+        "Freedom #106 catalog_only",
+        "Freedom #136 catalog_only"
+      ],
+      "status": "catalog_only",
+      "front": "研究目标：克制的店名、入口、木窗和候位位置；区别于大量陈列商品的商店。",
+      "interior": "待研究：点单、制作、取餐、座位与楼梯；老壳与现代经营家具要分开。",
+      "next": "先补近景，不把现代品牌元素直接混进整片老街。"
+    },
+    {
+      "id": "JP-S06",
+      "type": "钱汤 / 公共浴场",
+      "references": [
+        "TBATH"
+      ],
+      "status": "primary_article_read",
+      "front": "曙湯的一手说明提供对称入口与唐破风檐端作为特殊识别。",
+      "interior": "鞋柜区、柜台、休息区及格天井构成可研究的室内序列。",
+      "next": "做干湿区、换鞋与更衣路线试样；特殊屋顶仅用于合适建筑，不扩散成全镇屋顶。"
+    }
+  ],
+  "limits": [
+    "只对列明时间点做了视觉抽查，非完整观看系列。",
+    "本轮未生成新建筑、NBT、世界存档或更新个人 skill。",
+    "全部参数为下轮试样提案，未接入引擎；不声称训练了模型。",
+    "示意图为原创分析表达，不是视频截图或逐块复刻。"
+  ]
+}

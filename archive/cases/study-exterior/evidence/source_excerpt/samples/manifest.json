@@ -1,0 +1,95 @@
+[
+  {
+    "id": "J01",
+    "label": "天线状竖杆及侧向附件",
+    "file": "J01_roof_mast.nbt",
+    "source_bbox_xyz_exclusive": [
+      92,
+      36,
+      22,
+      95,
+      43,
+      25
+    ],
+    "size_xyz": [
+      3,
+      7,
+      3
+    ],
+    "source_sha256": "3727667d0add5244a7f5b1bcfdf2706da4c49e16ade743a4de254da15f5b62e6",
+    "sha256": "920715393c93302f7111784f42dbc8830689c27cb216f7e5c421cbdc61c2d22f",
+    "blocks": 35,
+    "states": 17,
+    "anchor": "roof_base",
+    "note": "形态参考；用途推断为天线，不证明通信或避雷功能。",
+    "status": "extracted_reference",
+    "readback_state_match": true,
+    "game_test": "pending",
+    "rotation_test": "pending",
+    "neighbor_update_test": "pending",
+    "air_policy": "omitted; do not overwrite occupied target cells without planning clearance",
+    "consumer": null
+  },
+  {
+    "id": "J02",
+    "label": "外墙设备盒",
+    "file": "J02_wall_equipment.nbt",
+    "source_bbox_xyz_exclusive": [
+      91,
+      13,
+      3,
+      95,
+      16,
+      4
+    ],
+    "size_xyz": [
+      4,
+      3,
+      1
+    ],
+    "source_sha256": "3727667d0add5244a7f5b1bcfdf2706da4c49e16ade743a4de254da15f5b62e6",
+    "sha256": "fcbfa57496f1904a71ac00d5cc18ce488c34f34565730cdace3d8e9674b5188b",
+    "blocks": 8,
+    "states": 5,
+    "anchor": "wall_z_plus",
+    "note": "铁块、梯子、活板门、拉杆的组合；可借作空调外机表达，原作者用途未核实。",
+    "status": "extracted_reference",
+    "readback_state_match": true,
+    "game_test": "pending",
+    "rotation_test": "pending",
+    "neighbor_update_test": "pending",
+    "air_policy": "omitted; do not overwrite occupied target cells without planning clearance",
+    "consumer": null
+  },
+  {
+    "id": "J03",
+    "label": "屋顶连排设施研究段",
+    "file": "J03_roof_equipment_row.nbt",
+    "source_bbox_xyz_exclusive": [
+      91,
+      32,
+      17,
+      101,
+      35,
+      20
+    ],
+    "size_xyz": [
+      10,
+      3,
+      3
+    ],
+    "source_sha256": "3727667d0add5244a7f5b1bcfdf2706da4c49e16ade743a4de254da15f5b62e6",
+    "sha256": "12c7c48cd3ca447bf6df6afc84b2669f3c0e47bd852acf36aca90bdf02362129",
+    "blocks": 50,
+    "states": 5,
+    "anchor": "roof_base",
+    "note": "连排箱体与细杆组合；不强行认定水箱、风机或太阳能设备。",
+    "status": "extracted_reference",
+    "readback_state_match": true,
+    "game_test": "pending",
+    "rotation_test": "pending",
+    "neighbor_update_test": "pending",
+    "air_policy": "omitted; do not overwrite occupied target cells without planning clearance",
+    "consumer": null
+  }
+]

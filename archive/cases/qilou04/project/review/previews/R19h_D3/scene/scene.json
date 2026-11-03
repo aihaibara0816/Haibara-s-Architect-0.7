@@ -1,0 +1,218 @@
+{
+  "source_nbt_sha256": "ec5d585e8ad8ac79df9c14b1528795bf76fc20b5cf220b894209e38026dce960",
+  "size_xyz": [
+    32,
+    84,
+    50
+  ],
+  "triangles": {
+    "opaque": 326124,
+    "glass": 58952
+  },
+  "lamps": [
+    [
+      6,
+      6,
+      12,
+      15
+    ],
+    [
+      14,
+      11,
+      6,
+      15
+    ],
+    [
+      26,
+      11,
+      7,
+      15
+    ],
+    [
+      6,
+      11,
+      12,
+      15
+    ],
+    [
+      20,
+      11,
+      25,
+      15
+    ],
+    [
+      26,
+      11,
+      25,
+      15
+    ],
+    [
+      26,
+      11,
+      43,
+      15
+    ],
+    [
+      14,
+      11,
+      44,
+      15
+    ],
+    [
+      6,
+      16,
+      12,
+      15
+    ],
+    [
+      3,
+      16,
+      14,
+      15
+    ],
+    [
+      6,
+      21,
+      12,
+      15
+    ],
+    [
+      6,
+      26,
+      12,
+      15
+    ],
+    [
+      6,
+      31,
+      12,
+      15
+    ],
+    [
+      16,
+      6,
+      2,
+      15
+    ],
+    [
+      24,
+      6,
+      2,
+      15
+    ],
+    [
+      14,
+      6,
+      6,
+      15
+    ],
+    [
+      26,
+      6,
+      7,
+      15
+    ],
+    [
+      10,
+      6,
+      10,
+      15
+    ],
+    [
+      20,
+      6,
+      25,
+      15
+    ],
+    [
+      26,
+      6,
+      25,
+      15
+    ],
+    [
+      26,
+      6,
+      43,
+      15
+    ],
+    [
+      14,
+      6,
+      44,
+      15
+    ],
+    [
+      10,
+      11,
+      10,
+      15
+    ],
+    [
+      7,
+      11,
+      42,
+      15
+    ],
+    [
+      12,
+      16,
+      9,
+      15
+    ],
+    [
+      10,
+      16,
+      10,
+      15
+    ],
+    [
+      12,
+      21,
+      9,
+      15
+    ],
+    [
+      10,
+      21,
+      10,
+      15
+    ],
+    [
+      7,
+      21,
+      42,
+      15
+    ],
+    [
+      10,
+      26,
+      10,
+      15
+    ],
+    [
+      10,
+      31,
+      10,
+      15
+    ]
+  ],
+  "visual_box_volume": 21435.5094,
+  "source": "independent NBT readback, state-aware preview boxes",
+  "limitations": [
+    "Entity beds and banners use approximate boxes",
+    "1x1 paintings use their NBT positions and official variant textures",
+    "Biome tint approximated; weighted model variants use first item",
+    "UV lock and element rescale not fully reproduced; no Minecraft client lighting"
+  ],
+  "alpha_lod_policy": "opaque-face-coverage-v1",
+  "texture_grid_max": 2,
+  "painting_entities_rendered": 0,
+  "material_mode": "Minecraft Java 1.21.1 JSON models + first-frame texture colours, offline EGL; not game footage",
+  "model_fallbacks": {
+    "minecraft:white_bed": 12,
+    "minecraft:oak_wall_sign": 1,
+    "minecraft:gray_bed": 12,
+    "minecraft:brown_bed": 8
+  }
+}

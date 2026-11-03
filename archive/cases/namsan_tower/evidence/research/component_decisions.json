@@ -1,0 +1,190 @@
+{
+  "case": "namsan_tower",
+  "run": "V1_r02",
+  "model_route": "photo + text + OSM + SRTM; no SU model used",
+  "reference_policy": "no image count ceiling; select by evidence coverage",
+  "selected_assets": 14,
+  "rejected_assets": [
+    "tower_close"
+  ],
+  "decisions": [
+    {
+      "component_id": "tower.total_height",
+      "sources": [
+        "data",
+        "leaflet"
+      ],
+      "status": "confirmed",
+      "adopted": "236.7m quantized to 237 blocks; 136-block concrete/deck portion and 101-block mast envelope",
+      "consumer": "src/build_case.py:Builder.tower + mast; params /tower/height_blocks (acceptance contract)",
+      "uncertainty": "Exact floor/roof segment levels remain photographic estimates",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "tower.shaft",
+      "sources": [
+        "overview_day",
+        "overview_sky",
+        "intro2"
+      ],
+      "status": "estimated",
+      "adopted": "hollow white concrete shaft, radius 4.8 to 4.3 blocks",
+      "consumer": "Builder.tower; /tower/shaft_radius_base, /tower/shaft_radius_top",
+      "uncertainty": "Radius estimated from pod relationship; not a surveyed diameter",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "tower.radio_ring",
+      "sources": [
+        "overview_sky",
+        "full_south"
+      ],
+      "status": "observed",
+      "adopted": "two open equipment rings with radial spokes and sparse dish placeholders",
+      "consumer": "Builder.tower; /tower/equipment_rings",
+      "uncertainty": "49m/61m heights and dish quantities estimated; original open structure retained",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "tower.pod",
+      "sources": [
+        "beacon",
+        "overview_day",
+        "leaflet"
+      ],
+      "status": "estimated",
+      "adopted": "wide lower cylinder, narrower restaurant, inward-sloping bowl and radial soffit; radius12.7",
+      "consumer": "Builder.tower; /tower/pod_radius",
+      "uncertainty": "Glazing panel count, internal floors and all furniture approximate",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "tower.antenna",
+      "sources": [
+        "full_south",
+        "beacon"
+      ],
+      "status": "estimated",
+      "adopted": "tapering open red/white four-leg framework, braces and aerial arrays",
+      "consumer": "Builder.mast",
+      "uncertainty": "Paint bands and structural member pitch simplified to block grid",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "podium",
+      "sources": [
+        "floor1",
+        "floor2",
+        "site_map",
+        "night_plaza",
+        "night_full",
+        "terrace_roof"
+      ],
+      "status": "estimated",
+      "adopted": "mapped outline, four clear lower storeys, stepped roof extension, circular visitor building, recessed glazing and exterior stair",
+      "consumer": "Builder.podium_build; OSM way1214950317",
+      "uncertainty": "Commercial level heights 5m and north roof connection estimated; no complete room-by-room real interior",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "site.terrain",
+      "sources": [
+        "SRTM30m",
+        "OSM"
+      ],
+      "status": "observed",
+      "adopted": "121 elevation samples; 320x320m crop; local terrace corrections",
+      "consumer": "Builder.prepare_site + terrain; research/terrain/dem_grid.json",
+      "uncertainty": "~30m native surface-model accuracy, canopy/building biases; not a lidar survey",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "site.levels",
+      "sources": [
+        "site_map",
+        "night_plaza",
+        "floor1",
+        "OSM"
+      ],
+      "status": "estimated",
+      "adopted": "tower grade y67, lower plaza67, podium roof87, upper plaza91",
+      "consumer": "Builder.prepare_site + podium_build",
+      "uncertainty": "3D separation is interpreted manually; common vertical survey datum unverified",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "park.landmarks",
+      "sources": [
+        "pavilion",
+        "beacon",
+        "OSM"
+      ],
+      "status": "estimated",
+      "adopted": "pavilion / historic five-mouth beacon / upper cable station / 60m secondary mast",
+      "consumer": "Builder.pavilion_and_landmarks",
+      "uncertainty": "Mapped footprint positioning is reused; heights and pavilion ornament simplified",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "park.forest",
+      "sources": [
+        "intro1",
+        "pavilion",
+        "OSM"
+      ],
+      "status": "authored",
+      "adopted": "645 deterministic trees outside mapped paths and building clearances",
+      "consumer": "Builder.forest; /seed, /site/tree_count_target",
+      "uncertainty": "Neither species nor individual tree positions are a real inventory",
+      "review": "accepted for V1 by case author"
+    },
+    {
+      "component_id": "lighting",
+      "sources": [
+        "full_south",
+        "night_plaza",
+        "night_full"
+      ],
+      "status": "authored",
+      "adopted": "fixed terrace/path lighting plus stable seeded interior fixtures and red-glass decorative beacons",
+      "consumer": "Builder.terrain / furniture / tower / beacon; hafusion.lighting",
+      "uncertainty": "Vanilla-like block-light approximation cannot reproduce blue RGB floodlighting or operational warning-light flashing",
+      "review": "accepted for V1 by case author"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "mountain/base altitude",
+      "values": [
+        {
+          "source": "older official data page",
+          "value": 270
+        },
+        {
+          "source": "2026 YTN leaflet",
+          "value": 243
+        },
+        {
+          "source": "SRTM sample near tower",
+          "value": "about260"
+        }
+      ],
+      "decision": "Do not average. Preserve SRTM slope; tower 1F uses243m design anchor, upper platform separately interpreted. Absolute datum remains unverified."
+    },
+    {
+      "field": "pod levels",
+      "values": [
+        {
+          "source": "OSM building:part",
+          "value": "88..112m; mast proxy roof geometry"
+        },
+        {
+          "source": "official total",
+          "value": "135.7m tower +101m mast"
+        }
+      ],
+      "decision": "Use official overall height and photo tier relationships; use OSM plan rather than its conflicting vertical part tags."
+    }
+  ],
+  "fixed_case_contract": "Several layer elevations are explicit case constants in build_case.py. params.json also records expected values and frame metadata; it is not a universal BuildingSpec or automatic fusion recipe."
+}

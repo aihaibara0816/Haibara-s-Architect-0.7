@@ -1,0 +1,2215 @@
+[
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "H01",
+    "source_sha256": "8dcc5bcff5be989bf165dc2bc58220b04c8e3f90f328230276b4ae3df84f7b2f",
+    "status": "plan_with_pending_items",
+    "primary_use": "home",
+    "identity_reference": {
+      "id": "home",
+      "name": "住宅",
+      "styles": [
+        "modern",
+        "medieval"
+      ],
+      "zones": "起居 · 厨房就餐 · 卧室 · 卫生间",
+      "core": [
+        "日常起居与餐桌",
+        "卧室床和收纳",
+        "厨房/卫生间服务组"
+      ],
+      "secondary": "不默认豪宅大厅；小住宅合并兼容功能。",
+      "facade": "窗洞对应卧室与起居；湿区适当减小开口。",
+      "land": "后院与门前小庭",
+      "light": "暖色为主，厨房工作面中性。"
+    },
+    "identity_features": [
+      "living",
+      "kitchen",
+      "sleeping"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          12,
+          0,
+          38,
+          38,
+          48,
+          62
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "H01.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "H01.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 17,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "H01.F1",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "H01.F2",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "H01",
+      "route": "original",
+      "primary_use": "home",
+      "secondary_uses": [],
+      "identity_features": [
+        "living",
+        "kitchen",
+        "sleeping"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            12,
+            0,
+            38,
+            38,
+            48,
+            62
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "H01.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        },
+        {
+          "id": "H01.F2",
+          "floor_y": 12,
+          "upper_floor_y": 19,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "H01.F1",
+          "floor_id": "H01.F1",
+          "function": "home",
+          "bounds_xyz": [
+            17,
+            5,
+            43,
+            33,
+            10,
+            57
+          ],
+          "entrances": [
+            [
+              25,
+              5,
+              56
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "H01.F2",
+          "floor_id": "H01.F2",
+          "function": "home",
+          "bounds_xyz": [
+            17,
+            12,
+            43,
+            33,
+            17,
+            57
+          ],
+          "entrances": [
+            [
+              19,
+              12,
+              45
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "H02",
+    "source_sha256": "85c975147cfe7c5889270ad7a05972796e746d6bdc204a36ccbfe7b5a8da2636",
+    "status": "plan_with_pending_items",
+    "primary_use": "home",
+    "identity_reference": {
+      "id": "home",
+      "name": "住宅",
+      "styles": [
+        "modern",
+        "medieval"
+      ],
+      "zones": "起居 · 厨房就餐 · 卧室 · 卫生间",
+      "core": [
+        "日常起居与餐桌",
+        "卧室床和收纳",
+        "厨房/卫生间服务组"
+      ],
+      "secondary": "不默认豪宅大厅；小住宅合并兼容功能。",
+      "facade": "窗洞对应卧室与起居；湿区适当减小开口。",
+      "land": "后院与门前小庭",
+      "light": "暖色为主，厨房工作面中性。"
+    },
+    "identity_features": [
+      "living",
+      "kitchen",
+      "sleeping"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          38,
+          0,
+          9,
+          62,
+          48,
+          36
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "H02.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 12,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "H02.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 19,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "H02.F1",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "H02.F2",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "H02",
+      "route": "original",
+      "primary_use": "home",
+      "secondary_uses": [],
+      "identity_features": [
+        "living",
+        "kitchen",
+        "sleeping"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            38,
+            0,
+            9,
+            62,
+            48,
+            36
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "H02.F1",
+          "floor_y": 7,
+          "upper_floor_y": 14,
+          "min_clear_height": 5
+        },
+        {
+          "id": "H02.F2",
+          "floor_y": 14,
+          "upper_floor_y": 21,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "H02.F1",
+          "floor_id": "H02.F1",
+          "function": "home",
+          "bounds_xyz": [
+            43,
+            7,
+            14,
+            57,
+            12,
+            31
+          ],
+          "entrances": [
+            [
+              56,
+              7,
+              22
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "H02.F2",
+          "floor_id": "H02.F2",
+          "function": "home",
+          "bounds_xyz": [
+            43,
+            14,
+            14,
+            57,
+            19,
+            31
+          ],
+          "entrances": [
+            [
+              45,
+              14,
+              16
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "H03",
+    "source_sha256": "48b678f6732e543a642add5163338bc42b18feadf394c2846f1c5e2b61003965",
+    "status": "plan_with_pending_items",
+    "primary_use": "home",
+    "identity_reference": {
+      "id": "home",
+      "name": "住宅",
+      "styles": [
+        "modern",
+        "medieval"
+      ],
+      "zones": "起居 · 厨房就餐 · 卧室 · 卫生间",
+      "core": [
+        "日常起居与餐桌",
+        "卧室床和收纳",
+        "厨房/卫生间服务组"
+      ],
+      "secondary": "不默认豪宅大厅；小住宅合并兼容功能。",
+      "facade": "窗洞对应卧室与起居；湿区适当减小开口。",
+      "land": "后院与门前小庭",
+      "light": "暖色为主，厨房工作面中性。"
+    },
+    "identity_features": [
+      "living",
+      "kitchen",
+      "sleeping"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          81,
+          0,
+          9,
+          108,
+          48,
+          34
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "H03.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 13,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "H03.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 20,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "H03.F1",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "H03.F2",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "H03",
+      "route": "original",
+      "primary_use": "home",
+      "secondary_uses": [],
+      "identity_features": [
+        "living",
+        "kitchen",
+        "sleeping"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            81,
+            0,
+            9,
+            108,
+            48,
+            34
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "H03.F1",
+          "floor_y": 8,
+          "upper_floor_y": 15,
+          "min_clear_height": 5
+        },
+        {
+          "id": "H03.F2",
+          "floor_y": 15,
+          "upper_floor_y": 22,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "H03.F1",
+          "floor_id": "H03.F1",
+          "function": "home",
+          "bounds_xyz": [
+            86,
+            8,
+            14,
+            103,
+            13,
+            29
+          ],
+          "entrances": [
+            [
+              86,
+              8,
+              21
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "H03.F2",
+          "floor_id": "H03.F2",
+          "function": "home",
+          "bounds_xyz": [
+            86,
+            15,
+            14,
+            103,
+            20,
+            29
+          ],
+          "entrances": [
+            [
+              88,
+              15,
+              16
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "H04",
+    "source_sha256": "e2413f52e3424648cd798e515e5e8aed93fc42dd71469d16c5ece7334f3dab9a",
+    "status": "plan_with_pending_items",
+    "primary_use": "home",
+    "identity_reference": {
+      "id": "home",
+      "name": "住宅",
+      "styles": [
+        "modern",
+        "medieval"
+      ],
+      "zones": "起居 · 厨房就餐 · 卧室 · 卫生间",
+      "core": [
+        "日常起居与餐桌",
+        "卧室床和收纳",
+        "厨房/卫生间服务组"
+      ],
+      "secondary": "不默认豪宅大厅；小住宅合并兼容功能。",
+      "facade": "窗洞对应卧室与起居；湿区适当减小开口。",
+      "land": "后院与门前小庭",
+      "light": "暖色为主，厨房工作面中性。"
+    },
+    "identity_features": [
+      "living",
+      "kitchen",
+      "sleeping"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          115,
+          0,
+          15,
+          143,
+          48,
+          41
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "H04.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 12,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "H04.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 19,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "H04.F1",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "H04.F2",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "H04",
+      "route": "original",
+      "primary_use": "home",
+      "secondary_uses": [],
+      "identity_features": [
+        "living",
+        "kitchen",
+        "sleeping"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            115,
+            0,
+            15,
+            143,
+            48,
+            41
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "H04.F1",
+          "floor_y": 7,
+          "upper_floor_y": 14,
+          "min_clear_height": 5
+        },
+        {
+          "id": "H04.F2",
+          "floor_y": 14,
+          "upper_floor_y": 21,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "H04.F1",
+          "floor_id": "H04.F1",
+          "function": "home",
+          "bounds_xyz": [
+            120,
+            7,
+            20,
+            138,
+            12,
+            36
+          ],
+          "entrances": [
+            [
+              129,
+              7,
+              35
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "H04.F2",
+          "floor_id": "H04.F2",
+          "function": "home",
+          "bounds_xyz": [
+            120,
+            14,
+            20,
+            138,
+            19,
+            36
+          ],
+          "entrances": [
+            [
+              122,
+              14,
+              22
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "H05",
+    "source_sha256": "e77a8363064e3d0dfae0ff28220f1a608b313c4ce6eaa535a35b60c67e186fc0",
+    "status": "plan_with_pending_items",
+    "primary_use": "home",
+    "identity_reference": {
+      "id": "home",
+      "name": "住宅",
+      "styles": [
+        "modern",
+        "medieval"
+      ],
+      "zones": "起居 · 厨房就餐 · 卧室 · 卫生间",
+      "core": [
+        "日常起居与餐桌",
+        "卧室床和收纳",
+        "厨房/卫生间服务组"
+      ],
+      "secondary": "不默认豪宅大厅；小住宅合并兼容功能。",
+      "facade": "窗洞对应卧室与起居；湿区适当减小开口。",
+      "land": "后院与门前小庭",
+      "light": "暖色为主，厨房工作面中性。"
+    },
+    "identity_features": [
+      "living",
+      "kitchen",
+      "sleeping"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          135,
+          0,
+          92,
+          161,
+          48,
+          120
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "H05.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "H05.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 17,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "H05.F1",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "H05.F2",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "H05",
+      "route": "original",
+      "primary_use": "home",
+      "secondary_uses": [],
+      "identity_features": [
+        "living",
+        "kitchen",
+        "sleeping"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            135,
+            0,
+            92,
+            161,
+            48,
+            120
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "H05.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        },
+        {
+          "id": "H05.F2",
+          "floor_y": 12,
+          "upper_floor_y": 19,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "H05.F1",
+          "floor_id": "H05.F1",
+          "function": "home",
+          "bounds_xyz": [
+            140,
+            5,
+            97,
+            156,
+            10,
+            115
+          ],
+          "entrances": [
+            [
+              140,
+              5,
+              106
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "H05.F2",
+          "floor_id": "H05.F2",
+          "function": "home",
+          "bounds_xyz": [
+            140,
+            12,
+            97,
+            156,
+            17,
+            115
+          ],
+          "entrances": [
+            [
+              142,
+              12,
+              99
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "H06",
+    "source_sha256": "c0a24bc4c3e39bf5c549d628cf6c95411b8f3256f7d3e7bc43abbdc5ad5862c6",
+    "status": "plan_with_pending_items",
+    "primary_use": "home",
+    "identity_reference": {
+      "id": "home",
+      "name": "住宅",
+      "styles": [
+        "modern",
+        "medieval"
+      ],
+      "zones": "起居 · 厨房就餐 · 卧室 · 卫生间",
+      "core": [
+        "日常起居与餐桌",
+        "卧室床和收纳",
+        "厨房/卫生间服务组"
+      ],
+      "secondary": "不默认豪宅大厅；小住宅合并兼容功能。",
+      "facade": "窗洞对应卧室与起居；湿区适当减小开口。",
+      "land": "后院与门前小庭",
+      "light": "暖色为主，厨房工作面中性。"
+    },
+    "identity_features": [
+      "living",
+      "kitchen",
+      "sleeping"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          121,
+          0,
+          128,
+          148,
+          48,
+          153
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "H06.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "H06.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 17,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "H06.F1",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "H06.F2",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "H06",
+      "route": "original",
+      "primary_use": "home",
+      "secondary_uses": [],
+      "identity_features": [
+        "living",
+        "kitchen",
+        "sleeping"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            121,
+            0,
+            128,
+            148,
+            48,
+            153
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "H06.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        },
+        {
+          "id": "H06.F2",
+          "floor_y": 12,
+          "upper_floor_y": 19,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "H06.F1",
+          "floor_id": "H06.F1",
+          "function": "home",
+          "bounds_xyz": [
+            126,
+            5,
+            133,
+            143,
+            10,
+            148
+          ],
+          "entrances": [
+            [
+              134,
+              5,
+              133
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "H06.F2",
+          "floor_id": "H06.F2",
+          "function": "home",
+          "bounds_xyz": [
+            126,
+            12,
+            133,
+            143,
+            17,
+            148
+          ],
+          "entrances": [
+            [
+              128,
+              12,
+              135
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "H07",
+    "source_sha256": "615d1f5bedcb34b0fb6fcdc5b2ebe35f1bd878d4f1669445303bc88a6833d484",
+    "status": "plan_with_pending_items",
+    "primary_use": "home",
+    "identity_reference": {
+      "id": "home",
+      "name": "住宅",
+      "styles": [
+        "modern",
+        "medieval"
+      ],
+      "zones": "起居 · 厨房就餐 · 卧室 · 卫生间",
+      "core": [
+        "日常起居与餐桌",
+        "卧室床和收纳",
+        "厨房/卫生间服务组"
+      ],
+      "secondary": "不默认豪宅大厅；小住宅合并兼容功能。",
+      "facade": "窗洞对应卧室与起居；湿区适当减小开口。",
+      "land": "后院与门前小庭",
+      "light": "暖色为主，厨房工作面中性。"
+    },
+    "identity_features": [
+      "living",
+      "kitchen",
+      "sleeping"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          73,
+          0,
+          117,
+          98,
+          48,
+          146
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "H07.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "H07.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 17,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "H07.F1",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "H07.F2",
+        "function": "home",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "H07",
+      "route": "original",
+      "primary_use": "home",
+      "secondary_uses": [],
+      "identity_features": [
+        "living",
+        "kitchen",
+        "sleeping"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            73,
+            0,
+            117,
+            98,
+            48,
+            146
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "H07.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        },
+        {
+          "id": "H07.F2",
+          "floor_y": 12,
+          "upper_floor_y": 19,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "H07.F1",
+          "floor_id": "H07.F1",
+          "function": "home",
+          "bounds_xyz": [
+            78,
+            5,
+            122,
+            93,
+            10,
+            141
+          ],
+          "entrances": [
+            [
+              92,
+              5,
+              131
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "H07.F2",
+          "floor_id": "H07.F2",
+          "function": "home",
+          "bounds_xyz": [
+            78,
+            12,
+            122,
+            93,
+            17,
+            141
+          ],
+          "entrances": [
+            [
+              80,
+              12,
+              124
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "S01",
+    "source_sha256": "82e107e8efb090bc930ac30690d783686b07f7d01e84908d30bfda8afbe452c3",
+    "status": "plan_with_pending_items",
+    "primary_use": "market",
+    "identity_reference": {
+      "id": "market",
+      "name": "超市",
+      "styles": [
+        "modern"
+      ],
+      "zones": "货架 · 冷柜 · 收银 · 后仓 · 小就餐区",
+      "core": [
+        "连续货架与货品陈列",
+        "收银出口与排队",
+        "补货后仓连接"
+      ],
+      "secondary": "就餐休息仅占侧区；套用餐饮座席时保留零售主功能。",
+      "facade": "入口和收银前可视，货架后以实墙/高窗为主。",
+      "land": "入口缓冲与短时休息",
+      "light": "货架区中性偏冷；食品休息暖色观感。"
+    },
+    "identity_features": [
+      "shelves",
+      "checkout",
+      "stock"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          21,
+          0,
+          96,
+          50,
+          48,
+          120
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "S01.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "S01.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 17,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "S01.F1",
+        "function": "grocer",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "S01.F2",
+        "function": "grocer",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "S01",
+      "route": "original",
+      "primary_use": "market",
+      "secondary_uses": [],
+      "identity_features": [
+        "shelves",
+        "checkout",
+        "stock"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            21,
+            0,
+            96,
+            50,
+            48,
+            120
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "S01.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        },
+        {
+          "id": "S01.F2",
+          "floor_y": 12,
+          "upper_floor_y": 19,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "S01.F1",
+          "floor_id": "S01.F1",
+          "function": "grocer",
+          "bounds_xyz": [
+            26,
+            5,
+            101,
+            45,
+            10,
+            115
+          ],
+          "entrances": [
+            [
+              35,
+              5,
+              101
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "S01.F2",
+          "floor_id": "S01.F2",
+          "function": "grocer",
+          "bounds_xyz": [
+            26,
+            12,
+            101,
+            45,
+            17,
+            115
+          ],
+          "entrances": [
+            [
+              28,
+              12,
+              103
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "S02",
+    "source_sha256": "a282cdcaa8441f34493a691cb3b3e4e28fe9fa55baf7709f3449c8df48320562",
+    "status": "plan_with_pending_items",
+    "primary_use": "restaurant",
+    "identity_reference": {
+      "id": "restaurant",
+      "name": "餐厅 / 快餐厅",
+      "styles": [
+        "modern",
+        "medieval"
+      ],
+      "zones": "点餐 · 取餐 · 堂食 · 回收 · 后厨",
+      "core": [
+        "前台与点餐位置",
+        "卡座/餐桌与低屏风",
+        "独立取餐与回收路径"
+      ],
+      "secondary": "可迁移麦当劳式服务逻辑；去品牌化后用于食堂、美食区。",
+      "facade": "堂食区通透，后厨实墙；服务门与正门分开。",
+      "land": "街角外摆与排队缓冲",
+      "light": "餐桌暖色，点餐与后厨中性观感。"
+    },
+    "identity_features": [
+      "counter",
+      "tables",
+      "reading"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          60,
+          0,
+          93,
+          87,
+          48,
+          117
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "S02.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      },
+      {
+        "floor_id": "S02.F2",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 17,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "S02.F1",
+        "function": "cafe",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      },
+      {
+        "room_id": "S02.F2",
+        "function": "cafe",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "S02",
+      "route": "original",
+      "primary_use": "restaurant",
+      "secondary_uses": [],
+      "identity_features": [
+        "counter",
+        "tables",
+        "reading"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 2,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            60,
+            0,
+            93,
+            87,
+            48,
+            117
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "S02.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        },
+        {
+          "id": "S02.F2",
+          "floor_y": 12,
+          "upper_floor_y": 19,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "S02.F1",
+          "floor_id": "S02.F1",
+          "function": "cafe",
+          "bounds_xyz": [
+            65,
+            5,
+            98,
+            82,
+            10,
+            112
+          ],
+          "entrances": [
+            [
+              73,
+              5,
+              98
+            ]
+          ],
+          "color_intent": "warm"
+        },
+        {
+          "id": "S02.F2",
+          "floor_id": "S02.F2",
+          "function": "cafe",
+          "bounds_xyz": [
+            65,
+            12,
+            98,
+            82,
+            17,
+            112
+          ],
+          "entrances": [
+            [
+              67,
+              12,
+              100
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "P01",
+    "source_sha256": "c2d255ea6c7e18c69e98d4d0f63adb323d30fee20da248e4ecc4cac61f54cb46",
+    "status": "plan_with_pending_items",
+    "primary_use": "clinic",
+    "identity_reference": {
+      "id": "clinic",
+      "name": "社区诊所（空间意向）",
+      "styles": [
+        "modern"
+      ],
+      "zones": "接待 · 候诊 · 诊室 · 工作区",
+      "core": [
+        "可辨识的候诊",
+        "诊室门与内部界面",
+        "工作台与收纳"
+      ],
+      "secondary": "仅游戏空间设计，不是现实医疗合规方案。",
+      "facade": "候诊窗与诊室私密性分别处理。",
+      "land": "易达入口与安静绿地",
+      "light": "工作区中性，候诊暖白观感。"
+    },
+    "identity_features": [
+      "reception",
+      "waiting",
+      "exam_beds"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          128,
+          0,
+          43,
+          160,
+          48,
+          67
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "P01.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "P01.F1",
+        "function": "clinic",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "neutral"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "P01",
+      "route": "original",
+      "primary_use": "clinic",
+      "secondary_uses": [],
+      "identity_features": [
+        "reception",
+        "waiting",
+        "exam_beds"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 1,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            128,
+            0,
+            43,
+            160,
+            48,
+            67
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "P01.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "P01.F1",
+          "floor_id": "P01.F1",
+          "function": "clinic",
+          "bounds_xyz": [
+            133,
+            5,
+            48,
+            155,
+            10,
+            62
+          ],
+          "entrances": [
+            [
+              144,
+              5,
+              61
+            ]
+          ],
+          "color_intent": "neutral"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "P02",
+    "source_sha256": "07624a3eec86c91f696584d4f2e64895037552098d901923b8e5af5f019028ce",
+    "status": "plan_with_pending_items",
+    "primary_use": "civic",
+    "identity_reference": {
+      "id": "civic",
+      "name": "政务服务中心",
+      "styles": [
+        "modern"
+      ],
+      "zones": "导办取号 · 等候 · 办理 · 自助填表 · 后台",
+      "core": [
+        "清楚可见的导办取号",
+        "面对办理柜台的等候座席",
+        "公众与后台边界"
+      ],
+      "secondary": "茶水在等候侧边；盆栽不挡柜台编号、排队和出入口。",
+      "facade": "主入口雨棚、通透大厅与较完整的后台实墙分区。",
+      "land": "入口集散与树荫等候",
+      "light": "柜台中性偏冷观感，等候偏暖；所有使用区域覆盖。"
+    },
+    "identity_features": [
+      "welcome",
+      "activities",
+      "library"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          13,
+          0,
+          125,
+          47,
+          48,
+          152
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "P02.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "P02.F1",
+        "function": "community",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "P02",
+      "route": "original",
+      "primary_use": "civic",
+      "secondary_uses": [],
+      "identity_features": [
+        "welcome",
+        "activities",
+        "library"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 1,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            13,
+            0,
+            125,
+            47,
+            48,
+            152
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "P02.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "P02.F1",
+          "floor_id": "P02.F1",
+          "function": "community",
+          "bounds_xyz": [
+            18,
+            5,
+            130,
+            42,
+            10,
+            147
+          ],
+          "entrances": [
+            [
+              29,
+              5,
+              130
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  },
+  {
+    "schema_version": "0.4",
+    "engine": "HAF 0.4.0",
+    "consumer": "hafusion.design_handoff.compile_handoff",
+    "project_id": "P03",
+    "source_sha256": "185b2bf8cdc064040365ae105906bc88057bbafe871c5e6130fca2f2f8226cd7",
+    "status": "plan_with_pending_items",
+    "primary_use": "office",
+    "identity_reference": {
+      "id": "office",
+      "name": "办公楼",
+      "styles": [
+        "modern"
+      ],
+      "zones": "工位 · 会议 · 打印收纳 · 茶水",
+      "core": [
+        "有通道的工位组",
+        "文件/打印支持区",
+        "会议与会客界面"
+      ],
+      "secondary": "绿化放窗边和组团边缘；茶水形成小停留点。",
+      "facade": "工位窗带与会议玻璃分区，核心保留实墙。",
+      "land": "午休庭院或退台",
+      "light": "工位中性偏冷，茶水与会客暖白观感。"
+    },
+    "identity_features": [
+      "desk",
+      "visitor_seat",
+      "records"
+    ],
+    "secondary_uses": [],
+    "interior_level": "L2",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          80,
+          0,
+          43,
+          101,
+          48,
+          65
+        ]
+      ],
+      "locked_component_ids": []
+    },
+    "lighting_coverage_policy": "all_occupied_spaces",
+    "ceiling_plans": [
+      {
+        "floor_id": "P03.F1",
+        "preferred_separator_layers": 2,
+        "ceiling_y": 10,
+        "clear_height_blocks": 5,
+        "exception": null,
+        "floor_levels_changed": false,
+        "fixture_rule": "flush_or_supported_thin_rod",
+        "fixture_collision": "pending",
+        "geometry_status": "pending_adapter"
+      }
+    ],
+    "lighting_tasks": [
+      {
+        "room_id": "P03.F1",
+        "function": "koban",
+        "required": true,
+        "status": "planned_not_generated",
+        "color_intent": "warm"
+      }
+    ],
+    "modules": [],
+    "landscape_plan": null,
+    "pending": [
+      "storey count uses a design assumption, not measured evidence"
+    ],
+    "input_snapshot": {
+      "schema_version": "0.4",
+      "project_id": "P03",
+      "route": "original",
+      "primary_use": "office",
+      "secondary_uses": [],
+      "identity_features": [
+        "desk",
+        "visitor_seat",
+        "records"
+      ],
+      "style": "modern",
+      "coordinates": {
+        "unit": "block",
+        "up": "Y",
+        "north": "-Z"
+      },
+      "storeys_total": 1,
+      "storeys_assumption": true,
+      "interior_level": "L2",
+      "authorized_scope": {
+        "editable_regions": [
+          [
+            80,
+            0,
+            43,
+            101,
+            48,
+            65
+          ]
+        ],
+        "locked_component_ids": []
+      },
+      "floor_levels": [
+        {
+          "id": "P03.F1",
+          "floor_y": 5,
+          "upper_floor_y": 12,
+          "min_clear_height": 5
+        }
+      ],
+      "rooms": [
+        {
+          "id": "P03.F1",
+          "floor_id": "P03.F1",
+          "function": "koban",
+          "bounds_xyz": [
+            85,
+            5,
+            48,
+            96,
+            10,
+            60
+          ],
+          "entrances": [
+            [
+              90,
+              5,
+              59
+            ]
+          ],
+          "color_intent": "warm"
+        }
+      ],
+      "circulation_keepouts": [],
+      "proposed_modules": [],
+      "lighting": {}
+    },
+    "generated_geometry": false,
+    "game_status": "pending",
+    "limits": [
+      "Planning checks only; no automatic furniture placement or arbitrary building generator",
+      "Bounding boxes do not establish game collision, structural safety or actual light coverage",
+      "Cold/warm materials do not imply vanilla colored-light propagation",
+      "Input snapshot preserves unconsumed fields; retention does not mean execution"
+    ]
+  }
+]

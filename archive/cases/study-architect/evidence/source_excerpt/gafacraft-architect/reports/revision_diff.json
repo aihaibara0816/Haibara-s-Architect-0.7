@@ -1,0 +1,58 @@
+{
+  "comparison": "local_blockstates_only",
+  "before": "building.nbt",
+  "after": "building.nbt",
+  "size_before": [
+    34,
+    12,
+    26
+  ],
+  "size_after": [
+    34,
+    12,
+    26
+  ],
+  "offset_before": [
+    0,
+    0,
+    0
+  ],
+  "offset_after": [
+    0,
+    0,
+    0
+  ],
+  "listed_state_changes": 6,
+  "added_entries": 0,
+  "removed_entries": 0,
+  "replaced_entries": 6,
+  "visible_state_changes": 6,
+  "change_bbox_inclusive": [
+    [
+      14,
+      6,
+      2
+    ],
+    [
+      19,
+      6,
+      2
+    ]
+  ],
+  "requested_roi_inclusive": [
+    14,
+    6,
+    2,
+    19,
+    6,
+    5
+  ],
+  "changes_outside_roi": 0,
+  "warnings": [
+    "No translation/rotation registration. Align the files before interpreting locality.",
+    "Different extents or offsets may create widespread apparent changes.",
+    "Absent and explicit air are distinct placement states; visual-state comparison ignores both.",
+    "Entities, block-entity payloads, biome and other metadata changes are not compared.",
+    "Local output changes do not prove that the generator used incremental internal computation."
+  ]
+}

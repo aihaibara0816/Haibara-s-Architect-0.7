@@ -1,0 +1,190 @@
+{
+  "building_name": "广美行政楼廊柱局部历史资料",
+  "real_dimensions": {
+    "width": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    },
+    "depth": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    },
+    "height": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    }
+  },
+  "selected_s": 1,
+  "evidence": {
+    "packet_id": "packet-legacy-gafa-colonnade",
+    "packet_schema_version": "1.0",
+    "packet_sha256": "507eb97982df84352ec401a47f3f3114730e8e3cbaec976245b6519fbc3caa7d",
+    "sources": [],
+    "facts": [
+      {
+        "fact_id": "fact-R002-columns",
+        "field": "observed_columns",
+        "value": "两排后退排列的深色圆柱",
+        "unit": null,
+        "kind": "observation",
+        "status": "verified",
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ],
+        "derived_from_fact_ids": [],
+        "basis": "本轮直接查看历史用户照片，仅确认画面可见形态，不推导绝对尺寸或建筑身份。",
+        "conflict_group": null,
+        "adoption_reason": null
+      },
+      {
+        "fact_id": "fact-R002-red_wall",
+        "field": "observed_red_wall",
+        "value": "廊柱后方红色墙面",
+        "unit": null,
+        "kind": "observation",
+        "status": "verified",
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ],
+        "derived_from_fact_ids": [],
+        "basis": "本轮直接查看历史用户照片，仅确认画面可见形态，不推导绝对尺寸或建筑身份。",
+        "conflict_group": null,
+        "adoption_reason": null
+      },
+      {
+        "fact_id": "fact-R002-roof",
+        "field": "observed_roof",
+        "value": "白色浅坡网格屋顶",
+        "unit": null,
+        "kind": "observation",
+        "status": "verified",
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ],
+        "derived_from_fact_ids": [],
+        "basis": "本轮直接查看历史用户照片，仅确认画面可见形态，不推导绝对尺寸或建筑身份。",
+        "conflict_group": null,
+        "adoption_reason": null
+      },
+      {
+        "fact_id": "fact-R002-stairs",
+        "field": "observed_stairs",
+        "value": "外部台阶、平台及栏杆",
+        "unit": null,
+        "kind": "observation",
+        "status": "verified",
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ],
+        "derived_from_fact_ids": [],
+        "basis": "本轮直接查看历史用户照片，仅确认画面可见形态，不推导绝对尺寸或建筑身份。",
+        "conflict_group": null,
+        "adoption_reason": null
+      }
+    ],
+    "images": [
+      {
+        "image_id": "img-R002",
+        "legacy_reference_id": "R002",
+        "source_ids": [],
+        "page_url": null,
+        "direct_image_url": null,
+        "creator": null,
+        "media_type": "photo",
+        "built_state": "constructed",
+        "version": "历史用户照片，拍摄日期未知",
+        "view": "廊柱局部斜视",
+        "orientation": "从台阶一侧朝廊柱内部观察；地理北向未知",
+        "covers": [
+          "两排深色圆柱",
+          "红墙",
+          "白色浅坡网格屋顶",
+          "外部台阶及平台"
+        ],
+        "component_ids": [],
+        "verification_state": "full_image_viewed",
+        "checked_at": "2026-10-20",
+        "building_match_confirmed": null,
+        "actual_pixels": [
+          1279,
+          1706
+        ],
+        "quality": {
+          "eligible": false,
+          "assessment": "已查看原始照片；可作局部外观观察，身份和公开原页未独立核实，不能进最终四图。",
+          "limitations": [
+            "透视较强且背立面不可见",
+            "无可靠绝对尺度",
+            "原始公开页面未知"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "复用历史资料作局部观察；不能据此生成整栋实测复原。",
+        "local_file": "colonnade.jpg",
+        "local_sha256": "603399327aa42e3ece72688fb5fee812784f0584708db78f239540ff83f9f850"
+      }
+    ],
+    "selected_image_ids": [],
+    "upstream_component_ids": [],
+    "notes": [
+      "Original packet source/fact/image IDs and epistemic states are retained. Geometry requires a separately reviewed construction overlay."
+    ]
+  },
+  "upstream_validation": {
+    "status": "partial_local_evidence_intake",
+    "upstream": {
+      "status": "FAIL",
+      "errors": [
+        "img-R002: viewed images require original-page source_ids"
+      ],
+      "gaps": [
+        "img-R002.page_url: original image page not yet located; discovery candidate only",
+        "selection.slots[0]: qualified image missing",
+        "selection.slots[1]: qualified image missing",
+        "selection.slots[2]: qualified image missing",
+        "selection.slots[3]: qualified image missing"
+      ],
+      "limits": "Structural/provenance/consistency validation only; not independent web, image or generated-building verification."
+    },
+    "extension": "Hash-checked local attachments may support observations only. No public-page or final-four-image eligibility is granted."
+  },
+  "unresolved": [
+    "实际宽、深、高未知，原试建参数不得回填为现实尺寸。",
+    "建筑身份、照片日期、公开来源与授权未独立核实。",
+    "缺整栋体量和背侧立面证据。",
+    "当前只输出research_context；没有经审核的真实施工坐标。"
+  ],
+  "mapping": [
+    {
+      "from": "scale.building_dimensions.width",
+      "to": "real_dimensions.width"
+    },
+    {
+      "from": "scale.building_dimensions.length",
+      "to": "real_dimensions.depth"
+    },
+    {
+      "from": "scale.building_dimensions.overall_height",
+      "to": "real_dimensions.height"
+    }
+  ]
+}

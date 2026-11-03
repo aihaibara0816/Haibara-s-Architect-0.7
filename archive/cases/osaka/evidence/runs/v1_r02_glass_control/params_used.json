@@ -1,0 +1,88 @@
+{
+  "case": "DoubleTree by Hilton Osaka Castle V1",
+  "engine": "HAF 0.3",
+  "scale": 1,
+  "size": [
+    96,
+    104,
+    88
+  ],
+  "origin": [
+    0,
+    4,
+    0
+  ],
+  "north_verified": false,
+  "identity": {
+    "completed": "2023-12",
+    "hotel_open": "2024-05-01",
+    "storeys_above": 21,
+    "hotel_rooms": 373
+  },
+  "height": {
+    "reported_candidates_m": [
+      97.93,
+      97.97
+    ],
+    "selected_m": 97.97,
+    "quantized_blocks": 98,
+    "status": "secondary sources conflict by 0.04m; no verified primary height"
+  },
+  "form": {
+    "tower_x": [
+      14,
+      80
+    ],
+    "tower_z": [
+      26,
+      48
+    ],
+    "tower_y": [
+      28,
+      96
+    ],
+    "podium_x": [
+      12,
+      82
+    ],
+    "podium_z": [
+      24,
+      63
+    ],
+    "podium_top_y": 26,
+    "river_side": "+Z",
+    "status": "all plan dimensions and level boundaries are image-based estimates"
+  },
+  "facade": {
+    "row_height": 4,
+    "pitch": 3,
+    "window_width": 1,
+    "recess_blocks": 1,
+    "backing_depth_blocks": 4,
+    "mode": "glass_control",
+    "primary_material": "white_concrete",
+    "glass_palette": [
+      "gray_stained_glass",
+      "cyan_stained_glass",
+      "light_blue_stained_glass"
+    ],
+    "pattern_status": "staggered pattern is observed; exact modules quantized and not measured"
+  },
+  "lighting": {
+    "enabled": true,
+    "seed": 20261026,
+    "window_probability": 0.19,
+    "status": "synthetic room selection; warm scattered windows based on dusk references; no full facade floodlight"
+  },
+  "site": {
+    "river_strip": "illustrative gray-blue surface, not water simulation",
+    "deck_y": 4,
+    "status": "cropped setting; bridge/castle/nearby buildings excluded"
+  },
+  "interior": {
+    "status": "synthetic floors, room backs and sparse warm lamps; not a 373-room plan"
+  },
+  "roof": {
+    "status": "mechanical enclosure and antenna approximated; no measured roof plan"
+  }
+}

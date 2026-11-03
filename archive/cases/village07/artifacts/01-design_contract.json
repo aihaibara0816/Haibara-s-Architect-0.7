@@ -1,0 +1,2915 @@
+{
+  "design_brief": {
+    "route": "original",
+    "scope": "Five-storey whole-building case using bounded Room06 prefab. Two mirrored plans; single/double furnishing profiles. Not eight independently solved floorplans.",
+    "units": "blocks; 8 x 8 interior per studio including bathroom; Minecraft furniture scale compromise, not realistic small-rental area",
+    "coordinates": "+X east, +Y up, +Z south",
+    "occupancy": "ground restaurant with six decorative dining seats + laundry service; floors 2–5 eight studios, 12 bed positions; rooftop common laundry",
+    "hard_constraints": [
+      "independent residential entrance",
+      "continuous five stair flights",
+      "two-layer ceiling/floor",
+      "plants and full interior in each studio",
+      "closed-top eye-level previews"
+    ]
+  },
+  "spatial_spec": {
+    "floors": [
+      2,
+      7,
+      12,
+      17,
+      22
+    ],
+    "roof": 27,
+    "units": [
+      {
+        "id": "201",
+        "floor": 2,
+        "floor_block_y": 7,
+        "profile": "阅读租客",
+        "beds": 1,
+        "mirror": false,
+        "origin": [
+          13,
+          7,
+          6
+        ],
+        "bounds": [
+          13,
+          8,
+          6,
+          23,
+          11,
+          16
+        ],
+        "entry": [
+          19,
+          8,
+          15
+        ]
+      },
+      {
+        "id": "202",
+        "floor": 2,
+        "floor_block_y": 7,
+        "profile": "双人合住",
+        "beds": 2,
+        "mirror": true,
+        "origin": [
+          23,
+          7,
+          6
+        ],
+        "bounds": [
+          23,
+          8,
+          6,
+          33,
+          11,
+          16
+        ],
+        "entry": [
+          26,
+          8,
+          15
+        ]
+      },
+      {
+        "id": "301",
+        "floor": 3,
+        "floor_block_y": 12,
+        "profile": "手作租客",
+        "beds": 1,
+        "mirror": false,
+        "origin": [
+          13,
+          12,
+          6
+        ],
+        "bounds": [
+          13,
+          13,
+          6,
+          23,
+          16,
+          16
+        ],
+        "entry": [
+          19,
+          13,
+          15
+        ]
+      },
+      {
+        "id": "302",
+        "floor": 3,
+        "floor_block_y": 12,
+        "profile": "暖木双人",
+        "beds": 2,
+        "mirror": true,
+        "origin": [
+          23,
+          12,
+          6
+        ],
+        "bounds": [
+          23,
+          13,
+          6,
+          33,
+          16,
+          16
+        ],
+        "entry": [
+          26,
+          13,
+          15
+        ]
+      },
+      {
+        "id": "401",
+        "floor": 4,
+        "floor_block_y": 17,
+        "profile": "夜班租客",
+        "beds": 1,
+        "mirror": false,
+        "origin": [
+          13,
+          17,
+          6
+        ],
+        "bounds": [
+          13,
+          18,
+          6,
+          23,
+          21,
+          16
+        ],
+        "entry": [
+          19,
+          18,
+          15
+        ]
+      },
+      {
+        "id": "402",
+        "floor": 4,
+        "floor_block_y": 17,
+        "profile": "绿植双人",
+        "beds": 2,
+        "mirror": true,
+        "origin": [
+          23,
+          17,
+          6
+        ],
+        "bounds": [
+          23,
+          18,
+          6,
+          33,
+          21,
+          16
+        ],
+        "entry": [
+          26,
+          18,
+          15
+        ]
+      },
+      {
+        "id": "501",
+        "floor": 5,
+        "floor_block_y": 22,
+        "profile": "书房单住",
+        "beds": 1,
+        "mirror": false,
+        "origin": [
+          13,
+          22,
+          6
+        ],
+        "bounds": [
+          13,
+          23,
+          6,
+          23,
+          26,
+          16
+        ],
+        "entry": [
+          19,
+          23,
+          15
+        ]
+      },
+      {
+        "id": "502",
+        "floor": 5,
+        "floor_block_y": 22,
+        "profile": "顶层双人",
+        "beds": 2,
+        "mirror": true,
+        "origin": [
+          23,
+          22,
+          6
+        ],
+        "bounds": [
+          23,
+          23,
+          6,
+          33,
+          26,
+          16
+        ],
+        "entry": [
+          26,
+          23,
+          15
+        ]
+      }
+    ],
+    "doors": [
+      {
+        "id": "entry.residential",
+        "pos": [
+          8,
+          3,
+          19
+        ],
+        "facing": "south",
+        "lintel": [
+          8,
+          5,
+          19
+        ]
+      },
+      {
+        "id": "F2.core_exit",
+        "pos": [
+          10,
+          8,
+          16
+        ],
+        "facing": "south",
+        "lintel": [
+          10,
+          10,
+          16
+        ]
+      },
+      {
+        "id": "F3.core_exit",
+        "pos": [
+          10,
+          13,
+          16
+        ],
+        "facing": "south",
+        "lintel": [
+          10,
+          15,
+          16
+        ]
+      },
+      {
+        "id": "F4.core_exit",
+        "pos": [
+          10,
+          18,
+          16
+        ],
+        "facing": "south",
+        "lintel": [
+          10,
+          20,
+          16
+        ]
+      },
+      {
+        "id": "F5.core_exit",
+        "pos": [
+          10,
+          23,
+          16
+        ],
+        "facing": "south",
+        "lintel": [
+          10,
+          25,
+          16
+        ]
+      },
+      {
+        "id": "201.entry",
+        "pos": [
+          19,
+          8,
+          15
+        ],
+        "facing": "north",
+        "frame_plane": 13,
+        "leaf_plane": 13,
+        "lintel": [
+          19,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "201.bath",
+        "pos": [
+          17,
+          8,
+          13
+        ],
+        "facing": "east",
+        "frame_plane": 7,
+        "leaf_plane": 7,
+        "lintel": [
+          17,
+          10,
+          13
+        ]
+      },
+      {
+        "id": "202.entry",
+        "pos": [
+          26,
+          8,
+          15
+        ],
+        "facing": "north",
+        "frame_plane": 13,
+        "leaf_plane": 13,
+        "lintel": [
+          26,
+          10,
+          15
+        ]
+      },
+      {
+        "id": "202.bath",
+        "pos": [
+          28,
+          8,
+          13
+        ],
+        "facing": "west",
+        "frame_plane": 7,
+        "leaf_plane": 7,
+        "lintel": [
+          28,
+          10,
+          13
+        ]
+      },
+      {
+        "id": "301.entry",
+        "pos": [
+          19,
+          13,
+          15
+        ],
+        "facing": "north",
+        "frame_plane": 13,
+        "leaf_plane": 13,
+        "lintel": [
+          19,
+          15,
+          15
+        ]
+      },
+      {
+        "id": "301.bath",
+        "pos": [
+          17,
+          13,
+          13
+        ],
+        "facing": "east",
+        "frame_plane": 7,
+        "leaf_plane": 7,
+        "lintel": [
+          17,
+          15,
+          13
+        ]
+      },
+      {
+        "id": "302.entry",
+        "pos": [
+          26,
+          13,
+          15
+        ],
+        "facing": "north",
+        "frame_plane": 13,
+        "leaf_plane": 13,
+        "lintel": [
+          26,
+          15,
+          15
+        ]
+      },
+      {
+        "id": "302.bath",
+        "pos": [
+          28,
+          13,
+          13
+        ],
+        "facing": "west",
+        "frame_plane": 7,
+        "leaf_plane": 7,
+        "lintel": [
+          28,
+          15,
+          13
+        ]
+      },
+      {
+        "id": "401.entry",
+        "pos": [
+          19,
+          18,
+          15
+        ],
+        "facing": "north",
+        "frame_plane": 13,
+        "leaf_plane": 13,
+        "lintel": [
+          19,
+          20,
+          15
+        ]
+      },
+      {
+        "id": "401.bath",
+        "pos": [
+          17,
+          18,
+          13
+        ],
+        "facing": "east",
+        "frame_plane": 7,
+        "leaf_plane": 7,
+        "lintel": [
+          17,
+          20,
+          13
+        ]
+      },
+      {
+        "id": "402.entry",
+        "pos": [
+          26,
+          18,
+          15
+        ],
+        "facing": "north",
+        "frame_plane": 13,
+        "leaf_plane": 13,
+        "lintel": [
+          26,
+          20,
+          15
+        ]
+      },
+      {
+        "id": "402.bath",
+        "pos": [
+          28,
+          18,
+          13
+        ],
+        "facing": "west",
+        "frame_plane": 7,
+        "leaf_plane": 7,
+        "lintel": [
+          28,
+          20,
+          13
+        ]
+      },
+      {
+        "id": "501.entry",
+        "pos": [
+          19,
+          23,
+          15
+        ],
+        "facing": "north",
+        "frame_plane": 13,
+        "leaf_plane": 13,
+        "lintel": [
+          19,
+          25,
+          15
+        ]
+      },
+      {
+        "id": "501.bath",
+        "pos": [
+          17,
+          23,
+          13
+        ],
+        "facing": "east",
+        "frame_plane": 7,
+        "leaf_plane": 7,
+        "lintel": [
+          17,
+          25,
+          13
+        ]
+      },
+      {
+        "id": "502.entry",
+        "pos": [
+          26,
+          23,
+          15
+        ],
+        "facing": "north",
+        "frame_plane": 13,
+        "leaf_plane": 13,
+        "lintel": [
+          26,
+          25,
+          15
+        ]
+      },
+      {
+        "id": "502.bath",
+        "pos": [
+          28,
+          23,
+          13
+        ],
+        "facing": "west",
+        "frame_plane": 7,
+        "leaf_plane": 7,
+        "lintel": [
+          28,
+          25,
+          13
+        ]
+      },
+      {
+        "id": "shop.kitchen",
+        "pos": [
+          20,
+          3,
+          11
+        ],
+        "facing": "south",
+        "lintel": [
+          20,
+          5,
+          11
+        ]
+      },
+      {
+        "id": "entry.shop",
+        "pos": [
+          20,
+          3,
+          19
+        ],
+        "facing": "south",
+        "lintel": [
+          20,
+          5,
+          19
+        ]
+      },
+      {
+        "id": "entry.laundry",
+        "pos": [
+          29,
+          3,
+          19
+        ],
+        "facing": "south",
+        "lintel": [
+          29,
+          5,
+          19
+        ]
+      },
+      {
+        "id": "roof.exit",
+        "pos": [
+          10,
+          28,
+          16
+        ],
+        "facing": "south",
+        "lintel": [
+          10,
+          30,
+          16
+        ]
+      }
+    ],
+    "stairs": [
+      {
+        "floor": 2,
+        "rise": 5,
+        "id": "F1.stairs",
+        "lower_x": 7.5,
+        "upper_x": 10.5,
+        "start_z": 15.5,
+        "turn_z": 11.5,
+        "end_z": 15.5
+      },
+      {
+        "floor": 7,
+        "rise": 5,
+        "id": "F2.stairs",
+        "lower_x": 7.5,
+        "upper_x": 10.5,
+        "start_z": 15.5,
+        "turn_z": 11.5,
+        "end_z": 15.5
+      },
+      {
+        "floor": 12,
+        "rise": 5,
+        "id": "F3.stairs",
+        "lower_x": 7.5,
+        "upper_x": 10.5,
+        "start_z": 15.5,
+        "turn_z": 11.5,
+        "end_z": 15.5
+      },
+      {
+        "floor": 17,
+        "rise": 5,
+        "id": "F4.stairs",
+        "lower_x": 7.5,
+        "upper_x": 10.5,
+        "start_z": 15.5,
+        "turn_z": 11.5,
+        "end_z": 15.5
+      },
+      {
+        "floor": 22,
+        "rise": 5,
+        "id": "F5.stairs",
+        "lower_x": 7.5,
+        "upper_x": 10.5,
+        "start_z": 15.5,
+        "turn_z": 11.5,
+        "end_z": 15.5
+      }
+    ],
+    "use_points": [
+      {
+        "id": "F1.stair_start",
+        "pos": [
+          7,
+          3,
+          15
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "F2.gallery_end",
+        "pos": [
+          31,
+          8,
+          17
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "F2.stair_start",
+        "pos": [
+          7,
+          8,
+          15
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "F3.gallery_end",
+        "pos": [
+          31,
+          13,
+          17
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "F3.stair_start",
+        "pos": [
+          7,
+          13,
+          15
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "F4.gallery_end",
+        "pos": [
+          31,
+          18,
+          17
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "F4.stair_start",
+        "pos": [
+          7,
+          18,
+          15
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "F5.gallery_end",
+        "pos": [
+          31,
+          23,
+          17
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "F5.stair_start",
+        "pos": [
+          7,
+          23,
+          15
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "201.sofa_front",
+        "pos": [
+          16,
+          8,
+          10
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.coffee_side",
+        "pos": [
+          18,
+          8,
+          10
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.desk_approach",
+        "pos": [
+          18,
+          8,
+          8
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.bed_left",
+        "pos": [
+          18,
+          8,
+          8
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.bed_right",
+        "pos": [
+          21,
+          8,
+          8
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.bedside",
+        "pos": [
+          21,
+          8,
+          8
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.wardrobe",
+        "pos": [
+          20,
+          8,
+          10
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.sink",
+        "pos": [
+          20,
+          8,
+          12
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.stove",
+        "pos": [
+          20,
+          8,
+          13
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.kitchen_storage",
+        "pos": [
+          20,
+          8,
+          14
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.prep",
+        "pos": [
+          20,
+          8,
+          11
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.shoes",
+        "pos": [
+          19,
+          8,
+          14
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.bath_basin",
+        "pos": [
+          15,
+          8,
+          12
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.bath_toilet",
+        "pos": [
+          14,
+          8,
+          13
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "201.shower",
+        "pos": [
+          16,
+          8,
+          14
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.sofa_front",
+        "pos": [
+          29,
+          8,
+          10
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.coffee_side",
+        "pos": [
+          27,
+          8,
+          10
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.desk_approach",
+        "pos": [
+          27,
+          8,
+          8
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.bed_left",
+        "pos": [
+          27,
+          8,
+          8
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.bed_right",
+        "pos": [
+          24,
+          8,
+          8
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.bedside",
+        "pos": [
+          24,
+          8,
+          8
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.wardrobe",
+        "pos": [
+          25,
+          8,
+          10
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.sink",
+        "pos": [
+          25,
+          8,
+          12
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.stove",
+        "pos": [
+          25,
+          8,
+          13
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.kitchen_storage",
+        "pos": [
+          25,
+          8,
+          14
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.prep",
+        "pos": [
+          25,
+          8,
+          11
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.shoes",
+        "pos": [
+          26,
+          8,
+          14
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.bath_basin",
+        "pos": [
+          30,
+          8,
+          12
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.bath_toilet",
+        "pos": [
+          31,
+          8,
+          13
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "202.shower",
+        "pos": [
+          29,
+          8,
+          14
+        ],
+        "floor_block_y": 7
+      },
+      {
+        "id": "301.sofa_front",
+        "pos": [
+          16,
+          13,
+          10
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.coffee_side",
+        "pos": [
+          18,
+          13,
+          10
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.desk_approach",
+        "pos": [
+          18,
+          13,
+          8
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.bed_left",
+        "pos": [
+          18,
+          13,
+          8
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.bed_right",
+        "pos": [
+          21,
+          13,
+          8
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.bedside",
+        "pos": [
+          21,
+          13,
+          8
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.wardrobe",
+        "pos": [
+          20,
+          13,
+          10
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.sink",
+        "pos": [
+          20,
+          13,
+          12
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.stove",
+        "pos": [
+          20,
+          13,
+          13
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.kitchen_storage",
+        "pos": [
+          20,
+          13,
+          14
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.prep",
+        "pos": [
+          20,
+          13,
+          11
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.shoes",
+        "pos": [
+          19,
+          13,
+          14
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.bath_basin",
+        "pos": [
+          15,
+          13,
+          12
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.bath_toilet",
+        "pos": [
+          14,
+          13,
+          13
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "301.shower",
+        "pos": [
+          16,
+          13,
+          14
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.sofa_front",
+        "pos": [
+          29,
+          13,
+          10
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.coffee_side",
+        "pos": [
+          27,
+          13,
+          10
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.desk_approach",
+        "pos": [
+          27,
+          13,
+          8
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.bed_left",
+        "pos": [
+          27,
+          13,
+          8
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.bed_right",
+        "pos": [
+          24,
+          13,
+          8
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.bedside",
+        "pos": [
+          24,
+          13,
+          8
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.wardrobe",
+        "pos": [
+          25,
+          13,
+          10
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.sink",
+        "pos": [
+          25,
+          13,
+          12
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.stove",
+        "pos": [
+          25,
+          13,
+          13
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.kitchen_storage",
+        "pos": [
+          25,
+          13,
+          14
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.prep",
+        "pos": [
+          25,
+          13,
+          11
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.shoes",
+        "pos": [
+          26,
+          13,
+          14
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.bath_basin",
+        "pos": [
+          30,
+          13,
+          12
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.bath_toilet",
+        "pos": [
+          31,
+          13,
+          13
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "302.shower",
+        "pos": [
+          29,
+          13,
+          14
+        ],
+        "floor_block_y": 12
+      },
+      {
+        "id": "401.sofa_front",
+        "pos": [
+          16,
+          18,
+          10
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.coffee_side",
+        "pos": [
+          18,
+          18,
+          10
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.desk_approach",
+        "pos": [
+          18,
+          18,
+          8
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.bed_left",
+        "pos": [
+          18,
+          18,
+          8
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.bed_right",
+        "pos": [
+          21,
+          18,
+          8
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.bedside",
+        "pos": [
+          21,
+          18,
+          8
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.wardrobe",
+        "pos": [
+          20,
+          18,
+          10
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.sink",
+        "pos": [
+          20,
+          18,
+          12
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.stove",
+        "pos": [
+          20,
+          18,
+          13
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.kitchen_storage",
+        "pos": [
+          20,
+          18,
+          14
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.prep",
+        "pos": [
+          20,
+          18,
+          11
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.shoes",
+        "pos": [
+          19,
+          18,
+          14
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.bath_basin",
+        "pos": [
+          15,
+          18,
+          12
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.bath_toilet",
+        "pos": [
+          14,
+          18,
+          13
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "401.shower",
+        "pos": [
+          16,
+          18,
+          14
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.sofa_front",
+        "pos": [
+          29,
+          18,
+          10
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.coffee_side",
+        "pos": [
+          27,
+          18,
+          10
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.desk_approach",
+        "pos": [
+          27,
+          18,
+          8
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.bed_left",
+        "pos": [
+          27,
+          18,
+          8
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.bed_right",
+        "pos": [
+          24,
+          18,
+          8
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.bedside",
+        "pos": [
+          24,
+          18,
+          8
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.wardrobe",
+        "pos": [
+          25,
+          18,
+          10
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.sink",
+        "pos": [
+          25,
+          18,
+          12
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.stove",
+        "pos": [
+          25,
+          18,
+          13
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.kitchen_storage",
+        "pos": [
+          25,
+          18,
+          14
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.prep",
+        "pos": [
+          25,
+          18,
+          11
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.shoes",
+        "pos": [
+          26,
+          18,
+          14
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.bath_basin",
+        "pos": [
+          30,
+          18,
+          12
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.bath_toilet",
+        "pos": [
+          31,
+          18,
+          13
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "402.shower",
+        "pos": [
+          29,
+          18,
+          14
+        ],
+        "floor_block_y": 17
+      },
+      {
+        "id": "501.sofa_front",
+        "pos": [
+          16,
+          23,
+          10
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.coffee_side",
+        "pos": [
+          18,
+          23,
+          10
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.desk_approach",
+        "pos": [
+          18,
+          23,
+          8
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.bed_left",
+        "pos": [
+          18,
+          23,
+          8
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.bed_right",
+        "pos": [
+          21,
+          23,
+          8
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.bedside",
+        "pos": [
+          21,
+          23,
+          8
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.wardrobe",
+        "pos": [
+          20,
+          23,
+          10
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.sink",
+        "pos": [
+          20,
+          23,
+          12
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.stove",
+        "pos": [
+          20,
+          23,
+          13
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.kitchen_storage",
+        "pos": [
+          20,
+          23,
+          14
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.prep",
+        "pos": [
+          20,
+          23,
+          11
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.shoes",
+        "pos": [
+          19,
+          23,
+          14
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.bath_basin",
+        "pos": [
+          15,
+          23,
+          12
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.bath_toilet",
+        "pos": [
+          14,
+          23,
+          13
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "501.shower",
+        "pos": [
+          16,
+          23,
+          14
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.sofa_front",
+        "pos": [
+          29,
+          23,
+          10
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.coffee_side",
+        "pos": [
+          27,
+          23,
+          10
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.desk_approach",
+        "pos": [
+          27,
+          23,
+          8
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.bed_left",
+        "pos": [
+          27,
+          23,
+          8
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.bed_right",
+        "pos": [
+          24,
+          23,
+          8
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.bedside",
+        "pos": [
+          24,
+          23,
+          8
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.wardrobe",
+        "pos": [
+          25,
+          23,
+          10
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.sink",
+        "pos": [
+          25,
+          23,
+          12
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.stove",
+        "pos": [
+          25,
+          23,
+          13
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.kitchen_storage",
+        "pos": [
+          25,
+          23,
+          14
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.prep",
+        "pos": [
+          25,
+          23,
+          11
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.shoes",
+        "pos": [
+          26,
+          23,
+          14
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.bath_basin",
+        "pos": [
+          30,
+          23,
+          12
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.bath_toilet",
+        "pos": [
+          31,
+          23,
+          13
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "502.shower",
+        "pos": [
+          29,
+          23,
+          14
+        ],
+        "floor_block_y": 22
+      },
+      {
+        "id": "shop.table.20.13",
+        "pos": [
+          20,
+          3,
+          14
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "shop.table.16.17",
+        "pos": [
+          16,
+          3,
+          18
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "shop.table.21.17",
+        "pos": [
+          21,
+          3,
+          18
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "shop.entry",
+        "pos": [
+          20,
+          3,
+          18
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "shop.kitchen",
+        "pos": [
+          20,
+          3,
+          10
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "shop.hob",
+        "pos": [
+          14,
+          3,
+          8
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "shop.sink",
+        "pos": [
+          17,
+          3,
+          8
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "shop.stock",
+        "pos": [
+          22,
+          3,
+          8
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "shop.return",
+        "pos": [
+          23,
+          3,
+          16
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "laundry.entry",
+        "pos": [
+          29,
+          3,
+          18
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "laundry.washer",
+        "pos": [
+          29,
+          3,
+          8
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "laundry.folding",
+        "pos": [
+          28,
+          3,
+          13
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "laundry.sink",
+        "pos": [
+          27,
+          3,
+          8
+        ],
+        "floor_block_y": 2
+      },
+      {
+        "id": "roof.laundry",
+        "pos": [
+          20,
+          28,
+          17
+        ],
+        "floor_block_y": 27
+      },
+      {
+        "id": "roof.tank",
+        "pos": [
+          17,
+          28,
+          12
+        ],
+        "floor_block_y": 27
+      },
+      {
+        "id": "roof.plant",
+        "pos": [
+          28,
+          28,
+          12
+        ],
+        "floor_block_y": 27
+      },
+      {
+        "id": "roof.seat",
+        "pos": [
+          26,
+          28,
+          17
+        ],
+        "floor_block_y": 27
+      }
+    ],
+    "lights": [
+      [
+        8,
+        6,
+        8
+      ],
+      [
+        16,
+        11,
+        17
+      ],
+      [
+        26,
+        11,
+        17
+      ],
+      [
+        8,
+        11,
+        8
+      ],
+      [
+        16,
+        16,
+        17
+      ],
+      [
+        26,
+        16,
+        17
+      ],
+      [
+        8,
+        16,
+        8
+      ],
+      [
+        16,
+        21,
+        17
+      ],
+      [
+        26,
+        21,
+        17
+      ],
+      [
+        8,
+        21,
+        8
+      ],
+      [
+        16,
+        26,
+        17
+      ],
+      [
+        26,
+        26,
+        17
+      ],
+      [
+        8,
+        26,
+        8
+      ],
+      [
+        16,
+        11,
+        10
+      ],
+      [
+        19,
+        11,
+        11
+      ],
+      [
+        15,
+        11,
+        13
+      ],
+      [
+        21,
+        11,
+        13
+      ],
+      [
+        18,
+        9,
+        7
+      ],
+      [
+        16,
+        10,
+        14
+      ],
+      [
+        29,
+        11,
+        10
+      ],
+      [
+        26,
+        11,
+        11
+      ],
+      [
+        30,
+        11,
+        13
+      ],
+      [
+        24,
+        11,
+        13
+      ],
+      [
+        27,
+        9,
+        7
+      ],
+      [
+        29,
+        10,
+        14
+      ],
+      [
+        16,
+        16,
+        10
+      ],
+      [
+        19,
+        16,
+        11
+      ],
+      [
+        15,
+        16,
+        13
+      ],
+      [
+        21,
+        16,
+        13
+      ],
+      [
+        18,
+        14,
+        7
+      ],
+      [
+        16,
+        15,
+        14
+      ],
+      [
+        29,
+        16,
+        10
+      ],
+      [
+        26,
+        16,
+        11
+      ],
+      [
+        30,
+        16,
+        13
+      ],
+      [
+        24,
+        16,
+        13
+      ],
+      [
+        27,
+        14,
+        7
+      ],
+      [
+        29,
+        15,
+        14
+      ],
+      [
+        16,
+        21,
+        10
+      ],
+      [
+        19,
+        21,
+        11
+      ],
+      [
+        15,
+        21,
+        13
+      ],
+      [
+        21,
+        21,
+        13
+      ],
+      [
+        18,
+        19,
+        7
+      ],
+      [
+        16,
+        20,
+        14
+      ],
+      [
+        29,
+        21,
+        10
+      ],
+      [
+        26,
+        21,
+        11
+      ],
+      [
+        30,
+        21,
+        13
+      ],
+      [
+        24,
+        21,
+        13
+      ],
+      [
+        27,
+        19,
+        7
+      ],
+      [
+        29,
+        20,
+        14
+      ],
+      [
+        16,
+        26,
+        10
+      ],
+      [
+        19,
+        26,
+        11
+      ],
+      [
+        15,
+        26,
+        13
+      ],
+      [
+        21,
+        26,
+        13
+      ],
+      [
+        18,
+        24,
+        7
+      ],
+      [
+        16,
+        25,
+        14
+      ],
+      [
+        29,
+        26,
+        10
+      ],
+      [
+        26,
+        26,
+        11
+      ],
+      [
+        30,
+        26,
+        13
+      ],
+      [
+        24,
+        26,
+        13
+      ],
+      [
+        27,
+        24,
+        7
+      ],
+      [
+        29,
+        25,
+        14
+      ],
+      [
+        16,
+        6,
+        9
+      ],
+      [
+        22,
+        6,
+        9
+      ],
+      [
+        18,
+        6,
+        14
+      ],
+      [
+        22,
+        6,
+        17
+      ],
+      [
+        29,
+        6,
+        10
+      ],
+      [
+        29,
+        6,
+        16
+      ],
+      [
+        8,
+        31,
+        8
+      ],
+      [
+        11,
+        27,
+        18
+      ],
+      [
+        27,
+        27,
+        14
+      ],
+      [
+        34,
+        8,
+        6
+      ],
+      [
+        4,
+        8,
+        23
+      ]
+    ],
+    "plants": [
+      {
+        "id": "201.desk",
+        "anchor": [
+          16,
+          9,
+          7
+        ],
+        "support": [
+          16,
+          8,
+          7
+        ],
+        "state": "potted_flowering_azalea_bush"
+      },
+      {
+        "id": "201.entry",
+        "anchor": [
+          18,
+          9,
+          14
+        ],
+        "support": [
+          18,
+          8,
+          14
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "201.tall",
+        "anchor": [
+          14,
+          8,
+          10
+        ],
+        "support": [
+          14,
+          7,
+          10
+        ],
+        "height": 2
+      },
+      {
+        "id": "202.desk",
+        "anchor": [
+          29,
+          9,
+          7
+        ],
+        "support": [
+          29,
+          8,
+          7
+        ],
+        "state": "potted_flowering_azalea_bush"
+      },
+      {
+        "id": "202.entry",
+        "anchor": [
+          27,
+          9,
+          14
+        ],
+        "support": [
+          27,
+          8,
+          14
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "202.tall",
+        "anchor": [
+          31,
+          8,
+          10
+        ],
+        "support": [
+          31,
+          7,
+          10
+        ],
+        "height": 2
+      },
+      {
+        "id": "F2.gallery.15",
+        "anchor": [
+          15,
+          9,
+          18
+        ],
+        "support": [
+          15,
+          8,
+          18
+        ],
+        "state": "potted_fern"
+      },
+      {
+        "id": "F2.gallery.27",
+        "anchor": [
+          27,
+          9,
+          18
+        ],
+        "support": [
+          27,
+          8,
+          18
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "301.desk",
+        "anchor": [
+          16,
+          14,
+          7
+        ],
+        "support": [
+          16,
+          13,
+          7
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "301.entry",
+        "anchor": [
+          18,
+          14,
+          14
+        ],
+        "support": [
+          18,
+          13,
+          14
+        ],
+        "state": "potted_fern"
+      },
+      {
+        "id": "301.tall",
+        "anchor": [
+          14,
+          13,
+          10
+        ],
+        "support": [
+          14,
+          12,
+          10
+        ],
+        "height": 3
+      },
+      {
+        "id": "302.desk",
+        "anchor": [
+          29,
+          14,
+          7
+        ],
+        "support": [
+          29,
+          13,
+          7
+        ],
+        "state": "potted_fern"
+      },
+      {
+        "id": "302.entry",
+        "anchor": [
+          27,
+          14,
+          14
+        ],
+        "support": [
+          27,
+          13,
+          14
+        ],
+        "state": "potted_azalea_bush"
+      },
+      {
+        "id": "302.tall",
+        "anchor": [
+          31,
+          13,
+          10
+        ],
+        "support": [
+          31,
+          12,
+          10
+        ],
+        "height": 3
+      },
+      {
+        "id": "F3.gallery.17",
+        "anchor": [
+          17,
+          14,
+          18
+        ],
+        "support": [
+          17,
+          13,
+          18
+        ],
+        "state": "potted_fern"
+      },
+      {
+        "id": "F3.gallery.29",
+        "anchor": [
+          29,
+          14,
+          18
+        ],
+        "support": [
+          29,
+          13,
+          18
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "401.desk",
+        "anchor": [
+          16,
+          19,
+          7
+        ],
+        "support": [
+          16,
+          18,
+          7
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "401.entry",
+        "anchor": [
+          18,
+          19,
+          14
+        ],
+        "support": [
+          18,
+          18,
+          14
+        ],
+        "state": "potted_azalea_bush"
+      },
+      {
+        "id": "401.tall",
+        "anchor": [
+          14,
+          18,
+          10
+        ],
+        "support": [
+          14,
+          17,
+          10
+        ],
+        "height": 3
+      },
+      {
+        "id": "402.desk",
+        "anchor": [
+          29,
+          19,
+          7
+        ],
+        "support": [
+          29,
+          18,
+          7
+        ],
+        "state": "potted_flowering_azalea_bush"
+      },
+      {
+        "id": "402.entry",
+        "anchor": [
+          27,
+          19,
+          14
+        ],
+        "support": [
+          27,
+          18,
+          14
+        ],
+        "state": "potted_flowering_azalea_bush"
+      },
+      {
+        "id": "402.tall",
+        "anchor": [
+          31,
+          18,
+          10
+        ],
+        "support": [
+          31,
+          17,
+          10
+        ],
+        "height": 2
+      },
+      {
+        "id": "F4.gallery.15",
+        "anchor": [
+          15,
+          19,
+          18
+        ],
+        "support": [
+          15,
+          18,
+          18
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "F4.gallery.27",
+        "anchor": [
+          27,
+          19,
+          18
+        ],
+        "support": [
+          27,
+          18,
+          18
+        ],
+        "state": "potted_azalea_bush"
+      },
+      {
+        "id": "501.desk",
+        "anchor": [
+          16,
+          24,
+          7
+        ],
+        "support": [
+          16,
+          23,
+          7
+        ],
+        "state": "potted_azalea_bush"
+      },
+      {
+        "id": "501.entry",
+        "anchor": [
+          18,
+          24,
+          14
+        ],
+        "support": [
+          18,
+          23,
+          14
+        ],
+        "state": "potted_flowering_azalea_bush"
+      },
+      {
+        "id": "501.tall",
+        "anchor": [
+          14,
+          23,
+          10
+        ],
+        "support": [
+          14,
+          22,
+          10
+        ],
+        "height": 3
+      },
+      {
+        "id": "502.desk",
+        "anchor": [
+          29,
+          24,
+          7
+        ],
+        "support": [
+          29,
+          23,
+          7
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "502.entry",
+        "anchor": [
+          27,
+          24,
+          14
+        ],
+        "support": [
+          27,
+          23,
+          14
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "502.tall",
+        "anchor": [
+          31,
+          23,
+          10
+        ],
+        "support": [
+          31,
+          22,
+          10
+        ],
+        "height": 2
+      },
+      {
+        "id": "F5.gallery.17",
+        "anchor": [
+          17,
+          24,
+          18
+        ],
+        "support": [
+          17,
+          23,
+          18
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "F5.gallery.29",
+        "anchor": [
+          29,
+          24,
+          18
+        ],
+        "support": [
+          29,
+          23,
+          18
+        ],
+        "state": "potted_bamboo"
+      },
+      {
+        "id": "shop.counter",
+        "anchor": [
+          14,
+          4,
+          13
+        ],
+        "support": [
+          14,
+          3,
+          13
+        ],
+        "state": "potted_fern"
+      },
+      {
+        "id": "laundry.table",
+        "anchor": [
+          29,
+          4,
+          12
+        ],
+        "support": [
+          29,
+          3,
+          12
+        ],
+        "state": "potted_azalea_bush"
+      },
+      {
+        "id": "laundry.waiting",
+        "anchor": [
+          26,
+          4,
+          17
+        ],
+        "support": [
+          26,
+          3,
+          17
+        ],
+        "state": "potted_flowering_azalea_bush"
+      },
+      {
+        "id": "roof.9",
+        "anchor": [
+          29,
+          29,
+          9
+        ],
+        "support": [
+          29,
+          28,
+          9
+        ],
+        "state": "potted_flowering_azalea_bush"
+      },
+      {
+        "id": "roof.12",
+        "anchor": [
+          29,
+          29,
+          12
+        ],
+        "support": [
+          29,
+          28,
+          12
+        ],
+        "state": "potted_fern"
+      },
+      {
+        "id": "roof.16",
+        "anchor": [
+          29,
+          29,
+          16
+        ],
+        "support": [
+          29,
+          28,
+          16
+        ],
+        "state": "potted_fern"
+      }
+    ]
+  },
+  "facade_spec": {
+    "palette": [
+      "white concrete",
+      "green terracotta",
+      "smooth stone",
+      "oak and spruce",
+      "glass panes"
+    ],
+    "regions": {
+      "south": "open access gallery + solid parapet + green ground-shop awning",
+      "north": "per-unit grouped windows + AC brackets + local tiled repairs",
+      "west": "solid stair core with small windows",
+      "east": "side windows + continuous service pipe"
+    },
+    "variation": {
+      "channels": [
+        "plant.<unit>.<group>",
+        "variation.window.<unit>"
+      ],
+      "fixed": [
+        "shell",
+        "doors",
+        "stairs",
+        "furniture",
+        "lighting"
+      ],
+      "scope": "per-group species/height and per-window tint only; no random wall holes"
+    }
+  },
+  "seed": 1145,
+  "source_nbt_sha256": "a7f6b9ccb290643a64af228934090d3ce150ff953b5101e1a51abd6c1a1c0cb3"
+}

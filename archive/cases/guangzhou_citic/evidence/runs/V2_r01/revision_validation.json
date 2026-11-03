@@ -1,0 +1,617 @@
+{
+  "run": "V2_r01",
+  "baseline": "V1_r04",
+  "checks": [
+    {
+      "id": "emitting_blocks_reduced",
+      "status": "pass",
+      "details": {
+        "before": 737,
+        "after": 407,
+        "reduction": 0.4478,
+        "not_photometric_brightness": true
+      }
+    },
+    {
+      "id": "changes_within_lighting_and_interior_scope",
+      "status": "pass",
+      "details": {
+        "changed_coordinates": 1119,
+        "by_new_owner": {
+          "air": 103,
+          "module": 261,
+          "tower": 424,
+          "interior": 331
+        },
+        "unexpected": []
+      }
+    },
+    {
+      "id": "protected_exterior_and_site_unchanged",
+      "status": "pass",
+      "details": {
+        "changed": []
+      }
+    },
+    {
+      "id": "room_entries_connected",
+      "status": "fail",
+      "details": [
+        {
+          "id": "lobby.reception",
+          "reachable": false
+        },
+        {
+          "id": "lobby.waiting",
+          "reachable": true
+        },
+        {
+          "id": "lobby.concierge",
+          "reachable": true
+        },
+        {
+          "id": "lobby.east_waiting",
+          "reachable": true
+        },
+        {
+          "id": "office_A.work",
+          "reachable": true
+        },
+        {
+          "id": "office_A.meeting",
+          "reachable": false
+        },
+        {
+          "id": "office_A.rest",
+          "reachable": true
+        },
+        {
+          "id": "office_A.support",
+          "reachable": true
+        },
+        {
+          "id": "office_A.public",
+          "reachable": false
+        },
+        {
+          "id": "office_B.work",
+          "reachable": true
+        },
+        {
+          "id": "office_B.meeting",
+          "reachable": false
+        },
+        {
+          "id": "office_B.rest",
+          "reachable": true
+        },
+        {
+          "id": "office_B.support",
+          "reachable": true
+        },
+        {
+          "id": "office_B.public",
+          "reachable": false
+        },
+        {
+          "id": "lounge.rest",
+          "reachable": true
+        },
+        {
+          "id": "lounge.tea",
+          "reachable": false
+        },
+        {
+          "id": "lounge.reading",
+          "reachable": false
+        },
+        {
+          "id": "lounge.support",
+          "reachable": true
+        },
+        {
+          "id": "lounge.public",
+          "reachable": false
+        }
+      ]
+    },
+    {
+      "id": "module_approach_connected",
+      "status": "pass",
+      "details": [
+        {
+          "id": "lobby.reception.reception",
+          "reachable_edge_samples": 1,
+          "samples": [
+            [
+              51,
+              71
+            ]
+          ]
+        },
+        {
+          "id": "lobby.waiting.lounge",
+          "reachable_edge_samples": 7,
+          "samples": [
+            [
+              39,
+              62
+            ],
+            [
+              39,
+              63
+            ],
+            [
+              39,
+              64
+            ]
+          ]
+        },
+        {
+          "id": "lobby.concierge.counter",
+          "reachable_edge_samples": 3,
+          "samples": [
+            [
+              39,
+              58
+            ],
+            [
+              39,
+              59
+            ],
+            [
+              37,
+              60
+            ]
+          ]
+        },
+        {
+          "id": "lobby.east_waiting.lounge",
+          "reachable_edge_samples": 3,
+          "samples": [
+            [
+              51,
+              65
+            ],
+            [
+              52,
+              65
+            ],
+            [
+              53,
+              65
+            ]
+          ]
+        },
+        {
+          "id": "office_A.work.desk_group",
+          "reachable_edge_samples": 8,
+          "samples": [
+            [
+              39,
+              57
+            ],
+            [
+              39,
+              58
+            ],
+            [
+              39,
+              59
+            ]
+          ]
+        },
+        {
+          "id": "office_A.meeting.meeting",
+          "reachable_edge_samples": 6,
+          "samples": [
+            [
+              54,
+              57
+            ],
+            [
+              54,
+              58
+            ],
+            [
+              54,
+              59
+            ]
+          ]
+        },
+        {
+          "id": "office_A.rest.lounge",
+          "reachable_edge_samples": 5,
+          "samples": [
+            [
+              53,
+              69
+            ],
+            [
+              53,
+              70
+            ],
+            [
+              53,
+              71
+            ]
+          ]
+        },
+        {
+          "id": "office_A.support.storage",
+          "reachable_edge_samples": 9,
+          "samples": [
+            [
+              48,
+              54
+            ],
+            [
+              48,
+              55
+            ],
+            [
+              41,
+              56
+            ]
+          ]
+        },
+        {
+          "id": "office_A.public.bench",
+          "reachable_edge_samples": 2,
+          "samples": [
+            [
+              49,
+              72
+            ],
+            [
+              49,
+              73
+            ]
+          ]
+        },
+        {
+          "id": "office_A.work.second_group",
+          "reachable_edge_samples": 4,
+          "samples": [
+            [
+              39,
+              63
+            ],
+            [
+              39,
+              64
+            ],
+            [
+              39,
+              65
+            ]
+          ]
+        },
+        {
+          "id": "office_A.work.archive",
+          "reachable_edge_samples": 6,
+          "samples": [
+            [
+              39,
+              67
+            ],
+            [
+              39,
+              68
+            ],
+            [
+              35,
+              69
+            ]
+          ]
+        },
+        {
+          "id": "office_A.rest.tea",
+          "reachable_edge_samples": 6,
+          "samples": [
+            [
+              54,
+              64
+            ],
+            [
+              54,
+              65
+            ],
+            [
+              54,
+              66
+            ]
+          ]
+        },
+        {
+          "id": "office_B.work.desk_group",
+          "reachable_edge_samples": 8,
+          "samples": [
+            [
+              39,
+              57
+            ],
+            [
+              39,
+              58
+            ],
+            [
+              39,
+              59
+            ]
+          ]
+        },
+        {
+          "id": "office_B.meeting.meeting",
+          "reachable_edge_samples": 6,
+          "samples": [
+            [
+              54,
+              57
+            ],
+            [
+              54,
+              58
+            ],
+            [
+              54,
+              59
+            ]
+          ]
+        },
+        {
+          "id": "office_B.rest.lounge",
+          "reachable_edge_samples": 5,
+          "samples": [
+            [
+              53,
+              69
+            ],
+            [
+              53,
+              70
+            ],
+            [
+              53,
+              71
+            ]
+          ]
+        },
+        {
+          "id": "office_B.support.storage",
+          "reachable_edge_samples": 9,
+          "samples": [
+            [
+              48,
+              54
+            ],
+            [
+              48,
+              55
+            ],
+            [
+              41,
+              56
+            ]
+          ]
+        },
+        {
+          "id": "office_B.public.bench",
+          "reachable_edge_samples": 2,
+          "samples": [
+            [
+              49,
+              72
+            ],
+            [
+              49,
+              73
+            ]
+          ]
+        },
+        {
+          "id": "office_B.work.second_group",
+          "reachable_edge_samples": 4,
+          "samples": [
+            [
+              39,
+              63
+            ],
+            [
+              39,
+              64
+            ],
+            [
+              39,
+              65
+            ]
+          ]
+        },
+        {
+          "id": "office_B.work.archive",
+          "reachable_edge_samples": 6,
+          "samples": [
+            [
+              39,
+              67
+            ],
+            [
+              39,
+              68
+            ],
+            [
+              35,
+              69
+            ]
+          ]
+        },
+        {
+          "id": "office_B.rest.tea",
+          "reachable_edge_samples": 6,
+          "samples": [
+            [
+              54,
+              64
+            ],
+            [
+              54,
+              65
+            ],
+            [
+              54,
+              66
+            ]
+          ]
+        },
+        {
+          "id": "lounge.rest.lounge",
+          "reachable_edge_samples": 8,
+          "samples": [
+            [
+              39,
+              57
+            ],
+            [
+              39,
+              58
+            ],
+            [
+              39,
+              59
+            ]
+          ]
+        },
+        {
+          "id": "lounge.tea.pantry",
+          "reachable_edge_samples": 6,
+          "samples": [
+            [
+              54,
+              57
+            ],
+            [
+              54,
+              58
+            ],
+            [
+              54,
+              59
+            ]
+          ]
+        },
+        {
+          "id": "lounge.reading.lounge",
+          "reachable_edge_samples": 7,
+          "samples": [
+            [
+              54,
+              65
+            ],
+            [
+              54,
+              66
+            ],
+            [
+              54,
+              67
+            ]
+          ]
+        },
+        {
+          "id": "lounge.support.storage",
+          "reachable_edge_samples": 9,
+          "samples": [
+            [
+              48,
+              54
+            ],
+            [
+              48,
+              55
+            ],
+            [
+              41,
+              56
+            ]
+          ]
+        },
+        {
+          "id": "lounge.public.bench",
+          "reachable_edge_samples": 2,
+          "samples": [
+            [
+              49,
+              72
+            ],
+            [
+              49,
+              73
+            ]
+          ]
+        },
+        {
+          "id": "lounge.rest.second",
+          "reachable_edge_samples": 8,
+          "samples": [
+            [
+              39,
+              64
+            ],
+            [
+              39,
+              65
+            ],
+            [
+              39,
+              66
+            ]
+          ]
+        },
+        {
+          "id": "lounge.reading.shelves",
+          "reachable_edge_samples": 4,
+          "samples": [
+            [
+              53,
+              70
+            ],
+            [
+              53,
+              71
+            ],
+            [
+              51,
+              72
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "richer_functional_groups",
+      "status": "pass",
+      "details": {
+        "groups_before": 11,
+        "groups_after": 27,
+        "furniture_blocks_before": 101,
+        "furniture_blocks_after": 330,
+        "kinds": {
+          "reception": 2,
+          "lounge": 7,
+          "desk_group": 3,
+          "meeting": 2,
+          "pantry": 2,
+          "storage": 6,
+          "window_bench": 3,
+          "pantry_compact": 2
+        }
+      }
+    }
+  ],
+  "status": "needs_revision",
+  "limits": [
+    "Counts are not taste or measured illumination",
+    "Conservative cell flood does not establish stair/half-block game collisions",
+    "Four demonstration levels only; static lifts and L1 fragments remain"
+  ]
+}

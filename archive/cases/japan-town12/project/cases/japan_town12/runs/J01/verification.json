@@ -1,0 +1,407 @@
+{
+  "source_nbt_sha256": "f0af7cad071108884e8c7b2ec8708ea4ced90ae7e44f7c0fce7a89ab5a69f405",
+  "checks": [
+    {
+      "name": "building_count_12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "uses_7_residential_2_commercial_3_public",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "building_footprints_do_not_overlap",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "all_door_leaf_inside_outside_two_cell_clearance",
+      "pass_": false,
+      "detail": [
+        [
+          "H01",
+          "outside",
+          [
+            26,
+            5,
+            58
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "H02",
+          "outside",
+          [
+            58,
+            7,
+            21
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "H03",
+          "outside",
+          [
+            84,
+            8,
+            22
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "H04",
+          "outside",
+          [
+            130,
+            7,
+            37
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "H05",
+          "outside",
+          [
+            138,
+            5,
+            107
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "H06",
+          "outside",
+          [
+            133,
+            5,
+            131
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "H07",
+          "outside",
+          [
+            94,
+            5,
+            130
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "S01",
+          "outside",
+          [
+            34,
+            5,
+            99
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "S02",
+          "outside",
+          [
+            72,
+            5,
+            96
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "P01",
+          "outside",
+          [
+            145,
+            5,
+            63
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "P02",
+          "outside",
+          [
+            28,
+            5,
+            128
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ],
+        [
+          "P03",
+          "outside",
+          [
+            91,
+            5,
+            61
+          ],
+          "minecraft:dark_oak_slab[type=top,waterlogged=false]"
+        ]
+      ]
+    },
+    {
+      "name": "stairs_2_wide_two_cell_clearance",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "three_cell_entry_paths_clear",
+      "pass_": false,
+      "detail": [
+        [
+          "H05",
+          [
+            121,
+            5,
+            106
+          ],
+          "minecraft:oak_log[axis=y]",
+          "minecraft:oak_log[axis=y]"
+        ],
+        [
+          "H06",
+          [
+            130,
+            5,
+            128
+          ],
+          "minecraft:lantern[hanging=false,waterlogged=false]",
+          null
+        ],
+        [
+          "H06",
+          [
+            127,
+            5,
+            128
+          ],
+          "minecraft:poppy",
+          null
+        ],
+        [
+          "H06",
+          [
+            127,
+            5,
+            129
+          ],
+          "minecraft:poppy",
+          null
+        ],
+        [
+          "S01",
+          [
+            35,
+            5,
+            94
+          ],
+          "minecraft:oak_log[axis=y]",
+          "minecraft:oak_log[axis=y]"
+        ],
+        [
+          "P02",
+          [
+            28,
+            5,
+            121
+          ],
+          "minecraft:black_concrete",
+          null
+        ],
+        [
+          "P02",
+          [
+            29,
+            5,
+            121
+          ],
+          "minecraft:blue_concrete",
+          "minecraft:light_blue_stained_glass"
+        ],
+        [
+          "P02",
+          [
+            30,
+            5,
+            121
+          ],
+          "minecraft:blue_concrete",
+          "minecraft:light_blue_stained_glass"
+        ],
+        [
+          "P02",
+          [
+            28,
+            5,
+            120
+          ],
+          "minecraft:blue_concrete",
+          null
+        ],
+        [
+          "P02",
+          [
+            29,
+            5,
+            120
+          ],
+          "minecraft:blue_concrete",
+          "minecraft:light_blue_stained_glass"
+        ],
+        [
+          "P02",
+          [
+            30,
+            5,
+            120
+          ],
+          "minecraft:blue_concrete",
+          "minecraft:light_blue_stained_glass"
+        ],
+        [
+          "P02",
+          [
+            28,
+            5,
+            119
+          ],
+          "minecraft:black_concrete",
+          null
+        ],
+        [
+          "P02",
+          [
+            29,
+            5,
+            119
+          ],
+          "minecraft:blue_concrete",
+          "minecraft:light_blue_stained_glass"
+        ],
+        [
+          "P02",
+          [
+            30,
+            5,
+            119
+          ],
+          "minecraft:blue_concrete",
+          "minecraft:light_blue_stained_glass"
+        ]
+      ]
+    },
+    {
+      "name": "occupied_floors_have_recessed_ceiling_lights",
+      "pass_": true,
+      "detail": [
+        [
+          "H01.F1",
+          2
+        ],
+        [
+          "H01.F2",
+          3
+        ],
+        [
+          "H02.F1",
+          2
+        ],
+        [
+          "H02.F2",
+          3
+        ],
+        [
+          "H03.F1",
+          2
+        ],
+        [
+          "H03.F2",
+          3
+        ],
+        [
+          "H04.F1",
+          2
+        ],
+        [
+          "H04.F2",
+          3
+        ],
+        [
+          "H05.F1",
+          2
+        ],
+        [
+          "H05.F2",
+          3
+        ],
+        [
+          "H06.F1",
+          2
+        ],
+        [
+          "H06.F2",
+          3
+        ],
+        [
+          "H07.F1",
+          2
+        ],
+        [
+          "H07.F2",
+          3
+        ],
+        [
+          "S01.F1",
+          2
+        ],
+        [
+          "S01.F2",
+          3
+        ],
+        [
+          "S02.F1",
+          2
+        ],
+        [
+          "S02.F2",
+          3
+        ],
+        [
+          "P01.F1",
+          3
+        ],
+        [
+          "P02.F1",
+          3
+        ],
+        [
+          "P03.F1",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "drain_water_has_bottom_and_side_containment",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "registered_vanilla_blockstates",
+      "pass_": true,
+      "detail": []
+    }
+  ],
+  "block_count": 191437,
+  "file_status": "readback exact in build exporter",
+  "geometry": "fail",
+  "preview": "pending",
+  "game": "pending; client not run",
+  "limitations": [
+    "Door opening, stair collision and entity interactions need game test",
+    "Furniture, cars, vending machines decorative",
+    "Water containment is voxel enclosure only"
+  ]
+}

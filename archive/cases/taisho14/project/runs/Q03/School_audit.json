@@ -1,0 +1,102 @@
+{
+  "source_nbt_sha256": "6ef4a78659d127817d705740dca4ea0045019aea68789407a6fb811a2ece774d",
+  "non_air": 10402,
+  "entries": [
+    {
+      "id": "School",
+      "pos": [
+        17,
+        3,
+        29
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 7,
+  "use_checks": [
+    {
+      "id": "School.stairs.bottom",
+      "pos": [
+        4,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "School.stairs.top",
+      "pos": [
+        4,
+        9,
+        5
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "School.entry",
+      "pos": [
+        17,
+        3,
+        28
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "School.classroom.2",
+      "pos": [
+        15,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "School.teacher.2",
+      "pos": [
+        21,
+        3,
+        9
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "School.classroom.8",
+      "pos": [
+        15,
+        9,
+        20
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "School.teacher.8",
+      "pos": [
+        21,
+        9,
+        9
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 6,
+  "paintings": 0,
+  "official_model_states": 58,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

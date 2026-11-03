@@ -1,0 +1,50 @@
+[
+  {
+    "image": "understair_eye.png",
+    "sha256": "f817d31bfae5adf0da98ff9b36823488b387e88f82588434689df474aea1c63c",
+    "source_nbt_sha256": "45139731cba997466604f84664f51b7686fcc36e03041f6b76ce0c787f07887e",
+    "camera": {
+      "id": "understair_eye",
+      "eye": [
+        11.4,
+        4.62,
+        16.5
+      ],
+      "target": [
+        11.9,
+        4.5,
+        13
+      ],
+      "fov": 78,
+      "width": 1400,
+      "height": 1000,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "understair_detail.png",
+    "sha256": "fdc8caa792be8abb1b97cff3bda24e1ea846bd46f326d61a94504f7131818a44",
+    "source_nbt_sha256": "45139731cba997466604f84664f51b7686fcc36e03041f6b76ce0c787f07887e",
+    "camera": {
+      "id": "understair_detail",
+      "eye": [
+        10.5,
+        4.62,
+        16
+      ],
+      "target": [
+        12.4,
+        4.4,
+        14
+      ],
+      "fov": 72,
+      "width": 1400,
+      "height": 1000,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

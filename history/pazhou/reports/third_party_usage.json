@@ -1,0 +1,25 @@
+{
+  "plancraft": {
+    "commit": "b0746140cf378d7e03b16887ef64ff9d99991f86",
+    "license": "MIT",
+    "executed": [
+      "building.grid.Grid",
+      "building.validate.reachable",
+      "building.validate.check_pairs"
+    ]
+  },
+  "reference_bundler": {
+    "source": "installed gafacraft-building-reference/scripts/bundle_reference_images.py",
+    "sha256": "131505f0a80bb72193acb710aa51c9c1fbaf808d9105e81f1601048265b2a2dc",
+    "changes": false
+  },
+  "egl_renderer": {
+    "source": "prior GAFAcraft NBT preview renderer",
+    "changes": [
+      "scene-independent bounding-box shadow center",
+      "new camera configuration",
+      "new file paths"
+    ],
+    "geometry_source": "new building NBT only"
+  }
+}

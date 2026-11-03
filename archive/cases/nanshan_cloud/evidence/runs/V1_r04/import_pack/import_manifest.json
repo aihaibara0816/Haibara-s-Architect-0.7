@@ -1,0 +1,164 @@
+{
+  "source_nbt_sha256": "79497dd9b86ec1371c4da62259c5707a63ce403fb7fe4b312b3df4bec4793da8",
+  "size_xyz": [
+    140,
+    244,
+    140
+  ],
+  "schematic": {
+    "file": "Nanshan_Cloud_HAF_V1.schem",
+    "bytes": 85155,
+    "sha256": "90ba74577c8b5c4c6b7de67430c39910200405c961488492ac62afb2f2f4345e",
+    "format": "Sponge schematic v3",
+    "contains_explicit_air": true,
+    "nonair_readback_exact": true,
+    "non_air_blocks": 395735
+  },
+  "modules": [
+    {
+      "file": "modules/partaaa.nbt",
+      "offset_xyz": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 104536,
+      "sha256": "3da320ce92290ebb0320da8c793136dd40b204988998a41999daa5849f17d6ef",
+      "listed_blocks": 35888,
+      "non_air_blocks": 35888,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "acb776e8698c69635d6a9bf0a95b557fa31b1b49df6026acfaac639ef57826af",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partaab.nbt",
+      "offset_xyz": [
+        0,
+        0,
+        70
+      ],
+      "bytes": 166509,
+      "sha256": "a18a5f946aa8e3a3d6484e74daa06460d434c3a36f3829f2bc17f95f4bea15f0",
+      "listed_blocks": 56567,
+      "non_air_blocks": 56567,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "24ab52022a37cea07549a6eb44153486f201ea48b7dad995d705adb86257a803",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partaba.nbt",
+      "offset_xyz": [
+        70,
+        0,
+        0
+      ],
+      "bytes": 224906,
+      "sha256": "f95379616c4edeea13e54fff8ed97df6e218e25e8d71f59f23c5ff4c360abee1",
+      "listed_blocks": 75787,
+      "non_air_blocks": 75787,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "1a60e99e46d41929b732bcba6f2c2a6bf5b5816b7b3f6b7993c1c19c59753147",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partabb.nbt",
+      "offset_xyz": [
+        70,
+        0,
+        70
+      ],
+      "bytes": 152855,
+      "sha256": "ddf3332eae8c6c931bbad0cb6ce9203db5fe643bbb8043536d1347f38d0f9ef0",
+      "listed_blocks": 51631,
+      "non_air_blocks": 51631,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "0dfadf6f696526260e20f3076891b72943c413c33fa3be7a1fcf6e71cf9b4489",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partba.nbt",
+      "offset_xyz": [
+        0,
+        122,
+        0
+      ],
+      "bytes": 217949,
+      "sha256": "a7da399359601e8582310034bf6c8c674183e4f6cffa2bb132462cfc07545da9",
+      "listed_blocks": 73754,
+      "non_air_blocks": 73754,
+      "size_xyz": [
+        70,
+        122,
+        140
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "a19ffc539c6b29bdb9dd7339a07513850a86f97ae96d7751dce1aed77d5bd758",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partbba.nbt",
+      "offset_xyz": [
+        70,
+        122,
+        0
+      ],
+      "bytes": 169927,
+      "sha256": "25c5a8f64cad491d37b2d68ff0afee390d5d2c17cadd4e7d192a1c13067e0276",
+      "listed_blocks": 56958,
+      "non_air_blocks": 56958,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "014601f943709fbe5f4631ccef6508a387ec0e978e0d74ac91cd3146e2d7badb",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partbbb.nbt",
+      "offset_xyz": [
+        70,
+        122,
+        70
+      ],
+      "bytes": 133976,
+      "sha256": "efe5a238f9c8339f3c9a56054a7d74f367001675ade286f672e4e3b52d044788",
+      "listed_blocks": 45150,
+      "non_air_blocks": 45150,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "548470f80ed616580d594712aefc1067a2acacc177d9dd558753b34d84f4981d",
+      "data_version": 3955
+    }
+  ],
+  "module_count": 7,
+  "module_union_exact": true,
+  "module_max_bytes": 224906,
+  "coordinate_convention": "Local X/Y/Z; module minimum corner = project origin + offset_xyz; no rotation. Geographic orientation is case-specific; see case parameters.",
+  "tested": "Offline readback and exact coordinate/state union only; game import pending"
+}

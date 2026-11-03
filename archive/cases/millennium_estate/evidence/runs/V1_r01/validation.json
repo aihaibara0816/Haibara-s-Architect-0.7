@@ -1,0 +1,375 @@
+{
+  "source_nbt_sha256": "035bd0c5945acc19654ea678a8b061fa77e84021442189f44cdff660a4c5ff02",
+  "checks": [
+    {
+      "id": "exactly_six_towers_10_15",
+      "status": "pass",
+      "details": [
+        [
+          "A1",
+          10
+        ],
+        [
+          "A2",
+          10
+        ],
+        [
+          "A3",
+          10
+        ],
+        [
+          "B1",
+          15
+        ],
+        [
+          "B2",
+          15
+        ],
+        [
+          "B3",
+          15
+        ]
+      ]
+    },
+    {
+      "id": "120_units_one_two_per_floor",
+      "status": "pass",
+      "details": {
+        "A1": 10,
+        "A2": 10,
+        "A3": 10,
+        "B1": 30,
+        "B2": 30,
+        "B3": 30
+      }
+    },
+    {
+      "id": "all_units_have_home_functions",
+      "status": "pass",
+      "details": {
+        "rooms": 630,
+        "missing": []
+      }
+    },
+    {
+      "id": "unit_entries_supported_and_clear",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_room_entries_reachable_on_floor",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "75_levels_three_clear_two_separator",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_lamps_survive_and_are_recessed",
+      "status": "pass",
+      "details": {
+        "lamps": 247,
+        "lost": [],
+        "wrong_height": []
+      }
+    },
+    {
+      "id": "selective_home_lighting",
+      "status": "pass",
+      "details": {
+        "lit_units": 41,
+        "all_units": 120
+      }
+    },
+    {
+      "id": "stairs_69_connections_support_headroom",
+      "status": "pass",
+      "details": {
+        "connections": 69,
+        "errors": [],
+        "error_count": 0,
+        "scope": "Centre-cell routes; vanilla collision and stair shapes remain game-pending."
+      }
+    },
+    {
+      "id": "ground_lobbies_reach_stairs_and_units",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "entire_declared_path_width_clear",
+      "status": "fail",
+      "details": {
+        "cells": 3949,
+        "blocked": [
+          [
+            8,
+            13,
+            null,
+            "minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+          ],
+          [
+            8,
+            20,
+            null,
+            "minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+          ],
+          [
+            8,
+            30,
+            null,
+            "minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+          ],
+          [
+            9,
+            13,
+            null,
+            "minecraft:iron_block"
+          ],
+          [
+            9,
+            14,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=true,waterlogged=false,west=false]"
+          ],
+          [
+            9,
+            15,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=true,waterlogged=false,west=false]"
+          ],
+          [
+            9,
+            16,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=false]"
+          ],
+          [
+            9,
+            20,
+            null,
+            "minecraft:iron_block"
+          ],
+          [
+            9,
+            21,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=true,waterlogged=false,west=false]"
+          ],
+          [
+            9,
+            22,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=true,waterlogged=false,west=false]"
+          ],
+          [
+            9,
+            23,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=false]"
+          ],
+          [
+            9,
+            30,
+            null,
+            "minecraft:iron_block"
+          ],
+          [
+            9,
+            31,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=true,waterlogged=false,west=false]"
+          ],
+          [
+            9,
+            32,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=true,waterlogged=false,west=false]"
+          ],
+          [
+            9,
+            33,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+            "minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=false]"
+          ],
+          [
+            28,
+            98,
+            "minecraft:yellow_terracotta",
+            "minecraft:yellow_terracotta"
+          ],
+          [
+            29,
+            35,
+            "minecraft:smooth_sandstone",
+            "minecraft:smooth_sandstone"
+          ],
+          [
+            30,
+            75,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]",
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+          ],
+          [
+            31,
+            98,
+            "minecraft:yellow_terracotta",
+            "minecraft:yellow_terracotta"
+          ],
+          [
+            32,
+            35,
+            "minecraft:smooth_sandstone",
+            "minecraft:smooth_sandstone"
+          ],
+          [
+            32,
+            75,
+            "minecraft:oak_slab[type=bottom,waterlogged=false]",
+            "minecraft:chain[axis=y,waterlogged=false]"
+          ],
+          [
+            78,
+            104,
+            "minecraft:yellow_terracotta",
+            "minecraft:yellow_terracotta"
+          ],
+          [
+            80,
+            41,
+            "minecraft:smooth_sandstone",
+            "minecraft:smooth_sandstone"
+          ],
+          [
+            81,
+            104,
+            "minecraft:yellow_terracotta",
+            "minecraft:yellow_terracotta"
+          ],
+          [
+            83,
+            41,
+            "minecraft:smooth_sandstone",
+            "minecraft:smooth_sandstone"
+          ],
+          [
+            122,
+            78,
+            "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+            null
+          ],
+          [
+            123,
+            78,
+            "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+            null
+          ],
+          [
+            124,
+            78,
+            "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+            null
+          ],
+          [
+            126,
+            79,
+            "minecraft:dark_oak_planks",
+            "minecraft:dark_oak_planks"
+          ],
+          [
+            128,
+            96,
+            "minecraft:yellow_terracotta",
+            "minecraft:yellow_terracotta"
+          ],
+          [
+            131,
+            33,
+            "minecraft:smooth_sandstone",
+            "minecraft:smooth_sandstone"
+          ],
+          [
+            131,
+            96,
+            "minecraft:yellow_terracotta",
+            "minecraft:yellow_terracotta"
+          ],
+          [
+            134,
+            33,
+            "minecraft:smooth_sandstone",
+            "minecraft:smooth_sandstone"
+          ],
+          [
+            150,
+            15,
+            null,
+            "minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+          ],
+          [
+            150,
+            32,
+            null,
+            "minecraft:iron_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+          ]
+        ],
+        "error_count": 35
+      }
+    },
+    {
+      "id": "gate_reaches_six_entries",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "mixed_grilles_and_open_windows",
+      "status": "pass",
+      "details": {
+        "none": 418,
+        "cage": 141,
+        "flush": 101
+      }
+    },
+    {
+      "id": "compiled_furniture_modules_consumed",
+      "status": "pass",
+      "details": {
+        "modules": 1110,
+        "empty": []
+      }
+    },
+    {
+      "id": "tree_roots_supported",
+      "status": "pass",
+      "details": {
+        "trees": 12,
+        "errors": []
+      }
+    },
+    {
+      "id": "pond_cells_contained",
+      "status": "pass",
+      "details": {
+        "water_cells": 93,
+        "leaks": []
+      }
+    },
+    {
+      "id": "six_roofs_cover_footprints",
+      "status": "pass",
+      "details": {
+        "missing_columns": []
+      }
+    }
+  ],
+  "passed": false,
+  "game_status": "pending",
+  "visual_status": "pending_user_review",
+  "limitations": [
+    "Static elevators and decorative furniture; no redstone lift or functional beds/doors",
+    "Block-cell traversal is conservative geometry review, not a Minecraft simulation",
+    "No real engineering, daylight, fire or planning compliance claim"
+  ]
+}

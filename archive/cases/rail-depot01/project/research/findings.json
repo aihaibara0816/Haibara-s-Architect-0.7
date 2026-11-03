@@ -1,0 +1,65 @@
+{
+  "source_files": [
+    {
+      "file": "cover.nbt",
+      "sha256": "be9cc98044f8c6f27a6567a25f8c537ba12026953a25542a05ab01b4f0089c17",
+      "size": [
+        174,
+        29,
+        101
+      ]
+    },
+    {
+      "file": "first_floor.nbt",
+      "sha256": "db6704ce3a0f5412ff6aefb5f94ad81b400eeaf7134b1b26139b5216c944bb64",
+      "size": [
+        153,
+        22,
+        124
+      ]
+    },
+    {
+      "file": "canton_east_railway_station.nbt",
+      "sha256": "4420722c385a137a4d1302a1579cd0a737b06b3e22e6b3240b32de9abea97fb2",
+      "size": [
+        150,
+        44,
+        220
+      ]
+    }
+  ],
+  "measured": {
+    "sample_cab_controls": [
+      1,
+      0,
+      1
+    ],
+    "sample_car_lengths": [
+      23,
+      22,
+      23
+    ],
+    "sample_consist_envelope_approx": 68,
+    "car_cell_width": 5,
+    "track_model_sleeper_width": 2.74375,
+    "platform_finish_above_track_block_base": 2,
+    "normal_adjacent_track_axis_spacing": 6,
+    "island_platform_axis_spacing": 15
+  },
+  "proposed": {
+    "working_length": 120,
+    "design_train_length_envelope": 90,
+    "curve_length_target": [
+      50,
+      60
+    ],
+    "track_axis_spacing_in_workshops": 12,
+    "pit_foot_below_track_base": 2,
+    "high_platform_foot_above_track_base": 5
+  },
+  "uncertain": [
+    "Game physics/collision and placement not run",
+    "Original vehicles require Steam n Rails, Copycats and other extra mods; no orphan entities imported",
+    "User 256 placement maximum is server-specific; vanilla Create 6.0.10 config source has default32 and upper128; this design curves under60 needs no override"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "type": "manual eight-slot evidence organizer",
+  "not_photogrammetry": true,
+  "north": null,
+  "slots": [
+    {
+      "id": 0,
+      "label": "前向",
+      "image_ids": [
+        "img-007",
+        "img-010"
+      ],
+      "status": "observed_approximate",
+      "azimuth_measured": false
+    },
+    {
+      "id": 1,
+      "label": "前侧斜视",
+      "image_ids": [
+        "img-001",
+        "img-009"
+      ],
+      "status": "observed_approximate",
+      "azimuth_measured": false
+    },
+    {
+      "id": 2,
+      "label": "右侧",
+      "image_ids": [],
+      "status": "missing",
+      "azimuth_measured": false
+    },
+    {
+      "id": 3,
+      "label": "后右",
+      "image_ids": [],
+      "status": "missing",
+      "azimuth_measured": false
+    },
+    {
+      "id": 4,
+      "label": "后向",
+      "image_ids": [],
+      "status": "missing",
+      "azimuth_measured": false
+    },
+    {
+      "id": 5,
+      "label": "后左",
+      "image_ids": [],
+      "status": "missing",
+      "azimuth_measured": false
+    },
+    {
+      "id": 6,
+      "label": "左侧",
+      "image_ids": [],
+      "status": "missing",
+      "azimuth_measured": false
+    },
+    {
+      "id": 7,
+      "label": "前左",
+      "image_ids": [],
+      "status": "missing",
+      "azimuth_measured": false
+    }
+  ],
+  "extras": {
+    "underside": [
+      "img-003",
+      "img-005",
+      "img-011"
+    ],
+    "interior_interface": [
+      "img-004",
+      "img-006"
+    ],
+    "night": [
+      "img-008"
+    ]
+  },
+  "limitation": "二维工作坐标归档，不知道精确方位；多个视角可能同侧，不强制塞满8面；不从参考盒自动生成几何"
+}

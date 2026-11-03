@@ -1,0 +1,44 @@
+{
+  "build_id": "legacy_gafa_colonnade-r1-6920ef3776",
+  "files": [
+    {
+      "file": "building.nbt",
+      "bytes": 36450,
+      "sha256": "763adee9f0bf0dcab3a62d02b38e8ce7a1766f86357aa9eb327cf88436350e1c",
+      "listed_blocks": 14960,
+      "non_air_blocks": 3698,
+      "size_xyz": [
+        22,
+        20,
+        34
+      ],
+      "contains_explicit_air": true,
+      "geometry_sha256": "779efa86a8ab822c0b225e25d4e30ef5318c22eb5a28124c5c93ebf0343b1a06",
+      "data_version": 3955
+    }
+  ],
+  "origin_world_xyz": null,
+  "front": "-Z",
+  "includes_air": true,
+  "target_environment": {
+    "minecraft_version": "1.21.1",
+    "data_version": 3955,
+    "neoforge_version": "21.1.244",
+    "create_version": "6.0.10",
+    "configuration_status": "historical_target_unverified",
+    "world": {
+      "min_y": null,
+      "max_y_exclusive": null,
+      "origin_xyz": null,
+      "confirmed": false,
+      "basis": "历史目标版本；未连接当前Minecraft客户端或服务器，无已确认放置位置。"
+    },
+    "budgets": {
+      "max_cells": 1000000,
+      "max_non_air_blocks": 250000,
+      "max_cell_visits": 5000000
+    }
+  },
+  "placement_status": "pending_game_test",
+  "notes": "Explicit air replaces cells in the full structure bounding box. Use an empty test world area; never auto-place in production."
+}

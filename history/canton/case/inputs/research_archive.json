@@ -1,0 +1,1809 @@
+{
+  "schema_version": "component-research-0.1",
+  "status": "reviewable_case_study_not_installed_skill",
+  "date": "2026-10-20",
+  "subject": "广州塔",
+  "scope": "图片按构件分类、上下文区域标注、已读 SKP 的粗粒度候选对应；不生成 Minecraft V2。",
+  "base_engine_version": "0.3.0",
+  "reference_protocol": "1.1；新增 region 为研究附录，不改正式 packet/BuildingSpec 协议。",
+  "sources": [
+    {
+      "source_id": "src-iba",
+      "title": "Canton Tower / Information Based Architecture",
+      "url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "publisher": "ArchDaily；建筑师供稿、供图",
+      "type": "architect_via_professional_media",
+      "published": "2010-11-19",
+      "accessed_at": "2026-10-20"
+    },
+    {
+      "source_id": "src-gzwxb",
+      "title": "为什么我们喜欢广州塔？",
+      "url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+      "publisher": "广州网信网，来源大洋网",
+      "type": "government_republication",
+      "published": "2022-03-29",
+      "accessed_at": "2026-10-20"
+    },
+    {
+      "source_id": "src-owner",
+      "title": "广州塔",
+      "url": "https://www.gzci.net/groupbusiness/info.aspx?itemid=75&lcid=7",
+      "publisher": "广州城投集团",
+      "type": "owner",
+      "published": null,
+      "accessed_at": "2026-10-20"
+    },
+    {
+      "source_id": "src-stefan",
+      "title": "Canton Tower (IBA)",
+      "url": "https://www.stefanal.com/projects/canton-tower",
+      "publisher": "Stefan Al，项目建筑设计参与者",
+      "type": "architect",
+      "published": "2020-03-30",
+      "accessed_at": "2026-10-20"
+    },
+    {
+      "source_id": "src-plaza2024",
+      "title": "Canton Tower Plaza to open this year",
+      "url": "https://www.eguangzhou.gov.cn/gzspecialreports/intlblocks/news/content/post_31771.html",
+      "publisher": "广州市人民政府外事办公室",
+      "type": "government",
+      "published": "2024-08-27",
+      "accessed_at": "2026-10-20"
+    },
+    {
+      "source_id": "src-capsule-count",
+      "title": "广州市文化广电旅游局关于部分景区舆情处理情况",
+      "url": "https://www.zc.gov.cn/gk/rdhy/content/post_3848242.html",
+      "publisher": "广州市增城区人民政府门户网站，来源广州市人民政府门户网站",
+      "type": "government",
+      "published": "2019-03-04",
+      "accessed_at": "2026-10-20"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "R01",
+      "source_ids": [
+        "src-iba"
+      ],
+      "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "direct_image_url": "https://images.adsttc.com/media/images/5012/fc2b/28ba/0d06/5800/09fd/large_jpg/stringio.jpg?1414211792",
+      "credit": "Courtesy of Information Based Architecture; article 2010",
+      "historical_sha256": "74dd85d4871e178908ff575cce7b89a41f4f10055be7801f2f6a474688a5ef83",
+      "file": "images/R01.jpg",
+      "title": "日景整体轮廓与城市背景",
+      "observation": "主体从塔脚至天线完整可见；主体在画面中较细，只用于整体轮廓，不能提取精确幕墙分格。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "core",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        800,
+        534
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "74dd85d4871e178908ff575cce7b89a41f4f10055be7801f2f6a474688a5ef83",
+      "bytes": 114242,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R02",
+      "source_ids": [
+        "src-iba"
+      ],
+      "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "direct_image_url": "https://images.adsttc.com/media/images/5012/fc2f/28ba/0d06/5800/09fe/medium_jpg/stringio.jpg?1414211795",
+      "credit": "Courtesy of Information Based Architecture; article 2010",
+      "historical_sha256": "291574d7c705595c3f46cb7ad306d2b6e94123b4b4132ba6932c6c45b98ba0c5",
+      "file": "images/R02.jpg",
+      "title": "舞狮前景遮挡的塔脚仰视",
+      "observation": "白色主柱与交叉构件可见；舞狮和舞台架遮挡塔脚，不可据此恢复入口平面。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "candidate",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        528,
+        792
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "291574d7c705595c3f46cb7ad306d2b6e94123b4b4132ba6932c6c45b98ba0c5",
+      "bytes": 162789,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R03",
+      "source_ids": [
+        "src-iba"
+      ],
+      "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "direct_image_url": "https://images.adsttc.com/media/images/5012/fc33/28ba/0d06/5800/09ff/medium_jpg/stringio.jpg?1414211798",
+      "credit": "Courtesy of Information Based Architecture; article 2010",
+      "historical_sha256": "66d1e1e72dc28225269f3be8f30128e36c8f512dc039f30f31c9603ad9d34fb1",
+      "file": "images/R03.jpg",
+      "title": "观景空间：反射顶面、地面与玻璃围护",
+      "observation": "反射顶面和地面、周边玻璃及斜向框件可辨；游客遮挡局部。具体楼层和当前装修版本未知。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "interior",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        528,
+        337
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "66d1e1e72dc28225269f3be8f30128e36c8f512dc039f30f31c9603ad9d34fb1",
+      "bytes": 57618,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R04",
+      "source_ids": [
+        "src-iba"
+      ],
+      "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "direct_image_url": "https://images.adsttc.com/media/images/5012/fc36/28ba/0d06/5800/0a00/medium_jpg/stringio.jpg?1414211801",
+      "credit": "Courtesy of Information Based Architecture; article 2010",
+      "historical_sha256": "7ad9f77249c8d80e707cc2b74267d4673857b3d257dc7cd7c4fd150ada87878e",
+      "file": "images/R04.jpg",
+      "title": "透明观景盒：窗框与玻璃地板",
+      "observation": "透明观景盒有粗边框和玻璃地板；玻璃地板不是竖向幕墙，人物及强透视影响尺寸判断。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "interior",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        528,
+        352
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "7ad9f77249c8d80e707cc2b74267d4673857b3d257dc7cd7c4fd150ada87878e",
+      "bytes": 56495,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R05",
+      "source_ids": [
+        "src-iba"
+      ],
+      "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "direct_image_url": "https://images.adsttc.com/media/images/5012/fc39/28ba/0d06/5800/0a01/medium_jpg/stringio.jpg?1414211804",
+      "credit": "Courtesy of Information Based Architecture; article 2010",
+      "historical_sha256": "79afd2ae6b371b48035b974f58f3ffbcd78155f210143b02bc98782c5476ddb2",
+      "file": "images/R05.jpg",
+      "title": "公共观景空间：蓝色曲面吊顶",
+      "observation": "蓝色曲面顶面、少量嵌灯及周边窗带可辨；人群密集，无法判断地面布局。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "interior",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        528,
+        352
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "79afd2ae6b371b48035b974f58f3ffbcd78155f210143b02bc98782c5476ddb2",
+      "bytes": 61568,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R06",
+      "source_ids": [
+        "src-iba"
+      ],
+      "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "direct_image_url": "https://images.adsttc.com/media/images/5012/fc3d/28ba/0d06/5800/0a02/medium_jpg/stringio.jpg?1414211807",
+      "credit": "Courtesy of Information Based Architecture; article 2010",
+      "historical_sha256": "7b9c8c5b37db8ad5ee5ce28291eb1c78c3219aaeabc39b485e217abc85896a90",
+      "file": "images/R06.jpg",
+      "title": "外部钢架：主柱、环梁与斜撑",
+      "observation": "主柱显著粗于横向/斜向连接；格构后方深色不自动等于玻璃幕墙。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        528,
+        352
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "7b9c8c5b37db8ad5ee5ce28291eb1c78c3219aaeabc39b485e217abc85896a90",
+      "bytes": 40107,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R07",
+      "source_ids": [
+        "src-iba"
+      ],
+      "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "direct_image_url": "https://images.adsttc.com/media/images/5012/fc40/28ba/0d06/5800/0a03/medium_jpg/stringio.jpg?1414211809",
+      "credit": "Courtesy of Information Based Architecture; article 2010",
+      "historical_sha256": "f6471a5727ca86ebe602b3e07e81b6a9cf9943d5539d1483eaf10e6ec0f69a46",
+      "file": "images/R07.jpg",
+      "title": "远景夜间照明",
+      "observation": "只作夜间整体视觉记录；不用于钢材色彩或玻璃透明度判断。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "candidate",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        528,
+        365
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "f6471a5727ca86ebe602b3e07e81b6a9cf9943d5539d1483eaf10e6ec0f69a46",
+      "bytes": 38266,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R08",
+      "source_ids": [
+        "src-iba"
+      ],
+      "page_url": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+      "direct_image_url": "https://images.adsttc.com/media/images/5012/fc43/28ba/0d06/5800/0a04/medium_jpg/stringio.jpg?1414211812",
+      "credit": "Courtesy of Information Based Architecture; article 2010",
+      "historical_sha256": "6942915ebed51a72890d292be6b8ec16c4029d76a4db7f603a6ec13c91fdafab",
+      "file": "images/R08.jpg",
+      "title": "格构内部：钢架、内核与外部楼梯",
+      "observation": "外钢架与内部竖向体量之间有空腔及楼梯/平台；通行构件不等于室内装饰。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        528,
+        352
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "6942915ebed51a72890d292be6b8ec16c4029d76a4db7f603a6ec13c91fdafab",
+      "bytes": 58450,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R09",
+      "source_ids": [
+        "src-gzwxb"
+      ],
+      "page_url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+      "direct_image_url": "https://cms.gzwxb.gov.cn/netcom/ueditor-file///image/20220329/1648523673070037741.jpg",
+      "credit": "广州网信网转载大洋网，2022-03-29；摄影署名见原文",
+      "historical_sha256": "d3a1630c6074f00a5c1d1af8160b9316a0dfd24c53656681ef7fee2ff3fc602d",
+      "file": "images/R09.jpg",
+      "title": "塔冠日景：平台、球舱与天线根部",
+      "observation": "球舱围绕倾斜平台，天线独立从中心区域升起；逆光改变颜色，天线顶端被截断。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        716,
+        478
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "d3a1630c6074f00a5c1d1af8160b9316a0dfd24c53656681ef7fee2ff3fc602d",
+      "bytes": 207358,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R10",
+      "source_ids": [
+        "src-gzwxb"
+      ],
+      "page_url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+      "direct_image_url": "https://cms.gzwxb.gov.cn/netcom/ueditor-file///image/20220329/1648523673484011704.jpg",
+      "credit": "广州网信网转载大洋网，2022-03-29；摄影署名见原文",
+      "historical_sha256": "b24d08f5b50a5835b4e099e32ae80667be06421320d7971e020f8d733c1edfd2",
+      "file": "images/R10.jpg",
+      "title": "暮色整体轮廓",
+      "observation": "完整主体与背景城市关系可见；暮光/灯光不适合恢复白天材料颜色。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "core",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        716,
+        478
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "b24d08f5b50a5835b4e099e32ae80667be06421320d7971e020f8d733c1edfd2",
+      "bytes": 234488,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R11",
+      "source_ids": [
+        "src-gzwxb"
+      ],
+      "page_url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+      "direct_image_url": "https://cms.gzwxb.gov.cn/netcom/ueditor-file///image/20220329/1648523673763021664.jpg",
+      "credit": "广州网信网转载大洋网，2022-03-29；摄影署名见原文",
+      "historical_sha256": "3fab3a4a040a56421f329d388b6b23b8af815c94ca9b0efe3b3bd77001e6b14b",
+      "file": "images/R11.jpg",
+      "title": "夜间俯视：塔冠至塔脚",
+      "observation": "提供向下的塔冠、收腰和塔脚关系；灯光溢出，不能从亮斑推定构件厚度。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        426,
+        640
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "3fab3a4a040a56421f329d388b6b23b8af815c94ca9b0efe3b3bd77001e6b14b",
+      "bytes": 62537,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R12",
+      "source_ids": [
+        "src-gzwxb"
+      ],
+      "page_url": "https://www.gzwxb.gov.cn/context/contextId/205808",
+      "direct_image_url": "https://cms.gzwxb.gov.cn/netcom/ueditor-file///image/20220329/1648523673847066541.jpg",
+      "credit": "广州网信网转载大洋网，2022-03-29；摄影署名见原文",
+      "historical_sha256": "ad6eba814944944b3b49c30c099518300ad0c08b68586a1f206ffe5fe355075a",
+      "file": "images/R12.jpg",
+      "title": "塔顶近景：球舱、环轨与阶梯",
+      "observation": "球舱、轨道、阶梯和平台的相对层次最清楚；受透视与遮挡影响，完整球舱数由文字来源交叉核验。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        756,
+        503
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "ad6eba814944944b3b49c30c099518300ad0c08b68586a1f206ffe5fe355075a",
+      "bytes": 349474,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": true
+    },
+    {
+      "image_id": "R13",
+      "source_ids": [
+        "src-owner"
+      ],
+      "page_url": "https://www.gzci.net/groupbusiness/info.aspx?itemid=75&lcid=7",
+      "direct_image_url": "https://www.gzci.net/gzscsj202204279851/uploadfiles/image/gz1.jpg",
+      "credit": "广州城投项目页；2023-04-21",
+      "historical_sha256": "9efff30555ff72f31b1e20ebaa5905b693fc24abe9ea3bc237c9d3584a5d6db5",
+      "file": null,
+      "title": "旧城投整体图（本轮原图不可用）",
+      "observation": "网页已访问，原图请求返回 HTTP 503；本轮没有查看该图，不纳入可用证据。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "candidate",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": null,
+      "sha256": null,
+      "bytes": null,
+      "verification_state": "inaccessible",
+      "checked_at": null,
+      "available": false,
+      "building_match_confirmed": null,
+      "download_error": "HTTP 503"
+    },
+    {
+      "image_id": "R14",
+      "source_ids": [
+        "src-stefan"
+      ],
+      "page_url": "https://www.stefanal.com/projects/canton-tower",
+      "direct_image_url": "https://images.squarespace-cdn.com/content/v1/53b19866e4b0825a4fd2e319/1587770024261-0UX8PY9PD4Q88TMPXOU5/Canton-Tower-IBA-section.jpg",
+      "credit": "Stefan Al，项目建筑设计参与者；摄影者未明确",
+      "historical_sha256": null,
+      "file": "images/R14.jpg",
+      "title": "设计参与者提供的剖面与结构图",
+      "observation": "可见内核、分段楼层体量与外网格分离；这是设计图资料，建成对应关系和图纸修订号未知。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "section_and_elevation",
+      "image_version": "设计阶段/图纸修订号待核实",
+      "selection_status": "design_reference",
+      "view": "drawing",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        1200,
+        1724
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "e9645b093df438cdaa128885f28428db4c1dcf45dfc786ddf7e3a1af14b2ed1c",
+      "bytes": 299232,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": null
+    },
+    {
+      "image_id": "R15",
+      "source_ids": [
+        "src-plaza2024"
+      ],
+      "page_url": "https://www.eguangzhou.gov.cn/gzspecialreports/intlblocks/news/content/post_31771.html",
+      "direct_image_url": "https://www.eguangzhou.gov.cn/img/0/20/20527/31771.png",
+      "credit": "广州市人民政府外事办公室；摄影者未明确",
+      "historical_sha256": null,
+      "file": "images/R15.png",
+      "title": "2024 广州塔广场鸟瞰",
+      "observation": "可见塔脚、铺装、绿化、椭圆下沉开口和道路边界；来源为 2024 广场项目，不能视为旧案例同一场地版本。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "2024 广场项目，独立版本分支",
+      "selection_status": "detail",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        600,
+        389
+      ],
+      "mime_type": "image/png",
+      "sha256": "35ad940fba68676121cdf364ed7a09b0ef14f6a048462a032a1e195cb3843e2d",
+      "bytes": 2097152,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": null
+    },
+    {
+      "image_id": "R16",
+      "source_ids": [
+        "src-stefan"
+      ],
+      "page_url": "https://www.stefanal.com/projects/canton-tower",
+      "direct_image_url": "https://images.squarespace-cdn.com/content/v1/53b19866e4b0825a4fd2e319/1587769919139-37LRL5BBO3RRUKXRWAHL/Canton%2BTower_5.jpg",
+      "credit": "Stefan Al，项目建筑设计参与者；摄影者未明确",
+      "historical_sha256": null,
+      "file": "images/R16.jpg",
+      "title": "塔身上部与天线日景",
+      "observation": "上部钢架与内侧围护、塔冠收口可辨，天线有云遮挡；能补充日景，不能提供精确标高。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "oblique",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        2500,
+        1725
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "f5406d0b243768b0491c4e32b0853e0978452df7e651811b338ace280a05adad",
+      "bytes": 309134,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": null
+    },
+    {
+      "image_id": "R17",
+      "source_ids": [
+        "src-stefan"
+      ],
+      "page_url": "https://www.stefanal.com/projects/canton-tower",
+      "direct_image_url": "https://images.squarespace-cdn.com/content/v1/53b19866e4b0825a4fd2e319/1587769950138-EZDSBYKAPUHHIKWOEFVY/Canton%2BTower_4.jpg",
+      "credit": "Stefan Al，项目建筑设计参与者；摄影者未明确",
+      "historical_sha256": null,
+      "file": "images/R17.jpg",
+      "title": "环形内部空间仰视（具体楼层待核实）",
+      "observation": "环形层边/顶面与中央开口可见；图像没有说明房间用途、楼层及开口材料，不把它指定为某层大厅。",
+      "license_status": "unknown",
+      "training_authorized": false,
+      "geographic_direction": null,
+      "camera_to_model": null,
+      "media_type": "photo",
+      "image_version": "照片拍摄时间及建成阶段待核实",
+      "selection_status": "detail",
+      "view": "interior",
+      "orientation_basis": "可判定空间/俯仰关系；未注册项目局部轴或地理方位。",
+      "pixels": [
+        1270,
+        884
+      ],
+      "mime_type": "image/jpeg",
+      "sha256": "54cc4263159e78404b63ac5a1b92a754d070fe5bc3bcb447a1697cb3c0dfc3ee",
+      "bytes": 232835,
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-20",
+      "building_match_confirmed": true,
+      "available": true,
+      "historical_bytes_match": null
+    }
+  ],
+  "components": [
+    {
+      "component_id": "component-interior",
+      "name": "内饰",
+      "color": "#9357b5",
+      "summary": "先拆可见顶面、地面、窗边和环形空间；房间用途、楼层与隐藏布局保留未知。",
+      "subparts": [
+        "反射顶面与地面",
+        "蓝色曲面吊顶及嵌灯",
+        "玻璃观景盒的室内空间",
+        "环形内部空间"
+      ],
+      "evidence_grade": "B",
+      "model_grade": "D",
+      "model_note": "现有模型只有内部体量混合组，没有已识别的装修、家具或房间节点。内核不等于内饰。",
+      "model_groups": [],
+      "next": "补每个内部空间的楼层/功能标签及另一方向照片，再决定哪些可复原、哪些只能合理补全。"
+    },
+    {
+      "component_id": "component-exoframe",
+      "name": "外框架",
+      "color": "#147b73",
+      "summary": "主柱、环梁、斜撑分角色标注，保留框架与内部体量之间的空腔。",
+      "subparts": [
+        "主柱",
+        "环梁",
+        "斜撑",
+        "节点与内侧通行构件"
+      ],
+      "evidence_grade": "B",
+      "model_grade": "B",
+      "model_note": "已从模型单独查看主柱组及环梁/斜撑混合组；节点内部仍未逐根分离。",
+      "model_groups": [
+        "model-frame-columns",
+        "model-frame-rings-braces"
+      ],
+      "next": "在两个斜视方向核对粗细层级；再分开环梁、斜撑和塔冠接口，不能按材质色直接切分。"
+    },
+    {
+      "component_id": "component-curtainwall",
+      "name": "幕墙 / 玻璃围护",
+      "color": "#297ca9",
+      "summary": "玻璃围护位于外部格构内侧；先分清玻璃、窗框、透空区和深色实体。",
+      "subparts": [
+        "观景空间周边窗带",
+        "上部围护候选",
+        "透明观景盒（独立子类）"
+      ],
+      "evidence_grade": "B",
+      "model_grade": "C",
+      "model_note": "内部体量混合组可作为候选，但未逐面识别玻璃；模型材质名/深色外观不足以证明幕墙。",
+      "model_groups": [
+        "model-inner-mixed"
+      ],
+      "next": "用上部近景配合剖面确定玻璃所在分段；给窗框和玻璃分别标注，避免沿整个塔身封一层玻璃。"
+    },
+    {
+      "component_id": "component-crown",
+      "name": "塔顶",
+      "color": "#bf7431",
+      "summary": "平台、环轨、球舱、天线与连接件分开；数量冲突优先核查。",
+      "subparts": [
+        "倾斜平台与阶梯",
+        "环轨",
+        "球舱",
+        "天线与连接件"
+      ],
+      "evidence_grade": "B",
+      "model_grade": "C",
+      "model_note": "球舱候选及天线组合可单独定位；24 个模型球舱实例与官方 16 个记录冲突，平台还未精细分离。",
+      "model_groups": [
+        "model-crown-capsules",
+        "model-antenna"
+      ],
+      "next": "核实 24 个实例的原作者意图与目标版本；在更改数量前保留原件和修订记录，分别核对轨道与平台。"
+    },
+    {
+      "component_id": "component-plaza",
+      "name": "广场",
+      "color": "#70853d",
+      "summary": "划分塔脚接入、铺装、绿化和下沉开口；旧塔脚与 2024 广场分开研究。",
+      "subparts": [
+        "塔脚接入",
+        "铺装与步道",
+        "绿化",
+        "下沉开口与高差边缘"
+      ],
+      "evidence_grade": "B（2024 版）/ C（旧版）",
+      "model_grade": "D",
+      "model_note": "Google Earth 地形/底图是背景，无可复用的铺装、台阶、绿化或广场实体分组。",
+      "model_groups": [],
+      "next": "先选择场地年代与边界，再补总平和入口近景；只做与塔相关的必要地景，不自动扩建商业综合体。"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "R01-exoframe-01",
+      "image_id": "R01",
+      "component_id": "component-exoframe",
+      "subcomponent": "outline",
+      "title": "完整收腰轮廓",
+      "bbox_normalized_xyxy": [
+        0.468,
+        0.195,
+        0.525,
+        0.725
+      ],
+      "bbox_pixels_xyxy": [
+        374,
+        104,
+        420,
+        387
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "从塔脚到塔冠的细长外形连续。",
+      "limitations": "区域很窄；只约束整体，不测构件尺寸。",
+      "layer": "outer",
+      "occlusion": "none",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R02-exoframe-01",
+      "image_id": "R02",
+      "component_id": "component-exoframe",
+      "subcomponent": "columns",
+      "title": "遮挡样例：框架可见，塔脚不可测",
+      "bbox_normalized_xyxy": [
+        0.34,
+        0.025,
+        0.81,
+        0.65
+      ],
+      "bbox_pixels_xyxy": [
+        180,
+        20,
+        428,
+        515
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "上半部主柱和交叉关系可读。",
+      "limitations": "舞狮及临时架遮挡严重；不是入口/广场参考。",
+      "layer": "outer",
+      "occlusion": "heavy",
+      "certainty": "visible",
+      "purpose": "negative_example",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R03-interior-01",
+      "image_id": "R03",
+      "component_id": "component-interior",
+      "subcomponent": "ceiling",
+      "title": "反射顶面",
+      "bbox_normalized_xyxy": [
+        0.02,
+        0.01,
+        0.98,
+        0.38
+      ],
+      "bbox_pixels_xyxy": [
+        11,
+        3,
+        517,
+        128
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "顶面有明显反射和分片变化。",
+      "limitations": "只判可见表面；真实材质、吊顶节点与房间用途未知。",
+      "layer": "inner",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R03-interior-02",
+      "image_id": "R03",
+      "component_id": "component-interior",
+      "subcomponent": "floor",
+      "title": "有反射的地面",
+      "bbox_normalized_xyxy": [
+        0.04,
+        0.7,
+        0.98,
+        0.97
+      ],
+      "bbox_pixels_xyxy": [
+        21,
+        236,
+        517,
+        327
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "地面映出人物和窗边形状。",
+      "limitations": "反射不证明材质类型；边界被人物遮挡。",
+      "layer": "inner",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R03-curtainwall-01",
+      "image_id": "R03",
+      "component_id": "component-curtainwall",
+      "subcomponent": "window_band",
+      "title": "周边玻璃与框件",
+      "bbox_normalized_xyxy": [
+        0.02,
+        0.26,
+        0.98,
+        0.73
+      ],
+      "bbox_pixels_xyxy": [
+        11,
+        88,
+        517,
+        246
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "可以透过玻璃看到外侧粗构件，窗带与钢架不是同一层。",
+      "limitations": "人物、反光和外构件重叠；不能把框内全部像素当玻璃。",
+      "layer": "mixed",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R04-curtainwall-01",
+      "image_id": "R04",
+      "component_id": "component-curtainwall",
+      "subcomponent": "viewing_box",
+      "title": "透明观景盒围护",
+      "bbox_normalized_xyxy": [
+        0.04,
+        0.02,
+        0.97,
+        0.79
+      ],
+      "bbox_pixels_xyxy": [
+        21,
+        7,
+        512,
+        278
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "透明围护由明显边框划分。",
+      "limitations": "倾斜边框与外框架要分开；画面中的玻璃地板不归竖向幕墙。",
+      "layer": "inner",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R04-interior-01",
+      "image_id": "R04",
+      "component_id": "component-interior",
+      "subcomponent": "glass_floor",
+      "title": "玻璃地板与站立空间",
+      "bbox_normalized_xyxy": [
+        0.21,
+        0.49,
+        0.91,
+        0.98
+      ],
+      "bbox_pixels_xyxy": [
+        111,
+        172,
+        480,
+        345
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "脚下透明空间可以看见下方城市。",
+      "limitations": "这是独立的透明地板子类；不要沿塔身复制成幕墙。",
+      "layer": "inner",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R05-interior-01",
+      "image_id": "R05",
+      "component_id": "component-interior",
+      "subcomponent": "ceiling",
+      "title": "蓝色曲面吊顶与嵌灯",
+      "bbox_normalized_xyxy": [
+        0.01,
+        0.01,
+        0.99,
+        0.58
+      ],
+      "bbox_pixels_xyxy": [
+        5,
+        4,
+        523,
+        204
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "曲面顶面和少量灯点可见。",
+      "limitations": "人物遮挡下部；不恢复未知座椅和房间平面。",
+      "layer": "inner",
+      "occlusion": "none",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R05-curtainwall-01",
+      "image_id": "R05",
+      "component_id": "component-curtainwall",
+      "subcomponent": "window_band",
+      "title": "连续周边窗带",
+      "bbox_normalized_xyxy": [
+        0.015,
+        0.44,
+        0.985,
+        0.69
+      ],
+      "bbox_pixels_xyxy": [
+        8,
+        155,
+        520,
+        243
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "外围连续窗带与斜框可辨。",
+      "limitations": "人群遮挡窗下区域，图像不足以定窗高。",
+      "layer": "inner",
+      "occlusion": "heavy",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R06-exoframe-01",
+      "image_id": "R06",
+      "component_id": "component-exoframe",
+      "subcomponent": "columns_rings_braces",
+      "title": "主柱、横向连接与斜撑的粗细层级",
+      "bbox_normalized_xyxy": [
+        0.01,
+        0.1,
+        0.94,
+        0.97
+      ],
+      "bbox_pixels_xyxy": [
+        5,
+        35,
+        496,
+        341
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "粗主柱与较细横向/斜向构件有清楚区分。",
+      "limitations": "仰视透视强，不能由像素宽度直接算真实管径。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R08-exoframe-01",
+      "image_id": "R08",
+      "component_id": "component-exoframe",
+      "subcomponent": "frame_depth",
+      "title": "外钢架与内部体量的空间间隔",
+      "bbox_normalized_xyxy": [
+        0.01,
+        0.01,
+        0.99,
+        0.94
+      ],
+      "bbox_pixels_xyxy": [
+        5,
+        4,
+        523,
+        331
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "外侧粗构件围绕内侧竖向体量，之间存在通行及空腔。",
+      "limitations": "二维遮挡关系不是精确深度；圆柱内核不是内饰。",
+      "layer": "mixed",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R08-exoframe-02",
+      "image_id": "R08",
+      "component_id": "component-exoframe",
+      "subcomponent": "circulation_context",
+      "title": "钢架内侧楼梯/平台（辅助关系）",
+      "bbox_normalized_xyxy": [
+        0.32,
+        0.43,
+        0.88,
+        0.97
+      ],
+      "bbox_pixels_xyxy": [
+        169,
+        151,
+        465,
+        341
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "阶梯/平台绕内侧体量展开，区别于纯装饰。",
+      "limitations": "只作构件相邻关系；数量、标高与完整路线未核实。",
+      "layer": "mixed",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "adjacency_context",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R09-crown-01",
+      "image_id": "R09",
+      "component_id": "component-crown",
+      "subcomponent": "crown_assembly",
+      "title": "塔冠平台、球舱与天线根部",
+      "bbox_normalized_xyxy": [
+        0.345,
+        0.025,
+        0.66,
+        0.66
+      ],
+      "bbox_pixels_xyxy": [
+        247,
+        12,
+        473,
+        315
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "平台、外围球舱和竖向天线有明确的上下关系。",
+      "limitations": "天线顶端被截断；不能据此算全高，逆光不作材质测色。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R09-exoframe-01",
+      "image_id": "R09",
+      "component_id": "component-exoframe",
+      "subcomponent": "upper_frame",
+      "title": "上部格构收口",
+      "bbox_normalized_xyxy": [
+        0.36,
+        0.57,
+        0.66,
+        0.99
+      ],
+      "bbox_pixels_xyxy": [
+        258,
+        272,
+        473,
+        473
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "格构继续向塔冠展开，并与平台边界相接。",
+      "limitations": "画面下端截断，尺寸只作为相对形态。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R09-curtainwall-01",
+      "image_id": "R09",
+      "component_id": "component-curtainwall",
+      "subcomponent": "upper_envelope_candidate",
+      "title": "格构后的上部围护候选",
+      "bbox_normalized_xyxy": [
+        0.415,
+        0.62,
+        0.59,
+        0.91
+      ],
+      "bbox_pixels_xyxy": [
+        297,
+        296,
+        422,
+        435
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "可以定位内侧深色分段体量。",
+      "limitations": "是否为玻璃及其具体面界待核实；不是确认的幕墙掩膜。",
+      "layer": "inner",
+      "occlusion": "heavy",
+      "certainty": "candidate",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R10-exoframe-01",
+      "image_id": "R10",
+      "component_id": "component-exoframe",
+      "subcomponent": "outline",
+      "title": "暮色完整轮廓补充",
+      "bbox_normalized_xyxy": [
+        0.468,
+        0.12,
+        0.537,
+        0.8
+      ],
+      "bbox_pixels_xyxy": [
+        335,
+        57,
+        384,
+        382
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "塔脚、收腰、塔冠及天线连续可见。",
+      "limitations": "只能补轮廓；彩色灯光不能固化为钢材颜色。",
+      "layer": "outer",
+      "occlusion": "none",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R11-crown-01",
+      "image_id": "R11",
+      "component_id": "component-crown",
+      "subcomponent": "oblique_top",
+      "title": "塔冠俯视补充",
+      "bbox_normalized_xyxy": [
+        0.275,
+        0.005,
+        0.8,
+        0.445
+      ],
+      "bbox_pixels_xyxy": [
+        117,
+        3,
+        341,
+        285
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "可见顶面、阶梯方向及外围球舱排列。",
+      "limitations": "夜景溢光，平台边缘有遮挡；不是正投影平面。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R11-plaza-01",
+      "image_id": "R11",
+      "component_id": "component-plaza",
+      "subcomponent": "historical_base_context",
+      "title": "旧塔脚范围的夜景线索",
+      "bbox_normalized_xyxy": [
+        0.025,
+        0.785,
+        0.96,
+        0.98
+      ],
+      "bbox_pixels_xyxy": [
+        11,
+        502,
+        409,
+        627
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "底部环绕铺装及灯带大致位置可见。",
+      "limitations": "拍摄时间未知，细节不清；不与 2024 广场自动拼接。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "limited",
+      "purpose": "historical_context",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R12-crown-01",
+      "image_id": "R12",
+      "component_id": "component-crown",
+      "subcomponent": "terrace",
+      "title": "顶层平台与阶梯",
+      "bbox_normalized_xyxy": [
+        0.22,
+        0.28,
+        0.79,
+        0.79
+      ],
+      "bbox_pixels_xyxy": [
+        166,
+        141,
+        597,
+        397
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "平台高差、阶梯和环绕栏杆可辨。",
+      "limitations": "透视和遮挡下不能精确量出坡度与台阶数。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R12-crown-02",
+      "image_id": "R12",
+      "component_id": "component-crown",
+      "subcomponent": "capsule",
+      "title": "一个球舱的局部参考",
+      "bbox_normalized_xyxy": [
+        0.535,
+        0.715,
+        0.625,
+        0.85
+      ],
+      "bbox_pixels_xyxy": [
+        404,
+        360,
+        472,
+        428
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "独立舱体与承托轨道有分离关系。",
+      "limitations": "区域带上下文；不等于像素级抠图，未恢复舱内设备。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R12-crown-03",
+      "image_id": "R12",
+      "component_id": "component-crown",
+      "subcomponent": "track",
+      "title": "外围轨道与球舱的相对位置",
+      "bbox_normalized_xyxy": [
+        0.16,
+        0.65,
+        0.87,
+        0.99
+      ],
+      "bbox_pixels_xyxy": [
+        121,
+        327,
+        658,
+        498
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "轨道沿平台外围连续分布。",
+      "limitations": "只能确认可见段；球舱总数需要完整来源交叉核验。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R14-interior-01",
+      "image_id": "R14",
+      "component_id": "component-interior",
+      "subcomponent": "section_context",
+      "title": "剖面提供内部位置线索",
+      "bbox_normalized_xyxy": [
+        0.035,
+        0.205,
+        0.25,
+        0.975
+      ],
+      "bbox_pixels_xyxy": [
+        42,
+        353,
+        300,
+        1681
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "内核、局部分段楼层体量与外框架分开。",
+      "limitations": "设计图不是内饰照片，修订号和建成对应未知；不推导房间名称。",
+      "layer": "mixed",
+      "occlusion": "none",
+      "certainty": "limited",
+      "purpose": "design_drawing_context",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R14-exoframe-01",
+      "image_id": "R14",
+      "component_id": "component-exoframe",
+      "subcomponent": "drawing_context",
+      "title": "结构立面辅助理解",
+      "bbox_normalized_xyxy": [
+        0.3,
+        0.2,
+        0.46,
+        0.94
+      ],
+      "bbox_pixels_xyxy": [
+        360,
+        345,
+        552,
+        1621
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "格构与收腰几何可以独立阅读。",
+      "limitations": "设计资料只作拓扑线索，不能冒充竣工测绘。",
+      "layer": "outer",
+      "occlusion": "none",
+      "certainty": "limited",
+      "purpose": "design_drawing_context",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R15-plaza-01",
+      "image_id": "R15",
+      "component_id": "component-plaza",
+      "subcomponent": "whole_plaza",
+      "title": "2024 版广场总体范围",
+      "bbox_normalized_xyxy": [
+        0.235,
+        0.33,
+        0.835,
+        0.945
+      ],
+      "bbox_pixels_xyxy": [
+        141,
+        128,
+        501,
+        368
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "塔脚接入、绿化、铺装、下沉开口及道路边界同时可见。",
+      "limitations": "这是独立年代分支；鸟瞰不等于准确总平，地下空间不在本轮范围。",
+      "layer": "outer",
+      "occlusion": "none",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R15-plaza-02",
+      "image_id": "R15",
+      "component_id": "component-plaza",
+      "subcomponent": "sunken_openings",
+      "title": "两处椭圆下沉开口",
+      "bbox_normalized_xyxy": [
+        0.375,
+        0.445,
+        0.635,
+        0.875
+      ],
+      "bbox_pixels_xyxy": [
+        225,
+        173,
+        381,
+        340
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "前后两个开口与中间通路有明确关系。",
+      "limitations": "真实深度、坡度、入口连通和后续改建未知。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R15-plaza-03",
+      "image_id": "R15",
+      "component_id": "component-plaza",
+      "subcomponent": "planting",
+      "title": "绿化与铺装边界",
+      "bbox_normalized_xyxy": [
+        0.635,
+        0.56,
+        0.78,
+        0.865
+      ],
+      "bbox_pixels_xyxy": [
+        381,
+        218,
+        468,
+        336
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "绿化围绕通路分区，边缘与硬质铺装相接。",
+      "limitations": "不能据此确定植物品种、树数或精确边界坐标。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R16-crown-01",
+      "image_id": "R16",
+      "component_id": "component-crown",
+      "subcomponent": "antenna",
+      "title": "塔冠与天线连接",
+      "bbox_normalized_xyxy": [
+        0.605,
+        0.025,
+        0.735,
+        0.475
+      ],
+      "bbox_pixels_xyxy": [
+        1512,
+        43,
+        1838,
+        819
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "天线从塔冠向上独立发展，可见几个截面变化。",
+      "limitations": "云层遮挡局部；不得凭天空背景补造不可见连接。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R16-exoframe-01",
+      "image_id": "R16",
+      "component_id": "component-exoframe",
+      "subcomponent": "upper_frame",
+      "title": "日景上部格构补充",
+      "bbox_normalized_xyxy": [
+        0.61,
+        0.43,
+        0.73,
+        0.995
+      ],
+      "bbox_pixels_xyxy": [
+        1525,
+        742,
+        1825,
+        1716
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "浅色主构件位于深色内部体量外侧。",
+      "limitations": "日景颜色仍受天气影响，不用作精确材质标定。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R16-curtainwall-01",
+      "image_id": "R16",
+      "component_id": "component-curtainwall",
+      "subcomponent": "upper_envelope_candidate",
+      "title": "上部围护分段候选",
+      "bbox_normalized_xyxy": [
+        0.637,
+        0.48,
+        0.702,
+        0.65
+      ],
+      "bbox_pixels_xyxy": [
+        1592,
+        828,
+        1755,
+        1121
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "格构后能看到分层的内侧表面。",
+      "limitations": "框架遮挡严重；需要近景/图纸才能标定玻璃与实体面。",
+      "layer": "inner",
+      "occlusion": "heavy",
+      "certainty": "candidate",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R17-interior-01",
+      "image_id": "R17",
+      "component_id": "component-interior",
+      "subcomponent": "circular_space",
+      "title": "环形内部空间与中央开口",
+      "bbox_normalized_xyxy": [
+        0.08,
+        0.04,
+        0.93,
+        0.95
+      ],
+      "bbox_pixels_xyxy": [
+        102,
+        35,
+        1181,
+        840
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "多圈边缘与中央透光区域形成可见层次。",
+      "limitations": "具体房间、楼层、顶面材料和拍摄方向对应待核实。",
+      "layer": "inner",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "rel-frame-envelope",
+      "subject": "component-exoframe",
+      "relation": "in_front_of_or_outside",
+      "object": "component-curtainwall",
+      "image_ids": [
+        "R03",
+        "R09",
+        "R16"
+      ],
+      "basis": "定性图片观察；上部围护有候选性质",
+      "metric_depth": null
+    },
+    {
+      "relation_id": "rel-core-not-interior",
+      "subject": "model-inner-mixed",
+      "relation": "not_equivalent_to",
+      "object": "component-interior",
+      "image_ids": [
+        "R03",
+        "R05",
+        "R08",
+        "R17"
+      ],
+      "basis": "室内装修照片与模型粗略体量不构成一一映射"
+    },
+    {
+      "relation_id": "rel-crown-frame",
+      "subject": "component-crown",
+      "relation": "above_and_connected_to",
+      "object": "component-exoframe",
+      "image_ids": [
+        "R09",
+        "R12",
+        "R16"
+      ],
+      "basis": "可见平台与框架顶部收口；接口坐标未知"
+    },
+    {
+      "relation_id": "rel-plaza-version",
+      "subject": "R15",
+      "relation": "separate_temporal_branch_from",
+      "object": "R01/R02/R11",
+      "image_ids": [
+        "R15",
+        "R01",
+        "R02",
+        "R11"
+      ],
+      "basis": "2024 广场资料与旧照片/未注明年代模型不能默认同版"
+    }
+  ],
+  "model_source_sha256": "26d4ca7237b4d3e870b421ba3260412d8e215d63e335beb559e48a4927c3fa72",
+  "model_groups_file": "model_groups.json",
+  "alignment": {
+    "metres_per_block": null,
+    "project_origin": null,
+    "north": null,
+    "photo_camera_poses": null,
+    "model_to_buildingspec": null,
+    "fusion_status": "not_executed"
+  },
+  "findings": [
+    {
+      "finding_id": "finding-capsule-count",
+      "status": "conflict_requires_review",
+      "model_group": "model-crown-capsules",
+      "model_count": 24,
+      "model_distinct_centers": 24,
+      "documented_count": 16,
+      "source_ids": [
+        "src-capsule-count"
+      ],
+      "image_ids": [
+        "R09",
+        "R12",
+        "R16"
+      ],
+      "conclusion": "球舱候选存在明确数量冲突。不能把模型数量自动写入 BuildingSpec。",
+      "action": "保留原模型；核查定义/排列与目标版本后提出可回退的修正，不在本轮修改。"
+    },
+    {
+      "finding_id": "finding-interior",
+      "status": "gap",
+      "image_ids": [
+        "R03",
+        "R04",
+        "R05",
+        "R17"
+      ],
+      "conclusion": "有可用的内饰/内部空间图片；没有已映射到模型具体楼层的内饰节点。"
+    },
+    {
+      "finding_id": "finding-curtain",
+      "status": "partial",
+      "image_ids": [
+        "R03",
+        "R04",
+        "R05",
+        "R09",
+        "R16"
+      ],
+      "conclusion": "玻璃围护、粗钢架、内核及透空区要分开；深色或透明材质不能单独作为语义判据。"
+    },
+    {
+      "finding_id": "finding-plaza",
+      "status": "version_conflict",
+      "image_ids": [
+        "R15",
+        "R11"
+      ],
+      "conclusion": "2024 广场可作为独立研究分支；Google Earth 底图不能冒充已建好广场模型。"
+    }
+  ],
+  "not_implemented": [
+    "通用图片像素级分割",
+    "自动恢复相机姿态/深度",
+    "按像素注册到网格",
+    "跨年代自动决策",
+    "自动修改 BuildingSpec 或原模型",
+    "Minecraft V2 生成"
+  ],
+  "evaluation": {
+    "semantic_test_set": "single Canton case; no independent labeled test set",
+    "semantic_accuracy": null,
+    "mask_IoU": null,
+    "review_method": "AI visual inspection; user/expert confirmation pending",
+    "technical_checks": "see validation.json"
+  },
+  "next_acceptance": [
+    "每条构件标注有原图 ID、范围、来源、可见结论、遮挡和未知项；原图哈希保持一致。",
+    "外框架与内侧玻璃至少由两个互补视角支持；不能把未知背景/实体填成玻璃。",
+    "要按实际楼层建内饰，必须先取得楼层/功能对应证据；不通过猜测补齐。",
+    "球舱数量冲突和场地年代冲突有明确选择依据后，才允许对应参数进入执行规格。",
+    "推广到下一栋建筑时，使用独立照片和不同组织的模型，报告人工审核通过率；当前不宣称自动识别准确率。"
+  ],
+  "research_prompts": {
+    "full": "以广州市广州塔为标准进行复刻，必须依据本次已核验且入选的参考资料，不能擅自修改原型设计。当前任务只执行构件研究、证据归类和候选对应；这段任务书不授权自动生成广州塔 V2，不修改原 SKP、BuildingSpec 或世界文件。\n\n先保持 R01–R17 的原始身份。R13 本次原图不可用；R02 是遮挡负例；R07 只保留夜景记录。R01、R10 提供完整轮廓，照片方向尚未注册到项目坐标，不能当作正交前后立面。目标 280 格只沿用既有实验意向，本轮不计算新尺寸，也不把模型约 601.856 米的几何范围当作现实实测高度。\n\n外框架使用 R06、R08，再由 R09、R16 补足顶部收口。把主柱、环梁、斜撑和必要连接分角色记录：粗主柱位于外层，横向和斜向连接保留较细的可读性，外框架与内部体量之间保持真实照片可见的空腔。R08 里的楼梯/平台是通行构件线索，不等于装饰，也不能从一张仰视照片推出完整楼梯路线。模型主柱组和环梁/斜撑组可作为候选，原层级和变换保持不变；后续拆分不能将子球舱误算进外框架。\n\n幕墙与玻璃围护使用 R03、R04、R05。区分玻璃、窗框、外部粗钢架与内侧实体；R04 的玻璃地板必须独立为透明地板，不能归为竖向幕墙。R09、R16 的内侧深色分段只作围护候选，阴影和深色材质不足以证明玻璃身份。不能沿整个收腰轮廓封满玻璃，不能把钢架格子全部当窗格。像素范围只是上下文区域；遮挡处维持未知，不补画被挡面。\n\n内饰使用 R03 的反射顶面/地面、R05 的曲面吊顶、R04 的透明观景空间、R17 的环形内部空间。每张记录可见顶面、地面、窗边、灯点和空间边界；没有证据的房间用途、楼层和家具布局留空。R14 的剖面/结构图只是设计资料，可帮助提出内核和分段体量的关系假设，不直接确定房间或竣工尺寸。内核是结构对象，不得因为位于建筑内部就当成已完成内饰。\n\n塔顶以 R09、R12 为主，R11 提供俯视补充，R16 提供日景天线与收口。分别记录平台及阶梯、环轨、球舱、天线和连接件，不把整块顶部当作一个不可修改实体。模型内 24 个位置不同的球舱候选与 2019 年官方 16 个记录冲突，先保留冲突及原模型，不自动删去 8 个或把 24 写入执行参数。天线在局部照片里被截断或云遮挡的区域维持未知。\n\n广场分成塔脚接入、铺装、绿化和下沉开口。R15 是 2024 广场项目的独立参考分支；R11 的旧塔脚夜景只作有限线索。两者不自动拼接，不用 Google Earth 地形底图冒充实体广场。后续确需建造时先选定场地年代与边界，补总平和入口近景；主体通过后只增加必要铺装、步道、少量绿化和有证据的高差。未知连接明确标为合理补全，不扩建周边楼群或地下商业。\n\n本轮输出原图 ID、构件 ID、区域坐标、定性遮挡/内外层、原图来源、模型节点候选、冲突和待核实项。相机姿态、绝对深度、照片到模型矩阵和最终建造比例保持空值。夜景色彩不固化为白天材料，原图不裁切重编码或去水印。下一轮先用另一个建筑和不同层级组织的模型做独立审核，再讨论识别准确率和自动融合。",
+    "short": "以广州市广州塔为标准进行复刻，必须依据本次已核验且入选的参考资料，不能擅自修改原型设计。本轮只研究五类构件：内饰看 R03/R04/R05/R17；外框架看 R06/R08，并由 R09/R16 补顶部；幕墙/玻璃围护看 R03/R04/R05，R09/R16 仅作上部围护候选；塔顶看 R09/R12，R11/R16 补充；广场看 R15，但单列 2024 版本，R11 仅为旧塔脚线索。R01/R10 校核整体轮廓；R14 只作设计剖面线索。保留框架—空腔—内侧围护层次；内核不等于内饰，玻璃地板不等于幕墙。保留模型 24 球舱与官方 16 个的冲突。相机、深度、楼层和场地年代未确认前不自动改参数。未来地景只安排必要入口铺装、步道、少量绿化和有依据的高差，未知处标合理补全。本轮不生成广州塔 V2。",
+    "execution_status": "not_executed"
+  }
+}

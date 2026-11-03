@@ -1,0 +1,135 @@
+[
+  {
+    "component_id": "tower.profile",
+    "images": [
+      "WE09",
+      "old_01",
+      "WE01",
+      "FS00"
+    ],
+    "observation": "Rounded triangle, no floor rotation; base slightly narrower than lower-third maximum; top notably smaller",
+    "parameters": [
+      "tower.maximum_width_blocks",
+      "tower.widest_height_blocks",
+      "tower.vertical_radius_blocks"
+    ],
+    "consumer": "IFC.factor / mask",
+    "check": "true top plus front and four matching diagonal views",
+    "uncertainty": "72m maximum width is image estimate; drawing is design, not survey"
+  },
+  {
+    "component_id": "structure.diagrid",
+    "images": [
+      "WE09",
+      "WE02",
+      "WE04",
+      "WE08"
+    ],
+    "observation": "Opposing diagonals behind glazing, not exposed spiral",
+    "parameters": [
+      "diagrid.lines_per_family",
+      "diagrid.diamond_height_blocks",
+      "diagrid.thin_above_blocks"
+    ],
+    "consumer": "IFC.structure",
+    "check": "facade and hotel section",
+    "uncertainty": "block discretization changes exact tube diameter; no structural engineering claim"
+  },
+  {
+    "component_id": "facade.glazing",
+    "images": [
+      "old_02",
+      "old_03",
+      "WE01",
+      "WE07"
+    ],
+    "observation": "Blue/gray reflective smooth curtain wall; dark recessed floor edges",
+    "parameters": [
+      "tower.glass_height_blocks"
+    ],
+    "consumer": "IFC.facade",
+    "check": "facade and all full views",
+    "uncertainty": "vanilla glass cannot reproduce reflective coating; renderer approximates materials"
+  },
+  {
+    "component_id": "lighting",
+    "images": [
+      "WE00",
+      "WE03",
+      "WE07",
+      "FS01",
+      "FS02"
+    ],
+    "observation": "Five horizontal band groups, mixed room activity; entry warm ceiling",
+    "parameters": [
+      "lighting.bands_local_y",
+      "lighting.room_activity",
+      "lighting.seed"
+    ],
+    "consumer": "IFC.facade / lights / entrance",
+    "check": "night full views and same-camera detail pairs",
+    "uncertainty": "band heights estimated; photos differ in date/color; random rooms are synthetic"
+  },
+  {
+    "component_id": "interior.atrium",
+    "images": [
+      "WE09",
+      "WE06",
+      "FS03"
+    ],
+    "observation": "Office core below hotel; upper central atrium remains hollow",
+    "parameters": [
+      "tower.hotel_lobby_blocks"
+    ],
+    "consumer": "IFC.floors_core_rooms",
+    "check": "central-void samples, hotel_plan, hotel_section",
+    "uncertainty": "no 103 fully walkable floors or exact room layout"
+  },
+  {
+    "component_id": "crown",
+    "images": [
+      "WE09",
+      "FS00",
+      "FS01"
+    ],
+    "observation": "Slim rim, open roof apparatus, central glass and elevated helipad",
+    "parameters": [
+      "tower.glass_height_blocks",
+      "tower.height_blocks"
+    ],
+    "consumer": "IFC.crown",
+    "check": "top_day and crown",
+    "uncertainty": "helipad size/offset and equipment estimated; no giant logo"
+  },
+  {
+    "component_id": "entry.podium",
+    "images": [
+      "old_02",
+      "old_03",
+      "FS02",
+      "WE02"
+    ],
+    "observation": "Glazed lobby with diagonal supports and warm lit canopy",
+    "parameters": [
+      "podium.polygon"
+    ],
+    "consumer": "IFC.podium / entrance",
+    "check": "entrance headroom, supports, base_plan",
+    "uncertainty": "only immediate low podium interface; service apartment block excluded"
+  },
+  {
+    "component_id": "site",
+    "images": [
+      "old_02",
+      "old_03",
+      "FS00"
+    ],
+    "observation": "Street edge, paving, planted trees",
+    "parameters": [
+      "site.trees"
+    ],
+    "consumer": "IFC.site",
+    "check": "base plan and entry view",
+    "uncertainty": "schematic cropped ground above grade, not full site landscape"
+  }
+]

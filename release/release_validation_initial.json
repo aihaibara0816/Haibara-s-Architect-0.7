@@ -1,0 +1,1527 @@
+{
+  "engine": "HAF 0.3.0",
+  "date": "2026-10-24",
+  "checks": [
+    {
+      "id": "shenzhen_press_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "e1aefdd2383fed8747c69c5806ab5cd367d7d91eeaf0092cd77c1a1f25176e20",
+        "nonair": 87248,
+        "size_xyz": [
+          68,
+          214,
+          68
+        ]
+      }
+    },
+    {
+      "id": "shenzhen_press_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "guangzhou_ctf_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "58db77a6499aab981ccf8efdd048c3ce80b9383053713059ca61010af7afcc96",
+        "nonair": 175730,
+        "size_xyz": [
+          80,
+          269,
+          92
+        ]
+      }
+    },
+    {
+      "id": "guangzhou_ctf_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "namsan_tower_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+        "nonair": 709460,
+        "size_xyz": [
+          320,
+          308,
+          320
+        ]
+      }
+    },
+    {
+      "id": "namsan_tower_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "elizabeth_tower_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "88a187dcade9687223e9e80db62c832256db1f4d796ba292c5b46a6c4afd758f",
+        "nonair": 112474,
+        "size_xyz": [
+          100,
+          200,
+          96
+        ]
+      }
+    },
+    {
+      "id": "elizabeth_tower_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "buckingham_palace_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "2d33529237c74937e6212037f40bb97facc645b87af153d97d4941bf85207a33",
+        "nonair": 1239602,
+        "size_xyz": [
+          472,
+          88,
+          592
+        ]
+      }
+    },
+    {
+      "id": "buckingham_palace_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "nanshan_cloud_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "11cdb08cb2d0202fcb802ae0bd91648e523a74d5599349d5fe56b223bd288425",
+        "nonair": 373822,
+        "size_xyz": [
+          140,
+          244,
+          140
+        ]
+      }
+    },
+    {
+      "id": "nanshan_cloud_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "guangzhou_customs_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "56a665db8c46fa364c6c0ce7c8c769ffb051f91335ed81aa7863a2e42f312224",
+        "nonair": 160616,
+        "size_xyz": [
+          126,
+          148,
+          116
+        ]
+      }
+    },
+    {
+      "id": "guangzhou_customs_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "guangzhou_memorial_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "81b06dce9e1ba323f1f34a522be08d2716e56fe942c2c7ab2aa40c55fdd66995",
+        "nonair": 512024,
+        "size_xyz": [
+          236,
+          108,
+          280
+        ]
+      }
+    },
+    {
+      "id": "guangzhou_memorial_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "zhujiang_dijing_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "47d8dac25bda3241ebe47c2504259cc9cc862241d0a94e0e71d6844a8d871855",
+        "nonair": 426512,
+        "size_xyz": [
+          232,
+          104,
+          190
+        ]
+      }
+    },
+    {
+      "id": "zhujiang_dijing_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "guangzhou_south_preserved_readback",
+      "pass": true,
+      "detail": {
+        "sha256": "d1be52d98763c1337d9a9ecee53d82bac9a8d6ed9842ee00ac89d32d4f1be245",
+        "nonair": 1339157,
+        "size_xyz": [
+          640,
+          64,
+          660
+        ]
+      }
+    },
+    {
+      "id": "guangzhou_south_entry_import",
+      "pass": true,
+      "detail": {
+        "exit_code": 0,
+        "error": ""
+      }
+    },
+    {
+      "id": "guangzhou_memorial_shared_contract_negative_control",
+      "pass": true,
+      "detail": {
+        "before": [
+          {
+            "id": "column_full_bearing",
+            "kind": "full_bearing",
+            "samples": 200,
+            "status": "fail",
+            "failures": 166,
+            "unknown": 0,
+            "examples": [
+              {
+                "xyz": [
+                  74,
+                  8,
+                  162
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  74,
+                  8,
+                  163
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  74,
+                  8,
+                  164
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  74,
+                  8,
+                  165
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  74,
+                  8,
+                  166
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  75,
+                  8,
+                  162
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  75,
+                  8,
+                  163
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  75,
+                  8,
+                  164
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  75,
+                  8,
+                  165
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  75,
+                  8,
+                  166
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  76,
+                  8,
+                  162
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  76,
+                  8,
+                  163
+                ],
+                "state": "minecraft:air"
+              }
+            ]
+          },
+          {
+            "id": "portico_landing",
+            "kind": "full_bearing",
+            "samples": 567,
+            "status": "fail",
+            "failures": 567,
+            "unknown": 0,
+            "examples": [
+              {
+                "xyz": [
+                  78,
+                  8,
+                  159
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  78,
+                  8,
+                  160
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  78,
+                  8,
+                  161
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  78,
+                  8,
+                  162
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  78,
+                  8,
+                  163
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  78,
+                  8,
+                  164
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  78,
+                  8,
+                  165
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  79,
+                  8,
+                  159
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  79,
+                  8,
+                  160
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  79,
+                  8,
+                  161
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  79,
+                  8,
+                  162
+                ],
+                "state": "minecraft:air"
+              },
+              {
+                "xyz": [
+                  79,
+                  8,
+                  163
+                ],
+                "state": "minecraft:air"
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "id": "column_full_bearing",
+            "kind": "full_bearing",
+            "samples": 200,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          },
+          {
+            "id": "portico_landing",
+            "kind": "full_bearing",
+            "samples": 567,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "guangzhou_south_shared_contract_negative_control",
+      "pass": true,
+      "detail": {
+        "before": [
+          {
+            "id": "declared_voids",
+            "kind": "air",
+            "samples": 34,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          },
+          {
+            "id": "column_full_bearing",
+            "kind": "full_bearing",
+            "samples": 600,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          },
+          {
+            "id": "entry_floor",
+            "kind": "full_bearing",
+            "samples": 42,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          },
+          {
+            "id": "entry_headroom",
+            "kind": "air",
+            "samples": 84,
+            "status": "fail",
+            "failures": 4,
+            "unknown": 0,
+            "examples": [
+              {
+                "xyz": [
+                  111,
+                  23,
+                  330
+                ],
+                "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+              },
+              {
+                "xyz": [
+                  111,
+                  24,
+                  330
+                ],
+                "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+              },
+              {
+                "xyz": [
+                  510,
+                  15,
+                  330
+                ],
+                "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+              },
+              {
+                "xyz": [
+                  510,
+                  16,
+                  330
+                ],
+                "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+              }
+            ]
+          },
+          {
+            "id": "lamp_survival",
+            "kind": "material",
+            "samples": 544,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          }
+        ],
+        "after": [
+          {
+            "id": "declared_voids",
+            "kind": "air",
+            "samples": 34,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          },
+          {
+            "id": "column_full_bearing",
+            "kind": "full_bearing",
+            "samples": 600,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          },
+          {
+            "id": "entry_floor",
+            "kind": "full_bearing",
+            "samples": 42,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          },
+          {
+            "id": "entry_headroom",
+            "kind": "air",
+            "samples": 84,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          },
+          {
+            "id": "lamp_survival",
+            "kind": "material",
+            "samples": 544,
+            "status": "pass",
+            "failures": 0,
+            "unknown": 0,
+            "examples": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "memorial_original_eight_checks",
+      "pass": true,
+      "detail": {
+        "before": [
+          {
+            "id": "column_base_bearing",
+            "pass": false,
+            "detail": {
+              "samples": 200,
+              "unsupported": 166
+            }
+          },
+          {
+            "id": "portico_landing_continuity",
+            "pass": false,
+            "detail": {
+              "samples": 567,
+              "missing": 567
+            }
+          },
+          {
+            "id": "porch_to_hall_path",
+            "pass": false,
+            "detail": {
+              "visited": 366,
+              "test": "flat full-block floor and two-cell headroom; not a game collision test"
+            }
+          },
+          {
+            "id": "clerestory_bottom_sealed",
+            "pass": false,
+            "detail": {
+              "base_cells": 257,
+              "open_below": 192,
+              "first_gaps": [
+                [
+                  79,
+                  61,
+                  82
+                ],
+                [
+                  79,
+                  61,
+                  83
+                ],
+                [
+                  79,
+                  61,
+                  117
+                ],
+                [
+                  79,
+                  61,
+                  118
+                ],
+                [
+                  80,
+                  61,
+                  81
+                ],
+                [
+                  80,
+                  61,
+                  119
+                ],
+                [
+                  81,
+                  61,
+                  81
+                ],
+                [
+                  81,
+                  61,
+                  119
+                ],
+                [
+                  82,
+                  61,
+                  79
+                ],
+                [
+                  82,
+                  61,
+                  80
+                ],
+                [
+                  82,
+                  61,
+                  120
+                ],
+                [
+                  82,
+                  61,
+                  121
+                ]
+              ]
+            }
+          },
+          {
+            "id": "four_roof_corner_connections",
+            "pass": false,
+            "detail": [
+              {
+                "xz": [
+                  -46,
+                  -38
+                ],
+                "blue_roof_y": []
+              },
+              {
+                "xz": [
+                  -46,
+                  38
+                ],
+                "blue_roof_y": []
+              },
+              {
+                "xz": [
+                  46,
+                  -38
+                ],
+                "blue_roof_y": []
+              },
+              {
+                "xz": [
+                  46,
+                  38
+                ],
+                "blue_roof_y": []
+              }
+            ]
+          },
+          {
+            "id": "corner_recessed_enclosure",
+            "pass": false,
+            "detail": {
+              "samples": 12,
+              "missing": 12
+            }
+          },
+          {
+            "id": "small_symbolic_plaque",
+            "pass": false,
+            "detail": {
+              "width": 43,
+              "height": 12,
+              "one_block_symbols": 0
+            }
+          },
+          {
+            "id": "portico_soffit_coverage",
+            "pass": false,
+            "detail": {
+              "samples": 21,
+              "missing": 14
+            }
+          }
+        ],
+        "after": [
+          {
+            "id": "column_base_bearing",
+            "pass": true,
+            "detail": {
+              "samples": 200,
+              "unsupported": 0
+            }
+          },
+          {
+            "id": "portico_landing_continuity",
+            "pass": true,
+            "detail": {
+              "samples": 567,
+              "missing": 0
+            }
+          },
+          {
+            "id": "porch_to_hall_path",
+            "pass": true,
+            "detail": {
+              "visited": 1386,
+              "test": "flat full-block floor and two-cell headroom; not a game collision test"
+            }
+          },
+          {
+            "id": "clerestory_bottom_sealed",
+            "pass": true,
+            "detail": {
+              "base_cells": 257,
+              "open_below": 0,
+              "first_gaps": []
+            }
+          },
+          {
+            "id": "four_roof_corner_connections",
+            "pass": true,
+            "detail": [
+              {
+                "xz": [
+                  -46,
+                  -38
+                ],
+                "blue_roof_y": [
+                  52
+                ]
+              },
+              {
+                "xz": [
+                  -46,
+                  38
+                ],
+                "blue_roof_y": [
+                  52
+                ]
+              },
+              {
+                "xz": [
+                  46,
+                  -38
+                ],
+                "blue_roof_y": [
+                  52
+                ]
+              },
+              {
+                "xz": [
+                  46,
+                  38
+                ],
+                "blue_roof_y": [
+                  52
+                ]
+              }
+            ]
+          },
+          {
+            "id": "corner_recessed_enclosure",
+            "pass": true,
+            "detail": {
+              "samples": 12,
+              "missing": 0
+            }
+          },
+          {
+            "id": "small_symbolic_plaque",
+            "pass": true,
+            "detail": {
+              "width": 11,
+              "height": 3,
+              "one_block_symbols": 4
+            }
+          },
+          {
+            "id": "portico_soffit_coverage",
+            "pass": true,
+            "detail": {
+              "samples": 21,
+              "missing": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "all_imported_run_files_unchanged",
+      "pass": true,
+      "detail": {
+        "checked_files": 715,
+        "changed": []
+      }
+    },
+    {
+      "id": "lesson_evidence_paths_exist",
+      "pass": true,
+      "detail": {
+        "buildings": 12,
+        "adapters": 10
+      }
+    }
+  ],
+  "game_status": "pending",
+  "scope": "No building redesign or new building generation; preserved NBT readbacks, entry imports, unit tests and historical negative controls",
+  "review_pairs": [
+    {
+      "case": "guangzhou_memorial",
+      "run": "V1_r03",
+      "nbt_sha256": "1b0b5b6f8299dd4c81011634a0d73c1d9675e3057565c78a83be9c46b963c3d7",
+      "size_xyz": [
+        236,
+        108,
+        280
+      ],
+      "nonair": 501944,
+      "file_status": "pass",
+      "geometry_status": "fail",
+      "geometry_checks": [
+        {
+          "id": "column_full_bearing",
+          "kind": "full_bearing",
+          "samples": 200,
+          "status": "fail",
+          "failures": 166,
+          "unknown": 0,
+          "examples": [
+            {
+              "xyz": [
+                74,
+                8,
+                162
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                74,
+                8,
+                163
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                74,
+                8,
+                164
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                74,
+                8,
+                165
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                74,
+                8,
+                166
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                75,
+                8,
+                162
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                75,
+                8,
+                163
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                75,
+                8,
+                164
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                75,
+                8,
+                165
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                75,
+                8,
+                166
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                76,
+                8,
+                162
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                76,
+                8,
+                163
+              ],
+              "state": "minecraft:air"
+            }
+          ]
+        },
+        {
+          "id": "portico_landing",
+          "kind": "full_bearing",
+          "samples": 567,
+          "status": "fail",
+          "failures": 567,
+          "unknown": 0,
+          "examples": [
+            {
+              "xyz": [
+                78,
+                8,
+                159
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                78,
+                8,
+                160
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                78,
+                8,
+                161
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                78,
+                8,
+                162
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                78,
+                8,
+                163
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                78,
+                8,
+                164
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                78,
+                8,
+                165
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                79,
+                8,
+                159
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                79,
+                8,
+                160
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                79,
+                8,
+                161
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                79,
+                8,
+                162
+              ],
+              "state": "minecraft:air"
+            },
+            {
+              "xyz": [
+                79,
+                8,
+                163
+              ],
+              "state": "minecraft:air"
+            }
+          ]
+        }
+      ],
+      "view_metadata_status": "pending",
+      "view_checks": [
+        {
+          "id": "se_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "se_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "sw_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "sw_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "ne_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "ne_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "nw_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "nw_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "top_day",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "shared_diagonal_framing",
+          "status": "pass"
+        }
+      ],
+      "visual_fidelity": "requires_scoped_human_review",
+      "game_status": "pending",
+      "limits": [
+        "Declared samples only; no automatic image understanding",
+        "View metadata does not establish fidelity or image visibility",
+        "Full cube support and air cells are not Minecraft collision tests",
+        "No contract means pending; earlier case-specific reports remain separate"
+      ]
+    },
+    {
+      "case": "guangzhou_memorial",
+      "run": "V2_r02",
+      "nbt_sha256": "81b06dce9e1ba323f1f34a522be08d2716e56fe942c2c7ab2aa40c55fdd66995",
+      "size_xyz": [
+        236,
+        108,
+        280
+      ],
+      "nonair": 512024,
+      "file_status": "pass",
+      "geometry_status": "pass",
+      "geometry_checks": [
+        {
+          "id": "column_full_bearing",
+          "kind": "full_bearing",
+          "samples": 200,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "portico_landing",
+          "kind": "full_bearing",
+          "samples": 567,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        }
+      ],
+      "view_metadata_status": "pending",
+      "view_checks": [
+        {
+          "id": "se_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "se_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "sw_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "sw_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "ne_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "ne_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "nw_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "nw_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "top_day",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "shared_diagonal_framing",
+          "status": "pass"
+        }
+      ],
+      "visual_fidelity": "requires_scoped_human_review",
+      "game_status": "pending",
+      "limits": [
+        "Declared samples only; no automatic image understanding",
+        "View metadata does not establish fidelity or image visibility",
+        "Full cube support and air cells are not Minecraft collision tests",
+        "No contract means pending; earlier case-specific reports remain separate"
+      ]
+    },
+    {
+      "case": "guangzhou_south",
+      "run": "V1_r01",
+      "nbt_sha256": "473edcad768aa2b2bbb90d67d3b75f70efd2e7afbcae4d4e6843360d613a2b15",
+      "size_xyz": [
+        640,
+        64,
+        660
+      ],
+      "nonair": 1339253,
+      "file_status": "pass",
+      "geometry_status": "fail",
+      "geometry_checks": [
+        {
+          "id": "declared_voids",
+          "kind": "air",
+          "samples": 34,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "column_full_bearing",
+          "kind": "full_bearing",
+          "samples": 600,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "entry_floor",
+          "kind": "full_bearing",
+          "samples": 42,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "entry_headroom",
+          "kind": "air",
+          "samples": 84,
+          "status": "fail",
+          "failures": 4,
+          "unknown": 0,
+          "examples": [
+            {
+              "xyz": [
+                111,
+                23,
+                330
+              ],
+              "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+            },
+            {
+              "xyz": [
+                111,
+                24,
+                330
+              ],
+              "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+            },
+            {
+              "xyz": [
+                510,
+                15,
+                330
+              ],
+              "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+            },
+            {
+              "xyz": [
+                510,
+                16,
+                330
+              ],
+              "state": "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+            }
+          ]
+        },
+        {
+          "id": "lamp_survival",
+          "kind": "material",
+          "samples": 544,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        }
+      ],
+      "view_metadata_status": "pending",
+      "view_checks": [
+        {
+          "id": "se_day",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "se_night",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "sw_day",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "sw_night",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "ne_day",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "ne_night",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "nw_day",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "nw_night",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "top_day",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "shared_diagonal_framing",
+          "status": "pending"
+        }
+      ],
+      "visual_fidelity": "requires_scoped_human_review",
+      "game_status": "pending",
+      "limits": [
+        "Declared samples only; no automatic image understanding",
+        "View metadata does not establish fidelity or image visibility",
+        "Full cube support and air cells are not Minecraft collision tests",
+        "No contract means pending; earlier case-specific reports remain separate"
+      ]
+    },
+    {
+      "case": "guangzhou_south",
+      "run": "V1_r02",
+      "nbt_sha256": "d1be52d98763c1337d9a9ecee53d82bac9a8d6ed9842ee00ac89d32d4f1be245",
+      "size_xyz": [
+        640,
+        64,
+        660
+      ],
+      "nonair": 1339157,
+      "file_status": "pass",
+      "geometry_status": "pass",
+      "geometry_checks": [
+        {
+          "id": "declared_voids",
+          "kind": "air",
+          "samples": 34,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "column_full_bearing",
+          "kind": "full_bearing",
+          "samples": 600,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "entry_floor",
+          "kind": "full_bearing",
+          "samples": 42,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "entry_headroom",
+          "kind": "air",
+          "samples": 84,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "lamp_survival",
+          "kind": "material",
+          "samples": 544,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        }
+      ],
+      "view_metadata_status": "pending",
+      "view_checks": [
+        {
+          "id": "se_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "se_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "sw_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "sw_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "ne_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "ne_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "nw_day",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "nw_night",
+          "status": "pass",
+          "errors": []
+        },
+        {
+          "id": "top_day",
+          "status": "pending",
+          "reason": "missing rendered view"
+        },
+        {
+          "id": "shared_diagonal_framing",
+          "status": "pass"
+        }
+      ],
+      "visual_fidelity": "requires_scoped_human_review",
+      "game_status": "pending",
+      "limits": [
+        "Declared samples only; no automatic image understanding",
+        "View metadata does not establish fidelity or image visibility",
+        "Full cube support and air cells are not Minecraft collision tests",
+        "No contract means pending; earlier case-specific reports remain separate"
+      ]
+    }
+  ],
+  "passed": 25,
+  "failed": 0
+}

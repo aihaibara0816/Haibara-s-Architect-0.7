@@ -1,0 +1,214 @@
+{
+  "status": "two case studies, not a trained model",
+  "preserved_core": [
+    "HAF lighting and interiors",
+    "state mesh and NBT core",
+    "Namsan EGL renderer",
+    "all previous cases"
+  ],
+  "added": [
+    "authored classical facade helper",
+    "two building adapters",
+    "case export/render/package tools"
+  ],
+  "observed_failure_modes": [
+    "Uniform rows lose hierarchy",
+    "Large walls hide window-back rooms",
+    "Roof silhouette needs fixed-view review",
+    "Map footprints do not verify elevations"
+  ],
+  "case_decisions": {
+    "elizabeth_tower": {
+      "name": "大本钟 · 伊丽莎白塔",
+      "stem": "Elizabeth_Tower_HAF_V1",
+      "scope": "192 格钟楼、四面钟盘、钟室、塔内楼梯候选与截断的邻接翼楼。邻翼用于连接关系测试，不是完整威斯敏斯特宫。",
+      "sources": [
+        [
+          "parliament_dimensions",
+          "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/facts-figures/",
+          "议会官方：塔高 96 米、四面钟盘，每面直径 7 米。"
+        ],
+        [
+          "restoration",
+          "https://purcellarchitecture.com/project/elizabeth-tower/",
+          "修复建筑师图库：整塔、钟盘、钟室、金属屋顶、内部及夜景。"
+        ],
+        [
+          "blue_restoration",
+          "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/elizabeth-tower-and-big-ben-conservation-works-2017-/turning-big-bens-clock-dials-blue/",
+          "修复后蓝色与金色装饰的证据。"
+        ]
+      ],
+      "decisions": [
+        [
+          "tower",
+          "高 96 米 × 2 = 192 格；横断面与分段高度由照片估计。",
+          "parliament_dimensions;bb_purcell_02",
+          "frame; tower",
+          "Tower.shaft / belfry_roof",
+          "高；局部分段中"
+        ],
+        [
+          "clock",
+          "四个 14 格直径乳白钟面，蓝色静态指针、金色边框，统一背光。",
+          "parliament_dimensions;bb_purcell_03;bb_purcell_08",
+          "tower.dial_diameter_blocks; tower.clock_time",
+          "Tower.clock",
+          "高；数字简化"
+        ],
+        [
+          "belfry",
+          "实体角部围合开敞钟室，窄开口、铁栅屏和五个静态钟形。",
+          "bb_purcell_01;bb_purcell_07",
+          "tower.belfry",
+          "Tower.belfry_roof",
+          "中"
+        ],
+        [
+          "roof",
+          "深色分段金属屋顶；上尖顶拉高，灯笼缩短，蓝金集中在饰带。",
+          "bb_purcell_02;bb_purcell_10",
+          "tower.lower_roof; lantern; upper_spire",
+          "Tower.belfry_roof",
+          "中；不是精确铸铁花饰"
+        ],
+        [
+          "night",
+          "钟面与 Ayrton 灯为重点；塔身较暗，内部有服务灯。",
+          "bb_purcell_11",
+          "seed; material emission",
+          "Tower.clock / belfry_roof / shaft",
+          "中；非游戏光照"
+        ],
+        [
+          "context",
+          "仅制作邻接翼楼片段；内部楼梯为可检视候选。",
+          "bb_site;bb_purcell_04",
+          "case source constants",
+          "Tower.context / shaft",
+          "低；不复刻真实楼梯步数"
+        ]
+      ],
+      "limits": [
+        "14 格钟盘不能完整写出罗马数字，刻度与浮雕均简化。",
+        "尖顶、钟室分段高度、邻翼细节仍是照片解释；未使用测绘模型。",
+        "塔内楼梯未做玩家通行、碰撞或消防式通路验收；钟不会走时或报时。"
+      ],
+      "changes": [
+        "r01 → r02：缩短钟室与灯笼，拉高上尖顶，去掉宽蓝色屋顶条纹。",
+        "r01 → r02：钟盘加入连续背衬，避免透出零散灯块；补齐邻翼端面的窗列。"
+      ],
+      "next": [
+        "钟面数字与花饰的更细尺度局部样板。",
+        "对照正视照片校准各段高度与屋顶折点。",
+        "游戏内检查钟室开口、楼梯和夜景亮度。"
+      ]
+    },
+    "buckingham_palace": {
+      "name": "白金汉宫",
+      "stem": "Buckingham_Palace_HAF_V1",
+      "scope": "216 格宽主正面、地图轮廓内院与侧翼、前庭、简化维多利亚纪念碑和花园边缘。不是全园、全部街区或真实 775 间室内。",
+      "sources": [
+        [
+          "royal_dimensions",
+          "https://www.royal.uk/royal-residences-buckingham-palace",
+          "王室官方：主立面宽 108 米，主体进深约 120 米（含内院）、高 24 米。"
+        ],
+        [
+          "listing",
+          "https://historicengland.org.uk/listing/the-list/list-entry/1239087",
+          "Historic England：正面 3—7—3—7—3 窗列、中央与两端构图；花园面有弧形凸部。"
+        ],
+        [
+          "east_history",
+          "https://www.rct.uk/visit/buckingham-palace/history-of-the-east-wing-of-buckingham-palace",
+          "Royal Collection Trust：东翼与内院的历史关系。"
+        ],
+        [
+          "bp_access",
+          "https://media.rct.uk/sites/default/files/2025-08/Buckingham%20Palace%20-%20Access%20Guide_Photo%20Journey_2025.pdf",
+          "官方参观图解：只查看第 10、18 页，采用入口雨篷关系。"
+        ],
+        [
+          "osm",
+          "https://www.openstreetmap.org/copyright",
+          "平面数据 © OpenStreetMap contributors，ODbL 1.0；非测绘、非内部实测。"
+        ]
+      ],
+      "decisions": [
+        [
+          "plan",
+          "公开地图轮廓对齐主正面；保留开敞内院、侧翼位置和高差。",
+          "bp_osm;bp_aerial_royal",
+          "plan; frame.plan_offset_xz",
+          "Palace.__init__ / mass",
+          "平面中高；各翼高度中低"
+        ],
+        [
+          "east_front",
+          "23 窗列分成 3—7—3—7—3；柱、山花、檐口、阳台分层，玻璃内退。",
+          "listing;bp_aerial;bp_balcony",
+          "front",
+          "Palace.east_front",
+          "中高；纹饰近似"
+        ],
+        [
+          "west_front",
+          "较暖石色；大窗、小上窗、成对柱、弧形中央凸部与绿色半穹顶。",
+          "bp_west;bp_west_2019",
+          "case source: west_front",
+          "Palace.west_front",
+          "中；位置与装饰还需精修"
+        ],
+        [
+          "court",
+          "内院独立柱廊，入口玻璃雨篷有黑色骨架、下表面与支撑。",
+          "bp_access p10;bp_aerial",
+          "case source: courtyard_portico",
+          "Palace.courtyard_portico",
+          "中；尺寸为照片估计"
+        ],
+        [
+          "rooms",
+          "窗洞贯穿外墙后接有深度的小开间；家具与占灯基于稳定 ID。",
+          "bp_access p18;HAF interior rules",
+          "seed",
+          "Facade.window; hafusion.interiors / lighting",
+          "仅伪内饰；真实房间还原未实施"
+        ],
+        [
+          "night",
+          "固定檐口灯与随机窗灯分别控制；前庭灯和纪念碑灯独立。",
+          "bp_night",
+          "seed; case fixture constants",
+          "Palace.east_front / gates_and_memorial",
+          "中低；灯具点位估算"
+        ],
+        [
+          "site",
+          "红色前庭、金属围栏、浅色石墩、简化纪念碑与花园边缘。",
+          "bp_aerial_royal;bp_aerial",
+          "site",
+          "Palace.site / gates_and_memorial / landscape",
+          "中低；喷泉用静态玻璃代理"
+        ]
+      ],
+      "limits": [
+        "地图高度不等于测绘高度；主正面按 108 米宽校准，屋顶、各翼和局部雕饰为估计。",
+        "窗后家具是可重复的伪内饰；不宣称还原真实房间布局或全部房间。",
+        "维多利亚纪念碑雕塑、喷泉和种植被简化；不是完整景观还原。",
+        "静态英国旗只是模型标识，不表示当日王室是否在宫内。"
+      ],
+      "changes": [
+        "r01 → r02：修复厚墙后没有连通开间的问题；可检查玻璃、墙厚、房间空隙的前后关系。",
+        "r01 → r02：花园立面改用独立大窗、小窗、柱列和半穹顶构图；补上高低屋面之间的外露窗墙。",
+        "r01 → r02：主正面相机移入前庭，防止纪念碑挡住中央阳台。"
+      ],
+      "next": [
+        "先检验庭院与侧翼屋面高度，避免地图库标签导致体块偏厚。",
+        "继续细化后立面窗位、柱式和雕饰；不要用增加随机细节代替照片比对。",
+        "游戏内检查入口、门窗、栏杆连接、伪内饰通行及窗灯亮度。"
+      ]
+    }
+  }
+}

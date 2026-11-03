@@ -1,0 +1,71 @@
+{
+  "unit_tests": 13,
+  "unit_failures": 0,
+  "unit_errors": 0,
+  "unit_skipped": 0,
+  "paired_samples": [
+    {
+      "id": "modern",
+      "readback": "PASS",
+      "pair_same_occupied_cells": "PASS",
+      "cameras_identical": "PASS",
+      "changed_states": 876
+    },
+    {
+      "id": "millennium",
+      "readback": "PASS",
+      "pair_same_occupied_cells": "PASS",
+      "cameras_identical": "PASS",
+      "changed_states": 1241
+    },
+    {
+      "id": "western",
+      "readback": "PASS",
+      "pair_same_occupied_cells": "PASS",
+      "cameras_identical": "PASS",
+      "changed_states": 668
+    },
+    {
+      "id": "chinese",
+      "readback": "PASS",
+      "pair_same_occupied_cells": "PASS",
+      "cameras_identical": "PASS",
+      "changed_states": 360
+    },
+    {
+      "id": "antenna",
+      "readback": "PASS",
+      "pair_same_occupied_cells": "PASS",
+      "cameras_identical": "PASS",
+      "changed_states": 378
+    },
+    {
+      "id": "planter",
+      "readback": "PASS",
+      "pair_same_occupied_cells": "PASS",
+      "cameras_identical": "PASS",
+      "changed_states": 110
+    },
+    {
+      "id": "framework",
+      "readback": "PASS",
+      "pair_same_occupied_cells": "PASS",
+      "cameras_identical": "PASS",
+      "changed_states": 962
+    },
+    {
+      "id": "canopy",
+      "readback": "PASS",
+      "pair_same_occupied_cells": "PASS",
+      "cameras_identical": "PASS",
+      "changed_states": 278
+    }
+  ],
+  "nbt_files_checked": 17,
+  "preview_images_checked": 96,
+  "gallery_exact_assembly": "PASS",
+  "original_files_unchanged_checked": 30,
+  "game_import": "PENDING",
+  "real_building_fidelity": "NOT_MEASURED",
+  "limitations": "State grammar and visual boxes are project tests, not a game registry, collision or lighting certification."
+}

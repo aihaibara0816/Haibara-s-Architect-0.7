@@ -1,0 +1,9375 @@
+{
+  "reports": [
+    {
+      "group": "Bookshop",
+      "source_nbt_sha256": "14ea09cbe5ddeb735df2d17dbf8b0eaedbdba723ee8dcb8f74f2f449e7dbb179",
+      "blocks": 5080,
+      "states": 65,
+      "uses": [
+        {
+          "id": "Bookshop.side_entry",
+          "pos": [
+            16,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.main_entry",
+          "pos": [
+            10,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.browse",
+          "pos": [
+            9,
+            3,
+            10
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.pay",
+          "pos": [
+            13,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.display",
+          "pos": [
+            8,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.read.12.18",
+          "pos": [
+            12,
+            10,
+            18
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.read.19.22",
+          "pos": [
+            19,
+            10,
+            22
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.read.10.11",
+          "pos": [
+            10,
+            10,
+            11
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.read.10.5",
+          "pos": [
+            10,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 10,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Grain",
+      "source_nbt_sha256": "29f8776c1cfbc2d5a7d86e690db0ba3deeeb36d3bc5ec414157eba852c54d2c4",
+      "blocks": 3644,
+      "states": 71,
+      "uses": [
+        {
+          "id": "Grain.main_entry",
+          "pos": [
+            7,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grain.browse",
+          "pos": [
+            7,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grain.pay",
+          "pos": [
+            11,
+            3,
+            18
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grain.stock",
+          "pos": [
+            10,
+            3,
+            9
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grain.pack",
+          "pos": [
+            10,
+            3,
+            14
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grain.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grain.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grain.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grain.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grain.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grain.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grain.rear_entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 33,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Apothecary",
+      "source_nbt_sha256": "76c75313a8e0355d326ab58fae73ae8b32e4c84a32ec1b6e12fcc81800603c77",
+      "blocks": 5149,
+      "states": 75,
+      "uses": [
+        {
+          "id": "Apothecary.balcony.9",
+          "pos": [
+            8,
+            10,
+            27
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.balcony.15",
+          "pos": [
+            8,
+            16,
+            27
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.main_entry",
+          "pos": [
+            8,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.bed.15",
+          "pos": [
+            10,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.wash.15",
+          "pos": [
+            2,
+            16,
+            5
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.consult",
+          "pos": [
+            7,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.counter",
+          "pos": [
+            10,
+            3,
+            18
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.preparation",
+          "pos": [
+            13,
+            3,
+            14
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.drawers",
+          "pos": [
+            12,
+            3,
+            11
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.inventory",
+          "pos": [
+            12,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.accounts",
+          "pos": [
+            13,
+            10,
+            20
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.home",
+          "pos": [
+            6,
+            16,
+            22
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.home.kitchen",
+          "pos": [
+            10,
+            16,
+            17
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.stairs.upper.15",
+          "pos": [
+            1,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.rear_entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 15,
+          "samples": 57,
+          "end_y": 16,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 62,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Post",
+      "source_nbt_sha256": "7fca05577560acabd519c19b022c00b56f7cecbb4561a0ffd97e641dd0d52d7f",
+      "blocks": 5019,
+      "states": 67,
+      "uses": [
+        {
+          "id": "Post.side_entry",
+          "pos": [
+            16,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Post.main_entry",
+          "pos": [
+            10,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Post.counter",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Post.sort",
+          "pos": [
+            12,
+            3,
+            14
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Post.postboxes",
+          "pos": [
+            13,
+            3,
+            6
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Post.writing",
+          "pos": [
+            7,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Post.office",
+          "pos": [
+            12,
+            10,
+            11
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Post.accounts",
+          "pos": [
+            19,
+            10,
+            18
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Post.records",
+          "pos": [
+            10,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Post.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Post.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 32,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Teahouse",
+      "source_nbt_sha256": "9772eb7a5c353c13bd729fdef704d15bf2fb117572e6d03a1a52893133fe48fb",
+      "blocks": 6453,
+      "states": 80,
+      "uses": [
+        {
+          "id": "Teahouse.side_entry",
+          "pos": [
+            16,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.main_entry",
+          "pos": [
+            10,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.bed.15",
+          "pos": [
+            10,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.wash.15",
+          "pos": [
+            2,
+            16,
+            5
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.ground.seats",
+          "pos": [
+            9,
+            3,
+            18
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.kitchen",
+          "pos": [
+            12,
+            3,
+            7
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.wash",
+          "pos": [
+            13,
+            3,
+            6
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.tea.room",
+          "pos": [
+            12,
+            10,
+            18
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.tea.service",
+          "pos": [
+            19,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.window.booth",
+          "pos": [
+            13,
+            10,
+            25
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.home.living",
+          "pos": [
+            6,
+            16,
+            23
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.home.dining",
+          "pos": [
+            20,
+            16,
+            17
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.home.books",
+          "pos": [
+            18,
+            16,
+            10
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.stairs.upper.15",
+          "pos": [
+            1,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 15,
+          "samples": 57,
+          "end_y": 16,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 37,
+      "paintings": 4,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Textile",
+      "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+      "blocks": 4066,
+      "states": 72,
+      "uses": [
+        {
+          "id": "Textile.main_entry",
+          "pos": [
+            8,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Textile.fabric",
+          "pos": [
+            11,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Textile.cutting",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Textile.stock",
+          "pos": [
+            12,
+            3,
+            6
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Textile.counter",
+          "pos": [
+            10,
+            3,
+            11
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Textile.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Textile.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Textile.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Textile.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Textile.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Textile.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Textile.rear_entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 22,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Hardware",
+      "source_nbt_sha256": "04bf80fed9e181d2e8caf359a8f1c0b92cb1a98f303c93aab6bfe83ce92dcd14",
+      "blocks": 4052,
+      "states": 72,
+      "uses": [
+        {
+          "id": "Hardware.main_entry",
+          "pos": [
+            8,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.browse",
+          "pos": [
+            13,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.pay",
+          "pos": [
+            9,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.repair",
+          "pos": [
+            11,
+            3,
+            14
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.craft",
+          "pos": [
+            8,
+            3,
+            9
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.anvil",
+          "pos": [
+            11,
+            3,
+            9
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Hardware.rear_entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 29,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Clinic",
+      "source_nbt_sha256": "881404e1c538c6e45a5297d043e826ff435c64ffbc0a95d9b1e723dfca199484",
+      "blocks": 4617,
+      "states": 75,
+      "uses": [
+        {
+          "id": "Clinic.main_entry",
+          "pos": [
+            7,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.registration",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.consult",
+          "pos": [
+            11,
+            3,
+            10
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.wash",
+          "pos": [
+            11,
+            3,
+            6
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.rest.6",
+          "pos": [
+            7,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.rest.11",
+          "pos": [
+            12,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.staff",
+          "pos": [
+            12,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.bed.15",
+          "pos": [
+            10,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.wash.15",
+          "pos": [
+            2,
+            16,
+            5
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.home.living",
+          "pos": [
+            6,
+            16,
+            24
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.home.kitchen",
+          "pos": [
+            10,
+            16,
+            17
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.stairs.upper.15",
+          "pos": [
+            1,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Clinic.rear_entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 15,
+          "samples": 57,
+          "end_y": 16,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 30,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Inn",
+      "source_nbt_sha256": "aa0a5f517799f410bf6e2801685bd1fb5251abc4b57edd4bf768fb811de5d93c",
+      "blocks": 6556,
+      "states": 73,
+      "uses": [
+        {
+          "id": "Inn.side_entry",
+          "pos": [
+            16,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Inn.main_entry",
+          "pos": [
+            10,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Inn.reception",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Inn.lobby",
+          "pos": [
+            7,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Inn.kitchen",
+          "pos": [
+            12,
+            3,
+            7
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Inn.guest.9.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Inn.guest.9.18",
+          "pos": [
+            19,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Inn.wash.9",
+          "pos": [
+            18,
+            10,
+            18
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Inn.lounge.9",
+          "pos": [
+            13,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Inn.guest.15.9",
+          "pos": [
+            10,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Inn.guest.15.18",
+          "pos": [
+            19,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Inn.wash.15",
+          "pos": [
+            18,
+            16,
+            18
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Inn.lounge.15",
+          "pos": [
+            13,
+            16,
+            24
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        },
+        {
+          "id": "Inn.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Inn.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Inn.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Inn.stairs.upper.15",
+          "pos": [
+            1,
+            16,
+            8
+          ],
+          "floor_block_y": 15,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 15,
+          "samples": 57,
+          "end_y": 16,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 43,
+      "paintings": 2,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Grocery",
+      "source_nbt_sha256": "76b4e66e2a5a9c01ee7091b9b886a95ae485e7f29664247e00b230bb36a453bc",
+      "blocks": 3739,
+      "states": 74,
+      "uses": [
+        {
+          "id": "Grocery.main_entry",
+          "pos": [
+            7,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.browse",
+          "pos": [
+            6,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.pay",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.staff",
+          "pos": [
+            11,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.packing",
+          "pos": [
+            9,
+            3,
+            12
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.kitchen",
+          "pos": [
+            10,
+            3,
+            6
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.dining",
+          "pos": [
+            12,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Grocery.rear_entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 34,
+      "paintings": 2,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Barber",
+      "source_nbt_sha256": "ee0861a570c67ece7d4b272e2588b12db0f49c500cf595a403ba9f2d96bd67bf",
+      "blocks": 3646,
+      "states": 73,
+      "uses": [
+        {
+          "id": "Barber.main_entry",
+          "pos": [
+            7,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Barber.chair.16",
+          "pos": [
+            9,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Barber.chair.20",
+          "pos": [
+            9,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Barber.wash",
+          "pos": [
+            10,
+            3,
+            6
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Barber.pay",
+          "pos": [
+            7,
+            3,
+            18
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Barber.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Barber.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Barber.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Barber.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Barber.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Barber.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Barber.rear_entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 24,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Bakery",
+      "source_nbt_sha256": "d6eb751ca69525e787e3c06668a0ab20a38e1577a6a0982c3cd7bcf8d659a962",
+      "blocks": 4151,
+      "states": 76,
+      "uses": [
+        {
+          "id": "Bakery.main_entry",
+          "pos": [
+            8,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.pay",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.seats",
+          "pos": [
+            6,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.oven",
+          "pos": [
+            8,
+            3,
+            6
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.prep",
+          "pos": [
+            11,
+            3,
+            10
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "Bakery.rear_entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 29,
+      "paintings": 1,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V01",
+      "source_nbt_sha256": "ef5fe370ce3906e6a5b5f7a8ff6cb60acf843ac576cc36697f24b5aa9b832766",
+      "blocks": 7743,
+      "states": 70,
+      "uses": [
+        {
+          "id": "V01.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V01.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V01.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V01.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V01.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V01.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V01.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V01.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V01.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V01.guest.17",
+          "pos": [
+            10,
+            3,
+            17
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V01.guest.22",
+          "pos": [
+            14,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V01.order",
+          "pos": [
+            12,
+            3,
+            17
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V01.cook",
+          "pos": [
+            10,
+            3,
+            7
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V01.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V01.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V01.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V01.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V01.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V01.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V01.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 44,
+      "paintings": 3,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V02",
+      "source_nbt_sha256": "6d6b9968c520a5d1fc4b45afe6240f02ed02e055b810f33a0c4789517c1b5593",
+      "blocks": 12136,
+      "states": 73,
+      "uses": [
+        {
+          "id": "V02.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.balcony.9",
+          "pos": [
+            12,
+            10,
+            30
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.balcony.16",
+          "pos": [
+            12,
+            17,
+            30
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.balcony.23",
+          "pos": [
+            12,
+            24,
+            30
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.books.30",
+          "pos": [
+            13,
+            31,
+            14
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.balcony.30",
+          "pos": [
+            12,
+            31,
+            30
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.bed.37",
+          "pos": [
+            10,
+            38,
+            8
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V02.wash.37",
+          "pos": [
+            2,
+            38,
+            5
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.living",
+          "pos": [
+            6,
+            38,
+            24
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.kitchen",
+          "pos": [
+            10,
+            38,
+            17
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V02.home.dining.37",
+          "pos": [
+            11,
+            38,
+            19
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V02.books.37",
+          "pos": [
+            13,
+            38,
+            14
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V02.balcony.37",
+          "pos": [
+            12,
+            38,
+            30
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V02.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.browse.7",
+          "pos": [
+            13,
+            3,
+            7
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.browse.10",
+          "pos": [
+            13,
+            3,
+            10
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.browse.18",
+          "pos": [
+            13,
+            3,
+            18
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.browse.21",
+          "pos": [
+            13,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.pay",
+          "pos": [
+            8,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.stock",
+          "pos": [
+            10,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.lower.30",
+          "pos": [
+            1,
+            31,
+            15
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V02.stairs.upper.37",
+          "pos": [
+            1,
+            38,
+            7
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "from_floor": 30,
+          "to_floor": 37,
+          "samples": 65,
+          "end_y": 38,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 65,
+      "paintings": 5,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V03",
+      "source_nbt_sha256": "724fb1c8f89e0429fa346d2071cfd8bb25bd000158ee8dc18bfe99490e39d4b6",
+      "blocks": 9413,
+      "states": 71,
+      "uses": [
+        {
+          "id": "V03.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V03.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V03.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V03.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V03.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V03.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V03.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V03.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V03.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V03.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.repair.10",
+          "pos": [
+            13,
+            3,
+            10
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.repair.15",
+          "pos": [
+            13,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.repair.20",
+          "pos": [
+            13,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.pay",
+          "pos": [
+            9,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.anvil",
+          "pos": [
+            8,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V03.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V03.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V03.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V03.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V03.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V03.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V03.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 58,
+      "paintings": 4,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V04",
+      "source_nbt_sha256": "61bc117f0e8eafdd4f32044db694341fb80df91debf1106c84fb26b34112d860",
+      "blocks": 9190,
+      "states": 71,
+      "uses": [
+        {
+          "id": "V04.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V04.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V04.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V04.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V04.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V04.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V04.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V04.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V04.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V04.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V04.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V04.guest.17",
+          "pos": [
+            10,
+            3,
+            17
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V04.guest.22",
+          "pos": [
+            14,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V04.order",
+          "pos": [
+            12,
+            3,
+            17
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V04.cook",
+          "pos": [
+            10,
+            3,
+            7
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V04.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V04.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V04.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V04.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V04.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V04.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V04.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V04.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V04.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 54,
+      "paintings": 4,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V05",
+      "source_nbt_sha256": "82a0c10fdc083ddccea0adfe30a70a7fee8227c28a22f9aaf64757d7438da22f",
+      "blocks": 7974,
+      "states": 72,
+      "uses": [
+        {
+          "id": "V05.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V05.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V05.balcony.9",
+          "pos": [
+            12,
+            10,
+            30
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V05.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V05.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V05.balcony.16",
+          "pos": [
+            12,
+            17,
+            30
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V05.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V05.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V05.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V05.balcony.23",
+          "pos": [
+            12,
+            24,
+            30
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V05.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.wash.7",
+          "pos": [
+            13,
+            3,
+            7
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.wash.11",
+          "pos": [
+            13,
+            3,
+            11
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.wash.15",
+          "pos": [
+            13,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.wash.19",
+          "pos": [
+            13,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.wash.23",
+          "pos": [
+            13,
+            3,
+            23
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.fold",
+          "pos": [
+            10,
+            3,
+            14
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.sink",
+          "pos": [
+            8,
+            3,
+            6
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V05.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V05.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V05.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V05.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V05.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 34,
+      "paintings": 3,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V06",
+      "source_nbt_sha256": "15c68cfc91e693750f16c2bea8f8b9bc23572f2cde52b801cf88a673d0cdf680",
+      "blocks": 9416,
+      "states": 69,
+      "uses": [
+        {
+          "id": "V06.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V06.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V06.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V06.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V06.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V06.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V06.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V06.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V06.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V06.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V06.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V06.pay",
+          "pos": [
+            8,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V06.arrange",
+          "pos": [
+            12,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V06.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V06.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V06.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V06.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V06.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V06.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V06.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V06.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V06.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 52,
+      "paintings": 4,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V07",
+      "source_nbt_sha256": "3231b5ed9b6e05e41cd06ebfb0de3c0e8f0f264b7bbacf2aa376ad37b6566113",
+      "blocks": 8848,
+      "states": 72,
+      "uses": [
+        {
+          "id": "V07.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.balcony.9",
+          "pos": [
+            12,
+            10,
+            30
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.balcony.16",
+          "pos": [
+            12,
+            17,
+            30
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V07.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V07.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V07.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V07.balcony.23",
+          "pos": [
+            12,
+            24,
+            30
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V07.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V07.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V07.guest.17",
+          "pos": [
+            10,
+            3,
+            17
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V07.guest.22",
+          "pos": [
+            14,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V07.order",
+          "pos": [
+            12,
+            3,
+            17
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V07.cook",
+          "pos": [
+            10,
+            3,
+            7
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V07.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V07.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V07.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V07.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V07.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 44,
+      "paintings": 3,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V08",
+      "source_nbt_sha256": "1b64bfc53495106d1c722bee6e4ba20cd25d19890fedd663543fd99bfbc5cac1",
+      "blocks": 9521,
+      "states": 73,
+      "uses": [
+        {
+          "id": "V08.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V08.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V08.balcony.9",
+          "pos": [
+            12,
+            10,
+            30
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V08.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V08.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V08.balcony.16",
+          "pos": [
+            12,
+            17,
+            30
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V08.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V08.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V08.balcony.23",
+          "pos": [
+            12,
+            24,
+            30
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V08.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V08.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V08.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V08.balcony.30",
+          "pos": [
+            12,
+            31,
+            30
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V08.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V08.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V08.community.seat",
+          "pos": [
+            6,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V08.reading",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V08.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V08.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V08.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V08.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V08.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V08.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V08.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V08.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V08.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 46,
+      "paintings": 4,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V09",
+      "source_nbt_sha256": "9ad1031f4bf39e3c38560fc3d7d25d0545dd4cdc5b9dedefbcdc96c7e2e02e7a",
+      "blocks": 8705,
+      "states": 72,
+      "uses": [
+        {
+          "id": "V09.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V09.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V09.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V09.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V09.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V09.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V09.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V09.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V09.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V09.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V09.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V09.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V09.community.seat",
+          "pos": [
+            6,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V09.reading",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V09.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V09.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V09.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V09.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V09.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V09.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V09.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 36,
+      "paintings": 3,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V10",
+      "source_nbt_sha256": "9acc8d38036b42b0ca0ce1a65ec06b6739713ae6746a04ebddebdd3733db6dfb",
+      "blocks": 12172,
+      "states": 75,
+      "uses": [
+        {
+          "id": "V10.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.balcony.9",
+          "pos": [
+            12,
+            10,
+            30
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.balcony.16",
+          "pos": [
+            12,
+            17,
+            30
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.balcony.23",
+          "pos": [
+            12,
+            24,
+            30
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.books.30",
+          "pos": [
+            13,
+            31,
+            14
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.balcony.30",
+          "pos": [
+            12,
+            31,
+            30
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.bed.37",
+          "pos": [
+            10,
+            38,
+            8
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V10.wash.37",
+          "pos": [
+            2,
+            38,
+            5
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.living",
+          "pos": [
+            6,
+            38,
+            24
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.kitchen",
+          "pos": [
+            10,
+            38,
+            17
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V10.home.dining.37",
+          "pos": [
+            11,
+            38,
+            19
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V10.books.37",
+          "pos": [
+            13,
+            38,
+            14
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V10.balcony.37",
+          "pos": [
+            12,
+            38,
+            30
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V10.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V10.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V10.work",
+          "pos": [
+            12,
+            3,
+            18
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V10.books",
+          "pos": [
+            10,
+            3,
+            10
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V10.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.lower.30",
+          "pos": [
+            1,
+            31,
+            15
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V10.stairs.upper.37",
+          "pos": [
+            1,
+            38,
+            7
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "from_floor": 30,
+          "to_floor": 37,
+          "samples": 65,
+          "end_y": 38,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 54,
+      "paintings": 5,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V11",
+      "source_nbt_sha256": "61af445fbfe1ebfa00495dcf309dfc6dbc495b4e68e2f061808c623ece50136e",
+      "blocks": 10357,
+      "states": 72,
+      "uses": [
+        {
+          "id": "V11.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V11.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V11.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V11.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V11.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V11.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V11.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V11.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V11.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V11.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V11.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V11.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V11.books.30",
+          "pos": [
+            13,
+            31,
+            14
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V11.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V11.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V11.community.seat",
+          "pos": [
+            6,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V11.reading",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V11.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V11.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V11.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V11.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V11.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V11.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V11.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V11.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V11.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 46,
+      "paintings": 4,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V12",
+      "source_nbt_sha256": "6485eb25ed5c7f7d3411a4473818d20056fa08c4e89011bd4628c5be3db954b1",
+      "blocks": 8783,
+      "states": 72,
+      "uses": [
+        {
+          "id": "V12.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.balcony.9",
+          "pos": [
+            12,
+            10,
+            30
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.balcony.16",
+          "pos": [
+            12,
+            17,
+            30
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V12.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V12.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V12.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V12.balcony.23",
+          "pos": [
+            12,
+            24,
+            30
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V12.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V12.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V12.community.seat",
+          "pos": [
+            6,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V12.reading",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V12.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V12.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V12.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V12.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V12.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 36,
+      "paintings": 3,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V13",
+      "source_nbt_sha256": "8b2d868b10cdc80c7661a344006f510d7baa3cb67f7425d1025632270fbb6ee0",
+      "blocks": 7934,
+      "states": 71,
+      "uses": [
+        {
+          "id": "V13.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V13.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V13.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V13.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V13.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V13.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V13.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V13.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V13.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V13.community.seat",
+          "pos": [
+            6,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V13.reading",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V13.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V13.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V13.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V13.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V13.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V13.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V13.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 36,
+      "paintings": 3,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V14",
+      "source_nbt_sha256": "fe51100ab7d6fd3e07722a8d1ab83cda20e65ed78bb10072aaeee22f38974ded",
+      "blocks": 10490,
+      "states": 75,
+      "uses": [
+        {
+          "id": "V14.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.balcony.9",
+          "pos": [
+            12,
+            10,
+            30
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.balcony.16",
+          "pos": [
+            12,
+            17,
+            30
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.balcony.23",
+          "pos": [
+            12,
+            24,
+            30
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V14.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V14.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V14.books.30",
+          "pos": [
+            13,
+            31,
+            14
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V14.balcony.30",
+          "pos": [
+            12,
+            31,
+            30
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V14.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V14.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V14.work",
+          "pos": [
+            12,
+            3,
+            18
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V14.books",
+          "pos": [
+            10,
+            3,
+            10
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V14.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V14.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V14.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V14.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V14.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V14.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 44,
+      "paintings": 4,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V15",
+      "source_nbt_sha256": "14f035b58884be9c0cd196a6ee740e731b800bab94b4f8eac5f903821baec452",
+      "blocks": 8705,
+      "states": 72,
+      "uses": [
+        {
+          "id": "V15.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V15.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V15.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V15.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V15.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V15.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V15.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V15.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V15.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V15.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V15.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V15.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V15.community.seat",
+          "pos": [
+            6,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V15.reading",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V15.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V15.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V15.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V15.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V15.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V15.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V15.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 36,
+      "paintings": 3,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "V16",
+      "source_nbt_sha256": "e38b221b24be449964f666872c1761acc123ea25bbf6fedac2e5c22cbaa3b1fd",
+      "blocks": 12139,
+      "states": 73,
+      "uses": [
+        {
+          "id": "V16.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.kitchen",
+          "pos": [
+            10,
+            10,
+            17
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.dining.9",
+          "pos": [
+            11,
+            10,
+            19
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.books.9",
+          "pos": [
+            13,
+            10,
+            14
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.balcony.9",
+          "pos": [
+            12,
+            10,
+            30
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.bed.16",
+          "pos": [
+            10,
+            17,
+            8
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.wash.16",
+          "pos": [
+            2,
+            17,
+            5
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.living",
+          "pos": [
+            6,
+            17,
+            24
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.kitchen",
+          "pos": [
+            10,
+            17,
+            17
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.dining.16",
+          "pos": [
+            11,
+            17,
+            19
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.books.16",
+          "pos": [
+            13,
+            17,
+            14
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.balcony.16",
+          "pos": [
+            12,
+            17,
+            30
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.bed.23",
+          "pos": [
+            10,
+            24,
+            8
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.wash.23",
+          "pos": [
+            2,
+            24,
+            5
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.living",
+          "pos": [
+            6,
+            24,
+            24
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.kitchen",
+          "pos": [
+            10,
+            24,
+            17
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.dining.23",
+          "pos": [
+            11,
+            24,
+            19
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.books.23",
+          "pos": [
+            13,
+            24,
+            14
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.balcony.23",
+          "pos": [
+            12,
+            24,
+            30
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.bed.30",
+          "pos": [
+            10,
+            31,
+            8
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.wash.30",
+          "pos": [
+            2,
+            31,
+            5
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.living",
+          "pos": [
+            6,
+            31,
+            24
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.kitchen",
+          "pos": [
+            10,
+            31,
+            17
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.dining.30",
+          "pos": [
+            11,
+            31,
+            19
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.books.30",
+          "pos": [
+            13,
+            31,
+            14
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.balcony.30",
+          "pos": [
+            12,
+            31,
+            30
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.bed.37",
+          "pos": [
+            10,
+            38,
+            8
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V16.wash.37",
+          "pos": [
+            2,
+            38,
+            5
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.living",
+          "pos": [
+            6,
+            38,
+            24
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.kitchen",
+          "pos": [
+            10,
+            38,
+            17
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V16.home.dining.37",
+          "pos": [
+            11,
+            38,
+            19
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V16.books.37",
+          "pos": [
+            13,
+            38,
+            14
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V16.balcony.37",
+          "pos": [
+            12,
+            38,
+            30
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        },
+        {
+          "id": "V16.residential.entry",
+          "pos": [
+            2,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V16.rear.entry",
+          "pos": [
+            4,
+            3,
+            4
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V16.community.seat",
+          "pos": [
+            6,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V16.reading",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V16.shop.entry",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.upper.16",
+          "pos": [
+            1,
+            17,
+            7
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.lower.16",
+          "pos": [
+            1,
+            17,
+            15
+          ],
+          "floor_block_y": 16,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.upper.23",
+          "pos": [
+            1,
+            24,
+            7
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.lower.23",
+          "pos": [
+            1,
+            24,
+            15
+          ],
+          "floor_block_y": 23,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.upper.30",
+          "pos": [
+            1,
+            31,
+            7
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.lower.30",
+          "pos": [
+            1,
+            31,
+            15
+          ],
+          "floor_block_y": 30,
+          "reachable": true
+        },
+        {
+          "id": "V16.stairs.upper.37",
+          "pos": [
+            1,
+            38,
+            7
+          ],
+          "floor_block_y": 37,
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "samples": 65,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 16,
+          "samples": 65,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "from_floor": 16,
+          "to_floor": 23,
+          "samples": 65,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "from_floor": 23,
+          "to_floor": 30,
+          "samples": 65,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "from_floor": 30,
+          "to_floor": 37,
+          "samples": 65,
+          "end_y": 38,
+          "errors": []
+        }
+      ],
+      "arcade": [],
+      "block_entities": 56,
+      "paintings": 5,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    },
+    {
+      "group": "Qilou03",
+      "source_nbt_sha256": "83a82cd879cc849701d380518995e495e15880d1f9c9e6e1b52cdc7adcfca3b0",
+      "blocks": 328944,
+      "states": 172,
+      "uses": [
+        {
+          "id": "Bookshop.entry",
+          "reachable": true
+        },
+        {
+          "id": "Bookshop.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "Grain.entry",
+          "reachable": true
+        },
+        {
+          "id": "Grain.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.entry",
+          "reachable": true
+        },
+        {
+          "id": "Apothecary.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "Post.entry",
+          "reachable": true
+        },
+        {
+          "id": "Post.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.entry",
+          "reachable": true
+        },
+        {
+          "id": "Teahouse.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "Textile.entry",
+          "reachable": true
+        },
+        {
+          "id": "Textile.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "Hardware.entry",
+          "reachable": true
+        },
+        {
+          "id": "Hardware.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "Clinic.entry",
+          "reachable": true
+        },
+        {
+          "id": "Clinic.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "Inn.entry",
+          "reachable": true
+        },
+        {
+          "id": "Inn.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "Grocery.entry",
+          "reachable": true
+        },
+        {
+          "id": "Grocery.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "Barber.entry",
+          "reachable": true
+        },
+        {
+          "id": "Barber.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "Bakery.entry",
+          "reachable": true
+        },
+        {
+          "id": "Bakery.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V01.entry",
+          "reachable": true
+        },
+        {
+          "id": "V01.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V01.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V02.entry",
+          "reachable": true
+        },
+        {
+          "id": "V02.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V02.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V03.entry",
+          "reachable": true
+        },
+        {
+          "id": "V03.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V03.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V04.entry",
+          "reachable": true
+        },
+        {
+          "id": "V04.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V04.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V05.entry",
+          "reachable": true
+        },
+        {
+          "id": "V05.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V05.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V06.entry",
+          "reachable": true
+        },
+        {
+          "id": "V06.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V06.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V07.entry",
+          "reachable": true
+        },
+        {
+          "id": "V07.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V07.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V08.entry",
+          "reachable": true
+        },
+        {
+          "id": "V08.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V08.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V09.entry",
+          "reachable": true
+        },
+        {
+          "id": "V09.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V09.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V10.entry",
+          "reachable": true
+        },
+        {
+          "id": "V10.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V10.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V11.entry",
+          "reachable": true
+        },
+        {
+          "id": "V11.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V11.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V12.entry",
+          "reachable": true
+        },
+        {
+          "id": "V12.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V12.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V13.entry",
+          "reachable": true
+        },
+        {
+          "id": "V13.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V13.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V14.entry",
+          "reachable": true
+        },
+        {
+          "id": "V14.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V14.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V15.entry",
+          "reachable": true
+        },
+        {
+          "id": "V15.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V15.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "V16.entry",
+          "reachable": true
+        },
+        {
+          "id": "V16.side_entry",
+          "reachable": true
+        },
+        {
+          "id": "V16.rear_entry",
+          "reachable": true
+        },
+        {
+          "id": "court.[204, 3, 192]",
+          "reachable": true
+        },
+        {
+          "id": "court.[110, 3, 62]",
+          "reachable": true
+        },
+        {
+          "id": "court.[99, 3, 154]",
+          "reachable": true
+        },
+        {
+          "id": "court.[190, 3, 95]",
+          "reachable": true
+        }
+      ],
+      "stairs": [
+        {
+          "building": "Bookshop",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Grain",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Apothecary",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Apothecary",
+          "from_floor": 9,
+          "to_floor": 15,
+          "end_y": 16,
+          "errors": []
+        },
+        {
+          "building": "Post",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Teahouse",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Teahouse",
+          "from_floor": 9,
+          "to_floor": 15,
+          "end_y": 16,
+          "errors": []
+        },
+        {
+          "building": "Textile",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Hardware",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Clinic",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Clinic",
+          "from_floor": 9,
+          "to_floor": 15,
+          "end_y": 16,
+          "errors": []
+        },
+        {
+          "building": "Inn",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Inn",
+          "from_floor": 9,
+          "to_floor": 15,
+          "end_y": 16,
+          "errors": []
+        },
+        {
+          "building": "Grocery",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Barber",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "Bakery",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V01",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V01",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V01",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V02",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V02",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V02",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V02",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V02",
+          "from_floor": 30,
+          "to_floor": 37,
+          "end_y": 38,
+          "errors": []
+        },
+        {
+          "building": "V03",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V03",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V03",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V03",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V04",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V04",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V04",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V04",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V05",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V05",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V05",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V06",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V06",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V06",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V06",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V07",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V07",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V07",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V08",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V08",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V08",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V08",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V09",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V09",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V09",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V10",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V10",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V10",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V10",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V10",
+          "from_floor": 30,
+          "to_floor": 37,
+          "end_y": 38,
+          "errors": []
+        },
+        {
+          "building": "V11",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V11",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V11",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V11",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V12",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V12",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V12",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V13",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V13",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V13",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V14",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V14",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V14",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V14",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V15",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V15",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V15",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V16",
+          "from_floor": 2,
+          "to_floor": 9,
+          "end_y": 10,
+          "errors": []
+        },
+        {
+          "building": "V16",
+          "from_floor": 9,
+          "to_floor": 16,
+          "end_y": 17,
+          "errors": []
+        },
+        {
+          "building": "V16",
+          "from_floor": 16,
+          "to_floor": 23,
+          "end_y": 24,
+          "errors": []
+        },
+        {
+          "building": "V16",
+          "from_floor": 23,
+          "to_floor": 30,
+          "end_y": 31,
+          "errors": []
+        },
+        {
+          "building": "V16",
+          "from_floor": 30,
+          "to_floor": 37,
+          "end_y": 38,
+          "errors": []
+        }
+      ],
+      "arcade": [
+        {
+          "id": "arcade_cells",
+          "cells": 1140,
+          "obstructions": [],
+          "uncovered": []
+        },
+        {
+          "id": "lane_cells",
+          "cells": 5543,
+          "obstructions": [],
+          "uncovered": []
+        },
+        {
+          "id": "road_cells",
+          "cells": 5904,
+          "obstructions": [],
+          "uncovered": []
+        }
+      ],
+      "block_entities": 1130,
+      "paintings": 77,
+      "errors": [],
+      "game": "pending",
+      "aesthetic": "pending user review",
+      "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+    }
+  ],
+  "pass": true
+}

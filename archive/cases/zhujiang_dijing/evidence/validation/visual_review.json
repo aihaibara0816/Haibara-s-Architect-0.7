@@ -1,0 +1,51 @@
+{
+  "run": "V1_r03",
+  "status": "offline visual review complete; fidelity awaiting user",
+  "reviewed": [
+    "overview",
+    "balcony",
+    "balcony_underside",
+    "roof",
+    "entrance",
+    "garden",
+    "top",
+    "front_night",
+    "rear",
+    "four day views",
+    "four night views"
+  ],
+  "findings": [
+    {
+      "status": "needs_user_review",
+      "component": "residence.mass",
+      "finding": "三单元排列与精确栋号未校准；不能称实测复原。"
+    },
+    {
+      "status": "checked",
+      "component": "residence.balcony",
+      "finding": "r01墙体遮挡已移除；r03缩短深度；玻璃与外栏分层可见。"
+    },
+    {
+      "status": "checked",
+      "component": "residence.rear",
+      "finding": "四向显示后围护完整，窗位仍估算。"
+    },
+    {
+      "status": "needs_revision_or_more_evidence",
+      "component": "garden",
+      "finding": "湖桥凉亭元素可见，园林密度与岸线仍比实景规整简化。"
+    },
+    {
+      "status": "checked",
+      "component": "lighting.windows",
+      "finding": "平视夜景可见亮暗差异；高俯角受阳台楼板遮挡。不是实景灯位复刻。"
+    }
+  ],
+  "game_status": "pending",
+  "renderer_limitations": [
+    "no resource-pack textures",
+    "approximate glass alpha",
+    "static translucent cube water approximation",
+    "no game collision/lighting simulation"
+  ]
+}

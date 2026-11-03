@@ -1,0 +1,351 @@
+{
+  "schema_version": "1.1",
+  "packet_id": "packet-retail_store",
+  "collected_at": "2026-10-20",
+  "subject": {
+    "name": "GAFA便利店技术样板",
+    "aliases": [],
+    "city": null,
+    "kind": "single",
+    "identity_status": "provisional",
+    "version": "2026-10-20工程研究样板",
+    "core_identifiers": [],
+    "boundary": "独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。",
+    "areas": {
+      "land_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "gross_floor_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "footprint_area": {
+        "value_m2": null,
+        "fact_id": null
+      }
+    }
+  },
+  "provenance": {
+    "origin_conversation_id": null,
+    "user_input": "制作一栋独立单层便利店技术样板，绿色招牌、玻璃店面、中央入口和少量入口绿化；保留通行空间。",
+    "research_status": "incomplete"
+  },
+  "sources": [],
+  "facts": [
+    {
+      "fact_id": "fact-design-brief",
+      "field": "construction_translation",
+      "value": "制作一栋独立单层便利店技术样板，绿色招牌、玻璃店面、中央入口和少量入口绿化；保留通行空间。",
+      "unit": null,
+      "kind": "suggestion",
+      "status": "proposed",
+      "source_ids": [],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "用户授权首轮小型建筑与变截面塔楼技术验证；本条为本轮工程提案，不声称实际建筑事实。",
+      "conflict_group": null,
+      "adoption_reason": null
+    }
+  ],
+  "components": [],
+  "images": [],
+  "selection": {
+    "target_image_limit": null,
+    "consistency_checks": {
+      "same_version": null,
+      "clean_subject": null,
+      "orientation_aligned": null,
+      "layout_basis_image_ids": [],
+      "podium_closeup_image_ids": [],
+      "shell_crosscheck_image_ids": [],
+      "notes": []
+    },
+    "omitted_constraints": [],
+    "legacy_slots": [
+      {
+        "slot": 1,
+        "image_id": null,
+        "purpose": null,
+        "rationale": null,
+        "missing_search": "本次为原创技术研究样板，无对应现实原型或合格实景图；真实复原需另建项目采集对应视角。"
+      },
+      {
+        "slot": 2,
+        "image_id": null,
+        "purpose": null,
+        "rationale": null,
+        "missing_search": "本次为原创技术研究样板，无对应现实原型或合格实景图；真实复原需另建项目采集对应视角。"
+      },
+      {
+        "slot": 3,
+        "image_id": null,
+        "purpose": null,
+        "rationale": null,
+        "missing_search": "本次为原创技术研究样板，无对应现实原型或合格实景图；真实复原需另建项目采集对应视角。"
+      },
+      {
+        "slot": 4,
+        "image_id": null,
+        "purpose": null,
+        "rationale": null,
+        "missing_search": "本次为原创技术研究样板，无对应现实原型或合格实景图；真实复原需另建项目采集对应视角。"
+      }
+    ],
+    "core": [],
+    "detail_groups": [],
+    "views": [],
+    "coverage_requirements": [
+      {
+        "face": "unknown",
+        "component_id": null,
+        "missing_search": "本次为原创技术研究样板，无对应现实原型或合格实景图；真实复原需另建项目采集对应视角。"
+      },
+      {
+        "face": "unknown",
+        "component_id": null,
+        "missing_search": "本次为原创技术研究样板，无对应现实原型或合格实景图；真实复原需另建项目采集对应视角。"
+      },
+      {
+        "face": "unknown",
+        "component_id": null,
+        "missing_search": "本次为原创技术研究样板，无对应现实原型或合格实景图；真实复原需另建项目采集对应视角。"
+      },
+      {
+        "face": "unknown",
+        "component_id": null,
+        "missing_search": "本次为原创技术研究样板，无对应现实原型或合格实景图；真实复原需另建项目采集对应视角。"
+      }
+    ]
+  },
+  "scale": {
+    "ratio_candidates": [
+      {
+        "label": "1 block per study metre",
+        "s": 1
+      }
+    ],
+    "selected_s": 1,
+    "rounding": "half_up",
+    "world_budget": {
+      "width": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "depth": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "height": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      }
+    },
+    "building_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "overall_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "architectural_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "roof_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "tip_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "site_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "conversions": [],
+    "uniform_scale_max": null,
+    "uncertainty": [],
+    "local_exaggerations": []
+  },
+  "prompts": {
+    "full": "制作一栋独立单层便利店技术样板，绿色招牌、玻璃店面、中央入口和少量入口绿化；保留通行空间。本项目仅检验确定性参数生成、NBT文件导出以及由文件读回得到的五视角预览。所有场地与构件尺寸均为工程设计参数，真实建筑米制尺寸保持未知。不要把案例标为711、罗森或广州西塔的实测复原。生成器只能执行单独审核的构件数据，不从本段自由文本猜测位置或运行代码。先构造主体、开口、屋顶，再补少量入口铺地和边界绿化；确认方块数据一致后才生成预览。游戏兼容性留待测试世界验证。",
+    "short": "制作一栋独立单层便利店技术样板，绿色招牌、玻璃店面、中央入口和少量入口绿化；保留通行空间。使用独立工程参数执行研究样板；保留未知真实尺寸，输出NBT和同源五视图，游戏验收待定。",
+    "image_ids": [],
+    "excluded_image_ids": []
+  },
+  "guidance": {
+    "scope": "独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。",
+    "quality": null,
+    "height": null,
+    "site": "工程提案：小范围入口铺装与边界过渡，不复制周边楼群。",
+    "landscape": {
+      "enabled": true,
+      "omission_reason": null,
+      "boundary": null,
+      "elements": [],
+      "reference_image_ids": [],
+      "access_connections": [],
+      "terrain_notes": null,
+      "acceptance": []
+    },
+    "interior": null,
+    "lighting": null,
+    "material_mappings": []
+  },
+  "risks": [],
+  "staging": {
+    "required": false,
+    "reason": "单一小型工程测试样例；几何按有序构件生成，无需拆分蓝图。",
+    "coordinate_system": {
+      "origin": null,
+      "x_axis": null,
+      "y_axis": null,
+      "z_axis": null,
+      "north": null,
+      "s": null
+    },
+    "stages": []
+  },
+  "report_sections": [
+    {
+      "number": 1,
+      "title": "建筑概览与核心识别点",
+      "content": "工程研究样板。独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。 真实资料与尺寸尚未取得，不作实测复原声明。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 2,
+      "title": "可靠尺度与Minecraft比例建议",
+      "content": "工程研究样板。独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。 真实资料与尺寸尚未取得，不作实测复原声明。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 3,
+      "title": "设计语言/材料/幕墙",
+      "content": "工程研究样板。独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。 真实资料与尺寸尚未取得，不作实测复原声明。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 4,
+      "title": "参考图片候选分类",
+      "content": "工程研究样板。独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。 真实资料与尺寸尚未取得，不作实测复原声明。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 5,
+      "title": "核心参考图与覆盖分析",
+      "content": "工程研究样板。独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。 真实资料与尺寸尚未取得，不作实测复原声明。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 6,
+      "title": "完整生成提示词",
+      "content": "制作一栋独立单层便利店技术样板，绿色招牌、玻璃店面、中央入口和少量入口绿化；保留通行空间。本项目仅检验确定性参数生成、NBT文件导出以及由文件读回得到的五视角预览。所有场地与构件尺寸均为工程设计参数，真实建筑米制尺寸保持未知。不要把案例标为711、罗森或广州西塔的实测复原。生成器只能执行单独审核的构件数据，不从本段自由文本猜测位置或运行代码。先构造主体、开口、屋顶，再补少量入口铺地和边界绿化；确认方块数据一致后才生成预览。游戏兼容性留待测试世界验证。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 7,
+      "title": "短版提示词",
+      "content": "制作一栋独立单层便利店技术样板，绿色招牌、玻璃店面、中央入口和少量入口绿化；保留通行空间。使用独立工程参数执行研究样板；保留未知真实尺寸，输出NBT和同源五视图，游戏验收待定。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 8,
+      "title": "规模/质量/高度/附属广场与内部空间建议",
+      "content": "工程研究样板。独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。 真实资料与尺寸尚未取得，不作实测复原声明。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 9,
+      "title": "风险与失败排查",
+      "content": "工程研究样板。独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。 真实资料与尺寸尚未取得，不作实测复原声明。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 10,
+      "title": "复杂项目拆分顺序",
+      "content": "工程研究样板。独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。 真实资料与尺寸尚未取得，不作实测复原声明。",
+      "fact_ids": [
+        "fact-design-brief"
+      ],
+      "image_ids": [],
+      "source_ids": []
+    }
+  ],
+  "experiments": [],
+  "gaps": [
+    "没有对应现实建筑的测绘尺度。",
+    "当前游戏实例配置未读取，Create导入待实测。",
+    "没有已核验实景参考图；本次不是自动看图复原。"
+  ]
+}

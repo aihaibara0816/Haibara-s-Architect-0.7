@@ -1,0 +1,249 @@
+{
+  "renderer": "offline CPU Canvas + headless Chromium",
+  "game_screenshot": false,
+  "texture_mode": "procedural_schematic_palette",
+  "views": [
+    {
+      "view": "iso",
+      "file": "previews/iso.png",
+      "camera": {
+        "eye": [
+          46,
+          32,
+          -32
+        ],
+        "target": [
+          11,
+          9,
+          17
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "projection": "ortho",
+        "halfHeight": 23,
+        "view": "iso"
+      },
+      "renderer_stats": {
+        "renderer": "CPU triangle rasterizer / depth buffer / Canvas2D",
+        "triangles": 22244,
+        "last_render_ms": 29,
+        "width": 1276,
+        "height": 924
+      },
+      "source": {
+        "build_id": "gafa_admin_v001",
+        "file_sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20",
+        "geometry_sha256": "9bf8698d07f1ea257cb7f1e3fc22f53102b43000c5c66ba71a236a57e9113a5c",
+        "non_air_blocks": 3774,
+        "game_validation": "pending",
+        "scale_validation": "pending",
+        "materials": "schematic_colors_not_game_textures"
+      }
+    },
+    {
+      "view": "corridor",
+      "file": "previews/corridor.png",
+      "camera": {
+        "eye": [
+          11.5,
+          4.7,
+          39
+        ],
+        "target": [
+          10,
+          8,
+          10
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "projection": "perspective",
+        "halfHeight": 23,
+        "view": "corridor"
+      },
+      "renderer_stats": {
+        "renderer": "CPU triangle rasterizer / depth buffer / Canvas2D",
+        "triangles": 22244,
+        "last_render_ms": 88,
+        "width": 1276,
+        "height": 924
+      },
+      "source": {
+        "build_id": "gafa_admin_v001",
+        "file_sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20",
+        "geometry_sha256": "9bf8698d07f1ea257cb7f1e3fc22f53102b43000c5c66ba71a236a57e9113a5c",
+        "non_air_blocks": 3774,
+        "game_validation": "pending",
+        "scale_validation": "pending",
+        "materials": "schematic_colors_not_game_textures"
+      }
+    },
+    {
+      "view": "front",
+      "file": "previews/front.png",
+      "camera": {
+        "eye": [
+          75,
+          10,
+          17
+        ],
+        "target": [
+          11,
+          10,
+          17
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "projection": "ortho",
+        "halfHeight": 20,
+        "view": "front"
+      },
+      "renderer_stats": {
+        "renderer": "CPU triangle rasterizer / depth buffer / Canvas2D",
+        "triangles": 22244,
+        "last_render_ms": 18,
+        "width": 1276,
+        "height": 924
+      },
+      "source": {
+        "build_id": "gafa_admin_v001",
+        "file_sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20",
+        "geometry_sha256": "9bf8698d07f1ea257cb7f1e3fc22f53102b43000c5c66ba71a236a57e9113a5c",
+        "non_air_blocks": 3774,
+        "game_validation": "pending",
+        "scale_validation": "pending",
+        "materials": "schematic_colors_not_game_textures"
+      }
+    },
+    {
+      "view": "side",
+      "file": "previews/side.png",
+      "camera": {
+        "eye": [
+          11,
+          10,
+          -55
+        ],
+        "target": [
+          11,
+          10,
+          17
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "projection": "ortho",
+        "halfHeight": 15,
+        "view": "side"
+      },
+      "renderer_stats": {
+        "renderer": "CPU triangle rasterizer / depth buffer / Canvas2D",
+        "triangles": 22244,
+        "last_render_ms": 22,
+        "width": 1276,
+        "height": 924
+      },
+      "source": {
+        "build_id": "gafa_admin_v001",
+        "file_sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20",
+        "geometry_sha256": "9bf8698d07f1ea257cb7f1e3fc22f53102b43000c5c66ba71a236a57e9113a5c",
+        "non_air_blocks": 3774,
+        "game_validation": "pending",
+        "scale_validation": "pending",
+        "materials": "schematic_colors_not_game_textures"
+      }
+    },
+    {
+      "view": "top",
+      "file": "previews/top.png",
+      "camera": {
+        "eye": [
+          11,
+          80,
+          17
+        ],
+        "target": [
+          11,
+          0,
+          17
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "projection": "ortho",
+        "halfHeight": 21,
+        "view": "top"
+      },
+      "renderer_stats": {
+        "renderer": "CPU triangle rasterizer / depth buffer / Canvas2D",
+        "triangles": 22244,
+        "last_render_ms": 19,
+        "width": 1276,
+        "height": 924
+      },
+      "source": {
+        "build_id": "gafa_admin_v001",
+        "file_sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20",
+        "geometry_sha256": "9bf8698d07f1ea257cb7f1e3fc22f53102b43000c5c66ba71a236a57e9113a5c",
+        "non_air_blocks": 3774,
+        "game_validation": "pending",
+        "scale_validation": "pending",
+        "materials": "schematic_colors_not_game_textures"
+      }
+    },
+    {
+      "view": "under",
+      "file": "previews/under.png",
+      "camera": {
+        "eye": [
+          18,
+          6,
+          40
+        ],
+        "target": [
+          9,
+          14,
+          12
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "projection": "perspective",
+        "halfHeight": 23,
+        "view": "under"
+      },
+      "renderer_stats": {
+        "renderer": "CPU triangle rasterizer / depth buffer / Canvas2D",
+        "triangles": 22244,
+        "last_render_ms": 60,
+        "width": 1276,
+        "height": 924
+      },
+      "source": {
+        "build_id": "gafa_admin_v001",
+        "file_sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20",
+        "geometry_sha256": "9bf8698d07f1ea257cb7f1e3fc22f53102b43000c5c66ba71a236a57e9113a5c",
+        "non_air_blocks": 3774,
+        "game_validation": "pending",
+        "scale_validation": "pending",
+        "materials": "schematic_colors_not_game_textures"
+      }
+    }
+  ],
+  "browser_errors": [],
+  "result": "pass"
+}

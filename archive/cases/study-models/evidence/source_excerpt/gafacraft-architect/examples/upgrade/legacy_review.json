@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "build_id": "legacy_gafa_colonnade-r1-6920ef3776",
+  "method": "manual",
+  "game_status": "pending_game_test",
+  "required_image_ids": [
+    "img-R002"
+  ],
+  "pairs": [
+    {
+      "pair_id": "legacy-photo-review",
+      "image_id": "img-R002",
+      "component_ids": [
+        "columns.r0.c0",
+        "columns.r0.c1",
+        "columns.r0.c2",
+        "columns.r0.c3",
+        "columns.r1.c0",
+        "columns.r1.c1",
+        "columns.r1.c2",
+        "columns.r1.c3"
+      ],
+      "view": "front",
+      "camera_match": "unverifiable",
+      "status": "unverifiable",
+      "severity": null,
+      "finding": "旧照片仅支持局部柱列观察；实际拍摄机位和方块正交视图未标定，不能声称完成精确外观验收。此条为原资料限制的结构化登记。",
+      "checkpoints": [
+        "柱列节奏",
+        "投影差异",
+        "范围覆盖"
+      ]
+    }
+  ]
+}

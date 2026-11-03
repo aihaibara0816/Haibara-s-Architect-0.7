@@ -1,0 +1,262 @@
+{
+  "case_id": "Florist",
+  "run": "Q03",
+  "seed": 141145,
+  "buildings": [
+    {
+      "id": "Florist",
+      "name": "花便り｜花店",
+      "size": [
+        16,
+        28,
+        22
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        8,
+        3,
+        17
+      ],
+      "rooms": [
+        {
+          "id": "Florist.main",
+          "name": "花便り｜花店",
+          "bounds": [
+            7,
+            3,
+            4,
+            12,
+            7,
+            17
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Florist.entry",
+          "pos": [
+            8,
+            3,
+            16
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Florist.flowers",
+          "pos": [
+            8,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Florist.wrap",
+          "pos": [
+            11,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Florist.door.0",
+          "pos": [
+            8,
+            3,
+            17
+          ],
+          "lintel": [
+            8,
+            5,
+            17
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            8,
+            6,
+            13
+          ],
+          "support": [
+            8,
+            7,
+            13
+          ]
+        },
+        {
+          "position": [
+            9,
+            6,
+            7
+          ],
+          "support": [
+            9,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            11
+          ],
+          "support": [
+            7,
+            7,
+            11
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Florist.wrapping.dining_table.10_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            3,
+            13,
+            12,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotated_180": false,
+      "entry_world": [
+        141,
+        9,
+        66
+      ],
+      "upper_start": [
+        4,
+        4
+      ],
+      "street_row": 0
+    }
+  ],
+  "uses": [
+    {
+      "id": "Florist.entry",
+      "pos": [
+        8,
+        3,
+        16
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Florist.flowers",
+      "pos": [
+        8,
+        3,
+        11
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Florist.wrap",
+      "pos": [
+        11,
+        3,
+        15
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Florist.door.0",
+      "pos": [
+        8,
+        3,
+        17
+      ],
+      "lintel": [
+        8,
+        5,
+        17
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        8,
+        6,
+        13
+      ],
+      "support": [
+        8,
+        7,
+        13
+      ]
+    },
+    {
+      "position": [
+        9,
+        6,
+        7
+      ],
+      "support": [
+        9,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        11
+      ],
+      "support": [
+        7,
+        7,
+        11
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    8,
+    3,
+    18
+  ],
+  "upper_start": [
+    4,
+    4
+  ],
+  "source_nbt_sha256": "79a4c08ec2dc4f43bdab90bf8aefb15da337a7d86867147cbeefadafcfe5f1bb",
+  "non_air": 2209,
+  "size_xyz": [
+    16,
+    28,
+    22
+  ],
+  "block_entities": 9,
+  "entities": 0
+}

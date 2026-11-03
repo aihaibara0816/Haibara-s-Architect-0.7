@@ -1,0 +1,150 @@
+{
+  "source_nbt_sha256": "b103f731b38a36dc1a0446bc4b6a70f2eb9e37c33f5ab9e1e95e7f8dae08abb3",
+  "identical_replay": {
+    "Qilou01": true,
+    "Grocery": true,
+    "Apothecary": true,
+    "Teahouse": true
+  },
+  "seed_base": 311145,
+  "seed_variant": 311146,
+  "changed_cells": 13,
+  "changes": [
+    {
+      "position": [
+        19,
+        11,
+        21
+      ],
+      "before": "minecraft:potted_flowering_azalea_bush",
+      "after": "minecraft:potted_azalea_bush"
+    },
+    {
+      "position": [
+        47,
+        17,
+        13
+      ],
+      "before": "minecraft:potted_flowering_azalea_bush",
+      "after": "minecraft:potted_bamboo"
+    },
+    {
+      "position": [
+        30,
+        17,
+        13
+      ],
+      "before": "minecraft:potted_azalea_bush",
+      "after": "minecraft:potted_bamboo"
+    },
+    {
+      "position": [
+        36,
+        4,
+        10
+      ],
+      "before": "minecraft:potted_bamboo",
+      "after": "minecraft:potted_azalea_bush"
+    },
+    {
+      "position": [
+        19,
+        11,
+        30
+      ],
+      "before": "minecraft:potted_flowering_azalea_bush",
+      "after": "minecraft:potted_fern"
+    },
+    {
+      "position": [
+        59,
+        11,
+        27
+      ],
+      "before": "minecraft:potted_azalea_bush",
+      "after": "minecraft:potted_bamboo"
+    },
+    {
+      "position": [
+        55,
+        4,
+        27
+      ],
+      "before": "minecraft:potted_bamboo",
+      "after": "minecraft:potted_flowering_azalea_bush"
+    },
+    {
+      "position": [
+        36,
+        11,
+        28
+      ],
+      "before": "minecraft:potted_bamboo",
+      "after": "minecraft:potted_azalea_bush"
+    },
+    {
+      "position": [
+        40,
+        4,
+        28
+      ],
+      "before": "minecraft:potted_bamboo",
+      "after": "minecraft:potted_azalea_bush"
+    },
+    {
+      "position": [
+        59,
+        11,
+        24
+      ],
+      "before": "minecraft:potted_flowering_azalea_bush",
+      "after": "minecraft:potted_bamboo"
+    },
+    {
+      "position": [
+        15,
+        11,
+        13
+      ],
+      "before": "minecraft:potted_fern",
+      "after": "minecraft:potted_bamboo"
+    },
+    {
+      "position": [
+        55,
+        4,
+        24
+      ],
+      "before": "minecraft:potted_azalea_bush",
+      "after": "minecraft:potted_bamboo"
+    },
+    {
+      "position": [
+        44,
+        11,
+        32
+      ],
+      "before": "minecraft:potted_fern",
+      "after": "minecraft:potted_flowering_azalea_bush"
+    }
+  ],
+  "scope_violations": [],
+  "assembly": [
+    {
+      "id": "Grocery",
+      "compared_non_air": 3739,
+      "mismatches": 0
+    },
+    {
+      "id": "Apothecary",
+      "compared_non_air": 5133,
+      "mismatches": 0
+    },
+    {
+      "id": "Teahouse",
+      "compared_non_air": 6708,
+      "mismatches": 0
+    }
+  ],
+  "scope": "Only plant species vary in these authored samples; no random floorplan or facade generator is claimed."
+}

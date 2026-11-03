@@ -1,0 +1,4334 @@
+{
+  "schema_version": "0.2",
+  "spec_id": "legacy_gafa_colonnade",
+  "revision": 1,
+  "mode": "study",
+  "building": {
+    "name": "广美行政楼廊柱局部历史资料",
+    "identity_status": "provisional",
+    "real_world_reference": null,
+    "scope": "复用R002照片可见形态与历史研究参数，验证真实资料到新协议的接入；仅廊柱局部。"
+  },
+  "coordinates": {
+    "units": "m",
+    "axis_convention": "X_right_Y_up_Z_back",
+    "front": "-Z",
+    "north": null,
+    "blocks_per_metre": 1,
+    "size_blocks": [
+      22,
+      20,
+      34
+    ],
+    "extent_m": [
+      22,
+      20,
+      34
+    ],
+    "rounding": "half_up"
+  },
+  "environment": {
+    "minecraft_version": "1.21.1",
+    "data_version": 3955,
+    "neoforge_version": "21.1.244",
+    "create_version": "6.0.10",
+    "configuration_status": "historical_target_unverified",
+    "world": {
+      "min_y": null,
+      "max_y_exclusive": null,
+      "origin_xyz": null,
+      "confirmed": false,
+      "basis": "历史目标版本；未连接当前Minecraft客户端或服务器，无已确认放置位置。"
+    },
+    "budgets": {
+      "max_cells": 1000000,
+      "max_non_air_blocks": 250000,
+      "max_cell_visits": 5000000
+    }
+  },
+  "study_parameters": {
+    "extent_m": [
+      22,
+      20,
+      34
+    ],
+    "basis": "本轮工程试值，包含地景与边缘余量；不覆盖现实尺寸。"
+  },
+  "materials": {
+    "base": {
+      "block_state": "minecraft:stone_bricks",
+      "preview_color": "#8F9690",
+      "role": "基础"
+    },
+    "paving": {
+      "block_state": "minecraft:smooth_stone",
+      "preview_color": "#C9CBBE",
+      "role": "铺装"
+    },
+    "red": {
+      "block_state": "minecraft:red_terracotta",
+      "preview_color": "#9B5143",
+      "role": "红墙"
+    },
+    "column": {
+      "block_state": "minecraft:gray_concrete",
+      "preview_color": "#454C4B",
+      "role": "柱"
+    },
+    "roof": {
+      "block_state": "minecraft:smooth_quartz",
+      "preview_color": "#E9E8DE",
+      "role": "屋顶"
+    }
+  },
+  "components": [
+    {
+      "component_id": "ground.foundation",
+      "name": "ground.foundation",
+      "kind": "box",
+      "operation": "add",
+      "material": "base",
+      "targets": [],
+      "after": [],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          0,
+          0,
+          0
+        ],
+        "max_m": [
+          22,
+          1,
+          34
+        ]
+      }
+    },
+    {
+      "component_id": "ground.paving",
+      "name": "ground.paving",
+      "kind": "box",
+      "operation": "add",
+      "material": "paving",
+      "targets": [],
+      "after": [
+        "ground.foundation"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          0,
+          1,
+          0
+        ],
+        "max_m": [
+          22,
+          2,
+          34
+        ]
+      }
+    },
+    {
+      "component_id": "wall.red_core",
+      "name": "wall.red_core",
+      "kind": "box",
+      "operation": "add",
+      "material": "red",
+      "targets": [],
+      "after": [
+        "ground.paving"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-red_wall"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          2,
+          2,
+          2
+        ],
+        "max_m": [
+          4,
+          18,
+          32
+        ]
+      }
+    },
+    {
+      "component_id": "columns.r0.c0",
+      "name": "columns.r0.c0",
+      "kind": "box",
+      "operation": "add",
+      "material": "column",
+      "targets": [],
+      "after": [
+        "wall.red_core"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-columns"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          2,
+          4
+        ],
+        "max_m": [
+          6,
+          17,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "columns.r0.c1",
+      "name": "columns.r0.c1",
+      "kind": "box",
+      "operation": "add",
+      "material": "column",
+      "targets": [],
+      "after": [
+        "columns.r0.c0"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-columns"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          2,
+          12
+        ],
+        "max_m": [
+          6,
+          17,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "columns.r0.c2",
+      "name": "columns.r0.c2",
+      "kind": "box",
+      "operation": "add",
+      "material": "column",
+      "targets": [],
+      "after": [
+        "columns.r0.c1"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-columns"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          2,
+          20
+        ],
+        "max_m": [
+          6,
+          17,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "columns.r0.c3",
+      "name": "columns.r0.c3",
+      "kind": "box",
+      "operation": "add",
+      "material": "column",
+      "targets": [],
+      "after": [
+        "columns.r0.c2"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-columns"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          2,
+          28
+        ],
+        "max_m": [
+          6,
+          17,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "columns.r1.c0",
+      "name": "columns.r1.c0",
+      "kind": "box",
+      "operation": "add",
+      "material": "column",
+      "targets": [],
+      "after": [
+        "columns.r0.c3"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-columns"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          2,
+          4
+        ],
+        "max_m": [
+          17,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "columns.r1.c1",
+      "name": "columns.r1.c1",
+      "kind": "box",
+      "operation": "add",
+      "material": "column",
+      "targets": [],
+      "after": [
+        "columns.r1.c0"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-columns"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          2,
+          12
+        ],
+        "max_m": [
+          17,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "columns.r1.c2",
+      "name": "columns.r1.c2",
+      "kind": "box",
+      "operation": "add",
+      "material": "column",
+      "targets": [],
+      "after": [
+        "columns.r1.c1"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-columns"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          2,
+          20
+        ],
+        "max_m": [
+          17,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "columns.r1.c3",
+      "name": "columns.r1.c3",
+      "kind": "box",
+      "operation": "add",
+      "material": "column",
+      "targets": [],
+      "after": [
+        "columns.r1.c2"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-columns"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          2,
+          28
+        ],
+        "max_m": [
+          17,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_2",
+      "name": "roof.strip_2",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "columns.r1.c3"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          2,
+          18,
+          1
+        ],
+        "max_m": [
+          3,
+          19,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_3",
+      "name": "roof.strip_3",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_2"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          3,
+          17,
+          1
+        ],
+        "max_m": [
+          4,
+          18,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_4",
+      "name": "roof.strip_4",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_3"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          17,
+          1
+        ],
+        "max_m": [
+          5,
+          18,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_5",
+      "name": "roof.strip_5",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_4"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          17,
+          1
+        ],
+        "max_m": [
+          6,
+          18,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_6",
+      "name": "roof.strip_6",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_5"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          6,
+          17,
+          1
+        ],
+        "max_m": [
+          7,
+          18,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_7",
+      "name": "roof.strip_7",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_6"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          17,
+          1
+        ],
+        "max_m": [
+          8,
+          18,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_8",
+      "name": "roof.strip_8",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_7"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          8,
+          17,
+          1
+        ],
+        "max_m": [
+          9,
+          18,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_9",
+      "name": "roof.strip_9",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_8"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          17,
+          1
+        ],
+        "max_m": [
+          10,
+          18,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_10",
+      "name": "roof.strip_10",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_9"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          10,
+          17,
+          1
+        ],
+        "max_m": [
+          11,
+          18,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_11",
+      "name": "roof.strip_11",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_10"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          11,
+          16,
+          1
+        ],
+        "max_m": [
+          12,
+          17,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_12",
+      "name": "roof.strip_12",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_11"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          12,
+          16,
+          1
+        ],
+        "max_m": [
+          13,
+          17,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_13",
+      "name": "roof.strip_13",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_12"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          13,
+          16,
+          1
+        ],
+        "max_m": [
+          14,
+          17,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_14",
+      "name": "roof.strip_14",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_13"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          16,
+          1
+        ],
+        "max_m": [
+          15,
+          17,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_15",
+      "name": "roof.strip_15",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_14"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          16,
+          1
+        ],
+        "max_m": [
+          16,
+          17,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_16",
+      "name": "roof.strip_16",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_15"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          16,
+          16,
+          1
+        ],
+        "max_m": [
+          17,
+          17,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_17",
+      "name": "roof.strip_17",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_16"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          17,
+          16,
+          1
+        ],
+        "max_m": [
+          18,
+          17,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_18",
+      "name": "roof.strip_18",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_17"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          18,
+          16,
+          1
+        ],
+        "max_m": [
+          19,
+          17,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_19",
+      "name": "roof.strip_19",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_18"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          19,
+          15,
+          1
+        ],
+        "max_m": [
+          20,
+          16,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.strip_20",
+      "name": "roof.strip_20",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_19"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          20,
+          15,
+          1
+        ],
+        "max_m": [
+          21,
+          16,
+          33
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_4",
+      "name": "roof.beam_0_4",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.strip_20"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          16,
+          5
+        ],
+        "max_m": [
+          5,
+          17,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_5",
+      "name": "roof.beam_0_5",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_4"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          16,
+          5
+        ],
+        "max_m": [
+          6,
+          17,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_6",
+      "name": "roof.beam_0_6",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_5"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          6,
+          16,
+          5
+        ],
+        "max_m": [
+          7,
+          17,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_7",
+      "name": "roof.beam_0_7",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_6"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          16,
+          5
+        ],
+        "max_m": [
+          8,
+          17,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_8",
+      "name": "roof.beam_0_8",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_7"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          8,
+          16,
+          5
+        ],
+        "max_m": [
+          9,
+          17,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_9",
+      "name": "roof.beam_0_9",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_8"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          16,
+          5
+        ],
+        "max_m": [
+          10,
+          17,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_10",
+      "name": "roof.beam_0_10",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_9"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          10,
+          16,
+          5
+        ],
+        "max_m": [
+          11,
+          17,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_11",
+      "name": "roof.beam_0_11",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_10"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          11,
+          15,
+          5
+        ],
+        "max_m": [
+          12,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_12",
+      "name": "roof.beam_0_12",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_11"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          12,
+          15,
+          5
+        ],
+        "max_m": [
+          13,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_13",
+      "name": "roof.beam_0_13",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_12"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          13,
+          15,
+          5
+        ],
+        "max_m": [
+          14,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_14",
+      "name": "roof.beam_0_14",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_13"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          15,
+          5
+        ],
+        "max_m": [
+          15,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_15",
+      "name": "roof.beam_0_15",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_14"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          15,
+          5
+        ],
+        "max_m": [
+          16,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_16",
+      "name": "roof.beam_0_16",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_15"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          16,
+          15,
+          5
+        ],
+        "max_m": [
+          17,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_17",
+      "name": "roof.beam_0_17",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_16"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          17,
+          15,
+          5
+        ],
+        "max_m": [
+          18,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_18",
+      "name": "roof.beam_0_18",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_17"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          18,
+          15,
+          5
+        ],
+        "max_m": [
+          19,
+          16,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_0_19",
+      "name": "roof.beam_0_19",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_18"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          19,
+          14,
+          5
+        ],
+        "max_m": [
+          20,
+          15,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_4",
+      "name": "roof.beam_1_4",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_0_19"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          16,
+          13
+        ],
+        "max_m": [
+          5,
+          17,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_5",
+      "name": "roof.beam_1_5",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_4"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          16,
+          13
+        ],
+        "max_m": [
+          6,
+          17,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_6",
+      "name": "roof.beam_1_6",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_5"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          6,
+          16,
+          13
+        ],
+        "max_m": [
+          7,
+          17,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_7",
+      "name": "roof.beam_1_7",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_6"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          16,
+          13
+        ],
+        "max_m": [
+          8,
+          17,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_8",
+      "name": "roof.beam_1_8",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_7"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          8,
+          16,
+          13
+        ],
+        "max_m": [
+          9,
+          17,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_9",
+      "name": "roof.beam_1_9",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_8"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          16,
+          13
+        ],
+        "max_m": [
+          10,
+          17,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_10",
+      "name": "roof.beam_1_10",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_9"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          10,
+          16,
+          13
+        ],
+        "max_m": [
+          11,
+          17,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_11",
+      "name": "roof.beam_1_11",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_10"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          11,
+          15,
+          13
+        ],
+        "max_m": [
+          12,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_12",
+      "name": "roof.beam_1_12",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_11"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          12,
+          15,
+          13
+        ],
+        "max_m": [
+          13,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_13",
+      "name": "roof.beam_1_13",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_12"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          13,
+          15,
+          13
+        ],
+        "max_m": [
+          14,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_14",
+      "name": "roof.beam_1_14",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_13"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          15,
+          13
+        ],
+        "max_m": [
+          15,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_15",
+      "name": "roof.beam_1_15",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_14"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          15,
+          13
+        ],
+        "max_m": [
+          16,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_16",
+      "name": "roof.beam_1_16",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_15"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          16,
+          15,
+          13
+        ],
+        "max_m": [
+          17,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_17",
+      "name": "roof.beam_1_17",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_16"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          17,
+          15,
+          13
+        ],
+        "max_m": [
+          18,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_18",
+      "name": "roof.beam_1_18",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_17"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          18,
+          15,
+          13
+        ],
+        "max_m": [
+          19,
+          16,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_1_19",
+      "name": "roof.beam_1_19",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_18"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          19,
+          14,
+          13
+        ],
+        "max_m": [
+          20,
+          15,
+          14
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_4",
+      "name": "roof.beam_2_4",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_1_19"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          16,
+          21
+        ],
+        "max_m": [
+          5,
+          17,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_5",
+      "name": "roof.beam_2_5",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_4"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          16,
+          21
+        ],
+        "max_m": [
+          6,
+          17,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_6",
+      "name": "roof.beam_2_6",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_5"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          6,
+          16,
+          21
+        ],
+        "max_m": [
+          7,
+          17,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_7",
+      "name": "roof.beam_2_7",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_6"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          16,
+          21
+        ],
+        "max_m": [
+          8,
+          17,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_8",
+      "name": "roof.beam_2_8",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_7"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          8,
+          16,
+          21
+        ],
+        "max_m": [
+          9,
+          17,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_9",
+      "name": "roof.beam_2_9",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_8"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          16,
+          21
+        ],
+        "max_m": [
+          10,
+          17,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_10",
+      "name": "roof.beam_2_10",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_9"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          10,
+          16,
+          21
+        ],
+        "max_m": [
+          11,
+          17,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_11",
+      "name": "roof.beam_2_11",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_10"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          11,
+          15,
+          21
+        ],
+        "max_m": [
+          12,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_12",
+      "name": "roof.beam_2_12",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_11"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          12,
+          15,
+          21
+        ],
+        "max_m": [
+          13,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_13",
+      "name": "roof.beam_2_13",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_12"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          13,
+          15,
+          21
+        ],
+        "max_m": [
+          14,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_14",
+      "name": "roof.beam_2_14",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_13"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          15,
+          21
+        ],
+        "max_m": [
+          15,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_15",
+      "name": "roof.beam_2_15",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_14"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          15,
+          21
+        ],
+        "max_m": [
+          16,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_16",
+      "name": "roof.beam_2_16",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_15"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          16,
+          15,
+          21
+        ],
+        "max_m": [
+          17,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_17",
+      "name": "roof.beam_2_17",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_16"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          17,
+          15,
+          21
+        ],
+        "max_m": [
+          18,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_18",
+      "name": "roof.beam_2_18",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_17"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          18,
+          15,
+          21
+        ],
+        "max_m": [
+          19,
+          16,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_2_19",
+      "name": "roof.beam_2_19",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_18"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          19,
+          14,
+          21
+        ],
+        "max_m": [
+          20,
+          15,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_4",
+      "name": "roof.beam_3_4",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_2_19"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          16,
+          29
+        ],
+        "max_m": [
+          5,
+          17,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_5",
+      "name": "roof.beam_3_5",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_4"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          16,
+          29
+        ],
+        "max_m": [
+          6,
+          17,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_6",
+      "name": "roof.beam_3_6",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_5"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          6,
+          16,
+          29
+        ],
+        "max_m": [
+          7,
+          17,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_7",
+      "name": "roof.beam_3_7",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_6"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          16,
+          29
+        ],
+        "max_m": [
+          8,
+          17,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_8",
+      "name": "roof.beam_3_8",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_7"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          8,
+          16,
+          29
+        ],
+        "max_m": [
+          9,
+          17,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_9",
+      "name": "roof.beam_3_9",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_8"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          16,
+          29
+        ],
+        "max_m": [
+          10,
+          17,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_10",
+      "name": "roof.beam_3_10",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_9"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          10,
+          16,
+          29
+        ],
+        "max_m": [
+          11,
+          17,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_11",
+      "name": "roof.beam_3_11",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_10"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          11,
+          15,
+          29
+        ],
+        "max_m": [
+          12,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_12",
+      "name": "roof.beam_3_12",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_11"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          12,
+          15,
+          29
+        ],
+        "max_m": [
+          13,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_13",
+      "name": "roof.beam_3_13",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_12"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          13,
+          15,
+          29
+        ],
+        "max_m": [
+          14,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_14",
+      "name": "roof.beam_3_14",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_13"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          15,
+          29
+        ],
+        "max_m": [
+          15,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_15",
+      "name": "roof.beam_3_15",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_14"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          15,
+          29
+        ],
+        "max_m": [
+          16,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_16",
+      "name": "roof.beam_3_16",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_15"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          16,
+          15,
+          29
+        ],
+        "max_m": [
+          17,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_17",
+      "name": "roof.beam_3_17",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_16"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          17,
+          15,
+          29
+        ],
+        "max_m": [
+          18,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_18",
+      "name": "roof.beam_3_18",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_17"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          18,
+          15,
+          29
+        ],
+        "max_m": [
+          19,
+          16,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "roof.beam_3_19",
+      "name": "roof.beam_3_19",
+      "kind": "box",
+      "operation": "add",
+      "material": "roof",
+      "targets": [],
+      "after": [
+        "roof.beam_3_18"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-roof"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          19,
+          14,
+          29
+        ],
+        "max_m": [
+          20,
+          15,
+          30
+        ]
+      }
+    },
+    {
+      "component_id": "landing",
+      "name": "landing",
+      "kind": "box",
+      "operation": "add",
+      "material": "red",
+      "targets": [],
+      "after": [
+        "roof.beam_3_19"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          2,
+          14
+        ],
+        "max_m": [
+          8,
+          6,
+          20
+        ]
+      }
+    },
+    {
+      "component_id": "stairs.step_0",
+      "name": "stairs.step_0",
+      "kind": "box",
+      "operation": "add",
+      "material": "paving",
+      "targets": [],
+      "after": [
+        "landing"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          2,
+          15
+        ],
+        "max_m": [
+          16,
+          3,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "stairs.step_1",
+      "name": "stairs.step_1",
+      "kind": "box",
+      "operation": "add",
+      "material": "paving",
+      "targets": [],
+      "after": [
+        "stairs.step_0"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          12,
+          2,
+          15
+        ],
+        "max_m": [
+          14,
+          4,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "stairs.step_2",
+      "name": "stairs.step_2",
+      "kind": "box",
+      "operation": "add",
+      "material": "paving",
+      "targets": [],
+      "after": [
+        "stairs.step_1"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          10,
+          2,
+          15
+        ],
+        "max_m": [
+          12,
+          5,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "stairs.step_3",
+      "name": "stairs.step_3",
+      "kind": "box",
+      "operation": "add",
+      "material": "paving",
+      "targets": [],
+      "after": [
+        "stairs.step_2"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          8,
+          2,
+          15
+        ],
+        "max_m": [
+          10,
+          6,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "opening.ground",
+      "name": "opening.ground",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.red_core"
+      ],
+      "after": [
+        "stairs.step_3"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          2,
+          2,
+          10
+        ],
+        "max_m": [
+          4,
+          5,
+          12
+        ]
+      }
+    },
+    {
+      "component_id": "opening.landing",
+      "name": "opening.landing",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.red_core"
+      ],
+      "after": [
+        "opening.ground"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "照片只支持构件形态；坐标、柱距、屋顶高度和坡度复用旧parameters.json的明确研究假设，整方块适配由本轮显式编写。",
+        "fact_ids": [
+          "fact-R002-stairs"
+        ],
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ]
+      },
+      "parameters": {
+        "min_m": [
+          2,
+          6,
+          16
+        ],
+        "max_m": [
+          4,
+          9,
+          18
+        ]
+      }
+    }
+  ],
+  "levels": [],
+  "lighting": {
+    "component_ids": [],
+    "simulation_status": "blocks_only_no_game_light_simulation"
+  },
+  "acceptance": {
+    "clear_air_boxes": [
+      {
+        "check_id": "ground_opening",
+        "min_m": [
+          2,
+          2,
+          10
+        ],
+        "max_m": [
+          4,
+          5,
+          12
+        ]
+      }
+    ],
+    "walk_paths": [],
+    "minimum_level_clearance_m": 3,
+    "profile_relationships": []
+  },
+  "unresolved": [
+    "没有重新测量建筑；所有原尺寸仍为null。",
+    "新引擎仅整方块，屋顶、柱头、楼梯和栏杆较旧BuildKit样板进一步简化；不与旧NBT声称等价。",
+    "楼梯通行性和游戏放置未实测。",
+    "实际宽、深、高未知，原试建参数不得回填为现实尺寸。",
+    "建筑身份、照片日期、公开来源与授权未独立核实。",
+    "缺整栋体量和背侧立面证据。",
+    "当前只输出research_context；没有经审核的真实施工坐标。"
+  ],
+  "deviations": [
+    {
+      "component_id": null,
+      "description": "仅使用整立方体方块；细小窗框、弧面采用整格表达。",
+      "authorization": "研究样板技术范围；非声称现实原型的精确复原。"
+    },
+    {
+      "component_id": null,
+      "description": "旧版本的半砖屋面、半级踏步与围栏暂未移植，使用整格阶梯屋顶与简化台阶。",
+      "authorization": "新协议全立方体原型范围；保留旧实现可回看。"
+    }
+  ],
+  "review": {
+    "approved_for_strict_reconstruction": false,
+    "basis": "技术研究样板；事实尺度和游戏验收尚未完成。"
+  },
+  "output": {
+    "format": "java_structure_nbt",
+    "include_air": true,
+    "views": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "iso45"
+    ]
+  },
+  "evidence": {
+    "packet_id": "packet-legacy-gafa-colonnade",
+    "packet_schema_version": "1.0",
+    "packet_sha256": "507eb97982df84352ec401a47f3f3114730e8e3cbaec976245b6519fbc3caa7d",
+    "sources": [],
+    "facts": [
+      {
+        "fact_id": "fact-R002-columns",
+        "field": "observed_columns",
+        "value": "两排后退排列的深色圆柱",
+        "unit": null,
+        "kind": "observation",
+        "status": "verified",
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ],
+        "derived_from_fact_ids": [],
+        "basis": "本轮直接查看历史用户照片，仅确认画面可见形态，不推导绝对尺寸或建筑身份。",
+        "conflict_group": null,
+        "adoption_reason": null
+      },
+      {
+        "fact_id": "fact-R002-red_wall",
+        "field": "observed_red_wall",
+        "value": "廊柱后方红色墙面",
+        "unit": null,
+        "kind": "observation",
+        "status": "verified",
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ],
+        "derived_from_fact_ids": [],
+        "basis": "本轮直接查看历史用户照片，仅确认画面可见形态，不推导绝对尺寸或建筑身份。",
+        "conflict_group": null,
+        "adoption_reason": null
+      },
+      {
+        "fact_id": "fact-R002-roof",
+        "field": "observed_roof",
+        "value": "白色浅坡网格屋顶",
+        "unit": null,
+        "kind": "observation",
+        "status": "verified",
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ],
+        "derived_from_fact_ids": [],
+        "basis": "本轮直接查看历史用户照片，仅确认画面可见形态，不推导绝对尺寸或建筑身份。",
+        "conflict_group": null,
+        "adoption_reason": null
+      },
+      {
+        "fact_id": "fact-R002-stairs",
+        "field": "observed_stairs",
+        "value": "外部台阶、平台及栏杆",
+        "unit": null,
+        "kind": "observation",
+        "status": "verified",
+        "source_ids": [],
+        "image_ids": [
+          "img-R002"
+        ],
+        "derived_from_fact_ids": [],
+        "basis": "本轮直接查看历史用户照片，仅确认画面可见形态，不推导绝对尺寸或建筑身份。",
+        "conflict_group": null,
+        "adoption_reason": null
+      }
+    ],
+    "images": [
+      {
+        "image_id": "img-R002",
+        "legacy_reference_id": "R002",
+        "source_ids": [],
+        "page_url": null,
+        "direct_image_url": null,
+        "creator": null,
+        "media_type": "photo",
+        "built_state": "constructed",
+        "version": "历史用户照片，拍摄日期未知",
+        "view": "廊柱局部斜视",
+        "orientation": "从台阶一侧朝廊柱内部观察；地理北向未知",
+        "covers": [
+          "两排深色圆柱",
+          "红墙",
+          "白色浅坡网格屋顶",
+          "外部台阶及平台"
+        ],
+        "component_ids": [],
+        "verification_state": "full_image_viewed",
+        "checked_at": "2026-10-20",
+        "building_match_confirmed": null,
+        "actual_pixels": [
+          1279,
+          1706
+        ],
+        "quality": {
+          "eligible": false,
+          "assessment": "已查看原始照片；可作局部外观观察，身份和公开原页未独立核实，不能进最终四图。",
+          "limitations": [
+            "透视较强且背立面不可见",
+            "无可靠绝对尺度",
+            "原始公开页面未知"
+          ]
+        },
+        "license_status": "unknown",
+        "license_url": null,
+        "training_authorized": false,
+        "training_authorization_basis": null,
+        "candidate_value": "复用历史资料作局部观察；不能据此生成整栋实测复原。",
+        "local_file": "colonnade.jpg",
+        "local_sha256": "603399327aa42e3ece72688fb5fee812784f0584708db78f239540ff83f9f850"
+      }
+    ],
+    "selected_image_ids": [],
+    "upstream_component_ids": [],
+    "notes": [
+      "Original packet source/fact/image IDs and epistemic states are retained. Geometry requires a separately reviewed construction overlay."
+    ]
+  },
+  "real_dimensions": {
+    "width": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    },
+    "depth": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    },
+    "height": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    }
+  },
+  "research": {
+    "model_status": "not_requested",
+    "models": [],
+    "parameter_bindings": [],
+    "reference_set": null
+  },
+  "assembly": {
+    "components": [
+      {
+        "component_id": "ground.foundation",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "ground.paving",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "wall.red_core",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "columns.r0.c0",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "columns.r0.c1",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "columns.r0.c2",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "columns.r0.c3",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "columns.r1.c0",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "columns.r1.c1",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "columns.r1.c2",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "columns.r1.c3",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_2",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_3",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_4",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_5",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_6",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_7",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_8",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_9",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_10",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_11",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_12",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_13",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_14",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_15",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_16",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_17",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_18",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_19",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.strip_20",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_4",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_5",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_6",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_7",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_8",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_9",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_10",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_11",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_12",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_13",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_14",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_15",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_16",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_17",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_18",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_0_19",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_4",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_5",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_6",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_7",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_8",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_9",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_10",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_11",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_12",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_13",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_14",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_15",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_16",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_17",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_18",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_1_19",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_4",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_5",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_6",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_7",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_8",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_9",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_10",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_11",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_12",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_13",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_14",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_15",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_16",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_17",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_18",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_2_19",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_4",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_5",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_6",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_7",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_8",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_9",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_10",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_11",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_12",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_13",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_14",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_15",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_16",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_17",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_18",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.beam_3_19",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "landing",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "stairs.step_0",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "stairs.step_1",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "stairs.step_2",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "stairs.step_3",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.ground",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.landing",
+        "parent_id": null,
+        "role": "box"
+      }
+    ],
+    "allowed_overlaps": [
+      {
+        "earlier": "columns.r0.c0",
+        "later": "roof.beam_0_4",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r0.c0",
+        "later": "roof.beam_0_5",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r0.c1",
+        "later": "roof.beam_1_4",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r0.c1",
+        "later": "roof.beam_1_5",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r0.c2",
+        "later": "roof.beam_2_4",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r0.c2",
+        "later": "roof.beam_2_5",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r0.c3",
+        "later": "roof.beam_3_4",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r0.c3",
+        "later": "roof.beam_3_5",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r1.c0",
+        "later": "roof.beam_0_15",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r1.c0",
+        "later": "roof.beam_0_16",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r1.c1",
+        "later": "roof.beam_1_15",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r1.c1",
+        "later": "roof.beam_1_16",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r1.c2",
+        "later": "roof.beam_2_15",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r1.c2",
+        "later": "roof.beam_2_16",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r1.c3",
+        "later": "roof.beam_3_15",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "columns.r1.c3",
+        "later": "roof.beam_3_16",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "wall.red_core",
+        "later": "roof.strip_3",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      }
+    ],
+    "overlap_policy": "reject_undeclared"
+  }
+}

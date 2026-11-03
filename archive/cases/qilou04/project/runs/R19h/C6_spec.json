@@ -1,0 +1,447 @@
+{
+  "id": "C6",
+  "name": "低矮旧院",
+  "size": [
+    32,
+    84,
+    26
+  ],
+  "floors": [
+    2,
+    7
+  ],
+  "entry": [
+    29,
+    3,
+    8
+  ],
+  "rooms": [
+    {
+      "id": "C6.F01.L.home",
+      "unit_id": "C6.F01.L",
+      "floor_id": "C6.F01",
+      "function": "living",
+      "bounds_xyz": [
+        116,
+        3,
+        217,
+        132,
+        6,
+        222
+      ],
+      "entrances": [
+        [
+          130,
+          3,
+          221
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        3,
+        2,
+        19,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "C6.F01.L.bath",
+      "unit_id": "C6.F01.L",
+      "floor_id": "C6.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        116,
+        3,
+        217,
+        119,
+        6,
+        220
+      ],
+      "entrances": [
+        [
+          118,
+          3,
+          219
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        3,
+        2,
+        6,
+        6,
+        5
+      ]
+    },
+    {
+      "id": "C6.F01.R.home",
+      "unit_id": "C6.F01.R",
+      "floor_id": "C6.F01",
+      "function": "living",
+      "bounds_xyz": [
+        116,
+        3,
+        226,
+        142,
+        6,
+        238
+      ],
+      "entrances": [
+        [
+          139,
+          3,
+          226
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        3,
+        11,
+        29,
+        6,
+        23
+      ]
+    },
+    {
+      "id": "C6.F01.R.bath",
+      "unit_id": "C6.F01.R",
+      "floor_id": "C6.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        116,
+        3,
+        226,
+        119,
+        6,
+        229
+      ],
+      "entrances": [
+        [
+          118,
+          3,
+          228
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        3,
+        11,
+        6,
+        6,
+        14
+      ]
+    },
+    {
+      "id": "C6.F01.R.bedroom",
+      "unit_id": "C6.F01.R",
+      "floor_id": "C6.F01",
+      "function": "bedroom",
+      "bounds_xyz": [
+        135,
+        3,
+        233,
+        142,
+        6,
+        238
+      ],
+      "entrances": [
+        [
+          137,
+          3,
+          233
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        22,
+        3,
+        18,
+        29,
+        6,
+        23
+      ]
+    },
+    {
+      "id": "C6.F02.L.home",
+      "unit_id": "C6.F02.L",
+      "floor_id": "C6.F02",
+      "function": "living",
+      "bounds_xyz": [
+        116,
+        8,
+        217,
+        132,
+        11,
+        222
+      ],
+      "entrances": [
+        [
+          130,
+          8,
+          221
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        8,
+        2,
+        19,
+        11,
+        7
+      ]
+    },
+    {
+      "id": "C6.F02.L.bath",
+      "unit_id": "C6.F02.L",
+      "floor_id": "C6.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        116,
+        8,
+        217,
+        119,
+        11,
+        220
+      ],
+      "entrances": [
+        [
+          118,
+          8,
+          219
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        8,
+        2,
+        6,
+        11,
+        5
+      ]
+    },
+    {
+      "id": "C6.F02.R.home",
+      "unit_id": "C6.F02.R",
+      "floor_id": "C6.F02",
+      "function": "living",
+      "bounds_xyz": [
+        116,
+        8,
+        226,
+        142,
+        11,
+        238
+      ],
+      "entrances": [
+        [
+          139,
+          8,
+          226
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        8,
+        11,
+        29,
+        11,
+        23
+      ]
+    },
+    {
+      "id": "C6.F02.R.bath",
+      "unit_id": "C6.F02.R",
+      "floor_id": "C6.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        116,
+        8,
+        226,
+        119,
+        11,
+        229
+      ],
+      "entrances": [
+        [
+          118,
+          8,
+          228
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        8,
+        11,
+        6,
+        11,
+        14
+      ]
+    },
+    {
+      "id": "C6.F02.R.bedroom",
+      "unit_id": "C6.F02.R",
+      "floor_id": "C6.F02",
+      "function": "bedroom",
+      "bounds_xyz": [
+        135,
+        8,
+        233,
+        142,
+        11,
+        238
+      ],
+      "entrances": [
+        [
+          137,
+          8,
+          233
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        22,
+        8,
+        18,
+        29,
+        11,
+        23
+      ]
+    }
+  ],
+  "uses": [],
+  "doors": [],
+  "lights": [],
+  "stairs": [],
+  "groups": [],
+  "sources": [],
+  "kind": "compound",
+  "program": "home",
+  "urban": {
+    "id": "C6",
+    "name": "低矮旧院",
+    "x": 115,
+    "z": 216,
+    "w": 28,
+    "d": 23,
+    "floors": 2,
+    "rotation": 1,
+    "ground": "home",
+    "shape": "compound",
+    "cut": 3,
+    "base_y": 3,
+    "palette": "brick",
+    "maintenance": 0.6135740495366546,
+    "balcony": true,
+    "street_role": "inner",
+    "extra_shop_entry": false,
+    "corner_shop": false,
+    "edge_recesses": [
+      {
+        "face": "right",
+        "start": 14,
+        "end": 20,
+        "depth": 3
+      },
+      {
+        "face": "rear_right",
+        "depth": 3
+      }
+    ]
+  },
+  "unit_count": 4,
+  "main_entries": [
+    {
+      "id": "C6",
+      "entry": [
+        142,
+        3,
+        223
+      ],
+      "outside": [
+        143,
+        3,
+        223
+      ],
+      "core_landing": [
+        134,
+        3,
+        221
+      ],
+      "width": 2
+    }
+  ],
+  "upper_starts": {},
+  "stair_runs": [],
+  "family": "village",
+  "placement": {
+    "id": "C6",
+    "name": "低矮旧院",
+    "origin": [
+      113,
+      0,
+      215
+    ],
+    "turn": 0,
+    "w": 32,
+    "d": 26,
+    "family": "village",
+    "kind": "compound",
+    "program": "home",
+    "lot": {
+      "id": "C6",
+      "name": "低矮旧院",
+      "x": 115,
+      "z": 216,
+      "w": 28,
+      "d": 23,
+      "floors": 2,
+      "rotation": 1,
+      "ground": "home",
+      "shape": "compound",
+      "cut": 3,
+      "base_y": 3,
+      "palette": "brick",
+      "maintenance": 0.6135740495366546,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false,
+      "edge_recesses": [
+        {
+          "face": "right",
+          "start": 14,
+          "end": 20,
+          "depth": 3
+        },
+        {
+          "face": "rear_right",
+          "depth": 3
+        }
+      ]
+    },
+    "facade_revision": {
+      "palette": "brick",
+      "wall": "bricks",
+      "roof": "flat_service",
+      "roof_label": "平屋顶与生活设备"
+    }
+  },
+  "source_nbt_sha256": "f0d5cef369f03453d882549e71f52220412982e3f25a4fdc9471a3818207745c",
+  "size_xyz": [
+    32,
+    84,
+    26
+  ],
+  "non_air": 4713,
+  "block_entities": 30,
+  "entities": 0
+}

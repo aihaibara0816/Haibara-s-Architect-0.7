@@ -1,0 +1,44 @@
+{
+  "build_id": "retail_store-r1-3069d542d0",
+  "files": [
+    {
+      "file": "building.nbt",
+      "bytes": 27020,
+      "sha256": "a6e03c94f9d70198800408113c8c25f87d56eb8e565bd26b31e11824e3da7815",
+      "listed_blocks": 10608,
+      "non_air_blocks": 3204,
+      "size_xyz": [
+        34,
+        12,
+        26
+      ],
+      "contains_explicit_air": true,
+      "geometry_sha256": "04bb592ff1f740a9f69bc1a4da25ea15962c1f09b84061a53bef484053f156d5",
+      "data_version": 3955
+    }
+  ],
+  "origin_world_xyz": null,
+  "front": "-Z",
+  "includes_air": true,
+  "target_environment": {
+    "minecraft_version": "1.21.1",
+    "data_version": 3955,
+    "neoforge_version": "21.1.244",
+    "create_version": "6.0.10",
+    "configuration_status": "historical_target_unverified",
+    "world": {
+      "min_y": null,
+      "max_y_exclusive": null,
+      "origin_xyz": null,
+      "confirmed": false,
+      "basis": "历史目标版本；未连接当前Minecraft客户端或服务器，无已确认放置位置。"
+    },
+    "budgets": {
+      "max_cells": 1000000,
+      "max_non_air_blocks": 250000,
+      "max_cell_visits": 5000000
+    }
+  },
+  "placement_status": "pending_game_test",
+  "notes": "Explicit air replaces cells in the full structure bounding box. Use an empty test world area; never auto-place in production."
+}

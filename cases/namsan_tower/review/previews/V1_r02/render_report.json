@@ -1,0 +1,274 @@
+[
+  {
+    "image": "overview.png",
+    "sha256": "3eee15960d4469f854e9ecba58f03ade58cc63000361d9fef9cfae68436b8d7c",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "overview",
+      "eye": [
+        630,
+        380,
+        680
+      ],
+      "target": [
+        160,
+        135,
+        165
+      ],
+      "width": 2200,
+      "height": 2000,
+      "spanX": 480,
+      "spanZ": 436.36,
+      "ortho": true,
+      "fov": 36,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "night.png",
+    "sha256": "41e235ea69cef912306294c6c3629a8eaff1b805cd1636e323795e695c7356a2",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "night",
+      "eye": [
+        630,
+        380,
+        680
+      ],
+      "target": [
+        160,
+        135,
+        165
+      ],
+      "width": 2200,
+      "height": 2000,
+      "spanX": 480,
+      "spanZ": 436.36,
+      "ortho": true,
+      "fov": 36,
+      "concept": false,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "site_top.png",
+    "sha256": "a3f5d91d38ea2f4d66014fc6af0e0a2ee25dab7aa9163a99a3e9f1ed930e81b9",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "site_top",
+      "eye": [
+        160,
+        780,
+        160
+      ],
+      "target": [
+        160,
+        0,
+        160
+      ],
+      "width": 1700,
+      "height": 1700,
+      "spanX": 352,
+      "spanZ": 352,
+      "ortho": true,
+      "fov": 36,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "podium.png",
+    "sha256": "4e22929cf998bfb1a7621c3ecd70e3d8c2a668054c6cf4c578896a2bf20500b0",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "podium",
+      "eye": [
+        270,
+        145,
+        305
+      ],
+      "target": [
+        163,
+        81,
+        179
+      ],
+      "width": 1800,
+      "height": 1296,
+      "spanX": 125,
+      "spanZ": 90,
+      "ortho": true,
+      "fov": 36,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "podium_night.png",
+    "sha256": "f541ea15879898e2ad89942a8cd6fa1d161d7801026e1a1b33be4d0764663758",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "podium_night",
+      "eye": [
+        270,
+        145,
+        305
+      ],
+      "target": [
+        163,
+        81,
+        179
+      ],
+      "width": 1800,
+      "height": 1296,
+      "spanX": 125,
+      "spanZ": 90,
+      "ortho": true,
+      "fov": 36,
+      "concept": false,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "observation_pod.png",
+    "sha256": "ab01947ad392bc6e6334f03eedf2860cd8a2efcc8233436e437ef06eb7c80381",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "observation_pod",
+      "eye": [
+        255,
+        215,
+        340
+      ],
+      "target": [
+        160,
+        185,
+        176
+      ],
+      "width": 1700,
+      "height": 1500,
+      "spanX": 85,
+      "spanZ": 75,
+      "ortho": true,
+      "fov": 36,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "antenna.png",
+    "sha256": "579d6777b70fa761e12a097359380e2458ee99e44ced8ccb9688d4787dfeb295",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "antenna",
+      "eye": [
+        250,
+        330,
+        310
+      ],
+      "target": [
+        160,
+        253,
+        176
+      ],
+      "width": 1250,
+      "height": 1700,
+      "spanX": 85,
+      "spanZ": 115.6,
+      "ortho": true,
+      "fov": 36,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "park_north.png",
+    "sha256": "be1e68ebb3303994ac69493b9a4e1e16217a31c093bad45ca1c5a9cda4bb2fe0",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "park_north",
+      "eye": [
+        -40,
+        210,
+        0
+      ],
+      "target": [
+        135,
+        70,
+        120
+      ],
+      "width": 1800,
+      "height": 1332,
+      "spanX": 250,
+      "spanZ": 185,
+      "ortho": true,
+      "fov": 36,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "pavilion.png",
+    "sha256": "a7c989c87ec2706de6ad85a9f5b2c0b923ba88014a69b0e528679087f63e1811",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "pavilion",
+      "eye": [
+        110,
+        145,
+        185
+      ],
+      "target": [
+        110,
+        98,
+        124
+      ],
+      "width": 1700,
+      "height": 1292,
+      "spanX": 50,
+      "spanZ": 38,
+      "ortho": true,
+      "fov": 36,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "north_elevation.png",
+    "sha256": "60c9d31abc9af0a0bf632f5de91bd85287dbdb24e21731f71691da93362d1c81",
+    "source_nbt_sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+    "camera": {
+      "id": "north_elevation",
+      "eye": [
+        160,
+        155,
+        -500
+      ],
+      "target": [
+        160,
+        155,
+        176
+      ],
+      "width": 1450,
+      "height": 1800,
+      "spanX": 282,
+      "spanZ": 350,
+      "ortho": true,
+      "fov": 36,
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

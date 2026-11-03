@@ -1,0 +1,20 @@
+{
+  "engine": "HAF 0.4.0",
+  "default_case": "guangzhou_south",
+  "control_catalog": "docs/haf_0_4_capabilities.json",
+  "case_registry": "learning/case_registry.json",
+  "cases": {
+    "shenzhen_press": "cases/shenzhen_press/src/build_case.py",
+    "guangzhou_ctf": "cases/guangzhou_ctf/src/build_case.py",
+    "namsan_tower": "cases/namsan_tower/src/build_case.py",
+    "elizabeth_tower": "cases/elizabeth_tower/src/build_case.py",
+    "buckingham_palace": "cases/buckingham_palace/src/build_case.py",
+    "nanshan_cloud": "cases/nanshan_cloud/src/build_case.py",
+    "guangzhou_customs": "cases/guangzhou_customs/src/build_v3.py",
+    "guangzhou_memorial": "cases/guangzhou_memorial/src/build_case_v2.py",
+    "zhujiang_dijing": "cases/zhujiang_dijing/src/build_case.py",
+    "guangzhou_south": "cases/guangzhou_south/src/build_case.py",
+    "civic_center": "cases/civic_center/revise_ceiling_landscape.py"
+  },
+  "design_catalog": "docs/design_catalog.json"
+}

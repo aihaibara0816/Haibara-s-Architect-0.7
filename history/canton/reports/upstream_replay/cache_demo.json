@@ -1,0 +1,65 @@
+{
+  "scope": "synthetic three-component bridge",
+  "cold": {
+    "geometry_hash": "323407e6067e81e14f238e1aaa09754982017e50536e257c8c65b923c942d7b8",
+    "output_hash": "fc2da0850764500ebb2de0029ac7a33fb9e38030595f84b88a4d2ad674d3341a",
+    "rebuilt": [
+      "geometry:pier.left",
+      "geometry:pier.right",
+      "geometry:connector",
+      "material:pier.left",
+      "material:pier.right",
+      "material:connector",
+      "assembly:scene"
+    ],
+    "hits": 0,
+    "key": "749f31a79afb69f4ac3e46cb566b9e6dca0429478fcf5c3d2a53a97feea5804a"
+  },
+  "warm": {
+    "geometry_hash": "323407e6067e81e14f238e1aaa09754982017e50536e257c8c65b923c942d7b8",
+    "output_hash": "fc2da0850764500ebb2de0029ac7a33fb9e38030595f84b88a4d2ad674d3341a",
+    "rebuilt": [],
+    "hits": 7,
+    "key": "749f31a79afb69f4ac3e46cb566b9e6dca0429478fcf5c3d2a53a97feea5804a"
+  },
+  "material_edit": {
+    "geometry_hash": "323407e6067e81e14f238e1aaa09754982017e50536e257c8c65b923c942d7b8",
+    "output_hash": "d85e8d2a96aded60cae25c8016fddb7fd134950f310ddf5acf9560c73d44a5a2",
+    "rebuilt": [
+      "material:pier.left",
+      "assembly:scene"
+    ],
+    "hits": 5,
+    "key": "5b3b6c088bff1067c190cbc2205d7f8c9032525be7d2760204eb263320fefd41"
+  },
+  "geometry_edit": {
+    "geometry_hash": "f107511a57094e050766356dbbdf62b80a541020d7a95494004b72d442bb0e34",
+    "output_hash": "217137aa16ded62e31f1e75b9b4817dc4f22da7b158ae1ef4a315db278dc35df",
+    "rebuilt": [
+      "geometry:pier.left",
+      "geometry:connector",
+      "material:pier.left",
+      "material:connector",
+      "assembly:scene"
+    ],
+    "hits": 2,
+    "key": "027c165345c4771eec8614198362f4cea7e2778255a30d34e2292d415deb3777"
+  },
+  "full": {
+    "geometry_hash": "f107511a57094e050766356dbbdf62b80a541020d7a95494004b72d442bb0e34",
+    "output_hash": "217137aa16ded62e31f1e75b9b4817dc4f22da7b158ae1ef4a315db278dc35df",
+    "rebuilt": [
+      "geometry:pier.left",
+      "geometry:pier.right",
+      "geometry:connector",
+      "material:pier.left",
+      "material:pier.right",
+      "material:connector",
+      "assembly:scene"
+    ],
+    "hits": 0,
+    "key": "027c165345c4771eec8614198362f4cea7e2778255a30d34e2292d415deb3777"
+  },
+  "incremental_equals_full": true,
+  "engine_integrated": false
+}

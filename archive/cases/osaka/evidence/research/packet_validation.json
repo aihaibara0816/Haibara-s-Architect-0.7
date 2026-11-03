@@ -1,0 +1,36 @@
+{
+  "status": "PASS_WITH_GAPS",
+  "errors": [],
+  "gaps": [
+    "coverage: top/roof: 带尺度现状屋顶与总平",
+    "coverage: interior/interior: 带楼层定位的内部平面",
+    "clean_subject: not confirmed",
+    "orientation_aligned: not confirmed",
+    "scale.building_dimensions.width: dimension unverified",
+    "scale.building_dimensions.length: dimension unverified",
+    "scale.building_dimensions.overall_height: only interval available; do not claim a precise dimension",
+    "scale.building_dimensions.architectural_height: dimension unverified",
+    "scale.building_dimensions.roof_height: dimension unverified",
+    "scale.building_dimensions.tip_height: dimension unverified",
+    "scale.site_dimensions.width: dimension unverified",
+    "scale.site_dimensions.length: dimension unverified",
+    "scale.world_budget.width: available build allowance unconfirmed",
+    "scale.world_budget.depth: available build allowance unconfirmed",
+    "scale.world_budget.height: available build allowance unconfirmed"
+  ],
+  "coverage": [
+    {
+      "face": "top",
+      "component_id": "roof",
+      "image_ids": [],
+      "status": "missing"
+    },
+    {
+      "face": "interior",
+      "component_id": "interior",
+      "image_ids": [],
+      "status": "missing"
+    }
+  ],
+  "limits": "Structural/provenance/consistency validation only; not independent web, image or generated-building verification."
+}

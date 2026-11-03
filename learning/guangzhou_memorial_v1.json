@@ -1,0 +1,24 @@
+{
+  "case": "guangzhou_memorial",
+  "result": "reviewable V1, awaiting user fidelity feedback",
+  "rules": [
+    {
+      "finding": "支承带补洞若不受屋面高度约束会冒出白色方块",
+      "evidence": "V1_r02 entrance/top previews",
+      "fix": "V1_r03 infill top clipped below lower roof surface",
+      "scope": "this case roof intersections"
+    },
+    {
+      "finding": "设置灯块不等于入口可见光充足",
+      "evidence": "V1_r01 vs V1_r02 entrance_night",
+      "fix": "exposed lamps between columns, inset window lights and pillar-foot lights",
+      "scope": "offline visual and adjacency checks, game pending"
+    },
+    {
+      "finding": "传统外观不能推出传统内部柱网",
+      "evidence": "official auditorium ref05 and archive ref10",
+      "fix": "column-free center, stage and two curved galleries",
+      "scope": "estimated layout, no exact seating or egress claim"
+    }
+  ]
+}

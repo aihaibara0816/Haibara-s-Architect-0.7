@@ -1,0 +1,67 @@
+{
+  "source_nbt_sha256": "d05fdb631e40a6a531de25a4b8a895846857a051a9238f4584348bc82a4e77a3",
+  "non_air": 7452,
+  "entries": [
+    {
+      "id": "Workshop",
+      "pos": [
+        12,
+        3,
+        22
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 4,
+  "use_checks": [
+    {
+      "id": "Workshop.entry",
+      "pos": [
+        12,
+        3,
+        21
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Workshop.workbench",
+      "pos": [
+        12,
+        3,
+        11
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Workshop.assembly",
+      "pos": [
+        17,
+        3,
+        16
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Workshop.wing.workshop",
+      "pos": [
+        22,
+        3,
+        13
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 22,
+  "paintings": 0,
+  "official_model_states": 53,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

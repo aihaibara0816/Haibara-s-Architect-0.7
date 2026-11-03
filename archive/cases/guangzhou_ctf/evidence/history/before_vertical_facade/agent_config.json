@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "active_backend": "HAF",
+  "decision_date": "2026-10-23",
+  "user_decision": "后续生成、细节学习与练习统一在 HAF 主线迭代；HA0.3 只作历史参考",
+  "entrypoint": "tools/agent.py",
+  "default_case": "shenzhen_press",
+  "cases": {
+    "shenzhen_press": "cases/shenzhen_press/src/build_case.py"
+  },
+  "legacy_backend": "HA0.3 preserved, not a parallel generation route",
+  "research_policy": "unlimited evidence images, component decisions, explicitly marked uncertainty",
+  "learning_root": "learning",
+  "game_execution": "not enabled"
+}

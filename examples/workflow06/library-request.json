@@ -1,0 +1,290 @@
+{
+  "schema_version": "0.6",
+  "handoff": {
+    "schema_version": "0.4",
+    "project_id": "haf06-library-learning-demo",
+    "route": "original",
+    "primary_use": "library",
+    "secondary_uses": [
+      "coffee side wing"
+    ],
+    "identity_features": [
+      "Reading stacks with usable aisle faces",
+      "Borrowing and returns desk",
+      "Shared reading and quiet reading rooms"
+    ],
+    "style": "modern",
+    "interior_level": "L2",
+    "coordinates": {
+      "unit": "block",
+      "up": "Y",
+      "north": "-Z"
+    },
+    "storeys_total": 2,
+    "storeys_assumption": "Learning example assumes two storeys; not measured evidence.",
+    "authorized_scope": {
+      "editable_regions": [
+        [
+          0,
+          0,
+          0,
+          40,
+          25,
+          40
+        ]
+      ],
+      "locked_component_ids": [
+        "facade.windows",
+        "facade.ledges",
+        "cores"
+      ]
+    },
+    "floor_levels": [
+      {
+        "id": "F1",
+        "floor_y": 3,
+        "upper_floor_y": 10,
+        "min_clear_height": 4
+      },
+      {
+        "id": "F2",
+        "floor_y": 10,
+        "upper_floor_y": 17,
+        "min_clear_height": 4
+      }
+    ],
+    "rooms": [
+      {
+        "id": "reading.1",
+        "floor_id": "F1",
+        "function": "reading and borrowing",
+        "bounds_xyz": [
+          2,
+          3,
+          2,
+          25,
+          9,
+          30
+        ],
+        "entrances": [
+          [
+            12,
+            3,
+            2
+          ]
+        ],
+        "color_intent": "warm"
+      },
+      {
+        "id": "reading.2",
+        "floor_id": "F2",
+        "function": "reading and stacks",
+        "bounds_xyz": [
+          2,
+          10,
+          2,
+          25,
+          16,
+          30
+        ],
+        "entrances": [
+          [
+            12,
+            10,
+            2
+          ]
+        ],
+        "color_intent": "warm"
+      },
+      {
+        "id": "cafe.1",
+        "floor_id": "F1",
+        "function": "secondary cafe",
+        "bounds_xyz": [
+          25,
+          3,
+          2,
+          38,
+          9,
+          20
+        ],
+        "entrances": [
+          [
+            25,
+            3,
+            10
+          ]
+        ],
+        "color_intent": "warm"
+      }
+    ],
+    "circulation_keepouts": [
+      [
+        11,
+        3,
+        2,
+        14,
+        9,
+        30
+      ]
+    ],
+    "proposed_modules": [
+      {
+        "component_id": "reading.1.stacks.a",
+        "room_id": "reading.1",
+        "bounds_xyz": [
+          3,
+          3,
+          4,
+          5,
+          6,
+          15
+        ],
+        "use_faces": [
+          "east"
+        ]
+      },
+      {
+        "component_id": "reading.1.desk",
+        "room_id": "reading.1",
+        "bounds_xyz": [
+          16,
+          3,
+          6,
+          20,
+          5,
+          10
+        ],
+        "use_faces": [
+          "north",
+          "south"
+        ]
+      }
+    ],
+    "landscape": {
+      "archetype": "reading",
+      "bounds_xyz": [
+        0,
+        0,
+        31,
+        40,
+        6,
+        40
+      ],
+      "water_requested": false
+    }
+  },
+  "frozen_module_ids": [
+    "reading.1.stacks.a"
+  ],
+  "variation": {
+    "schema_version": "0.6",
+    "seed": 20261101,
+    "editable_regions": [
+      [
+        0,
+        0,
+        0,
+        40,
+        25,
+        40
+      ]
+    ],
+    "keepouts": [
+      [
+        11,
+        3,
+        2,
+        14,
+        9,
+        30
+      ]
+    ],
+    "locked_component_ids": [
+      "facade.windows",
+      "facade.ledges",
+      "cores"
+    ],
+    "channels": [
+      {
+        "id": "material",
+        "seed": 1,
+        "choices": [
+          {
+            "id": "light_stone",
+            "weight": 8
+          },
+          {
+            "id": "warm_stone",
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "weathering",
+        "seed": 4,
+        "choices": [
+          {
+            "id": "maintained",
+            "weight": 8
+          },
+          {
+            "id": "light_rain_mark",
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "targets": [
+      {
+        "component_id": "facade.west.panel.01",
+        "bounds_xyz": [
+          0,
+          3,
+          4,
+          1,
+          8,
+          10
+        ],
+        "channels": [
+          "material",
+          "weathering"
+        ]
+      },
+      {
+        "component_id": "facade.east.panel.01",
+        "bounds_xyz": [
+          39,
+          3,
+          4,
+          40,
+          8,
+          10
+        ],
+        "channels": [
+          "material",
+          "weathering"
+        ]
+      },
+      {
+        "component_id": "facade.windows.approved.01",
+        "bounds_xyz": [
+          0,
+          10,
+          4,
+          1,
+          15,
+          10
+        ],
+        "channels": [
+          "material",
+          "weathering"
+        ],
+        "existing_choices": {
+          "material": "approved_cyan_glass",
+          "weathering": "maintained"
+        }
+      }
+    ]
+  }
+}

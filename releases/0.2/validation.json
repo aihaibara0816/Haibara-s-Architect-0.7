@@ -1,0 +1,95 @@
+{
+  "engine_version": "0.2.0",
+  "date": "2026-10-23",
+  "core_tests": {
+    "count": 23,
+    "status": "pass"
+  },
+  "cli_checks": [
+    {
+      "arguments": [
+        "--version"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "arguments": [
+        "--catalog"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "arguments": [],
+      "expected_exit": 2,
+      "actual_exit": 2
+    },
+    {
+      "arguments": [
+        "--case",
+        "not_registered",
+        "--run",
+        "X"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2
+    },
+    {
+      "arguments": [
+        "--run",
+        "../bad"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2
+    },
+    {
+      "arguments": [
+        "--catalog",
+        "--run",
+        "X"
+      ],
+      "expected_exit": 2,
+      "actual_exit": 2
+    }
+  ],
+  "catalog_referenced_files": "all_exist",
+  "protected_files": {
+    "count": 627,
+    "changed": []
+  },
+  "generation_algorithm_change": false,
+  "new_building_generated": false,
+  "game_validation": "pending",
+  "skill_validation": {
+    "quick_validate": "pass",
+    "skill_direct_references": "pass",
+    "forward_task": {
+      "status": "pass",
+      "mode": "read-only, fresh agent, no building generation",
+      "scope": "new high-rise workflow, skills count, actual parameter consumers, remaining delivery gaps",
+      "observations": [
+        "Correctly separated 3 installed skills and vendored real-to-minecraft",
+        "Distinguished integrated room lighting from fixed-pattern/beacon/interior samples",
+        "Detected crown_accents flag currently yields zero dedicated V1 crown accent cells",
+        "Kept game validation pending and required a new building adapter"
+      ]
+    }
+  },
+  "portable_tests": {
+    "unpacked_tests": 23,
+    "tests": "pass",
+    "version": "HAF 0.2.0",
+    "member_hashes_verified": 741,
+    "catalog_files": "pass",
+    "new_building_generated": false,
+    "initial_package_gap_resolved": "Added Shenzhen rooms.json and all catalog-referenced artifacts to the minimal parent snapshot."
+  },
+  "html_validation": {
+    "parse": "pass",
+    "internal_anchors": "pass",
+    "external_resources": 0,
+    "scripts": 0,
+    "browser_layout": "not_run; static HTML structure checked"
+  }
+}

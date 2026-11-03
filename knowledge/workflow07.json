@@ -1,0 +1,386 @@
+{
+  "schema_version": "0.7",
+  "release": "Haibara’s Architect 0.7.0",
+  "date": "2026-11-02",
+  "training": "case-informed rules, reusable recipes and regression checks; no model weight training",
+  "skill_installation": {
+    "repository_rules": "available through CLI",
+    "personal_skills": "not_installed_by_this_release"
+  },
+  "phases": [
+    {
+      "step": 1,
+      "name": "需求与约束",
+      "action": "确认真实复原/原创/返工；固定对象、尺度、坐标、可改范围",
+      "output": "brief + fixed constraints",
+      "gate": "人工确认用户已有意图，不重复索取授权"
+    },
+    {
+      "step": 2,
+      "name": "来源与案例归档",
+      "action": "核对报告、原文件、代码、图片和历史反馈",
+      "output": "source ledger + hashes",
+      "gate": "保留缺件、来源冲突和未关闭负例"
+    },
+    {
+      "step": 3,
+      "name": "构件研究",
+      "action": "分解轮廓、内部层、空气层、接口、材质与用途",
+      "output": "component evidence",
+      "gate": "没有资料的部位标推断"
+    },
+    {
+      "step": 4,
+      "name": "地形与场景",
+      "action": "保护水系山体，组织道路、公共节点与地块",
+      "output": "terrain + keepouts + access",
+      "gate": "先保护再选址；城市概念不冒充实测"
+    },
+    {
+      "step": 5,
+      "name": "功能与内饰",
+      "action": "主用途、活动组、公私、后勤、墙地顶、净高、照明",
+      "output": "spatial handoff",
+      "gate": "活动和接近面优先于填充数量"
+    },
+    {
+      "step": 6,
+      "name": "配方与随机",
+      "action": "选受支持配方，固定ID、种子与随机通道",
+      "output": "typed request + candidate choices",
+      "gate": "已认可门窗、主家具与地形锁定"
+    },
+    {
+      "step": 7,
+      "name": "计划校验",
+      "action": "验证坐标、预算、承托、完整叶冠、碰撞与禁放区",
+      "output": "scene-plan / validate",
+      "gate": "拒绝非法请求，不暗改尺寸解决"
+    },
+    {
+      "step": 8,
+      "name": "显式建造",
+      "action": "在新run运行受控适配器",
+      "output": "NBT + owners + plan",
+      "gate": "scene-build/build-study/build-case各自范围明确"
+    },
+    {
+      "step": 9,
+      "name": "最终回读",
+      "action": "从最终NBT核对方块、实体与接口；重放确定性结果",
+      "output": "readback + manifest",
+      "gate": "不能用导出前对象替代最终检查"
+    },
+    {
+      "step": 10,
+      "name": "视觉与游戏",
+      "action": "四向、正交俯视、眼高/细节、昼夜与目标客户端",
+      "output": "separate review records",
+      "gate": "文件/几何pass不自动升级视觉/游戏/审美"
+    },
+    {
+      "step": 11,
+      "name": "返工与回归",
+      "action": "把失败部位连接到新检查；保留旧反例与新输出",
+      "output": "failure → check → revision",
+      "gate": "同机位、同尺度，不换案例掩盖问题"
+    },
+    {
+      "step": 12,
+      "name": "公开归档与技能化",
+      "action": "整理规则、例子、消费入口、图片、下载和适用边界",
+      "output": "catalog + guide + reusable rules",
+      "gate": "先验证再推广；个人skill安装另记录"
+    }
+  ],
+  "domains": [
+    {
+      "id": "reconstruction",
+      "title": "现实建筑与特色建筑",
+      "scope": "新建筑复原、特色建筑研究、形体与立面返工",
+      "triggers": [
+        "按照片做建筑",
+        "模型和图片融合",
+        "特色建筑研究"
+      ],
+      "inputs": [
+        "建筑身份、年代与范围",
+        "逐构件图片/模型证据",
+        "尺度和坐标、固定构件"
+      ],
+      "rules": [
+        "按构件拆轮廓、空气层、外壳、内部层与接口；证据与推断分列。",
+        "图片和模型分别确认单位、方向、缺件；以构件取舍，不能整体平均融合。",
+        "四向同框45度与垂直正交俯视绑定最终NBT哈希。",
+        "新增案例必须有参数消费者；现有单案例网格代码不是通用高保真引擎。"
+      ],
+      "consumers": [
+        "tools/haf.py build-case",
+        "tools/agent.py",
+        "hafusion/review.py"
+      ],
+      "examples": [
+        "canton",
+        "pazhou",
+        "guangzhou_customs",
+        "guangzhou_south"
+      ],
+      "checks": [
+        "主体宽深/收分/悬挑比例",
+        "完整承托、门洞地坪、两格净空、屋面拼接",
+        "灯光保持与伪内饰范围",
+        "最终NBT回读与分项反馈"
+      ],
+      "not_implemented": [
+        "自动相机恢复",
+        "任意模型自动融合",
+        "通用建筑自动生成"
+      ],
+      "reference": "docs/knowledge07/reconstruction.md"
+    },
+    {
+      "id": "scene",
+      "title": "场景、街区与地形",
+      "scope": "乡村、骑楼、日式/大正街区、滨水城市和铁路周边场景",
+      "triggers": [
+        "规划一片街区",
+        "顺应地形",
+        "不要填海",
+        "把不同建筑串起来"
+      ],
+      "inputs": [
+        "原地形或明确标注的自建高度场",
+        "水系、山脊、岸线、铁路和固定地标",
+        "功能节点、道路骨架与入户关系"
+      ],
+      "rules": [
+        "先保护地形、水系和既有对象，再组织道路与地块。",
+        "主路、支路、入口有实际连接；技术可达不代替完整路幅与眼高辨识。",
+        "以用途、形体、朝向、分段标高和院界产生变化；不能只抖动矩形网格。",
+        "公共建筑配置到达、停留、坐席与照明；村镇屋脚、店前、后勤分别处理铺地。",
+        "广州塔和松山湖固定；海湾不填、西河保留、铁路边坡与隧道约束优先，未接入地形测量的城市图保持概念状态。"
+      ],
+      "consumers": [
+        "hafusion/habitat07.py",
+        "tools/haf.py scene-plan",
+        "tools/haf.py scene-build"
+      ],
+      "examples": [
+        "urban_village20",
+        "rural13",
+        "tiangengli18",
+        "corner01",
+        "taisho13"
+      ],
+      "checks": [
+        "原始与最终地形差分",
+        "水系保护、净空与模块重叠",
+        "完整宽度、桥头和住宅入口",
+        "公共与私宅边界、林冠与河岸"
+      ],
+      "not_implemented": [
+        "自动从存档提取真实地形",
+        "全城自动路网和任意建筑排布",
+        "城市规划HTML直接生成NBT"
+      ],
+      "reference": "docs/knowledge07/scene.md"
+    },
+    {
+      "id": "interior",
+      "title": "完整内饰、家具与生活组景",
+      "scope": "空壳填充、功能室内、家具精细化、门框修复、软装与照明",
+      "triggers": [
+        "内饰太空",
+        "家具像占位符",
+        "加沙发床组",
+        "房间太硬"
+      ],
+      "inputs": [
+        "完整墙地顶与净高",
+        "主用途、活动顺序、容量与公私分区",
+        "门窗、楼梯、工作面和固定家具"
+      ],
+      "rules": [
+        "先解释每个区域的用途，留白必须有理由；不以物件数量或填充率验收。",
+        "家具拆主体、承托、靠背/扶手、框边、台面与使用侧，再组合成床头、厨房、吧台、阅读等活动组。",
+        "现代两层楼板/天花，光源嵌入；中世纪一层构造和有承托的灯笼分别处理。",
+        "1–9层功能房间、走道、楼梯和公共区全部有照明；不随机熄灭半数房间。",
+        "植物、帘、地毯和局部灯与家具同步设计；固定门窗和主要家具不参与装饰散点随机。",
+        "门扇、框、门楣、上下半扇、铰链、床头脚和方块实体必须在最终NBT检查。"
+      ],
+      "consumers": [
+        "adapters/room06/src/build_room.py",
+        "adapters/room06/src/audit_room.py",
+        "tools/haf.py build-study --case room06",
+        "hafusion/habitat07.py:reading-room"
+      ],
+      "examples": [
+        "interior04",
+        "interior-detail05",
+        "room06",
+        "corner01",
+        "civic_center"
+      ],
+      "checks": [
+        "不看招牌仍辨认主用途",
+        "接近点与隐私",
+        "薄厚与尺度、可见支撑",
+        "保持顶棚的眼高视图",
+        "真实睡眠/储物/门与视觉分别待验"
+      ],
+      "not_implemented": [
+        "任意户型自动高质量装修",
+        "教程级材质精细度自动评分",
+        "装饰椅子原版坐下动作"
+      ],
+      "reference": "docs/knowledge07/interior.md"
+    },
+    {
+      "id": "vegetation",
+      "title": "树木、植物、园林与装饰",
+      "scope": "林地、林缘、树冠层次、室内盆器、花箱、庭院与生活小物",
+      "triggers": [
+        "随机树木",
+        "花盆组景",
+        "植被太少",
+        "场景太硬",
+        "装饰变化"
+      ],
+      "inputs": [
+        "候选位置、用途和环境",
+        "完整树冠/叶冠包围范围",
+        "根部或盆底承托、通路和窗景禁放区",
+        "独立seed、稳定group_id与component_id"
+      ],
+      "rules": [
+        "按林地—林缘—聚落形成疏密和层次，不在整片地面等距撒树。",
+        "容器、株形、支撑和背景分别设计；主景、高低呼应与留白同时存在。",
+        "先冻结地形、功能、门窗、灯与主家具，再在合法候选内变化种类、树冠、朝向和相对高度。",
+        "每个构件和随机通道独立寻址；换一组或新增一组不重抽其他已认可对象。",
+        "按完整叶冠与支撑检验；没有合法位置则拒绝/跳过并说明，不挤窄通道。",
+        "草、藤和旧化按环境与维护状态组织；不要每格独立抽材质。"
+      ],
+      "consumers": [
+        "hafusion/habitat07.py:tree",
+        "hafusion/habitat07.py:planter",
+        "adapters/room06/src/build_room.py:plant-0.1",
+        "hafusion/variation06.py"
+      ],
+      "examples": [
+        "interior-detail05",
+        "room06",
+        "decoration03",
+        "tiangengli18"
+      ],
+      "checks": [
+        "相同构件ID两seed对照",
+        "整体树冠与禁放区冲突",
+        "根部/盆底支撑",
+        "叶片persistent及目标版本状态",
+        "同机位柔和感与林地覆盖评审"
+      ],
+      "not_implemented": [
+        "自然生态/植物养护模拟",
+        "任意原生地形自动选址",
+        "植物研究SVG自动变成原有家具NBT"
+      ],
+      "reference": "docs/knowledge07/vegetation.md"
+    },
+    {
+      "id": "industrial",
+      "title": "工业设施与铁路场景",
+      "scope": "厂房、储罐、筒仓、高炉、公辅、管廊、动车所和联络线",
+      "triggers": [
+        "工业建筑",
+        "厂区布局",
+        "铁路大院",
+        "列车所",
+        "东南联络线"
+      ],
+      "inputs": [
+        "生产类型与运行/停产/再利用状态",
+        "设备身份和物料流向",
+        "接口标高、截面、支撑和净空",
+        "Create/原版版本与实际功能边界"
+      ],
+      "rules": [
+        "厂房、设备、连接系统分层；按行业选择公辅，不给每家厂复制同一清单。",
+        "固定顶罐、外浮顶罐、球罐、筒仓与煤气柜分开；外形相似不能交换功能。",
+        "高炉保留主炉、框架、配套炉与上料斜线；不能压成一座实心锈塔。",
+        "管廊、输送廊、铁路各自记录起终点、连接高度与通行净空，不能悬空或穿过封墙。",
+        "场景和轨道几何、Create连接、实际行车分别验收；装饰轨道不能写成可运营线路。",
+        "本版本厂房/管廊/固定顶罐为新原创类型试样；不冒充既有Guanggang/Factory/Depot/Substation工程的全部重建。"
+      ],
+      "consumers": [
+        "hafusion/habitat07.py:workshop-bay",
+        "hafusion/habitat07.py:pipe-rack",
+        "hafusion/habitat07.py:fixed-roof-tank",
+        "tools/haf.py archive show --case guangzhou-east"
+      ],
+      "examples": [
+        "industrial-atlas",
+        "guangzhou-east",
+        "southeast-link"
+      ],
+      "checks": [
+        "设备轮廓与行业一致",
+        "柱网、采光、装卸门与硬地",
+        "接口连续、承托、跨路高度",
+        "铁路纵坡/曲线/模组连接与游戏验证"
+      ],
+      "not_implemented": [
+        "真实工程设计和安全规范认证",
+        "完整生产系统或列车调度模拟",
+        "全部外部工业工程生成器的自动恢复"
+      ],
+      "reference": "docs/knowledge07/industrial.md"
+    },
+    {
+      "id": "orchestrator",
+      "title": "Haibara’s Architect 完整编排",
+      "scope": "从需求到研究、建造、验收、归档与规则升级",
+      "triggers": [
+        "完整流程",
+        "接入模型",
+        "继续项目",
+        "总结学习成skill"
+      ],
+      "inputs": [
+        "需求与授权范围",
+        "事实/原创/局部返工路线",
+        "源案例与当前验收状态"
+      ],
+      "rules": [
+        "先归档证据，再抽象规则，最后接入具体消费者和回归例；不因写了规则就宣布生成器已实现。",
+        "模型只提交结构化数据；路径、可运行适配器和权限由宿主决定。",
+        "run不可覆盖；失败保留，修订新建；哈希只证明内部一致，不证明源身份或审美质量。",
+        "案例学习、构件配方、确定性规则与回归测试不是神经网络权重训练。",
+        "使用前读取CLI能力表，研究、规划、已生成、实机、用户认可分别记录。"
+      ],
+      "consumers": [
+        "tools/haf.py workflow",
+        "tools/haf.py skill",
+        "tools/haf.py archive",
+        "hafusion/workflow06.py",
+        "hafusion/habitat07.py"
+      ],
+      "examples": [
+        "reading-garden",
+        "industrial-yard",
+        "room06"
+      ],
+      "checks": [
+        "输入、消费者、输出、验证、未完成范围五项齐全",
+        "固定ID与独立随机通道",
+        "不执行模型脚本或任意模块路径",
+        "资料来源与发布许可保留"
+      ],
+      "not_implemented": [
+        "无人值守研究到游戏的完整闭环",
+        "模型权重训练",
+        "个人skill自动安装"
+      ],
+      "reference": "docs/knowledge07/orchestrator.md"
+    }
+  ]
+}

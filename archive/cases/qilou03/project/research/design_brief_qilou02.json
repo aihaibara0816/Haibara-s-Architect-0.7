@@ -1,0 +1,114 @@
+{
+  "case_id": "Qilou02",
+  "run": "S06",
+  "parent_case": "Qilou01",
+  "scope": "Twelve authored Cantonese arcade buildings, four turning corners, four passages and one shared court",
+  "reference_records": [
+    {
+      "id": "E01",
+      "title": "E01 · 恩宁路街段",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670801/10956036.png",
+      "credit": "摄影：李宁 / 荔湾区规划资源分局",
+      "file": "reference_images/enning_street.png",
+      "sha256": "392e396ca2cb128c74094ae9626d3eef24147e768d8d0562106cf07899d2eaa7",
+      "visual_review_origin": "Qilou01; same verified image bytes reused",
+      "observation": "柱廊连续，上层立面有所变化。"
+    },
+    {
+      "id": "E02",
+      "title": "E02 · 恩宁路 140 号",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670804/10956036.png",
+      "credit": "图源署名：自摄 / 荔湾区规划资源分局",
+      "file": "reference_images/enning_140.png",
+      "sha256": "a88a6aaad270a27aaeaa6a8cddb5c8113c20fdd7b95e65756c15c404315a135a",
+      "visual_review_origin": "Qilou01; same verified image bytes reused",
+      "observation": "凹阳台、栏杆、柱式与顶部装饰。"
+    },
+    {
+      "id": "E03",
+      "title": "E03 · 骑楼街门夜景",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670806/10956036.png",
+      "credit": "摄影：陈明辉 / 荔湾区规划资源分局",
+      "file": "reference_images/arcade.png",
+      "sha256": "b58979cc907c7db9b4e9e0d86b87c0a3dfeda09544ce4ad9af005e7e6ddedd7e",
+      "visual_review_origin": "Qilou01; same verified image bytes reused",
+      "observation": "廊柱、街门与门头层次。"
+    },
+    {
+      "id": "E04",
+      "title": "E04 · 富兴茶居室内",
+      "source_page": "https://huacheng.gz-cmc.com/pages/2026/03/16/d242879e6adb40bf90236b9f31e644d6.html",
+      "source_image": "https://oss.gz-cmc.com/pgcr/root/huacheng/upload/news/image/2026/03/16/1773645534976058136.jpg?x-oss-process=style%2Fcontent",
+      "credit": "摄影：吴多 / 广州日报新花城",
+      "file": "reference_images/fuxing_interior.jpg",
+      "sha256": "0db973adbab3cf52d3ee996ca0e287b1f2d58ccdb0d8921a0b31cc90d124cadc",
+      "visual_review_origin": "Qilou01; same verified image bytes reused",
+      "observation": "座席组、服务、灯光和植物。"
+    }
+  ],
+  "programs": {
+    "Qilou02": "12 栋原创骑楼组成一个四角街坊，四条穿巷通往内院。144 × 44 × 144 格；8 栋两层、4 栋三层。日夜景、转角近景、单栋室内与剖切可分别切换。",
+    "Post": "惠民邮局：1层 邮务柜台 · 写信等候 · 分拣备货；2层 邮务办公 · 账房 · 档案。",
+    "Apothecary": "济安药铺：1层 药柜 · 咨询等候 · 称量；2层 库存 · 分装 · 账房；3层 住家 · 餐厨 · 阳台。",
+    "Grain": "德昌粮油：1层 粮油陈列 · 计量 · 收银 · 库存；2层 卧室 · 盥洗 · 起居 · 餐厨。",
+    "Bookshop": "清和书局：1层 选书书架 · 展示 · 结账；2层 藏书 · 阅览桌 · 窗边长座。",
+    "Barber": "松柏理发：1层 镜台理发位 · 等候 · 清洗；2层 卧室 · 盥洗 · 起居 · 餐厨。",
+    "Hardware": "顺兴五金：1层 五金陈列 · 零件 · 维修工作台；2层 卧室 · 盥洗 · 起居 · 餐厨。",
+    "Teahouse": "榕荫茶楼：1层 茶座 · 备餐 · 后厨清洗；2层 散座 · 长座 · 茶具柜；3层 卧室 · 餐厨 · 起居 · 阅读。",
+    "Textile": "永丰布庄：1层 布匹陈列 · 裁剪 · 结账 · 库存；2层 卧室 · 盥洗 · 起居 · 餐厨。",
+    "Grocery": "和顺杂货：1层 杂货陈列 · 结账 · 备货 · 厨房；2层 卧室 · 盥洗 · 起居 · 餐桌。",
+    "Inn": "永安客栈：1层 前台 · 等候 · 早餐后厨；2层 两间客房 · 公共起居 · 盥洗；3层 两间客房 · 公共起居 · 盥洗。",
+    "Clinic": "杏林诊所：1层 挂号等候 · 咨询 · 清洗；2层 休息床位 · 屏风 · 值班；3层 卧室 · 餐厨 · 起居。",
+    "Bakery": "福记饼铺：1层 糕点展示 · 小座席 · 烘焙备料；2层 卧室 · 盥洗 · 起居 · 餐厨。"
+  },
+  "facade_recipes": {
+    "Post": "双面转角 / 2 层 / 面宽 23 格",
+    "Apothecary": "凹阳台 / 3 层 / 面宽 17 格",
+    "Grain": "沿街店屋 / 2 层 / 面宽 15 格",
+    "Bookshop": "双面转角 / 2 层 / 面宽 23 格",
+    "Barber": "沿街店屋 / 2 层 / 面宽 15 格",
+    "Hardware": "沿街店屋 / 2 层 / 面宽 17 格",
+    "Teahouse": "双面转角 / 3 层 / 面宽 23 格",
+    "Textile": "沿街店屋 / 2 层 / 面宽 17 格",
+    "Grocery": "沿街店屋 / 2 层 / 面宽 15 格",
+    "Inn": "双面转角 / 3 层 / 面宽 23 格",
+    "Clinic": "沿街店屋 / 3 层 / 面宽 15 格",
+    "Bakery": "沿街店屋 / 2 层 / 面宽 17 格"
+  },
+  "spatial_contract": "delivery/Qilou02_Spatial.json",
+  "seed_scope": "Building types and placements are authored; seeded shutters/coping, supported plant species and tree crowns vary independently. No arbitrary floorplan solver is claimed.",
+  "implementation_mapping": [
+    {
+      "evidence": "E01/E03",
+      "decision": "Four connected turning corners, clear public arcade and covered passage mouths",
+      "code": "build_qilou_district.py: CONFIG / arcade / assembly / alleys",
+      "validation": "arcade connectivity, entry reachability, street and corner views"
+    },
+    {
+      "evidence": "E02",
+      "decision": "Separate upper facade recipes, stepped cornices, recessed balcony and grouped shutters",
+      "code": "qilou_core.py:build_shell; build_qilou_district.py:decorate",
+      "validation": "four elevations and close views"
+    },
+    {
+      "evidence": "E04",
+      "decision": "Program-specific reception, reading, retail, workshop, kitchen and dwelling arrangements",
+      "code": "build_qilou_district.py:shop",
+      "validation": "per-floor approximate reach, stairs, plans, interiors"
+    }
+  ],
+  "view_contract": {
+    "overall": "four equal orthographic day/night views",
+    "building": "four elevations, plans, section and exploded floors",
+    "detail": "street, all corners, arcade turn, alley, court and indoor eye-level views"
+  },
+  "scope_notes": [
+    "Original design, not a measured replica.",
+    "Case adapter only; no generic floorplan generator or model-weight training.",
+    "No Minecraft client execution.",
+    "Physical furniture and lighting retain recorded preview approximations."
+  ]
+}

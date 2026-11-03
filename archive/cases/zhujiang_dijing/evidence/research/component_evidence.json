@@ -1,0 +1,374 @@
+[
+  {
+    "component_id": "residence.mass",
+    "image_regions": [
+      {
+        "image_id": "ref01",
+        "bbox_norm": [
+          0.0,
+          0.0,
+          1.0,
+          0.8
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref02",
+        "bbox_norm": [
+          0.0,
+          0.0,
+          1.0,
+          0.8
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref05",
+        "bbox_norm": [
+          0.0,
+          0.0,
+          1.0,
+          0.8
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref07",
+        "bbox_norm": [
+          0.0,
+          0.0,
+          1.0,
+          0.8
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "三段连续湖畔住宅立面；13层类型为试作基准",
+    "parameters": "tower_centers_xz / residential_floors / floor_pitch",
+    "consumer": "build(): tower loop",
+    "limitations": "估算；栋号与实际间距待核实",
+    "execution_status": "generated",
+    "review_views": [
+      "front",
+      "top"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "residence.balcony",
+    "image_regions": [
+      {
+        "image_id": "ref05",
+        "bbox_norm": [
+          0.15,
+          0.1,
+          0.7,
+          0.9
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref07",
+        "bbox_norm": [
+          0.15,
+          0.1,
+          0.7,
+          0.9
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref12",
+        "bbox_norm": [
+          0.15,
+          0.1,
+          0.7,
+          0.9
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "栏板在外、可站立空间居中、门窗后退，禁止全部玻璃封成一张平面",
+    "parameters": "facade.balcony_depth / glazing_recess",
+    "consumer": "build(): bowed edge; room()",
+    "limitations": "可见关系较明确；深度是统一尺度近似",
+    "execution_status": "generated",
+    "review_views": [
+      "balcony",
+      "balcony_underside"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "residence.roundbay",
+    "image_regions": [
+      {
+        "image_id": "ref05",
+        "bbox_norm": [
+          0.45,
+          0.05,
+          0.75,
+          0.9
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref07",
+        "bbox_norm": [
+          0.45,
+          0.05,
+          0.75,
+          0.9
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "半圆窗/阳台与主体衔接；有开敞及后期封闭差异",
+    "parameters": "facade.round_bay_radius",
+    "consumer": "build(): roundbay loop",
+    "limitations": "开闭分布为可复现表达性补全，不是逐户调查",
+    "execution_status": "generated",
+    "review_views": [
+      "balcony"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "residence.crown",
+    "image_regions": [
+      {
+        "image_id": "ref05",
+        "bbox_norm": [
+          0.0,
+          0.05,
+          0.9,
+          0.38
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref14",
+        "bbox_norm": [
+          0.0,
+          0.05,
+          0.9,
+          0.38
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "圆形檐冠、开敞弧形顶架；不使用克莱塔楼小穹顶",
+    "parameters": "roof_y",
+    "consumer": "build(): crown arch and round rings",
+    "limitations": "只还原可见构架语言；隐蔽设备估算",
+    "execution_status": "generated",
+    "review_views": [
+      "roof",
+      "top"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "residence.arcade",
+    "image_regions": [
+      {
+        "image_id": "ref12",
+        "bbox_norm": [
+          0.0,
+          0.3,
+          0.95,
+          1.0
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "首层柱落在连续平台上，入口与步道连通",
+    "parameters": "ground_floor_y",
+    "consumer": "build(): arcade / entry",
+    "limitations": "被树遮挡，柱位与门厅尺度待核实",
+    "execution_status": "generated",
+    "review_views": [
+      "entrance"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "residence.rear",
+    "image_regions": [
+      {
+        "image_id": "ref14",
+        "bbox_norm": [
+          0.45,
+          0.1,
+          0.95,
+          0.8
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref07",
+        "bbox_norm": [
+          0.45,
+          0.1,
+          0.95,
+          0.8
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "补全侧背窗墙与设备栏，不能漏成开口壳",
+    "parameters": "tower_depth",
+    "consumer": "build(): side windows, rear rooms",
+    "limitations": "精确窗位未核，视觉验收待用户",
+    "execution_status": "generated",
+    "review_views": [
+      "rear",
+      "nw_day",
+      "ne_day"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "garden.pavilion",
+    "image_regions": [
+      {
+        "image_id": "ref03",
+        "bbox_norm": [
+          0.15,
+          0.1,
+          0.7,
+          0.85
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref04",
+        "bbox_norm": [
+          0.15,
+          0.1,
+          0.7,
+          0.85
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "圆顶、连续檐环、独立柱列和底座",
+    "parameters": "garden.gazebo_center",
+    "consumer": "build(): pavilion",
+    "limitations": "形态参照；绝对位置估算",
+    "execution_status": "generated",
+    "review_views": [
+      "garden"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "garden.bridge",
+    "image_regions": [
+      {
+        "image_id": "ref04",
+        "bbox_norm": [
+          0.0,
+          0.35,
+          0.85,
+          0.98
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "缓拱步桥、栏杆和踏步同属可通行截面",
+    "parameters": "garden.bridge_x / bridge_z0 / bridge_z1",
+    "consumer": "build(): bridge",
+    "limitations": "步高与跨长适配；游戏碰撞待验证",
+    "execution_status": "generated",
+    "review_views": [
+      "garden",
+      "top"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "site.lake",
+    "image_regions": [
+      {
+        "image_id": "ref02",
+        "bbox_norm": [
+          0.0,
+          0.35,
+          1.0,
+          1.0
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref05",
+        "bbox_norm": [
+          0.0,
+          0.35,
+          1.0,
+          1.0
+        ],
+        "region_type": "context rectangle, not segmentation"
+      },
+      {
+        "image_id": "ref11",
+        "bbox_norm": [
+          0.0,
+          0.35,
+          1.0,
+          1.0
+        ],
+        "region_type": "context rectangle, not segmentation"
+      }
+    ],
+    "observation_or_proposal": "浅水、低岸，与绿地路径区别；有承水底壁",
+    "parameters": "garden.lake_centers",
+    "consumer": "build(): lake mask",
+    "limitations": "园林裁切重组，非实测总平",
+    "execution_status": "generated",
+    "review_views": [
+      "top",
+      "garden"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "lighting.windows",
+    "image_regions": [],
+    "observation_or_proposal": "未知真实夜间模式；稳定房间ID生成亮暗与暖冷组合",
+    "parameters": "seed / namespace / lighting.activity",
+    "consumer": "room(): room_lighting / room_style",
+    "limitations": "synthetic；本轮未取得可核对的目标楼组夜景",
+    "execution_status": "generated",
+    "review_views": [
+      "front_night",
+      "balcony_night"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  },
+  {
+    "component_id": "interior.window_back",
+    "image_regions": [],
+    "observation_or_proposal": "背墙、有限进深、书架/台面/盆栽/座椅补全",
+    "parameters": "seed / namespace",
+    "consumer": "room(): furnishing_cells",
+    "limitations": "synthetic；非真实户型、未建可游玩全楼交通",
+    "execution_status": "generated",
+    "review_views": [
+      "residential_section",
+      "interior_plan"
+    ],
+    "geometry_status": "see final validation",
+    "fidelity_status": "awaiting user feedback"
+  }
+]

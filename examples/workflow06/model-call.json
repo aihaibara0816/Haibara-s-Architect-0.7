@@ -1,0 +1,43 @@
+{
+  "name": "haf_import_proposal",
+  "arguments": {
+    "run_id": "model-001",
+    "proposal": {
+      "schema_version": "0.6-model-proposal",
+      "source_request_sha256": "068ba390df76c5d0b6b47218c33883f5018a26db0f30d1e6c44bfa364a86b116",
+      "proposed_modules": [
+        {
+          "component_id": "reading.1.stacks.a",
+          "room_id": "reading.1",
+          "bounds_xyz": [
+            3,
+            3,
+            4,
+            5,
+            6,
+            15
+          ],
+          "use_faces": [
+            "east"
+          ]
+        },
+        {
+          "component_id": "reading.1.desk",
+          "room_id": "reading.1",
+          "bounds_xyz": [
+            18,
+            3,
+            16,
+            22,
+            5,
+            20
+          ],
+          "use_faces": [
+            "north",
+            "south"
+          ]
+        }
+      ]
+    }
+  }
+}

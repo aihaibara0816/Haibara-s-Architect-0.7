@@ -1,0 +1,180 @@
+{
+  "schema_version": "0.4",
+  "project_id": "civic-scope-handoff-example",
+  "route": "constrained_completion",
+  "primary_use": "civic",
+  "secondary_uses": [
+    "community lounge"
+  ],
+  "identity_features": [
+    "导办取号",
+    "连续办理柜台",
+    "公共等候与共享休息"
+  ],
+  "style": "modern",
+  "interior_level": "L2",
+  "coordinates": {
+    "unit": "block",
+    "up": "Y",
+    "north": "-Z"
+  },
+  "storeys_total": 7,
+  "storeys_assumption": null,
+  "authorized_scope": {
+    "editable_regions": [
+      [
+        0,
+        0,
+        0,
+        40,
+        25,
+        40
+      ]
+    ],
+    "locked_component_ids": [
+      "facade.windows",
+      "facade.ledges",
+      "cores"
+    ]
+  },
+  "floor_levels": [
+    {
+      "id": "F1",
+      "floor_y": 3,
+      "upper_floor_y": 8,
+      "min_clear_height": 4,
+      "existing_slab_recess_reason": "既有通廊净高受限，灯嵌既有楼板；示例坐标，不是 Civic 实际几何"
+    },
+    {
+      "id": "F2",
+      "floor_y": 10,
+      "upper_floor_y": 17,
+      "min_clear_height": 4
+    }
+  ],
+  "rooms": [
+    {
+      "id": "reading.1",
+      "floor_id": "F1",
+      "function": "public waiting",
+      "bounds_xyz": [
+        2,
+        3,
+        2,
+        25,
+        9,
+        30
+      ],
+      "entrances": [
+        [
+          12,
+          3,
+          2
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "reading.2",
+      "floor_id": "F2",
+      "function": "community lounge",
+      "bounds_xyz": [
+        2,
+        10,
+        2,
+        25,
+        16,
+        30
+      ],
+      "entrances": [
+        [
+          12,
+          10,
+          2
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "cafe.1",
+      "floor_id": "F1",
+      "function": "self-service",
+      "bounds_xyz": [
+        25,
+        3,
+        2,
+        38,
+        9,
+        20
+      ],
+      "entrances": [
+        [
+          25,
+          3,
+          10
+        ]
+      ],
+      "color_intent": "warm"
+    }
+  ],
+  "circulation_keepouts": [
+    [
+      11,
+      3,
+      2,
+      14,
+      9,
+      30
+    ]
+  ],
+  "proposed_modules": [
+    {
+      "component_id": "reading.1.stacks.a",
+      "room_id": "reading.1",
+      "bounds_xyz": [
+        3,
+        3,
+        4,
+        5,
+        6,
+        15
+      ],
+      "use_faces": [
+        "east"
+      ]
+    },
+    {
+      "component_id": "reading.1.desk",
+      "room_id": "reading.1",
+      "bounds_xyz": [
+        16,
+        3,
+        6,
+        20,
+        5,
+        10
+      ],
+      "use_faces": [
+        "north",
+        "south"
+      ]
+    }
+  ],
+  "landscape": {
+    "archetype": "civic",
+    "bounds_xyz": [
+      0,
+      0,
+      31,
+      40,
+      6,
+      40
+    ],
+    "water_requested": true,
+    "water_reason": "用户已认可当前市民中心观水小园；不是通用政务前场默认"
+  },
+  "evidence_refs": [
+    "cases/civic_center/STATE.md"
+  ],
+  "example_scope": "Contract example with schematic coordinates; not an executable Civic R16 replacement."
+}

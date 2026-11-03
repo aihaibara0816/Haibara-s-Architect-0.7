@@ -1,0 +1,245 @@
+{
+  "case": "guangzhou_customs",
+  "run": "V1_r04",
+  "passed": true,
+  "checks": [
+    {
+      "name": "NBT exact manifest and dimensions",
+      "passed": true,
+      "details": {
+        "blocks": 192047,
+        "hash": "a89e1d213e5dca33241f2e13803ebc11cc3cdedc8e7d89a8cf706794bf99e2a3",
+        "size": [
+          126,
+          148,
+          116
+        ]
+      }
+    },
+    {
+      "name": "supported complete block states",
+      "passed": true,
+      "details": 49
+    },
+    {
+      "name": "complete component ownership",
+      "passed": true,
+      "details": 192047
+    },
+    {
+      "name": "137-block study envelope including needle",
+      "passed": true,
+      "details": {
+        "top_cell_y": 140,
+        "grade_y": 4,
+        "not_a_survey": true
+      }
+    },
+    {
+      "name": "all four sides have masonry enclosure",
+      "passed": true,
+      "details": [
+        [
+          25,
+          66,
+          55
+        ],
+        [
+          101,
+          66,
+          55
+        ],
+        [
+          63,
+          66,
+          28
+        ],
+        [
+          52,
+          66,
+          75
+        ]
+      ]
+    },
+    {
+      "name": "rear central projection actually extends behind wings",
+      "passed": true,
+      "details": "central z=28; side wings begin z=39"
+    },
+    {
+      "name": "recessed tower window glass and clear reveals",
+      "passed": true,
+      "details": {
+        "failures": [],
+        "definition": "front wall plane empty; glazing one block behind"
+      }
+    },
+    {
+      "name": "large front arch glazing",
+      "passed": true,
+      "details": "central large arch"
+    },
+    {
+      "name": "arch space behind glazing remains hollow",
+      "passed": true,
+      "details": "no full floor slabs filling the arch"
+    },
+    {
+      "name": "crown paired columns separated",
+      "passed": true,
+      "details": "one-block shafts preserve pair gaps"
+    },
+    {
+      "name": "clock face 0: light face readable",
+      "passed": true,
+      "details": {
+        "white": 33,
+        "black_marks": 12
+      }
+    },
+    {
+      "name": "clock face 1: light face readable",
+      "passed": true,
+      "details": {
+        "white": 33,
+        "black_marks": 12
+      }
+    },
+    {
+      "name": "clock face 2: light face readable",
+      "passed": true,
+      "details": {
+        "white": 33,
+        "black_marks": 12
+      }
+    },
+    {
+      "name": "clock face 3: light face readable",
+      "passed": true,
+      "details": {
+        "white": 33,
+        "black_marks": 12
+      }
+    },
+    {
+      "name": "dome cap supported without floating rings",
+      "passed": true,
+      "details": 120
+    },
+    {
+      "name": "slender needle not a solid multi-block mast",
+      "passed": true,
+      "details": 7
+    },
+    {
+      "name": "podium glass enclosure 0",
+      "passed": true,
+      "details": "visible dark glazing, roof and opaque grid"
+    },
+    {
+      "name": "podium glass enclosure 1",
+      "passed": true,
+      "details": "visible dark glazing, roof and opaque grid"
+    },
+    {
+      "name": "podium side arch 0",
+      "passed": true,
+      "details": "provisional model-right assignment"
+    },
+    {
+      "name": "podium side arch 1",
+      "passed": true,
+      "details": "provisional model-right assignment"
+    },
+    {
+      "name": "podium side arch 2",
+      "passed": true,
+      "details": "provisional model-right assignment"
+    },
+    {
+      "name": "roof green proxy restricted to observed rear area",
+      "passed": true,
+      "details": "not a green lawn around the entire building"
+    },
+    {
+      "name": "entrance six half-block rises reach landing",
+      "passed": true,
+      "details": [
+        4.5,
+        5,
+        5.5,
+        6,
+        6.5,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "entry doorway four-block clearance",
+      "passed": true,
+      "details": "width 7, clear height 4"
+    },
+    {
+      "name": "entrance landing has solid support",
+      "passed": true,
+      "details": "no suspended foundation band"
+    },
+    {
+      "name": "stable unique room IDs",
+      "passed": true,
+      "details": 734
+    },
+    {
+      "name": "each scheduled lamp matches exported block",
+      "passed": true,
+      "details": {
+        "glowstone": 184,
+        "sea_lantern": 184,
+        "off": 366
+      }
+    },
+    {
+      "name": "unique reserved fixtures including dark rooms",
+      "passed": true,
+      "details": 734
+    },
+    {
+      "name": "no failed occupied room lamp placements",
+      "passed": true,
+      "details": "candidate slots reserved by geometry"
+    },
+    {
+      "name": "dark, warm and cool populations present",
+      "passed": true,
+      "details": {
+        "glowstone": 184,
+        "sea_lantern": 184,
+        "off": 366
+      }
+    },
+    {
+      "name": "furnishings go beyond a closed shell",
+      "passed": true,
+      "details": "synthetic desks, shelves, planting and seats"
+    },
+    {
+      "name": "pane and bar connections symmetric",
+      "passed": true,
+      "details": 0
+    },
+    {
+      "name": "material schedule from final states",
+      "passed": true,
+      "details": 32
+    }
+  ],
+  "technical_status": "offline file and geometry checks passed",
+  "fidelity_status": "manual preview review; user acceptance pending",
+  "game_status": "pending",
+  "limits": [
+    "height/plan/geo bearing unresolved",
+    "actual material textures and neighbour physics not rendered",
+    "night and interior are game design proposals",
+    "partial synthetic circulation; full building navigation not certified"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "source": "https://www.bilibili.com/video/BV1Dx41187iG/?vd_source=095f618f639990440118c69811815fa4",
+  "title": "大正风浪漫建築 ～大正的街道～ 最終景",
+  "uploader": "製糖派ゆかマキ",
+  "original_source_id": "sm31134702",
+  "declared_scope": "明治至昭和初期",
+  "viewing_scope": "部分选段实际播放与停帧；非完整观看，内饰为原创功能设计",
+  "review_date": "2026-10-30",
+  "material_pack_dependencies": "未从原作者核实，不照搬无法判断的纹理细线",
+  "entries": [
+    {
+      "id": "EV01",
+      "time": "00:40–00:50 全景",
+      "observation": "山脚不同高度屋顶，木构和洋式立面混合，建筑间距紧凑。",
+      "geometry": "六个不同宽度单体，两侧布置，地板本地Y=12/9/7和12/10/8；坡上山体与后墙台地。",
+      "consumer": "src/build_street.py: placements, ground, pads",
+      "review": "day_SE / day_SW / top / downhill_street"
+    },
+    {
+      "id": "EV02",
+      "time": "01:12 弯曲街道与分叉",
+      "observation": "铺装主路连向建筑入口和转角，实体门面沿路组织，路缘与中部有区别。",
+      "geometry": "中心线缓弯，圆石占主导，石砖连续边带，六处石阶；独立入口接街。",
+      "consumer": "centre, grade, transitions, road.surface, entry.landing",
+      "review": "uphill_street / top / navigation audit"
+    },
+    {
+      "id": "EV03",
+      "time": "01:30 屋面与道路俯看",
+      "observation": "铜绿、深瓦和石边各自形成连续区域，电杆线路强调街道方向。",
+      "geometry": "铜板书店门脸、药局小绿顶、连续灰瓦；四根电杆与高位细链。",
+      "consumer": "enrich; utility.pole / utility.wire",
+      "review": "hero / shopfronts"
+    },
+    {
+      "id": "EV04",
+      "time": "07:20（上轮）及07:36（本轮）街巷近景",
+      "observation": "深檐、窗套、栏杆、店面和墙基形成前后遮挡，转角有厚度。",
+      "geometry": "窗边竖向活板门、薄棚、檐下托、展示台、连续栏杆；照相馆平顶门脸和木造屋身。",
+      "consumer": "enrich; smallshop; canopy / shutter / cornice",
+      "review": "shopfronts / photo_front / side_alley"
+    },
+    {
+      "id": "EV05",
+      "time": "08:45（上轮）临水街面",
+      "observation": "桥与栏杆连接临水街道，后方木构多层立面；灯集中于节点。",
+      "geometry": "东端溪桥、岸边步道、旅馆沿水方向侧窗、桥头灯及口袋花园。",
+      "consumer": "creek / bridge / bank.path / street.lamp",
+      "review": "bridge_arrival / riverside / night views"
+    },
+    {
+      "id": "EV06",
+      "time": "06:31（上轮）樱花背景",
+      "observation": "樱花林与山林成片围合，中央建筑轮廓仍清楚。",
+      "geometry": "后台云杉、溪边与巷口三株樱花、岸侧小竹丛；近街仅少量盆栽。",
+      "consumer": "tree; bamboo.grove; planting.groundcover",
+      "review": "top / day_SE / hero"
+    }
+  ]
+}

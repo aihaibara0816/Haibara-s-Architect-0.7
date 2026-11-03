@@ -1,0 +1,21 @@
+{
+  "id": "elizabeth_tower",
+  "name": "伊丽莎白塔（大本钟）",
+  "style": "classical",
+  "origin": "HAF 0.4 快照",
+  "version": "V1_r02",
+  "history": "V1_r02",
+  "achievement": "四面钟盘、钟室、灯笼层、尖顶按独立比例建模；古典线脚使用楼梯/半砖，砂岩与深色屋面形成材质分工。",
+  "lesson": "固定建筑身份与范围；先看钟盘/钟室/尖顶关系，再加细节；材料ID通过不等于纹理表现通过。",
+  "failure": "钟室和上部比例需修；纯色近似渲染削弱石材/屋面纹理；不能把大本钟与白金汉宫误合为一栋。",
+  "open": "仅带截断的议会邻翼；钟针静态，钟室/楼梯可玩性待测，未补真实资源包纹理。",
+  "acceptance": "用户提出材质纹理不足；未关闭",
+  "game": "待实测",
+  "source": "HAF04.zip",
+  "source_evidence": [
+    "learning/london_western_v1.json",
+    "cases/elizabeth_tower/src/build_case.py"
+  ],
+  "nbt_member": "HAF-0.4/cases/elizabeth_tower/runs/V1_r02/building.nbt",
+  "style_name": "古典语汇与纪念性建筑"
+}

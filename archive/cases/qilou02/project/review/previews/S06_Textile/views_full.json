@@ -1,0 +1,983 @@
+[
+  {
+    "image": "exterior_FR.png",
+    "sha256": "767386a9d3f44dfba5407abe7b9cd5964b5bd527124b52517268f30e114e75f0",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exterior_FR",
+      "eye": [
+        108.5,
+        94.5,
+        116.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "exterior_FR_night.png",
+    "sha256": "a6568a15b3464d9e98cc172e3820e5ff74a1eb09aa2d2cc61c4e1118a6561e75",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exterior_FR_night",
+      "eye": [
+        108.5,
+        94.5,
+        116.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "exterior_FL.png",
+    "sha256": "1d393f99202742bbd1f4d212ebce6caac5b3c35edb535c6d63c060349e63fbd6",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exterior_FL",
+      "eye": [
+        -91.5,
+        94.5,
+        116.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "exterior_FL_night.png",
+    "sha256": "3c5c1e3a4ef1dbfc16e8e66c3d28f37704cbc8da5a6f8b53ab83a7b3c0719efe",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exterior_FL_night",
+      "eye": [
+        -91.5,
+        94.5,
+        116.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "exterior_BL.png",
+    "sha256": "27adce6451077d9eccbb09d5c6068a6a343733835093a8de6898d91612bbf423",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exterior_BL",
+      "eye": [
+        -91.5,
+        94.5,
+        -83.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "exterior_BL_night.png",
+    "sha256": "802f89a3abd3a0b01ea91df71baf6277b7967937c7f878210be4fc1916edad5c",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exterior_BL_night",
+      "eye": [
+        -91.5,
+        94.5,
+        -83.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "exterior_BR.png",
+    "sha256": "0cce97eaf9fe4ddec17a463571219178dc537238291c73bdfaa22348dd5b70cf",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exterior_BR",
+      "eye": [
+        108.5,
+        94.5,
+        -83.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "exterior_BR_night.png",
+    "sha256": "950e93bcd03cab45f4e6c71ee04096f6337cc8df5e716302361cae2807378474",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exterior_BR_night",
+      "eye": [
+        108.5,
+        94.5,
+        -83.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "elevation_F.png",
+    "sha256": "6820843684eb68bdbec32d5d80b7621f112b3abfcf50bb2c254fa0c3d528436e",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "elevation_F",
+      "eye": [
+        8.5,
+        9.5,
+        116.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 36,
+      "spanZ": 26.25
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "elevation_R.png",
+    "sha256": "0577159a5c47e3f246c01a40fa32ba02516ebf2f0fa8f40e14250dee8a49fa89",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "elevation_R",
+      "eye": [
+        108.5,
+        9.5,
+        16.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 36,
+      "spanZ": 26.25
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "elevation_B.png",
+    "sha256": "7724d48eb3eceb382b03d64ebacb1af33efb6e8e5b0ba1e3d48a57938c95d133",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "elevation_B",
+      "eye": [
+        8.5,
+        9.5,
+        -83.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 36,
+      "spanZ": 26.25
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "elevation_L.png",
+    "sha256": "ccb9e54217fef344e0e957ecc5177c3e6952c133737f85d1cad2da55595bb4d9",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "elevation_L",
+      "eye": [
+        -91.5,
+        9.5,
+        16.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 36,
+      "spanZ": 26.25
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "top.png",
+    "sha256": "a3058663ebd06f3be631c9ba351edcc2f2d8c99390dd15f2aad9e8b4b25b9036",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "top",
+      "eye": [
+        8.5,
+        150,
+        16.5
+      ],
+      "target": [
+        8.5,
+        0,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 50.74285714285714,
+      "spanZ": 37
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "front.png",
+    "sha256": "26a30ddff824b451878351000ac4a8e64738694732f948ae57ebdf96ad4c54bc",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "front",
+      "eye": [
+        13.5,
+        11,
+        51
+      ],
+      "target": [
+        8.5,
+        13,
+        26
+      ],
+      "fov": 65
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "front_night.png",
+    "sha256": "0580579e8f9b7b3ce94177eb7eb950a5cbc7a51ccd505f6eecf63b50fcb2902c",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "front_night",
+      "eye": [
+        13.5,
+        11,
+        51
+      ],
+      "target": [
+        8.5,
+        13,
+        26
+      ],
+      "fov": 65,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "plan_0.png",
+    "sha256": "76fec4bfb74f9ec874ee62092eb8215353707b051085af38eff594bf46b4d34a",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "plan_0",
+      "eye": [
+        8.5,
+        150,
+        16.5
+      ],
+      "target": [
+        8.5,
+        0,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 50.74285714285714,
+      "spanZ": 37,
+      "minY": 2,
+      "cutY": 5.99
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "plan_1.png",
+    "sha256": "9e734e707389a9a92aaadacdc392a4837ef1b28beb6217dac7955a982c3e6781",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "plan_1",
+      "eye": [
+        8.5,
+        150,
+        16.5
+      ],
+      "target": [
+        8.5,
+        0,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 50.74285714285714,
+      "spanZ": 37,
+      "minY": 9,
+      "cutY": 12.99
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "section.png",
+    "sha256": "d76586d7c82e86076b98cfca8dcd8b9170567c2e125b569af351bc15f442d49b",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "section",
+      "eye": [
+        68.5,
+        45,
+        76.5
+      ],
+      "target": [
+        8.5,
+        9.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2,
+      "cutX": 9
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "layer_0.png",
+    "sha256": "2f7ce9754ff48bfb6b3cf0ba43196b2b7fbe54f6ec197acecd42e7f322912ce3",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "layer_0",
+      "eye": [
+        68.5,
+        55,
+        76.5
+      ],
+      "target": [
+        8.5,
+        5.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2,
+      "minY": 2,
+      "cutY": 8.99
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "layer_1.png",
+    "sha256": "6d69a2b66817be1639330a9c929cf5d75014cff0fa9e137ba1b39b4f54790608",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "layer_1",
+      "eye": [
+        68.5,
+        55,
+        76.5
+      ],
+      "target": [
+        8.5,
+        12.0,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 46.90285714285715,
+      "spanZ": 34.2,
+      "minY": 9,
+      "cutY": 14.99
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "exploded.png",
+    "sha256": "885c8abb041534f0b9cc0cf265136bea63df0b4d9dace8df08f2411cea335849",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "exploded",
+      "eye": [
+        108.5,
+        105,
+        116.5
+      ],
+      "target": [
+        8.5,
+        15.5,
+        16.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 61.90285714285715,
+      "spanZ": 45.1375,
+      "explode_floors": [
+        2,
+        9,
+        15
+      ],
+      "explode_gap": 6
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "inside.png",
+    "sha256": "f3141dc6af1e54feeaabbe02cb6584c4582c507d95b865fdb02083f9af356b15",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "inside",
+      "eye": [
+        7.5,
+        4.62,
+        22
+      ],
+      "target": [
+        11,
+        4.8,
+        15
+      ],
+      "fov": 74
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "inside_night.png",
+    "sha256": "a64d132252c81674c0c4aaa8dc625614e39c5dc90873c3d03bcbc32b90fef2b6",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "inside_night",
+      "eye": [
+        7.5,
+        4.62,
+        22
+      ],
+      "target": [
+        11,
+        4.8,
+        15
+      ],
+      "fov": 74,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "service.png",
+    "sha256": "d11a6fae5de7cf83f1c526b1d24f2a55f16a8cd9e4634596271771f40b4e4da7",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "service",
+      "eye": [
+        6,
+        4.62,
+        10
+      ],
+      "target": [
+        11,
+        4.8,
+        5
+      ],
+      "fov": 74
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "service_night.png",
+    "sha256": "56370137057c781813e2b10ed2d532f0bd03c6dd12f335fe0c9d1adb8f4e5c40",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "service_night",
+      "eye": [
+        6,
+        4.62,
+        10
+      ],
+      "target": [
+        11,
+        4.8,
+        5
+      ],
+      "fov": 74,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "upper.png",
+    "sha256": "5347d2f0f04eb1c2ffe3e0432a5a2a2f74409645336c946dcafeb4394fc4d80b",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "upper",
+      "eye": [
+        6,
+        11.62,
+        23
+      ],
+      "target": [
+        10,
+        11.8,
+        17
+      ],
+      "fov": 74
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "upper_night.png",
+    "sha256": "dc2b4ee90bec3f6a8dca3051ab03b3e41a42d3eb4ee8d4d50ee6bc114a5a5430",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "upper_night",
+      "eye": [
+        6,
+        11.62,
+        23
+      ],
+      "target": [
+        10,
+        11.8,
+        17
+      ],
+      "fov": 74,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "bedroom.png",
+    "sha256": "d903f2c8ef48db88a06e244a2835b5083f78846024b126e5cd265d31a1d44048",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "bedroom",
+      "eye": [
+        9.5,
+        11.620000000000001,
+        12
+      ],
+      "target": [
+        10,
+        11.2,
+        7
+      ],
+      "fov": 74
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "bedroom_night.png",
+    "sha256": "5556cbc91bce0a31e2ac7457ea3c28e31e2048f2bb1cde295a52f92bb88fec0f",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "bedroom_night",
+      "eye": [
+        9.5,
+        11.620000000000001,
+        12
+      ],
+      "target": [
+        10,
+        11.2,
+        7
+      ],
+      "fov": 74,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "arcade.png",
+    "sha256": "e54eeab1207c4605600b37bb3a149080e09d4392fbef3cdd58dacbb3e1722748",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "arcade",
+      "eye": [
+        1.5,
+        4.62,
+        26
+      ],
+      "target": [
+        15,
+        5.6,
+        26
+      ],
+      "fov": 74
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "arcade_night.png",
+    "sha256": "be5449d73fa1ec2c8723ab8a021c71cb5acf75975d595bebb7868cf25b428643",
+    "source_nbt_sha256": "cfaadfa04ef4c2a3f660a1d0c65980ca282c13880100bbbdacc34d8c914fbe7b",
+    "camera": {
+      "width": 1440,
+      "height": 1050,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "arcade_night",
+      "eye": [
+        1.5,
+        4.62,
+        26
+      ],
+      "target": [
+        15,
+        5.6,
+        26
+      ],
+      "fov": 74,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

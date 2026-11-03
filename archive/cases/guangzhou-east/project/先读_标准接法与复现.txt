@@ -1,0 +1,25 @@
+广州东联络线 B03S2 — 标准接口与分段打印
+
+先打开 GuangzhouEast_Print_Guide.html 或“标准接法说明.txt”。
+print_parts/：原七份联络线分件；whole_groups/：相同联络线的三份整组，两者任选一套。
+approach_parts/：本次新增的南侧补接 144＋144＋2 格。已经打印完整 B03 正线时不要重复补接。
+原十份 NBT 没有改动；新增三件共9,606个方块，直接取自完整 B03，填补旧独立包未附带的南侧正线。
+所有数字以目标轨道方块整数坐标为准。切勿把轨道端点和蓝图外框最小角混用。
+P0=(462,33,30)，Q0=(122,7,363)，相对原站最小角。现有末端是第0格。
+此包不承诺任意144格模板、任意旋转或任意现场地形可直接替换；标准只针对当前B03与原朝向。
+
+验证：原十份NBT哈希未变；新增三件独立回读与完整B03对应方块一致；南侧连续正线补齐；13个放置定位点、18处模块间普通轨道接缝逐点核对。
+离线HTML：13份NBT下载字节一致，多个参考轨道点换算均通过，空值/小数拒绝，手机宽度无页面横向溢出。
+尚未进行 Minecraft 导入、蓝图炮打印和列车实机试跑。原三角地用途图仍仅为概念。
+
+复现：Python3.12；需 numpy、scipy、Pillow、fonttools。nbtlib2.0.4及MIT许可已附。
+在project/运行：
+  python3 src/segment_link_b03.py
+  python3 src/plan_triangle_b03.py
+  python3 src/deliver_split_b03.py
+  python3 src/annotate_link_interfaces.py
+  python3 src/update_print_guide_interfaces.py
+结果写到project/deliverables/B03S1。runs/B03S1保留上一版记录；runs/B03S2为本版核对结果。
+浏览器检查脚本为src/check_interface_browser.cjs；不同环境需调整Playwright模块路径，并传入Chromium可执行文件位置。
+本包没有包含浏览器内部测试截图。
+Noto Sans CJK ©2014–2021 Adobe，SIL Open Font License1.1，全文见project/research/dongguanxi/FONT_OFL.txt。

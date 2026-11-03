@@ -1,0 +1,566 @@
+{
+  "date": "2026-10-20",
+  "note": "Actual retained source snapshots; historical git commit identity not inferred.",
+  "files": [
+    {
+      "path": "vendor/building_reference/.gitignore",
+      "bytes": 23,
+      "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b"
+    },
+    {
+      "path": "vendor/building_reference/SKILL.md",
+      "bytes": 22166,
+      "sha256": "edbc0fe589e034ecc524163239b4b94aa02df9d3ac24293bf5f29dac6d82b0c4"
+    },
+    {
+      "path": "vendor/building_reference/agents/openai.yaml",
+      "bytes": 630,
+      "sha256": "ddeb548145e7d26d45d9a72cf5274cded257cbbdc926788e596381388c50c7e5"
+    },
+    {
+      "path": "vendor/building_reference/assets/icon.svg",
+      "bytes": 1210,
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee"
+    },
+    {
+      "path": "vendor/building_reference/references/architectural-brief.md",
+      "bytes": 9649,
+      "sha256": "bc718cb5114c79a8eadf62e2f0c599ac28cd9eee45df0e4791df082e4b4f9045"
+    },
+    {
+      "path": "vendor/building_reference/references/data-contract.md",
+      "bytes": 21451,
+      "sha256": "526bb4c2487d78f2188f50727317d84eb4143a009c5730759e178fd3f837bdd7"
+    },
+    {
+      "path": "vendor/building_reference/references/download-manifest-template.json",
+      "bytes": 52,
+      "sha256": "c4857ae95d596224673a2bff41cf6b34bf15f0e7128bfe935e9f91fb8e0e4b4c"
+    },
+    {
+      "path": "vendor/building_reference/references/download-workflow.md",
+      "bytes": 5235,
+      "sha256": "60c0a85b9de19a931115c7a70c5a12fef875e0c137490b64fb587737afe31577"
+    },
+    {
+      "path": "vendor/building_reference/references/packet-template.json",
+      "bytes": 5810,
+      "sha256": "673ed8dc6616871e62a00aa0925b41dbfc6b262dafd9446c52fb9d885bbece29"
+    },
+    {
+      "path": "vendor/building_reference/references/report-template.md",
+      "bytes": 10248,
+      "sha256": "b23917e10b24431e58f493d75e81ee688f223d4af33ea408367a17c1fa590f2f"
+    },
+    {
+      "path": "vendor/building_reference/scripts/bundle_reference_images.py",
+      "bytes": 26338,
+      "sha256": "131505f0a80bb72193acb710aa51c9c1fbaf808d9105e81f1601048265b2a2dc"
+    },
+    {
+      "path": "vendor/building_reference/scripts/scale.py",
+      "bytes": 3582,
+      "sha256": "b2b0a127c6fc5913e009a62d2dcf14661a67cd294c4db434673ae286b3a40b39"
+    },
+    {
+      "path": "vendor/building_reference/scripts/selftest.py",
+      "bytes": 17985,
+      "sha256": "de6ee585803807edf4749788b80ec354ce870b72192457d221869462e71b2ad1"
+    },
+    {
+      "path": "vendor/building_reference/scripts/validate_packet.py",
+      "bytes": 31843,
+      "sha256": "99b79be29529d3cc99e1b5b94f32414c3e9d53c8bd2908be1a68292eebaa0117"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/CHANGELOG.md",
+      "bytes": 125,
+      "sha256": "12f842d9b5fe08488553a4e754abe3b9b28a0945ad921bc89e5dfbf993bdd83c"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/SKILL.md",
+      "bytes": 14674,
+      "sha256": "dcf255734b88b9894038be0186560a2b44a378d433ad9306a5ba19fa2640f101"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/START_HERE.md",
+      "bytes": 268,
+      "sha256": "5dceba7ca49bdb964383b7005d4136f5fbc995fde9600263c19333835c283525"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/STATE.md",
+      "bytes": 527,
+      "sha256": "dd2468e86633a392b39d764228d7d63c0d0c855c29c3f1afa1a04d5ae88bea8b"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/dimensions.json",
+      "bytes": 847,
+      "sha256": "69dcefff1ede6a32a0a21cb1530896243d322ae0b9ab3e4d22a10d70e3d88b74"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/evidence.json",
+      "bytes": 836,
+      "sha256": "cc736627a57f91b33c79510db544d9728f9cd755b2611d44a1d6c275f5619b6b"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/placement_manifest.json",
+      "bytes": 802,
+      "sha256": "f407da369c9bdac4991ed294cde54d29873e539639dfcf02ad49e9b1404ef68e"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/project.json",
+      "bytes": 2028,
+      "sha256": "313ebc5ac3b11fd13d25dbf18ca653c7681a8fc0e20c613f8554638e1f512a57"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/review.md",
+      "bytes": 719,
+      "sha256": "8cf2eb85d79896dcc8bd09f5d3dfb65b73a1c14117b331c7320a2038e3b61514"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/run_record.json",
+      "bytes": 1026,
+      "sha256": "75e494a9d1f2d82b2e14d2396bba5188512568864b06829696234dae4aaad934"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/assets/templates/study_parameters.json",
+      "bytes": 450,
+      "sha256": "bcc725bada2e09be1031d666d3a61c93327c9667002bc74634e4d0d7d82af774"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/evals/cases.json",
+      "bytes": 6630,
+      "sha256": "b1efe7f8e9c4d884d29307696420ef65aba1d88429020397df9a15883f9a9279"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/black-box-study.md",
+      "bytes": 4298,
+      "sha256": "d1c9b9e12971c90021f324009c85a1a5078c4ded6fa0b5e566e1f73256190596"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/building-routes.md",
+      "bytes": 3456,
+      "sha256": "6f8ad3544552641cebe1a3411df6e4a9aab5cd538638df87bd999a5076d0abf9"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/evidence-and-scale.md",
+      "bytes": 5178,
+      "sha256": "27f227eb55d18079241d6142a85b274b0560d4bb14805d34bacfcfadf41f55d4"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/execution-first.md",
+      "bytes": 4067,
+      "sha256": "bfbb1c72546cd55d9e5fd8794130a92e755d5f27ebb31915c861c7d66afe511f"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/export-and-qa.md",
+      "bytes": 4908,
+      "sha256": "a640f892f1f40d694f1e17fc1717d515242891ae4766ea306a98563b47eadf90"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/references/sources.md",
+      "bytes": 4154,
+      "sha256": "3786c7aa2401430bd84a9cc2805105eba5e2f7052a954689cb93b6a589ec3bb3"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/reports/unit_tests.txt",
+      "bytes": 3524,
+      "sha256": "cbc67c8826c238606883c9b6d024eaf274b7ca02eced13bef9f7021003a55280"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/reports/validation_status.json",
+      "bytes": 505,
+      "sha256": "e4493a6db1e743d4b76a92f16e833bc5a6cedf21040dafb2bf39414e9a544a6f"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/tests/test_inspect_build.py",
+      "bytes": 9911,
+      "sha256": "957c6c5a174dd0c5409eaebf0e37d762d46b20ca5b8cb7c52ce26e58428d9780"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/tools/README.md",
+      "bytes": 2948,
+      "sha256": "46c76d1c93218bafe930cf37fa759f6fe8cfc70bc0c9739e91a5e2fc3d11c791"
+    },
+    {
+      "path": "vendor/buildkit_v03/.agents/skills/real-to-minecraft/tools/inspect_build.py",
+      "bytes": 18018,
+      "sha256": "4ee3f59ef2fe3b5139a383b079ea73aaa4fb486c8cf67dd01678e3f874ef7902"
+    },
+    {
+      "path": "vendor/buildkit_v03/AGENTS.md",
+      "bytes": 1365,
+      "sha256": "e5e5e0befdb7e57d774ce5f4457f4664bc35bb2c9a08912e20fccb3cc81f7d88"
+    },
+    {
+      "path": "vendor/buildkit_v03/README.md",
+      "bytes": 6061,
+      "sha256": "2ff13002123435917584d6238e938b6a5fdff894cc2b7cf65f566e4ec7447cdc"
+    },
+    {
+      "path": "vendor/buildkit_v03/STATE.md",
+      "bytes": 1747,
+      "sha256": "bdaab2238ec7cab7c5556cd08efdafd4e5b09bc25db231382e39e6c6eae8e722"
+    },
+    {
+      "path": "vendor/buildkit_v03/build.py",
+      "bytes": 4690,
+      "sha256": "232ece56c20d6a9a3e26f1e842d7ebed47da80a2faf5477752479ae0c13c2c82"
+    },
+    {
+      "path": "vendor/buildkit_v03/gafa_admin_colonnade.nbt",
+      "bytes": 36887,
+      "sha256": "cb3a7ac0736ae496603651782b1851a100a27bca683efd60c6d05417e7dc67fe"
+    },
+    {
+      "path": "vendor/buildkit_v03/preview.html",
+      "bytes": 3507918,
+      "sha256": "fa312643a4507d54bbb701df1c61ad7a3a3cd6f7248f564f0faeb704c6bb8411"
+    },
+    {
+      "path": "vendor/buildkit_v03/preview.png",
+      "bytes": 204497,
+      "sha256": "c446947a6f3e863d375a0e52e3e39f916215779b10928e087c4285fc623aee95"
+    },
+    {
+      "path": "vendor/buildkit_v03/projects/gafa_admin/dimensions.json",
+      "bytes": 285,
+      "sha256": "f93962cfb0b995d41bd2788e0c10609c4904d5386b00bd463344e14995afee68"
+    },
+    {
+      "path": "vendor/buildkit_v03/projects/gafa_admin/evidence.json",
+      "bytes": 496,
+      "sha256": "41e5d6e41dccc37431cab283c920902c40b8fed59ba18820794a9e04b176005e"
+    },
+    {
+      "path": "vendor/buildkit_v03/projects/gafa_admin/parameters.json",
+      "bytes": 756,
+      "sha256": "e5ffb79cf695b0613f6db4e77b8e3abd9aa67586563cc00a1d02cb40648eb339"
+    },
+    {
+      "path": "vendor/buildkit_v03/projects/gafa_admin/references/colonnade.jpg",
+      "bytes": 228731,
+      "sha256": "603399327aa42e3ece72688fb5fee812784f0584708db78f239540ff83f9f850"
+    },
+    {
+      "path": "vendor/buildkit_v03/release_manifest.json",
+      "bytes": 16439,
+      "sha256": "2d0cdb79c9374169dd4a08932373cefb06ed5246b05f3ed0fb33aaf31180aa87"
+    },
+    {
+      "path": "vendor/buildkit_v03/reports/browser_controls.json",
+      "bytes": 430,
+      "sha256": "226f5e4729409c75eda5cadb9979f26157bfe6adffd381e7d602f9d3c4ca4652"
+    },
+    {
+      "path": "vendor/buildkit_v03/reports/legacy_inspector_tests.txt",
+      "bytes": 3524,
+      "sha256": "8e6d94936061f6bbc5527e5599c446fcaabc60850fc00b049a818b83a80031a4"
+    },
+    {
+      "path": "vendor/buildkit_v03/reports/new_tests.txt",
+      "bytes": 2131,
+      "sha256": "0f297352bfd7ecc9a8e00cda16b18466b877e3ff0f56e77b421e7751e415814e"
+    },
+    {
+      "path": "vendor/buildkit_v03/reports/reproducibility.json",
+      "bytes": 277,
+      "sha256": "97ff7a339189c33b1c3cc35581436f3f5a8283e474b3c114b2c6ce7c650dc9d6"
+    },
+    {
+      "path": "vendor/buildkit_v03/reports/v001_v002_stair_diff.json",
+      "bytes": 1140,
+      "sha256": "af96012753522c5938f5312ae752e52d3d5ef5b70b5d223d49c417277352fb21"
+    },
+    {
+      "path": "vendor/buildkit_v03/reports/validation_status.json",
+      "bytes": 395,
+      "sha256": "0bd4620bb93590fd5d315ea68c03ae39ea731b24b388167f76a697700169a0e2"
+    },
+    {
+      "path": "vendor/buildkit_v03/reports/visual_review.md",
+      "bytes": 1417,
+      "sha256": "3e7be6ba7143029c82b82f8b2910f2b567bebb059bf8e3d8f3d37587cf934085"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/components.json",
+      "bytes": 7821,
+      "sha256": "fbf6fedde3913f915a58e90ec2b6392fcf4a3e73e54bec815b493c208458a77a"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/gafa_admin_colonnade.nbt",
+      "bytes": 36890,
+      "sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/materials.json",
+      "bytes": 436,
+      "sha256": "f6de6eaf4971a3f2de71331ec121768d2fe98eefbe8f61bfe46d9c5df7893a81"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/model.json",
+      "bytes": 303135,
+      "sha256": "ea319d8857a37459a3603804941953ec78075c354f404cd7eeed66b8e8c6fd17"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/parameters_snapshot.json",
+      "bytes": 791,
+      "sha256": "c54223b1fb977407dc99492b2a7fddc4b420f7175d8934acda77e01943bc38ea"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/placement_manifest.json",
+      "bytes": 731,
+      "sha256": "ae1356fc1def1c4d0d5338690cc09b711578fdc4722d2d2768918eae7c5d1d05"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/corridor.png",
+      "bytes": 43717,
+      "sha256": "f640fa53864476c352a06dbe0cefd85f77a53d6dbfcd04fea6a632bd97b3718a"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/front.png",
+      "bytes": 19391,
+      "sha256": "98bf5ff7a5598c4db6c8fe3f04bce01eb7c9516c4fbc81c3f42262a8b0640d8d"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/iso.png",
+      "bytes": 66708,
+      "sha256": "433c8be6f102e0b648975f5435e61b7a5f432428b322edcfab10fa154005b310"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/layer09.png",
+      "bytes": 46285,
+      "sha256": "eddd07cfbea18d0da3e0080a0e6d7f95c328522ae4f9dae2f375b6e1388fa3a4"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/render_report.json",
+      "bytes": 6294,
+      "sha256": "482862e416443b480e45eeb22be54d16a1b162e2807a751f258df49bb29cb25d"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/side.png",
+      "bytes": 17877,
+      "sha256": "1f787b3bef83e12a95ccb47749f8f37da00729bbe14deb372f4d40e154dd96fd"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/top.png",
+      "bytes": 19816,
+      "sha256": "aa98664b422217fcc58679c01425fd9ca2d0abf6aaf665eb29c9c4df232f1674"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/under.png",
+      "bytes": 61040,
+      "sha256": "9e928e788d132c0941b7885514debd2066bef4fde65016110f14ed989fa93b2b"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/previews/viewer_full.png",
+      "bytes": 141389,
+      "sha256": "eff551dcaf8d9e082c712c63bcde53352002663b0059c6bec7d61b6da4e6bf14"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/qa_report.json",
+      "bytes": 2966,
+      "sha256": "6cdf957a785c181a79da675012811b7dbd504181cce4307bbf0e2759851ff7d7"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/review.html",
+      "bytes": 3568718,
+      "sha256": "c58541a26ed7cd6f9c170ca8fa9a1b871c1faa83b8bf228ab5a4fb765aea6dc4"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/run_record.json",
+      "bytes": 1646,
+      "sha256": "92dd3568b70975d1f92f0db28ebe6c8056d840f40f539e1c1cc335e9ffb41926"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/stages/01_foundation.nbt",
+      "bytes": 36040,
+      "sha256": "c0f45a3e517ad3e8fabf6d3b405936e97f6cf89eb693df79193097e69be02685"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/stages/02_columns_wall.nbt",
+      "bytes": 36405,
+      "sha256": "dfc91bf9cc6f433e338318df40226cf55bec57b40afde5975fff66a32ca80497"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/stages/03_stair.nbt",
+      "bytes": 36651,
+      "sha256": "24ed59e41740877ead71aabe4381da7a4e678241666980f24464f36829bd4fe2"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v001/stages/04_roof_detail.nbt",
+      "bytes": 36890,
+      "sha256": "8c27cb29992eda1b873b4e0123e7b07294607cf03013000ac822b37c7e67db20"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/components.json",
+      "bytes": 7993,
+      "sha256": "27dfd3fcf35a180bf0237bdb5874070576dc306265aabe5ca687ef148c38a9c3"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/gafa_admin_colonnade.nbt",
+      "bytes": 36887,
+      "sha256": "cb3a7ac0736ae496603651782b1851a100a27bca683efd60c6d05417e7dc67fe"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/materials.json",
+      "bytes": 436,
+      "sha256": "a3e5997fbf49c887f3eac0df876826214a5e1a14595ab90ea122f1d352f1df27"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/model.json",
+      "bytes": 301831,
+      "sha256": "e8501407577b3882a6d3797c796d5a42f55c4fbabd61cca0ecf5f902caf0d147"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/parameters_snapshot.json",
+      "bytes": 791,
+      "sha256": "c54223b1fb977407dc99492b2a7fddc4b420f7175d8934acda77e01943bc38ea"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/placement_manifest.json",
+      "bytes": 731,
+      "sha256": "0a175013788ea35a6bf9972f21ab14ec5925ec2d758f64a8768f87eca39ee382"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/corridor.png",
+      "bytes": 43617,
+      "sha256": "47edc5e4057226eb10cc05504e292a338068c6442b7578d86a35b390de8ddaa2"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/front.png",
+      "bytes": 19361,
+      "sha256": "f9fd9d50c26e9737561b9cecf88e0778c6d92cf449a8348640f70a03059cf4a3"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/iso.png",
+      "bytes": 66670,
+      "sha256": "ec371542b05a279f28a0640ea4b60a81193952e4d5f04fa454b8e23d0a07dfc9"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/layer09.png",
+      "bytes": 46175,
+      "sha256": "fe3341df7ed9a260dc0bcfa12094725a18ec1c61bd2d347e6955ce92daf90199"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/render_report.json",
+      "bytes": 6294,
+      "sha256": "ae8ad3cbe0d6469c6583f1ceced3e8985e4dfda60c434f93f2fd28c50cdd4a30"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/side.png",
+      "bytes": 17823,
+      "sha256": "f751736c35352981e017e3009064b413ac0026708458c1a262fa55b0ded858c5"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/top.png",
+      "bytes": 19769,
+      "sha256": "e2fccb460f17ae2683f9778617e5987ee9908c3cf916f43ed41934e6092e07ef"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/under.png",
+      "bytes": 61010,
+      "sha256": "88d69ee92ead9bde0a73328548a96980ecb789ed3cdaf4e82474f9c02d69a63c"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/previews/viewer_full.png",
+      "bytes": 141312,
+      "sha256": "63026d7de5ffda7b3553cbde79a1516d846fd77ce818965d1f2e1d51e3b35de2"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/qa_report.json",
+      "bytes": 2899,
+      "sha256": "d3427575aedb785b084dc6f45ba5a2a48729809641d1892b016204fa5edcddff"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/review.html",
+      "bytes": 3507918,
+      "sha256": "fa312643a4507d54bbb701df1c61ad7a3a3cd6f7248f564f0faeb704c6bb8411"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/run_record.json",
+      "bytes": 1646,
+      "sha256": "e93425a386cc4ea9eb0ceceff399fa077a6e48c3ed7b4e2fa0025fa482d7f2fc"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/stages/01_foundation.nbt",
+      "bytes": 36040,
+      "sha256": "c0f45a3e517ad3e8fabf6d3b405936e97f6cf89eb693df79193097e69be02685"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/stages/02_columns_wall.nbt",
+      "bytes": 36405,
+      "sha256": "dfc91bf9cc6f433e338318df40226cf55bec57b40afde5975fff66a32ca80497"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/stages/03_stair.nbt",
+      "bytes": 36640,
+      "sha256": "32e337da90a05d2e1bf0df4f5bbf1972fe8448c969d86b414902c5f62e32ea55"
+    },
+    {
+      "path": "vendor/buildkit_v03/runs/gafa_admin_v002/stages/04_roof_detail.nbt",
+      "bytes": 36887,
+      "sha256": "cb3a7ac0736ae496603651782b1851a100a27bca683efd60c6d05417e7dc67fe"
+    },
+    {
+      "path": "vendor/buildkit_v03/tests/test_buildkit.py",
+      "bytes": 5220,
+      "sha256": "b12cb75e64e806e11db0e202af69d6538da1287efce67ba046cf87af51d60353"
+    },
+    {
+      "path": "vendor/buildkit_v03/tools/README.md",
+      "bytes": 683,
+      "sha256": "2278e40b142f148c6db67535d89515e27d9c98b748d69a92f483c409f1b5b1eb"
+    },
+    {
+      "path": "vendor/buildkit_v03/tools/capture_previews.py",
+      "bytes": 2677,
+      "sha256": "5211b2d5660cb50c2cb29f8c20ec3048efea08edf6465a567e70dc24b3fef69e"
+    },
+    {
+      "path": "vendor/buildkit_v03/tools/gafa_colonnade.py",
+      "bytes": 5396,
+      "sha256": "3ffa17ec1e8dee6280f77640f2b48a8545ad000598cf0d3d1140f7d0c715bfc3"
+    },
+    {
+      "path": "vendor/buildkit_v03/tools/inspect_build.py",
+      "bytes": 18018,
+      "sha256": "4ee3f59ef2fe3b5139a383b079ea73aaa4fb486c8cf67dd01678e3f874ef7902"
+    },
+    {
+      "path": "vendor/buildkit_v03/tools/make_viewer.py",
+      "bytes": 724,
+      "sha256": "d1ce552a7907489c3c6a0e556f410e5600cd1224f9dc30046567dc80147c48cf"
+    },
+    {
+      "path": "vendor/buildkit_v03/tools/viewer_template.html",
+      "bytes": 9236,
+      "sha256": "f1bf5d07a28e3f356723f6d11b3b48078a3e13412a3c572294e0bc9d56ba7478"
+    },
+    {
+      "path": "vendor/buildkit_v03/tools/voxel_core.py",
+      "bytes": 8618,
+      "sha256": "117eb7af8f87f23f95f3a18f978638d263026694b9cd98ef0659ef4e1cf8fef0"
+    },
+    {
+      "path": "docs/handoff/01_项目目标与完整工作流.md",
+      "bytes": 8444,
+      "sha256": "b399f6c026fddcb2a59548a2f4c2cca7345ce2a55afc83362e0384cd25db19f5"
+    },
+    {
+      "path": "docs/handoff/02_已有成果与待核实资产.md",
+      "bytes": 6982,
+      "sha256": "ffbd105887820c2614006164507824fa6a667e29011b4cc00d0545683c653189"
+    },
+    {
+      "path": "docs/handoff/03_给ChatGPT_Work的立即执行任务书.md",
+      "bytes": 8317,
+      "sha256": "aa5137a697251bd86f5a1dc0dd28fba193df2b9ff4a276efa270f5272ff9a7c9"
+    },
+    {
+      "path": "docs/research/GAFAcraft-building-workflow.html",
+      "bytes": 75690,
+      "sha256": "d22258c53d9fd724c8076a64f738d9fe37d77551f6da21cc943fc087797a3262"
+    }
+  ]
+}

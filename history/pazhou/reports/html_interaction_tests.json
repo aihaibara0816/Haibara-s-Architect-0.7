@@ -1,0 +1,36 @@
+[
+  {
+    "variant": "fast",
+    "status": "pass",
+    "checks": [
+      "7 cameras",
+      "initial data image",
+      "top view update",
+      "annotations conditional",
+      "wipe mode",
+      "slider",
+      "side mode",
+      "modal",
+      "feedback local write",
+      "feedback export call"
+    ],
+    "scope": "Node DOM mock; no actual browser layout test"
+  },
+  {
+    "variant": "full",
+    "status": "pass",
+    "checks": [
+      "7 cameras",
+      "initial data image",
+      "top view update",
+      "annotations conditional",
+      "wipe mode",
+      "slider",
+      "side mode",
+      "modal",
+      "feedback local write",
+      "feedback export call"
+    ],
+    "scope": "Node DOM mock; no actual browser layout test"
+  }
+]

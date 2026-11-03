@@ -1,0 +1,144 @@
+{
+  "source_nbt_sha256": "11cdb08cb2d0202fcb802ae0bd91648e523a74d5599349d5fe56b223bd288425",
+  "size_xyz": [
+    140,
+    244,
+    140
+  ],
+  "schematic": {
+    "file": "Nanshan_Cloud_HAF_V2.schem",
+    "bytes": 82746,
+    "sha256": "5f9d2a469edb3be7bd249421a14abd0b0803aa20dd77613402462c20afc2f638",
+    "format": "Sponge schematic v3",
+    "contains_explicit_air": true,
+    "nonair_readback_exact": true,
+    "non_air_blocks": 373822
+  },
+  "modules": [
+    {
+      "file": "modules/partaa.nbt",
+      "offset_xyz": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 259491,
+      "sha256": "f73bd01a3028c1cfeaf8fa0f3d0804fd0d51a1590a34663fe1b127a4c6e3d45b",
+      "listed_blocks": 87649,
+      "non_air_blocks": 87649,
+      "size_xyz": [
+        70,
+        122,
+        140
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "80d9c0549512d781b41efb5f7ec2a4e659775d5f20f7a345495481a0cb77e355",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partaba.nbt",
+      "offset_xyz": [
+        70,
+        0,
+        0
+      ],
+      "bytes": 216184,
+      "sha256": "f3ae9f8f9af871106b2ec67a6f744de2b57367531afa44879b9d96cc5f74e667",
+      "listed_blocks": 72669,
+      "non_air_blocks": 72669,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "4a3e08ad0b0e81f2849456b1720c25d0312f7dcf7e8a0f224bcc0ed808183860",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partabb.nbt",
+      "offset_xyz": [
+        70,
+        0,
+        70
+      ],
+      "bytes": 143262,
+      "sha256": "9ad501b02cc718add8907574f788371cde87a2f31efba8dc271e7da0e76b38aa",
+      "listed_blocks": 48044,
+      "non_air_blocks": 48044,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "dd6bf643c1b8da5059d55c6a67eda1990db783efea8ef3708bf95ba6cde905cd",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partba.nbt",
+      "offset_xyz": [
+        0,
+        122,
+        0
+      ],
+      "bytes": 205820,
+      "sha256": "9ea13ba723b2533d66507eec7aa366ea2c0b138a0eab4a74098f4e77d5198df0",
+      "listed_blocks": 69461,
+      "non_air_blocks": 69461,
+      "size_xyz": [
+        70,
+        122,
+        140
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "dc5e8631a0b488cd55617f50e91faddbd60d582f8000b21c5b4f1c713763aa51",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partbba.nbt",
+      "offset_xyz": [
+        70,
+        122,
+        0
+      ],
+      "bytes": 162599,
+      "sha256": "ada330f2fa678831e74947811bb2360d47aa9afa34a7ba2dc8581735c3b621c6",
+      "listed_blocks": 54089,
+      "non_air_blocks": 54089,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "026fb117f66cb49c9b921dad65d36199909688c6782c6e553221cc619f297b0c",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partbbb.nbt",
+      "offset_xyz": [
+        70,
+        122,
+        70
+      ],
+      "bytes": 124508,
+      "sha256": "1a1df15e70bf5cc9acceebd0fbb50aa3da74227eeff421210430c0f9a8a10393",
+      "listed_blocks": 41910,
+      "non_air_blocks": 41910,
+      "size_xyz": [
+        70,
+        122,
+        70
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "6d32db23967fb99219aaa2e41bd66a62994874281f3c8c48c59d56284a1fd5d3",
+      "data_version": 3955
+    }
+  ],
+  "module_count": 6,
+  "module_union_exact": true,
+  "module_max_bytes": 259491,
+  "coordinate_convention": "Local X/Y/Z; module minimum corner = project origin + offset_xyz; no rotation. Geographic orientation is case-specific; see case parameters.",
+  "tested": "Offline readback and exact coordinate/state union only; game import pending"
+}

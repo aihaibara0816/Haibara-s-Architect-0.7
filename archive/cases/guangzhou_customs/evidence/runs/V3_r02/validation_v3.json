@@ -1,0 +1,145 @@
+{
+  "run": "V3_r02",
+  "checks": [
+    {
+      "test": "V1/V2 source, runs, cameras and shared core unchanged",
+      "pass": true,
+      "evidence": {
+        "files_compared": 69,
+        "changed": []
+      }
+    },
+    {
+      "test": "comparison frame and study height preserved",
+      "pass": true,
+      "evidence": "126×148×116; ground y4; nominal height 137"
+    },
+    {
+      "test": "front horizontal bar present",
+      "pass": true,
+      "evidence": "101-block cross section from actual NBT"
+    },
+    {
+      "test": "rear stem centered and continuous",
+      "pass": true,
+      "evidence": "77-block roof cross section, x25..101"
+    },
+    {
+      "test": "left rear setback is clear",
+      "pass": true,
+      "evidence": "entire side setback sampled, not only one empty point"
+    },
+    {
+      "test": "right rear setback is clear",
+      "pass": true,
+      "evidence": "entire side setback sampled, not only one empty point"
+    },
+    {
+      "test": "old V2 one-sided green bump removed",
+      "pass": true,
+      "evidence": "previous V2 rear wing interior location"
+    },
+    {
+      "test": "center tower rear overextension removed",
+      "pass": true,
+      "evidence": "8-block setback; excludes podium pavilion height"
+    },
+    {
+      "test": "front door clear",
+      "pass": true,
+      "evidence": "5×4 open passage"
+    },
+    {
+      "test": "rear axial door clear",
+      "pass": true,
+      "evidence": "5×4 open passage at rear of stem"
+    },
+    {
+      "test": "rear stair landing continuous",
+      "pass": true,
+      "evidence": "top stair to interior landing, no gap"
+    },
+    {
+      "test": "rear arch piers are closed",
+      "pass": true,
+      "evidence": "walls between three arched bays remain"
+    },
+    {
+      "test": "pavilions supported by roof",
+      "pass": true,
+      "evidence": "all roof enclosure footprint cells have support below"
+    },
+    {
+      "test": "colonnade void retained",
+      "pass": true,
+      "evidence": "front colonnade is open behind the columns"
+    },
+    {
+      "test": "all registered window anchors contain recessed glass",
+      "pass": true,
+      "evidence": {
+        "exceptions": [],
+        "windows": 928
+      }
+    },
+    {
+      "test": "dark warm and cool rooms retained",
+      "pass": true,
+      "evidence": {
+        "sea_lantern": 171,
+        "off": 338,
+        "glowstone": 183
+      }
+    },
+    {
+      "test": "room lights match saved coordinates and materials",
+      "pass": true,
+      "evidence": "every recorded room light"
+    },
+    {
+      "test": "all block states valid in existing HAF validator",
+      "pass": true,
+      "evidence": 54
+    },
+    {
+      "test": "deterministic source regeneration matches exported NBT",
+      "pass": true,
+      "evidence": {
+        "nonair": 160616
+      }
+    },
+    {
+      "test": "mass mirror symmetry y=14",
+      "pass": true,
+      "evidence": "mass geometry only; no requirement that lights or vegetation mirror"
+    },
+    {
+      "test": "mass mirror symmetry y=54",
+      "pass": true,
+      "evidence": "mass geometry only; no requirement that lights or vegetation mirror"
+    },
+    {
+      "test": "mass mirror symmetry y=113",
+      "pass": true,
+      "evidence": "mass geometry only; no requirement that lights or vegetation mirror"
+    },
+    {
+      "test": "clock and spire preserved exactly",
+      "pass": true,
+      "evidence": {
+        "checked_blocks": 2177
+      }
+    }
+  ],
+  "passed": 23,
+  "total": 23,
+  "all_passed": true,
+  "delta_from_V2": {
+    "removed": 27102,
+    "added": 16799,
+    "state_changed": 4487
+  },
+  "visual_acceptance": "pending user review; technical tests cannot certify architectural fidelity",
+  "minecraft_import": "not run",
+  "geographic_bearing": "unverified"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "guangzhou_customs",
+  "negative_example": "V2 readback/tests passed but footprint rejected",
+  "rule": "分开地面、裙楼、高层屋顶的轮廓；斜影像的高度位移不是地面突出。先复核拓扑，再调整细节。",
+  "implementation": "cases/guangzhou_customs/src/build_v3.py",
+  "validation": "23 case checks + final NBT views; no game test",
+  "scope": "one case; not a trained general model",
+  "next": "用户复核倒T、后门方向和收窄程度；有测绘图再调整尺寸"
+}

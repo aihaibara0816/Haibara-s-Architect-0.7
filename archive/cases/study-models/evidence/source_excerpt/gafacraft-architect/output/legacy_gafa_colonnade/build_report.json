@@ -1,0 +1,242 @@
+{
+  "engine_version": "0.1.0",
+  "build_id": "legacy_gafa_colonnade-r1-6920ef3776",
+  "spec_sha256": "6920ef3776dc7f99f67885e346253f3e0f076f48d28f601811e2626c6caf65cb",
+  "geometry_sha256": "779efa86a8ab822c0b225e25d4e30ef5318c22eb5a28124c5c93ebf0343b1a06",
+  "nbt": {
+    "file": "building.nbt",
+    "bytes": 36450,
+    "sha256": "763adee9f0bf0dcab3a62d02b38e8ce7a1766f86357aa9eb327cf88436350e1c",
+    "listed_blocks": 14960,
+    "non_air_blocks": 3698,
+    "size_xyz": [
+      22,
+      20,
+      34
+    ],
+    "contains_explicit_air": true,
+    "geometry_sha256": "779efa86a8ab822c0b225e25d4e30ef5318c22eb5a28124c5c93ebf0343b1a06",
+    "data_version": 3955
+  },
+  "size_xyz": [
+    22,
+    20,
+    34
+  ],
+  "non_air_blocks": 3698,
+  "materials": {
+    "minecraft:gray_concrete": 448,
+    "minecraft:red_terracotta": 1002,
+    "minecraft:smooth_quartz": 672,
+    "minecraft:smooth_stone": 828,
+    "minecraft:stone_bricks": 748
+  },
+  "validation": {
+    "spec": {
+      "schema": "pass",
+      "semantic": "pass",
+      "world_placement": "pending_actual_configuration",
+      "mode": "study"
+    },
+    "nbt_readback_exact_match": true,
+    "geometry": {
+      "status": "pass",
+      "checks": [
+        {
+          "check_id": "ground_opening",
+          "passed": true,
+          "occupied_cells": 0,
+          "examples": []
+        }
+      ],
+      "material_counts": {
+        "minecraft:gray_concrete": 448,
+        "minecraft:red_terracotta": 1002,
+        "minecraft:smooth_quartz": 672,
+        "minecraft:smooth_stone": 828,
+        "minecraft:stone_bricks": 748
+      },
+      "limits": "Full-cube static geometry only. Floor labels do not prove reachability between levels; no player, light or Create test."
+    },
+    "registry": "pending_actual_configuration",
+    "game": "pending_game_test",
+    "create_import": "pending_game_test"
+  },
+  "views": [
+    {
+      "view": "front",
+      "projection": "orthographic",
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        0,
+        0,
+        -1
+      ],
+      "pixels_per_block": 38.5,
+      "build_id": "legacy_gafa_colonnade-r1-6920ef3776",
+      "geometry_sha256": "779efa86a8ab822c0b225e25d4e30ef5318c22eb5a28124c5c93ebf0343b1a06",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_front.png",
+      "sha256": "5e5e38e62fa0f4300e5b8b49991cea30f669b5d6c2cb291299a8210a714352de",
+      "rendered_faces": 406,
+      "non_background_pixels": 284149,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "back",
+      "projection": "orthographic",
+      "right": [
+        -1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        0,
+        0,
+        1
+      ],
+      "pixels_per_block": 38.5,
+      "build_id": "legacy_gafa_colonnade-r1-6920ef3776",
+      "geometry_sha256": "779efa86a8ab822c0b225e25d4e30ef5318c22eb5a28124c5c93ebf0343b1a06",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_back.png",
+      "sha256": "e70ab9cc4d8f9688893ba14d65a2d860175d55f04f4dd8f7eaa1390622783a0b",
+      "rendered_faces": 406,
+      "non_background_pixels": 284149,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "left",
+      "projection": "orthographic",
+      "right": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        -1,
+        0,
+        0
+      ],
+      "pixels_per_block": 33.23529411764706,
+      "build_id": "legacy_gafa_colonnade-r1-6920ef3776",
+      "geometry_sha256": "779efa86a8ab822c0b225e25d4e30ef5318c22eb5a28124c5c93ebf0343b1a06",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_left.png",
+      "sha256": "c5212c278de6fec92b87694aa45d299d5357f1472ec84f917881250bb58ded4c",
+      "rendered_faces": 742,
+      "non_background_pixels": 633862,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "right",
+      "projection": "orthographic",
+      "right": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        1,
+        0,
+        0
+      ],
+      "pixels_per_block": 33.23529411764706,
+      "build_id": "legacy_gafa_colonnade-r1-6920ef3776",
+      "geometry_sha256": "779efa86a8ab822c0b225e25d4e30ef5318c22eb5a28124c5c93ebf0343b1a06",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_right.png",
+      "sha256": "692851b01038b3d8a4754ca969ee77ae1daa7b8529c8037da693faa19e2962a9",
+      "rendered_faces": 742,
+      "non_background_pixels": 633862,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "iso45",
+      "projection": "orthographic",
+      "right": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865476
+      ],
+      "up": [
+        -0.5,
+        0.7071067811865476,
+        0.5
+      ],
+      "camera_direction": [
+        0.5,
+        0.7071067811865476,
+        -0.5
+      ],
+      "pixels_per_block": 18.27149926323145,
+      "build_id": "legacy_gafa_colonnade-r1-6920ef3776",
+      "geometry_sha256": "779efa86a8ab822c0b225e25d4e30ef5318c22eb5a28124c5c93ebf0343b1a06",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_iso45.png",
+      "sha256": "0da9271add9fab774ae4e2cd0cc4c378e9d2f6271f0d9f7b2f78ebe80e7b4f64",
+      "rendered_faces": 2420,
+      "non_background_pixels": 305671,
+      "resolution": [
+        1280,
+        1000
+      ]
+    }
+  ],
+  "provenance": {
+    "packet_id": "packet-legacy-gafa-colonnade",
+    "packet_sha256": "507eb97982df84352ec401a47f3f3114730e8e3cbaec976245b6519fbc3caa7d"
+  },
+  "limitations": [
+    "Study geometry; not surveyed reconstruction.",
+    "Full-cube renderer; glass uses opaque schematic color; no Minecraft textures or lighting.",
+    "No model inference, credential, network, world edit or website deployment in the engine.",
+    "All stages rebuilt; stable component IDs and external diffs do not imply internal incremental generation."
+  ]
+}

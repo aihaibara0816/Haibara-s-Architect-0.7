@@ -1,0 +1,120 @@
+{
+  "case": "guangzhou_ifc",
+  "run": "V1_r02",
+  "nbt_sha256": "7f10e59f2eeb06de8423fc459848ed9efea87fac20a1aeb28460fdc8369523e1",
+  "size_xyz": [
+    92,
+    224,
+    100
+  ],
+  "nonair": 134847,
+  "file_status": "pass",
+  "geometry_status": "pass",
+  "geometry_checks": [
+    {
+      "id": "entry_floor",
+      "kind": "full_bearing",
+      "samples": 70,
+      "status": "pass",
+      "failures": 0,
+      "unknown": 0,
+      "examples": []
+    },
+    {
+      "id": "entry_clearance",
+      "kind": "air",
+      "samples": 210,
+      "status": "pass",
+      "failures": 0,
+      "unknown": 0,
+      "examples": []
+    },
+    {
+      "id": "declared_column_bearing",
+      "kind": "full_bearing",
+      "samples": 32,
+      "status": "pass",
+      "failures": 0,
+      "unknown": 0,
+      "examples": []
+    },
+    {
+      "id": "recorded_lamp_survival",
+      "kind": "material",
+      "samples": 1410,
+      "status": "pass",
+      "failures": 0,
+      "unknown": 0,
+      "examples": []
+    },
+    {
+      "id": "hotel_central_void",
+      "kind": "air",
+      "samples": 305,
+      "status": "pass",
+      "failures": 0,
+      "unknown": 0,
+      "examples": []
+    }
+  ],
+  "view_metadata_status": "pending",
+  "view_checks": [
+    {
+      "id": "se_day",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "se_night",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "sw_day",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "sw_night",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "ne_day",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "ne_night",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "nw_day",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "nw_night",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "top_day",
+      "status": "pending",
+      "reason": "missing rendered view"
+    },
+    {
+      "id": "shared_diagonal_framing",
+      "status": "pending"
+    }
+  ],
+  "visual_fidelity": "requires_scoped_human_review",
+  "game_status": "pending",
+  "limits": [
+    "Declared samples only; no automatic image understanding",
+    "View metadata does not establish fidelity or image visibility",
+    "Full cube support and air cells are not Minecraft collision tests",
+    "No contract means pending; earlier case-specific reports remain separate"
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "export": {
+    "file": "canton.ply",
+    "sha256": "2ea362df793804a4ea03fc005f92b692c83b30bc1369c5fbc75dbee2436b6059",
+    "unit": "metre",
+    "up_axis": "Y",
+    "source_sha256": "26d4ca7237b4d3e870b421ba3260412d8e215d63e335beb559e48a4927c3fa72",
+    "selected_roots": null,
+    "hierarchy_preserved": false,
+    "curves_exported": false,
+    "textures_exported": false,
+    "scope": "Triangle mesh derivative; original model/asset retains omitted curves and source metadata"
+  },
+  "readback": {
+    "schema_version": "model-evidence-0.1",
+    "model_id": "model-import",
+    "source": {
+      "file": "canton.ply",
+      "bytes": 682756,
+      "sha256": "2ea362df793804a4ea03fc005f92b692c83b30bc1369c5fbc75dbee2436b6059",
+      "format": "ply",
+      "license_status": "unknown"
+    },
+    "normalized_coordinates": {
+      "unit": "metre",
+      "up_axis": "Y",
+      "handedness": "right",
+      "origin": "original retained",
+      "heading": "not registered to building/front/geographic north"
+    },
+    "nodes": [
+      {
+        "node_id": "node-486ea46224d1bb4fb680",
+        "name": "world",
+        "parent_id": null,
+        "matrix_to_parent_m": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh_ids": [],
+        "curve_ids": [],
+        "identity_basis": "reader_source_node_name",
+        "matrix_to_world_m": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "triangles": 0,
+        "own_bounds_m": null,
+        "subtree_bounds_m": [
+          [
+            -246.2166748046875,
+            -4.965099811553955,
+            -210.97454833984375
+          ],
+          [
+            245.11402893066406,
+            596.8904418945312,
+            212.09564208984375
+          ]
+        ],
+        "subtree_triangles": 19844
+      },
+      {
+        "node_id": "node-e28c08275443481943d6",
+        "name": "canton.ply",
+        "parent_id": "node-486ea46224d1bb4fb680",
+        "matrix_to_parent_m": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "mesh_ids": [
+          "mesh-e28c08275443481943d6"
+        ],
+        "curve_ids": [],
+        "identity_basis": "reader_source_node_name",
+        "matrix_to_world_m": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "triangles": 19844,
+        "own_bounds_m": [
+          [
+            -246.2166748046875,
+            -4.965099811553955,
+            -210.97454833984375
+          ],
+          [
+            245.11402893066406,
+            596.8904418945312,
+            212.09564208984375
+          ]
+        ],
+        "subtree_bounds_m": [
+          [
+            -246.2166748046875,
+            -4.965099811553955,
+            -210.97454833984375
+          ],
+          [
+            245.11402893066406,
+            596.8904418945312,
+            212.09564208984375
+          ]
+        ],
+        "subtree_triangles": 19844
+      }
+    ],
+    "warnings": [
+      "Material colour is a preview approximation; textures/normals are not retained in the research mesh.",
+      "Node identities are deterministic for this input/reader; cross-export or reordered-node identity requires explicit matching.",
+      "Original architectural hierarchy may be absent or flattened in this format."
+    ],
+    "sidecars": [],
+    "source_coordinates": {
+      "metres_per_unit": 1,
+      "up_axis": "Y",
+      "basis": "Explicit caller declaration; not inferred from building name or dimensions"
+    },
+    "source_to_normalized_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "reader": {
+      "name": "trimesh",
+      "version": "5.1.1"
+    },
+    "statistics": {
+      "nodes": 2,
+      "mesh_resources": 1,
+      "unique_triangles": 19844,
+      "placed_triangles": 19844,
+      "bounds_m": [
+        [
+          -246.2166748046875,
+          -4.965099811553955,
+          -210.97454833984375
+        ],
+        [
+          245.11402893066406,
+          596.8904418945312,
+          212.09564208984375
+        ]
+      ],
+      "size_m": [
+        491.33070373535156,
+        601.8555417060852,
+        423.0701904296875
+      ],
+      "degenerate_resource_triangles": 0,
+      "curve_resources": 0,
+      "curve_points_placed": 0
+    },
+    "checks": {
+      "finite_geometry": true,
+      "valid_triangle_indices": true,
+      "valid_parent_graph": true,
+      "physical_accuracy": "unverified",
+      "geographic_orientation": "unverified",
+      "component_semantics": "unclassified",
+      "minecraft_generation": false
+    }
+  }
+}

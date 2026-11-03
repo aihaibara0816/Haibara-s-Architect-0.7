@@ -1,0 +1,80 @@
+[
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "front",
+    "eye": [
+      31.0,
+      27.0,
+      -55.0
+    ],
+    "target": [
+      16.0,
+      18.0,
+      25.0
+    ],
+    "fov": 72,
+    "ortho": true,
+    "spanX": 88,
+    "spanZ": 66.88
+  },
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "front_night",
+    "eye": [
+      31.0,
+      27.0,
+      -55.0
+    ],
+    "target": [
+      16.0,
+      18.0,
+      25.0
+    ],
+    "fov": 72,
+    "ortho": true,
+    "spanX": 88,
+    "spanZ": 66.88,
+    "night": true
+  },
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "plan",
+    "eye": [
+      16.0,
+      150,
+      25.0
+    ],
+    "target": [
+      16.0,
+      0,
+      25.0
+    ],
+    "fov": 72,
+    "minY": 2,
+    "cutY": 5.99,
+    "ortho": true,
+    "spanX": 71.05263157894737,
+    "spanZ": 54.0
+  }
+]

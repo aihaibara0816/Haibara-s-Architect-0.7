@@ -1,0 +1,657 @@
+{
+  "source": "canton-component-study-v01/component_research.json",
+  "regions": [
+    {
+      "region_id": "R01-exoframe-01",
+      "image_id": "R01",
+      "component_id": "component-exoframe",
+      "subcomponent": "outline",
+      "title": "完整收腰轮廓",
+      "bbox_normalized_xyxy": [
+        0.468,
+        0.195,
+        0.525,
+        0.725
+      ],
+      "bbox_pixels_xyxy": [
+        374,
+        104,
+        420,
+        387
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "从塔脚到塔冠的细长外形连续。",
+      "limitations": "区域很窄；只约束整体，不测构件尺寸。",
+      "layer": "outer",
+      "occlusion": "none",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R03-interior-01",
+      "image_id": "R03",
+      "component_id": "component-interior",
+      "subcomponent": "ceiling",
+      "title": "反射顶面",
+      "bbox_normalized_xyxy": [
+        0.02,
+        0.01,
+        0.98,
+        0.38
+      ],
+      "bbox_pixels_xyxy": [
+        11,
+        3,
+        517,
+        128
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "顶面有明显反射和分片变化。",
+      "limitations": "只判可见表面；真实材质、吊顶节点与房间用途未知。",
+      "layer": "inner",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R03-interior-02",
+      "image_id": "R03",
+      "component_id": "component-interior",
+      "subcomponent": "floor",
+      "title": "有反射的地面",
+      "bbox_normalized_xyxy": [
+        0.04,
+        0.7,
+        0.98,
+        0.97
+      ],
+      "bbox_pixels_xyxy": [
+        21,
+        236,
+        517,
+        327
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "地面映出人物和窗边形状。",
+      "limitations": "反射不证明材质类型；边界被人物遮挡。",
+      "layer": "inner",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R03-curtainwall-01",
+      "image_id": "R03",
+      "component_id": "component-curtainwall",
+      "subcomponent": "window_band",
+      "title": "周边玻璃与框件",
+      "bbox_normalized_xyxy": [
+        0.02,
+        0.26,
+        0.98,
+        0.73
+      ],
+      "bbox_pixels_xyxy": [
+        11,
+        88,
+        517,
+        246
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "可以透过玻璃看到外侧粗构件，窗带与钢架不是同一层。",
+      "limitations": "人物、反光和外构件重叠；不能把框内全部像素当玻璃。",
+      "layer": "mixed",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R06-exoframe-01",
+      "image_id": "R06",
+      "component_id": "component-exoframe",
+      "subcomponent": "columns_rings_braces",
+      "title": "主柱、横向连接与斜撑的粗细层级",
+      "bbox_normalized_xyxy": [
+        0.01,
+        0.1,
+        0.94,
+        0.97
+      ],
+      "bbox_pixels_xyxy": [
+        5,
+        35,
+        496,
+        341
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "粗主柱与较细横向/斜向构件有清楚区分。",
+      "limitations": "仰视透视强，不能由像素宽度直接算真实管径。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R08-exoframe-01",
+      "image_id": "R08",
+      "component_id": "component-exoframe",
+      "subcomponent": "frame_depth",
+      "title": "外钢架与内部体量的空间间隔",
+      "bbox_normalized_xyxy": [
+        0.01,
+        0.01,
+        0.99,
+        0.94
+      ],
+      "bbox_pixels_xyxy": [
+        5,
+        4,
+        523,
+        331
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "外侧粗构件围绕内侧竖向体量，之间存在通行及空腔。",
+      "limitations": "二维遮挡关系不是精确深度；圆柱内核不是内饰。",
+      "layer": "mixed",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R08-exoframe-02",
+      "image_id": "R08",
+      "component_id": "component-exoframe",
+      "subcomponent": "circulation_context",
+      "title": "钢架内侧楼梯/平台（辅助关系）",
+      "bbox_normalized_xyxy": [
+        0.32,
+        0.43,
+        0.88,
+        0.97
+      ],
+      "bbox_pixels_xyxy": [
+        169,
+        151,
+        465,
+        341
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "阶梯/平台绕内侧体量展开，区别于纯装饰。",
+      "limitations": "只作构件相邻关系；数量、标高与完整路线未核实。",
+      "layer": "mixed",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "adjacency_context",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R09-crown-01",
+      "image_id": "R09",
+      "component_id": "component-crown",
+      "subcomponent": "crown_assembly",
+      "title": "塔冠平台、球舱与天线根部",
+      "bbox_normalized_xyxy": [
+        0.345,
+        0.025,
+        0.66,
+        0.66
+      ],
+      "bbox_pixels_xyxy": [
+        247,
+        12,
+        473,
+        315
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "平台、外围球舱和竖向天线有明确的上下关系。",
+      "limitations": "天线顶端被截断；不能据此算全高，逆光不作材质测色。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R09-exoframe-01",
+      "image_id": "R09",
+      "component_id": "component-exoframe",
+      "subcomponent": "upper_frame",
+      "title": "上部格构收口",
+      "bbox_normalized_xyxy": [
+        0.36,
+        0.57,
+        0.66,
+        0.99
+      ],
+      "bbox_pixels_xyxy": [
+        258,
+        272,
+        473,
+        473
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "格构继续向塔冠展开，并与平台边界相接。",
+      "limitations": "画面下端截断，尺寸只作为相对形态。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R09-curtainwall-01",
+      "image_id": "R09",
+      "component_id": "component-curtainwall",
+      "subcomponent": "upper_envelope_candidate",
+      "title": "格构后的上部围护候选",
+      "bbox_normalized_xyxy": [
+        0.415,
+        0.62,
+        0.59,
+        0.91
+      ],
+      "bbox_pixels_xyxy": [
+        297,
+        296,
+        422,
+        435
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "可以定位内侧深色分段体量。",
+      "limitations": "是否为玻璃及其具体面界待核实；不是确认的幕墙掩膜。",
+      "layer": "inner",
+      "occlusion": "heavy",
+      "certainty": "candidate",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R10-exoframe-01",
+      "image_id": "R10",
+      "component_id": "component-exoframe",
+      "subcomponent": "outline",
+      "title": "暮色完整轮廓补充",
+      "bbox_normalized_xyxy": [
+        0.468,
+        0.12,
+        0.537,
+        0.8
+      ],
+      "bbox_pixels_xyxy": [
+        335,
+        57,
+        384,
+        382
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "塔脚、收腰、塔冠及天线连续可见。",
+      "limitations": "只能补轮廓；彩色灯光不能固化为钢材颜色。",
+      "layer": "outer",
+      "occlusion": "none",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R11-crown-01",
+      "image_id": "R11",
+      "component_id": "component-crown",
+      "subcomponent": "oblique_top",
+      "title": "塔冠俯视补充",
+      "bbox_normalized_xyxy": [
+        0.275,
+        0.005,
+        0.8,
+        0.445
+      ],
+      "bbox_pixels_xyxy": [
+        117,
+        3,
+        341,
+        285
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "可见顶面、阶梯方向及外围球舱排列。",
+      "limitations": "夜景溢光，平台边缘有遮挡；不是正投影平面。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R11-plaza-01",
+      "image_id": "R11",
+      "component_id": "component-plaza",
+      "subcomponent": "historical_base_context",
+      "title": "旧塔脚范围的夜景线索",
+      "bbox_normalized_xyxy": [
+        0.025,
+        0.785,
+        0.96,
+        0.98
+      ],
+      "bbox_pixels_xyxy": [
+        11,
+        502,
+        409,
+        627
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "底部环绕铺装及灯带大致位置可见。",
+      "limitations": "拍摄时间未知，细节不清；不与 2024 广场自动拼接。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "limited",
+      "purpose": "historical_context",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R12-crown-01",
+      "image_id": "R12",
+      "component_id": "component-crown",
+      "subcomponent": "terrace",
+      "title": "顶层平台与阶梯",
+      "bbox_normalized_xyxy": [
+        0.22,
+        0.28,
+        0.79,
+        0.79
+      ],
+      "bbox_pixels_xyxy": [
+        166,
+        141,
+        597,
+        397
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "平台高差、阶梯和环绕栏杆可辨。",
+      "limitations": "透视和遮挡下不能精确量出坡度与台阶数。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R12-crown-02",
+      "image_id": "R12",
+      "component_id": "component-crown",
+      "subcomponent": "capsule",
+      "title": "一个球舱的局部参考",
+      "bbox_normalized_xyxy": [
+        0.535,
+        0.715,
+        0.625,
+        0.85
+      ],
+      "bbox_pixels_xyxy": [
+        404,
+        360,
+        472,
+        428
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "独立舱体与承托轨道有分离关系。",
+      "limitations": "区域带上下文；不等于像素级抠图，未恢复舱内设备。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R12-crown-03",
+      "image_id": "R12",
+      "component_id": "component-crown",
+      "subcomponent": "track",
+      "title": "外围轨道与球舱的相对位置",
+      "bbox_normalized_xyxy": [
+        0.16,
+        0.65,
+        0.87,
+        0.99
+      ],
+      "bbox_pixels_xyxy": [
+        121,
+        327,
+        658,
+        498
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "轨道沿平台外围连续分布。",
+      "limitations": "只能确认可见段；球舱总数需要完整来源交叉核验。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R14-interior-01",
+      "image_id": "R14",
+      "component_id": "component-interior",
+      "subcomponent": "section_context",
+      "title": "剖面提供内部位置线索",
+      "bbox_normalized_xyxy": [
+        0.035,
+        0.205,
+        0.25,
+        0.975
+      ],
+      "bbox_pixels_xyxy": [
+        42,
+        353,
+        300,
+        1681
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "内核、局部分段楼层体量与外框架分开。",
+      "limitations": "设计图不是内饰照片，修订号和建成对应未知；不推导房间名称。",
+      "layer": "mixed",
+      "occlusion": "none",
+      "certainty": "limited",
+      "purpose": "design_drawing_context",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R14-exoframe-01",
+      "image_id": "R14",
+      "component_id": "component-exoframe",
+      "subcomponent": "drawing_context",
+      "title": "结构立面辅助理解",
+      "bbox_normalized_xyxy": [
+        0.3,
+        0.2,
+        0.46,
+        0.94
+      ],
+      "bbox_pixels_xyxy": [
+        360,
+        345,
+        552,
+        1621
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "格构与收腰几何可以独立阅读。",
+      "limitations": "设计资料只作拓扑线索，不能冒充竣工测绘。",
+      "layer": "outer",
+      "occlusion": "none",
+      "certainty": "limited",
+      "purpose": "design_drawing_context",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R16-crown-01",
+      "image_id": "R16",
+      "component_id": "component-crown",
+      "subcomponent": "antenna",
+      "title": "塔冠与天线连接",
+      "bbox_normalized_xyxy": [
+        0.605,
+        0.025,
+        0.735,
+        0.475
+      ],
+      "bbox_pixels_xyxy": [
+        1512,
+        43,
+        1838,
+        819
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "天线从塔冠向上独立发展，可见几个截面变化。",
+      "limitations": "云层遮挡局部；不得凭天空背景补造不可见连接。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R16-exoframe-01",
+      "image_id": "R16",
+      "component_id": "component-exoframe",
+      "subcomponent": "upper_frame",
+      "title": "日景上部格构补充",
+      "bbox_normalized_xyxy": [
+        0.61,
+        0.43,
+        0.73,
+        0.995
+      ],
+      "bbox_pixels_xyxy": [
+        1525,
+        742,
+        1825,
+        1716
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "浅色主构件位于深色内部体量外侧。",
+      "limitations": "日景颜色仍受天气影响，不用作精确材质标定。",
+      "layer": "outer",
+      "occlusion": "partial",
+      "certainty": "visible",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    },
+    {
+      "region_id": "R16-curtainwall-01",
+      "image_id": "R16",
+      "component_id": "component-curtainwall",
+      "subcomponent": "upper_envelope_candidate",
+      "title": "上部围护分段候选",
+      "bbox_normalized_xyxy": [
+        0.637,
+        0.48,
+        0.702,
+        0.65
+      ],
+      "bbox_pixels_xyxy": [
+        1592,
+        828,
+        1755,
+        1121
+      ],
+      "coordinate_convention": "top-left origin; x right; y down; bbox is contextual support, not a pixel mask",
+      "visible_claim": "格构后能看到分层的内侧表面。",
+      "limitations": "框架遮挡严重；需要近景/图纸才能标定玻璃与实体面。",
+      "layer": "inner",
+      "occlusion": "heavy",
+      "certainty": "candidate",
+      "purpose": "component_evidence",
+      "annotation_method": "AI visual review of the original image; manually specified support region",
+      "semantic_mask": null,
+      "camera_to_model": null,
+      "metric_depth": null,
+      "reviewed_at": "2026-10-20"
+    }
+  ],
+  "scope": "context rectangles, not masks or calibrated geometry"
+}

@@ -1,0 +1,164 @@
+{
+  "source_nbt_sha256": "ab3d02c16eb98c1440843ba15b6feaf354ff59d07ba7da96d6e637d979dd10e6",
+  "checks": [
+    {
+      "id": "exactly_six_towers_10_15",
+      "status": "pass",
+      "details": [
+        [
+          "A1",
+          10
+        ],
+        [
+          "A2",
+          10
+        ],
+        [
+          "A3",
+          10
+        ],
+        [
+          "B1",
+          15
+        ],
+        [
+          "B2",
+          15
+        ],
+        [
+          "B3",
+          15
+        ]
+      ]
+    },
+    {
+      "id": "120_units_one_two_per_floor",
+      "status": "pass",
+      "details": {
+        "A1": 10,
+        "A2": 10,
+        "A3": 10,
+        "B1": 30,
+        "B2": 30,
+        "B3": 30
+      }
+    },
+    {
+      "id": "all_units_have_home_functions",
+      "status": "pass",
+      "details": {
+        "rooms": 630,
+        "missing": []
+      }
+    },
+    {
+      "id": "unit_entries_supported_and_clear",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_room_entries_reachable_on_floor",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "75_levels_three_clear_two_separator",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_lamps_survive_and_are_recessed",
+      "status": "pass",
+      "details": {
+        "lamps": 247,
+        "lost": [],
+        "wrong_height": []
+      }
+    },
+    {
+      "id": "selective_home_lighting",
+      "status": "pass",
+      "details": {
+        "lit_units": 41,
+        "all_units": 120
+      }
+    },
+    {
+      "id": "stairs_69_connections_support_headroom",
+      "status": "pass",
+      "details": {
+        "connections": 69,
+        "errors": [],
+        "error_count": 0,
+        "scope": "Centre-cell routes; vanilla collision and stair shapes remain game-pending."
+      }
+    },
+    {
+      "id": "ground_lobbies_reach_stairs_and_units",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "entire_declared_path_width_clear",
+      "status": "pass",
+      "details": {
+        "cells": 4095,
+        "blocked": [],
+        "error_count": 0
+      }
+    },
+    {
+      "id": "gate_reaches_six_entries",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "mixed_grilles_and_open_windows",
+      "status": "pass",
+      "details": {
+        "none": 463,
+        "cage": 141,
+        "flush": 101
+      }
+    },
+    {
+      "id": "compiled_furniture_modules_consumed",
+      "status": "pass",
+      "details": {
+        "modules": 1110,
+        "empty": []
+      }
+    },
+    {
+      "id": "tree_roots_supported",
+      "status": "pass",
+      "details": {
+        "trees": 12,
+        "errors": []
+      }
+    },
+    {
+      "id": "pond_cells_contained",
+      "status": "pass",
+      "details": {
+        "water_cells": 93,
+        "leaks": []
+      }
+    },
+    {
+      "id": "six_roofs_cover_footprints",
+      "status": "pass",
+      "details": {
+        "missing_columns": []
+      }
+    }
+  ],
+  "passed": true,
+  "game_status": "pending",
+  "visual_status": "pending_user_review",
+  "limitations": [
+    "Static elevators and decorative furniture; no redstone lift or functional beds/doors",
+    "Block-cell traversal is conservative geometry review, not a Minecraft simulation",
+    "No real engineering, daylight, fire or planning compliance claim"
+  ]
+}

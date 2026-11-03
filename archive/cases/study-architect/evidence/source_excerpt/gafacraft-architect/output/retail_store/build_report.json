@@ -1,0 +1,274 @@
+{
+  "engine_version": "0.1.0",
+  "build_id": "retail_store-r1-d706ad4544",
+  "spec_sha256": "d706ad45442fa2a7e449c332607ed6e0d66af3b9dd01b38df0a72b1cc6b84aa7",
+  "geometry_sha256": "04bb592ff1f740a9f69bc1a4da25ea15962c1f09b84061a53bef484053f156d5",
+  "nbt": {
+    "file": "building.nbt",
+    "bytes": 27020,
+    "sha256": "a6e03c94f9d70198800408113c8c25f87d56eb8e565bd26b31e11824e3da7815",
+    "listed_blocks": 10608,
+    "non_air_blocks": 3204,
+    "size_xyz": [
+      34,
+      12,
+      26
+    ],
+    "contains_explicit_air": true,
+    "geometry_sha256": "04bb592ff1f740a9f69bc1a4da25ea15962c1f09b84061a53bef484053f156d5",
+    "data_version": 3955
+  },
+  "size_xyz": [
+    34,
+    12,
+    26
+  ],
+  "non_air_blocks": 3204,
+  "materials": {
+    "minecraft:cyan_stained_glass": 87,
+    "minecraft:gray_concrete": 515,
+    "minecraft:green_concrete": 44,
+    "minecraft:moss_block": 17,
+    "minecraft:oak_planks": 99,
+    "minecraft:orange_concrete": 16,
+    "minecraft:polished_andesite": 59,
+    "minecraft:sea_lantern": 40,
+    "minecraft:smooth_stone": 384,
+    "minecraft:stone_bricks": 884,
+    "minecraft:white_concrete": 1059
+  },
+  "validation": {
+    "spec": {
+      "schema": "pass",
+      "semantic": "pass",
+      "world_placement": "pending_actual_configuration",
+      "mode": "study"
+    },
+    "nbt_readback_exact_match": true,
+    "geometry": {
+      "status": "pass",
+      "checks": [
+        {
+          "check_id": "entry.clear",
+          "passed": true,
+          "occupied_cells": 0,
+          "examples": []
+        },
+        {
+          "check_id": "central_aisle",
+          "passed": true,
+          "occupied_cells": 0,
+          "examples": []
+        },
+        {
+          "check_id": "public_access",
+          "passed": true,
+          "reachable_cells": 270,
+          "headroom_blocks": 3,
+          "scope": "one-block-wide, flat, full-cube occupancy BFS; not game pathfinding"
+        },
+        {
+          "check_id": "service_access",
+          "passed": true,
+          "reachable_cells": 7,
+          "headroom_blocks": 3,
+          "scope": "one-block-wide, flat, full-cube occupancy BFS; not game pathfinding"
+        }
+      ],
+      "material_counts": {
+        "minecraft:cyan_stained_glass": 87,
+        "minecraft:gray_concrete": 515,
+        "minecraft:green_concrete": 44,
+        "minecraft:moss_block": 17,
+        "minecraft:oak_planks": 99,
+        "minecraft:orange_concrete": 16,
+        "minecraft:polished_andesite": 59,
+        "minecraft:sea_lantern": 40,
+        "minecraft:smooth_stone": 384,
+        "minecraft:stone_bricks": 884,
+        "minecraft:white_concrete": 1059
+      },
+      "limits": "Full-cube static geometry only. Floor labels do not prove reachability between levels; no player, light or Create test."
+    },
+    "registry": "pending_actual_configuration",
+    "game": "pending_game_test",
+    "create_import": "pending_game_test"
+  },
+  "views": [
+    {
+      "view": "front",
+      "projection": "orthographic",
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        0,
+        0,
+        -1
+      ],
+      "pixels_per_block": 33.23529411764706,
+      "build_id": "retail_store-r1-d706ad4544",
+      "geometry_sha256": "04bb592ff1f740a9f69bc1a4da25ea15962c1f09b84061a53bef484053f156d5",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_front.png",
+      "sha256": "d1d400e74a7cca630d75070431075f4be1ea1b9097b564b0226ebea809f5f1e5",
+      "rendered_faces": 490,
+      "non_background_pixels": 300347,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "back",
+      "projection": "orthographic",
+      "right": [
+        -1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        0,
+        0,
+        1
+      ],
+      "pixels_per_block": 33.23529411764706,
+      "build_id": "retail_store-r1-d706ad4544",
+      "geometry_sha256": "04bb592ff1f740a9f69bc1a4da25ea15962c1f09b84061a53bef484053f156d5",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_back.png",
+      "sha256": "948ce9d515dd332d067d6be932dfa8e61666ce208bf8bf50a3ab3d9495280965",
+      "rendered_faces": 490,
+      "non_background_pixels": 300347,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "left",
+      "projection": "orthographic",
+      "right": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        -1,
+        0,
+        0
+      ],
+      "pixels_per_block": 43.46153846153846,
+      "build_id": "retail_store-r1-d706ad4544",
+      "geometry_sha256": "04bb592ff1f740a9f69bc1a4da25ea15962c1f09b84061a53bef484053f156d5",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_left.png",
+      "sha256": "5e09495ada747c6c0808943cea193d07716a1ab613fd4ee66f61d332239a8621",
+      "rendered_faces": 386,
+      "non_background_pixels": 376036,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "right",
+      "projection": "orthographic",
+      "right": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "camera_direction": [
+        1,
+        0,
+        0
+      ],
+      "pixels_per_block": 43.46153846153846,
+      "build_id": "retail_store-r1-d706ad4544",
+      "geometry_sha256": "04bb592ff1f740a9f69bc1a4da25ea15962c1f09b84061a53bef484053f156d5",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_right.png",
+      "sha256": "ba233ae3d91c273dc18f5ee2ee8c50450e3ce7668a9d41078e2660f74253f646",
+      "rendered_faces": 386,
+      "non_background_pixels": 376036,
+      "resolution": [
+        1280,
+        1000
+      ]
+    },
+    {
+      "view": "iso45",
+      "projection": "orthographic",
+      "right": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865476
+      ],
+      "up": [
+        -0.5,
+        0.7071067811865476,
+        0.5
+      ],
+      "camera_direction": [
+        0.5,
+        0.7071067811865476,
+        -0.5
+      ],
+      "pixels_per_block": 20.007648963570414,
+      "build_id": "retail_store-r1-d706ad4544",
+      "geometry_sha256": "04bb592ff1f740a9f69bc1a4da25ea15962c1f09b84061a53bef484053f156d5",
+      "source": "NBT_readback",
+      "glass": "opaque_schematic_color",
+      "lighting": "directional_face_shading_only",
+      "file": "preview_iso45.png",
+      "sha256": "6d16f9d7c1a9c29d3251b2b6dd26396bd462cf3ce963ee6f1a25db6afcff1712",
+      "rendered_faces": 2220,
+      "non_background_pixels": 297083,
+      "resolution": [
+        1280,
+        1000
+      ]
+    }
+  ],
+  "provenance": {
+    "packet_id": "packet-retail_store",
+    "packet_sha256": "c5432df533e2b9a0404b8b8e4ae679dcdc537b50964bdd22f6d927155858c76c"
+  },
+  "limitations": [
+    "Study geometry; not surveyed reconstruction.",
+    "Full-cube renderer; glass uses opaque schematic color; no Minecraft textures or lighting.",
+    "No model inference, credential, network, world edit or website deployment in the engine.",
+    "All stages rebuilt; stable component IDs and external diffs do not imply internal incremental generation."
+  ]
+}

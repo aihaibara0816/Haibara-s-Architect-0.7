@@ -1,0 +1,95 @@
+[
+  {
+    "image": "elevation_north.png",
+    "sha256": "3c1c76638fde6f52493e5a8523e1c92365b00946f128303680d7133bfced53fe",
+    "source_nbt_sha256": "be2a371a680a03c5ba89e65f6bd6245c0db72a0c3e601ef42f6fe9b76f0e28cc",
+    "camera": {
+      "id": "elevation_north",
+      "width": 1800,
+      "height": 550,
+      "ortho": true,
+      "spanX": 275,
+      "spanZ": 84.02777777777777,
+      "eye": [
+        128,
+        27,
+        -450
+      ],
+      "target": [
+        128,
+        27,
+        120
+      ],
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "elevation_west.png",
+    "sha256": "73e345c34bc6a3c944b3921e53668e87c0dcc1914bc61372abe88b1cc4d44d45",
+    "source_nbt_sha256": "be2a371a680a03c5ba89e65f6bd6245c0db72a0c3e601ef42f6fe9b76f0e28cc",
+    "camera": {
+      "id": "elevation_west",
+      "width": 1800,
+      "height": 550,
+      "ortho": true,
+      "spanX": 258,
+      "spanZ": 78.83333333333333,
+      "eye": [
+        -450,
+        27,
+        120
+      ],
+      "target": [
+        128,
+        27,
+        120
+      ],
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "elevation_east.png",
+    "sha256": "0aa13c023534cfa5cc7a0226776788200f742ecabac3d45404ab78fcd8718884",
+    "source_nbt_sha256": "be2a371a680a03c5ba89e65f6bd6245c0db72a0c3e601ef42f6fe9b76f0e28cc",
+    "camera": {
+      "id": "elevation_east",
+      "width": 1800,
+      "height": 550,
+      "ortho": true,
+      "spanX": 258,
+      "spanZ": 78.83333333333333,
+      "eye": [
+        750,
+        27,
+        120
+      ],
+      "target": [
+        128,
+        27,
+        120
+      ],
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "concept": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

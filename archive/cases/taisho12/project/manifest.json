@@ -1,0 +1,971 @@
+{
+  "case": "Taisho12",
+  "final_run": "A06",
+  "minecraft": "Java 1.21.1",
+  "mainline": "HAF 0.4",
+  "source_nbt_sha256": "b25303bd94c35c198448ccb4133f5c4acd0a966e1098f880b0d0a10fc1d3072e",
+  "game_client": "not run",
+  "video_reference": "BV1Dx41187iG, partial frame review added after A06; changes pending",
+  "entries": [
+    {
+      "path": "README.txt",
+      "bytes": 3511,
+      "sha256": "91840257fa6db2bf838a5e09a585581e624d88ac8d4b80bc16f1028fb88b0c3a"
+    },
+    {
+      "path": "assets/render_shader_reference.html",
+      "bytes": 18280,
+      "sha256": "a0dfab81bd60194494bb0ea7481813a857545e4db96ced2645ae9d69806a1e94"
+    },
+    {
+      "path": "assets/vanilla_source.json",
+      "bytes": 174,
+      "sha256": "b3a54e96b5ca503aefae9d5c51d0207fb3608cf127b03029aa42cd2002d7f6cf"
+    },
+    {
+      "path": "delivery/Taisho12.html",
+      "bytes": 9240833,
+      "sha256": "90e722cca8c067920c58a328b5f541fa0d7b75be2c750750c5677fc4bae78f30"
+    },
+    {
+      "path": "delivery/Taisho12_Preview.png",
+      "bytes": 626278,
+      "sha256": "b61866ffd5fe7e24d4b1ed5dfdeba2227a11698be48f1c24403510dd4b912386"
+    },
+    {
+      "path": "delivery/Taisho12_World_1.21.1.zip",
+      "bytes": 58969,
+      "sha256": "466f8432f16047f7e4b4647ccacb664b126798e8165a99e243043a33ef5345d5"
+    },
+    {
+      "path": "hafusion/__init__.py",
+      "bytes": 109,
+      "sha256": "63065235a0a7c4b43d5a89753efb1993e8cd5c4fd6a4032db3f19736996a7131"
+    },
+    {
+      "path": "hafusion/bootstrap.py",
+      "bytes": 257,
+      "sha256": "f1584b4c7816207bb456d9bdf3af1e75e28a8f4a90819d6696eeb70dc92058ad"
+    },
+    {
+      "path": "hafusion/cache.py",
+      "bytes": 1218,
+      "sha256": "1b056e4889b895b1f437e4e1475c61f1a4f08e3868b6e3ece81badc8a1136b8a"
+    },
+    {
+      "path": "hafusion/canton.py",
+      "bytes": 5218,
+      "sha256": "1ee37ba3a50d2ddb90db7bf90f6aea66583dbd57a2a394672c851179584fb207"
+    },
+    {
+      "path": "hafusion/case_io.py",
+      "bytes": 2429,
+      "sha256": "95dd30b5f65de5443ce3bf34c3cd21e46a4892e8bcdc197db0d5b29441c4ac1d"
+    },
+    {
+      "path": "hafusion/classical.py",
+      "bytes": 7740,
+      "sha256": "30ea697e6c7a463a6b1291ec5184f8c97ca57b188fdc2b272e53e345ae3cc297"
+    },
+    {
+      "path": "hafusion/constraints.py",
+      "bytes": 2699,
+      "sha256": "a38429a920a8493c21af549a119f04d807bdcd74c2d2ce622c2042c906fb5a0a"
+    },
+    {
+      "path": "hafusion/design_handoff.py",
+      "bytes": 10935,
+      "sha256": "c3df073b37c7b18d53be0f7fa8ae1296a17bef8f63ec6a97f5fdcef2210c9fc5"
+    },
+    {
+      "path": "hafusion/evidence.py",
+      "bytes": 2638,
+      "sha256": "5c7ec938b9945959edf749ca48d3f9d12fc3662f2e8775beaaac51f497123984"
+    },
+    {
+      "path": "hafusion/facade.py",
+      "bytes": 1003,
+      "sha256": "7621a2362c6c68b66a16498c8fb8556344e19d2d25f2a9002b213c09027d5afd"
+    },
+    {
+      "path": "hafusion/interiors.py",
+      "bytes": 1749,
+      "sha256": "e7a533b3296378656812c8df19b3f4669113930a0fe36048ffd99134bb33cbc9"
+    },
+    {
+      "path": "hafusion/lighting.py",
+      "bytes": 2107,
+      "sha256": "06b2ccc02151909114f5afefa77b4f07047c8acc2a9633eb26bec85bed3a552d"
+    },
+    {
+      "path": "hafusion/pipeline.py",
+      "bytes": 8261,
+      "sha256": "c65db2a3b90e2d4bfee6f6635900148f3181e045337856f7be98c866e3c5e0cf"
+    },
+    {
+      "path": "hafusion/qa.py",
+      "bytes": 7205,
+      "sha256": "aafa7683275eb3fea0e9c5c46ea96e9cb97554fdf4a310cb5fd2be4c0dc82a74"
+    },
+    {
+      "path": "hafusion/review.py",
+      "bytes": 6810,
+      "sha256": "82997b66a32850ffba6924df8877490e0cb299798c3b4a2e01b20ecc3270510f"
+    },
+    {
+      "path": "hafusion/site_scene.py",
+      "bytes": 1630,
+      "sha256": "44d3c9a5ed3cc81e0759a8c1b1e24edc3dda83a99930890568852042facb7835"
+    },
+    {
+      "path": "hafusion/views.py",
+      "bytes": 3977,
+      "sha256": "cb093c0ecfdc517ebadde84c459ac69e3bfc5f89b8b6fd3021c9d0eff66e7fdb"
+    },
+    {
+      "path": "input/template_level.dat",
+      "bytes": 1634,
+      "sha256": "60701c4e801e45c8a0b189f4e0c95cf683b1837a46b7c9cfaac8401a91e6b4a0"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "28d25e0c1dd5899ceaa060ea0dc2ba55fc21f87977276987465dc8f0f94ef8d8"
+    },
+    {
+      "path": "research/design_brief.json",
+      "bytes": 1968,
+      "sha256": "d262c64e99d9b41eb9a275056b3b0a38b819e29ce79d049dbcb57efc5323f161"
+    },
+    {
+      "path": "research/images.json",
+      "bytes": 1172,
+      "sha256": "d83c1b67f89d172c3cc0940ab046d68ea9b25ace262d2e789573e8bac8611e6b"
+    },
+    {
+      "path": "research/photos/inn_front.jpg",
+      "bytes": 199211,
+      "sha256": "130c212dc255ca3529b389ce7cfcd83ab9c056b3e7980795367f3bf63d78cf60"
+    },
+    {
+      "path": "research/photos/inn_lobby.jpg",
+      "bytes": 66894,
+      "sha256": "964a99d5863a482d51c63c5c565ad57da1d3909196755d76398d6733fe40f4de"
+    },
+    {
+      "path": "research/photos/inn_stair.jpg",
+      "bytes": 146189,
+      "sha256": "c574187e75672cea9d85c6d206caea77ddc6d30597ba3bf746f53e69d13e9995"
+    },
+    {
+      "path": "research/photos/kanban.jpg",
+      "bytes": 160457,
+      "sha256": "4627571732f36bc1cd4f6a08f0a8b306a9c868709a945469ff460d0a36ee0647"
+    },
+    {
+      "path": "research/photos/kanban_small.jpg",
+      "bytes": 166493,
+      "sha256": "d6e50a5abe8a7d15c36cd5d4ef2b9b4f73496050b6311a553d166ba907a2b8f1"
+    },
+    {
+      "path": "research/sources.json",
+      "bytes": 3139,
+      "sha256": "f7c8f84f317dd7975ba11838ff5c840f22d68bfe663c9304950d221d35ac024d"
+    },
+    {
+      "path": "research/video_observations.json",
+      "bytes": 3102,
+      "sha256": "ecd94c0fdd7408e72dd46b1cdd0d378ffe31f83a347ae787ac084fae34cf577c"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/all_views.json",
+      "bytes": 16101,
+      "sha256": "9c1ba48ad9ace8eada8c7b75947c9a2225dd3ac401c265a4a4ff16835fdeffa5"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/bed.png",
+      "bytes": 83706,
+      "sha256": "c6fb54ad6aaf56047e01849909bb0a2da8df9fc6345507eb2eb0dad4102f4216"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/browse.png",
+      "bytes": 101139,
+      "sha256": "495af2dedf657e0b7605280396a781b8d7e8d4a69a85d8b34015d2309e1f0a12"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/cameras.json",
+      "bytes": 7032,
+      "sha256": "091d436b2c815feafb5e73cb794b6b7446b9c190552b281b260a4e918038c90f"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/counter.png",
+      "bytes": 109116,
+      "sha256": "42e8715c85b4e7d66cd2d315aa793388f845c41103e400f290157d16c0f5a567"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/day_NE.png",
+      "bytes": 320843,
+      "sha256": "86dc03a6aee612d10fb664fb45d8dc12936ea69407653e2446532a95e7e7511c"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/day_NW.png",
+      "bytes": 293775,
+      "sha256": "b2952de95b4911df08d605cae85a3c3c15b5b625eedbba8a1149b750bef065b0"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/day_SE.png",
+      "bytes": 319693,
+      "sha256": "9b459644101e0a162952747a4b4bb701be2ef03324ad879ce0b05532d8e6504a"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/day_SW.png",
+      "bytes": 297833,
+      "sha256": "736aaceabca155e0cba6e26ad9d55811ee55b8112191c6c1af81d6aa700f4ec3"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/elevation_east.png",
+      "bytes": 32529,
+      "sha256": "dc60544eadb86a2f4b7c137d2f0e4c33c3afb50368640b7afb25da8b7e0ff37a"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/elevation_north.png",
+      "bytes": 53884,
+      "sha256": "76031e76b90785f5933780d4d5fcbed33b17b1bb44fbdb480ae1a07d9722bd51"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/elevation_south.png",
+      "bytes": 29861,
+      "sha256": "a34654198ff20b4f9bb18f7bc4372798c690b1438a8ceb5a904f9fac3c54420a"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/elevation_west.png",
+      "bytes": 43252,
+      "sha256": "04b1834d2ee171b7a173488449a82e354d359a1fe8f74772749725b388f6fb69"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/entry.png",
+      "bytes": 41149,
+      "sha256": "c28efe3f239f98164477cde97e4ac5b89f713c474cb4825d416c1d0010a65234"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/front.png",
+      "bytes": 247249,
+      "sha256": "be8d2bd71b78577485120f0e7f96ee720af436079df39e7fbafaabb0b565a63c"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/layer_ground.png",
+      "bytes": 300095,
+      "sha256": "df10bc4fee1fa69928eebc18d80759fe165f7fa325f8eb03d0e485acfbb77d0e"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/layer_roof.png",
+      "bytes": 115981,
+      "sha256": "60d6c9b65320535140f99b61b238d22d1c00f30672a3ffaba2384c57a11e8ef1"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/layer_upper.png",
+      "bytes": 163824,
+      "sha256": "61929611903a8fec6b6b52b1dada7cd7494e9fe1544f3c2e37650c2f2ca7624e"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/night_NE.png",
+      "bytes": 318670,
+      "sha256": "ed0f6d731c39342032bc9dcfec338fbcc2098ab082404b231543f3ae616a82e2"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/night_NW.png",
+      "bytes": 287043,
+      "sha256": "e644eed705840c6fd9f860e0890cdcdaa7f26078c579f7f242053b287abb5062"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/night_SE.png",
+      "bytes": 342135,
+      "sha256": "dce3bde3ad3429d4f909a18aa1dba6fc5323382bce8ed9caf6a71455ebaac2be"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/night_SW.png",
+      "bytes": 309336,
+      "sha256": "3239d2e1bbe06d9e9de7cdb6edd82ca7350eb8330ef00e63c8851877d7ceca50"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/plan_ground.png",
+      "bytes": 134596,
+      "sha256": "83f4b37335eccf1368a11e339fa3c8b5b0d031bf5e048179677c7ff50feb9d28"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/plan_upper.png",
+      "bytes": 72156,
+      "sha256": "a5e6e710eb3e7585e3ec0f32d8e5d645b04c785f5d3afa830c2668704462e9bd"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/reading.png",
+      "bytes": 157621,
+      "sha256": "3028826404f0e92eee4a6cd10e49f4d4e39ea863349c27d9df06116841b1b1e1"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/section.png",
+      "bytes": 186921,
+      "sha256": "16a7909564e218fea69dd68e320fd384e1b28c7efdb516e854529b09ec331738"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/top.png",
+      "bytes": 149387,
+      "sha256": "ff4cd8317d434dd735e63cec32a96b1f0388d85bfe901f767bb8612eaf5a13a0"
+    },
+    {
+      "path": "review/previews/A06_Bookshop/work.png",
+      "bytes": 154984,
+      "sha256": "31a9e913a38116fe2b70feb368c04beb9abb45f3c2ea2bb18faf09451c46c12a"
+    },
+    {
+      "path": "review/previews/A06_Inn/all_views.json",
+      "bytes": 17730,
+      "sha256": "b19941d86d0b8771f4ba78294d7cd619f0f02e93ded4423a9e5ad5eea70d4470"
+    },
+    {
+      "path": "review/previews/A06_Inn/balcony.png",
+      "bytes": 66844,
+      "sha256": "fae5b821881c1652a6758c90111144ea7dffba9a40d861b951e40cf75222324b"
+    },
+    {
+      "path": "review/previews/A06_Inn/bath.png",
+      "bytes": 128392,
+      "sha256": "ec66c0b22c6d25fcdba1512c8d12771080eaf9cef70a1accc2d978bbd3055001"
+    },
+    {
+      "path": "review/previews/A06_Inn/cameras.json",
+      "bytes": 7631,
+      "sha256": "3107bedfb0a434e6b7b9fa246cfa84d16c10383fbf9f4bfba72e6e328591bc78"
+    },
+    {
+      "path": "review/previews/A06_Inn/day_NE.png",
+      "bytes": 385047,
+      "sha256": "012c0c6fcc021e59ae2f0055f840560e1b7b17b02a0dd0c1e99ee15cb69ef6ee"
+    },
+    {
+      "path": "review/previews/A06_Inn/day_NW.png",
+      "bytes": 350409,
+      "sha256": "126dc88c9355f26809713d73e0d25c11284b909ce65b5886a20bbc077f272fe4"
+    },
+    {
+      "path": "review/previews/A06_Inn/day_SE.png",
+      "bytes": 369270,
+      "sha256": "dfd48f3ea6c4a88467fd3b23a6f67e2cfe08a0e7548bd89bc35bfee6ae65b930"
+    },
+    {
+      "path": "review/previews/A06_Inn/day_SW.png",
+      "bytes": 375156,
+      "sha256": "bf0df6bc32e936a99c33c570a5bedef0793aab828881ebe74a8c9d1cec2764dc"
+    },
+    {
+      "path": "review/previews/A06_Inn/elevation_east.png",
+      "bytes": 41573,
+      "sha256": "355cfbc854d12e2617788c538111dfef5d266268f1d357c3639afffa7efbe2ce"
+    },
+    {
+      "path": "review/previews/A06_Inn/elevation_north.png",
+      "bytes": 57323,
+      "sha256": "7f405f8194ae83156aa684ef0b52412dc4201a640d9989d38bf5e2a8e40cebcd"
+    },
+    {
+      "path": "review/previews/A06_Inn/elevation_south.png",
+      "bytes": 46234,
+      "sha256": "a415c02efc63e9f5b42d48604bdc065c42c00a0436bc12ba6ba4a196e7426f16"
+    },
+    {
+      "path": "review/previews/A06_Inn/elevation_west.png",
+      "bytes": 52782,
+      "sha256": "24f1417a653a39dfcf630205bba7d9800835b57990b0bd01f71824b057908fe4"
+    },
+    {
+      "path": "review/previews/A06_Inn/entry.png",
+      "bytes": 85487,
+      "sha256": "6581230eaef1d601e91de75417bc87fe03f024f7633c3bf38d7ba41dfcf162f5"
+    },
+    {
+      "path": "review/previews/A06_Inn/front.png",
+      "bytes": 255840,
+      "sha256": "061c5d81632db42a4a803106719b5aa1ab46384103d24e9f9b810a0bf9ba7724"
+    },
+    {
+      "path": "review/previews/A06_Inn/guest.png",
+      "bytes": 144226,
+      "sha256": "0812da83a60d6cbc024e280e44c2d85cc8f2f281541abd3ce21db0f59b7f67ae"
+    },
+    {
+      "path": "review/previews/A06_Inn/guest_east.png",
+      "bytes": 133888,
+      "sha256": "b3ca8d89210742344ca297b27772bccbd771f71a3dbb8b066368654ed6758d91"
+    },
+    {
+      "path": "review/previews/A06_Inn/hall.png",
+      "bytes": 124528,
+      "sha256": "805c289f4671fd2c05b83e6ad240048f207bdc6ab67e92c6c41b52a91c9d5f03"
+    },
+    {
+      "path": "review/previews/A06_Inn/kitchen.png",
+      "bytes": 108386,
+      "sha256": "a7485df9cfa1073c442c0cf7c629bf007952a3197816cce28429592ed90d37ab"
+    },
+    {
+      "path": "review/previews/A06_Inn/layer_ground.png",
+      "bytes": 374386,
+      "sha256": "122487511b0735f64ff9ae935f3da9f2688b32367ba4eccba5b905bd4883c252"
+    },
+    {
+      "path": "review/previews/A06_Inn/layer_roof.png",
+      "bytes": 135569,
+      "sha256": "309eadba44f0eef7ea93d3cf9fbd25214d5dc4358c6cbaaaed4ef4939173d28b"
+    },
+    {
+      "path": "review/previews/A06_Inn/layer_upper.png",
+      "bytes": 185850,
+      "sha256": "bcb69746f71132900c9e55f2eb07eb5b1f274e062b88f5164346510aa50cf703"
+    },
+    {
+      "path": "review/previews/A06_Inn/lounge.png",
+      "bytes": 137493,
+      "sha256": "e7bf62780975ef39f01824fb9b39c3cffc78b5d39b580ba0e44c992bb3afe878"
+    },
+    {
+      "path": "review/previews/A06_Inn/night_NE.png",
+      "bytes": 381320,
+      "sha256": "8835f15c53972594ebfb0e6c7ecbc7337d8da09022a0f8ef5d8e3be33734d9d6"
+    },
+    {
+      "path": "review/previews/A06_Inn/night_NW.png",
+      "bytes": 345241,
+      "sha256": "ce9e6e7de7aa87f4e150e18f33f7080bdec4c9267c7bdd8f0f3f6ab9eb81d020"
+    },
+    {
+      "path": "review/previews/A06_Inn/night_SE.png",
+      "bytes": 387674,
+      "sha256": "2528ab0f9b85cca31f496edb98e649fa530705dac13d280c215007d231466660"
+    },
+    {
+      "path": "review/previews/A06_Inn/night_SW.png",
+      "bytes": 378569,
+      "sha256": "3081e5b451960a6cc3c9a7e33226a93d9ef37343594b15f4a1c77578bd1dbee2"
+    },
+    {
+      "path": "review/previews/A06_Inn/plan_ground.png",
+      "bytes": 189993,
+      "sha256": "4d8886405cc63ccf9ff12d563345d2ac977befbd30d374207958a0f301af11c7"
+    },
+    {
+      "path": "review/previews/A06_Inn/plan_upper.png",
+      "bytes": 106806,
+      "sha256": "51d2948a261fbc00f7be16a1a7214dedda22d2b630211f668f54f7733feb8dd5"
+    },
+    {
+      "path": "review/previews/A06_Inn/reception.png",
+      "bytes": 149721,
+      "sha256": "89a58f8440a6cc111b2465d490db8a3dfe6e8f23f2855b14b4c1192141fc46fc"
+    },
+    {
+      "path": "review/previews/A06_Inn/section.png",
+      "bytes": 215225,
+      "sha256": "bbbc9aa8daeeb17529597861d2a8540fdf34ec70082acba63452fe86e7f21105"
+    },
+    {
+      "path": "review/previews/A06_Inn/top.png",
+      "bytes": 164359,
+      "sha256": "c4c87eae71c6f44416a913cdd49d9e2a298dab3262c4eec3c7a3ee11a3a7415f"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/all_views.json",
+      "bytes": 16101,
+      "sha256": "841f43cfcbfb615abf9683fb936e5bc19609370e5e3fbfc043108f999801de7a"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/bed.png",
+      "bytes": 106479,
+      "sha256": "53736a900c6cd3d35f647d2dfdc697cd51671c88c2f984387e7675692102c28d"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/cameras.json",
+      "bytes": 7031,
+      "sha256": "2631131bafc92984362e649d59a0e470cb981cba51ffd217d92d9ff34f312d27"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/counter.png",
+      "bytes": 92998,
+      "sha256": "e871e268c843696100c6a5538e38d4a0ff2af02b0484bb6582557fa88a8351b2"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/day_NE.png",
+      "bytes": 333306,
+      "sha256": "824d27c6853b4286eb38e05100e11309549a29b37d19a4598417073d5a0cfd92"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/day_NW.png",
+      "bytes": 302647,
+      "sha256": "253045b2069e582e0e5b874d5d7f23760cfc348e4c7ae3a9663b038b4ec6750f"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/day_SE.png",
+      "bytes": 329670,
+      "sha256": "62ae33457e88b352c9ca0c6ce5e9472b7d39d5abe1633786ca9790e62e56719c"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/day_SW.png",
+      "bytes": 339671,
+      "sha256": "926d36a66f23bef3b9b9e794f2e8343f60c1b73f9c94519189da1537e2749186"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/display.png",
+      "bytes": 186786,
+      "sha256": "e563531f767b5e3ffa6879c400021f139be28370be1781a27c9e03332ab5d23f"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/elevation_east.png",
+      "bytes": 33364,
+      "sha256": "9682bfb315437b324a933db461551b0be8c24484070bfe73b00fd241d573a0f7"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/elevation_north.png",
+      "bytes": 47731,
+      "sha256": "ceecadd35cd28fa501dbe922079ea5200afe8846096bbc9de7a4eda9f0a12424"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/elevation_south.png",
+      "bytes": 34012,
+      "sha256": "ca7b3b69e5f2967337f8addfe646a9f2fcbb4362baccb889ab6eb779b77b9441"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/elevation_west.png",
+      "bytes": 40801,
+      "sha256": "5075995a3ac7569cd2c8b89c507a4153b16fa484d61ddeb9c09845973dae605c"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/entry.png",
+      "bytes": 92873,
+      "sha256": "3dcc18c277466fd18a2db2a1cd8235399c39aaa2f3c6d898363de9280ae5dad3"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/front.png",
+      "bytes": 245539,
+      "sha256": "0484d51c1045090f48727342c185167dfd37e96b2591938d761359ad929547b3"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/layer_ground.png",
+      "bytes": 338208,
+      "sha256": "36a54ecc0fcb9a33a1c9956d4cda22d068d6436757a2e7006244abc746018a3d"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/layer_roof.png",
+      "bytes": 117987,
+      "sha256": "c41ed7606d5c10868231b273c094aa33a81b5052e06c9764f000e672f23da373"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/layer_upper.png",
+      "bytes": 172684,
+      "sha256": "5f0b5aa5096bd5a6c1ce922469375ee050356821ff4be73194fe462ea763eac4"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/night_NE.png",
+      "bytes": 334370,
+      "sha256": "0b15948ca13be3bdf6f30ee1329ac10f361784223073ef9d7502b419a5f51a9f"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/night_NW.png",
+      "bytes": 290261,
+      "sha256": "96fc5919b9e01580e4ad14e741f15a53591079c3bdf2c070b8d87677e3c757e3"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/night_SE.png",
+      "bytes": 338669,
+      "sha256": "60e6deaa24c458a015414183062b91c794f13255f74e7edf0dcffbb5c809c1ba"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/night_SW.png",
+      "bytes": 339466,
+      "sha256": "2e18f1334e4814d5cbcbc1531756cd08c27c07de8a581ee1d711e1ec18b1db76"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/office.png",
+      "bytes": 172828,
+      "sha256": "8cb567f53b0872312ca8fbe73b44eb391f883540f8b8de9b71403dba5015621a"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/plan_ground.png",
+      "bytes": 158588,
+      "sha256": "6acdcdb51553ac7e7b114a5d94d6a0e10bae089ccb4209d182e8f6563a4af20b"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/plan_upper.png",
+      "bytes": 90803,
+      "sha256": "621d8f5ca49a421dc47c463ce0636fcebe118f24203f2c82ff85f2ca1baf4f3f"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/section.png",
+      "bytes": 179467,
+      "sha256": "b7c71618b8e1619ceb7fdd29142d6929a004c0035f1d86c26e47f8eb0955d302"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/stock.png",
+      "bytes": 74991,
+      "sha256": "05b9fa078b6babaed72558341798cc5db79c646436f12053637a800ec764d34f"
+    },
+    {
+      "path": "review/previews/A06_Pharmacy/top.png",
+      "bytes": 151344,
+      "sha256": "a1601be4b761cb495097737da653848efac1073f3039409cc8318afadb165db8"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/all_views.json",
+      "bytes": 6845,
+      "sha256": "d33c9998dff24d505a5ee1559d3b3460b906fcd2e9e0e59959dc2a735a7d15c6"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/cameras.json",
+      "bytes": 3022,
+      "sha256": "33af52e08dbe61eea1ef832b2114a69a62f4aca84cee7f20796bd316b6d54d4f"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/day_NE.png",
+      "bytes": 192304,
+      "sha256": "c502b35a7f6c904cf4ac8a850d85214aa8e5b0a1882f6070c76b9d291f8774db"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/day_NW.png",
+      "bytes": 171044,
+      "sha256": "14d86cf1c9782943b870677905b3c321463b588947503f73efa2e302bd74f0fe"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/day_SE.png",
+      "bytes": 191403,
+      "sha256": "7d4989dcb25ec86f1d8ea2b1a5246e904f9d02db14c84da9d4fd6da882a65330"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/day_SW.png",
+      "bytes": 186971,
+      "sha256": "720e49c6dde7ff5a97cd450cfc875d9d76fa889d9f94ce42a38741c0e5a8d532"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/night_NE.png",
+      "bytes": 195912,
+      "sha256": "b3c8c47412b52951b1b46c8aafdc6aed8ad989fb1efc822aac5b3d176f810708"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/night_NW.png",
+      "bytes": 172664,
+      "sha256": "133c73c8db7241e8d45d34dfe7a04e13a614af6c8d4e2d5dd66a9f360af67021"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/night_SE.png",
+      "bytes": 212731,
+      "sha256": "a46bab3ddb5485547da6c6cbb530a0c7771d02c9f1ed0604b584f0dffbb7fc1d"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/night_SW.png",
+      "bytes": 197952,
+      "sha256": "40aa6d8c40146439b1cb871f947e1cea828db417b2695e4c813097bf9d2c5445"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/street.png",
+      "bytes": 130171,
+      "sha256": "d93b6f31e2e1703168673a346af6c4573ca29da147f7ec549d56497e52df18bf"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/street_west.png",
+      "bytes": 136612,
+      "sha256": "36f8a4f2b072d180c1c169ff3032eb8ca9b64258798ac20d79fea50a54053f48"
+    },
+    {
+      "path": "review/previews/A06_Taisho12/top.png",
+      "bytes": 87646,
+      "sha256": "c24eb31d63ce3db6285546cec9a670801974fe2d9f2debecc497b4328e6c919f"
+    },
+    {
+      "path": "runs/A06/Bookshop.nbt",
+      "bytes": 18797,
+      "sha256": "5729d71c1d703f9ba834093670aca1f13907d427c0984d1be4770857b63c9e64"
+    },
+    {
+      "path": "runs/A06/Bookshop_audit.json",
+      "bytes": 1894,
+      "sha256": "64754d46022a613b7e96591c7fdf00d1a6243a005fc67a9cecc51e3a88a7e314"
+    },
+    {
+      "path": "runs/A06/Bookshop_spec.json",
+      "bytes": 30394,
+      "sha256": "8a3c9776929b376836b23d5190d52e5198dcf8b941c69464c03c1444569704e4"
+    },
+    {
+      "path": "runs/A06/Inn.nbt",
+      "bytes": 32187,
+      "sha256": "0325c5b5a5a2d787b81014a9230911afe1cc035feacb67c50486650e8493d4f3"
+    },
+    {
+      "path": "runs/A06/Inn_audit.json",
+      "bytes": 2747,
+      "sha256": "c2d8123ba90ca19a97593eacd6cc7b3209f3d0a1344eec3a8907b85462a505f4"
+    },
+    {
+      "path": "runs/A06/Inn_spec.json",
+      "bytes": 34936,
+      "sha256": "d28bfe732e8147cf79414d2728038a0e73f17c01eb144a9cd1f436ca7e0e68e9"
+    },
+    {
+      "path": "runs/A06/Pharmacy.nbt",
+      "bytes": 22998,
+      "sha256": "53645b8ad1b3fd910738a5464378c2fa407a3073b52218672366da285f11a58c"
+    },
+    {
+      "path": "runs/A06/Pharmacy_audit.json",
+      "bytes": 2043,
+      "sha256": "3c282dfd4dff7c9a9772a417af7c6ff24e7f0f636c54d563ae972febdffc31e6"
+    },
+    {
+      "path": "runs/A06/Pharmacy_spec.json",
+      "bytes": 22869,
+      "sha256": "214c23f31470597db988851cf8b2e0f6c94c8ff635b43d93d063f7336cb69e59"
+    },
+    {
+      "path": "runs/A06/Taisho12.nbt",
+      "bytes": 85004,
+      "sha256": "b25303bd94c35c198448ccb4133f5c4acd0a966e1098f880b0d0a10fc1d3072e"
+    },
+    {
+      "path": "runs/A06/Taisho12_spec.json",
+      "bytes": 67515,
+      "sha256": "b7030e387491e3935cd82707807f39beb8a60640ae819c1c36814cd761aa4401"
+    },
+    {
+      "path": "runs/A06/html_check.json",
+      "bytes": 213,
+      "sha256": "1a51f9a5d89ead41954885063dd8cc4946dc66c229d6e03875320e4ec334a7ac"
+    },
+    {
+      "path": "runs/A06/repro_check.json",
+      "bytes": 549,
+      "sha256": "f95decade870849381d120011d5167889afc337044356649a12ac5acc78c85e1"
+    },
+    {
+      "path": "runs/A06/spec.json",
+      "bytes": 67515,
+      "sha256": "b7030e387491e3935cd82707807f39beb8a60640ae819c1c36814cd761aa4401"
+    },
+    {
+      "path": "runs/A06/world_check.json",
+      "bytes": 659,
+      "sha256": "bab7cd496fcb58dccafd42d507ddd8d64135151bc7b4b9c79849300c70717564"
+    },
+    {
+      "path": "src/audit_more.py",
+      "bytes": 6184,
+      "sha256": "0941daad1d42ec5dd6246b0ed3f10edb048f408e309ad0c57ec0505758dc0fe9"
+    },
+    {
+      "path": "src/build_more.py",
+      "bytes": 23258,
+      "sha256": "91f03cff843af5e4e5c304a67600ac0372d63e9fe56de64b52c51d325edb46cc"
+    },
+    {
+      "path": "src/check_more.cjs",
+      "bytes": 2278,
+      "sha256": "b3d882b9e30fb44ca761ab4b3222369f3cba55f13128b3dc9b494dc1b58d2487"
+    },
+    {
+      "path": "src/corner_states.py",
+      "bytes": 1399,
+      "sha256": "572b751660858d75d107fdaf801949a82d3b5530ba9f3f11e6fbc7fb1ade2c60"
+    },
+    {
+      "path": "src/export_world.py",
+      "bytes": 9568,
+      "sha256": "c15b5e5e0224688d6e1525efce70efede0410b4b6544444111a268a70e444095"
+    },
+    {
+      "path": "src/fetch_vanilla_assets.py",
+      "bytes": 1351,
+      "sha256": "e33ba9b2c5a385e062bc6cdb70d056d751ce0492c19d86cfd595cdf79fd7efc1"
+    },
+    {
+      "path": "src/interior_kit.py",
+      "bytes": 4885,
+      "sha256": "8b3831c838b649a69861d20e2aeecddbd96706777975b98c5cd7e7ba6c4cb0bf"
+    },
+    {
+      "path": "src/interior_lab_states.py",
+      "bytes": 3130,
+      "sha256": "b8634b85c5c23803b1ccea88ff7aee3d7d98e5be216ee05babb51d9907ceeec7"
+    },
+    {
+      "path": "src/modules.py",
+      "bytes": 14841,
+      "sha256": "30db53c8f39e3a15d7300a7a4fae39d87dd8ae8a1bc68c11a25cbf50b8835312"
+    },
+    {
+      "path": "src/package_more.py",
+      "bytes": 2787,
+      "sha256": "ddbd4a62243435a3d7e48b490ccb7de505c4eef7aba7d6c7a2a3ef811ad947cf"
+    },
+    {
+      "path": "src/prototype_base.py",
+      "bytes": 4176,
+      "sha256": "d6515bce3bc2fa4bee4f239b3efe61ef43e8e0bc79bfec22730121aa7b5bee2e"
+    },
+    {
+      "path": "src/render_more.py",
+      "bytes": 3720,
+      "sha256": "a139fa43525882996a5e6e3a98bf82e097120bb6f76edc2e95bca32fa137d082"
+    },
+    {
+      "path": "src/report_more.py",
+      "bytes": 23505,
+      "sha256": "bc7da5f18ed0f27aa2740b6c1d079a3984fbc967882f31f46c0a6a78fb5b5ab9"
+    },
+    {
+      "path": "src/room_states.py",
+      "bytes": 1652,
+      "sha256": "21e1060ecca66c907278878dcbef25fc26ee93658270d1d7df8059a73f103f5c"
+    },
+    {
+      "path": "src/taisho_states.py",
+      "bytes": 2092,
+      "sha256": "91f831b73a9e06eb5d69970962a6d18a62590ab568d7f0f6b7301eb688830602"
+    },
+    {
+      "path": "src/terrain_states.py",
+      "bytes": 1817,
+      "sha256": "f68aafd32ddbe3f43b16884bb42d24bfa108890b414b1259bdc75605c940bf59"
+    },
+    {
+      "path": "src/town_states.py",
+      "bytes": 1433,
+      "sha256": "9a350be7b612a9991a4a38c2b173763700f0e86aec36cdcb2d93ff46d08dcc59"
+    },
+    {
+      "path": "src/vanilla_preview.py",
+      "bytes": 9127,
+      "sha256": "14f3c628076f4d22d57a37fd791ba76edd3921ce153a49494383fbff6401927a"
+    },
+    {
+      "path": "support/detail_lab/__init__.py",
+      "bytes": 18,
+      "sha256": "0a95e2de31a5c76dd1bd1c94ee2cad38c66b9eca5d5b0e32a1f4bc9693f50095"
+    },
+    {
+      "path": "support/detail_lab/builders.py",
+      "bytes": 14843,
+      "sha256": "8c5bd9cf5c3be3132ca3fb51e8121109f195b434e29700f73839f08c554fff92"
+    },
+    {
+      "path": "support/detail_lab/mesh.py",
+      "bytes": 6760,
+      "sha256": "b6a19486ed10d30ae70c3493fbd840abfcb5e4a663d3e7b2bda0fb2925c619cd"
+    },
+    {
+      "path": "support/detail_lab/shading.py",
+      "bytes": 625,
+      "sha256": "41782367375c77f817ffcbbce3ed36da945fb7ce0bd0a8b4549c74caaa1643a0"
+    },
+    {
+      "path": "support/detail_lab/states.py",
+      "bytes": 13425,
+      "sha256": "586656f77135967c891e758b1f01de9f1dada960c4f5b3fa63d4ea7663c77e73"
+    },
+    {
+      "path": "support/japanese_detail_states.py",
+      "bytes": 2523,
+      "sha256": "e6e6a0e5bd6b83403eec0058c23bf68b942961a2c1ca88346d875f6f32189052"
+    },
+    {
+      "path": "support/render_egl_site.py",
+      "bytes": 11566,
+      "sha256": "8ace85f562cb92c53c1286da62d60d9ac10858e7a93cae6830e9dcc84ef09c3c"
+    },
+    {
+      "path": "support/rural_states.py",
+      "bytes": 6662,
+      "sha256": "590e5f1595f9145ec5bc9bc2380f32eed7b83d21e8166c4c44c3e129215ac91c"
+    },
+    {
+      "path": "support/vendor/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "support/vendor/inspect_build.py",
+      "bytes": 18018,
+      "sha256": "4ee3f59ef2fe3b5139a383b079ea73aaa4fb486c8cf67dd01678e3f874ef7902"
+    },
+    {
+      "path": "support/vendor/render_egl.py",
+      "bytes": 10599,
+      "sha256": "77465ae2d8805ae4b500eaf831f5e62e6a9bd4d9a0eb9fffe65c64431cb827cd"
+    },
+    {
+      "path": "support/vendor/voxel_core.py",
+      "bytes": 8974,
+      "sha256": "4c56bb64a78dcd5edf4fafcf9e9bc7f9b15ac6068c02873f9056166410dca532"
+    },
+    {
+      "path": "structures/bookshop.nbt",
+      "bytes": 18797,
+      "sha256": "5729d71c1d703f9ba834093670aca1f13907d427c0984d1be4770857b63c9e64"
+    },
+    {
+      "path": "structures/pharmacy.nbt",
+      "bytes": 22998,
+      "sha256": "53645b8ad1b3fd910738a5464378c2fa407a3073b52218672366da285f11a58c"
+    },
+    {
+      "path": "structures/inn.nbt",
+      "bytes": 32187,
+      "sha256": "0325c5b5a5a2d787b81014a9230911afe1cc035feacb67c50486650e8493d4f3"
+    },
+    {
+      "path": "structures/taisho12.nbt",
+      "bytes": 85004,
+      "sha256": "b25303bd94c35c198448ccb4133f5c4acd0a966e1098f880b0d0a10fc1d3072e"
+    },
+    {
+      "path": "research/diagnostics/A02_Bookshop_audit.json",
+      "bytes": 2775,
+      "sha256": "49ab6c7aa9f44de57937e6f013d9776f25ccb279b7ace034e665ab419e448974"
+    },
+    {
+      "path": "research/diagnostics/A02_Inn_audit.json",
+      "bytes": 3701,
+      "sha256": "3072b48c240d30b9c99d62297b84da1a62530de1a6637c9c35ad6ac3f0084195"
+    },
+    {
+      "path": "research/diagnostics/A02_Pharmacy_audit.json",
+      "bytes": 2043,
+      "sha256": "3c282dfd4dff7c9a9772a417af7c6ff24e7f0f636c54d563ae972febdffc31e6"
+    },
+    {
+      "path": "research/diagnostics/A03_Bookshop_audit.json",
+      "bytes": 1894,
+      "sha256": "1ee8f23e4c03dd26001ca513f3b1f77b6d767f38e869542949817c778d3b6411"
+    },
+    {
+      "path": "research/diagnostics/A03_Inn_audit.json",
+      "bytes": 2856,
+      "sha256": "cfdb5d840d8f9ebf10e6fad57ca0311cb7308f22453eb2d3998c48b27bea1ce5"
+    },
+    {
+      "path": "research/diagnostics/A03_Pharmacy_audit.json",
+      "bytes": 2043,
+      "sha256": "3c282dfd4dff7c9a9772a417af7c6ff24e7f0f636c54d563ae972febdffc31e6"
+    },
+    {
+      "path": "research/diagnostics/A04_Bookshop_audit.json",
+      "bytes": 1894,
+      "sha256": "64754d46022a613b7e96591c7fdf00d1a6243a005fc67a9cecc51e3a88a7e314"
+    },
+    {
+      "path": "research/diagnostics/A04_Inn_audit.json",
+      "bytes": 2746,
+      "sha256": "50a23da37ac4c8944e5fb60776e6915b8a4b11abf31b9cbd10811b1c0eaa5bd8"
+    },
+    {
+      "path": "research/diagnostics/A04_Pharmacy_audit.json",
+      "bytes": 2043,
+      "sha256": "3c282dfd4dff7c9a9772a417af7c6ff24e7f0f636c54d563ae972febdffc31e6"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "case_id": "Qilou03",
+  "run": "G05",
+  "parent_case": "Qilou02; Rongyinli V4 is a shape reference only",
+  "scope": "28 authored mixed Cantonese arcade and urban-village buildings connected by main streets and alleys",
+  "evidence": [
+    {
+      "id": "E01",
+      "title": "E01 · 恩宁路街段",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670801/10956036.png",
+      "credit": "摄影：李宁 / 荔湾区规划资源分局",
+      "file": "reference_images/enning_street.png",
+      "sha256": "392e396ca2cb128c74094ae9626d3eef24147e768d8d0562106cf07899d2eaa7",
+      "visual_review_origin": "Qilou01; same verified image bytes reused",
+      "observation": "柱廊连续，上层立面有所变化。"
+    },
+    {
+      "id": "E02",
+      "title": "E02 · 恩宁路 140 号",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670804/10956036.png",
+      "credit": "图源署名：自摄 / 荔湾区规划资源分局",
+      "file": "reference_images/enning_140.png",
+      "sha256": "a88a6aaad270a27aaeaa6a8cddb5c8113c20fdd7b95e65756c15c404315a135a",
+      "visual_review_origin": "Qilou01; same verified image bytes reused",
+      "observation": "凹阳台、栏杆、柱式与顶部装饰。"
+    },
+    {
+      "id": "E03",
+      "title": "E03 · 骑楼街门夜景",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670806/10956036.png",
+      "credit": "摄影：陈明辉 / 荔湾区规划资源分局",
+      "file": "reference_images/arcade.png",
+      "sha256": "b58979cc907c7db9b4e9e0d86b87c0a3dfeda09544ce4ad9af005e7e6ddedd7e",
+      "visual_review_origin": "Qilou01; same verified image bytes reused",
+      "observation": "廊柱、街门与门头层次。"
+    },
+    {
+      "id": "E04",
+      "title": "E04 · 富兴茶居室内",
+      "source_page": "https://huacheng.gz-cmc.com/pages/2026/03/16/d242879e6adb40bf90236b9f31e644d6.html",
+      "source_image": "https://oss.gz-cmc.com/pgcr/root/huacheng/upload/news/image/2026/03/16/1773645534976058136.jpg?x-oss-process=style%2Fcontent",
+      "credit": "摄影：吴多 / 广州日报新花城",
+      "file": "reference_images/fuxing_interior.jpg",
+      "sha256": "0db973adbab3cf52d3ee996ca0e287b1f2d58ccdb0d8921a0b31cc90d124cadc",
+      "visual_review_origin": "Qilou01; same verified image bytes reused",
+      "observation": "座席组、服务、灯光和植物。"
+    }
+  ],
+  "decisions": [
+    {
+      "evidence": "E01 plus user street photo",
+      "decision": "Continuous two-sided street walls and eye-level long views",
+      "code": "build_guangzhou_district.py: CONFIG and roads",
+      "validation": "main street east/west and network reach"
+    },
+    {
+      "evidence": "Rongyinli V4 actual world slice at Y81",
+      "decision": "Broader diagonal corners, carried through floor and parapet",
+      "code": "build_guangzhou_district.py: chamfer and village",
+      "validation": "four corners and floor plans"
+    },
+    {
+      "evidence": "E04 and prior programme cases",
+      "decision": "Programme-specific shops and dwellings with beds, sofas, kitchens and planting",
+      "code": "qilou_recipes.py and modern_shop",
+      "validation": "per-floor function points, stairs, interiors"
+    }
+  ],
+  "view_contract": {
+    "overall": "four equal day/night orthographic views",
+    "building": "four elevations, plans, section, exploded floors and interiors",
+    "street": "main street both ways, intersection, 4 corners, arcade, alley, mixed edge"
+  },
+  "scope_notes": [
+    "Original design, not a measured replica.",
+    "Authored topology and building massing; only declared component and planting choices are seeded.",
+    "No Minecraft client execution.",
+    "No general urban planner or model-weight training."
+  ]
+}

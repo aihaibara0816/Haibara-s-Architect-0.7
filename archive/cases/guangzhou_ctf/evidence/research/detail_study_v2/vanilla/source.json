@@ -1,0 +1,61 @@
+{
+  "version": "1.21.1",
+  "manifest_url": "https://piston-meta.mojang.com/v1/packages/1757c8b1fbfc6b638504e1f6cceb05893f7389d5/1.21.1.json",
+  "client_sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
+  "client_url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar",
+  "extracted_original_paths": [
+    "assets/minecraft/models/block/anvil.json",
+    "assets/minecraft/blockstates/anvil.json",
+    "assets/minecraft/models/block/iron_bars_post.json",
+    "assets/minecraft/models/block/iron_bars_side.json",
+    "assets/minecraft/blockstates/iron_bars.json",
+    "assets/minecraft/models/block/redstone_torch.json",
+    "assets/minecraft/blockstates/redstone_torch.json",
+    "assets/minecraft/models/block/template_torch.json",
+    "assets/minecraft/models/block/bookshelf.json",
+    "assets/minecraft/models/block/template_anvil.json",
+    "assets/minecraft/shaders/include/light.glsl"
+  ],
+  "retained_local_files": {
+    "anvil.json": {
+      "original": "assets/minecraft/blockstates/anvil.json",
+      "sha256": "eb86aa591e4f07cd3bf7bd56d43b88b4e8c5ba054d75489cfc57cc630ac5ebd2"
+    },
+    "iron_bars_post.json": {
+      "original": "assets/minecraft/models/block/iron_bars_post.json",
+      "sha256": "3c53eaf96abd4486884820a54df91bf10044f93b5c14af64d0eacc66dae1b282"
+    },
+    "iron_bars_side.json": {
+      "original": "assets/minecraft/models/block/iron_bars_side.json",
+      "sha256": "08c8b4faa2108b7ca4d67c5e33dbb38a91ed74d8887c0cade1849eadbf29b9a9"
+    },
+    "iron_bars.json": {
+      "original": "assets/minecraft/blockstates/iron_bars.json",
+      "sha256": "3cf666ffd34396284280b82d1cc2733ec6c8cd3adbe67d9007ace4f106958ef2"
+    },
+    "redstone_torch.json": {
+      "original": "assets/minecraft/blockstates/redstone_torch.json",
+      "sha256": "28e76e686fb2c8e3e729d83163ffcab6f9ae81ec9205d4581d99ad42820257d4"
+    },
+    "template_torch.json": {
+      "original": "assets/minecraft/models/block/template_torch.json",
+      "sha256": "fa52aef75bf526bbd918386e19f05442ad613976a8381367a2ec719796bfe235"
+    },
+    "bookshelf.json": {
+      "original": "assets/minecraft/models/block/bookshelf.json",
+      "sha256": "ca9f599c8d0e7e01f5020f6b506dbad3dd9c7ca43088ee4319a7814e9547d1cb"
+    },
+    "template_anvil.json": {
+      "original": "assets/minecraft/models/block/template_anvil.json",
+      "sha256": "0d9175562123afe2c9bfff33a7b585544832eba760794faf777a1aeceb4461f0"
+    },
+    "light.glsl": {
+      "original": "assets/minecraft/shaders/include/light.glsl",
+      "sha256": "0fdb0d7a1bc8223cd8232af7d7df84ac33463a183c8378127669a6f295e7466b"
+    }
+  },
+  "not_retained_due_to_basename_collision": [
+    "assets/minecraft/models/block/anvil.json",
+    "assets/minecraft/models/block/redstone_torch.json"
+  ]
+}

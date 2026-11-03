@@ -1,0 +1,61 @@
+{
+  "case": "civic_center",
+  "design_version": "0.3-offset-openings",
+  "route": "approved_original_design",
+  "scale_blocks_per_m": 2,
+  "offset": [
+    12,
+    4,
+    12
+  ],
+  "size": [
+    144,
+    78,
+    120
+  ],
+  "coordinate_transform": "X=12+2*x; Y=4+round(2*y); Z=12+2*(48-z)",
+  "facade_seed": 20261026,
+  "lighting": {
+    "seed": 20261026,
+    "namespace": "civic-interior-light-v1",
+    "office_probability": 0.55
+  },
+  "floor_top_y": [
+    4,
+    14,
+    23,
+    32,
+    40,
+    48,
+    56,
+    64
+  ],
+  "world_origin_y_max": 242,
+  "game_status": "pending",
+  "mode": "complete",
+  "interior_revision": "v0.3.1 public zones",
+  "interior_lighting_namespace": "civic-zones-v2",
+  "lighting_garden_revision": "V0.3.2",
+  "ambient_lighting": {
+    "public_spacing_blocks": 8,
+    "office_spacing_blocks": 10,
+    "public_strip_length": 3,
+    "office_strip_length": 2,
+    "namespace": "fixed-functional-ambient-v1",
+    "old_task_lights": "retained"
+  },
+  "ceiling_lighting_policy": {
+    "revision": "V0.3.3",
+    "floor_count": 7,
+    "functional_rooms_on": "all",
+    "full_cube_fixture": "flush",
+    "upper_floor_levels": "preserved",
+    "modern_separator_blocks": 2,
+    "exceptions": [
+      "stair shafts: existing slab recess",
+      "outdoor bridge and passage: existing soffit recess",
+      "facade shadow reveal preserves glass connections"
+    ],
+    "warm_cool": "material appearance; vanilla propagation is not colored"
+  }
+}

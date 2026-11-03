@@ -1,0 +1,93 @@
+{
+  "engine": "HAF 0.4.0",
+  "rating_legend": {
+    "A": "限定范围实际实现并测试可复用",
+    "B": "实现基础存在、需补测或优化",
+    "C": "规范/原型存在、关键能力缺失",
+    "D": "尚无实现"
+  },
+  "items": [
+    {
+      "capability": "证据到参数与消费者",
+      "rating": "B",
+      "consumer": "hafusion/evidence.py / 各案例research",
+      "limits": "保留冲突、不平均、来源绑定已实现；关键形态理解仍人工"
+    },
+    {
+      "capability": "有限方块状态/旋转/邻接",
+      "rating": "A",
+      "consumer": "support/detail_lab/states.py / tests/test_vertical_facade.py",
+      "limits": "仅本地已注册方块子集；楼梯复杂邻接与游戏碰撞未全覆盖"
+    },
+    {
+      "capability": "稳定分区灯光与伪内饰",
+      "rating": "B",
+      "consumer": "hafusion/lighting.py / interiors.py",
+      "limits": "共享函数和局部样板已测；各建筑夜景真实排布不等于全部落实"
+    },
+    {
+      "capability": "地形与多标高场地",
+      "rating": "B",
+      "consumer": "hafusion/site_scene.py / cases/namsan_tower",
+      "limits": "已有DEM/OSM案例适配；不是自动任意场地复原"
+    },
+    {
+      "capability": "最终输出采样契约",
+      "rating": "A",
+      "consumer": "hafusion/review.py / tools/review_case.py",
+      "limits": "新增通用净空/承托/灯位检查；仅接入南站与纪念堂采样适配，其他案例保留各自检查"
+    },
+    {
+      "capability": "四向+真俯视相机生成与元数据检查",
+      "rating": "A",
+      "consumer": "hafusion/views.py / tools/render_building_case.py",
+      "limits": "公共渲染入口接入；旧专用渲染器须迁移或单独补齐，历史视图缺项不会改成通过"
+    },
+    {
+      "capability": "多建筑案例登记与分项反馈",
+      "rating": "A",
+      "consumer": "learning/case_registry.json / tools/agent.py",
+      "limits": "10个真实生成入口+2个历史对照；用户反馈保存，不由技术通过覆盖"
+    },
+    {
+      "capability": "SKP等模型导入与构件取舍",
+      "rating": "B",
+      "consumer": "ha03/architect / history/canton",
+      "limits": "复用历史解析代码与广州塔案例；本轮未重测所有格式，自动语义分割/融合仍无"
+    },
+    {
+      "capability": "自动图片理解/相机恢复/任意建筑生成",
+      "rating": "D",
+      "consumer": "无通用实现",
+      "limits": "研究方法与案例代码不能冒称自动模型训练"
+    },
+    {
+      "capability": "纹理级真实夜景/完整游戏可玩性",
+      "rating": "C",
+      "consumer": "近似EGL预览及有状态NBT",
+      "limits": "有原型表达；游戏导入、资源包、碰撞和真实光照待测"
+    },
+    {
+      "capability": "原创/内饰/灯光/园林交接计划",
+      "rating": "A",
+      "status": "implemented_planning_only",
+      "consumer": "hafusion/design_handoff.py / tools/agent.py --handoff",
+      "limits": "只校验显式规划字段和包围盒，不生成NBT或自动布置家具。"
+    },
+    {
+      "capability": "功能用途与园林目录",
+      "rating": "C",
+      "status": "design_rules",
+      "consumer": "docs/design_catalog.json",
+      "limits": "12类用途、6类园林、18研究卡；不是12/6/18个生成器。"
+    },
+    {
+      "capability": "市民中心功能分区、嵌入照明与园林",
+      "rating": "B",
+      "status": "case_specific",
+      "consumer": "cases/civic_center/* / tools/review_case.py",
+      "limits": "冻结案例输入；50项最终NBT检查，未测游戏碰撞与实际光照。"
+    }
+  ],
+  "source_scope": "Preserved HAF03 capabilities plus declared 0.4 additions; not all external later versions."
+}

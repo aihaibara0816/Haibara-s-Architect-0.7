@@ -1,0 +1,72 @@
+{
+  "design_brief": {
+    "version": "R08",
+    "route": "original revision",
+    "units": "Minecraft blocks",
+    "axes": "X along railway; Y up; Z south",
+    "constraints": [
+      "120-block work interval retained",
+      "50-60 block curve segments",
+      "6-block neck axis spacing = about 3 blocks between sleeper edges",
+      "final external interface single track at Z90",
+      "test track independent of depot network",
+      "no ornamental large lawns"
+    ],
+    "assumptions": [
+      "single interface continues onto server network beyond X0; short interface is not a full train holding track",
+      "test shuttle schedule is illustrative; game validation pending"
+    ]
+  },
+  "spatial_spec": {
+    "rail_base": 7,
+    "sunken_yard_surface": 5,
+    "shoulder_surface": 6,
+    "utility_platform_surface": 7,
+    "test_track": [
+      40,
+      180,
+      164
+    ],
+    "work_interval_x": [
+      312,
+      432
+    ],
+    "equipment": {
+      "substation": [
+        36,
+        31,
+        110,
+        61
+      ],
+      "water": [
+        137,
+        31,
+        194,
+        56
+      ],
+      "air_plant": [
+        70,
+        121,
+        144,
+        140
+      ]
+    }
+  },
+  "facade_spec": {
+    "tower": "dark core, grouped vertical frames, recessed upper three floors, entry canopy",
+    "sheds": "raised continuous clerestories, repeated portal frames, dark plinths",
+    "research": "broad window ribbons, asymmetric louvres, deep entrance canopy",
+    "dispatch": "dark glazed corners and projecting control-room visor",
+    "dorm": "grouped light frames and gray panels",
+    "palette": [
+      "white_concrete",
+      "light_gray_concrete",
+      "gray_concrete",
+      "cyan_concrete",
+      "gray_stained_glass_pane",
+      "light_blue_stained_glass_pane"
+    ],
+    "maintenance": "new, clean"
+  },
+  "status": "authored; final checks pending"
+}

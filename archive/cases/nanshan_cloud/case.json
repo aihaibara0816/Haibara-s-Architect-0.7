@@ -1,0 +1,21 @@
+{
+  "id": "nanshan_cloud",
+  "name": "南山云科技大厦",
+  "style": "modern_tower",
+  "origin": "HAF 0.4 快照",
+  "version": "V2_r01",
+  "history": "V2_r01",
+  "achievement": "三组错位塔体与阶梯露台分别控制；V2缩露台宽度和挑深，保留塔高，不用加高弥补横向失衡。",
+  "lesson": "先量露台/塔宽比、挑深和顶层重复节奏；局部修改锁定其他体块，四个45°相机同框同尺度。",
+  "failure": "首轮露台过宽过深，吞掉主体比例；仅整体高度正确仍会形不准。",
+  "open": "后部塔体和平面未测绘；当地理北未标定时四向只是模型坐标。",
+  "acceptance": "露台比例经反馈缩小；未收到新版明确验收",
+  "game": "待实测",
+  "source": "HAF04.zip",
+  "source_evidence": [
+    "learning/nanshan_cloud_v2.json",
+    "cases/nanshan_cloud/src/build_case.py"
+  ],
+  "nbt_member": "HAF-0.4/cases/nanshan_cloud/runs/V2_r01/building.nbt",
+  "style_name": "现代高层与幕墙"
+}

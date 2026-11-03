@@ -1,0 +1,85 @@
+{
+  "case_id": "zhujiang_dijing",
+  "engine": "HAF 0.2.0",
+  "version": "V1",
+  "seed": 20261024,
+  "namespace": "zhujiang-dijing-residential-v1",
+  "scope": "赏湖轩湖畔住宅代表楼组＋局部园林；非整小区复原，楼栋编号未核实",
+  "size_xyz": [
+    232,
+    104,
+    190
+  ],
+  "blocks_per_m": 2,
+  "scale_status": "uniform study scale; residential 3m storey assumption, not surveyed",
+  "ground_y": 3,
+  "ground_floor_y": 5,
+  "residential_start_y": 13,
+  "residential_floors": 12,
+  "floor_pitch": 6,
+  "roof_y": 85,
+  "tower_centers_xz": [
+    [
+      48,
+      43
+    ],
+    [
+      112,
+      43
+    ],
+    [
+      176,
+      43
+    ]
+  ],
+  "tower_width": 54,
+  "tower_depth": 38,
+  "group_layout_status": "three connected facade units interpreted from ref02/ref05/ref07; exact block IDs and surveyed spacing unverified",
+  "facade": {
+    "stone": "smooth_sandstone",
+    "trim": "smooth_quartz",
+    "glazing": "green_stained_glass_pane",
+    "balcony_glazing": "green_stained_glass_pane",
+    "balcony_depth": 5,
+    "round_bay_radius": 5,
+    "main_bay_half_width": 14,
+    "glazing_recess": 2
+  },
+  "lighting": {
+    "activity": 0.33,
+    "fixed_external": "entry and garden fixtures as proposal; night reference unavailable",
+    "obstruction_lights": null
+  },
+  "garden": {
+    "lake_centers": [
+      [
+        110,
+        125,
+        48,
+        25
+      ],
+      [
+        145,
+        148,
+        27,
+        20
+      ]
+    ],
+    "bridge_x": 101,
+    "bridge_z0": 100,
+    "bridge_z1": 152,
+    "gazebo_center": [
+      101,
+      127
+    ],
+    "layout_status": "lake/pavilion/bridge/greenery observed; cropped arrangement and distances interpreted, no measured survey"
+  },
+  "fidelity_limits": [
+    "未取得SU或实测图纸",
+    "背立面窗位和屋顶设备为受约束补全",
+    "夜景为住宅亮暗与冷暖试验，非实景夜景复刻",
+    "伪内饰不代表真实户型",
+    "园林不是全小区总平复刻",
+    "楼间连接、比例、园林位置仍需用户视觉反馈"
+  ]
+}

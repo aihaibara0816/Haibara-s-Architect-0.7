@@ -1,0 +1,35 @@
+{
+  "case": "civic_center",
+  "design_version": "0.3-offset-openings",
+  "route": "approved_original_design",
+  "scale_blocks_per_m": 2,
+  "offset": [
+    12,
+    4,
+    12
+  ],
+  "size": [
+    144,
+    78,
+    120
+  ],
+  "coordinate_transform": "X=12+2*x; Y=4+round(2*y); Z=12+2*(48-z)",
+  "facade_seed": 20261026,
+  "lighting": {
+    "seed": 20261026,
+    "namespace": "civic-interior-light-v1",
+    "office_probability": 0.55
+  },
+  "floor_top_y": [
+    4,
+    14,
+    23,
+    32,
+    40,
+    48,
+    56,
+    64
+  ],
+  "world_origin_y_max": 242,
+  "game_status": "pending"
+}

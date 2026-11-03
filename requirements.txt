@@ -1,0 +1,6 @@
+# Portable core install. Workflow06 planning itself uses the standard library.
+# These ranges are dependency declarations, not a claim every version was tested.
+numpy>=1.26,<3
+Pillow>=10,<13
+jsonschema>=4.21,<5
+nbtlib>=2.0,<3

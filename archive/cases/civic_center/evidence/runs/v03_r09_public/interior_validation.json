@@ -1,0 +1,985 @@
+{
+  "run": "v03_r09_public",
+  "baseline": "v03_r06_final",
+  "NBT_sha256": "765b3ec8ea7001a5bcde275b4683f2e7186110b084613837930cb379551ccfc9",
+  "status": "needs_revision",
+  "pass_count": 13,
+  "total": 15,
+  "checks": [
+    {
+      "name": "protected_building_geometry_preserved",
+      "pass": true,
+      "details": {
+        "unexpected_changes": [],
+        "window_connection_updates": 9,
+        "changed_cells": 21809
+      }
+    },
+    {
+      "name": "frozen_window_and_ledge_records_exact",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "no_old_scattered_furniture_remains",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "new_modules_inside_owned_room_cells",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "floor_finishes_replace_only_existing_slabs",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "visual_columns_meet_floor_and_ceiling",
+      "pass": true,
+      "details": {
+        "count": 51,
+        "bad": []
+      }
+    },
+    {
+      "name": "all_public_floors_have_visual_columns",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "full_circulation_cells_clear_of_new_furniture",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "all_room_access_ports_reachable",
+      "pass": false,
+      "details": [
+        {
+          "room": "101",
+          "reachable": true
+        },
+        {
+          "room": "102",
+          "reachable": true
+        },
+        {
+          "room": "103",
+          "reachable": true
+        },
+        {
+          "room": "104",
+          "reachable": true
+        },
+        {
+          "room": "105",
+          "reachable": true
+        },
+        {
+          "room": "106",
+          "reachable": true
+        },
+        {
+          "room": "107",
+          "reachable": true
+        },
+        {
+          "room": "201",
+          "reachable": true
+        },
+        {
+          "room": "202",
+          "reachable": true
+        },
+        {
+          "room": "203",
+          "reachable": true
+        },
+        {
+          "room": "204",
+          "reachable": true
+        },
+        {
+          "room": "205",
+          "reachable": true
+        },
+        {
+          "room": "301",
+          "reachable": true
+        },
+        {
+          "room": "302",
+          "reachable": true
+        },
+        {
+          "room": "303",
+          "reachable": true
+        },
+        {
+          "room": "304",
+          "reachable": true
+        },
+        {
+          "room": "305",
+          "reachable": true
+        },
+        {
+          "room": "306",
+          "reachable": true
+        },
+        {
+          "room": "307",
+          "reachable": true
+        },
+        {
+          "room": "401",
+          "reachable": true
+        },
+        {
+          "room": "402",
+          "reachable": true
+        },
+        {
+          "room": "403",
+          "reachable": true
+        },
+        {
+          "room": "404",
+          "reachable": true
+        },
+        {
+          "room": "405",
+          "reachable": true
+        },
+        {
+          "room": "406",
+          "reachable": true
+        },
+        {
+          "room": "407",
+          "reachable": true
+        },
+        {
+          "room": "501",
+          "reachable": true
+        },
+        {
+          "room": "502",
+          "reachable": true
+        },
+        {
+          "room": "503",
+          "reachable": true
+        },
+        {
+          "room": "504",
+          "reachable": true
+        },
+        {
+          "room": "505",
+          "reachable": true
+        },
+        {
+          "room": "506",
+          "reachable": true
+        },
+        {
+          "room": "601",
+          "reachable": true
+        },
+        {
+          "room": "602",
+          "reachable": true
+        },
+        {
+          "room": "603",
+          "reachable": true
+        },
+        {
+          "room": "701",
+          "reachable": true
+        },
+        {
+          "room": "702",
+          "reachable": true
+        },
+        {
+          "room": "703",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "name": "furniture_groups_have_reachable_approach",
+      "pass": false,
+      "details": [
+        {
+          "room": "101",
+          "module": "continuous_service",
+          "reachable": true
+        },
+        {
+          "room": "101",
+          "module": "form_filling",
+          "reachable": true
+        },
+        {
+          "room": "101",
+          "module": "queue_row_A",
+          "reachable": true
+        },
+        {
+          "room": "101",
+          "module": "queue_row_B",
+          "reachable": true
+        },
+        {
+          "room": "101",
+          "module": "kiosk0",
+          "reachable": true
+        },
+        {
+          "room": "101",
+          "module": "kiosk1",
+          "reachable": true
+        },
+        {
+          "room": "102",
+          "module": "quiet_waiting.long_bench",
+          "reachable": true
+        },
+        {
+          "room": "104",
+          "module": "consultation_island",
+          "reachable": true
+        },
+        {
+          "room": "104",
+          "module": "atrium_lounge.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "104",
+          "module": "atrium_lounge.coffee",
+          "reachable": true
+        },
+        {
+          "room": "104",
+          "module": "information",
+          "reachable": true
+        },
+        {
+          "room": "105",
+          "module": "consult_lounge.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "105",
+          "module": "consult_lounge.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "105",
+          "module": "consult_lounge.coffee",
+          "reachable": true
+        },
+        {
+          "room": "105",
+          "module": "consult_table",
+          "reachable": true
+        },
+        {
+          "room": "106",
+          "module": "public_refresh.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "106",
+          "module": "public_refresh.coffee",
+          "reachable": true
+        },
+        {
+          "room": "107",
+          "module": "exhibit_terminal",
+          "reachable": true
+        },
+        {
+          "room": "201",
+          "module": "interview0",
+          "reachable": true
+        },
+        {
+          "room": "201",
+          "module": "interview1",
+          "reachable": true
+        },
+        {
+          "room": "201",
+          "module": "appointment_lounge.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "201",
+          "module": "appointment_lounge.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "201",
+          "module": "appointment_lounge.coffee",
+          "reachable": true
+        },
+        {
+          "room": "202",
+          "module": "quiet_lounge_A.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "202",
+          "module": "quiet_lounge_A.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "202",
+          "module": "quiet_lounge_A.coffee",
+          "reachable": true
+        },
+        {
+          "room": "202",
+          "module": "quiet_lounge_B.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "202",
+          "module": "quiet_lounge_B.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "202",
+          "module": "quiet_lounge_B.coffee",
+          "reachable": true
+        },
+        {
+          "room": "203",
+          "module": "support",
+          "reachable": true
+        },
+        {
+          "room": "204",
+          "module": "booking_wait.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "204",
+          "module": "booking_wait.coffee",
+          "reachable": true
+        },
+        {
+          "room": "205",
+          "module": "tea_corner.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "205",
+          "module": "tea_corner.coffee",
+          "reachable": true
+        },
+        {
+          "room": "206",
+          "module": "classrow0",
+          "reachable": false
+        },
+        {
+          "room": "206",
+          "module": "classrow1",
+          "reachable": false
+        },
+        {
+          "room": "206",
+          "module": "classrow2",
+          "reachable": false
+        },
+        {
+          "room": "301",
+          "module": "conference",
+          "reachable": true
+        },
+        {
+          "room": "301",
+          "module": "shared_lounge.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "301",
+          "module": "shared_lounge.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "301",
+          "module": "shared_lounge.coffee",
+          "reachable": true
+        },
+        {
+          "room": "302",
+          "module": "workshopA",
+          "reachable": true
+        },
+        {
+          "room": "302",
+          "module": "workshopB",
+          "reachable": true
+        },
+        {
+          "room": "303",
+          "module": "staff_help",
+          "reachable": true
+        },
+        {
+          "room": "304",
+          "module": "cross_volume_lounge.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "304",
+          "module": "cross_volume_lounge.coffee",
+          "reachable": true
+        },
+        {
+          "room": "304",
+          "module": "cross_volume_lounge_B.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "304",
+          "module": "cross_volume_lounge_B.coffee",
+          "reachable": true
+        },
+        {
+          "room": "305",
+          "module": "activity_roundtable_A",
+          "reachable": true
+        },
+        {
+          "room": "305",
+          "module": "activity_roundtable_B",
+          "reachable": true
+        },
+        {
+          "room": "305",
+          "module": "activity_break.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "305",
+          "module": "activity_break.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "305",
+          "module": "activity_break.coffee",
+          "reachable": true
+        },
+        {
+          "room": "306",
+          "module": "multipurpose.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "306",
+          "module": "multipurpose.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "306",
+          "module": "multipurpose.coffee",
+          "reachable": true
+        },
+        {
+          "room": "307",
+          "module": "community_tea.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "307",
+          "module": "community_tea.coffee",
+          "reachable": true
+        },
+        {
+          "room": "401",
+          "module": "team_pod_A",
+          "reachable": true
+        },
+        {
+          "room": "401",
+          "module": "team_pod_B",
+          "reachable": true
+        },
+        {
+          "room": "401",
+          "module": "staff_lounge.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "401",
+          "module": "staff_lounge.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "401",
+          "module": "staff_lounge.coffee",
+          "reachable": true
+        },
+        {
+          "room": "402",
+          "module": "team_pod_A",
+          "reachable": true
+        },
+        {
+          "room": "403",
+          "module": "staff_tea.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "403",
+          "module": "staff_tea.coffee",
+          "reachable": true
+        },
+        {
+          "room": "404",
+          "module": "long_meeting",
+          "reachable": true
+        },
+        {
+          "room": "405",
+          "module": "pod_A",
+          "reachable": true
+        },
+        {
+          "room": "405",
+          "module": "pod_B",
+          "reachable": true
+        },
+        {
+          "room": "405",
+          "module": "team_break.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "405",
+          "module": "team_break.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "405",
+          "module": "team_break.coffee",
+          "reachable": true
+        },
+        {
+          "room": "406",
+          "module": "interview",
+          "reachable": true
+        },
+        {
+          "room": "407",
+          "module": "break_corner.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "407",
+          "module": "break_corner.coffee",
+          "reachable": true
+        },
+        {
+          "room": "501",
+          "module": "team_pod_A",
+          "reachable": true
+        },
+        {
+          "room": "501",
+          "module": "team_pod_B",
+          "reachable": true
+        },
+        {
+          "room": "501",
+          "module": "staff_lounge.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "501",
+          "module": "staff_lounge.sofaB",
+          "reachable": true
+        },
+        {
+          "room": "501",
+          "module": "staff_lounge.coffee",
+          "reachable": true
+        },
+        {
+          "room": "502",
+          "module": "team_pod_A",
+          "reachable": true
+        },
+        {
+          "room": "503",
+          "module": "tea_archive.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "503",
+          "module": "tea_archive.coffee",
+          "reachable": true
+        },
+        {
+          "room": "504",
+          "module": "conference",
+          "reachable": true
+        },
+        {
+          "room": "505",
+          "module": "staff_break.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "505",
+          "module": "staff_break.coffee",
+          "reachable": true
+        },
+        {
+          "room": "506",
+          "module": "interview",
+          "reachable": true
+        },
+        {
+          "room": "601",
+          "module": "pod_A",
+          "reachable": true
+        },
+        {
+          "room": "602",
+          "module": "meeting",
+          "reachable": true
+        },
+        {
+          "room": "603",
+          "module": "tea_corner.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "603",
+          "module": "tea_corner.coffee",
+          "reachable": true
+        },
+        {
+          "room": "701",
+          "module": "pod_A",
+          "reachable": true
+        },
+        {
+          "room": "702",
+          "module": "meeting",
+          "reachable": true
+        },
+        {
+          "room": "703",
+          "module": "tea_corner.sofaA",
+          "reachable": true
+        },
+        {
+          "room": "703",
+          "module": "tea_corner.coffee",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "name": "all_floor_zones_have_written_cells",
+      "pass": true,
+      "details": {
+        "zones": 43
+      }
+    },
+    {
+      "name": "three_distinct_floor_finishes",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "F1_continuous_service_and_public_seating",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "F3_community_uses_without_work_pods",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "F4_to_F7_work_and_break_groups",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "module_counts": {
+    "pseudo_column": 51,
+    "service_counter": 2,
+    "form_filling": 1,
+    "sofa": 36,
+    "self_service": 4,
+    "indoor_planter": 26,
+    "shelf_partition": 18,
+    "glazed_partition": 3,
+    "coffee_table": 23,
+    "consultation": 1,
+    "interview": 4,
+    "backoffice": 1,
+    "classroom_table": 3,
+    "conference_table": 5,
+    "workshop_table": 2,
+    "support": 1,
+    "activity_table": 2,
+    "work_pod": 10
+  },
+  "floor_module_counts": {
+    "1": {
+      "pseudo_column": 9,
+      "service_counter": 2,
+      "form_filling": 1,
+      "sofa": 7,
+      "self_service": 4,
+      "indoor_planter": 4,
+      "shelf_partition": 4,
+      "glazed_partition": 1,
+      "coffee_table": 3,
+      "consultation": 1
+    },
+    "2": {
+      "pseudo_column": 10,
+      "interview": 2,
+      "glazed_partition": 1,
+      "sofa": 8,
+      "coffee_table": 5,
+      "indoor_planter": 5,
+      "shelf_partition": 3,
+      "backoffice": 1,
+      "classroom_table": 3
+    },
+    "3": {
+      "pseudo_column": 10,
+      "conference_table": 1,
+      "sofa": 9,
+      "coffee_table": 6,
+      "indoor_planter": 6,
+      "workshop_table": 2,
+      "shelf_partition": 4,
+      "support": 1,
+      "activity_table": 2
+    },
+    "4": {
+      "pseudo_column": 9,
+      "work_pod": 5,
+      "sofa": 6,
+      "coffee_table": 4,
+      "indoor_planter": 4,
+      "shelf_partition": 3,
+      "conference_table": 1,
+      "glazed_partition": 1,
+      "interview": 1
+    },
+    "5": {
+      "pseudo_column": 7,
+      "work_pod": 3,
+      "sofa": 4,
+      "coffee_table": 3,
+      "indoor_planter": 3,
+      "shelf_partition": 2,
+      "conference_table": 1,
+      "interview": 1
+    },
+    "6": {
+      "pseudo_column": 3,
+      "work_pod": 1,
+      "indoor_planter": 2,
+      "shelf_partition": 1,
+      "conference_table": 1,
+      "sofa": 1,
+      "coffee_table": 1
+    },
+    "7": {
+      "pseudo_column": 3,
+      "work_pod": 1,
+      "indoor_planter": 2,
+      "shelf_partition": 1,
+      "conference_table": 1,
+      "sofa": 1,
+      "coffee_table": 1
+    }
+  },
+  "connection_updates": [
+    {
+      "xyz": [
+        29,
+        14,
+        107
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "xyz": [
+        110,
+        21,
+        31
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "xyz": [
+        37,
+        14,
+        107
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "xyz": [
+        66,
+        46,
+        31
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "xyz": [
+        62,
+        46,
+        31
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "xyz": [
+        62,
+        21,
+        31
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "xyz": [
+        21,
+        14,
+        107
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "xyz": [
+        66,
+        21,
+        31
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    },
+    {
+      "xyz": [
+        102,
+        21,
+        31
+      ],
+      "before": "minecraft:cyan_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]",
+      "after": "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+    }
+  ],
+  "omitted_candidates": [
+    {
+      "id": "column.0",
+      "room": "601",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "column.1",
+      "room": "601",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "column.0",
+      "room": "701",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "column.1",
+      "room": "701",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "privacy_screen",
+      "room": "105",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "entry_waiting",
+      "room": "107",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "booking",
+      "room": "204",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "team_pod_B",
+      "room": "402",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "team_pod_B",
+      "room": "502",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "pod_B",
+      "room": "601",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "window_rest.long_bench",
+      "room": "601",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "meeting_boundary",
+      "room": "602",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "pod_B",
+      "room": "701",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "window_rest.long_bench",
+      "room": "701",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    },
+    {
+      "id": "meeting_boundary",
+      "room": "702",
+      "reason": "no complete placement respecting circulation, existing geometry and owned cells"
+    }
+  ],
+  "limits": [
+    "Visual pseudo-columns only; no load-bearing or engineering claim.",
+    "Reachability tests 2-air-block cells on each floor; not game collision or seating usability.",
+    "Perimeter approach does not validate every chair.",
+    "Window positions and materials unchanged; neighboring pane connection arms recomputed.",
+    "No full fit-out, operational elevators or game import tested."
+  ]
+}

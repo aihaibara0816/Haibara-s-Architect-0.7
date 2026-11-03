@@ -1,0 +1,74 @@
+{
+  "route": "HAF",
+  "case_version": "guangzhou-ctf-0.1.0",
+  "nbt": {
+    "file": "building.nbt",
+    "bytes": 480885,
+    "sha256": "c5e2e2ed099b63a728dcc05ecc5e877b136d20e6c462fd68680be01e44466c5d",
+    "listed_blocks": 166262,
+    "non_air_blocks": 166262,
+    "size_xyz": [
+      80,
+      269,
+      92
+    ],
+    "contains_explicit_air": false,
+    "geometry_sha256": "6649a61a78b3201f7fd999ff01c64b16e5a39bed122e2e7302b7f474777f0e48",
+    "data_version": 3955
+  },
+  "nbt_readback_exact_match": true,
+  "source_code_sha256": "7a3ca32491f9aaa9fb338f3625d47aa171129782f98d2e016bbfbf466bce9f01",
+  "input_manifest_sha256": "a01be89afe0b287aeb1cd3fa05966a4ed424f89eb29a90616f4b2603433d61e6",
+  "room_count": 2664,
+  "lit_rooms": 1325,
+  "stage_count": 7,
+  "overlaps": [
+    {
+      "earlier": "site",
+      "later": "podium",
+      "cells": 85
+    },
+    {
+      "earlier": "interior",
+      "later": "facade",
+      "cells": 1287
+    },
+    {
+      "earlier": "podium",
+      "later": "facade",
+      "cells": 42
+    },
+    {
+      "earlier": "facade",
+      "later": "roofs",
+      "cells": 518
+    },
+    {
+      "earlier": "interior",
+      "later": "roofs",
+      "cells": 47
+    },
+    {
+      "earlier": "interior",
+      "later": "lighting",
+      "cells": 191
+    },
+    {
+      "earlier": "facade",
+      "later": "lighting",
+      "cells": 19
+    }
+  ],
+  "world_test": "not run",
+  "automatic_image_interpretation": false,
+  "model_input": null,
+  "review_status": "requires visual/user review",
+  "limitations": [
+    "Published design plans are not an as-built survey",
+    "Facade modules and storey spacing quantized at 1:2",
+    "Diorite wall is a material approximation, without resource-pack texture preview",
+    "Window-back interior is synthetic and not generally walkable",
+    "Podium/site extent estimated; below grade excluded",
+    "No geographic north calibration or game runtime acceptance"
+  ]
+}

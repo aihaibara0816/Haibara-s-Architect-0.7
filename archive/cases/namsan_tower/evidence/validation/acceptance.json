@@ -1,0 +1,173 @@
+{
+  "run": "V1_r02",
+  "passed": true,
+  "checks": [
+    {
+      "name": "exact deterministic replay",
+      "passed": true,
+      "detail": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6"
+    },
+    {
+      "name": "all states supported",
+      "passed": true,
+      "detail": 100
+    },
+    {
+      "name": "same exported block count",
+      "passed": true,
+      "detail": 709460
+    },
+    {
+      "name": "237 block tower envelope",
+      "passed": true,
+      "detail": {
+        "base_y": 67,
+        "tip_y": 303
+      }
+    },
+    {
+      "name": "service floor stays inside concrete shaft",
+      "passed": true,
+      "detail": 224
+    },
+    {
+      "name": "equipment rings retain open cells",
+      "passed": true,
+      "detail": [
+        0.4642857142857143,
+        0.48214285714285715
+      ]
+    },
+    {
+      "name": "dense schematic and module union",
+      "passed": true,
+      "detail": "Verified by package_import.py against source NBT"
+    },
+    {
+      "name": "all modules within 256 KiB",
+      "passed": true,
+      "detail": {
+        "count": 14,
+        "largest": 252235
+      }
+    },
+    {
+      "name": "ten actual NBT previews",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "name": "preview overview.png",
+      "passed": true,
+      "detail": [
+        2200,
+        2000
+      ]
+    },
+    {
+      "name": "preview night.png",
+      "passed": true,
+      "detail": [
+        2200,
+        2000
+      ]
+    },
+    {
+      "name": "preview site_top.png",
+      "passed": true,
+      "detail": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "name": "preview podium.png",
+      "passed": true,
+      "detail": [
+        1800,
+        1296
+      ]
+    },
+    {
+      "name": "preview podium_night.png",
+      "passed": true,
+      "detail": [
+        1800,
+        1296
+      ]
+    },
+    {
+      "name": "preview observation_pod.png",
+      "passed": true,
+      "detail": [
+        1700,
+        1500
+      ]
+    },
+    {
+      "name": "preview antenna.png",
+      "passed": true,
+      "detail": [
+        1250,
+        1700
+      ]
+    },
+    {
+      "name": "preview park_north.png",
+      "passed": true,
+      "detail": [
+        1800,
+        1332
+      ]
+    },
+    {
+      "name": "preview pavilion.png",
+      "passed": true,
+      "detail": [
+        1700,
+        1292
+      ]
+    },
+    {
+      "name": "preview north_elevation.png",
+      "passed": true,
+      "detail": [
+        1450,
+        1800
+      ]
+    },
+    {
+      "name": "historical core and outputs preserved",
+      "passed": true,
+      "detail": [
+        "support/vendor/voxel_core.py",
+        "support/vendor/inspect_build.py",
+        "support/detail_lab/states.py",
+        "support/detail_lab/mesh.py",
+        "cases/guangzhou_ctf/runs/V1/building.nbt",
+        "cases/shenzhen_press/runs/V2/building.nbt"
+      ]
+    },
+    {
+      "name": "saved public terrain is complete",
+      "passed": true,
+      "detail": "srtm30m"
+    },
+    {
+      "name": "warm and cool emitters present",
+      "passed": true,
+      "detail": {
+        "minecraft:glowstone": 189,
+        "minecraft:sea_lantern": 147,
+        "minecraft:redstone_torch": 2
+      }
+    }
+  ],
+  "not_tested": [
+    "Minecraft import/game lighting",
+    "full pedestrian navigation/collision",
+    "real building interiors",
+    "high precision topographic survey",
+    "RGB tower floodlighting"
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "packet_id": "pazhou-wechat-20261023",
+  "schema_version": "case-research-1.0",
+  "building": "腾讯广州大厦 / 微信总部",
+  "sources": [
+    {
+      "source_id": "src-ajn",
+      "title": "让·努维尔建筑事务所项目页",
+      "url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_family": "AJN",
+      "phase": "design_and_photographs",
+      "accessed_at": "2026-10-23",
+      "access_status": "read",
+      "license": null
+    },
+    {
+      "source_id": "src-bim",
+      "title": "BIAD：广州腾讯大厦项目 BIM 技术创新应用（2021）",
+      "url": "https://damassets.autodesk.net/content/dam/autodesk/www/apac/zh-cn/campaigns/bim-award-cases/a05-innovative-application-of-bim-technology.pdf",
+      "source_family": "BIAD",
+      "phase": "design",
+      "accessed_at": "2026-10-23",
+      "access_status": "read",
+      "license": null
+    },
+    {
+      "source_id": "src-struct",
+      "title": "荆芃芃等，广州腾讯总部大楼结构设计，建筑结构 2023(18)；公开摘要/前文",
+      "url": "https://m.fx361.com/news/2023/1016/22706454.html",
+      "source_family": "BIAD",
+      "phase": "design",
+      "accessed_at": "2026-10-23",
+      "access_status": "read",
+      "license": null
+    },
+    {
+      "source_id": "src-completion",
+      "title": "中建二局：腾讯广州总部通过竣工验收，2025-08-07",
+      "url": "https://www.cscec.com.cn/xwzx_new/zqydt_new/202508/3897857.html",
+      "source_family": "CSCEC",
+      "phase": "as_built",
+      "accessed_at": "2026-10-23",
+      "access_status": "read",
+      "license": null
+    },
+    {
+      "source_id": "src-cantilever",
+      "title": "中建二局：199.6 米云端架桥，2020-12-17",
+      "url": "https://2bur.cscec.com/xwzx6/gskx6/202012/3247007.html",
+      "source_family": "CSCEC",
+      "phase": "construction",
+      "accessed_at": "2026-10-23",
+      "access_status": "read",
+      "license": null
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "fact-height",
+      "kind": "fact",
+      "field": "overall_height",
+      "value": 206.75,
+      "unit": "m",
+      "status": "verified",
+      "source_ids": [
+        "src-completion"
+      ],
+      "image_ids": [],
+      "basis": "2025 年施工方竣工验收报道；207 m 为项目页取整口径"
+    },
+    {
+      "fact_id": "fact-podium",
+      "kind": "fact",
+      "field": "podium_height",
+      "value": 54.05,
+      "unit": "m",
+      "status": "conflicted",
+      "source_ids": [
+        "src-struct",
+        "src-bim"
+      ],
+      "image_ids": [
+        "img-002"
+      ],
+      "basis": "2023 论文 54.05 m/9层；2021 BIM 45 m；可能标高与范围不同，未获竣工图核定"
+    },
+    {
+      "fact_id": "fact-platforms",
+      "kind": "fact",
+      "field": "cantilever_count",
+      "value": 4,
+      "unit": "count",
+      "status": "verified",
+      "source_ids": [
+        "src-bim",
+        "src-cantilever"
+      ],
+      "image_ids": [
+        "img-001"
+      ],
+      "basis": "4 个主楼高空悬挑平台；底部公共露台单列"
+    },
+    {
+      "fact_id": "fact-top-cantilever",
+      "kind": "fact",
+      "field": "top_cantilever_level",
+      "value": 199.6,
+      "unit": "m",
+      "status": "verified",
+      "source_ids": [
+        "src-cantilever"
+      ],
+      "image_ids": [],
+      "basis": "施工阶段高位悬挑标高；不等于建筑总高"
+    },
+    {
+      "fact_id": "fact-gap",
+      "kind": "fact",
+      "field": "tower_podium_gap",
+      "value": 43,
+      "unit": "m",
+      "status": "verified",
+      "source_ids": [
+        "src-struct"
+      ],
+      "image_ids": [
+        "img-002"
+      ],
+      "basis": "论文中的结构跨度；试作将其用于主裙楼轴向空隙，边界定义仍需竣工图校核"
+    },
+    {
+      "fact_id": "fact-study",
+      "kind": "assumption",
+      "field": "study_geometry",
+      "value": null,
+      "unit": null,
+      "status": "estimated",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "image_ids": [
+        "img-001",
+        "img-007"
+      ],
+      "basis": "宿主人工多视图判断后采用的研究试值；无摄影测量、无自动识别训练"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "img-001",
+      "title": "朝平台方向的整体斜视",
+      "local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-001.jpg",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5607-1600x2400.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "verification_state": "full_image_viewed",
+      "verification_status": "原图已实际查看；没有测绘标定，精确方位和拍摄日待核实",
+      "selection_status": "selected",
+      "quality": {
+        "eligible": true
+      },
+      "photographer": "有方 Archiposition（AJN 页面署名）",
+      "license": null,
+      "sha256": "30bbbb402e6c90e79d3241a0c599abefb48d4f9b7a3e9aa65ff086c09052d5fd",
+      "component_ids": [
+        "tower",
+        "canyon",
+        "terraces",
+        "podium"
+      ],
+      "limitations": "不是正射图；像素比例不能直接当真实平面尺寸"
+    },
+    {
+      "image_id": "img-002",
+      "title": "跨路裙楼与连接细节",
+      "local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-002.jpg",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5944.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "verification_state": "full_image_viewed",
+      "verification_status": "原图已实际查看；没有测绘标定，精确方位和拍摄日待核实",
+      "selection_status": "selected",
+      "quality": {
+        "eligible": true
+      },
+      "photographer": "有方 Archiposition（AJN 页面署名）",
+      "license": null,
+      "sha256": "ad235254fa4d059445022f7cabb19332cf0099cc9e4a4f27373150de3a213ff8",
+      "component_ids": [],
+      "limitations": "不是正射图；像素比例不能直接当真实平面尺寸"
+    },
+    {
+      "image_id": "img-003",
+      "title": "悬挑底板和开口",
+      "local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-003.jpg",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0715-1600x1067.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "verification_state": "full_image_viewed",
+      "verification_status": "原图已实际查看；没有测绘标定，精确方位和拍摄日待核实",
+      "selection_status": "selected",
+      "quality": {
+        "eligible": true
+      },
+      "photographer": "有方 Archiposition（AJN 页面署名）",
+      "license": null,
+      "sha256": "5f12e838e45721aefe87ac6c59ea2797bdf03e4f7f8ea4705809f998cb3b4162",
+      "component_ids": [],
+      "limitations": "不是正射图；像素比例不能直接当真实平面尺寸"
+    },
+    {
+      "image_id": "img-004",
+      "title": "倾斜玻璃峡谷近景",
+      "local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-004.jpg",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0573-1600x1091.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "verification_state": "full_image_viewed",
+      "verification_status": "原图已实际查看；没有测绘标定，精确方位和拍摄日待核实",
+      "selection_status": "selected",
+      "quality": {
+        "eligible": true
+      },
+      "photographer": "有方 Archiposition（AJN 页面署名）",
+      "license": null,
+      "sha256": "09264878e113fb72e3f7f3fd60a171d3ff992360cfbb978e7afaef7a46c4e2a8",
+      "component_ids": [],
+      "limitations": "不是正射图；像素比例不能直接当真实平面尺寸"
+    },
+    {
+      "image_id": "img-005",
+      "title": "峡谷上望与桥接",
+      "local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-005.jpg",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0462.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "verification_state": "full_image_viewed",
+      "verification_status": "原图已实际查看；没有测绘标定，精确方位和拍摄日待核实",
+      "selection_status": "selected",
+      "quality": {
+        "eligible": true
+      },
+      "photographer": "有方 Archiposition（AJN 页面署名）",
+      "license": null,
+      "sha256": "26f2a6f867e4182856e8185d6d0cb75333f50a4497cbaa79c5031ed3b71c2c6d",
+      "component_ids": [],
+      "limitations": "不是正射图；像素比例不能直接当真实平面尺寸"
+    },
+    {
+      "image_id": "img-006",
+      "title": "玻璃反射细节",
+      "local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-006.jpg",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5317.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "verification_state": "full_image_viewed",
+      "verification_status": "原图已实际查看；没有测绘标定，精确方位和拍摄日待核实",
+      "selection_status": "candidate",
+      "quality": {
+        "eligible": true
+      },
+      "photographer": "有方 Archiposition（AJN 页面署名）",
+      "license": null,
+      "sha256": "27aeb0c36d4567a631b00ce14e44f0419918fbeb9e8f4798a9062d6cb8c3b14a",
+      "component_ids": [],
+      "limitations": "不是正射图；像素比例不能直接当真实平面尺寸"
+    },
+    {
+      "image_id": "img-007",
+      "title": "反面整体与开敞层",
+      "local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-007.jpg",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5537.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "verification_state": "full_image_viewed",
+      "verification_status": "原图已实际查看；没有测绘标定，精确方位和拍摄日待核实",
+      "selection_status": "selected",
+      "quality": {
+        "eligible": true
+      },
+      "photographer": "有方 Archiposition（AJN 页面署名）",
+      "license": null,
+      "sha256": "96843f3fa3db73e8cec6d0c23ed48f7ba4fb2d3b51cdb5476aa4ad7a9df7744d",
+      "component_ids": [],
+      "limitations": "不是正射图；像素比例不能直接当真实平面尺寸"
+    },
+    {
+      "image_id": "img-008",
+      "title": "整体夜景与平台灯点",
+      "local_path": "/workspace/scratch/cfe8adbb046e/pazhou_wechat_ab/research/images/img-008.jpg",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc6057-1600x2400.jpg",
+      "source_page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "verification_state": "full_image_viewed",
+      "verification_status": "原图已实际查看；没有测绘标定，精确方位和拍摄日待核实",
+      "selection_status": "candidate",
+      "quality": {
+        "eligible": true
+      },
+      "photographer": "有方 Archiposition（AJN 页面署名）",
+      "license": null,
+      "sha256": "d485eee7ba9e9ae9694675d301a29d39d3d3e33ae7547f820d86b9286b48c76f",
+      "component_ids": [],
+      "limitations": "不是正射图；像素比例不能直接当真实平面尺寸"
+    }
+  ],
+  "selected_image_ids": [
+    "img-001",
+    "img-007",
+    "img-002",
+    "img-003",
+    "img-004",
+    "img-005"
+  ],
+  "model_research": {
+    "status": "not_found",
+    "scope": "有限公开检索未取得可核验可下载的本项目 3D 网格；PDF 的 BIM 插图不是模型资产",
+    "formats_used": []
+  },
+  "frame": {
+    "axis": "X right / Y up / Z back",
+    "front": "-Z（平台和河岸一侧的局部朝向）",
+    "geographic_north": null
+  },
+  "scale": 0.4666666666666667
+}

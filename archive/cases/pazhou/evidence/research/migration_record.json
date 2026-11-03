@@ -1,0 +1,13 @@
+{
+  "input": "legacy_case_research_1.0.json",
+  "input_schema": "case-research-1.0 (custom, not packet1.0)",
+  "output": "packet.json",
+  "output_schema": "1.1",
+  "method": "显式字段映射到官方1.1模板；未错误调用仅支持packet1.0的迁移器",
+  "corrections": [
+    "img-007反面改为前向",
+    "原绝对路径替换包内相对路径",
+    "细部各自绑定，不再全挂001/007"
+  ],
+  "raw_original_retained": true
+}

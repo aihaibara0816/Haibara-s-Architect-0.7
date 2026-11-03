@@ -1,0 +1,54 @@
+{
+  "schema": "haf-case-params/1",
+  "case": "namsan_tower",
+  "version": "V1",
+  "seed": 231023,
+  "frame": {
+    "size_xyz": [
+      320,
+      308,
+      320
+    ],
+    "tower_xz": [
+      160,
+      176
+    ],
+    "blocks_per_m": 1,
+    "north": "-Z",
+    "longitude": 126.98822,
+    "latitude": 37.5512,
+    "vertical_reference_m": 176,
+    "tower_grade_y": 67,
+    "tower_base_reference_m": 243,
+    "vertical_reference_note": "Y=0 corresponds to DEM 176m only in this local visualization; not a verified survey datum"
+  },
+  "tower": {
+    "height_blocks": 237,
+    "body_top": 136,
+    "shaft_radius_base": 4.8,
+    "shaft_radius_top": 4.3,
+    "pod_radius": 12.7,
+    "pod_lower": 110,
+    "pod_upper": 124,
+    "restaurant_top": 132,
+    "equipment_rings": [
+      49,
+      61
+    ]
+  },
+  "site": {
+    "upper_plaza_y": 91,
+    "podium_roof_y": 87,
+    "ground_floor_y": 67,
+    "tree_count_target": 780,
+    "terrain_shell_min_thickness": 3,
+    "terrain_source": "research/terrain/dem_grid.json",
+    "osm_source": "research/terrain/osm.xml"
+  },
+  "lighting": {
+    "activity": 0.7,
+    "interior_temperature": "seeded mix of glowstone and sea_lantern",
+    "exterior": "fixed warm path lights, cool observation equipment; no simulated RGB floodlighting"
+  },
+  "scope": "N Seoul Tower and 320m hilltop park crop; not all of Namsan Park; no lower cablecar station"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "guangzhou_ifc",
+  "name": "广州国际金融中心（西塔）",
+  "style": "modern_tower",
+  "origin": "独立分支并入研究库",
+  "version": "V1_r02",
+  "history": "V1 → r02 活跃窗局部修订",
+  "achievement": "圆角三角形腹部、玻璃后斜网格；92×224×100 格，11 项案例检查。r02 只改 104 个照明位置，非照明差分为 0。",
+  "lesson": "固定结构后再改变窗后活动；局部变更以差分证明。",
+  "failure": "22 张来源图含重复组，不能算 22 个独立方向。",
+  "open": "731 个窗后家具样本不是完整房间；不是 103 层可行走内饰；原分支依赖 HAF 0.3。",
+  "acceptance": "本轮资料未见该最终版本的完整用户验收",
+  "game": "待实测",
+  "source": "IFC_V1_Source.zip",
+  "nbt_member": "HAF-IFC-V1/cases/guangzhou_ifc/runs/V1_r02/building.nbt",
+  "style_name": "现代高层与幕墙"
+}

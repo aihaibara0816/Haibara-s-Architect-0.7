@@ -1,0 +1,90 @@
+{
+  "source_nbt_sha256": "6a1f9dd1ca664a7091eee422e7d2a7673ac8210c7243888e10204695130c64c0",
+  "size_xyz": [
+    15,
+    36,
+    38
+  ],
+  "triangles": {
+    "opaque": 67808,
+    "glass": 4488
+  },
+  "lamps": [
+    [
+      7,
+      7,
+      12,
+      15
+    ],
+    [
+      11,
+      7,
+      17,
+      15
+    ],
+    [
+      4,
+      7,
+      20,
+      15
+    ],
+    [
+      7,
+      7,
+      24,
+      15
+    ],
+    [
+      3,
+      7,
+      30,
+      15
+    ],
+    [
+      11,
+      7,
+      30,
+      15
+    ],
+    [
+      7,
+      13,
+      12,
+      15
+    ],
+    [
+      11,
+      13,
+      17,
+      15
+    ],
+    [
+      7,
+      13,
+      24,
+      15
+    ],
+    [
+      6,
+      7,
+      2,
+      15
+    ]
+  ],
+  "visual_box_volume": 3790.1278,
+  "source": "independent NBT readback, state-aware preview boxes",
+  "limitations": [
+    "Entity beds and banners use approximate boxes",
+    "1x1 paintings use their NBT positions and official variant textures",
+    "Biome tint approximated; weighted model variants use first item",
+    "UV lock and element rescale not fully reproduced; no Minecraft client lighting"
+  ],
+  "alpha_lod_policy": "opaque-face-coverage-v1",
+  "texture_grid_max": 2,
+  "painting_entities_rendered": 2,
+  "material_mode": "Minecraft Java 1.21.1 JSON models + first-frame texture colours, offline EGL; not game footage",
+  "model_fallbacks": {
+    "minecraft:oak_wall_sign": 1,
+    "minecraft:white_bed": 2
+  }
+}

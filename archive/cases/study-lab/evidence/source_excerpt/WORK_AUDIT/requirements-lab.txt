@@ -1,0 +1,10 @@
+# Python 3.12.14; lightweight lab, not the full Architect/model environment.
+numpy==2.3.5
+PyYAML==6.0.3
+Pillow==12.3.0
+pytest==8.4.2
+# pytest dependencies as actually used in the isolated test target:
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0

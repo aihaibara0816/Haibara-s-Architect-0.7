@@ -1,0 +1,23 @@
+{
+  "id": "canton",
+  "name": "广州塔",
+  "style": "landmark",
+  "origin": "HAF 0.4 快照",
+  "version": "V6 / HAF 0.1 r02",
+  "history": "V1→V2A/B→V3/V3a→V4→V5→V6",
+  "achievement": "图片与SKP按构件选用；外框、核心、功能玻璃层、内部环、斜塔冠与多层场地分别建模。融合发生在参数/几何层，不能取整套平均值。",
+  "lesson": "先写占用/镂空高度区间、构件内外次序、平台标高和接口。V2A为SKP+图片，V2B为纯图片；V6缓存成功不等于外形更好。",
+  "failure": "V1过度螺旋；玻璃铺满把开敞骨架封实；外置横环造成凹凸；单层草地误解二层绿化；台阶各自正确但拼合缺一级。",
+  "open": "格构粗细、节点、最低截面拟合与游戏通行仍需核验；案例网格适配不等于通用自动融合。",
+  "acceptance": "历史迭代；V2B立面进步获反馈，V5/V6整体还原未见完整验收",
+  "game": "待实测",
+  "source": "HAFusion_0.1_原工程备份与V6完整工程.zip",
+  "source_evidence": [
+    "history/canton/case/feedback/learning_record.json",
+    "history/canton/case/runs/V5_r02/component_decisions.json",
+    "history/canton/reports/replay_validation.json"
+  ],
+  "nbt_member": "HAFusion-0.1/runs/V6_r02/GAFAcraft_Canton280_V6.nbt",
+  "evidence_prefix": "HAFusion-0.1/runs/V6_r02/",
+  "style_name": "地标塔架"
+}

@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "browser": "156.0.8078.80",
+  "actual_webgl_render": true,
+  "iframe": "about:srcdoc",
+  "csp_sandbox": "allow-scripts allow-downloads; frame-src self",
+  "checks": [
+    "initial rendered frame and ready acknowledgement",
+    "T2 and control selection",
+    "upper floor and night mode",
+    "drag rotation",
+    "zero WebGL errors",
+    "390px responsive layout",
+    "real WebGL context loss retains static image",
+    "retry rebuilds the iframe and renders again"
+  ],
+  "page_errors": [],
+  "legacy_blob_block_reproduced": true,
+  "legacy_state": "loading",
+  "legacy_csp_messages": [
+    "Framing '' violates the following Content Security Policy directive: \"frame-src 'self'\". The request has been blocked.\n"
+  ],
+  "source_nbt_sha256": "be2a371a680a03c5ba89e65f6bd6245c0db72a0c3e601ef42f6fe9b76f0e28cc"
+}

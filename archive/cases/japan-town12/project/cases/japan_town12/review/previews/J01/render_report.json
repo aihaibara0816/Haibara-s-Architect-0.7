@@ -1,0 +1,82 @@
+[
+  {
+    "image": "overview.png",
+    "sha256": "6ee3fda8e783bd936126a0cf66ab9704ffcaaa56fb04b9f9ce5b7c90473b5f7a",
+    "source_nbt_sha256": "f0af7cad071108884e8c7b2ec8708ea4ced90ae7e44f7c0fce7a89ab5a69f405",
+    "camera": {
+      "id": "overview",
+      "eye": [
+        264,
+        170,
+        256
+      ],
+      "target": [
+        88,
+        6,
+        80
+      ],
+      "width": 1800,
+      "height": 1400,
+      "spanX": 248,
+      "spanZ": 192.889,
+      "ortho": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "shops.png",
+    "sha256": "9370b881557863dbeabc3fc3c89dd34f8aea79187b7a0322beda5353dd20667c",
+    "source_nbt_sha256": "f0af7cad071108884e8c7b2ec8708ea4ced90ae7e44f7c0fce7a89ab5a69f405",
+    "camera": {
+      "id": "shops",
+      "eye": [
+        43,
+        26,
+        64
+      ],
+      "target": [
+        55,
+        11,
+        105
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 73,
+      "spanZ": 50.1875,
+      "ortho": true,
+      "night": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "top_day.png",
+    "sha256": "4b91cc7de593de3834aa2f070429cbe87b3fc96c9775712fcae42175d335d45a",
+    "source_nbt_sha256": "f0af7cad071108884e8c7b2ec8708ea4ced90ae7e44f7c0fce7a89ab5a69f405",
+    "camera": {
+      "id": "top_day",
+      "eye": [
+        88.0,
+        224,
+        80.0
+      ],
+      "target": [
+        88.0,
+        24.0,
+        80.0
+      ],
+      "spanX": 186.56,
+      "spanZ": 169.56231111111114,
+      "width": 1800,
+      "height": 1636,
+      "ortho": true,
+      "night": false,
+      "fov": 36,
+      "concept": false,
+      "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified"
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

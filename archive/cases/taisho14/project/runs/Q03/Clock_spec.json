@@ -1,0 +1,176 @@
+{
+  "case_id": "Clock",
+  "run": "Q03",
+  "seed": 141145,
+  "buildings": [
+    {
+      "id": "Clock",
+      "name": "櫻坂時計塔｜钟楼与导览室",
+      "size": [
+        16,
+        35,
+        18
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        8,
+        3,
+        13
+      ],
+      "rooms": [
+        {
+          "id": "Clock.info",
+          "name": "导览与休息",
+          "bounds": [
+            4,
+            3,
+            4,
+            12,
+            7,
+            13
+          ],
+          "floor_y": 3,
+          "capacity": 3,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Clock.info",
+          "pos": [
+            10,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Clock.door.0",
+          "pos": [
+            8,
+            3,
+            13
+          ],
+          "lintel": [
+            8,
+            5,
+            13
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            8,
+            7,
+            9
+          ],
+          "support": [
+            8,
+            8,
+            9
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Clock.information.dining_table.5_1_5",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            5,
+            3,
+            5,
+            10,
+            4,
+            6
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotated_180": false,
+      "entry_world": [
+        159,
+        6,
+        89
+      ],
+      "upper_start": [
+        4,
+        4
+      ],
+      "street_row": 1
+    }
+  ],
+  "uses": [
+    {
+      "id": "Clock.info",
+      "pos": [
+        10,
+        3,
+        7
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Clock.door.0",
+      "pos": [
+        8,
+        3,
+        13
+      ],
+      "lintel": [
+        8,
+        5,
+        13
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        8,
+        7,
+        9
+      ],
+      "support": [
+        8,
+        8,
+        9
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    8,
+    3,
+    14
+  ],
+  "upper_start": [
+    4,
+    4
+  ],
+  "source_nbt_sha256": "fa59b6f7922297c61e845cd8d8fa892c093388e9709e12326b4e2a49ebfc8101",
+  "non_air": 3149,
+  "size_xyz": [
+    16,
+    35,
+    18
+  ],
+  "block_entities": 0,
+  "entities": 0
+}

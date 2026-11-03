@@ -1,0 +1,159 @@
+{
+  "run": "V2_r01",
+  "source_nbt_sha256": "cd7a31e3f91efa52cc29ca87128fcdeef47c844d8809e46e4ebccf77fe29be25",
+  "checks": [
+    {
+      "id": "file_hash",
+      "status": "pass",
+      "details": "cd7a31e3f91efa52cc29ca87128fcdeef47c844d8809e46e4ebccf77fe29be25"
+    },
+    {
+      "id": "sparse_no_air",
+      "status": "pass",
+      "details": 99474
+    },
+    {
+      "id": "owner_coverage",
+      "status": "pass",
+      "details": 99474
+    },
+    {
+      "id": "bounds",
+      "status": "pass",
+      "details": [
+        92,
+        188,
+        98
+      ]
+    },
+    {
+      "id": "known_blockstates",
+      "status": "pass",
+      "details": 73
+    },
+    {
+      "id": "two_spires_height",
+      "status": "pass",
+      "details": {
+        "36": 185,
+        "52": 185
+      }
+    },
+    {
+      "id": "spire_base_support",
+      "status": "pass",
+      "details": {
+        "36": true,
+        "52": true
+      }
+    },
+    {
+      "id": "whole_width_site_paths",
+      "status": "pass",
+      "details": {
+        "sampled": 701,
+        "failures": []
+      }
+    },
+    {
+      "id": "main_portal_clear",
+      "status": "pass",
+      "details": {
+        "width": 6,
+        "height": 3,
+        "occupied": []
+      }
+    },
+    {
+      "id": "resolved_modules_consumed",
+      "status": "pass",
+      "details": {
+        "counts": {
+          "lobby.reception.reception": 5,
+          "lobby.waiting.lounge": 7,
+          "office_A.work.desk_group": 18,
+          "office_A.meeting.meeting": 20,
+          "office_A.rest.lounge": 5,
+          "office_B.work.desk_group": 24,
+          "office_B.meeting.meeting": 11,
+          "office_B.rest.lounge": 5,
+          "lounge.rest.lounge": 8,
+          "lounge.tea.pantry": 11,
+          "lounge.reading.lounge": 7,
+          "office_A.support.storage": 21,
+          "office_A.public.bench": 15,
+          "office_A.work.second_group": 18,
+          "office_A.work.archive": 12,
+          "office_A.rest.tea": 8,
+          "office_B.support.storage": 21,
+          "office_B.public.bench": 15,
+          "office_B.work.second_group": 18,
+          "office_B.work.archive": 12,
+          "office_B.rest.tea": 8,
+          "lounge.support.storage": 21,
+          "lounge.public.bench": 15,
+          "lounge.rest.second": 8,
+          "lounge.reading.shelves": 6,
+          "lobby.concierge.counter": 4,
+          "lobby.east_waiting.lounge": 7
+        },
+        "failures": []
+      }
+    },
+    {
+      "id": "demo_circulation_clear",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "flush_lights_and_two_layers",
+      "status": "pass",
+      "details": {
+        "columns": 16,
+        "failures": []
+      }
+    },
+    {
+      "id": "lamp_survival",
+      "status": "pass",
+      "details": {
+        "declared": 407,
+        "overwritten": 0,
+        "first": []
+      }
+    },
+    {
+      "id": "plant_root_support",
+      "status": "pass",
+      "details": {
+        "plants": 14,
+        "failures": []
+      }
+    },
+    {
+      "id": "water_containment",
+      "status": "pass",
+      "details": {
+        "water_cells": 56,
+        "failures": []
+      }
+    }
+  ],
+  "metrics": {
+    "blocks": 99474,
+    "blockstates": 73,
+    "lamps": 407,
+    "modules": 27,
+    "designed_rooms": 19,
+    "window_back_rooms": 918,
+    "site_trees": 14,
+    "visual_columns": 16
+  },
+  "status": "pass",
+  "game_status": "pending",
+  "limits": [
+    "No real tenant layout, lift mechanics or full 80-floor circulation",
+    "Path checks use conservative occupied cells; actual Minecraft collisions are pending",
+    "No structural calculation or actual illumination certification"
+  ]
+}

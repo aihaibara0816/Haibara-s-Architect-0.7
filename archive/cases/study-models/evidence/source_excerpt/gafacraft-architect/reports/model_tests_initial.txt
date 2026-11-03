@@ -1,0 +1,59 @@
+test_asset_byte_hash (test_model_io.ModelIOTests.test_asset_byte_hash) ... ok
+test_attach_candidate_preserves_executable_components (test_model_io.ModelIOTests.test_attach_candidate_preserves_executable_components) ... ok
+test_axis_conversion_is_right_handed (test_model_io.ModelIOTests.test_axis_conversion_is_right_handed) ... ok
+test_candidate_does_not_claim_alignment (test_model_io.ModelIOTests.test_candidate_does_not_claim_alignment) ... ok
+test_dae_geometry (test_model_io.ModelIOTests.test_dae_geometry) ... /workspace/scratch/cfe8adbb046e/model_deps/collada/source.py:144: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  self.data.shape = (-1,)
+/workspace/scratch/cfe8adbb046e/model_deps/collada/source.py:147: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  self.data.shape = (-1, len(self.components))
+/workspace/scratch/cfe8adbb046e/model_deps/collada/triangleset.py:99: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  self.index.shape = (-1, 3, self.nindices)
+/workspace/scratch/cfe8adbb046e/model_deps/collada/triangleset.py:168: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  self.index.shape = (-1)
+/workspace/scratch/cfe8adbb046e/model_deps/collada/triangleset.py:171: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  self.index.shape = (-1, 3, self.nindices)
+/workspace/scratch/cfe8adbb046e/model_deps/collada/source.py:167: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  self.data.shape = (-1,)
+/workspace/scratch/cfe8adbb046e/model_deps/collada/source.py:172: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  self.data.shape = (-1, len(self.components))
+ok
+test_dae_millimetres_and_z_up (test_model_io.ModelIOTests.test_dae_millimetres_and_z_up) ... ok
+test_disconnected_parent (test_model_io.ModelIOTests.test_disconnected_parent) ... ok
+test_empty_mesh_rejected (test_model_io.ModelIOTests.test_empty_mesh_rejected) ... ok
+test_geometry_change_detected (test_model_io.ModelIOTests.test_geometry_change_detected) ... ok
+test_glb_nested_mirrored_instances (test_model_io.ModelIOTests.test_glb_nested_mirrored_instances) ... ok
+test_gltf_animation_rejected (test_model_io.ModelIOTests.test_gltf_animation_rejected) ... ok
+test_gltf_conflicting_scale (test_model_io.ModelIOTests.test_gltf_conflicting_scale) ... ok
+test_gltf_embedded_buffers (test_model_io.ModelIOTests.test_gltf_embedded_buffers) ... ok
+test_gltf_missing_buffer_rejected (test_model_io.ModelIOTests.test_gltf_missing_buffer_rejected) ... ok
+test_gltf_required_extension_rejected (test_model_io.ModelIOTests.test_gltf_required_extension_rejected) ... ok
+test_invalid_scale (test_model_io.ModelIOTests.test_invalid_scale) ... ok
+test_no_overwrite (test_model_io.ModelIOTests.test_no_overwrite) ... ok
+test_no_path_escape (test_model_io.ModelIOTests.test_no_path_escape) ... ok
+test_no_remote_resource (test_model_io.ModelIOTests.test_no_remote_resource) ... ok
+test_node_selection (test_model_io.ModelIOTests.test_node_selection) ... ok
+test_nonfinite_rejected (test_model_io.ModelIOTests.test_nonfinite_rejected) ... ok
+test_noninteger_indices (test_model_io.ModelIOTests.test_noninteger_indices) ... ok
+test_obj_geometry (test_model_io.ModelIOTests.test_obj_geometry) ... ok
+test_obj_requires_unit (test_model_io.ModelIOTests.test_obj_requires_unit) ... ok
+test_out_of_range_index (test_model_io.ModelIOTests.test_out_of_range_index) ... ok
+test_ply_geometry (test_model_io.ModelIOTests.test_ply_geometry) ... ok
+test_read_identity_deterministic (test_model_io.ModelIOTests.test_read_identity_deterministic) ... ok
+test_repeated_node_id (test_model_io.ModelIOTests.test_repeated_node_id) ... ok
+test_stl_geometry (test_model_io.ModelIOTests.test_stl_geometry) ... ok
+test_unsupported_format (test_model_io.ModelIOTests.test_unsupported_format) ... ok
+test_inches_not_display_units (test_model_io.NativeSkpTests.test_inches_not_display_units) ... ok
+test_nested_translation_applied (test_model_io.NativeSkpTests.test_nested_translation_applied) ... ok
+test_skp_scene_has_real_mesh (test_model_io.NativeSkpTests.test_skp_scene_has_real_mesh) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 2.375s
+
+OK

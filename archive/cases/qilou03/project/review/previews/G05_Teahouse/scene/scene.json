@@ -1,0 +1,107 @@
+{
+  "source_nbt_sha256": "9772eb7a5c353c13bd729fdef704d15bf2fb117572e6d03a1a52893133fe48fb",
+  "size_xyz": [
+    23,
+    34,
+    33
+  ],
+  "triangles": {
+    "opaque": 475688,
+    "glass": 23152
+  },
+  "lamps": [
+    [
+      11,
+      7,
+      7,
+      15
+    ],
+    [
+      14,
+      7,
+      12,
+      15
+    ],
+    [
+      4,
+      7,
+      15,
+      15
+    ],
+    [
+      11,
+      7,
+      19,
+      15
+    ],
+    [
+      3,
+      7,
+      25,
+      15
+    ],
+    [
+      19,
+      7,
+      25,
+      15
+    ],
+    [
+      11,
+      13,
+      7,
+      15
+    ],
+    [
+      19,
+      13,
+      12,
+      15
+    ],
+    [
+      4,
+      13,
+      15,
+      15
+    ],
+    [
+      11,
+      13,
+      19,
+      15
+    ],
+    [
+      11,
+      19,
+      7,
+      15
+    ],
+    [
+      19,
+      19,
+      12,
+      15
+    ],
+    [
+      11,
+      19,
+      19,
+      15
+    ]
+  ],
+  "visual_box_volume": 5832.1189,
+  "source": "independent NBT readback, state-aware preview boxes",
+  "limitations": [
+    "Entity beds and banners use approximate boxes",
+    "1x1 paintings use their NBT positions and official variant textures",
+    "Biome tint approximated; weighted model variants use first item",
+    "UV lock and element rescale not fully reproduced; no Minecraft client lighting"
+  ],
+  "texture_grid_max": 4,
+  "painting_entities_rendered": 4,
+  "material_mode": "Minecraft Java 1.21.1 JSON models + first-frame texture colours, offline EGL; not game footage",
+  "model_fallbacks": {
+    "minecraft:oak_wall_sign": 1,
+    "minecraft:white_bed": 2
+  }
+}

@@ -1,0 +1,5621 @@
+{
+  "status": "as_built_offline_verified",
+  "source_nbt_sha256": "1f4a160cd95f5e01ca0eae8d20cead23efc571749366abbf5520533309dad648",
+  "site": {
+    "id": "ModernFactory01",
+    "revision": "V3 paved working ground and accent planting",
+    "title": "新港制造园 · 综合生产基地",
+    "size_xyz": [
+      448,
+      72,
+      336
+    ],
+    "spawn_local": [
+      226,
+      3,
+      329
+    ],
+    "source_nbt_sha256": "1f4a160cd95f5e01ca0eae8d20cead23efc571749366abbf5520533309dad648",
+    "buildings": [
+      {
+        "id": "site",
+        "name": "园区道路、边界与绿化",
+        "w": 448,
+        "d": 336,
+        "levels": 1,
+        "floors": [
+          0,
+          4,
+          8
+        ],
+        "geometry_bounds": [
+          [
+            0,
+            448
+          ],
+          [
+            0,
+            12
+          ],
+          [
+            0,
+            336
+          ]
+        ],
+        "blocks": 444232
+      },
+      {
+        "id": "rawyard",
+        "name": "01 · 原料堆场与卸料区",
+        "w": 101,
+        "d": 78,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11
+        ],
+        "geometry_bounds": [
+          [
+            30,
+            131
+          ],
+          [
+            3,
+            13
+          ],
+          [
+            34,
+            112
+          ]
+        ],
+        "blocks": 21290
+      },
+      {
+        "id": "silos",
+        "name": "02 · 筒仓与定量给料",
+        "w": 92,
+        "d": 116,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35,
+          39
+        ],
+        "geometry_bounds": [
+          [
+            109,
+            201
+          ],
+          [
+            3,
+            41
+          ],
+          [
+            36,
+            152
+          ]
+        ],
+        "blocks": 13110
+      },
+      {
+        "id": "process",
+        "name": "03 · 露天加工塔架与罐式设备",
+        "w": 175,
+        "d": 114,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35,
+          39,
+          43,
+          47,
+          51
+        ],
+        "geometry_bounds": [
+          [
+            244,
+            419
+          ],
+          [
+            3,
+            54
+          ],
+          [
+            36,
+            150
+          ]
+        ],
+        "blocks": 20436
+      },
+      {
+        "id": "tankfarm",
+        "name": "04 · 液体储罐区",
+        "w": 68,
+        "d": 82,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35
+        ],
+        "geometry_bounds": [
+          [
+            351,
+            419
+          ],
+          [
+            3,
+            37
+          ],
+          [
+            29,
+            111
+          ]
+        ],
+        "blocks": 18485
+      },
+      {
+        "id": "production",
+        "name": "05 · 连续生产主厂房",
+        "w": 181,
+        "d": 66,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31
+        ],
+        "geometry_bounds": [
+          [
+            30,
+            211
+          ],
+          [
+            3,
+            32
+          ],
+          [
+            142,
+            208
+          ]
+        ],
+        "blocks": 48905
+      },
+      {
+        "id": "packing",
+        "name": "06 · 包装、检测与码垛车间",
+        "w": 80,
+        "d": 103,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23
+        ],
+        "geometry_bounds": [
+          [
+            245,
+            325
+          ],
+          [
+            3,
+            24
+          ],
+          [
+            105,
+            208
+          ]
+        ],
+        "blocks": 19968
+      },
+      {
+        "id": "warehouse",
+        "name": "07 · 成品库与货运月台",
+        "w": 80,
+        "d": 83,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27
+        ],
+        "geometry_bounds": [
+          [
+            338,
+            418
+          ],
+          [
+            3,
+            28
+          ],
+          [
+            142,
+            225
+          ]
+        ],
+        "blocks": 28200
+      },
+      {
+        "id": "office",
+        "name": "08 · 八层独立办公与研发楼",
+        "w": 96,
+        "d": 62,
+        "levels": 1,
+        "floors": [
+          2,
+          6,
+          10,
+          14,
+          18,
+          22,
+          26,
+          30,
+          34,
+          38,
+          42,
+          46,
+          50,
+          54,
+          58,
+          62,
+          66
+        ],
+        "geometry_bounds": [
+          [
+            32,
+            128
+          ],
+          [
+            2,
+            68
+          ],
+          [
+            249,
+            311
+          ]
+        ],
+        "blocks": 68735
+      },
+      {
+        "id": "canteen",
+        "name": "09 · 两层食堂与员工活动中心",
+        "w": 85,
+        "d": 57,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19
+        ],
+        "geometry_bounds": [
+          [
+            147,
+            232
+          ],
+          [
+            3,
+            20
+          ],
+          [
+            255,
+            312
+          ]
+        ],
+        "blocks": 26858
+      },
+      {
+        "id": "dormA",
+        "name": "10 · 员工宿舍 A",
+        "w": 26,
+        "d": 64,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35,
+          39,
+          43,
+          47,
+          51
+        ],
+        "geometry_bounds": [
+          [
+            267,
+            293
+          ],
+          [
+            3,
+            53
+          ],
+          [
+            253,
+            317
+          ]
+        ],
+        "blocks": 32067
+      },
+      {
+        "id": "dormB",
+        "name": "11 · 员工宿舍 B",
+        "w": 26,
+        "d": 64,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15,
+          19,
+          23,
+          27,
+          31,
+          35,
+          39,
+          43,
+          47,
+          51
+        ],
+        "geometry_bounds": [
+          [
+            327,
+            353
+          ],
+          [
+            3,
+            53
+          ],
+          [
+            253,
+            317
+          ]
+        ],
+        "blocks": 32067
+      },
+      {
+        "id": "bridges",
+        "name": "12 · 二层员工步行廊网",
+        "w": 236,
+        "d": 52,
+        "levels": 1,
+        "floors": [
+          3,
+          7,
+          11,
+          15
+        ],
+        "geometry_bounds": [
+          [
+            112,
+            348
+          ],
+          [
+            3,
+            18
+          ],
+          [
+            204,
+            256
+          ]
+        ],
+        "blocks": 9796
+      },
+      {
+        "id": "amenities",
+        "name": "13 · 员工庭院、运动场和服务配套",
+        "w": 186,
+        "d": 63,
+        "levels": 1,
+        "floors": [
+          2,
+          6,
+          10
+        ],
+        "geometry_bounds": [
+          [
+            233,
+            419
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            250,
+            313
+          ]
+        ],
+        "blocks": 8941
+      },
+      {
+        "id": "utilities",
+        "name": "14 · 动力、循环水与环保设施",
+        "w": 387,
+        "d": 84,
+        "levels": 1,
+        "floors": [
+          3,
+          7
+        ],
+        "geometry_bounds": [
+          [
+            31,
+            418
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            23,
+            107
+          ]
+        ],
+        "blocks": 3301
+      },
+      {
+        "id": "entry",
+        "name": "15 · 门卫与主入口",
+        "w": 272,
+        "d": 101,
+        "levels": 1,
+        "floors": [
+          2,
+          6,
+          10
+        ],
+        "geometry_bounds": [
+          [
+            71,
+            343
+          ],
+          [
+            2,
+            14
+          ],
+          [
+            235,
+            336
+          ]
+        ],
+        "blocks": 3251
+      }
+    ],
+    "scope": "原创综合新材料工厂，场景组织而非工程施工设计",
+    "office_storeys": 8,
+    "dorm_storeys": 6,
+    "dorm_buildings": 2,
+    "canteen_storeys": 2,
+    "dining_seats": 192,
+    "dorm_beds": 240,
+    "comparison": {
+      "baseline_size_xz": [
+        272,
+        224
+      ],
+      "new_size_xz": [
+        448,
+        336
+      ],
+      "area_ratio": 2.4705882352941178,
+      "baseline_feedback": "warehouse-dominant and underscaled; needs process plant and employee amenities"
+    },
+    "production_sequence": [
+      "原料堆场",
+      "定量筒仓",
+      "露天加工设备与罐区",
+      "连续成型生产线",
+      "检测包装",
+      "成品仓储"
+    ],
+    "material_status": "新建维护状态，罐体白灰、钢架深灰、蓝色统一标识",
+    "game": "not_run",
+    "limitations": [
+      "原版静态工厂设备，不是 Create 生产系统",
+      "工艺顺序为建筑场景组织，不对应真实工程设计",
+      "预览是近似材质的 NBT 几何渲染",
+      "原版家具数据已写入，互动仍待实机验证"
+    ]
+  },
+  "rooms": [
+    {
+      "component": "office",
+      "floor_y": 4,
+      "function": "lobby",
+      "bounds_xyz": [
+        32,
+        4,
+        249,
+        127,
+        10,
+        275
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 12,
+      "function": "office",
+      "bounds_xyz": [
+        32,
+        12,
+        249,
+        127,
+        18,
+        275
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 20,
+      "function": "meeting",
+      "bounds_xyz": [
+        32,
+        20,
+        249,
+        127,
+        26,
+        275
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 28,
+      "function": "office",
+      "bounds_xyz": [
+        32,
+        28,
+        249,
+        127,
+        34,
+        275
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 36,
+      "function": "office",
+      "bounds_xyz": [
+        32,
+        36,
+        249,
+        127,
+        42,
+        275
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 44,
+      "function": "meeting",
+      "bounds_xyz": [
+        32,
+        44,
+        249,
+        127,
+        50,
+        275
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 52,
+      "function": "office",
+      "bounds_xyz": [
+        42,
+        52,
+        249,
+        119,
+        58,
+        275
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 60,
+      "function": "meeting",
+      "bounds_xyz": [
+        42,
+        60,
+        249,
+        119,
+        66,
+        275
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 4,
+      "function": "meeting",
+      "bounds_xyz": [
+        32,
+        4,
+        275,
+        62,
+        10,
+        309
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 12,
+      "function": "office",
+      "bounds_xyz": [
+        32,
+        12,
+        275,
+        62,
+        18,
+        309
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 20,
+      "function": "meeting",
+      "bounds_xyz": [
+        32,
+        20,
+        275,
+        62,
+        26,
+        309
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 28,
+      "function": "office",
+      "bounds_xyz": [
+        32,
+        28,
+        275,
+        62,
+        34,
+        309
+      ]
+    },
+    {
+      "component": "office",
+      "floor_y": 36,
+      "function": "office",
+      "bounds_xyz": [
+        32,
+        36,
+        275,
+        62,
+        42,
+        309
+      ]
+    },
+    {
+      "component": "canteen",
+      "function": "kitchen_serving_washing",
+      "floor_y": 4,
+      "bounds_xyz": [
+        148,
+        4,
+        256,
+        230,
+        10,
+        279
+      ]
+    },
+    {
+      "component": "canteen",
+      "function": "dining",
+      "floor_y": 4,
+      "capacity": 144,
+      "bounds_xyz": [
+        148,
+        4,
+        279,
+        230,
+        10,
+        306
+      ]
+    },
+    {
+      "component": "canteen",
+      "function": "dining_training_lounge",
+      "floor_y": 12,
+      "capacity": 48,
+      "bounds_xyz": [
+        148,
+        12,
+        256,
+        230,
+        18,
+        306
+      ]
+    },
+    {
+      "id": "dormA_0_west_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        4,
+        269,
+        277,
+        10,
+        276
+      ],
+      "entrance": [
+        277,
+        4,
+        272
+      ]
+    },
+    {
+      "id": "dormA_0_east_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        4,
+        269,
+        291,
+        10,
+        276
+      ],
+      "entrance": [
+        282,
+        4,
+        272
+      ]
+    },
+    {
+      "id": "dormA_0_west_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        4,
+        277,
+        277,
+        10,
+        284
+      ],
+      "entrance": [
+        277,
+        4,
+        280
+      ]
+    },
+    {
+      "id": "dormA_0_east_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        4,
+        277,
+        291,
+        10,
+        284
+      ],
+      "entrance": [
+        282,
+        4,
+        280
+      ]
+    },
+    {
+      "id": "dormA_0_west_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        4,
+        285,
+        277,
+        10,
+        292
+      ],
+      "entrance": [
+        277,
+        4,
+        288
+      ]
+    },
+    {
+      "id": "dormA_0_east_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        4,
+        285,
+        291,
+        10,
+        292
+      ],
+      "entrance": [
+        282,
+        4,
+        288
+      ]
+    },
+    {
+      "id": "dormA_0_west_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        4,
+        293,
+        277,
+        10,
+        300
+      ],
+      "entrance": [
+        277,
+        4,
+        296
+      ]
+    },
+    {
+      "id": "dormA_0_east_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        4,
+        293,
+        291,
+        10,
+        300
+      ],
+      "entrance": [
+        282,
+        4,
+        296
+      ]
+    },
+    {
+      "id": "dormA_0_west_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        4,
+        301,
+        277,
+        10,
+        308
+      ],
+      "entrance": [
+        277,
+        4,
+        304
+      ]
+    },
+    {
+      "id": "dormA_0_east_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        4,
+        301,
+        291,
+        10,
+        308
+      ],
+      "entrance": [
+        282,
+        4,
+        304
+      ]
+    },
+    {
+      "id": "dormA_1_west_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        12,
+        269,
+        277,
+        18,
+        276
+      ],
+      "entrance": [
+        277,
+        12,
+        272
+      ]
+    },
+    {
+      "id": "dormA_1_east_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        12,
+        269,
+        291,
+        18,
+        276
+      ],
+      "entrance": [
+        282,
+        12,
+        272
+      ]
+    },
+    {
+      "id": "dormA_1_west_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        12,
+        277,
+        277,
+        18,
+        284
+      ],
+      "entrance": [
+        277,
+        12,
+        280
+      ]
+    },
+    {
+      "id": "dormA_1_east_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        12,
+        277,
+        291,
+        18,
+        284
+      ],
+      "entrance": [
+        282,
+        12,
+        280
+      ]
+    },
+    {
+      "id": "dormA_1_west_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        12,
+        285,
+        277,
+        18,
+        292
+      ],
+      "entrance": [
+        277,
+        12,
+        288
+      ]
+    },
+    {
+      "id": "dormA_1_east_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        12,
+        285,
+        291,
+        18,
+        292
+      ],
+      "entrance": [
+        282,
+        12,
+        288
+      ]
+    },
+    {
+      "id": "dormA_1_west_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        12,
+        293,
+        277,
+        18,
+        300
+      ],
+      "entrance": [
+        277,
+        12,
+        296
+      ]
+    },
+    {
+      "id": "dormA_1_east_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        12,
+        293,
+        291,
+        18,
+        300
+      ],
+      "entrance": [
+        282,
+        12,
+        296
+      ]
+    },
+    {
+      "id": "dormA_1_west_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        12,
+        301,
+        277,
+        18,
+        308
+      ],
+      "entrance": [
+        277,
+        12,
+        304
+      ]
+    },
+    {
+      "id": "dormA_1_east_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        12,
+        301,
+        291,
+        18,
+        308
+      ],
+      "entrance": [
+        282,
+        12,
+        304
+      ]
+    },
+    {
+      "id": "dormA_2_west_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        20,
+        269,
+        277,
+        26,
+        276
+      ],
+      "entrance": [
+        277,
+        20,
+        272
+      ]
+    },
+    {
+      "id": "dormA_2_east_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        20,
+        269,
+        291,
+        26,
+        276
+      ],
+      "entrance": [
+        282,
+        20,
+        272
+      ]
+    },
+    {
+      "id": "dormA_2_west_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        20,
+        277,
+        277,
+        26,
+        284
+      ],
+      "entrance": [
+        277,
+        20,
+        280
+      ]
+    },
+    {
+      "id": "dormA_2_east_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        20,
+        277,
+        291,
+        26,
+        284
+      ],
+      "entrance": [
+        282,
+        20,
+        280
+      ]
+    },
+    {
+      "id": "dormA_2_west_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        20,
+        285,
+        277,
+        26,
+        292
+      ],
+      "entrance": [
+        277,
+        20,
+        288
+      ]
+    },
+    {
+      "id": "dormA_2_east_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        20,
+        285,
+        291,
+        26,
+        292
+      ],
+      "entrance": [
+        282,
+        20,
+        288
+      ]
+    },
+    {
+      "id": "dormA_2_west_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        20,
+        293,
+        277,
+        26,
+        300
+      ],
+      "entrance": [
+        277,
+        20,
+        296
+      ]
+    },
+    {
+      "id": "dormA_2_east_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        20,
+        293,
+        291,
+        26,
+        300
+      ],
+      "entrance": [
+        282,
+        20,
+        296
+      ]
+    },
+    {
+      "id": "dormA_2_west_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        20,
+        301,
+        277,
+        26,
+        308
+      ],
+      "entrance": [
+        277,
+        20,
+        304
+      ]
+    },
+    {
+      "id": "dormA_2_east_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        20,
+        301,
+        291,
+        26,
+        308
+      ],
+      "entrance": [
+        282,
+        20,
+        304
+      ]
+    },
+    {
+      "id": "dormA_3_west_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        28,
+        269,
+        277,
+        34,
+        276
+      ],
+      "entrance": [
+        277,
+        28,
+        272
+      ]
+    },
+    {
+      "id": "dormA_3_east_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        28,
+        269,
+        291,
+        34,
+        276
+      ],
+      "entrance": [
+        282,
+        28,
+        272
+      ]
+    },
+    {
+      "id": "dormA_3_west_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        28,
+        277,
+        277,
+        34,
+        284
+      ],
+      "entrance": [
+        277,
+        28,
+        280
+      ]
+    },
+    {
+      "id": "dormA_3_east_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        28,
+        277,
+        291,
+        34,
+        284
+      ],
+      "entrance": [
+        282,
+        28,
+        280
+      ]
+    },
+    {
+      "id": "dormA_3_west_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        28,
+        285,
+        277,
+        34,
+        292
+      ],
+      "entrance": [
+        277,
+        28,
+        288
+      ]
+    },
+    {
+      "id": "dormA_3_east_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        28,
+        285,
+        291,
+        34,
+        292
+      ],
+      "entrance": [
+        282,
+        28,
+        288
+      ]
+    },
+    {
+      "id": "dormA_3_west_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        28,
+        293,
+        277,
+        34,
+        300
+      ],
+      "entrance": [
+        277,
+        28,
+        296
+      ]
+    },
+    {
+      "id": "dormA_3_east_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        28,
+        293,
+        291,
+        34,
+        300
+      ],
+      "entrance": [
+        282,
+        28,
+        296
+      ]
+    },
+    {
+      "id": "dormA_3_west_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        28,
+        301,
+        277,
+        34,
+        308
+      ],
+      "entrance": [
+        277,
+        28,
+        304
+      ]
+    },
+    {
+      "id": "dormA_3_east_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        28,
+        301,
+        291,
+        34,
+        308
+      ],
+      "entrance": [
+        282,
+        28,
+        304
+      ]
+    },
+    {
+      "id": "dormA_4_west_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        36,
+        269,
+        277,
+        42,
+        276
+      ],
+      "entrance": [
+        277,
+        36,
+        272
+      ]
+    },
+    {
+      "id": "dormA_4_east_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        36,
+        269,
+        291,
+        42,
+        276
+      ],
+      "entrance": [
+        282,
+        36,
+        272
+      ]
+    },
+    {
+      "id": "dormA_4_west_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        36,
+        277,
+        277,
+        42,
+        284
+      ],
+      "entrance": [
+        277,
+        36,
+        280
+      ]
+    },
+    {
+      "id": "dormA_4_east_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        36,
+        277,
+        291,
+        42,
+        284
+      ],
+      "entrance": [
+        282,
+        36,
+        280
+      ]
+    },
+    {
+      "id": "dormA_4_west_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        36,
+        285,
+        277,
+        42,
+        292
+      ],
+      "entrance": [
+        277,
+        36,
+        288
+      ]
+    },
+    {
+      "id": "dormA_4_east_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        36,
+        285,
+        291,
+        42,
+        292
+      ],
+      "entrance": [
+        282,
+        36,
+        288
+      ]
+    },
+    {
+      "id": "dormA_4_west_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        36,
+        293,
+        277,
+        42,
+        300
+      ],
+      "entrance": [
+        277,
+        36,
+        296
+      ]
+    },
+    {
+      "id": "dormA_4_east_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        36,
+        293,
+        291,
+        42,
+        300
+      ],
+      "entrance": [
+        282,
+        36,
+        296
+      ]
+    },
+    {
+      "id": "dormA_4_west_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        36,
+        301,
+        277,
+        42,
+        308
+      ],
+      "entrance": [
+        277,
+        36,
+        304
+      ]
+    },
+    {
+      "id": "dormA_4_east_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        36,
+        301,
+        291,
+        42,
+        308
+      ],
+      "entrance": [
+        282,
+        36,
+        304
+      ]
+    },
+    {
+      "id": "dormA_5_west_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        44,
+        269,
+        277,
+        50,
+        276
+      ],
+      "entrance": [
+        277,
+        44,
+        272
+      ]
+    },
+    {
+      "id": "dormA_5_east_0",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        44,
+        269,
+        291,
+        50,
+        276
+      ],
+      "entrance": [
+        282,
+        44,
+        272
+      ]
+    },
+    {
+      "id": "dormA_5_west_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        44,
+        277,
+        277,
+        50,
+        284
+      ],
+      "entrance": [
+        277,
+        44,
+        280
+      ]
+    },
+    {
+      "id": "dormA_5_east_1",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        44,
+        277,
+        291,
+        50,
+        284
+      ],
+      "entrance": [
+        282,
+        44,
+        280
+      ]
+    },
+    {
+      "id": "dormA_5_west_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        44,
+        285,
+        277,
+        50,
+        292
+      ],
+      "entrance": [
+        277,
+        44,
+        288
+      ]
+    },
+    {
+      "id": "dormA_5_east_2",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        44,
+        285,
+        291,
+        50,
+        292
+      ],
+      "entrance": [
+        282,
+        44,
+        288
+      ]
+    },
+    {
+      "id": "dormA_5_west_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        44,
+        293,
+        277,
+        50,
+        300
+      ],
+      "entrance": [
+        277,
+        44,
+        296
+      ]
+    },
+    {
+      "id": "dormA_5_east_3",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        44,
+        293,
+        291,
+        50,
+        300
+      ],
+      "entrance": [
+        282,
+        44,
+        296
+      ]
+    },
+    {
+      "id": "dormA_5_west_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        269,
+        44,
+        301,
+        277,
+        50,
+        308
+      ],
+      "entrance": [
+        277,
+        44,
+        304
+      ]
+    },
+    {
+      "id": "dormA_5_east_4",
+      "component": "dormA",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        283,
+        44,
+        301,
+        291,
+        50,
+        308
+      ],
+      "entrance": [
+        282,
+        44,
+        304
+      ]
+    },
+    {
+      "id": "dormB_0_west_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        4,
+        269,
+        337,
+        10,
+        276
+      ],
+      "entrance": [
+        337,
+        4,
+        272
+      ]
+    },
+    {
+      "id": "dormB_0_east_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        4,
+        269,
+        351,
+        10,
+        276
+      ],
+      "entrance": [
+        342,
+        4,
+        272
+      ]
+    },
+    {
+      "id": "dormB_0_west_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        4,
+        277,
+        337,
+        10,
+        284
+      ],
+      "entrance": [
+        337,
+        4,
+        280
+      ]
+    },
+    {
+      "id": "dormB_0_east_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        4,
+        277,
+        351,
+        10,
+        284
+      ],
+      "entrance": [
+        342,
+        4,
+        280
+      ]
+    },
+    {
+      "id": "dormB_0_west_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        4,
+        285,
+        337,
+        10,
+        292
+      ],
+      "entrance": [
+        337,
+        4,
+        288
+      ]
+    },
+    {
+      "id": "dormB_0_east_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        4,
+        285,
+        351,
+        10,
+        292
+      ],
+      "entrance": [
+        342,
+        4,
+        288
+      ]
+    },
+    {
+      "id": "dormB_0_west_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        4,
+        293,
+        337,
+        10,
+        300
+      ],
+      "entrance": [
+        337,
+        4,
+        296
+      ]
+    },
+    {
+      "id": "dormB_0_east_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        4,
+        293,
+        351,
+        10,
+        300
+      ],
+      "entrance": [
+        342,
+        4,
+        296
+      ]
+    },
+    {
+      "id": "dormB_0_west_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        4,
+        301,
+        337,
+        10,
+        308
+      ],
+      "entrance": [
+        337,
+        4,
+        304
+      ]
+    },
+    {
+      "id": "dormB_0_east_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 4,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        4,
+        301,
+        351,
+        10,
+        308
+      ],
+      "entrance": [
+        342,
+        4,
+        304
+      ]
+    },
+    {
+      "id": "dormB_1_west_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        12,
+        269,
+        337,
+        18,
+        276
+      ],
+      "entrance": [
+        337,
+        12,
+        272
+      ]
+    },
+    {
+      "id": "dormB_1_east_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        12,
+        269,
+        351,
+        18,
+        276
+      ],
+      "entrance": [
+        342,
+        12,
+        272
+      ]
+    },
+    {
+      "id": "dormB_1_west_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        12,
+        277,
+        337,
+        18,
+        284
+      ],
+      "entrance": [
+        337,
+        12,
+        280
+      ]
+    },
+    {
+      "id": "dormB_1_east_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        12,
+        277,
+        351,
+        18,
+        284
+      ],
+      "entrance": [
+        342,
+        12,
+        280
+      ]
+    },
+    {
+      "id": "dormB_1_west_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        12,
+        285,
+        337,
+        18,
+        292
+      ],
+      "entrance": [
+        337,
+        12,
+        288
+      ]
+    },
+    {
+      "id": "dormB_1_east_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        12,
+        285,
+        351,
+        18,
+        292
+      ],
+      "entrance": [
+        342,
+        12,
+        288
+      ]
+    },
+    {
+      "id": "dormB_1_west_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        12,
+        293,
+        337,
+        18,
+        300
+      ],
+      "entrance": [
+        337,
+        12,
+        296
+      ]
+    },
+    {
+      "id": "dormB_1_east_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        12,
+        293,
+        351,
+        18,
+        300
+      ],
+      "entrance": [
+        342,
+        12,
+        296
+      ]
+    },
+    {
+      "id": "dormB_1_west_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        12,
+        301,
+        337,
+        18,
+        308
+      ],
+      "entrance": [
+        337,
+        12,
+        304
+      ]
+    },
+    {
+      "id": "dormB_1_east_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 12,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        12,
+        301,
+        351,
+        18,
+        308
+      ],
+      "entrance": [
+        342,
+        12,
+        304
+      ]
+    },
+    {
+      "id": "dormB_2_west_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        20,
+        269,
+        337,
+        26,
+        276
+      ],
+      "entrance": [
+        337,
+        20,
+        272
+      ]
+    },
+    {
+      "id": "dormB_2_east_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        20,
+        269,
+        351,
+        26,
+        276
+      ],
+      "entrance": [
+        342,
+        20,
+        272
+      ]
+    },
+    {
+      "id": "dormB_2_west_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        20,
+        277,
+        337,
+        26,
+        284
+      ],
+      "entrance": [
+        337,
+        20,
+        280
+      ]
+    },
+    {
+      "id": "dormB_2_east_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        20,
+        277,
+        351,
+        26,
+        284
+      ],
+      "entrance": [
+        342,
+        20,
+        280
+      ]
+    },
+    {
+      "id": "dormB_2_west_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        20,
+        285,
+        337,
+        26,
+        292
+      ],
+      "entrance": [
+        337,
+        20,
+        288
+      ]
+    },
+    {
+      "id": "dormB_2_east_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        20,
+        285,
+        351,
+        26,
+        292
+      ],
+      "entrance": [
+        342,
+        20,
+        288
+      ]
+    },
+    {
+      "id": "dormB_2_west_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        20,
+        293,
+        337,
+        26,
+        300
+      ],
+      "entrance": [
+        337,
+        20,
+        296
+      ]
+    },
+    {
+      "id": "dormB_2_east_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        20,
+        293,
+        351,
+        26,
+        300
+      ],
+      "entrance": [
+        342,
+        20,
+        296
+      ]
+    },
+    {
+      "id": "dormB_2_west_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        20,
+        301,
+        337,
+        26,
+        308
+      ],
+      "entrance": [
+        337,
+        20,
+        304
+      ]
+    },
+    {
+      "id": "dormB_2_east_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 20,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        20,
+        301,
+        351,
+        26,
+        308
+      ],
+      "entrance": [
+        342,
+        20,
+        304
+      ]
+    },
+    {
+      "id": "dormB_3_west_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        28,
+        269,
+        337,
+        34,
+        276
+      ],
+      "entrance": [
+        337,
+        28,
+        272
+      ]
+    },
+    {
+      "id": "dormB_3_east_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        28,
+        269,
+        351,
+        34,
+        276
+      ],
+      "entrance": [
+        342,
+        28,
+        272
+      ]
+    },
+    {
+      "id": "dormB_3_west_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        28,
+        277,
+        337,
+        34,
+        284
+      ],
+      "entrance": [
+        337,
+        28,
+        280
+      ]
+    },
+    {
+      "id": "dormB_3_east_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        28,
+        277,
+        351,
+        34,
+        284
+      ],
+      "entrance": [
+        342,
+        28,
+        280
+      ]
+    },
+    {
+      "id": "dormB_3_west_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        28,
+        285,
+        337,
+        34,
+        292
+      ],
+      "entrance": [
+        337,
+        28,
+        288
+      ]
+    },
+    {
+      "id": "dormB_3_east_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        28,
+        285,
+        351,
+        34,
+        292
+      ],
+      "entrance": [
+        342,
+        28,
+        288
+      ]
+    },
+    {
+      "id": "dormB_3_west_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        28,
+        293,
+        337,
+        34,
+        300
+      ],
+      "entrance": [
+        337,
+        28,
+        296
+      ]
+    },
+    {
+      "id": "dormB_3_east_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        28,
+        293,
+        351,
+        34,
+        300
+      ],
+      "entrance": [
+        342,
+        28,
+        296
+      ]
+    },
+    {
+      "id": "dormB_3_west_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        28,
+        301,
+        337,
+        34,
+        308
+      ],
+      "entrance": [
+        337,
+        28,
+        304
+      ]
+    },
+    {
+      "id": "dormB_3_east_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 28,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        28,
+        301,
+        351,
+        34,
+        308
+      ],
+      "entrance": [
+        342,
+        28,
+        304
+      ]
+    },
+    {
+      "id": "dormB_4_west_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        36,
+        269,
+        337,
+        42,
+        276
+      ],
+      "entrance": [
+        337,
+        36,
+        272
+      ]
+    },
+    {
+      "id": "dormB_4_east_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        36,
+        269,
+        351,
+        42,
+        276
+      ],
+      "entrance": [
+        342,
+        36,
+        272
+      ]
+    },
+    {
+      "id": "dormB_4_west_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        36,
+        277,
+        337,
+        42,
+        284
+      ],
+      "entrance": [
+        337,
+        36,
+        280
+      ]
+    },
+    {
+      "id": "dormB_4_east_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        36,
+        277,
+        351,
+        42,
+        284
+      ],
+      "entrance": [
+        342,
+        36,
+        280
+      ]
+    },
+    {
+      "id": "dormB_4_west_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        36,
+        285,
+        337,
+        42,
+        292
+      ],
+      "entrance": [
+        337,
+        36,
+        288
+      ]
+    },
+    {
+      "id": "dormB_4_east_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        36,
+        285,
+        351,
+        42,
+        292
+      ],
+      "entrance": [
+        342,
+        36,
+        288
+      ]
+    },
+    {
+      "id": "dormB_4_west_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        36,
+        293,
+        337,
+        42,
+        300
+      ],
+      "entrance": [
+        337,
+        36,
+        296
+      ]
+    },
+    {
+      "id": "dormB_4_east_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        36,
+        293,
+        351,
+        42,
+        300
+      ],
+      "entrance": [
+        342,
+        36,
+        296
+      ]
+    },
+    {
+      "id": "dormB_4_west_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        36,
+        301,
+        337,
+        42,
+        308
+      ],
+      "entrance": [
+        337,
+        36,
+        304
+      ]
+    },
+    {
+      "id": "dormB_4_east_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 36,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        36,
+        301,
+        351,
+        42,
+        308
+      ],
+      "entrance": [
+        342,
+        36,
+        304
+      ]
+    },
+    {
+      "id": "dormB_5_west_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        44,
+        269,
+        337,
+        50,
+        276
+      ],
+      "entrance": [
+        337,
+        44,
+        272
+      ]
+    },
+    {
+      "id": "dormB_5_east_0",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        44,
+        269,
+        351,
+        50,
+        276
+      ],
+      "entrance": [
+        342,
+        44,
+        272
+      ]
+    },
+    {
+      "id": "dormB_5_west_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        44,
+        277,
+        337,
+        50,
+        284
+      ],
+      "entrance": [
+        337,
+        44,
+        280
+      ]
+    },
+    {
+      "id": "dormB_5_east_1",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        44,
+        277,
+        351,
+        50,
+        284
+      ],
+      "entrance": [
+        342,
+        44,
+        280
+      ]
+    },
+    {
+      "id": "dormB_5_west_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        44,
+        285,
+        337,
+        50,
+        292
+      ],
+      "entrance": [
+        337,
+        44,
+        288
+      ]
+    },
+    {
+      "id": "dormB_5_east_2",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        44,
+        285,
+        351,
+        50,
+        292
+      ],
+      "entrance": [
+        342,
+        44,
+        288
+      ]
+    },
+    {
+      "id": "dormB_5_west_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        44,
+        293,
+        337,
+        50,
+        300
+      ],
+      "entrance": [
+        337,
+        44,
+        296
+      ]
+    },
+    {
+      "id": "dormB_5_east_3",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        44,
+        293,
+        351,
+        50,
+        300
+      ],
+      "entrance": [
+        342,
+        44,
+        296
+      ]
+    },
+    {
+      "id": "dormB_5_west_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        329,
+        44,
+        301,
+        337,
+        50,
+        308
+      ],
+      "entrance": [
+        337,
+        44,
+        304
+      ]
+    },
+    {
+      "id": "dormB_5_east_4",
+      "component": "dormB",
+      "function": "bedroom",
+      "floor_y": 44,
+      "capacity": 2,
+      "bounds_xyz": [
+        343,
+        44,
+        301,
+        351,
+        50,
+        308
+      ],
+      "entrance": [
+        342,
+        44,
+        304
+      ]
+    }
+  ],
+  "access": {
+    "doors": [
+      {
+        "pos": [
+          277,
+          4,
+          272
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          4,
+          272
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          4,
+          280
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          4,
+          280
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          4,
+          288
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          4,
+          288
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          4,
+          296
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          4,
+          296
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          4,
+          304
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          4,
+          304
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          12,
+          272
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          12,
+          272
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          12,
+          280
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          12,
+          280
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          12,
+          288
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          12,
+          288
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          12,
+          296
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          12,
+          296
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          12,
+          304
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          12,
+          304
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          20,
+          272
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          20,
+          272
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          20,
+          280
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          20,
+          280
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          20,
+          288
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          20,
+          288
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          20,
+          296
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          20,
+          296
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          20,
+          304
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          20,
+          304
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          28,
+          272
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          28,
+          272
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          28,
+          280
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          28,
+          280
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          28,
+          288
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          28,
+          288
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          28,
+          296
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          28,
+          296
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          28,
+          304
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          28,
+          304
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          36,
+          272
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          36,
+          272
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          36,
+          280
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          36,
+          280
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          36,
+          288
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          36,
+          288
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          36,
+          296
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          36,
+          296
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          36,
+          304
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          36,
+          304
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          44,
+          272
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          44,
+          272
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          44,
+          280
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          44,
+          280
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          44,
+          288
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          44,
+          288
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          44,
+          296
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          44,
+          296
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          277,
+          44,
+          304
+        ],
+        "facing": "east",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          282,
+          44,
+          304
+        ],
+        "facing": "west",
+        "component": "dormA"
+      },
+      {
+        "pos": [
+          337,
+          4,
+          272
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          4,
+          272
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          4,
+          280
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          4,
+          280
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          4,
+          288
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          4,
+          288
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          4,
+          296
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          4,
+          296
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          4,
+          304
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          4,
+          304
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          12,
+          272
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          12,
+          272
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          12,
+          280
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          12,
+          280
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          12,
+          288
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          12,
+          288
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          12,
+          296
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          12,
+          296
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          12,
+          304
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          12,
+          304
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          20,
+          272
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          20,
+          272
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          20,
+          280
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          20,
+          280
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          20,
+          288
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          20,
+          288
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          20,
+          296
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          20,
+          296
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          20,
+          304
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          20,
+          304
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          28,
+          272
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          28,
+          272
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          28,
+          280
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          28,
+          280
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          28,
+          288
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          28,
+          288
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          28,
+          296
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          28,
+          296
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          28,
+          304
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          28,
+          304
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          36,
+          272
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          36,
+          272
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          36,
+          280
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          36,
+          280
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          36,
+          288
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          36,
+          288
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          36,
+          296
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          36,
+          296
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          36,
+          304
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          36,
+          304
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          44,
+          272
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          44,
+          272
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          44,
+          280
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          44,
+          280
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          44,
+          288
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          44,
+          288
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          44,
+          296
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          44,
+          296
+        ],
+        "facing": "west",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          337,
+          44,
+          304
+        ],
+        "facing": "east",
+        "component": "dormB"
+      },
+      {
+        "pos": [
+          342,
+          44,
+          304
+        ],
+        "facing": "west",
+        "component": "dormB"
+      }
+    ],
+    "beds": [
+      [
+        270,
+        4,
+        272
+      ],
+      [
+        274,
+        4,
+        272
+      ],
+      [
+        284,
+        4,
+        272
+      ],
+      [
+        288,
+        4,
+        272
+      ],
+      [
+        270,
+        4,
+        280
+      ],
+      [
+        274,
+        4,
+        280
+      ],
+      [
+        284,
+        4,
+        280
+      ],
+      [
+        288,
+        4,
+        280
+      ],
+      [
+        270,
+        4,
+        288
+      ],
+      [
+        274,
+        4,
+        288
+      ],
+      [
+        284,
+        4,
+        288
+      ],
+      [
+        288,
+        4,
+        288
+      ],
+      [
+        270,
+        4,
+        296
+      ],
+      [
+        274,
+        4,
+        296
+      ],
+      [
+        284,
+        4,
+        296
+      ],
+      [
+        288,
+        4,
+        296
+      ],
+      [
+        270,
+        4,
+        304
+      ],
+      [
+        274,
+        4,
+        304
+      ],
+      [
+        284,
+        4,
+        304
+      ],
+      [
+        288,
+        4,
+        304
+      ],
+      [
+        270,
+        12,
+        272
+      ],
+      [
+        274,
+        12,
+        272
+      ],
+      [
+        284,
+        12,
+        272
+      ],
+      [
+        288,
+        12,
+        272
+      ],
+      [
+        270,
+        12,
+        280
+      ],
+      [
+        274,
+        12,
+        280
+      ],
+      [
+        284,
+        12,
+        280
+      ],
+      [
+        288,
+        12,
+        280
+      ],
+      [
+        270,
+        12,
+        288
+      ],
+      [
+        274,
+        12,
+        288
+      ],
+      [
+        284,
+        12,
+        288
+      ],
+      [
+        288,
+        12,
+        288
+      ],
+      [
+        270,
+        12,
+        296
+      ],
+      [
+        274,
+        12,
+        296
+      ],
+      [
+        284,
+        12,
+        296
+      ],
+      [
+        288,
+        12,
+        296
+      ],
+      [
+        270,
+        12,
+        304
+      ],
+      [
+        274,
+        12,
+        304
+      ],
+      [
+        284,
+        12,
+        304
+      ],
+      [
+        288,
+        12,
+        304
+      ],
+      [
+        270,
+        20,
+        272
+      ],
+      [
+        274,
+        20,
+        272
+      ],
+      [
+        284,
+        20,
+        272
+      ],
+      [
+        288,
+        20,
+        272
+      ],
+      [
+        270,
+        20,
+        280
+      ],
+      [
+        274,
+        20,
+        280
+      ],
+      [
+        284,
+        20,
+        280
+      ],
+      [
+        288,
+        20,
+        280
+      ],
+      [
+        270,
+        20,
+        288
+      ],
+      [
+        274,
+        20,
+        288
+      ],
+      [
+        284,
+        20,
+        288
+      ],
+      [
+        288,
+        20,
+        288
+      ],
+      [
+        270,
+        20,
+        296
+      ],
+      [
+        274,
+        20,
+        296
+      ],
+      [
+        284,
+        20,
+        296
+      ],
+      [
+        288,
+        20,
+        296
+      ],
+      [
+        270,
+        20,
+        304
+      ],
+      [
+        274,
+        20,
+        304
+      ],
+      [
+        284,
+        20,
+        304
+      ],
+      [
+        288,
+        20,
+        304
+      ],
+      [
+        270,
+        28,
+        272
+      ],
+      [
+        274,
+        28,
+        272
+      ],
+      [
+        284,
+        28,
+        272
+      ],
+      [
+        288,
+        28,
+        272
+      ],
+      [
+        270,
+        28,
+        280
+      ],
+      [
+        274,
+        28,
+        280
+      ],
+      [
+        284,
+        28,
+        280
+      ],
+      [
+        288,
+        28,
+        280
+      ],
+      [
+        270,
+        28,
+        288
+      ],
+      [
+        274,
+        28,
+        288
+      ],
+      [
+        284,
+        28,
+        288
+      ],
+      [
+        288,
+        28,
+        288
+      ],
+      [
+        270,
+        28,
+        296
+      ],
+      [
+        274,
+        28,
+        296
+      ],
+      [
+        284,
+        28,
+        296
+      ],
+      [
+        288,
+        28,
+        296
+      ],
+      [
+        270,
+        28,
+        304
+      ],
+      [
+        274,
+        28,
+        304
+      ],
+      [
+        284,
+        28,
+        304
+      ],
+      [
+        288,
+        28,
+        304
+      ],
+      [
+        270,
+        36,
+        272
+      ],
+      [
+        274,
+        36,
+        272
+      ],
+      [
+        284,
+        36,
+        272
+      ],
+      [
+        288,
+        36,
+        272
+      ],
+      [
+        270,
+        36,
+        280
+      ],
+      [
+        274,
+        36,
+        280
+      ],
+      [
+        284,
+        36,
+        280
+      ],
+      [
+        288,
+        36,
+        280
+      ],
+      [
+        270,
+        36,
+        288
+      ],
+      [
+        274,
+        36,
+        288
+      ],
+      [
+        284,
+        36,
+        288
+      ],
+      [
+        288,
+        36,
+        288
+      ],
+      [
+        270,
+        36,
+        296
+      ],
+      [
+        274,
+        36,
+        296
+      ],
+      [
+        284,
+        36,
+        296
+      ],
+      [
+        288,
+        36,
+        296
+      ],
+      [
+        270,
+        36,
+        304
+      ],
+      [
+        274,
+        36,
+        304
+      ],
+      [
+        284,
+        36,
+        304
+      ],
+      [
+        288,
+        36,
+        304
+      ],
+      [
+        270,
+        44,
+        272
+      ],
+      [
+        274,
+        44,
+        272
+      ],
+      [
+        284,
+        44,
+        272
+      ],
+      [
+        288,
+        44,
+        272
+      ],
+      [
+        270,
+        44,
+        280
+      ],
+      [
+        274,
+        44,
+        280
+      ],
+      [
+        284,
+        44,
+        280
+      ],
+      [
+        288,
+        44,
+        280
+      ],
+      [
+        270,
+        44,
+        288
+      ],
+      [
+        274,
+        44,
+        288
+      ],
+      [
+        284,
+        44,
+        288
+      ],
+      [
+        288,
+        44,
+        288
+      ],
+      [
+        270,
+        44,
+        296
+      ],
+      [
+        274,
+        44,
+        296
+      ],
+      [
+        284,
+        44,
+        296
+      ],
+      [
+        288,
+        44,
+        296
+      ],
+      [
+        270,
+        44,
+        304
+      ],
+      [
+        274,
+        44,
+        304
+      ],
+      [
+        284,
+        44,
+        304
+      ],
+      [
+        288,
+        44,
+        304
+      ],
+      [
+        330,
+        4,
+        272
+      ],
+      [
+        334,
+        4,
+        272
+      ],
+      [
+        344,
+        4,
+        272
+      ],
+      [
+        348,
+        4,
+        272
+      ],
+      [
+        330,
+        4,
+        280
+      ],
+      [
+        334,
+        4,
+        280
+      ],
+      [
+        344,
+        4,
+        280
+      ],
+      [
+        348,
+        4,
+        280
+      ],
+      [
+        330,
+        4,
+        288
+      ],
+      [
+        334,
+        4,
+        288
+      ],
+      [
+        344,
+        4,
+        288
+      ],
+      [
+        348,
+        4,
+        288
+      ],
+      [
+        330,
+        4,
+        296
+      ],
+      [
+        334,
+        4,
+        296
+      ],
+      [
+        344,
+        4,
+        296
+      ],
+      [
+        348,
+        4,
+        296
+      ],
+      [
+        330,
+        4,
+        304
+      ],
+      [
+        334,
+        4,
+        304
+      ],
+      [
+        344,
+        4,
+        304
+      ],
+      [
+        348,
+        4,
+        304
+      ],
+      [
+        330,
+        12,
+        272
+      ],
+      [
+        334,
+        12,
+        272
+      ],
+      [
+        344,
+        12,
+        272
+      ],
+      [
+        348,
+        12,
+        272
+      ],
+      [
+        330,
+        12,
+        280
+      ],
+      [
+        334,
+        12,
+        280
+      ],
+      [
+        344,
+        12,
+        280
+      ],
+      [
+        348,
+        12,
+        280
+      ],
+      [
+        330,
+        12,
+        288
+      ],
+      [
+        334,
+        12,
+        288
+      ],
+      [
+        344,
+        12,
+        288
+      ],
+      [
+        348,
+        12,
+        288
+      ],
+      [
+        330,
+        12,
+        296
+      ],
+      [
+        334,
+        12,
+        296
+      ],
+      [
+        344,
+        12,
+        296
+      ],
+      [
+        348,
+        12,
+        296
+      ],
+      [
+        330,
+        12,
+        304
+      ],
+      [
+        334,
+        12,
+        304
+      ],
+      [
+        344,
+        12,
+        304
+      ],
+      [
+        348,
+        12,
+        304
+      ],
+      [
+        330,
+        20,
+        272
+      ],
+      [
+        334,
+        20,
+        272
+      ],
+      [
+        344,
+        20,
+        272
+      ],
+      [
+        348,
+        20,
+        272
+      ],
+      [
+        330,
+        20,
+        280
+      ],
+      [
+        334,
+        20,
+        280
+      ],
+      [
+        344,
+        20,
+        280
+      ],
+      [
+        348,
+        20,
+        280
+      ],
+      [
+        330,
+        20,
+        288
+      ],
+      [
+        334,
+        20,
+        288
+      ],
+      [
+        344,
+        20,
+        288
+      ],
+      [
+        348,
+        20,
+        288
+      ],
+      [
+        330,
+        20,
+        296
+      ],
+      [
+        334,
+        20,
+        296
+      ],
+      [
+        344,
+        20,
+        296
+      ],
+      [
+        348,
+        20,
+        296
+      ],
+      [
+        330,
+        20,
+        304
+      ],
+      [
+        334,
+        20,
+        304
+      ],
+      [
+        344,
+        20,
+        304
+      ],
+      [
+        348,
+        20,
+        304
+      ],
+      [
+        330,
+        28,
+        272
+      ],
+      [
+        334,
+        28,
+        272
+      ],
+      [
+        344,
+        28,
+        272
+      ],
+      [
+        348,
+        28,
+        272
+      ],
+      [
+        330,
+        28,
+        280
+      ],
+      [
+        334,
+        28,
+        280
+      ],
+      [
+        344,
+        28,
+        280
+      ],
+      [
+        348,
+        28,
+        280
+      ],
+      [
+        330,
+        28,
+        288
+      ],
+      [
+        334,
+        28,
+        288
+      ],
+      [
+        344,
+        28,
+        288
+      ],
+      [
+        348,
+        28,
+        288
+      ],
+      [
+        330,
+        28,
+        296
+      ],
+      [
+        334,
+        28,
+        296
+      ],
+      [
+        344,
+        28,
+        296
+      ],
+      [
+        348,
+        28,
+        296
+      ],
+      [
+        330,
+        28,
+        304
+      ],
+      [
+        334,
+        28,
+        304
+      ],
+      [
+        344,
+        28,
+        304
+      ],
+      [
+        348,
+        28,
+        304
+      ],
+      [
+        330,
+        36,
+        272
+      ],
+      [
+        334,
+        36,
+        272
+      ],
+      [
+        344,
+        36,
+        272
+      ],
+      [
+        348,
+        36,
+        272
+      ],
+      [
+        330,
+        36,
+        280
+      ],
+      [
+        334,
+        36,
+        280
+      ],
+      [
+        344,
+        36,
+        280
+      ],
+      [
+        348,
+        36,
+        280
+      ],
+      [
+        330,
+        36,
+        288
+      ],
+      [
+        334,
+        36,
+        288
+      ],
+      [
+        344,
+        36,
+        288
+      ],
+      [
+        348,
+        36,
+        288
+      ],
+      [
+        330,
+        36,
+        296
+      ],
+      [
+        334,
+        36,
+        296
+      ],
+      [
+        344,
+        36,
+        296
+      ],
+      [
+        348,
+        36,
+        296
+      ],
+      [
+        330,
+        36,
+        304
+      ],
+      [
+        334,
+        36,
+        304
+      ],
+      [
+        344,
+        36,
+        304
+      ],
+      [
+        348,
+        36,
+        304
+      ],
+      [
+        330,
+        44,
+        272
+      ],
+      [
+        334,
+        44,
+        272
+      ],
+      [
+        344,
+        44,
+        272
+      ],
+      [
+        348,
+        44,
+        272
+      ],
+      [
+        330,
+        44,
+        280
+      ],
+      [
+        334,
+        44,
+        280
+      ],
+      [
+        344,
+        44,
+        280
+      ],
+      [
+        348,
+        44,
+        280
+      ],
+      [
+        330,
+        44,
+        288
+      ],
+      [
+        334,
+        44,
+        288
+      ],
+      [
+        344,
+        44,
+        288
+      ],
+      [
+        348,
+        44,
+        288
+      ],
+      [
+        330,
+        44,
+        296
+      ],
+      [
+        334,
+        44,
+        296
+      ],
+      [
+        344,
+        44,
+        296
+      ],
+      [
+        348,
+        44,
+        296
+      ],
+      [
+        330,
+        44,
+        304
+      ],
+      [
+        334,
+        44,
+        304
+      ],
+      [
+        344,
+        44,
+        304
+      ],
+      [
+        348,
+        44,
+        304
+      ],
+      [
+        386,
+        4,
+        260
+      ]
+    ],
+    "stairs": [
+      {
+        "x": 181,
+        "z": 203,
+        "floor_y": 4,
+        "upper_floor_y": 12,
+        "width": 3,
+        "component": "production"
+      },
+      {
+        "x": 112,
+        "z": 264,
+        "floor_y": 4,
+        "upper_floor_y": 12,
+        "width": 3,
+        "component": "office"
+      },
+      {
+        "x": 112,
+        "z": 264,
+        "floor_y": 12,
+        "upper_floor_y": 20,
+        "width": 3,
+        "component": "office"
+      },
+      {
+        "x": 112,
+        "z": 264,
+        "floor_y": 20,
+        "upper_floor_y": 28,
+        "width": 3,
+        "component": "office"
+      },
+      {
+        "x": 112,
+        "z": 264,
+        "floor_y": 28,
+        "upper_floor_y": 36,
+        "width": 3,
+        "component": "office"
+      },
+      {
+        "x": 112,
+        "z": 264,
+        "floor_y": 36,
+        "upper_floor_y": 44,
+        "width": 3,
+        "component": "office"
+      },
+      {
+        "x": 112,
+        "z": 264,
+        "floor_y": 44,
+        "upper_floor_y": 52,
+        "width": 3,
+        "component": "office"
+      },
+      {
+        "x": 112,
+        "z": 264,
+        "floor_y": 52,
+        "upper_floor_y": 60,
+        "width": 3,
+        "component": "office"
+      },
+      {
+        "x": 224,
+        "z": 272,
+        "floor_y": 4,
+        "upper_floor_y": 12,
+        "width": 3,
+        "component": "canteen"
+      },
+      {
+        "x": 270,
+        "z": 264,
+        "floor_y": 4,
+        "upper_floor_y": 12,
+        "width": 3,
+        "component": "dormA"
+      },
+      {
+        "x": 270,
+        "z": 264,
+        "floor_y": 12,
+        "upper_floor_y": 20,
+        "width": 3,
+        "component": "dormA"
+      },
+      {
+        "x": 270,
+        "z": 264,
+        "floor_y": 20,
+        "upper_floor_y": 28,
+        "width": 3,
+        "component": "dormA"
+      },
+      {
+        "x": 270,
+        "z": 264,
+        "floor_y": 28,
+        "upper_floor_y": 36,
+        "width": 3,
+        "component": "dormA"
+      },
+      {
+        "x": 270,
+        "z": 264,
+        "floor_y": 36,
+        "upper_floor_y": 44,
+        "width": 3,
+        "component": "dormA"
+      },
+      {
+        "x": 330,
+        "z": 264,
+        "floor_y": 4,
+        "upper_floor_y": 12,
+        "width": 3,
+        "component": "dormB"
+      },
+      {
+        "x": 330,
+        "z": 264,
+        "floor_y": 12,
+        "upper_floor_y": 20,
+        "width": 3,
+        "component": "dormB"
+      },
+      {
+        "x": 330,
+        "z": 264,
+        "floor_y": 20,
+        "upper_floor_y": 28,
+        "width": 3,
+        "component": "dormB"
+      },
+      {
+        "x": 330,
+        "z": 264,
+        "floor_y": 28,
+        "upper_floor_y": 36,
+        "width": 3,
+        "component": "dormB"
+      },
+      {
+        "x": 330,
+        "z": 264,
+        "floor_y": 36,
+        "upper_floor_y": 44,
+        "width": 3,
+        "component": "dormB"
+      }
+    ]
+  },
+  "original_design": true,
+  "game_status": "not_run",
+  "planned_interior_level": "L2, not game-certified",
+  "baseline": "M03 visual feedback requires revision; earlier file version retains original technical evidence"
+}

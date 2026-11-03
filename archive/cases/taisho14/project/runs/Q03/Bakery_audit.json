@@ -1,0 +1,56 @@
+{
+  "source_nbt_sha256": "5e7ea6159fbd51d883d0df4220bc47f35e1332f1d0aafe6628b9174788e326c0",
+  "non_air": 2830,
+  "entries": [
+    {
+      "id": "Bakery",
+      "pos": [
+        9,
+        3,
+        19
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 3,
+  "use_checks": [
+    {
+      "id": "Bakery.entry",
+      "pos": [
+        9,
+        3,
+        18
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.order",
+      "pos": [
+        10,
+        3,
+        13
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.bakery",
+      "pos": [
+        12,
+        3,
+        7
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 18,
+  "paintings": 0,
+  "official_model_states": 48,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

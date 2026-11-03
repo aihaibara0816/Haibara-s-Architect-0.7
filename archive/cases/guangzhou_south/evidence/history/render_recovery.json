@@ -1,0 +1,8 @@
+{
+  "run": "V1_r02",
+  "failure": "opaque cache 167772160 bytes, expected 870749280 bytes; renderer rejected triangle reshape",
+  "fix": "bounded atomic writes, fsync, exact size check; renderer validates declared triangle byte count",
+  "NBT_unchanged": true,
+  "source_nbt_sha256": "d1be52d98763c1337d9a9ecee53d82bac9a8d6ed9842ee00ac89d32d4f1be245",
+  "regressions": "short writes complete; failed write preserves previous cache; 29 shared tests pass"
+}

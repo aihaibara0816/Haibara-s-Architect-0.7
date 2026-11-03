@@ -1,0 +1,24 @@
+{
+  "engine": "HAF 0.2.0",
+  "release_role": "user-requested final 0.2 case; not a 0.3 release",
+  "lessons": [
+    "六跨不能复制成六个等宽桶；图纸轴线与完整雨棚外缘分别核对",
+    "斜航拍不能当正射俯视；输出模型正投影俯视用于轮廓检查",
+    "铁路站房按到达/轨道/候车层解释，公共灯光模式不同于办公楼随机亮窗",
+    "洞口必须同时切开玻璃、竖杆和横杆",
+    "屋面壳、吊顶、桁架分别构建，保留真实空气层",
+    "尺寸口径冲突保留证据与未闭合项，不用取平均值遮蔽差异"
+  ],
+  "not_claimed": [
+    "automatic model fusion",
+    "universal station generator",
+    "functional railway",
+    "in-game verification",
+    "neural training"
+  ],
+  "next_acceptance": [
+    "user shape/detail review",
+    "game import and updates",
+    "correct dimensions of central skylight and plaza"
+  ]
+}

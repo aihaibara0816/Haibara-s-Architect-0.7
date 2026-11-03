@@ -1,0 +1,1153 @@
+{
+  "schema_version": "1.1",
+  "scale": {
+    "ratio_candidates": [
+      1
+    ],
+    "selected_s": 1,
+    "rounding": "half_up",
+    "world_budget": {
+      "width": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "depth": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "height": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      }
+    },
+    "building_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "overall_height": {
+        "value_m": null,
+        "range_m": [
+          97.93,
+          97.97
+        ],
+        "fact_id": "fact-height",
+        "basis": "保留二级来源冲突；采用98格量化"
+      },
+      "architectural_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "roof_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "tip_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "site_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "conversions": [],
+    "uniform_scale_max": null,
+    "uncertainty": [
+      "平面宽深、全部局部标高与设备层范围由图估算",
+      "高度有0.04m二级资料口径差异"
+    ],
+    "local_exaggerations": [
+      "窗洞凹进一整格以保证无光影可读，深于真实细边",
+      "1格窄窗和4格视觉行距为量化，不是实测层高",
+      "TVO为粗像素字，DoubleTree字标未复制"
+    ]
+  },
+  "report_sections": [
+    {
+      "number": 1,
+      "title": "建筑概览与核心识别点",
+      "content": "大阪大手前ビル包含电视台与酒店。新案例重点检验非对称立面、错位窄窗、突出公共层和悬挑底面的表达；HAF版本仍为0.3。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "可靠尺度与Minecraft比例建议",
+      "content": "建筑约98m，按既定1:1比例。一级资料确认21层及373室；97.93/97.97m为二级来源，保留冲突。工作平面尺寸和局部标高均估算。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "设计语言/材料/幕墙",
+      "content": "以白色实体和灰蓝窄窗为主。凹窗与背衬产生厚度；铁栏用于栏杆和少量细框。避免整栋玻璃盒，也不强行复制上海环球金融中心色带。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "参考图片候选分类",
+      "content": "7张取得许可的建成原图；另查看Hilton暮色和建设摄影的入口/露台原图，以链接保留，不打包未知许可图。图4/5为近似视角，额外数量不等于新方向。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "核心参考图与覆盖分析",
+      "content": "八面参考盒含7张照片与1个屋顶/平面缺口面板。实际执行的是人工视觉组织和参数建模；未做相机标定、深度恢复或自动像素分割。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "完整生成提示词",
+      "content": "以大阪城希尔顿逸林酒店（DoubleTree by Hilton Osaka Castle／大阪大手前ビル）2024建成状态为原型，强制参考img-01、img-02、img-03、img-04、img-05、img-06、img-07，不擅自修改原型设计。沿用200米以下1:1的统一比例；二级资料高度97.93/97.97米有口径差异，本版采用约98格。包围盒96×104×88，地面局部Y=4，模型+Z为临河面，地理北向未配准。\n先分主体、临河突出竖向实墙、白色公共层、深色带窗基座和斜玻璃电视台转角。主楼工作宽66格、厚22格、裙楼70×39格均是照片估算；高层连续街侧立面不能简单镜像到临河面。临河一侧在中央错位窗格旁保留深接缝和较宽竖向实墙，底部公共层向河面突出，凸窗再突出；屋顶设备与凹槽近似，不声称测绘复原。\n浅白实体占主导。用每4格视觉行、3格节距、1格窄窗及交替错位形成市松节奏。灰、青、浅蓝玻璃凹进1格，背衬后退4格，中间留深度；上部部分深色实心格。不得整栋换成全透明幕墙，也不把暮色反射变成橙色墙。铁栏用于露台、凸窗细梃与斜幕墙细框，避免在所有窗洞前加栅栏。原型毫米级墙缝低于1:1方块尺度，保留量化缺口。\n电视台基座有横向窄窗，底层玻璃后退；倾斜角部玻璃、独立悬挑底面、承托柱与入口分别生成。地台有连续河侧木色露台、低栏杆、花池和简化树木，河面是裁切环境符号，不复制旁边桥梁、铁路或大阪城。窗后楼板和背衬仅为合成内部，不等于373间真实客房。\n参考暮色及官方图，使用少量稳定房间ID暖窗灯，保留大量暗窗。没有证据的通体轮廓灯、彩色泛光、航空障碍灯和闪烁不添加。记录原图页、原文件URL、许可、哈希、图像矩形与代码消费者。八面参考盒放7张原图和1个缺失屋顶证据面板，不称摄影测量。保留实际run、NBT回读、等尺度四面日夜、正交俯视和低层底面/剖面；实际Java1.21.1导入、原版无光影材质和碰撞保持待验收。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "短版提示词",
+      "content": "大阪城希尔顿逸林酒店，强制参考img-01、img-02、img-03、img-04、img-05、img-06、img-07，不擅自修改原型设计。统一1:1，约98格主体；宽深与局部标高保留估算。浅白市松错位窄窗、后退灰青玻璃、暗背衬；临河非对称竖墙、白色公共层凸窗、深灰带窗电视台基座和斜玻璃角部。铁栏只用于露台及细框。保留底面和入口净空，稀疏暖窗；内部、树木和裁切河面为合理补全。主体后做附属广场与简洁露台，输出NBT、四面日夜、真俯视和同尺度样板；实机待验收。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "规模/质量/高度/附属广场与内部空间建议",
+      "content": "主体与地台96×104×88格，93,304非空气方块。原点Y64时排他上界168；上界320时原点最高216。内部和环境为合成。导入前准备空场地；稀疏NBT不清除已有方块。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "风险与失败排查",
+      "content": "首版屋顶铁栏铺满屋面，细带对比不足；r03改周边栏杆、灰色薄带及字标背板。r02发布名来自未成功应用补丁的重跑，与r01相同；保留该事实，不把重复输出计为改进。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "复杂项目拆分顺序",
+      "content": "共8个实际运行目录：体量、首版、重复重跑、三轮对照及修订。r03发现6段窗后背衬悬空；r04补承托后作为最终成品。下一步先在原版无光影下导入窗格、电视台角部和露台样板，再补真实总平与屋顶资料。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-03",
+        "img-04",
+        "img-05",
+        "img-06",
+        "img-07"
+      ],
+      "source_ids": [
+        "src-daiwa",
+        "src-plan",
+        "src-ntt",
+        "src-hilton"
+      ]
+    }
+  ],
+  "packet_id": "osaka-v1-20261026",
+  "collected_at": "2026-10-26",
+  "subject": {
+    "name": "大阪城希尔顿逸林酒店",
+    "aliases": [
+      "DoubleTree by Hilton Osaka Castle",
+      "大阪大手前ビル"
+    ],
+    "city": "大阪",
+    "kind": "single",
+    "identity_status": "confirmed",
+    "version": "2023竣工／2024开业状态",
+    "core_identifiers": [
+      "市松错位窗格",
+      "临河非对称竖向实墙",
+      "白色公共层与深色带窗基座",
+      "倾斜电视台玻璃角部"
+    ],
+    "boundary": "酒店与电视台合建主体、裁切地台和示意河面；不含地下、桥梁、城堡及邻楼",
+    "areas": {
+      "land_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "gross_floor_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "footprint_area": {
+        "value_m2": null,
+        "fact_id": null
+      }
+    }
+  },
+  "provenance": {
+    "origin_conversation_id": null,
+    "user_input": "DoubleTree by Hilton Osaka Castle",
+    "research_status": "incomplete"
+  },
+  "sources": [
+    {
+      "source_id": "src-photo1",
+      "type": "original_photograph",
+      "title": "连续窗格与街侧总体",
+      "url": "https://commons.wikimedia.org/wiki/File:DoubleTree_by_Hilton_Osaka_Castle.jpg",
+      "accessed_at": "2026-10-26",
+      "author": "KishujiRapid"
+    },
+    {
+      "source_id": "src-photo2",
+      "type": "original_photograph",
+      "title": "电视台转角幕墙与悬挑底面",
+      "url": "https://commons.wikimedia.org/wiki/File:TV_Osaka_Corporation_headquarters_in_202407_001.jpg",
+      "accessed_at": "2026-10-26",
+      "author": "Mc681"
+    },
+    {
+      "source_id": "src-photo3",
+      "type": "original_photograph",
+      "title": "侧向体量与临河层次",
+      "url": "https://commons.wikimedia.org/wiki/File:TVO_2024-06_(1).jpg",
+      "accessed_at": "2026-10-26",
+      "author": "Mr.ちゅらさん"
+    },
+    {
+      "source_id": "src-photo4",
+      "type": "original_photograph",
+      "title": "临河窗格、白色公共层与凸窗",
+      "url": "https://commons.wikimedia.org/wiki/File:TVO_2024-06_(2).jpg",
+      "accessed_at": "2026-10-26",
+      "author": "Mr.ちゅらさん"
+    },
+    {
+      "source_id": "src-photo5",
+      "type": "original_photograph",
+      "title": "临河低层全宽与入口关系",
+      "url": "https://commons.wikimedia.org/wiki/File:TVO_2024-06_(3).jpg",
+      "accessed_at": "2026-10-26",
+      "author": "Mr.ちゅらさん"
+    },
+    {
+      "source_id": "src-photo6",
+      "type": "original_photograph",
+      "title": "暮色侧向与设备凹槽",
+      "url": "https://commons.wikimedia.org/wiki/File:TVO_2024-07_(1).jpg",
+      "accessed_at": "2026-10-26",
+      "author": "Mr.ちゅらさん"
+    },
+    {
+      "source_id": "src-photo7",
+      "type": "original_photograph",
+      "title": "暮色临河亮暗与公共层",
+      "url": "https://commons.wikimedia.org/wiki/File:TVO_2024-07_(2).jpg",
+      "accessed_at": "2026-10-26",
+      "author": "Mr.ちゅらさん"
+    },
+    {
+      "source_id": "src-daiwa",
+      "type": "primary_architecture_source",
+      "title": "大和房屋／Hilton开业公告",
+      "url": "https://www.daiwahouse.co.jp/about/release/house/20240430173640.html",
+      "accessed_at": "2026-10-26",
+      "use": "核实2024-05-01开业、373室、酒店6–20层；不采用2021计划377室"
+    },
+    {
+      "source_id": "src-plan",
+      "type": "primary_architecture_source",
+      "title": "大和房屋2021建设公告",
+      "url": "https://prtimes.jp/main/html/rd/p/000001558.000002296.html",
+      "accessed_at": "2026-10-26",
+      "use": "和模样、白墙/石垣/市松概念；计划参数不当竣工实测"
+    },
+    {
+      "source_id": "src-ntt",
+      "type": "primary_architecture_source",
+      "title": "NTT Urban Value Support物管记录",
+      "url": "https://www.ntt-uvs.com/office/osakaotemae/",
+      "accessed_at": "2026-10-26",
+      "use": "核实2023年12月竣工、地上21/地下1层；已建建筑名称大阪大手前ビル"
+    },
+    {
+      "source_id": "src-hilton",
+      "type": "primary_architecture_source",
+      "title": "Hilton官方图片集",
+      "url": "https://www.hilton.com/en/hotels/osaocdi-doubletree-osaka-castle/gallery/",
+      "accessed_at": "2026-10-26",
+      "use": "实际查看外观暮色照片，支持散点暖窗；无开放许可，链接展示、不转载原图"
+    },
+    {
+      "source_id": "src-height",
+      "type": "construction_photographer",
+      "title": "日本の超高層ビル：竣工多角度实拍",
+      "url": "https://skyskysky.net/construction/202394.html",
+      "accessed_at": "2026-10-26",
+      "use": "97.97m二级记录；实际查看河面、入口及栏杆图，不转载未知许可原图"
+    },
+    {
+      "source_id": "src-height2",
+      "type": "secondary",
+      "title": "Re-urbanization竣工记录",
+      "url": "https://saitoshika-west.com/blog-entry-6909.html",
+      "accessed_at": "2026-10-26",
+      "use": "检索摘要97.93m，页面全文未核验；保留高度口径差异"
+    }
+  ],
+  "images": [
+    {
+      "image_id": "img-01",
+      "title": "连续窗格与街侧总体",
+      "media_type": "photo",
+      "source_ids": [
+        "src-photo1"
+      ],
+      "component_ids": [
+        "tower",
+        "facade",
+        "roof"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:DoubleTree_by_Hilton_Osaka_Castle.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/DoubleTree_by_Hilton_Osaka_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "local_file": "images/01.jpg",
+      "local_sha256": "b657532499d59e767f25fa50e6711089e889145b9c8381f2898a04b637c5a99c",
+      "actual_pixels": [
+        4695,
+        3522
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "连续窗格与街侧总体；模型地理北向未标定",
+      "covers": [
+        "tower",
+        "facade",
+        "roof"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "按可见构件归位，非相机恢复"
+      },
+      "version": "2024建成状态",
+      "photo_date": "2025-01-11",
+      "photographer": "KishujiRapid",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_status": "licensed",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看整幅图及关键局部",
+        "limitations": [
+          "高位斜视；局部基座被邻楼挡住"
+        ]
+      }
+    },
+    {
+      "image_id": "img-02",
+      "title": "电视台转角幕墙与悬挑底面",
+      "media_type": "photo",
+      "source_ids": [
+        "src-photo2"
+      ],
+      "component_ids": [
+        "tv",
+        "podium",
+        "tower"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:TV_Osaka_Corporation_headquarters_in_202407_001.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/TV_Osaka_Corporation_headquarters_in_202407_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "local_file": "images/02.jpg",
+      "local_sha256": "cfc16b5ad8dd7c75568e70294f571db92cfe6dda574de1ab0b893616a96984fd",
+      "actual_pixels": [
+        3000,
+        4001
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "电视台转角幕墙与悬挑底面；模型地理北向未标定",
+      "covers": [
+        "tv",
+        "podium",
+        "tower"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "按可见构件归位，非相机恢复"
+      },
+      "version": "2024建成状态",
+      "photo_date": "2024-07-06",
+      "photographer": "Mc681",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_status": "licensed",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看整幅图及关键局部",
+        "limitations": [
+          "强仰视；斜幕墙角度不能据单张图量测"
+        ]
+      }
+    },
+    {
+      "image_id": "img-03",
+      "title": "侧向体量与临河层次",
+      "media_type": "photo",
+      "source_ids": [
+        "src-photo3"
+      ],
+      "component_ids": [
+        "tower",
+        "podium"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:TVO_2024-06_(1).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/TVO_2024-06_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "local_file": "images/03.jpg",
+      "local_sha256": "013f408e881bc9d9e379844f1b189a97ef9cca47f383e11730687e7a059e5143",
+      "actual_pixels": [
+        3240,
+        4320
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "侧向体量与临河层次；模型地理北向未标定",
+      "covers": [
+        "tower",
+        "podium"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "按可见构件归位，非相机恢复"
+      },
+      "version": "2024建成状态",
+      "photo_date": "2024-06-16",
+      "photographer": "Mr.ちゅらさん",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_status": "licensed",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看整幅图及关键局部",
+        "limitations": [
+          "远景；桥梁和树木遮挡基部"
+        ]
+      }
+    },
+    {
+      "image_id": "img-04",
+      "title": "临河窗格、白色公共层与凸窗",
+      "media_type": "photo",
+      "source_ids": [
+        "src-photo4"
+      ],
+      "component_ids": [
+        "facade",
+        "public",
+        "podium"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:TVO_2024-06_(2).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/TVO_2024-06_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "local_file": "images/04.jpg",
+      "local_sha256": "cc79f17878f084e3ffbd81287cf460755d5821426230fcf60e0992455a2c327a",
+      "actual_pixels": [
+        4320,
+        3240
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "临河窗格、白色公共层与凸窗；模型地理北向未标定",
+      "covers": [
+        "facade",
+        "public",
+        "podium"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "按可见构件归位，非相机恢复"
+      },
+      "version": "2024建成状态",
+      "photo_date": "2024-06-16",
+      "photographer": "Mr.ちゅらさん",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_status": "licensed",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看整幅图及关键局部",
+        "limitations": [
+          "局部楼顶出框，透视不能当正立面"
+        ]
+      }
+    },
+    {
+      "image_id": "img-05",
+      "title": "临河低层全宽与入口关系",
+      "media_type": "photo",
+      "source_ids": [
+        "src-photo5"
+      ],
+      "component_ids": [
+        "podium",
+        "public",
+        "site"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:TVO_2024-06_(3).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/TVO_2024-06_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "local_file": "images/05.jpg",
+      "local_sha256": "10b967b7f9f79f0c5e964e39a1694c86a4c2edbf45c0343555985466171ec6e5",
+      "actual_pixels": [
+        4320,
+        3240
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "临河低层全宽与入口关系；模型地理北向未标定",
+      "covers": [
+        "podium",
+        "public",
+        "site"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "按可见构件归位，非相机恢复"
+      },
+      "version": "2024建成状态",
+      "photo_date": "2024-06-16",
+      "photographer": "Mr.ちゅらさん",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_status": "licensed",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看整幅图及关键局部",
+        "limitations": [
+          "与img-04近似视角，仅补低层范围，不计独立新方向"
+        ]
+      }
+    },
+    {
+      "image_id": "img-06",
+      "title": "暮色侧向与设备凹槽",
+      "media_type": "photo",
+      "source_ids": [
+        "src-photo6"
+      ],
+      "component_ids": [
+        "roof",
+        "tower",
+        "lighting"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:TVO_2024-07_(1).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/TVO_2024-07_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "local_file": "images/06.jpg",
+      "local_sha256": "9870a3908d728f8e6df5623e7d4eeea341fffa84dc6d9c0245296fa0a9f22316",
+      "actual_pixels": [
+        3240,
+        4320
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "暮色侧向与设备凹槽；模型地理北向未标定",
+      "covers": [
+        "roof",
+        "tower",
+        "lighting"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "按可见构件归位，非相机恢复"
+      },
+      "version": "2024建成状态",
+      "photo_date": "2024-07-12",
+      "photographer": "Mr.ちゅらさん",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_status": "licensed",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看整幅图及关键局部",
+        "limitations": [
+          "夕阳反射不作为永久橙色材质；下部桥梁不属本体"
+        ]
+      }
+    },
+    {
+      "image_id": "img-07",
+      "title": "暮色临河亮暗与公共层",
+      "media_type": "photo",
+      "source_ids": [
+        "src-photo7"
+      ],
+      "component_ids": [
+        "lighting",
+        "public"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:TVO_2024-07_(2).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/TVO_2024-07_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "local_file": "images/07.jpg",
+      "local_sha256": "aa55ef08a475e1579087b3763d4bb366de2b5195b97c73962e25159ec14ff029",
+      "actual_pixels": [
+        4320,
+        3240
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-26",
+      "built_state": "constructed",
+      "building_match_confirmed": true,
+      "view": "暮色临河亮暗与公共层；模型地理北向未标定",
+      "covers": [
+        "lighting",
+        "public"
+      ],
+      "orientation": {
+        "geographic_bearing": null,
+        "basis": "按可见构件归位，非相机恢复"
+      },
+      "version": "2024建成状态",
+      "photo_date": "2024-07-12",
+      "photographer": "Mr.ちゅらさん",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_status": "licensed",
+      "training_authorized": false,
+      "quality": {
+        "eligible": true,
+        "assessment": "已查看整幅图及关键局部",
+        "limitations": [
+          "不是深夜；未确认逐层真实灯位"
+        ]
+      }
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "fact-height",
+      "kind": "estimate",
+      "status": "proposed",
+      "field": "overall_height",
+      "value": [
+        97.93,
+        97.97
+      ],
+      "unit": "m",
+      "source_ids": [
+        "src-height",
+        "src-height2"
+      ],
+      "basis": "二级资料97.93/97.97m冲突保留，取97.97并量化为98格，未提升为一级实测"
+    },
+    {
+      "fact_id": "fact-storeys",
+      "kind": "fact",
+      "status": "verified",
+      "field": "storeys_above",
+      "value": 21,
+      "source_ids": [
+        "src-ntt"
+      ]
+    },
+    {
+      "fact_id": "fact-hotel",
+      "kind": "fact",
+      "status": "verified",
+      "field": "rooms",
+      "value": 373,
+      "source_ids": [
+        "src-daiwa"
+      ]
+    },
+    {
+      "fact_id": "fact-pattern",
+      "kind": "observation",
+      "status": "verified",
+      "field": "facade",
+      "value": "白色实体与窄深窗错位，临河大实墙不对称",
+      "image_ids": [
+        "img-01",
+        "img-02",
+        "img-04"
+      ],
+      "source_ids": [
+        "src-plan"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "component_id": "tower",
+      "name": "主体与竖向墙片",
+      "fact_ids": []
+    },
+    {
+      "component_id": "facade",
+      "name": "错位窗格",
+      "fact_ids": []
+    },
+    {
+      "component_id": "tv",
+      "name": "电视台斜玻璃与底面",
+      "fact_ids": []
+    },
+    {
+      "component_id": "podium",
+      "name": "低层深色带窗",
+      "fact_ids": []
+    },
+    {
+      "component_id": "public",
+      "name": "白色公共层与凸窗",
+      "fact_ids": []
+    },
+    {
+      "component_id": "site",
+      "name": "临河露台与裁切环境",
+      "fact_ids": []
+    },
+    {
+      "component_id": "roof",
+      "name": "设备层和凹槽",
+      "fact_ids": []
+    },
+    {
+      "component_id": "lighting",
+      "name": "窗灯与入口照明",
+      "fact_ids": []
+    },
+    {
+      "component_id": "interior",
+      "name": "合成楼板和背衬",
+      "fact_ids": []
+    }
+  ],
+  "selection": {
+    "target_image_limit": null,
+    "consistency_checks": {
+      "same_version": true,
+      "clean_subject": false,
+      "orientation_aligned": null,
+      "layout_basis_image_ids": [
+        "img-01",
+        "img-03",
+        "img-04"
+      ],
+      "podium_closeup_image_ids": [
+        "img-02",
+        "img-04",
+        "img-05"
+      ],
+      "shell_crosscheck_image_ids": [
+        "img-01",
+        "img-04",
+        "img-06"
+      ],
+      "notes": [
+        "全为建成照片；多张临河近似角度不计独立覆盖",
+        "没有垂直航空图或实测平面"
+      ]
+    },
+    "omitted_constraints": [],
+    "legacy_slots": [],
+    "core": [
+      {
+        "image_id": "img-01",
+        "purpose": "连续窗格与街侧总体",
+        "rationale": "连续窗格与街侧总体；模型地理北向未标定"
+      },
+      {
+        "image_id": "img-02",
+        "purpose": "电视台转角幕墙与悬挑底面",
+        "rationale": "电视台转角幕墙与悬挑底面；模型地理北向未标定"
+      },
+      {
+        "image_id": "img-03",
+        "purpose": "侧向体量与临河层次",
+        "rationale": "侧向体量与临河层次；模型地理北向未标定"
+      },
+      {
+        "image_id": "img-04",
+        "purpose": "临河窗格、白色公共层与凸窗",
+        "rationale": "临河窗格、白色公共层与凸窗；模型地理北向未标定"
+      }
+    ],
+    "detail_groups": [
+      {
+        "component_id": "lighting",
+        "purpose": "暮色照明",
+        "image_ids": [
+          "img-06",
+          "img-07"
+        ]
+      },
+      {
+        "component_id": "podium",
+        "purpose": "低层补充",
+        "image_ids": [
+          "img-05"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "image_id": "img-01",
+        "face": "oblique",
+        "orientation_basis": "连续窗格与街侧总体；模型地理北向未标定",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "tower",
+          "facade",
+          "roof"
+        ],
+        "duplicate_of": null,
+        "sha256": "b657532499d59e767f25fa50e6711089e889145b9c8381f2898a04b637c5a99c"
+      },
+      {
+        "image_id": "img-02",
+        "face": "oblique",
+        "orientation_basis": "电视台转角幕墙与悬挑底面；模型地理北向未标定",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "tv",
+          "podium",
+          "tower"
+        ],
+        "duplicate_of": null,
+        "sha256": "cfc16b5ad8dd7c75568e70294f571db92cfe6dda574de1ab0b893616a96984fd"
+      },
+      {
+        "image_id": "img-03",
+        "face": "oblique",
+        "orientation_basis": "侧向体量与临河层次；模型地理北向未标定",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "tower",
+          "podium"
+        ],
+        "duplicate_of": null,
+        "sha256": "013f408e881bc9d9e379844f1b189a97ef9cca47f383e11730687e7a059e5143"
+      },
+      {
+        "image_id": "img-04",
+        "face": "oblique",
+        "orientation_basis": "临河窗格、白色公共层与凸窗；模型地理北向未标定",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "facade",
+          "public",
+          "podium"
+        ],
+        "duplicate_of": null,
+        "sha256": "cc79f17878f084e3ffbd81287cf460755d5821426230fcf60e0992455a2c327a"
+      },
+      {
+        "image_id": "img-05",
+        "face": "oblique",
+        "orientation_basis": "临河低层全宽与入口关系；模型地理北向未标定",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "podium",
+          "public",
+          "site"
+        ],
+        "duplicate_of": null,
+        "sha256": "10b967b7f9f79f0c5e964e39a1694c86a4c2edbf45c0343555985466171ec6e5"
+      },
+      {
+        "image_id": "img-06",
+        "face": "oblique",
+        "orientation_basis": "暮色侧向与设备凹槽；模型地理北向未标定",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "roof",
+          "tower",
+          "lighting"
+        ],
+        "duplicate_of": null,
+        "sha256": "9870a3908d728f8e6df5623e7d4eeea341fffa84dc6d9c0245296fa0a9f22316"
+      },
+      {
+        "image_id": "img-07",
+        "face": "oblique",
+        "orientation_basis": "暮色临河亮暗与公共层；模型地理北向未标定",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "lighting",
+          "public"
+        ],
+        "duplicate_of": null,
+        "sha256": "aa55ef08a475e1579087b3763d4bb366de2b5195b97c73962e25159ec14ff029"
+      }
+    ],
+    "coverage_requirements": [
+      {
+        "face": "top",
+        "component_id": "roof",
+        "missing_search": "带尺度现状屋顶与总平"
+      },
+      {
+        "face": "interior",
+        "component_id": "interior",
+        "missing_search": "带楼层定位的内部平面"
+      }
+    ]
+  },
+  "prompts": {
+    "full": "以大阪城希尔顿逸林酒店（DoubleTree by Hilton Osaka Castle／大阪大手前ビル）2024建成状态为原型，强制参考img-01、img-02、img-03、img-04、img-05、img-06、img-07，不擅自修改原型设计。沿用200米以下1:1的统一比例；二级资料高度97.93/97.97米有口径差异，本版采用约98格。包围盒96×104×88，地面局部Y=4，模型+Z为临河面，地理北向未配准。\n先分主体、临河突出竖向实墙、白色公共层、深色带窗基座和斜玻璃电视台转角。主楼工作宽66格、厚22格、裙楼70×39格均是照片估算；高层连续街侧立面不能简单镜像到临河面。临河一侧在中央错位窗格旁保留深接缝和较宽竖向实墙，底部公共层向河面突出，凸窗再突出；屋顶设备与凹槽近似，不声称测绘复原。\n浅白实体占主导。用每4格视觉行、3格节距、1格窄窗及交替错位形成市松节奏。灰、青、浅蓝玻璃凹进1格，背衬后退4格，中间留深度；上部部分深色实心格。不得整栋换成全透明幕墙，也不把暮色反射变成橙色墙。铁栏用于露台、凸窗细梃与斜幕墙细框，避免在所有窗洞前加栅栏。原型毫米级墙缝低于1:1方块尺度，保留量化缺口。\n电视台基座有横向窄窗，底层玻璃后退；倾斜角部玻璃、独立悬挑底面、承托柱与入口分别生成。地台有连续河侧木色露台、低栏杆、花池和简化树木，河面是裁切环境符号，不复制旁边桥梁、铁路或大阪城。窗后楼板和背衬仅为合成内部，不等于373间真实客房。\n参考暮色及官方图，使用少量稳定房间ID暖窗灯，保留大量暗窗。没有证据的通体轮廓灯、彩色泛光、航空障碍灯和闪烁不添加。记录原图页、原文件URL、许可、哈希、图像矩形与代码消费者。八面参考盒放7张原图和1个缺失屋顶证据面板，不称摄影测量。保留实际run、NBT回读、等尺度四面日夜、正交俯视和低层底面/剖面；实际Java1.21.1导入、原版无光影材质和碰撞保持待验收。",
+    "short": "大阪城希尔顿逸林酒店，强制参考img-01、img-02、img-03、img-04、img-05、img-06、img-07，不擅自修改原型设计。统一1:1，约98格主体；宽深与局部标高保留估算。浅白市松错位窄窗、后退灰青玻璃、暗背衬；临河非对称竖墙、白色公共层凸窗、深灰带窗电视台基座和斜玻璃角部。铁栏只用于露台及细框。保留底面和入口净空，稀疏暖窗；内部、树木和裁切河面为合理补全。主体后做附属广场与简洁露台，输出NBT、四面日夜、真俯视和同尺度样板；实机待验收。",
+    "image_ids": [
+      "img-01",
+      "img-02",
+      "img-03",
+      "img-04",
+      "img-05",
+      "img-06",
+      "img-07"
+    ],
+    "excluded_image_ids": []
+  },
+  "guidance": {
+    "scope": "合建主体与临河简化场地",
+    "quality": "V1案例研究；文件通过不替代视觉/实机",
+    "height": "约98格主体",
+    "site": "露台与示意河面，非实测总平",
+    "landscape": {
+      "enabled": true,
+      "omission_reason": null,
+      "boundary": "裁切地台",
+      "elements": [
+        "露台",
+        "栏杆",
+        "合成花池树木"
+      ],
+      "reference_image_ids": [
+        "img-05"
+      ],
+      "access_connections": [
+        "入口到露台"
+      ],
+      "terrain_notes": "地下不生成",
+      "acceptance": []
+    },
+    "interior": "合成背衬和楼板，非真实客房布局",
+    "lighting": "暮色散点暖窗与低层照明；精确灯位未知",
+    "material_mappings": []
+  },
+  "staging": {
+    "required": false,
+    "reason": "单一合建主体，保留阶段run和局部样板",
+    "coordinate_system": {
+      "origin": [
+        0,
+        4,
+        0
+      ],
+      "x_axis": "long facade",
+      "y_axis": "up",
+      "z_axis": "river side",
+      "north": "未配准",
+      "s": 1
+    },
+    "stages": []
+  },
+  "experiments": [],
+  "risks": [
+    {
+      "risk": "错位窗格被扁平贴图化",
+      "symptom": "远近景都像印刷棋盘",
+      "correction": "独立凹窗、玻璃和背衬并用同尺度样板验收"
+    },
+    {
+      "risk": "两面被镜像",
+      "symptom": "临河竖向实墙和公共层丢失",
+      "correction": "分立面显式体量，不以对称假设补齐"
+    },
+    {
+      "risk": "单张透视误当实测",
+      "symptom": "平面或斜玻璃角度失真",
+      "correction": "估算与实测分列，补测绘图"
+    }
+  ],
+  "gaps": [
+    "带尺寸现状总平/屋顶图",
+    "高度一级来源",
+    "真实逐层平面和窗洞模数",
+    "侧墙细缝及品牌字标",
+    "精确灯位与航空障碍灯",
+    "实机材质/碰撞/导入验收"
+  ]
+}

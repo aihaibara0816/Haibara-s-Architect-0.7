@@ -1,0 +1,150 @@
+[
+  {
+    "image": "overview.png",
+    "sha256": "ec98d2a72bcc224fa4fec5af6c7f17ad28ed5d4d2ac191ae251daae595c6d3be",
+    "source_nbt_sha256": "0506f9768e9019397d9b38f9b7e47fd43c699a5d1d050195a0717950a3f4589c",
+    "camera": {
+      "id": "overview",
+      "eye": [
+        240,
+        160,
+        224
+      ],
+      "target": [
+        80,
+        6,
+        64
+      ],
+      "width": 1800,
+      "height": 1400,
+      "spanX": 220,
+      "spanZ": 171.111,
+      "ortho": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "shops.png",
+    "sha256": "fc682b9549f66a24577619b2052fe24cf07a4a769c0715709bf85b53c3925067",
+    "source_nbt_sha256": "0506f9768e9019397d9b38f9b7e47fd43c699a5d1d050195a0717950a3f4589c",
+    "camera": {
+      "id": "shops",
+      "eye": [
+        130,
+        49,
+        130
+      ],
+      "target": [
+        77,
+        11,
+        49
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 77,
+      "spanZ": 52.9375,
+      "ortho": true,
+      "night": false,
+      "bounds": [
+        46,
+        36,
+        112,
+        64
+      ]
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "walk.png",
+    "sha256": "b55fa186c189afd187f8a9854438bec21ba7928015ff7fea2e20bd79b2b7f2e7",
+    "source_nbt_sha256": "0506f9768e9019397d9b38f9b7e47fd43c699a5d1d050195a0717950a3f4589c",
+    "camera": {
+      "id": "walk",
+      "eye": [
+        8,
+        7,
+        69
+      ],
+      "target": [
+        116,
+        10,
+        66
+      ],
+      "width": 1600,
+      "height": 1000,
+      "ortho": false,
+      "fov": 62,
+      "night": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "sweet_cut.png",
+    "sha256": "ca3a758e5de2c7b605ba6eb52306202238c6b83867c835c9c3dd650f1a08b285",
+    "source_nbt_sha256": "0506f9768e9019397d9b38f9b7e47fd43c699a5d1d050195a0717950a3f4589c",
+    "camera": {
+      "id": "sweet_cut",
+      "eye": [
+        85.0,
+        42,
+        83.5
+      ],
+      "target": [
+        57.0,
+        5,
+        48.5
+      ],
+      "width": 1400,
+      "height": 1100,
+      "spanX": 27.200000000000003,
+      "spanZ": 21.371428571428574,
+      "ortho": true,
+      "bounds": [
+        48,
+        39,
+        66,
+        58
+      ],
+      "minY": 4,
+      "cutY": 8
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "bath_cut.png",
+    "sha256": "104c6ae74f6fb5a235a9ef0db3d7ceb8e1a431459444eebef82f315d92474842",
+    "source_nbt_sha256": "0506f9768e9019397d9b38f9b7e47fd43c699a5d1d050195a0717950a3f4589c",
+    "camera": {
+      "id": "bath_cut",
+      "eye": [
+        61.0,
+        42,
+        58.0
+      ],
+      "target": [
+        33.0,
+        5,
+        93.0
+      ],
+      "width": 1400,
+      "height": 1100,
+      "spanX": 41.6,
+      "spanZ": 32.68571428571428,
+      "ortho": true,
+      "bounds": [
+        19,
+        81,
+        47,
+        105
+      ],
+      "minY": 4,
+      "cutY": 8
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

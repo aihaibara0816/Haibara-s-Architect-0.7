@@ -1,0 +1,843 @@
+[
+  {
+    "id": "overview",
+    "eye": [
+      240,
+      160,
+      224
+    ],
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 220,
+    "spanZ": 171.111,
+    "ortho": true
+  },
+  {
+    "id": "street",
+    "eye": [
+      210,
+      100,
+      180
+    ],
+    "target": [
+      80,
+      10,
+      62
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 170,
+    "spanZ": 116.875,
+    "ortho": true,
+    "night": false
+  },
+  {
+    "id": "street_night",
+    "eye": [
+      210,
+      100,
+      180
+    ],
+    "target": [
+      80,
+      10,
+      62
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 170,
+    "spanZ": 116.875,
+    "ortho": true,
+    "night": true
+  },
+  {
+    "id": "north_lane",
+    "eye": [
+      205,
+      90,
+      130
+    ],
+    "target": [
+      78,
+      12,
+      26
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 154,
+    "spanZ": 105.875,
+    "ortho": true,
+    "night": false,
+    "bounds": [
+      0,
+      0,
+      151,
+      39
+    ]
+  },
+  {
+    "id": "north_lane_night",
+    "eye": [
+      205,
+      90,
+      130
+    ],
+    "target": [
+      78,
+      12,
+      26
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 154,
+    "spanZ": 105.875,
+    "ortho": true,
+    "night": true,
+    "bounds": [
+      0,
+      0,
+      151,
+      39
+    ]
+  },
+  {
+    "id": "shops",
+    "eye": [
+      130,
+      49,
+      130
+    ],
+    "target": [
+      77,
+      11,
+      49
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 77,
+    "spanZ": 52.9375,
+    "ortho": true,
+    "night": false,
+    "bounds": [
+      46,
+      36,
+      112,
+      64
+    ]
+  },
+  {
+    "id": "shops_night",
+    "eye": [
+      130,
+      49,
+      130
+    ],
+    "target": [
+      77,
+      11,
+      49
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 77,
+    "spanZ": 52.9375,
+    "ortho": true,
+    "night": true,
+    "bounds": [
+      46,
+      36,
+      112,
+      64
+    ]
+  },
+  {
+    "id": "civic",
+    "eye": [
+      70,
+      44,
+      15
+    ],
+    "target": [
+      34,
+      9,
+      92
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 45,
+    "spanZ": 30.9375,
+    "ortho": true,
+    "night": false,
+    "bounds": [
+      16,
+      75,
+      50,
+      108
+    ]
+  },
+  {
+    "id": "civic_night",
+    "eye": [
+      70,
+      44,
+      15
+    ],
+    "target": [
+      34,
+      9,
+      92
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 45,
+    "spanZ": 30.9375,
+    "ortho": true,
+    "night": true,
+    "bounds": [
+      16,
+      75,
+      50,
+      108
+    ]
+  },
+  {
+    "id": "walk",
+    "eye": [
+      8,
+      7,
+      69
+    ],
+    "target": [
+      116,
+      10,
+      66
+    ],
+    "width": 1600,
+    "height": 1000,
+    "ortho": false,
+    "fov": 62,
+    "night": false
+  },
+  {
+    "id": "walk_night",
+    "eye": [
+      8,
+      7,
+      69
+    ],
+    "target": [
+      116,
+      10,
+      66
+    ],
+    "width": 1600,
+    "height": 1000,
+    "ortho": false,
+    "fov": 62,
+    "night": true
+  },
+  {
+    "id": "sweet_front",
+    "eye": [
+      87.0,
+      24,
+      96.5
+    ],
+    "target": [
+      57.0,
+      13,
+      48.5
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 28.9,
+    "spanZ": 22.707142857142856,
+    "ortho": true,
+    "bounds": [
+      46,
+      35,
+      68,
+      62
+    ]
+  },
+  {
+    "id": "sweet_cut",
+    "eye": [
+      85.0,
+      42,
+      83.5
+    ],
+    "target": [
+      57.0,
+      5,
+      48.5
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 27.200000000000003,
+    "spanZ": 21.371428571428574,
+    "ortho": true,
+    "bounds": [
+      48,
+      39,
+      66,
+      58
+    ],
+    "minY": 4,
+    "cutY": 8
+  },
+  {
+    "id": "sweet_upper",
+    "eye": [
+      85.0,
+      48,
+      83.5
+    ],
+    "target": [
+      57.0,
+      11,
+      48.5
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 27.200000000000003,
+    "spanZ": 21.371428571428574,
+    "ortho": true,
+    "bounds": [
+      48,
+      39,
+      66,
+      58
+    ],
+    "minY": 10,
+    "cutY": 14
+  },
+  {
+    "id": "inn_front",
+    "eye": [
+      157.0,
+      24,
+      100.0
+    ],
+    "target": [
+      127.0,
+      13,
+      52.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 40.8,
+    "spanZ": 32.05714285714286,
+    "ortho": true,
+    "bounds": [
+      112,
+      36,
+      142,
+      68
+    ]
+  },
+  {
+    "id": "inn_cut",
+    "eye": [
+      155.0,
+      42,
+      87.0
+    ],
+    "target": [
+      127.0,
+      5,
+      52.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 38.400000000000006,
+    "spanZ": 30.171428571428578,
+    "ortho": true,
+    "bounds": [
+      114,
+      40,
+      140,
+      64
+    ],
+    "minY": 4,
+    "cutY": 8
+  },
+  {
+    "id": "inn_upper",
+    "eye": [
+      155.0,
+      48,
+      87.0
+    ],
+    "target": [
+      127.0,
+      11,
+      52.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 38.400000000000006,
+    "spanZ": 30.171428571428578,
+    "ortho": true,
+    "bounds": [
+      114,
+      40,
+      140,
+      64
+    ],
+    "minY": 10,
+    "cutY": 14
+  },
+  {
+    "id": "bath_front",
+    "eye": [
+      63.0,
+      24,
+      45.0
+    ],
+    "target": [
+      33.0,
+      13,
+      93.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 44.199999999999996,
+    "spanZ": 34.72857142857142,
+    "ortho": true,
+    "bounds": [
+      17,
+      77,
+      49,
+      109
+    ]
+  },
+  {
+    "id": "bath_cut",
+    "eye": [
+      61.0,
+      42,
+      58.0
+    ],
+    "target": [
+      33.0,
+      5,
+      93.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 41.6,
+    "spanZ": 32.68571428571428,
+    "ortho": true,
+    "bounds": [
+      19,
+      81,
+      47,
+      105
+    ],
+    "minY": 4,
+    "cutY": 8
+  },
+  {
+    "id": "H01_front",
+    "eye": [
+      47.0,
+      24,
+      100.5
+    ],
+    "target": [
+      17.0,
+      13,
+      52.5
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 25.5,
+    "spanZ": 20.035714285714285,
+    "ortho": true,
+    "bounds": [
+      7,
+      40,
+      27,
+      65
+    ]
+  },
+  {
+    "id": "H01_cut",
+    "eye": [
+      45.0,
+      42,
+      87.5
+    ],
+    "target": [
+      17.0,
+      5,
+      52.5
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 24.0,
+    "spanZ": 18.857142857142858,
+    "ortho": true,
+    "bounds": [
+      9,
+      44,
+      25,
+      61
+    ],
+    "minY": 4,
+    "cutY": 8
+  },
+  {
+    "id": "H01_upper",
+    "eye": [
+      45.0,
+      48,
+      87.5
+    ],
+    "target": [
+      17.0,
+      11,
+      52.5
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 24.0,
+    "spanZ": 18.857142857142858,
+    "ortho": true,
+    "bounds": [
+      9,
+      44,
+      25,
+      61
+    ],
+    "minY": 10,
+    "cutY": 14
+  },
+  {
+    "id": "paper_front",
+    "eye": [
+      80.0,
+      26,
+      66.0
+    ],
+    "target": [
+      50.0,
+      15,
+      18.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 30.599999999999998,
+    "spanZ": 24.042857142857144,
+    "ortho": true,
+    "bounds": [
+      41,
+      4,
+      59,
+      32
+    ]
+  },
+  {
+    "id": "paper_cut",
+    "eye": [
+      78.0,
+      44,
+      53.0
+    ],
+    "target": [
+      50.0,
+      7,
+      18.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 28.8,
+    "spanZ": 22.62857142857143,
+    "ortho": true,
+    "bounds": [
+      43,
+      8,
+      57,
+      28
+    ],
+    "minY": 6,
+    "cutY": 10
+  },
+  {
+    "id": "shrine_front",
+    "eye": [
+      169.5,
+      26,
+      67.0
+    ],
+    "target": [
+      139.5,
+      15,
+      19.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 27.2,
+    "spanZ": 21.37142857142857,
+    "ortho": true,
+    "bounds": [
+      130,
+      6,
+      149,
+      32
+    ]
+  },
+  {
+    "id": "shrine_cut",
+    "eye": [
+      167.5,
+      44,
+      54.0
+    ],
+    "target": [
+      139.5,
+      7,
+      19.0
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 25.6,
+    "spanZ": 20.114285714285714,
+    "ortho": true,
+    "bounds": [
+      132,
+      10,
+      147,
+      28
+    ],
+    "minY": 6,
+    "cutY": 10
+  },
+  {
+    "id": "eave_detail",
+    "eye": [
+      67.0,
+      7,
+      71
+    ],
+    "target": [
+      57.0,
+      11,
+      55
+    ],
+    "width": 1400,
+    "height": 1000,
+    "ortho": false,
+    "fov": 56,
+    "bounds": [
+      46,
+      38,
+      68,
+      61
+    ]
+  },
+  {
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 236.41326977987774,
+    "spanZ": 183.87698760657156,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "se_day",
+    "eye": [
+      240.0,
+      141.7645019878171,
+      224.0
+    ],
+    "night": false
+  },
+  {
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 236.41326977987774,
+    "spanZ": 183.87698760657156,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "se_night",
+    "eye": [
+      240.0,
+      141.7645019878171,
+      224.0
+    ],
+    "night": true
+  },
+  {
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 236.41326977987774,
+    "spanZ": 183.87698760657156,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "sw_day",
+    "eye": [
+      -80.0,
+      141.7645019878171,
+      224.0
+    ],
+    "night": false
+  },
+  {
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 236.41326977987774,
+    "spanZ": 183.87698760657156,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "sw_night",
+    "eye": [
+      -80.0,
+      141.7645019878171,
+      224.0
+    ],
+    "night": true
+  },
+  {
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 236.41326977987774,
+    "spanZ": 183.87698760657156,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "ne_day",
+    "eye": [
+      240.0,
+      141.7645019878171,
+      -96.0
+    ],
+    "night": false
+  },
+  {
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 236.41326977987774,
+    "spanZ": 183.87698760657156,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "ne_night",
+    "eye": [
+      240.0,
+      141.7645019878171,
+      -96.0
+    ],
+    "night": true
+  },
+  {
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 236.41326977987774,
+    "spanZ": 183.87698760657156,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "nw_day",
+    "eye": [
+      -80.0,
+      141.7645019878171,
+      -96.0
+    ],
+    "night": false
+  },
+  {
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 236.41326977987774,
+    "spanZ": 183.87698760657156,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "nw_night",
+    "eye": [
+      -80.0,
+      141.7645019878171,
+      -96.0
+    ],
+    "night": true
+  },
+  {
+    "id": "top_day",
+    "eye": [
+      80.0,
+      208,
+      64.0
+    ],
+    "target": [
+      80.0,
+      24.0,
+      64.0
+    ],
+    "spanX": 169.60000000000002,
+    "spanZ": 135.68,
+    "width": 1800,
+    "height": 1440,
+    "ortho": true,
+    "night": false,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified"
+  }
+]

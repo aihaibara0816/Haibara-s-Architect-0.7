@@ -1,0 +1,187 @@
+[
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "front",
+    "eye": [
+      26.0,
+      30.5,
+      -62.5
+    ],
+    "target": [
+      11.0,
+      21.5,
+      17.5
+    ],
+    "fov": 72,
+    "ortho": true,
+    "spanX": 67.10526315789474,
+    "spanZ": 51.0
+  },
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "front_night",
+    "eye": [
+      26.0,
+      30.5,
+      -62.5
+    ],
+    "target": [
+      11.0,
+      21.5,
+      17.5
+    ],
+    "fov": 72,
+    "ortho": true,
+    "spanX": 67.10526315789474,
+    "spanZ": 51.0,
+    "night": true
+  },
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "plan",
+    "eye": [
+      11.0,
+      150,
+      17.5
+    ],
+    "target": [
+      11.0,
+      0,
+      17.5
+    ],
+    "fov": 72,
+    "minY": 2,
+    "cutY": 5.99,
+    "ortho": true,
+    "spanX": 51.31578947368421,
+    "spanZ": 39.0
+  },
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "section",
+    "eye": [
+      111.0,
+      81.5,
+      117.5
+    ],
+    "target": [
+      11.0,
+      21.5,
+      17.5
+    ],
+    "fov": 72,
+    "cutX": 11,
+    "ortho": true,
+    "spanX": 77.72368421052632,
+    "spanZ": 59.07
+  },
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "exploded",
+    "eye": [
+      111.0,
+      142.5,
+      117.5
+    ],
+    "target": [
+      11.0,
+      42.5,
+      17.5
+    ],
+    "fov": 72,
+    "explode_floors": [
+      2,
+      7,
+      12,
+      17,
+      22,
+      27,
+      32,
+      37
+    ],
+    "explode_gap": 6,
+    "ortho": true,
+    "spanX": 129.83631578947367,
+    "spanZ": 98.67559999999999
+  },
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "interior",
+    "eye": [
+      13.5,
+      4.62,
+      15.5
+    ],
+    "target": [
+      18,
+      4.4,
+      10
+    ],
+    "fov": 72
+  },
+  {
+    "width": 1000,
+    "height": 760,
+    "concept": false,
+    "sun_day": [
+      0.6,
+      0.9,
+      0.8
+    ],
+    "id": "interior_night",
+    "eye": [
+      13.5,
+      4.62,
+      15.5
+    ],
+    "target": [
+      18,
+      4.4,
+      10
+    ],
+    "fov": 72,
+    "night": true
+  }
+]

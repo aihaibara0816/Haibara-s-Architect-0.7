@@ -1,0 +1,81 @@
+[
+  {
+    "image": "oblique.png",
+    "sha256": "053d28e0ef784640208234eb5c1886f8ae00fd1a4be7a895f912094c02d74beb",
+    "source_nbt_sha256": "ed072415979915c4d92ec00aa5f826f63ae7d96845f183808078292ec434ab45",
+    "camera": {
+      "width": 1800,
+      "height": 1500,
+      "ortho": true,
+      "spanX": 34,
+      "spanZ": 28.3333,
+      "concept": false,
+      "fov": 36,
+      "id": "oblique",
+      "eye": [
+        50,
+        25,
+        -65
+      ],
+      "target": [
+        14,
+        10,
+        8
+      ]
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "front.png",
+    "sha256": "d7dd8cea4028158724e18cc0536a04b91f622cf36527e14e1f1f42adbdd2d998",
+    "source_nbt_sha256": "ed072415979915c4d92ec00aa5f826f63ae7d96845f183808078292ec434ab45",
+    "camera": {
+      "width": 1800,
+      "height": 1500,
+      "ortho": true,
+      "spanX": 34,
+      "spanZ": 28.3333,
+      "concept": false,
+      "fov": 36,
+      "id": "front",
+      "eye": [
+        14,
+        10,
+        -90
+      ],
+      "target": [
+        14,
+        10,
+        8
+      ]
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "night.png",
+    "sha256": "84769e8553361462a675359cb34d70fc091d8f26daea27430886a798bf66f3a0",
+    "source_nbt_sha256": "ed072415979915c4d92ec00aa5f826f63ae7d96845f183808078292ec434ab45",
+    "camera": {
+      "width": 1800,
+      "height": 1500,
+      "ortho": true,
+      "spanX": 34,
+      "spanZ": 28.3333,
+      "concept": false,
+      "fov": 36,
+      "id": "night",
+      "eye": [
+        50,
+        25,
+        -65
+      ],
+      "target": [
+        14,
+        10,
+        8
+      ],
+      "night": true
+    },
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

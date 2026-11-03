@@ -1,0 +1,157 @@
+{
+  "case_id": "millennium_estate",
+  "seed": 20010526,
+  "size_xyz": [
+    160,
+    86,
+    166
+  ],
+  "grade_y": 3,
+  "floor_pitch": 5,
+  "clear_height": 3,
+  "separator_layers": 2,
+  "towers": [
+    {
+      "id": "A1",
+      "type": "A",
+      "x": 18,
+      "z": 118,
+      "w": 23,
+      "d": 25,
+      "storeys": 10,
+      "units_per_floor": 1,
+      "entry_side": "north"
+    },
+    {
+      "id": "A2",
+      "type": "A",
+      "x": 68,
+      "z": 108,
+      "w": 23,
+      "d": 25,
+      "storeys": 10,
+      "units_per_floor": 1,
+      "entry_side": "north"
+    },
+    {
+      "id": "A3",
+      "type": "A",
+      "x": 118,
+      "z": 98,
+      "w": 23,
+      "d": 25,
+      "storeys": 10,
+      "units_per_floor": 1,
+      "entry_side": "north"
+    },
+    {
+      "id": "B1",
+      "type": "B",
+      "x": 10,
+      "z": 31,
+      "w": 37,
+      "d": 25,
+      "storeys": 15,
+      "units_per_floor": 2,
+      "entry_side": "south"
+    },
+    {
+      "id": "B2",
+      "type": "B",
+      "x": 61,
+      "z": 21,
+      "w": 37,
+      "d": 25,
+      "storeys": 15,
+      "units_per_floor": 2,
+      "entry_side": "south"
+    },
+    {
+      "id": "B3",
+      "type": "B",
+      "x": 112,
+      "z": 11,
+      "w": 37,
+      "d": 25,
+      "storeys": 15,
+      "units_per_floor": 2,
+      "entry_side": "south"
+    }
+  ],
+  "apartment_total": 120,
+  "design_scale": "Original game-scale design; one block roughly one metre in plan, height adapted for 3-block clear rooms and 2-layer separators.",
+  "ground_floor_policy": "Residential on every numbered floor; separate core/lobby included on ground floor.",
+  "lighting_policy": "Selected apartments; common landings lit. No blanket all-on low-rise rule for 10/15-storey towers.",
+  "roof_rise": 4,
+  "route": "original",
+  "parallel_step_10": true,
+  "layout_source_towers": [
+    {
+      "id": "A1",
+      "type": "A",
+      "x": 18,
+      "z": 98,
+      "w": 23,
+      "d": 25,
+      "storeys": 10,
+      "units_per_floor": 1,
+      "entry_side": "north"
+    },
+    {
+      "id": "A2",
+      "type": "A",
+      "x": 68,
+      "z": 104,
+      "w": 23,
+      "d": 25,
+      "storeys": 10,
+      "units_per_floor": 1,
+      "entry_side": "north"
+    },
+    {
+      "id": "A3",
+      "type": "A",
+      "x": 118,
+      "z": 96,
+      "w": 23,
+      "d": 25,
+      "storeys": 10,
+      "units_per_floor": 1,
+      "entry_side": "north"
+    },
+    {
+      "id": "B1",
+      "type": "B",
+      "x": 10,
+      "z": 11,
+      "w": 37,
+      "d": 25,
+      "storeys": 15,
+      "units_per_floor": 2,
+      "entry_side": "south"
+    },
+    {
+      "id": "B2",
+      "type": "B",
+      "x": 61,
+      "z": 17,
+      "w": 37,
+      "d": 25,
+      "storeys": 15,
+      "units_per_floor": 2,
+      "entry_side": "south"
+    },
+    {
+      "id": "B3",
+      "type": "B",
+      "x": 112,
+      "z": 9,
+      "w": 37,
+      "d": 25,
+      "storeys": 15,
+      "units_per_floor": 2,
+      "entry_side": "south"
+    }
+  ],
+  "layout_intent": "从左至右各退10格；两排平行，中央花园与环路随斜向排列。"
+}

@@ -1,0 +1,374 @@
+{
+  "case_id": "Station",
+  "run": "V09",
+  "seed": 151145,
+  "buildings": [
+    {
+      "id": "Station",
+      "name": "櫻坂駅｜地方车站",
+      "size": [
+        36,
+        28,
+        38
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        18,
+        3,
+        32
+      ],
+      "rooms": [
+        {
+          "id": "Station.concourse",
+          "name": "售票、候车与站务",
+          "bounds": [
+            4,
+            3,
+            13,
+            32,
+            7,
+            32
+          ],
+          "floor_y": 3,
+          "capacity": 16,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Station.ticket",
+          "pos": [
+            13,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Station.waiting",
+          "pos": [
+            18,
+            3,
+            26
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Station.platform",
+          "pos": [
+            18,
+            3,
+            8
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Station.door.0",
+          "pos": [
+            18,
+            3,
+            32
+          ],
+          "lintel": [
+            18,
+            5,
+            32
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Station.door.1",
+          "pos": [
+            18,
+            3,
+            12
+          ],
+          "lintel": [
+            18,
+            5,
+            12
+          ],
+          "facing": "north"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            9,
+            7,
+            23
+          ],
+          "support": [
+            9,
+            8,
+            23
+          ]
+        },
+        {
+          "position": [
+            27,
+            7,
+            23
+          ],
+          "support": [
+            27,
+            8,
+            23
+          ]
+        },
+        {
+          "position": [
+            18,
+            7,
+            16
+          ],
+          "support": [
+            18,
+            8,
+            16
+          ]
+        },
+        {
+          "position": [
+            18,
+            7,
+            29
+          ],
+          "support": [
+            18,
+            8,
+            29
+          ]
+        },
+        {
+          "position": [
+            10,
+            5,
+            10
+          ],
+          "support": [
+            10,
+            6,
+            10
+          ]
+        },
+        {
+          "position": [
+            25,
+            5,
+            10
+          ],
+          "support": [
+            25,
+            6,
+            10
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Station.station.office.dining_table.24_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            3,
+            15,
+            29,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Station.timetable.bookshelf_group.30_1_13",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            30,
+            3,
+            13,
+            31,
+            7,
+            14
+          ],
+          "use_points": [
+            [
+              30,
+              3,
+              14
+            ]
+          ],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "entry_world": [
+        18,
+        3,
+        32
+      ]
+    }
+  ],
+  "uses": [
+    {
+      "id": "Station.ticket",
+      "pos": [
+        13,
+        3,
+        20
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Station.waiting",
+      "pos": [
+        18,
+        3,
+        26
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Station.platform",
+      "pos": [
+        18,
+        3,
+        8
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Station.door.0",
+      "pos": [
+        18,
+        3,
+        32
+      ],
+      "lintel": [
+        18,
+        5,
+        32
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Station.door.1",
+      "pos": [
+        18,
+        3,
+        12
+      ],
+      "lintel": [
+        18,
+        5,
+        12
+      ],
+      "facing": "north"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        9,
+        7,
+        23
+      ],
+      "support": [
+        9,
+        8,
+        23
+      ]
+    },
+    {
+      "position": [
+        27,
+        7,
+        23
+      ],
+      "support": [
+        27,
+        8,
+        23
+      ]
+    },
+    {
+      "position": [
+        18,
+        7,
+        16
+      ],
+      "support": [
+        18,
+        8,
+        16
+      ]
+    },
+    {
+      "position": [
+        18,
+        7,
+        29
+      ],
+      "support": [
+        18,
+        8,
+        29
+      ]
+    },
+    {
+      "position": [
+        10,
+        5,
+        10
+      ],
+      "support": [
+        10,
+        6,
+        10
+      ]
+    },
+    {
+      "position": [
+        25,
+        5,
+        10
+      ],
+      "support": [
+        25,
+        6,
+        10
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    18,
+    3,
+    33
+  ],
+  "upper_start": [
+    4,
+    14
+  ],
+  "source_nbt_sha256": "35a5bd486737ec4ec1e860732c436d2c118e6612e2eb533b7a8cbeb7c7845ac8",
+  "non_air": 8375,
+  "size_xyz": [
+    36,
+    28,
+    38
+  ],
+  "block_entities": 9,
+  "entities": 0
+}

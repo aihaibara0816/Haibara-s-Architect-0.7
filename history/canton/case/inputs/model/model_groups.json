@@ -1,0 +1,992 @@
+{
+  "schema_version": "canton-model-group-research-0.1",
+  "source_sha256": "26d4ca7237b4d3e870b421ba3260412d8e215d63e335beb559e48a4927c3fa72",
+  "geometry_sha256": "b979d4e6b725ed4fd56718dd625e0f02c62260923b79704be7b7d2e2547122e0",
+  "method": "AI visual review of isolated geometry + case-specific explicit selectors; not a general classifier",
+  "coordinate_system": {
+    "unit": "metre",
+    "up_axis": "Y",
+    "handedness": "right",
+    "origin": "original retained",
+    "heading": "not registered to building/front/geographic north"
+  },
+  "groups": [
+    {
+      "group_id": "model-frame-columns",
+      "label": "外框架：主柱候选",
+      "component_ids": [
+        "component-exoframe"
+      ],
+      "node_ids": [
+        "node-59f9c672d30332ae0fac"
+      ],
+      "scope": "own_meshes",
+      "semantic_status": "visually_reviewed_coarse_group",
+      "triangles": 777,
+      "mesh_placements": [
+        {
+          "node_id": "node-59f9c672d30332ae0fac",
+          "mesh_id": "mesh-1707d8ec6532968f4fa9",
+          "triangles": 385
+        },
+        {
+          "node_id": "node-59f9c672d30332ae0fac",
+          "mesh_id": "mesh-4c87b5fba1b49457129d",
+          "triangles": 385
+        },
+        {
+          "node_id": "node-59f9c672d30332ae0fac",
+          "mesh_id": "mesh-29586e9c8924d3bb8eec",
+          "triangles": 7
+        }
+      ]
+    },
+    {
+      "group_id": "model-frame-rings-braces",
+      "label": "外框架：环梁/斜撑混合组",
+      "component_ids": [
+        "component-exoframe"
+      ],
+      "node_ids": [
+        "node-e47b350ae9b52280bd38"
+      ],
+      "scope": "own_meshes",
+      "semantic_status": "visually_reviewed_coarse_group",
+      "triangles": 11264,
+      "mesh_placements": [
+        {
+          "node_id": "node-e47b350ae9b52280bd38",
+          "mesh_id": "mesh-d5a008a535c10aba8af4",
+          "triangles": 11256
+        },
+        {
+          "node_id": "node-e47b350ae9b52280bd38",
+          "mesh_id": "mesh-b86246653e46cccc537e",
+          "triangles": 8
+        }
+      ]
+    },
+    {
+      "group_id": "model-crown-capsules",
+      "label": "塔顶：球舱候选",
+      "component_ids": [
+        "component-crown"
+      ],
+      "node_ids": [
+        "node-050338ddbc30f87ff3ce",
+        "node-12d5c69542ed019f716f",
+        "node-8012904c236ba83cf3c9",
+        "node-63cf9a218f636f68f648",
+        "node-e6b137778db1d2d60265",
+        "node-b5f75b5718cfaccb6f5d",
+        "node-f5d5990b2d7857a8781a",
+        "node-a1418f7c9d1aae715d6e",
+        "node-cfaa28c130871be964c5",
+        "node-2cc8c82d28f654da8e5c",
+        "node-15710d61fef50b350adc",
+        "node-a9b2c049666e8181d0c7",
+        "node-8a7761fa0693198b7e5a",
+        "node-549413374aa0d4e51d09",
+        "node-41b020a050bced50d35c",
+        "node-7c82db2a34077f234bb5",
+        "node-e9ad35f4023b79ec9476",
+        "node-4dd6a342f2cc41de7ecb",
+        "node-839ca5a65a31d5e42d9e",
+        "node-6a11aef582cc15b3b2a7",
+        "node-ab9a819c5b7600216de7",
+        "node-f354e95469f240f32202",
+        "node-f725d2aecec7f2a7e482",
+        "node-97b940a734b241bf0240"
+      ],
+      "scope": "own_meshes",
+      "semantic_status": "visually_reviewed_count_conflict",
+      "triangles": 4608,
+      "mesh_placements": [
+        {
+          "node_id": "node-050338ddbc30f87ff3ce",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-050338ddbc30f87ff3ce",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-12d5c69542ed019f716f",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-12d5c69542ed019f716f",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-8012904c236ba83cf3c9",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-8012904c236ba83cf3c9",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-63cf9a218f636f68f648",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-63cf9a218f636f68f648",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-e6b137778db1d2d60265",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-e6b137778db1d2d60265",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-b5f75b5718cfaccb6f5d",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-b5f75b5718cfaccb6f5d",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-f5d5990b2d7857a8781a",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-f5d5990b2d7857a8781a",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-a1418f7c9d1aae715d6e",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-a1418f7c9d1aae715d6e",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-cfaa28c130871be964c5",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-cfaa28c130871be964c5",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-2cc8c82d28f654da8e5c",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-2cc8c82d28f654da8e5c",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-15710d61fef50b350adc",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-15710d61fef50b350adc",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-a9b2c049666e8181d0c7",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-a9b2c049666e8181d0c7",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-8a7761fa0693198b7e5a",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-8a7761fa0693198b7e5a",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-549413374aa0d4e51d09",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-549413374aa0d4e51d09",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-41b020a050bced50d35c",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-41b020a050bced50d35c",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-7c82db2a34077f234bb5",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-7c82db2a34077f234bb5",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-e9ad35f4023b79ec9476",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-e9ad35f4023b79ec9476",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-4dd6a342f2cc41de7ecb",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-4dd6a342f2cc41de7ecb",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-839ca5a65a31d5e42d9e",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-839ca5a65a31d5e42d9e",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-6a11aef582cc15b3b2a7",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-6a11aef582cc15b3b2a7",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-ab9a819c5b7600216de7",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-ab9a819c5b7600216de7",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-f354e95469f240f32202",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-f354e95469f240f32202",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-f725d2aecec7f2a7e482",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-f725d2aecec7f2a7e482",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-97b940a734b241bf0240",
+          "mesh_id": "mesh-a0a6f13b7466af50c184",
+          "triangles": 96
+        },
+        {
+          "node_id": "node-97b940a734b241bf0240",
+          "mesh_id": "mesh-f63e8997ca049bb4560f",
+          "triangles": 96
+        }
+      ]
+    },
+    {
+      "group_id": "model-antenna",
+      "label": "塔顶：天线组合候选",
+      "component_ids": [
+        "component-crown"
+      ],
+      "node_ids": [
+        "node-0b9aa1cfbc87074c7905",
+        "node-1d3ddafc677103fff583",
+        "node-3747762ed0aeed0d28b9",
+        "node-3e798fe5b2e3eeca04c6",
+        "node-4981c6d00bc5a46af4a5",
+        "node-4cdf5db81cd660ced61c",
+        "node-57e18810af7d5fa7ca73",
+        "node-58fcf0d568ce893f0d38",
+        "node-67eae939c8452524113c",
+        "node-7b903f892626dd7e7bbc",
+        "node-81e6e5c05e66fa1371b3",
+        "node-92d1dfccc3f0664ef90f",
+        "node-9a987b73f0e4bdefe491",
+        "node-b4565b11a51ba3109cf6",
+        "node-bf77496d14ac3f799d29",
+        "node-c4dcbe92a705d28af948",
+        "node-c992215e6602d794595f",
+        "node-caf41173ef06bd16188b",
+        "node-f4b734b31e5ec7114f8d",
+        "node-f71fecf06e8978cfba64"
+      ],
+      "scope": "explicit_descendant_own_meshes",
+      "semantic_status": "visually_reviewed_coarse_group",
+      "triangles": 580,
+      "mesh_placements": [
+        {
+          "node_id": "node-0b9aa1cfbc87074c7905",
+          "mesh_id": "mesh-b32925ef4fc6a3cb6744",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-0b9aa1cfbc87074c7905",
+          "mesh_id": "mesh-ce8e149fbf2a86102abe",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-1d3ddafc677103fff583",
+          "mesh_id": "mesh-15fd1a0235f48b2d0a76",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-1d3ddafc677103fff583",
+          "mesh_id": "mesh-a1c612ee137d2acd0740",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-3747762ed0aeed0d28b9",
+          "mesh_id": "mesh-b32925ef4fc6a3cb6744",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-3747762ed0aeed0d28b9",
+          "mesh_id": "mesh-ce8e149fbf2a86102abe",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-3e798fe5b2e3eeca04c6",
+          "mesh_id": "mesh-1335dc3a20e4a71cda78",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-3e798fe5b2e3eeca04c6",
+          "mesh_id": "mesh-2dcbbdfaddc9091674e1",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-4981c6d00bc5a46af4a5",
+          "mesh_id": "mesh-93627591004d52793cc2",
+          "triangles": 38
+        },
+        {
+          "node_id": "node-4981c6d00bc5a46af4a5",
+          "mesh_id": "mesh-c3a9972e3d615f6cf171",
+          "triangles": 116
+        },
+        {
+          "node_id": "node-4981c6d00bc5a46af4a5",
+          "mesh_id": "mesh-9626c4c86e9d52e8900f",
+          "triangles": 30
+        },
+        {
+          "node_id": "node-4981c6d00bc5a46af4a5",
+          "mesh_id": "mesh-5838fc7d602b47c89470",
+          "triangles": 18
+        },
+        {
+          "node_id": "node-4981c6d00bc5a46af4a5",
+          "mesh_id": "mesh-1b8ff6a55a1db0241a4e",
+          "triangles": 42
+        },
+        {
+          "node_id": "node-4981c6d00bc5a46af4a5",
+          "mesh_id": "mesh-552dbdd3c157e9a2f26c",
+          "triangles": 4
+        },
+        {
+          "node_id": "node-4981c6d00bc5a46af4a5",
+          "mesh_id": "mesh-c3d4c70dbffaf865bf88",
+          "triangles": 6
+        },
+        {
+          "node_id": "node-4cdf5db81cd660ced61c",
+          "mesh_id": "mesh-d68001e08e11e7f1a8c5",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-4cdf5db81cd660ced61c",
+          "mesh_id": "mesh-8a820fd4dee7bede7d94",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-57e18810af7d5fa7ca73",
+          "mesh_id": "mesh-15fd1a0235f48b2d0a76",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-57e18810af7d5fa7ca73",
+          "mesh_id": "mesh-a1c612ee137d2acd0740",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-58fcf0d568ce893f0d38",
+          "mesh_id": "mesh-b32925ef4fc6a3cb6744",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-58fcf0d568ce893f0d38",
+          "mesh_id": "mesh-ce8e149fbf2a86102abe",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-67eae939c8452524113c",
+          "mesh_id": "mesh-d68001e08e11e7f1a8c5",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-67eae939c8452524113c",
+          "mesh_id": "mesh-8a820fd4dee7bede7d94",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-7b903f892626dd7e7bbc",
+          "mesh_id": "mesh-d132b5148d08a8308fc3",
+          "triangles": 38
+        },
+        {
+          "node_id": "node-7b903f892626dd7e7bbc",
+          "mesh_id": "mesh-9c3a90b1de8924cc78f2",
+          "triangles": 116
+        },
+        {
+          "node_id": "node-7b903f892626dd7e7bbc",
+          "mesh_id": "mesh-0e270fb7ae1113e55176",
+          "triangles": 30
+        },
+        {
+          "node_id": "node-7b903f892626dd7e7bbc",
+          "mesh_id": "mesh-2f32d43148ab7fa14019",
+          "triangles": 18
+        },
+        {
+          "node_id": "node-7b903f892626dd7e7bbc",
+          "mesh_id": "mesh-198bcdd35a1370e80961",
+          "triangles": 42
+        },
+        {
+          "node_id": "node-7b903f892626dd7e7bbc",
+          "mesh_id": "mesh-f9d1100161541a53f90c",
+          "triangles": 4
+        },
+        {
+          "node_id": "node-7b903f892626dd7e7bbc",
+          "mesh_id": "mesh-387f8eab986c998dcaef",
+          "triangles": 6
+        },
+        {
+          "node_id": "node-81e6e5c05e66fa1371b3",
+          "mesh_id": "mesh-d68001e08e11e7f1a8c5",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-81e6e5c05e66fa1371b3",
+          "mesh_id": "mesh-8a820fd4dee7bede7d94",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-92d1dfccc3f0664ef90f",
+          "mesh_id": "mesh-1335dc3a20e4a71cda78",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-92d1dfccc3f0664ef90f",
+          "mesh_id": "mesh-2dcbbdfaddc9091674e1",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-9a987b73f0e4bdefe491",
+          "mesh_id": "mesh-539161d55aad0c8f7fef",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-9a987b73f0e4bdefe491",
+          "mesh_id": "mesh-6d7aa31ee281ce7264a9",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-b4565b11a51ba3109cf6",
+          "mesh_id": "mesh-07537396b17d4b7a1256",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-b4565b11a51ba3109cf6",
+          "mesh_id": "mesh-8abe7861e8feaf1ae67b",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-bf77496d14ac3f799d29",
+          "mesh_id": "mesh-1335dc3a20e4a71cda78",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-bf77496d14ac3f799d29",
+          "mesh_id": "mesh-2dcbbdfaddc9091674e1",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-c4dcbe92a705d28af948",
+          "mesh_id": "mesh-15fd1a0235f48b2d0a76",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-c4dcbe92a705d28af948",
+          "mesh_id": "mesh-a1c612ee137d2acd0740",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-c992215e6602d794595f",
+          "mesh_id": "mesh-539161d55aad0c8f7fef",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-c992215e6602d794595f",
+          "mesh_id": "mesh-6d7aa31ee281ce7264a9",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-caf41173ef06bd16188b",
+          "mesh_id": "mesh-07537396b17d4b7a1256",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-caf41173ef06bd16188b",
+          "mesh_id": "mesh-8abe7861e8feaf1ae67b",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-f4b734b31e5ec7114f8d",
+          "mesh_id": "mesh-539161d55aad0c8f7fef",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-f4b734b31e5ec7114f8d",
+          "mesh_id": "mesh-6d7aa31ee281ce7264a9",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-f71fecf06e8978cfba64",
+          "mesh_id": "mesh-07537396b17d4b7a1256",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-f71fecf06e8978cfba64",
+          "mesh_id": "mesh-8abe7861e8feaf1ae67b",
+          "triangles": 2
+        }
+      ]
+    },
+    {
+      "group_id": "model-inner-mixed",
+      "label": "内部体量混合组：围护/内核/楼层未分离",
+      "component_ids": [],
+      "node_ids": [
+        "node-749a98eb0e503d7d5d02",
+        "node-d8fc9726918c7a4d4c59"
+      ],
+      "scope": "own_meshes",
+      "semantic_status": "unresolved_mixture",
+      "candidate_for": [
+        "component-curtainwall"
+      ],
+      "not_evidence_for": [
+        "component-interior"
+      ],
+      "note": "可见粗略内部体量；没有证据把整组都叫幕墙或内饰。",
+      "triangles": 2359,
+      "mesh_placements": [
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-a93f5ddff85c8e365002",
+          "triangles": 179
+        },
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-1a753653d49db04f2d57",
+          "triangles": 97
+        },
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-1b4170c79f7b116fdcaf",
+          "triangles": 24
+        },
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-0110e4fd0f139a0b2cf9",
+          "triangles": 407
+        },
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-0eafe60467093dc18226",
+          "triangles": 255
+        },
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-f47bdef7affb5bf04b00",
+          "triangles": 63
+        },
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-6a5f973e686ad3d21404",
+          "triangles": 29
+        },
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-e22d55ee3a314dc5e4c9",
+          "triangles": 12
+        },
+        {
+          "node_id": "node-749a98eb0e503d7d5d02",
+          "mesh_id": "mesh-4e270ecfb2cd88c18abf",
+          "triangles": 24
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-2299596057cf1f98d439",
+          "triangles": 179
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-4433870c686057a71767",
+          "triangles": 586
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-625bb006519ecec8febd",
+          "triangles": 97
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-d64e0f7ac0fe3c918331",
+          "triangles": 24
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-e9c1e782174a13c851ef",
+          "triangles": 255
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-f7a3210464618814be5a",
+          "triangles": 63
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-2b11cc24bb6b00b841cc",
+          "triangles": 29
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-7b8d27f531317676da94",
+          "triangles": 12
+        },
+        {
+          "node_id": "node-d8fc9726918c7a4d4c59",
+          "mesh_id": "mesh-4ac2b548d0cf7bfbcb31",
+          "triangles": 24
+        }
+      ]
+    },
+    {
+      "group_id": "model-background",
+      "label": "背景：Google Earth 地形/底图",
+      "component_ids": [],
+      "node_ids": [
+        "node-b13b112cf0cede744c45",
+        "node-0fc1a4b846b65d62486c"
+      ],
+      "scope": "own_meshes",
+      "semantic_status": "excluded_context",
+      "not_evidence_for": [
+        "component-plaza"
+      ],
+      "triangles": 256,
+      "mesh_placements": [
+        {
+          "node_id": "node-b13b112cf0cede744c45",
+          "mesh_id": "mesh-ae68a7d8c0ba0e4fca94",
+          "triangles": 126
+        },
+        {
+          "node_id": "node-b13b112cf0cede744c45",
+          "mesh_id": "mesh-25afcd9f124487f5ac60",
+          "triangles": 126
+        },
+        {
+          "node_id": "node-0fc1a4b846b65d62486c",
+          "mesh_id": "mesh-e464fdb7b978295426a3",
+          "triangles": 2
+        },
+        {
+          "node_id": "node-0fc1a4b846b65d62486c",
+          "mesh_id": "mesh-910575a2f2b075037a87",
+          "triangles": 2
+        }
+      ]
+    }
+  ],
+  "capsule_instances": [
+    {
+      "node_id": "node-050338ddbc30f87ff3ce",
+      "center_m": [
+        35.82010344251388,
+        447.0249199152289,
+        -118.99598818508433
+      ]
+    },
+    {
+      "node_id": "node-12d5c69542ed019f716f",
+      "center_m": [
+        49.04803846529867,
+        450.3442715288604,
+        -114.79542304392096
+      ]
+    },
+    {
+      "node_id": "node-8012904c236ba83cf3c9",
+      "center_m": [
+        59.5979424492159,
+        453.9035749380531,
+        -105.3172991900014
+      ]
+    },
+    {
+      "node_id": "node-63cf9a218f636f68f648",
+      "center_m": [
+        64.549984042832,
+        456.7073475824973,
+        -93.25467625669661
+      ]
+    },
+    {
+      "node_id": "node-e6b137778db1d2d60265",
+      "center_m": [
+        62.745845986845566,
+        458.01445462591505,
+        -82.00234874001204
+      ]
+    },
+    {
+      "node_id": "node-b5f75b5718cfaccb6f5d",
+      "center_m": [
+        54.83454239443291,
+        457.5417335085741,
+        -74.35128900334324
+      ]
+    },
+    {
+      "node_id": "node-f5d5990b2d7857a8781a",
+      "center_m": [
+        42.65973219876283,
+        455.3794577215449,
+        -72.21815983833856
+      ]
+    },
+    {
+      "node_id": "node-a1418f7c9d1aae715d6e",
+      "center_m": [
+        29.431797175977707,
+        452.0601061079143,
+        -76.41872497950168
+      ]
+    },
+    {
+      "node_id": "node-cfaa28c130871be964c5",
+      "center_m": [
+        18.88189319206021,
+        448.5008026987209,
+        -85.89684883342115
+      ]
+    },
+    {
+      "node_id": "node-2cc8c82d28f654da8e5c",
+      "center_m": [
+        13.929851598444202,
+        445.6970300542771,
+        -97.95947176672618
+      ]
+    },
+    {
+      "node_id": "node-15710d61fef50b350adc",
+      "center_m": [
+        13.995644297782242,
+        444.8281590449445,
+        -103.88792963292855
+      ]
+    },
+    {
+      "node_id": "node-a9b2c049666e8181d0c7",
+      "center_m": [
+        15.733989654431083,
+        444.3899230108601,
+        -109.21179928341057
+      ]
+    },
+    {
+      "node_id": "node-8a7761fa0693198b7e5a",
+      "center_m": [
+        23.64529324684336,
+        444.8626441281999,
+        -116.86285902007931
+      ]
+    },
+    {
+      "node_id": "node-549413374aa0d4e51d09",
+      "center_m": [
+        15.584919655168802,
+        446.9483885070633,
+        -91.81607010605255
+      ]
+    },
+    {
+      "node_id": "node-41b020a050bced50d35c",
+      "center_m": [
+        23.607266027213655,
+        450.24614500323275,
+        -80.63616805394412
+      ]
+    },
+    {
+      "node_id": "node-7c82db2a34077f234bb5",
+      "center_m": [
+        35.93923429746009,
+        453.81285900957437,
+        -73.54720812283702
+      ]
+    },
+    {
+      "node_id": "node-e9ad35f4023b79ec9476",
+      "center_m": [
+        49.09214234191648,
+        456.6496873054441,
+        -72.49288885258049
+      ]
+    },
+    {
+      "node_id": "node-4dd6a342f2cc41de7ecb",
+      "center_m": [
+        19.01208924195211,
+        444.40132864337465,
+        -113.62161460219234
+      ]
+    },
+    {
+      "node_id": "node-839ca5a65a31d5e42d9e",
+      "center_m": [
+        29.371013531973055,
+        445.7540406969189,
+        -118.70939069291292
+      ]
+    },
+    {
+      "node_id": "node-6a11aef582cc15b3b2a7",
+      "center_m": [
+        42.54060134381608,
+        448.59151862720057,
+        -117.66693990058552
+      ]
+    },
+    {
+      "node_id": "node-ab9a819c5b7600216de7",
+      "center_m": [
+        54.87256961406291,
+        452.1582326335414,
+        -110.5779799694783
+      ]
+    },
+    {
+      "node_id": "node-f354e95469f240f32202",
+      "center_m": [
+        62.89491598610755,
+        455.45598912971104,
+        -99.39807791736986
+      ]
+    },
+    {
+      "node_id": "node-f725d2aecec7f2a7e482",
+      "center_m": [
+        64.48419134349425,
+        457.57621859182984,
+        -87.32621839049393
+      ]
+    },
+    {
+      "node_id": "node-97b940a734b241bf0240",
+      "center_m": [
+        59.467746399324454,
+        458.00304899340006,
+        -77.59253342123044
+      ]
+    }
+  ],
+  "capsule_instance_count": 24,
+  "distinct_capsule_centers_at_10um": 24,
+  "total_placed_triangles": 19844,
+  "assigned_triangles": 19844,
+  "checks": {
+    "disjoint_mesh_ownership": true,
+    "all_placed_triangle_meshes_accounted_for": true,
+    "source_geometry_hash_matches": true,
+    "semantic_accuracy_measured": false,
+    "curves_partitioned": false,
+    "photo_camera_registered": false
+  },
+  "limitations": [
+    "曲线未纳入三角网格分组。",
+    "按原节点归属；环梁和斜撑仍混合，塔顶接口仍需细分。",
+    "场地只有地形背景，不等于真实广场构件。",
+    "没有把室内照片投射到具体楼层。"
+  ]
+}

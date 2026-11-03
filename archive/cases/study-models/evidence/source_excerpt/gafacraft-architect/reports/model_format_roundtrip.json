@@ -1,0 +1,78 @@
+{
+  "source_sha256": "26d4ca7237b4d3e870b421ba3260412d8e215d63e335beb559e48a4927c3fa72",
+  "basis": "User-uploaded Canton SKP geometry exported then re-read; not independent exports from six authoring programs",
+  "results": [
+    {
+      "format": "glb",
+      "status": "pass",
+      "source_triangles": 19844,
+      "target_triangles": 19844,
+      "unmatched_source_triangles": 0,
+      "unmatched_target_triangles": 0,
+      "maximum_matched_vertex_axis_error_m": 0.0,
+      "tolerance_m": 0.001,
+      "scope": "Placed triangle corner multiset; ignores winding, materials, textures, loose curves and hierarchy.",
+      "nodes_read": 180
+    },
+    {
+      "format": "gltf",
+      "status": "pass",
+      "source_triangles": 19844,
+      "target_triangles": 19844,
+      "unmatched_source_triangles": 0,
+      "unmatched_target_triangles": 0,
+      "maximum_matched_vertex_axis_error_m": 0.0,
+      "tolerance_m": 0.001,
+      "scope": "Placed triangle corner multiset; ignores winding, materials, textures, loose curves and hierarchy.",
+      "nodes_read": 180
+    },
+    {
+      "format": "obj",
+      "status": "pass",
+      "source_triangles": 19844,
+      "target_triangles": 19844,
+      "unmatched_source_triangles": 0,
+      "unmatched_target_triangles": 0,
+      "maximum_matched_vertex_axis_error_m": 4.999506586500502e-09,
+      "tolerance_m": 0.001,
+      "scope": "Placed triangle corner multiset; ignores winding, materials, textures, loose curves and hierarchy.",
+      "nodes_read": 2
+    },
+    {
+      "format": "stl",
+      "status": "pass",
+      "source_triangles": 19844,
+      "target_triangles": 19844,
+      "unmatched_source_triangles": 0,
+      "unmatched_target_triangles": 0,
+      "maximum_matched_vertex_axis_error_m": 3.049590088721743e-05,
+      "tolerance_m": 0.001,
+      "scope": "Placed triangle corner multiset; ignores winding, materials, textures, loose curves and hierarchy.",
+      "nodes_read": 2
+    },
+    {
+      "format": "ply",
+      "status": "pass",
+      "source_triangles": 19844,
+      "target_triangles": 19844,
+      "unmatched_source_triangles": 0,
+      "unmatched_target_triangles": 0,
+      "maximum_matched_vertex_axis_error_m": 3.049590088721743e-05,
+      "tolerance_m": 0.001,
+      "scope": "Placed triangle corner multiset; ignores winding, materials, textures, loose curves and hierarchy.",
+      "nodes_read": 2
+    },
+    {
+      "format": "dae",
+      "status": "pass",
+      "source_triangles": 19844,
+      "target_triangles": 19844,
+      "unmatched_source_triangles": 0,
+      "unmatched_target_triangles": 0,
+      "maximum_matched_vertex_axis_error_m": 7.179760063991125e-05,
+      "tolerance_m": 0.001,
+      "scope": "Placed triangle corner multiset; ignores winding, materials, textures, loose curves and hierarchy.",
+      "nodes_read": 251
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "source_nbt_sha256": "88a187dcade9687223e9e80db62c832256db1f4d796ba292c5b46a6c4afd758f",
+  "size_xyz": [
+    100,
+    200,
+    96
+  ],
+  "schematic": {
+    "file": "Elizabeth_Tower_HAF_V1.schem",
+    "bytes": 13737,
+    "sha256": "97f407ec2f2b6d1f9feff82845c440b1e2710313ff477840ddd3d0d399c29b65",
+    "format": "Sponge schematic v3",
+    "contains_explicit_air": true,
+    "nonair_readback_exact": true,
+    "non_air_blocks": 112474
+  },
+  "modules": [
+    {
+      "file": "modules/partaa.nbt",
+      "offset_xyz": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 121529,
+      "sha256": "0ab15a63149d337fd9f4a908e7411df2238b6aadb156bee6d3d1fa957a2e253d",
+      "listed_blocks": 43797,
+      "non_air_blocks": 43797,
+      "size_xyz": [
+        50,
+        100,
+        96
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "47298280032e1e0cb0bf8a4fbfd7c9e0771e1c862f037e119d04e72e609a31bc",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partab.nbt",
+      "offset_xyz": [
+        50,
+        0,
+        0
+      ],
+      "bytes": 150516,
+      "sha256": "fa24c9dd4b398fa9ff633d0ff0765b1daa1d1f45d6f2c099764a6b9e1b62dda8",
+      "listed_blocks": 53723,
+      "non_air_blocks": 53723,
+      "size_xyz": [
+        50,
+        100,
+        96
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "7f39e8890d31e5f852918d08991b07c3204176c410ffbeca4a1e32a5c26fde2c",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partb.nbt",
+      "offset_xyz": [
+        0,
+        100,
+        0
+      ],
+      "bytes": 42415,
+      "sha256": "0441120f5b680b269ae896cd6b58369bed9093486a46de94c789363cddcaad66",
+      "listed_blocks": 14954,
+      "non_air_blocks": 14954,
+      "size_xyz": [
+        100,
+        100,
+        96
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "e97996c2b171f8c8b818f931a6fd81e26af6375b039ec8d6e19d7e004c88e8de",
+      "data_version": 3955
+    }
+  ],
+  "module_count": 3,
+  "module_union_exact": true,
+  "module_max_bytes": 150516,
+  "coordinate_convention": "Local X/Y/Z; module minimum corner = project origin + offset_xyz; no rotation. Palace axes are rotated relative to geographic north.",
+  "tested": "Offline readback and exact coordinate/state union only; game import pending"
+}

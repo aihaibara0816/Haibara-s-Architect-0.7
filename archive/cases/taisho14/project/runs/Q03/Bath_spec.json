@@ -1,0 +1,316 @@
+{
+  "case_id": "Bath",
+  "run": "Q03",
+  "seed": 141145,
+  "buildings": [
+    {
+      "id": "Bath",
+      "name": "松の湯｜公共浴场",
+      "size": [
+        28,
+        28,
+        31
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        14,
+        3,
+        26
+      ],
+      "rooms": [
+        {
+          "id": "Bath.main",
+          "name": "松の湯｜公共浴场",
+          "bounds": [
+            7,
+            3,
+            4,
+            24,
+            7,
+            26
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Bath.entry",
+          "pos": [
+            14,
+            3,
+            25
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bath.changing",
+          "pos": [
+            16,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bath.bath",
+          "pos": [
+            20,
+            3,
+            10
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Bath.door.0",
+          "pos": [
+            14,
+            3,
+            26
+          ],
+          "lintel": [
+            14,
+            5,
+            26
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Bath.door.1",
+          "pos": [
+            20,
+            3,
+            14
+          ],
+          "lintel": [
+            20,
+            5,
+            14
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            14,
+            6,
+            22
+          ],
+          "support": [
+            14,
+            7,
+            22
+          ]
+        },
+        {
+          "position": [
+            21,
+            6,
+            7
+          ],
+          "support": [
+            21,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            15
+          ],
+          "support": [
+            7,
+            7,
+            15
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Bath.sink.water_basin.22_1_5",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            22,
+            3,
+            5,
+            23,
+            4,
+            6
+          ],
+          "use_points": [
+            [
+              22,
+              3,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bath.sink.water_basin.22_1_9",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            22,
+            3,
+            9,
+            23,
+            4,
+            10
+          ],
+          "use_points": [
+            [
+              22,
+              3,
+              10
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotated_180": false,
+      "entry_world": [
+        119,
+        8,
+        114
+      ],
+      "upper_start": [
+        4,
+        4
+      ],
+      "street_row": 1
+    }
+  ],
+  "uses": [
+    {
+      "id": "Bath.entry",
+      "pos": [
+        14,
+        3,
+        25
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Bath.changing",
+      "pos": [
+        16,
+        3,
+        20
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Bath.bath",
+      "pos": [
+        20,
+        3,
+        10
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Bath.door.0",
+      "pos": [
+        14,
+        3,
+        26
+      ],
+      "lintel": [
+        14,
+        5,
+        26
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Bath.door.1",
+      "pos": [
+        20,
+        3,
+        14
+      ],
+      "lintel": [
+        20,
+        5,
+        14
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        14,
+        6,
+        22
+      ],
+      "support": [
+        14,
+        7,
+        22
+      ]
+    },
+    {
+      "position": [
+        21,
+        6,
+        7
+      ],
+      "support": [
+        21,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        15
+      ],
+      "support": [
+        7,
+        7,
+        15
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    14,
+    3,
+    27
+  ],
+  "upper_start": [
+    4,
+    4
+  ],
+  "source_nbt_sha256": "44ba8fe0e1374588dcdf8ff7f76259f92840d5cf76cfa5896ac0134751827c44",
+  "non_air": 6468,
+  "size_xyz": [
+    28,
+    28,
+    31
+  ],
+  "block_entities": 18,
+  "entities": 0
+}

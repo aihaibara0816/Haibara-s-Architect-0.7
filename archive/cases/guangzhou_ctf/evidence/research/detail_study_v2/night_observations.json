@@ -1,0 +1,73 @@
+{
+  "U01": {
+    "roof": "sloping top edge with unequal heights; perspective photo does not measure actual angle",
+    "region_pixels": [
+      103,
+      5,
+      169,
+      105
+    ]
+  },
+  "U02": {
+    "target_region_pixels": [
+      115,
+      18,
+      161,
+      334
+    ],
+    "warm_band_pixels": [
+      125,
+      210,
+      161,
+      223
+    ],
+    "observations": [
+      "cool upper vertical lighting",
+      "warm horizontal segment",
+      "scattered windows"
+    ],
+    "unconfirmed": [
+      "exact elevation",
+      "rear continuity",
+      "photo date/mode",
+      "geographic face"
+    ]
+  },
+  "P06": {
+    "path": "../images/P06.jpg",
+    "target_region_pixels": [
+      889,
+      426,
+      961,
+      850
+    ],
+    "warm_band_pixels": [
+      897,
+      693,
+      959,
+      707
+    ],
+    "exclude": "round IFC tower and its several gold rings at image left"
+  },
+  "LPA01": {
+    "observations": [
+      "upper cold vertical accents",
+      "warm lower transverse segment"
+    ],
+    "target_region_pixels": [
+      614,
+      123,
+      747,
+      799
+    ],
+    "exclude": "IFC rings at image left"
+  },
+  "LPA02": {
+    "observations": [
+      "podium warm vertical fins",
+      "upper warm fascia",
+      "dark horizontal band"
+    ],
+    "status": "observed; podium refinement deferred in this local trial"
+  }
+}

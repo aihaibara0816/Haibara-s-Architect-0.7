@@ -1,0 +1,32 @@
+{
+  "source_inventory_verified": 582,
+  "zip_crc_pass": true,
+  "fresh_extract": "/workspace/scratch/cfe8adbb046e/ctf_portable_check_final_20261023/HAF_Mainline",
+  "commands": [
+    {
+      "name": "unit_tests",
+      "exit_code": 0,
+      "elapsed_seconds": 0.58
+    },
+    {
+      "name": "ctf",
+      "exit_code": 0,
+      "elapsed_seconds": 15.73
+    },
+    {
+      "name": "shenzhen",
+      "exit_code": 0,
+      "elapsed_seconds": 6.95
+    }
+  ],
+  "reproduced_nbt_sha256": {
+    "guangzhou_ctf": "58db77a6499aab981ccf8efdd048c3ce80b9383053713059ca61010af7afcc96",
+    "shenzhen_press": "e1aefdd2383fed8747c69c5806ab5cd367d7d91eeaf0092cd77c1a1f25176e20"
+  },
+  "all_passed": true,
+  "source_sha256": {
+    "hafusion/lighting.py": "06b2ccc02151909114f5afefa77b4f07047c8acc2a9633eb26bec85bed3a552d",
+    "cases/guangzhou_ctf/src/build_case.py": "3506729ec27637289889c339f2d7e8e2e4540c86743c5f1065ab2395136a1cd2",
+    "cases/shenzhen_press/src/build_case.py": "7cbcf5157553e913a9966b6218c9177c2a432374c0319e88e035ebf8b3ca2dac"
+  }
+}

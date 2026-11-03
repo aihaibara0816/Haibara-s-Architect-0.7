@@ -1,0 +1,193 @@
+{
+  "source_nbt_sha256": "35637c9ab4488db4916df6f4a6084720f7cdf13381f2ae35b165a331bc7868db",
+  "size_xyz": [
+    39,
+    84,
+    28
+  ],
+  "triangles": {
+    "opaque": 170296,
+    "glass": 29888
+  },
+  "lamps": [
+    [
+      27,
+      6,
+      6,
+      15
+    ],
+    [
+      23,
+      11,
+      3,
+      15
+    ],
+    [
+      27,
+      11,
+      6,
+      15
+    ],
+    [
+      5,
+      11,
+      14,
+      15
+    ],
+    [
+      19,
+      11,
+      15,
+      15
+    ],
+    [
+      33,
+      11,
+      15,
+      15
+    ],
+    [
+      31,
+      11,
+      18,
+      15
+    ],
+    [
+      18,
+      11,
+      21,
+      15
+    ],
+    [
+      5,
+      11,
+      22,
+      15
+    ],
+    [
+      8,
+      16,
+      3,
+      15
+    ],
+    [
+      16,
+      16,
+      3,
+      15
+    ],
+    [
+      5,
+      16,
+      5,
+      15
+    ],
+    [
+      19,
+      16,
+      5,
+      15
+    ],
+    [
+      14,
+      16,
+      6,
+      15
+    ],
+    [
+      23,
+      16,
+      6,
+      15
+    ],
+    [
+      27,
+      16,
+      6,
+      15
+    ],
+    [
+      27,
+      21,
+      6,
+      15
+    ],
+    [
+      5,
+      21,
+      14,
+      15
+    ],
+    [
+      19,
+      21,
+      15,
+      15
+    ],
+    [
+      33,
+      21,
+      15,
+      15
+    ],
+    [
+      31,
+      21,
+      18,
+      15
+    ],
+    [
+      18,
+      21,
+      21,
+      15
+    ],
+    [
+      5,
+      21,
+      22,
+      15
+    ],
+    [
+      29,
+      6,
+      10,
+      15
+    ],
+    [
+      29,
+      11,
+      10,
+      15
+    ],
+    [
+      29,
+      16,
+      10,
+      15
+    ],
+    [
+      29,
+      21,
+      10,
+      15
+    ]
+  ],
+  "visual_box_volume": 10454.6394,
+  "source": "independent NBT readback, state-aware preview boxes",
+  "limitations": [
+    "Entity beds and banners use approximate boxes",
+    "1x1 paintings use their NBT positions and official variant textures",
+    "Biome tint approximated; weighted model variants use first item",
+    "UV lock and element rescale not fully reproduced; no Minecraft client lighting"
+  ],
+  "alpha_lod_policy": "opaque-face-coverage-v1",
+  "texture_grid_max": 2,
+  "painting_entities_rendered": 0,
+  "material_mode": "Minecraft Java 1.21.1 JSON models + first-frame texture colours, offline EGL; not game footage",
+  "model_fallbacks": {
+    "minecraft:gray_bed": 8,
+    "minecraft:brown_bed": 10,
+    "minecraft:white_bed": 6
+  }
+}

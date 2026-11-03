@@ -1,0 +1,50 @@
+[
+  {
+    "name": "plancraft",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests"
+    ],
+    "cwd": "/workspace/scratch/cfe8adbb046e/ha-research-r03/upstream/PlanCraft/tools/building",
+    "pythonpath": "/workspace/scratch/cfe8adbb046e/ha-research-r03/upstream/PlanCraft/tools/building",
+    "exit_code": 1,
+    "seconds": 0.041,
+    "log": "plancraft.txt"
+  },
+  {
+    "name": "architect",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "tools/run_all_tests.py",
+      "--out",
+      "/workspace/scratch/cfe8adbb046e/ha-research-r03/WORK_AUDIT/logs/architect"
+    ],
+    "cwd": "/workspace/scratch/cfe8adbb046e/ha-research-r03/baselines/architect-v03",
+    "pythonpath": "/workspace/scratch/cfe8adbb046e/ha-research-r03/baselines/architect-v03:/workspace/scratch/cfe8adbb046e/model_deps",
+    "exit_code": 0,
+    "seconds": 57.384,
+    "log": "architect.txt"
+  },
+  {
+    "name": "rtm_r01",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "cwd": "/workspace/scratch/cfe8adbb046e/ha-research-r03/inputs/Haibaras_Architect_RTM_Research_Pack_v0.2/rtm_r01_source/RTM_Research_R0_1",
+    "pythonpath": "/workspace/scratch/cfe8adbb046e/ha-research-r03/inputs/Haibaras_Architect_RTM_Research_Pack_v0.2/rtm_r01_source/RTM_Research_R0_1",
+    "exit_code": 0,
+    "seconds": 0.549,
+    "log": "rtm_r01.txt"
+  }
+]

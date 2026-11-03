@@ -1,0 +1,113 @@
+{
+  "case_id": "canton-tower-280-image-only",
+  "request": "我需要一个高280格的广州塔，白盒展示过程，先输出图片",
+  "engine": "existing deterministic Scene + renderer, new Canton-specific adapter",
+  "trained_model_used": false,
+  "fully_automated_research": false,
+  "blueprint_export": false,
+  "scale": {
+    "metres_to_blocks": 0.4666666666666667,
+    "total_m": 600,
+    "target_blocks": 280,
+    "includes_antenna": true,
+    "body_control_m": 450,
+    "body_control_blocks": 210,
+    "antenna_height_m": 150,
+    "antenna_height_blocks": 70,
+    "grade_local_y": 2,
+    "site_below_grade_blocks": 2
+  },
+  "reported_controls": [
+    {
+      "h_m": -10,
+      "diameter_m": [
+        80,
+        60
+      ],
+      "meaning": "foundation control, not grade width"
+    },
+    {
+      "h_m": 278.8,
+      "diameter_m": [
+        27.5,
+        20.65
+      ],
+      "meaning": "waist"
+    },
+    {
+      "h_m": 450,
+      "diameter_m": [
+        54,
+        40.5
+      ],
+      "meaning": "upper ellipse"
+    }
+  ],
+  "source_urls": {
+    "architect": "https://www.archdaily.com/89849/canton-tower-information-based-architecture",
+    "owner": "https://www.gzci.net/groupbusiness/info.aspx?itemid=75&lcid=7",
+    "geometry_interview": "https://www.gzwxb.gov.cn/context/contextId/205808",
+    "structure_count": "https://www.eguangzhou.gov.cn/exploreguangzhouworldroutes/content/post_31124.html",
+    "platform_height": "https://www.gzass.gd.cn/whzc/wenhuaziyuan/wenhuajingguan/127.html",
+    "capsules": "https://www.zc.gov.cn/gk/rdhy/content/post_3848242.html"
+  },
+  "trial_parameters": {
+    "envelope": "piecewise hyperbolic interpolation through reported controls",
+    "winding_degrees": 135,
+    "winding_note": "45-degree acute ellipse-axis angle can be compatible with 135-degree winding, but exact member endpoint correspondences are unverified",
+    "ring_count": 46,
+    "ring_levels": "uniform interpolation, not surveyed",
+    "longitudinal_members": 24,
+    "capsules": 16,
+    "core_offset_blocks": [
+      1,
+      0
+    ],
+    "core_radius_blocks": [
+      3.3,
+      2.8
+    ],
+    "glazed_program_h_blocks": [
+      [
+        12,
+        82
+      ],
+      [
+        151,
+        208
+      ]
+    ],
+    "antenna_radii_blocks": [
+      2.7,
+      1.5,
+      0.65
+    ],
+    "mast_transition_h_blocks": [
+      230,
+      247
+    ],
+    "colors": "schematic palette; no game textures; glass opaque",
+    "axes": "local front -Z; geographic orientation unknown"
+  },
+  "gaps": [
+    "Surveyed ring elevations and member endpoints",
+    "Core position and plan dimensions",
+    "Facade and internal program heights",
+    "As-built crown and antenna details",
+    "Geographic orientation and calibrated camera pose"
+  ],
+  "spec_integration_status": "Case adapter uses project Scene/material/renderer conventions. Twist lattice is not yet a generic BuildingSpec v0.1 primitive; do not claim arbitrary tower generation is complete.",
+  "manual_steps": [
+    "source selection",
+    "dimension reconciliation",
+    "case parameter and formula selection",
+    "reference-to-component review",
+    "local revision selection"
+  ],
+  "program_steps": [
+    "voxel generation",
+    "PNG rendering",
+    "height/bounds and patch-scope tests",
+    "fingerprint consistency checks"
+  ]
+}

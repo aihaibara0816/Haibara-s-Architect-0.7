@@ -1,0 +1,202 @@
+{
+  "case": "buckingham_palace",
+  "run": "V1_r02",
+  "passed": true,
+  "checks": [
+    {
+      "name": "NBT hash and block count",
+      "passed": true,
+      "detail": {
+        "sha256": "2d33529237c74937e6212037f40bb97facc645b87af153d97d4941bf85207a33",
+        "blocks": 1239602
+      }
+    },
+    {
+      "name": "deterministic full replay",
+      "passed": true,
+      "detail": "2d33529237c74937e6212037f40bb97facc645b87af153d97d4941bf85207a33"
+    },
+    {
+      "name": "all blockstates supported",
+      "passed": true,
+      "detail": 66
+    },
+    {
+      "name": "component coordinates equal NBT coordinates",
+      "passed": true,
+      "detail": 1239602
+    },
+    {
+      "name": "both emitter materials present",
+      "passed": true,
+      "detail": {
+        "minecraft:glowstone": 273,
+        "minecraft:sea_lantern": 108
+      }
+    },
+    {
+      "name": "partial blocks used",
+      "passed": true,
+      "detail": "slabs + connected panes"
+    },
+    {
+      "name": "central quadrangle open to sky",
+      "passed": true,
+      "detail": {
+        "nonair_in_clear_volume": 0
+      }
+    },
+    {
+      "name": "23 principal window bays survive",
+      "passed": true,
+      "detail": {
+        "count": 23,
+        "grouping": [
+          3,
+          7,
+          3,
+          7,
+          3
+        ]
+      }
+    },
+    {
+      "name": "108 metre front is 216 blocks",
+      "passed": true,
+      "detail": 216
+    },
+    {
+      "name": "principal windows lead into real alcove air",
+      "passed": true,
+      "detail": {
+        "clear": 69,
+        "samples": 69
+      }
+    },
+    {
+      "name": "garden and courtyard have distinct components",
+      "passed": true,
+      "detail": "bow/half dome + canopy"
+    },
+    {
+      "name": "main gateway through range",
+      "passed": true,
+      "detail": "local x=207,y=7,z=270"
+    },
+    {
+      "name": "room lighting has lit and unlit rooms",
+      "passed": true,
+      "detail": {
+        "room_records": 542,
+        "lamps": 287
+      }
+    },
+    {
+      "name": "schem exact readback and module union",
+      "passed": true,
+      "detail": {
+        "modules": 22,
+        "schem": "3e4185555e39280f7c2f66a5e001eaf3d573da2d43dc3cb9e2a7e59dd36a4d4a"
+      }
+    },
+    {
+      "name": "module byte limits",
+      "passed": true,
+      "detail": 258021
+    },
+    {
+      "name": "all planned views rendered",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "name": "source-bound preview overview.png",
+      "passed": true,
+      "detail": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "name": "source-bound preview night.png",
+      "passed": true,
+      "detail": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "name": "source-bound preview front.png",
+      "passed": true,
+      "detail": [
+        2400,
+        1050
+      ]
+    },
+    {
+      "name": "source-bound preview balcony.png",
+      "passed": true,
+      "detail": [
+        1900,
+        1450
+      ]
+    },
+    {
+      "name": "source-bound preview corner.png",
+      "passed": true,
+      "detail": [
+        1900,
+        1400
+      ]
+    },
+    {
+      "name": "source-bound preview garden.png",
+      "passed": true,
+      "detail": [
+        2300,
+        1450
+      ]
+    },
+    {
+      "name": "source-bound preview courtyard.png",
+      "passed": true,
+      "detail": [
+        2100,
+        1700
+      ]
+    },
+    {
+      "name": "source-bound preview top.png",
+      "passed": true,
+      "detail": [
+        1950,
+        2400
+      ]
+    },
+    {
+      "name": "source-bound preview section.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1500
+      ]
+    },
+    {
+      "name": "source-bound preview interior.png",
+      "passed": true,
+      "detail": [
+        1900,
+        1450
+      ]
+    }
+  ],
+  "unit_tests": 30,
+  "visual_status": "manual review of overview, front/detail, roof or garden, night and section; fidelity not scored automatically",
+  "not_tested": [
+    "Minecraft import and lighting",
+    "collision/navigation",
+    "texture-pack appearance",
+    "precise decorative carving",
+    "external 3D model fusion"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "case": "zhujiang_dijing",
+  "engine": "HAF 0.2",
+  "run": "V1_r03",
+  "status": "offline reviewed; user and game pending",
+  "rules": [
+    {
+      "lesson": "先区别组团，不把不同屋顶拼到同一栋",
+      "evidence": [
+        "research/image_manifest.json",
+        "research/component_evidence.json"
+      ],
+      "scope": "此案例的人工识别，不是自动分类器"
+    },
+    {
+      "lesson": "逐窗检查玻璃前是否存在遮挡墙，窗洞要真正打通",
+      "evidence": "runs/V1_r01/validation.json:36 opaque sample cells; fixed from V1_r02 onward",
+      "scope": "14项案例检查中的1项"
+    },
+    {
+      "lesson": "整片柱脚承托与花盆通行占位都要验证",
+      "evidence": "r01 31 missing bearing cells and 8 obstructed balcony samples; r02/r03 fixed",
+      "scope": "栅格几何，不是游戏碰撞"
+    },
+    {
+      "lesson": "浅绿玻璃片和水体可复用；水不应作为栏杆的实体连接支撑",
+      "evidence": "tests/test_residential_materials.py",
+      "scope": "4 tests + inherited 23 tests; game pending"
+    },
+    {
+      "lesson": "室内灯存在不代表远景能看清，需平视夜景与近景复核",
+      "evidence": "review/previews/V1_r03/front_night.png",
+      "scope": "preview review only"
+    },
+    {
+      "lesson": "近景检查阳台进深与层高关系，不能把住宅阳台做成过深的平台",
+      "evidence": "r02 main balcony glass-to-rail depth10 blocks; r03 max5 blocks",
+      "scope": "照片解释修订，非实测尺寸"
+    }
+  ],
+  "remaining": [
+    "三单元的实测平面/具体栋号未核实",
+    "园林比真实场景更规整、植被密度偏低",
+    "单元重复性较强，实际住户装修/封窗差异待更多图",
+    "共享预览不含原版纹理与真实水模拟"
+  ],
+  "training_type": "case study and executable rule validation; no neural weight training",
+  "release_gate": "Do not release HAF 0.3 until more independent cases and user review."
+}

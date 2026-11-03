@@ -1,0 +1,426 @@
+{
+  "run": "V1_r02",
+  "source_nbt_sha256": "5514de13276afc36689a786e45f0036c116661351c3d18e22c299d7b9ffb8e3d",
+  "checks": [
+    {
+      "id": "file_hash",
+      "status": "pass",
+      "details": "5514de13276afc36689a786e45f0036c116661351c3d18e22c299d7b9ffb8e3d"
+    },
+    {
+      "id": "sparse_no_air",
+      "status": "pass",
+      "details": 99132
+    },
+    {
+      "id": "owner_coverage",
+      "status": "pass",
+      "details": 99132
+    },
+    {
+      "id": "bounds",
+      "status": "pass",
+      "details": [
+        92,
+        188,
+        98
+      ]
+    },
+    {
+      "id": "known_blockstates",
+      "status": "pass",
+      "details": 59
+    },
+    {
+      "id": "two_spires_height",
+      "status": "pass",
+      "details": {
+        "36": 185,
+        "52": 185
+      }
+    },
+    {
+      "id": "spire_base_support",
+      "status": "pass",
+      "details": {
+        "36": true,
+        "52": true
+      }
+    },
+    {
+      "id": "whole_width_site_paths",
+      "status": "fail",
+      "details": {
+        "sampled": 701,
+        "failures": [
+          [
+            "west_route",
+            9,
+            50,
+            "site.light.base"
+          ],
+          [
+            "east_route",
+            82,
+            50,
+            "site.light.base"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "main_portal_clear",
+      "status": "pass",
+      "details": {
+        "width": 6,
+        "height": 3,
+        "occupied": []
+      }
+    },
+    {
+      "id": "resolved_modules_consumed",
+      "status": "pass",
+      "details": {
+        "counts": {
+          "lobby.reception.reception": 7,
+          "lobby.waiting.lounge": 7,
+          "office_A.work.desk_group": 12,
+          "office_A.meeting.meeting": 16,
+          "office_A.rest.lounge": 6,
+          "office_B.work.desk_group": 12,
+          "office_B.meeting.meeting": 16,
+          "office_B.rest.lounge": 6,
+          "lounge.rest.lounge": 7,
+          "lounge.tea.pantry": 7,
+          "lounge.reading.lounge": 6
+        },
+        "failures": []
+      }
+    },
+    {
+      "id": "demo_circulation_clear",
+      "status": "fail",
+      "details": [
+        [
+          [
+            40,
+            4,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            40,
+            5,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            40,
+            6,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            40,
+            7,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            40,
+            8,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            40,
+            9,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            40,
+            10,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            40,
+            11,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            41,
+            4,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            41,
+            5,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            41,
+            6,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            41,
+            7,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            41,
+            8,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            41,
+            9,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            41,
+            10,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            41,
+            11,
+            55
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            42,
+            8,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            42,
+            9,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            42,
+            10,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            42,
+            11,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            43,
+            8,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            43,
+            9,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            43,
+            10,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            43,
+            11,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            44,
+            8,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            44,
+            9,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            44,
+            10,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            44,
+            11,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            45,
+            8,
+            54
+          ],
+          "tower.lobby.glazing"
+        ],
+        [
+          [
+            45,
+            9,
+            54
+          ],
+          "tower.lobby.glazing"
+        ]
+      ]
+    },
+    {
+      "id": "flush_lights_and_two_layers",
+      "status": "pass",
+      "details": {
+        "columns": 16,
+        "failures": []
+      }
+    },
+    {
+      "id": "lamp_survival",
+      "status": "fail",
+      "details": {
+        "declared": 744,
+        "overwritten": 1,
+        "first": [
+          {
+            "xyz": [
+              36,
+              7,
+              30
+            ],
+            "material": "sea_lantern",
+            "owner": "podium.flush_light"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plant_root_support",
+      "status": "fail",
+      "details": {
+        "plants": 14,
+        "failures": [
+          {
+            "root": [
+              26,
+              3,
+              40
+            ],
+            "type": "palm silhouette",
+            "source": "photo motif; exact location designed"
+          },
+          {
+            "root": [
+              65,
+              3,
+              40
+            ],
+            "type": "palm silhouette",
+            "source": "photo motif; exact location designed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "water_containment",
+      "status": "pass",
+      "details": {
+        "water_cells": 56,
+        "failures": []
+      }
+    }
+  ],
+  "metrics": {
+    "blocks": 99132,
+    "blockstates": 59,
+    "lamps": 743,
+    "modules": 11,
+    "designed_rooms": 11,
+    "window_back_rooms": 918,
+    "site_trees": 14,
+    "visual_columns": 16
+  },
+  "status": "needs_revision",
+  "game_status": "pending",
+  "limits": [
+    "No real tenant layout, lift mechanics or full 80-floor circulation",
+    "Path checks use conservative occupied cells; actual Minecraft collisions are pending",
+    "No structural calculation or actual illumination certification"
+  ]
+}

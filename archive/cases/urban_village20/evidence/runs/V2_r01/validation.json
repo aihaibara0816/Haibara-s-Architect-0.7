@@ -1,0 +1,443 @@
+{
+  "source_nbt_sha256": "9c8d5a2d15e9d78f0108f881113099744c29d7391e5c52d135f81bdc35394644",
+  "checks": [
+    {
+      "id": "20_unique_mass_dimensions",
+      "status": "pass",
+      "details": [
+        [
+          "A1",
+          22,
+          23,
+          7
+        ],
+        [
+          "A2",
+          25,
+          25,
+          5
+        ],
+        [
+          "A3",
+          23,
+          26,
+          8
+        ],
+        [
+          "A4",
+          21,
+          28,
+          4
+        ],
+        [
+          "B1",
+          25,
+          26,
+          4
+        ],
+        [
+          "B2",
+          24,
+          29,
+          7
+        ],
+        [
+          "B3",
+          21,
+          23,
+          3
+        ],
+        [
+          "B4",
+          22,
+          30,
+          6
+        ],
+        [
+          "C1",
+          24,
+          25,
+          5
+        ],
+        [
+          "C2",
+          26,
+          25,
+          6
+        ],
+        [
+          "C3",
+          23,
+          23,
+          4
+        ],
+        [
+          "C4",
+          20,
+          24,
+          2
+        ],
+        [
+          "D1",
+          21,
+          25,
+          5
+        ],
+        [
+          "D2",
+          26,
+          23,
+          6
+        ],
+        [
+          "D3",
+          23,
+          28,
+          4
+        ],
+        [
+          "D4",
+          26,
+          24,
+          7
+        ],
+        [
+          "D5",
+          24,
+          26,
+          6
+        ],
+        [
+          "E1",
+          25,
+          29,
+          5
+        ],
+        [
+          "E2",
+          24,
+          30,
+          7
+        ],
+        [
+          "E3",
+          24,
+          25,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "household_and_shop_lighting",
+      "status": "pass",
+      "details": {
+        "homes": 199,
+        "lit_homes": 139,
+        "ratio": 0.6984924623115578,
+        "shops": [
+          "restaurant",
+          "barber",
+          "tea",
+          "grocery",
+          "restaurant",
+          "laundry",
+          "repair",
+          "grocery",
+          "grocery",
+          "restaurant",
+          "barber"
+        ]
+      }
+    },
+    {
+      "id": "file_bounds_and_readback",
+      "status": "pass",
+      "details": {
+        "size": [
+          216,
+          64,
+          205
+        ],
+        "non_air_blocks": 364067,
+        "DataVersion": 3955
+      }
+    },
+    {
+      "id": "all_unit_entries_supported_and_clear",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_function_zone_approaches_reachable",
+      "status": "fail",
+      "details": [
+        "B4.F01.R.bedroom",
+        "B4.F02.R.bedroom",
+        "B4.F03.R.bedroom",
+        "B4.F04.R.bedroom",
+        "B4.F05.R.bedroom",
+        "B4.F06.R.bedroom",
+        "C3.F02.R.bedroom",
+        "C3.F03.R.bedroom",
+        "C3.F04.R.bedroom",
+        "D2.F02.R.bedroom",
+        "D2.F03.R.bedroom",
+        "D2.F04.R.bedroom",
+        "D2.F05.R.bedroom",
+        "D2.F06.R.bedroom",
+        "E1.F02.R.bedroom",
+        "E1.F03.R.bedroom",
+        "E1.F04.R.bedroom",
+        "E1.F05.R.bedroom",
+        "E2.F02.R.bedroom",
+        "E2.F03.R.bedroom",
+        "E2.F04.R.bedroom",
+        "E2.F05.R.bedroom",
+        "E2.F06.R.bedroom",
+        "E2.F07.R.bedroom"
+      ]
+    },
+    {
+      "id": "all_floor_landings_reach_units",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "105_two_wide_stair_links_support_headroom",
+      "status": "pass",
+      "details": {
+        "links": 105,
+        "errors": []
+      }
+    },
+    {
+      "id": "all_furniture_modules_present",
+      "status": "fail",
+      "details": {
+        "modules": 1809,
+        "lost": [
+          "C3.F01.R.furniture.tv.985",
+          "E1.F01.R.furniture.counter.1539",
+          "E2.F01.R.furniture.table.1622"
+        ]
+      }
+    },
+    {
+      "id": "furniture_adjacent_floor_reachable",
+      "status": "fail",
+      "details": [
+        "B4.F01.R.furniture.bed.666",
+        "B4.F01.R.furniture.cabinet.667",
+        "B4.F02.R.furniture.bed.684",
+        "B4.F02.R.furniture.cabinet.685",
+        "B4.F03.R.furniture.bed.702",
+        "B4.F03.R.furniture.cabinet.703",
+        "B4.F04.R.furniture.bed.720",
+        "B4.F04.R.furniture.cabinet.721",
+        "B4.F05.R.furniture.bed.738",
+        "B4.F05.R.furniture.cabinet.739",
+        "B4.F06.R.furniture.bed.756",
+        "B4.F06.R.furniture.cabinet.757",
+        "C3.F02.R.furniture.bed.996",
+        "C3.F02.R.furniture.cabinet.997",
+        "C3.F03.R.furniture.bed.1014",
+        "C3.F03.R.furniture.cabinet.1015",
+        "C3.F04.R.furniture.bed.1032",
+        "C3.F04.R.furniture.cabinet.1033",
+        "D2.F02.R.furniture.bed.1161",
+        "D2.F02.R.furniture.cabinet.1162",
+        "D2.F03.R.furniture.bed.1179",
+        "D2.F03.R.furniture.cabinet.1180",
+        "D2.F04.R.furniture.bed.1197",
+        "D2.F04.R.furniture.cabinet.1198",
+        "D2.F05.R.furniture.bed.1215",
+        "D2.F05.R.furniture.cabinet.1216",
+        "D2.F06.R.furniture.bed.1233",
+        "D2.F06.R.furniture.cabinet.1234",
+        "E1.F02.R.furniture.bed.1547",
+        "E1.F02.R.furniture.cabinet.1548",
+        "E1.F03.R.furniture.bed.1565",
+        "E1.F03.R.furniture.cabinet.1566",
+        "E1.F04.R.furniture.bed.1583",
+        "E1.F04.R.furniture.cabinet.1584",
+        "E1.F05.R.furniture.bed.1601",
+        "E1.F05.R.furniture.cabinet.1602",
+        "E2.F02.R.furniture.bed.1636",
+        "E2.F02.R.furniture.cabinet.1637",
+        "E2.F03.R.furniture.bed.1654",
+        "E2.F03.R.furniture.cabinet.1655",
+        "E2.F04.R.furniture.bed.1672",
+        "E2.F04.R.furniture.cabinet.1673",
+        "E2.F05.R.furniture.bed.1690",
+        "E2.F05.R.furniture.cabinet.1691",
+        "E2.F06.R.furniture.bed.1708",
+        "E2.F06.R.furniture.cabinet.1709",
+        "E2.F07.R.furniture.bed.1726",
+        "E2.F07.R.furniture.cabinet.1727"
+      ]
+    },
+    {
+      "id": "graded_streets_and_entry_paths_clear",
+      "status": "fail",
+      "details": {
+        "path_cells": 5505,
+        "errors": [
+          [
+            121,
+            173,
+            3,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+          ],
+          [
+            155,
+            173,
+            3,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+          ],
+          [
+            185,
+            100,
+            3,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+          ],
+          [
+            54,
+            173,
+            3,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+          ],
+          [
+            86,
+            173,
+            3,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "main_street_reaches_all_external_entries",
+      "status": "pass",
+      "details": {
+        "entries": 38,
+        "errors": []
+      }
+    },
+    {
+      "id": "shop_customer_and_service_doors_reach_interior",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "northwest_higher_and_open_east_south_streets",
+      "status": "pass",
+      "details": {
+        "northwest_y": 7,
+        "southeast_y": 3,
+        "east_road_y": 2,
+        "south_road_y": 2
+      }
+    },
+    {
+      "id": "nonrectangular_floor_plates_built",
+      "status": "pass",
+      "details": {
+        "buildings": [
+          "A1",
+          "A2",
+          "A4",
+          "B1",
+          "B3",
+          "B4",
+          "C1",
+          "C3",
+          "D1",
+          "D2",
+          "D4",
+          "D5",
+          "E1",
+          "E2"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "balconies_and_roof_exits_reachable",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_lamps_present_recessed_and_exposed",
+      "status": "fail",
+      "details": {
+        "lamps": 655,
+        "errors": [
+          "E2.F02.R.light.bedroom.not_flush_or_blocked",
+          "E2.F03.R.light.bedroom.not_flush_or_blocked",
+          "E2.F04.R.light.bedroom.not_flush_or_blocked",
+          "E2.F05.R.light.bedroom.not_flush_or_blocked",
+          "E2.F06.R.light.bedroom.not_flush_or_blocked",
+          "E2.F07.R.light.bedroom.not_flush_or_blocked"
+        ],
+        "unrecorded": []
+      }
+    },
+    {
+      "id": "mixed_window_grilles",
+      "status": "pass",
+      "details": {
+        "none": 577,
+        "flush": 192,
+        "cage": 202
+      }
+    },
+    {
+      "id": "isolated_near_colour_variation",
+      "status": "pass",
+      "details": {
+        "tones": 3272,
+        "adjacent": []
+      }
+    },
+    {
+      "id": "weathering_remains_on_facade",
+      "status": "pass",
+      "details": {
+        "kinds": {
+          "near_colour": 3272,
+          "exposed_infill": 123,
+          "backed_chipped_edge": 16
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "roof_and_pipe_bases_supported",
+      "status": "fail",
+      "details": [
+        "A4.antenna",
+        "B4.antenna",
+        "D1.antenna",
+        "D2.antenna",
+        "E2.antenna"
+      ]
+    },
+    {
+      "id": "20_haf_handoffs_compiled",
+      "status": "pass",
+      "details": {
+        "plans": 20,
+        "planner_does_not_generate_geometry": true
+      }
+    }
+  ],
+  "passed": false,
+  "game_status": "pending",
+  "visual_status": "pending",
+  "limits": [
+    "Cell-based access is not actual game collision/pathfinding",
+    "Vanilla textures and coloured light are not simulated",
+    "Beds, kitchen, plumbing and shop signs are decorative",
+    "Original design, no surveyed village identity"
+  ]
+}

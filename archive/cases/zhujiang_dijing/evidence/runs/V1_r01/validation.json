@@ -1,0 +1,289 @@
+{
+  "run": "V1_r01",
+  "source_nbt_sha256": "1c4b0ef2e606773273bc1839a2654ac36b947c18f40811159171db1c4b863919",
+  "checks": [
+    {
+      "id": "readback_bounds",
+      "status": "pass",
+      "detail": {
+        "size_xyz": [
+          232,
+          104,
+          190
+        ],
+        "blocks": 435406
+      }
+    },
+    {
+      "id": "state_vocabulary",
+      "status": "pass",
+      "detail": {
+        "states": 64
+      }
+    },
+    {
+      "id": "full_column_bearing",
+      "status": "fail",
+      "detail": {
+        "missing_cells": 31,
+        "examples": [
+          [
+            75,
+            5,
+            62,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            63,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            64,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            65,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            66,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            24,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            25,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            26,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            27,
+            "residence.unit1"
+          ],
+          [
+            75,
+            5,
+            28,
+            "residence.unit1"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "balcony_layer_and_clearance",
+      "status": "fail",
+      "detail": {
+        "balconies": 36,
+        "failed": [
+          "residence.unit1.floor04",
+          "residence.unit1.floor09",
+          "residence.unit1.floor11",
+          "residence.unit2.floor02",
+          "residence.unit2.floor04",
+          "residence.unit2.floor06",
+          "residence.unit3.floor06",
+          "residence.unit3.floor12"
+        ]
+      }
+    },
+    {
+      "id": "glazing_not_buried_behind_wall",
+      "status": "fail",
+      "detail": {
+        "opaque_cells_in_front_of_test_glazing": 36,
+        "examples": [
+          [
+            55,
+            15,
+            58
+          ],
+          [
+            55,
+            21,
+            58
+          ],
+          [
+            55,
+            27,
+            58
+          ],
+          [
+            55,
+            33,
+            58
+          ],
+          [
+            55,
+            39,
+            58
+          ],
+          [
+            55,
+            45,
+            58
+          ]
+        ]
+      }
+    },
+    {
+      "id": "entry_floor_continuity",
+      "status": "pass",
+      "detail": [
+        {
+          "id": "residence.unit1",
+          "pass": true
+        },
+        {
+          "id": "residence.unit2",
+          "pass": true
+        },
+        {
+          "id": "residence.unit3",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "open_roof_crown",
+      "status": "pass",
+      "detail": {
+        "sample_cells": [
+          [
+            48,
+            95,
+            62
+          ],
+          [
+            112,
+            95,
+            62
+          ],
+          [
+            176,
+            95,
+            62
+          ]
+        ]
+      }
+    },
+    {
+      "id": "furniture_supported",
+      "status": "pass",
+      "detail": {
+        "checked": 594,
+        "failed": []
+      }
+    },
+    {
+      "id": "lake_retaining_basin",
+      "status": "pass",
+      "detail": {
+        "water_cells": 3876,
+        "open_edges_or_bottom": 0
+      }
+    },
+    {
+      "id": "pane_connections_final_assembly",
+      "status": "pass",
+      "detail": {
+        "mismatches": 0
+      }
+    },
+    {
+      "id": "residential_light_variation",
+      "status": "pass",
+      "detail": {
+        "rooms": 216,
+        "lit": 72,
+        "dark": 144,
+        "lamp_types": {
+          "glowstone": 47,
+          "sea_lantern": 25
+        }
+      }
+    },
+    {
+      "id": "lamps_survive_assembly",
+      "status": "pass",
+      "detail": {
+        "recorded": 93,
+        "overwritten": []
+      }
+    },
+    {
+      "id": "three_complete_rear_enclosures",
+      "status": "pass",
+      "detail": {
+        "note": "sampled core/backing, no claim to real rear window survey"
+      }
+    },
+    {
+      "id": "thin_blocks_present",
+      "status": "pass",
+      "detail": {
+        "minecraft:dirt": 122344,
+        "minecraft:stone_bricks": 21856,
+        "minecraft:water": 3876,
+        "minecraft:grass_block": 28654,
+        "minecraft:smooth_stone": 16617,
+        "minecraft:smooth_sandstone": 140733,
+        "minecraft:smooth_stone_slab": 647,
+        "minecraft:oak_log": 191,
+        "minecraft:iron_bars": 310,
+        "minecraft:azalea_leaves": 830,
+        "minecraft:moss_block": 1888,
+        "minecraft:smooth_sandstone_slab": 7764,
+        "minecraft:dark_oak_stairs": 128,
+        "minecraft:poppy": 106,
+        "minecraft:diorite_wall": 58,
+        "minecraft:smooth_quartz": 18282,
+        "minecraft:green_stained_glass_pane": 40320,
+        "minecraft:sandstone": 460,
+        "minecraft:glowstone": 68,
+        "minecraft:gold_block": 10,
+        "minecraft:oak_leaves": 6700,
+        "minecraft:polished_andesite_slab": 14,
+        "minecraft:oak_planks": 9072,
+        "minecraft:smooth_quartz_slab": 12030,
+        "minecraft:dark_oak_slab": 103,
+        "minecraft:anvil": 113,
+        "minecraft:bookshelf": 160,
+        "minecraft:dark_oak_planks": 74,
+        "minecraft:light_gray_concrete": 360,
+        "minecraft:iron_trapdoor": 1236,
+        "minecraft:sea_lantern": 25,
+        "minecraft:polished_andesite": 377
+      }
+    }
+  ],
+  "passed": 11,
+  "failed": 3,
+  "visual_status": "separate review",
+  "game_status": "pending",
+  "limitations": [
+    "floor-cell continuity is not Minecraft collision/pathfinding",
+    "preview water is a static translucent full-cell approximation",
+    "unknown room plans and lights remain synthetic"
+  ]
+}

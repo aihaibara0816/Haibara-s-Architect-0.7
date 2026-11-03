@@ -1,0 +1,2314 @@
+{
+  "schema_version": "0.2",
+  "spec_id": "retail_store",
+  "revision": 2,
+  "mode": "study",
+  "building": {
+    "name": "GAFA便利店技术样板",
+    "identity_status": "design_study",
+    "real_world_reference": null,
+    "scope": "独立单层便利店、入口小广场、轻量绿化与服务侧门；非711复原。"
+  },
+  "coordinates": {
+    "units": "m",
+    "axis_convention": "X_right_Y_up_Z_back",
+    "front": "-Z",
+    "north": null,
+    "blocks_per_metre": 1,
+    "size_blocks": [
+      34,
+      12,
+      26
+    ],
+    "extent_m": [
+      34,
+      12,
+      26
+    ],
+    "rounding": "half_up"
+  },
+  "environment": {
+    "minecraft_version": "1.21.1",
+    "data_version": 3955,
+    "neoforge_version": "21.1.244",
+    "create_version": "6.0.10",
+    "configuration_status": "historical_target_unverified",
+    "world": {
+      "min_y": null,
+      "max_y_exclusive": null,
+      "origin_xyz": null,
+      "confirmed": false,
+      "basis": "历史目标版本；未连接当前Minecraft客户端或服务器，无已确认放置位置。"
+    },
+    "budgets": {
+      "max_cells": 1000000,
+      "max_non_air_blocks": 250000,
+      "max_cell_visits": 5000000
+    }
+  },
+  "study_parameters": {
+    "extent_m": [
+      34,
+      12,
+      26
+    ],
+    "basis": "本轮工程试值，包含地景与边缘余量；不覆盖现实尺寸。"
+  },
+  "materials": {
+    "foundation": {
+      "block_state": "minecraft:stone_bricks",
+      "preview_color": "#858F8A",
+      "role": "基础"
+    },
+    "paving": {
+      "block_state": "minecraft:smooth_stone",
+      "preview_color": "#C6CBC5",
+      "role": "铺地"
+    },
+    "white": {
+      "block_state": "minecraft:white_concrete",
+      "preview_color": "#EBE8DA",
+      "role": "墙体"
+    },
+    "dark": {
+      "block_state": "minecraft:gray_concrete",
+      "preview_color": "#454E50",
+      "role": "屋面与窗框"
+    },
+    "glass": {
+      "block_state": "minecraft:cyan_stained_glass",
+      "preview_color": "#518794",
+      "role": "玻璃整块示意"
+    },
+    "green": {
+      "block_state": "minecraft:green_concrete",
+      "preview_color": "#326750",
+      "role": "招牌"
+    },
+    "amber": {
+      "block_state": "minecraft:orange_concrete",
+      "preview_color": "#D88445",
+      "role": "招牌细带"
+    },
+    "wood": {
+      "block_state": "minecraft:oak_planks",
+      "preview_color": "#B29A72",
+      "role": "室内与雨棚格栅"
+    },
+    "light": {
+      "block_state": "minecraft:sea_lantern",
+      "preview_color": "#F6E9BB",
+      "role": "灯块"
+    },
+    "plants": {
+      "block_state": "minecraft:moss_block",
+      "preview_color": "#65824E",
+      "role": "绿化"
+    },
+    "planter": {
+      "block_state": "minecraft:polished_andesite",
+      "preview_color": "#999E92",
+      "role": "花池边界"
+    }
+  },
+  "components": [
+    {
+      "component_id": "site.foundation",
+      "name": "site.foundation",
+      "kind": "box",
+      "operation": "add",
+      "material": "foundation",
+      "targets": [],
+      "after": [],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          0,
+          0,
+          0
+        ],
+        "max_m": [
+          34,
+          1,
+          26
+        ]
+      }
+    },
+    {
+      "component_id": "site.paving",
+      "name": "site.paving",
+      "kind": "box",
+      "operation": "add",
+      "material": "paving",
+      "targets": [],
+      "after": [
+        "site.foundation"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          1,
+          1,
+          1
+        ],
+        "max_m": [
+          33,
+          2,
+          25
+        ]
+      }
+    },
+    {
+      "component_id": "store.floor",
+      "name": "store.floor",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "site.paving"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          1,
+          7
+        ],
+        "max_m": [
+          29,
+          2,
+          23
+        ]
+      }
+    },
+    {
+      "component_id": "wall.front",
+      "name": "wall.front",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "store.floor"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          2,
+          7
+        ],
+        "max_m": [
+          29,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "wall.back",
+      "name": "wall.back",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "wall.front"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          2,
+          22
+        ],
+        "max_m": [
+          29,
+          8,
+          23
+        ]
+      }
+    },
+    {
+      "component_id": "wall.left",
+      "name": "wall.left",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "wall.back"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          2,
+          8
+        ],
+        "max_m": [
+          6,
+          8,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "wall.right",
+      "name": "wall.right",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "wall.left"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          28,
+          2,
+          8
+        ],
+        "max_m": [
+          29,
+          8,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "opening.entry",
+      "name": "opening.entry",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.front"
+      ],
+      "after": [
+        "wall.right"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          15,
+          2,
+          7
+        ],
+        "max_m": [
+          19,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "opening.front_left",
+      "name": "opening.front_left",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.front"
+      ],
+      "after": [
+        "opening.entry"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          3,
+          7
+        ],
+        "max_m": [
+          13,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "glazing.front_left",
+      "name": "glazing.front_left",
+      "kind": "box",
+      "operation": "add",
+      "material": "glass",
+      "targets": [],
+      "after": [
+        "opening.front_left"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          3,
+          7
+        ],
+        "max_m": [
+          13,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "opening.front_right",
+      "name": "opening.front_right",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.front"
+      ],
+      "after": [
+        "glazing.front_left"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          21,
+          3,
+          7
+        ],
+        "max_m": [
+          27,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "glazing.front_right",
+      "name": "glazing.front_right",
+      "kind": "box",
+      "operation": "add",
+      "material": "glass",
+      "targets": [],
+      "after": [
+        "opening.front_right"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          21,
+          3,
+          7
+        ],
+        "max_m": [
+          27,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "opening.left_window",
+      "name": "opening.left_window",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.left"
+      ],
+      "after": [
+        "glazing.front_right"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          3,
+          12
+        ],
+        "max_m": [
+          6,
+          6,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "glazing.left_window",
+      "name": "glazing.left_window",
+      "kind": "box",
+      "operation": "add",
+      "material": "glass",
+      "targets": [],
+      "after": [
+        "opening.left_window"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          5,
+          3,
+          12
+        ],
+        "max_m": [
+          6,
+          6,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "opening.right_window",
+      "name": "opening.right_window",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.right"
+      ],
+      "after": [
+        "glazing.left_window"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          28,
+          3,
+          10
+        ],
+        "max_m": [
+          29,
+          6,
+          16
+        ]
+      }
+    },
+    {
+      "component_id": "glazing.right_window",
+      "name": "glazing.right_window",
+      "kind": "box",
+      "operation": "add",
+      "material": "glass",
+      "targets": [],
+      "after": [
+        "opening.right_window"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          28,
+          3,
+          10
+        ],
+        "max_m": [
+          29,
+          6,
+          16
+        ]
+      }
+    },
+    {
+      "component_id": "opening.service_door",
+      "name": "opening.service_door",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.right"
+      ],
+      "after": [
+        "glazing.right_window"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          28,
+          2,
+          19
+        ],
+        "max_m": [
+          29,
+          5,
+          21
+        ]
+      }
+    },
+    {
+      "component_id": "opening.rear_window",
+      "name": "opening.rear_window",
+      "kind": "box",
+      "operation": "subtract",
+      "material": null,
+      "targets": [
+        "wall.back"
+      ],
+      "after": [
+        "opening.service_door"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          4,
+          22
+        ],
+        "max_m": [
+          15,
+          6,
+          23
+        ]
+      }
+    },
+    {
+      "component_id": "glazing.rear_window",
+      "name": "glazing.rear_window",
+      "kind": "box",
+      "operation": "add",
+      "material": "glass",
+      "targets": [],
+      "after": [
+        "opening.rear_window"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          4,
+          22
+        ],
+        "max_m": [
+          15,
+          6,
+          23
+        ]
+      }
+    },
+    {
+      "component_id": "entry.frame_left",
+      "name": "entry.frame_left",
+      "kind": "box",
+      "operation": "add",
+      "material": "dark",
+      "targets": [],
+      "after": [
+        "glazing.rear_window"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          2,
+          6
+        ],
+        "max_m": [
+          15,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "entry.frame_right",
+      "name": "entry.frame_right",
+      "kind": "box",
+      "operation": "add",
+      "material": "dark",
+      "targets": [],
+      "after": [
+        "entry.frame_left"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          19,
+          2,
+          6
+        ],
+        "max_m": [
+          20,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "entry.header",
+      "name": "entry.header",
+      "kind": "box",
+      "operation": "add",
+      "material": "dark",
+      "targets": [],
+      "after": [
+        "entry.frame_right"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          6,
+          6
+        ],
+        "max_m": [
+          20,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "component_id": "roof.main",
+      "name": "roof.main",
+      "kind": "box",
+      "operation": "add",
+      "material": "dark",
+      "targets": [],
+      "after": [
+        "entry.header"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          4,
+          8,
+          6
+        ],
+        "max_m": [
+          30,
+          9,
+          24
+        ]
+      }
+    },
+    {
+      "component_id": "roof.upper",
+      "name": "roof.upper",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "roof.main"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          6,
+          9,
+          9
+        ],
+        "max_m": [
+          28,
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "roof.vent",
+      "name": "roof.vent",
+      "kind": "box",
+      "operation": "add",
+      "material": "dark",
+      "targets": [],
+      "after": [
+        "roof.upper"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          24,
+          10,
+          18
+        ],
+        "max_m": [
+          27,
+          11,
+          21
+        ]
+      }
+    },
+    {
+      "component_id": "sign.band",
+      "name": "sign.band",
+      "kind": "box",
+      "operation": "add",
+      "material": "green",
+      "targets": [],
+      "after": [
+        "roof.vent"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          6,
+          7,
+          5
+        ],
+        "max_m": [
+          28,
+          9,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "sign.amber_line",
+      "name": "sign.amber_line",
+      "kind": "box",
+      "operation": "add",
+      "material": "amber",
+      "targets": [],
+      "after": [
+        "sign.band"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          6,
+          6,
+          5
+        ],
+        "max_m": [
+          28,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "sign.emblem_0",
+      "name": "sign.emblem_0",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "sign.amber_line"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          8,
+          7,
+          4
+        ],
+        "max_m": [
+          9,
+          9,
+          5
+        ]
+      }
+    },
+    {
+      "component_id": "sign.emblem_1",
+      "name": "sign.emblem_1",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "sign.emblem_0"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          8,
+          4
+        ],
+        "max_m": [
+          11,
+          9,
+          5
+        ]
+      }
+    },
+    {
+      "component_id": "sign.emblem_2",
+      "name": "sign.emblem_2",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "sign.emblem_1"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          11,
+          7,
+          4
+        ],
+        "max_m": [
+          12,
+          9,
+          5
+        ]
+      }
+    },
+    {
+      "component_id": "canopy",
+      "name": "canopy",
+      "kind": "box",
+      "operation": "add",
+      "material": "wood",
+      "targets": [],
+      "after": [
+        "sign.emblem_2"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          14,
+          6,
+          2
+        ],
+        "max_m": [
+          20,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "ceiling.light_0",
+      "name": "ceiling.light_0",
+      "kind": "box",
+      "operation": "add",
+      "material": "light",
+      "targets": [],
+      "after": [
+        "canopy"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          7,
+          10
+        ],
+        "max_m": [
+          8,
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "component_id": "ceiling.light_1",
+      "name": "ceiling.light_1",
+      "kind": "box",
+      "operation": "add",
+      "material": "light",
+      "targets": [],
+      "after": [
+        "ceiling.light_0"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          12,
+          7,
+          10
+        ],
+        "max_m": [
+          13,
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "component_id": "ceiling.light_2",
+      "name": "ceiling.light_2",
+      "kind": "box",
+      "operation": "add",
+      "material": "light",
+      "targets": [],
+      "after": [
+        "ceiling.light_1"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          21,
+          7,
+          10
+        ],
+        "max_m": [
+          22,
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "component_id": "ceiling.light_3",
+      "name": "ceiling.light_3",
+      "kind": "box",
+      "operation": "add",
+      "material": "light",
+      "targets": [],
+      "after": [
+        "ceiling.light_2"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          26,
+          7,
+          10
+        ],
+        "max_m": [
+          27,
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "component_id": "shelf.base_0",
+      "name": "shelf.base_0",
+      "kind": "box",
+      "operation": "add",
+      "material": "wood",
+      "targets": [],
+      "after": [
+        "ceiling.light_3"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          2,
+          12
+        ],
+        "max_m": [
+          11,
+          3,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "shelf.top_0",
+      "name": "shelf.top_0",
+      "kind": "box",
+      "operation": "add",
+      "material": "wood",
+      "targets": [],
+      "after": [
+        "shelf.base_0"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          4,
+          12
+        ],
+        "max_m": [
+          11,
+          5,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "shelf.side_0_12",
+      "name": "shelf.side_0_12",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "shelf.top_0"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          3,
+          12
+        ],
+        "max_m": [
+          11,
+          4,
+          13
+        ]
+      }
+    },
+    {
+      "component_id": "shelf.side_0_18",
+      "name": "shelf.side_0_18",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "shelf.side_0_12"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          9,
+          3,
+          18
+        ],
+        "max_m": [
+          11,
+          4,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "shelf.base_1",
+      "name": "shelf.base_1",
+      "kind": "box",
+      "operation": "add",
+      "material": "wood",
+      "targets": [],
+      "after": [
+        "shelf.side_0_18"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          22,
+          2,
+          12
+        ],
+        "max_m": [
+          24,
+          3,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "shelf.top_1",
+      "name": "shelf.top_1",
+      "kind": "box",
+      "operation": "add",
+      "material": "wood",
+      "targets": [],
+      "after": [
+        "shelf.base_1"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          22,
+          4,
+          12
+        ],
+        "max_m": [
+          24,
+          5,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "shelf.side_1_12",
+      "name": "shelf.side_1_12",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "shelf.top_1"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          22,
+          3,
+          12
+        ],
+        "max_m": [
+          24,
+          4,
+          13
+        ]
+      }
+    },
+    {
+      "component_id": "shelf.side_1_18",
+      "name": "shelf.side_1_18",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "shelf.side_1_12"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          22,
+          3,
+          18
+        ],
+        "max_m": [
+          24,
+          4,
+          19
+        ]
+      }
+    },
+    {
+      "component_id": "counter",
+      "name": "counter",
+      "kind": "box",
+      "operation": "add",
+      "material": "wood",
+      "targets": [],
+      "after": [
+        "shelf.side_1_18"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          22,
+          2,
+          9
+        ],
+        "max_m": [
+          27,
+          4,
+          11
+        ]
+      }
+    },
+    {
+      "component_id": "counter.worktop",
+      "name": "counter.worktop",
+      "kind": "box",
+      "operation": "add",
+      "material": "dark",
+      "targets": [],
+      "after": [
+        "counter"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          22,
+          4,
+          9
+        ],
+        "max_m": [
+          27,
+          5,
+          11
+        ]
+      }
+    },
+    {
+      "component_id": "rear.storage",
+      "name": "rear.storage",
+      "kind": "box",
+      "operation": "add",
+      "material": "white",
+      "targets": [],
+      "after": [
+        "counter.worktop"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          18,
+          2,
+          20
+        ],
+        "max_m": [
+          25,
+          5,
+          22
+        ]
+      }
+    },
+    {
+      "component_id": "site.planter_left",
+      "name": "入口L形花池",
+      "kind": "polygon_prism",
+      "operation": "add",
+      "material": "planter",
+      "targets": [],
+      "after": [
+        "rear.storage"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "vertices_xz_m": [
+          [
+            2,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "y_min_m": 2,
+        "y_max_m": 3
+      }
+    },
+    {
+      "component_id": "site.plants_left",
+      "name": "site.plants_left",
+      "kind": "box",
+      "operation": "add",
+      "material": "plants",
+      "targets": [],
+      "after": [
+        "site.planter_left"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          3,
+          3,
+          2
+        ],
+        "max_m": [
+          10,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "component_id": "site.plants_side",
+      "name": "site.plants_side",
+      "kind": "box",
+      "operation": "add",
+      "material": "plants",
+      "targets": [],
+      "after": [
+        "site.plants_left"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          2,
+          3,
+          4
+        ],
+        "max_m": [
+          3,
+          4,
+          9
+        ]
+      }
+    },
+    {
+      "component_id": "site.planter_right",
+      "name": "site.planter_right",
+      "kind": "box",
+      "operation": "add",
+      "material": "planter",
+      "targets": [],
+      "after": [
+        "site.plants_side"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          24,
+          2,
+          2
+        ],
+        "max_m": [
+          31,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "component_id": "site.plants_right",
+      "name": "site.plants_right",
+      "kind": "box",
+      "operation": "add",
+      "material": "plants",
+      "targets": [],
+      "after": [
+        "site.planter_right"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          25,
+          3,
+          2
+        ],
+        "max_m": [
+          30,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "component_id": "site.bench",
+      "name": "site.bench",
+      "kind": "box",
+      "operation": "add",
+      "material": "wood",
+      "targets": [],
+      "after": [
+        "site.plants_right"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          7,
+          2,
+          5
+        ],
+        "max_m": [
+          12,
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "component_id": "site.service_pad",
+      "name": "site.service_pad",
+      "kind": "box",
+      "operation": "add",
+      "material": "planter",
+      "targets": [],
+      "after": [
+        "site.bench"
+      ],
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      },
+      "parameters": {
+        "min_m": [
+          30,
+          2,
+          18
+        ],
+        "max_m": [
+          33,
+          3,
+          23
+        ]
+      }
+    }
+  ],
+  "levels": [
+    {
+      "level_id": "ground",
+      "floor_top_m": 2,
+      "ceiling_bottom_m": 7,
+      "use": "单层商店，室内为工程补全",
+      "provenance": {
+        "status": "design_choice",
+        "basis": "本轮工程设计参数；用于验证生成闭环，不是现实建筑测绘",
+        "fact_ids": [
+          "fact-design-brief"
+        ],
+        "source_ids": [],
+        "image_ids": []
+      }
+    }
+  ],
+  "lighting": {
+    "component_ids": [
+      "ceiling.light_0",
+      "ceiling.light_1",
+      "ceiling.light_2",
+      "ceiling.light_3"
+    ],
+    "simulation_status": "blocks_only_no_game_light_simulation"
+  },
+  "acceptance": {
+    "clear_air_boxes": [
+      {
+        "check_id": "entry.clear",
+        "min_m": [
+          15,
+          2,
+          6
+        ],
+        "max_m": [
+          19,
+          6,
+          9
+        ]
+      },
+      {
+        "check_id": "central_aisle",
+        "min_m": [
+          15,
+          2,
+          9
+        ],
+        "max_m": [
+          19,
+          5,
+          20
+        ]
+      }
+    ],
+    "walk_paths": [
+      {
+        "check_id": "public_access",
+        "start_xyz_m": [
+          17,
+          2,
+          2
+        ],
+        "end_xyz_m": [
+          17,
+          2,
+          19
+        ],
+        "headroom_m": 3
+      },
+      {
+        "check_id": "service_access",
+        "start_xyz_m": [
+          27,
+          2,
+          20
+        ],
+        "end_xyz_m": [
+          29,
+          2,
+          20
+        ],
+        "headroom_m": 3
+      }
+    ],
+    "minimum_level_clearance_m": 3,
+    "profile_relationships": []
+  },
+  "unresolved": [
+    "没有对应现实建筑的测绘尺度。",
+    "当前游戏实例配置未读取，Create导入待实测。",
+    "没有已核验实景参考图；本次不是自动看图复原。"
+  ],
+  "deviations": [
+    {
+      "component_id": null,
+      "description": "仅使用整立方体方块；细小窗框、弧面采用整格表达。",
+      "authorization": "研究样板技术范围；非声称现实原型的精确复原。"
+    }
+  ],
+  "review": {
+    "approved_for_strict_reconstruction": false,
+    "basis": "技术研究样板；事实尺度和游戏验收尚未完成。"
+  },
+  "output": {
+    "format": "java_structure_nbt",
+    "include_air": true,
+    "views": [
+      "front",
+      "back",
+      "left",
+      "right",
+      "iso45"
+    ]
+  },
+  "evidence": {
+    "packet_id": "packet-retail_store",
+    "packet_schema_version": "1.0",
+    "packet_sha256": "c5432df533e2b9a0404b8b8e4ae679dcdc537b50964bdd22f6d927155858c76c",
+    "sources": [],
+    "facts": [
+      {
+        "fact_id": "fact-design-brief",
+        "field": "construction_translation",
+        "value": "制作一栋独立单层便利店技术样板，绿色招牌、玻璃店面、中央入口和少量入口绿化；保留通行空间。",
+        "unit": null,
+        "kind": "suggestion",
+        "status": "proposed",
+        "source_ids": [],
+        "image_ids": [],
+        "derived_from_fact_ids": [],
+        "basis": "用户授权首轮小型建筑与变截面塔楼技术验证；本条为本轮工程提案，不声称实际建筑事实。",
+        "conflict_group": null,
+        "adoption_reason": null
+      }
+    ],
+    "images": [],
+    "selected_image_ids": [],
+    "upstream_component_ids": [],
+    "notes": [
+      "Original packet source/fact/image IDs and epistemic states are retained. Geometry requires a separately reviewed construction overlay."
+    ]
+  },
+  "real_dimensions": {
+    "width": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    },
+    "depth": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    },
+    "height": {
+      "value_m": null,
+      "range_m": null,
+      "status": "unknown",
+      "basis": null,
+      "fact_ids": [],
+      "source_ids": []
+    }
+  },
+  "research": {
+    "model_status": "not_requested",
+    "models": [],
+    "parameter_bindings": [],
+    "reference_set": null
+  },
+  "assembly": {
+    "components": [
+      {
+        "component_id": "site.foundation",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "site.paving",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "store.floor",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "wall.front",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "wall.back",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "wall.left",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "wall.right",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.entry",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.front_left",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "glazing.front_left",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.front_right",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "glazing.front_right",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.left_window",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "glazing.left_window",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.right_window",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "glazing.right_window",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.service_door",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "opening.rear_window",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "glazing.rear_window",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "entry.frame_left",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "entry.frame_right",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "entry.header",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.main",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.upper",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "roof.vent",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "sign.band",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "sign.amber_line",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "sign.emblem_0",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "sign.emblem_1",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "sign.emblem_2",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "canopy",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "ceiling.light_0",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "ceiling.light_1",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "ceiling.light_2",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "ceiling.light_3",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "shelf.base_0",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "shelf.top_0",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "shelf.side_0_12",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "shelf.side_0_18",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "shelf.base_1",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "shelf.top_1",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "shelf.side_1_12",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "shelf.side_1_18",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "counter",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "counter.worktop",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "rear.storage",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "site.planter_left",
+        "parent_id": null,
+        "role": "polygon_prism"
+      },
+      {
+        "component_id": "site.plants_left",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "site.plants_side",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "site.planter_right",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "site.plants_right",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "site.bench",
+        "parent_id": null,
+        "role": "box"
+      },
+      {
+        "component_id": "site.service_pad",
+        "parent_id": null,
+        "role": "box"
+      }
+    ],
+    "allowed_overlaps": [
+      {
+        "earlier": "sign.amber_line",
+        "later": "canopy",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "site.paving",
+        "later": "store.floor",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "wall.front",
+        "later": "entry.frame_left",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "wall.front",
+        "later": "entry.frame_right",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      },
+      {
+        "earlier": "wall.front",
+        "later": "entry.header",
+        "reason": "Existing v0.1 baseline overlap retained during migration; not a structural engineering approval."
+      }
+    ],
+    "overlap_policy": "reject_undeclared"
+  }
+}

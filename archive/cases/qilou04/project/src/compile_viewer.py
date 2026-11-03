@@ -1,0 +1,3 @@
+from pathlib import Path
+import json,sys
+ROOT=Path(__file__).resolve().parents[1];r=ROOT/'runs'/sys.argv[1];s=json.loads((r/'spec.json').read_text());opts=''.join(f'<option value="{b["id"]}">{b["id"]} · {b["name"]} · {b["levels"]}层</option>'for b in s['buildings']);h=(ROOT/'assets/interactive_shell.html').read_text().replace('@@OPTIONS@@',opts).replace('@@DATA@@',(r/'interactive_payload.json').read_text()).replace('@@JS@@',(ROOT/'assets/interactive_compiled.js').read_text());out=ROOT/'deliverables';out.mkdir(exist_ok=True);(out/'Qilou04_Model.html').write_text(h);assert '@@'not in h;print(len(h))

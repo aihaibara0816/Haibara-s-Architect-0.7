@@ -1,0 +1,359 @@
+{
+  "case": "elizabeth_tower",
+  "run": "V1_r02",
+  "passed": true,
+  "checks": [
+    {
+      "name": "NBT hash and block count",
+      "passed": true,
+      "detail": {
+        "sha256": "88a187dcade9687223e9e80db62c832256db1f4d796ba292c5b46a6c4afd758f",
+        "blocks": 112474
+      }
+    },
+    {
+      "name": "deterministic full replay",
+      "passed": true,
+      "detail": "88a187dcade9687223e9e80db62c832256db1f4d796ba292c5b46a6c4afd758f"
+    },
+    {
+      "name": "all blockstates supported",
+      "passed": true,
+      "detail": 49
+    },
+    {
+      "name": "component coordinates equal NBT coordinates",
+      "passed": true,
+      "detail": 112474
+    },
+    {
+      "name": "both emitter materials present",
+      "passed": true,
+      "detail": {
+        "minecraft:glowstone": 22,
+        "minecraft:sea_lantern": 656
+      }
+    },
+    {
+      "name": "partial blocks used",
+      "passed": true,
+      "detail": "slabs + connected panes"
+    },
+    {
+      "name": "192 block tower height",
+      "passed": true,
+      "detail": [
+        [
+          62,
+          194,
+          33
+        ],
+        [
+          62,
+          195,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "four 14 by 14 dial apertures",
+      "passed": true,
+      "detail": [
+        [
+          14,
+          14
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          14,
+          14
+        ]
+      ]
+    },
+    {
+      "name": "clock hands use same visual handedness",
+      "passed": true,
+      "detail": [
+        [
+          [
+            -3,
+            2
+          ],
+          [
+            -2,
+            1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          [
+            -3,
+            2
+          ],
+          [
+            -2,
+            1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          [
+            -3,
+            2
+          ],
+          [
+            -2,
+            1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          [
+            -3,
+            2
+          ],
+          [
+            -2,
+            1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "belfry apertures open on all four sides",
+      "passed": true,
+      "detail": {
+        "clear": 20,
+        "samples": 20
+      }
+    },
+    {
+      "name": "shaft central air retained",
+      "passed": true,
+      "detail": "interior air at sampled point"
+    },
+    {
+      "name": "schem exact readback and module union",
+      "passed": true,
+      "detail": {
+        "modules": 3,
+        "schem": "97f407ec2f2b6d1f9feff82845c440b1e2710313ff477840ddd3d0d399c29b65"
+      }
+    },
+    {
+      "name": "module byte limits",
+      "passed": true,
+      "detail": 150516
+    },
+    {
+      "name": "all planned views rendered",
+      "passed": true,
+      "detail": 8
+    },
+    {
+      "name": "source-bound preview overview.png",
+      "passed": true,
+      "detail": [
+        1600,
+        2300
+      ]
+    },
+    {
+      "name": "source-bound preview clock.png",
+      "passed": true,
+      "detail": [
+        1600,
+        1800
+      ]
+    },
+    {
+      "name": "source-bound preview spire.png",
+      "passed": true,
+      "detail": [
+        1600,
+        1600
+      ]
+    },
+    {
+      "name": "source-bound preview night.png",
+      "passed": true,
+      "detail": [
+        1600,
+        2300
+      ]
+    },
+    {
+      "name": "source-bound preview front.png",
+      "passed": true,
+      "detail": [
+        1300,
+        2350
+      ]
+    },
+    {
+      "name": "source-bound preview base.png",
+      "passed": true,
+      "detail": [
+        1800,
+        1500
+      ]
+    },
+    {
+      "name": "source-bound preview top.png",
+      "passed": true,
+      "detail": [
+        1700,
+        1700
+      ]
+    },
+    {
+      "name": "source-bound preview section.png",
+      "passed": true,
+      "detail": [
+        1550,
+        2100
+      ]
+    }
+  ],
+  "unit_tests": 30,
+  "visual_status": "manual review of overview, front/detail, roof or garden, night and section; fidelity not scored automatically",
+  "not_tested": [
+    "Minecraft import and lighting",
+    "collision/navigation",
+    "texture-pack appearance",
+    "precise decorative carving",
+    "external 3D model fusion"
+  ]
+}

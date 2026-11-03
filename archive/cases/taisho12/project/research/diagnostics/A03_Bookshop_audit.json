@@ -1,0 +1,112 @@
+{
+  "source_nbt_sha256": "41e1d898457b5a5928fe56f2f8735b85a540fa522dacf030be68a3c73204e771",
+  "non_air": 6086,
+  "entries": [
+    {
+      "id": "Bookshop",
+      "pos": [
+        13,
+        3,
+        27
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 8,
+  "use_checks": [
+    {
+      "id": "Bookshop.stairs.bottom",
+      "pos": [
+        5,
+        3,
+        14
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.stairs.top",
+      "pos": [
+        5,
+        9,
+        7
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.browse",
+      "pos": [
+        13,
+        3,
+        21
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.counter",
+      "pos": [
+        15,
+        3,
+        10
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.packing",
+      "pos": [
+        16,
+        3,
+        7
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.read",
+      "pos": [
+        14,
+        9,
+        23
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.work",
+      "pos": [
+        16,
+        9,
+        17
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.bed",
+      "pos": [
+        20,
+        9,
+        10
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 26,
+  "paintings": 2,
+  "official_model_states": 82,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

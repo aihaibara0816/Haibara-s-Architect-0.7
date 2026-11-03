@@ -1,0 +1,79 @@
+def m(s,**p):return S.make(s,**p)
+def put(x,y,z,s,**p):sc.set((int(x),int(y),int(z)),m(s,**p),owner)
+def box(x0,y0,z0,x1,y1,z1,s):
+ if x0<x1 and y0<y1 and z0<z1:sc.fill((x0,y0,z0),(x1,y1,z1),m(s),owner)
+def air(x0,y0,z0,x1,y1,z1):sc.fill((x0,y0,z0),(x1,y1,z1),'minecraft:air',owner)
+def group(id,name):
+ global owner;owner=id;components.setdefault(id,{'id':id,'name':name})
+def line(a,b,s,r=0):
+ for t in np.linspace(0,1,int(max(abs(b[i]-a[i]) for i in range(3))*2+1)):
+  q=[round(a[i]+(b[i]-a[i])*t) for i in range(3)]
+  for dx in range(-r,r+1):
+   for dy in range(-r,r+1):
+    for dz in range(-r,r+1):
+     if dx*dx+dy*dy+dz*dz<=r*r:put(q[0]+dx,q[1]+dy,q[2]+dz,s)
+def disk(cx,cz,r,y,s,inner=-1):
+ for x in range(math.floor(cx-r),math.ceil(cx+r)+1):
+  for z in range(math.floor(cz-r),math.ceil(cz+r)+1):
+   ds=(x-cx)**2+(z-cz)**2
+   if ds<=r*r and (inner<0 or ds>inner*inner):put(x,y,z,s)
+def cyl(cx,cz,r,y0,y1,s,hollow=False):
+ for y in range(y0,y1):disk(cx,cz,r,y,s,r-1.2 if hollow else -1)
+def dome(cx,cz,r,y,s):
+ for dy in range(math.ceil(r)):
+  rr=math.sqrt(max(0,r*r-dy*dy));disk(cx,cz,rr,y+dy,s,max(0,rr-1.3))
+def ring(cx,cz,r,y,s='iron_bars'):
+ for a in np.linspace(0,math.pi*2,math.ceil(r*12)):put(round(cx+r*math.cos(a)),y,round(cz+r*math.sin(a)),s)
+def rail(x0,z0,x1,z1,y):
+ for x in range(x0,x1+1):put(x,y,z0,'iron_bars');put(x,y,z1,'iron_bars')
+ for z in range(z0,z1+1):put(x0,y,z,'iron_bars');put(x1,y,z,'iron_bars')
+def tree(x,z,r=3):
+ box(x-2,2,z-2,x+3,3,z+3,'grass_block');box(x,3,z,x+1,9,z+1,'oak_log')
+ for y,rr in [(7,r-1),(8,r),(9,r),(10,r-1)]:disk(x,z,rr,y,'oak_leaves')
+def lamp(x,z,h=11):
+ box(x,3,z,x+1,h,z+1,'light_gray_concrete');box(x-1,h,z,x+2,h+1,z+1,'light_gray_concrete')
+ for xx in [x-1,x+1]:put(xx,h-1,z,'sea_lantern')
+def planter(x,y,z,w,d):
+ box(x,y,z,x+w,y+1,z+d,'white_concrete');box(x+1,y+1,z+1,x+w-1,y+2,z+d-1,'azalea_leaves')
+def bench(x,y,z,w=5):
+ for xx in range(x,x+w):put(xx,y,z,'dark_oak_slab',type='top');put(xx,y+1,z+1,'dark_oak_trapdoor',facing='south',open='true')
+def table(x,y,z,kind='dining'):
+ # Six seats, a thin supported tabletop and occasional tableware.
+ for xx in [x,x+4]:put(xx,y,z+1,'iron_bars')
+ for xx in range(x,x+5):put(xx,y+1,z+1,'dark_oak_slab' if kind=='dining' else 'smooth_quartz_slab')
+ for xx in [x,x+2,x+4]:put(xx,y,z-1,'dark_oak_stairs',facing='north');put(xx,y,z+3,'dark_oak_stairs',facing='south')
+ if kind=='dining':put(x+2,y,z+1,'dark_oak_planks');put(x+2,y+1,z+1,'cake',bites='0')
+def sofa(x,y,z,w=5):
+ box(x,y,z,x+w,y+1,z+2,'blue_wool');box(x,y+1,z+1,x+w,y+2,z+2,'blue_wool')
+ for xx in [x-1,x+w]:put(xx,y,z,'smooth_quartz_slab',type='top')
+def door(x,y,z,facing='east'):
+ for half,dy in [('lower',0),('upper',1)]:put(x,y+dy,z,'birch_door',facing=facing,half=half,hinge='left',open='false',powered='false')
+ doors.append({'pos':[x,y,z],'facing':facing,'component':owner})
+def bed(x,y,z):
+ put(x,y,z,'white_bed',part='foot',facing='north',occupied='false');put(x,y,z-1,'white_bed',part='head',facing='north',occupied='false');beds.append([x,y,z])
+def stairs(x,z,fy,width=3):
+ # Eight risers, side landing at x+width, continuous 8-block storey pitch.
+ air(x,fy+6,z-8,x+width,fy+8,z+2)
+ for i in range(8):
+  for xx in range(x,x+width):
+   if i:put(xx,fy+i-1,z-i,'smooth_stone')
+   put(xx,fy+i,z-i,'smooth_quartz_stairs',facing='north')
+ stair_routes.append({'x':x,'z':z,'floor_y':fy,'upper_floor_y':fy+8,'width':width,'component':owner})
+def pipe(points,s='light_gray_concrete',r=1):
+ for a,b in zip(points,points[1:]):line(a,b,s,r)
+def pipe_rack(x0,x1,z,y):
+ for x in range(x0,x1+1,12):
+  for zz in [z-4,z+4]:box(x,3,zz,x+1,y,zz+1,'gray_concrete')
+  box(x,y-1,z-4,x+1,y,z+5,'gray_concrete')
+ for dz,mat in [(-2,'light_gray_concrete'),(1,'blue_concrete'),(3,'white_concrete')]:pipe([(x0,y,z+dz),(x1,y,z+dz)],mat,0)
+def conveyor(a,b,w=5):
+ n=max(abs(b[i]-a[i]) for i in range(3));pts=[]
+ for t in np.linspace(0,1,n+1):
+  x,y,z=[round(a[i]+(b[i]-a[i])*t) for i in range(3)];pts.append((x,y,z))
+  if abs(b[0]-a[0])>=abs(b[2]-a[2]):
+   box(x,y,z-w//2,x+1,y+1,z+w//2+1,'gray_concrete');box(x,y+1,z-w//2,x+1,y+3,z-w//2+1,'light_gray_concrete');box(x,y+1,z+w//2,x+1,y+3,z+w//2+1,'light_gray_concrete');box(x,y+3,z-w//2,x+1,y+4,z+w//2+1,'blue_concrete')
+  else:
+   box(x-w//2,y,z,x+w//2+1,y+1,z+1,'gray_concrete');box(x-w//2,y+1,z,x-w//2+1,y+3,z+1,'light_gray_concrete');box(x+w//2,y+1,z,x+w//2+1,y+3,z+1,'light_gray_concrete');box(x-w//2,y+3,z,x+w//2+1,y+4,z+1,'blue_concrete')
+ for i,(x,y,z) in enumerate(pts):
+  if i%12==0 and not 114<=z<133:
+   for dx in [-3,3]:box(x+dx,3,z,x+dx+1,y,z+1,'gray_concrete')

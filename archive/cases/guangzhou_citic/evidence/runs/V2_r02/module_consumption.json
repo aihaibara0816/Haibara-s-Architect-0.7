@@ -1,0 +1,550 @@
+[
+  {
+    "component_id": "lobby.reception.reception",
+    "room_id": "lobby.reception",
+    "kind": "reception",
+    "bounds_xyz": [
+      50,
+      4,
+      69,
+      53,
+      7,
+      71
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 4
+  },
+  {
+    "component_id": "lobby.waiting.lounge",
+    "room_id": "lobby.waiting",
+    "kind": "lounge",
+    "bounds_xyz": [
+      36,
+      4,
+      62,
+      39,
+      7,
+      66
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 7
+  },
+  {
+    "component_id": "office_A.work.desk_group",
+    "room_id": "office_A.work",
+    "kind": "desk_group",
+    "bounds_xyz": [
+      35,
+      25,
+      57,
+      39,
+      28,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 18
+  },
+  {
+    "component_id": "office_A.meeting.meeting",
+    "room_id": "office_A.meeting",
+    "kind": "meeting",
+    "bounds_xyz": [
+      51,
+      25,
+      57,
+      54,
+      28,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "enclosure": true,
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 20
+  },
+  {
+    "component_id": "office_A.rest.lounge",
+    "room_id": "office_A.rest",
+    "kind": "lounge",
+    "bounds_xyz": [
+      51,
+      25,
+      69,
+      53,
+      28,
+      73
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 5
+  },
+  {
+    "component_id": "office_B.work.desk_group",
+    "room_id": "office_B.work",
+    "kind": "meeting",
+    "bounds_xyz": [
+      35,
+      81,
+      57,
+      39,
+      84,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "enclosure": true,
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 24
+  },
+  {
+    "component_id": "office_B.meeting.meeting",
+    "room_id": "office_B.meeting",
+    "kind": "pantry",
+    "bounds_xyz": [
+      51,
+      81,
+      57,
+      54,
+      84,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 11
+  },
+  {
+    "component_id": "office_B.rest.lounge",
+    "room_id": "office_B.rest",
+    "kind": "lounge",
+    "bounds_xyz": [
+      51,
+      81,
+      69,
+      53,
+      84,
+      73
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 5
+  },
+  {
+    "component_id": "lounge.rest.lounge",
+    "room_id": "lounge.rest",
+    "kind": "lounge",
+    "bounds_xyz": [
+      35,
+      130,
+      57,
+      39,
+      133,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 8
+  },
+  {
+    "component_id": "lounge.tea.pantry",
+    "room_id": "lounge.tea",
+    "kind": "pantry",
+    "bounds_xyz": [
+      51,
+      130,
+      57,
+      54,
+      133,
+      61
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 11
+  },
+  {
+    "component_id": "lounge.reading.lounge",
+    "room_id": "lounge.reading",
+    "kind": "lounge",
+    "bounds_xyz": [
+      51,
+      130,
+      65,
+      54,
+      133,
+      69
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 7
+  },
+  {
+    "component_id": "office_A.support.storage",
+    "room_id": "office_A.support",
+    "kind": "storage",
+    "bounds_xyz": [
+      41,
+      25,
+      54,
+      48,
+      28,
+      56
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "printing": true,
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 21
+  },
+  {
+    "component_id": "office_A.public.bench",
+    "room_id": "office_A.public",
+    "kind": "window_bench",
+    "bounds_xyz": [
+      40,
+      25,
+      72,
+      49,
+      28,
+      74
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 15
+  },
+  {
+    "component_id": "office_A.work.second_group",
+    "room_id": "office_A.work",
+    "kind": "desk_group",
+    "bounds_xyz": [
+      35,
+      25,
+      63,
+      39,
+      28,
+      67
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 18
+  },
+  {
+    "component_id": "office_A.work.archive",
+    "room_id": "office_A.work",
+    "kind": "storage",
+    "bounds_xyz": [
+      35,
+      25,
+      67,
+      39,
+      28,
+      69
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "printing": false,
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 12
+  },
+  {
+    "component_id": "office_A.rest.tea",
+    "room_id": "office_A.rest",
+    "kind": "pantry_compact",
+    "bounds_xyz": [
+      51,
+      25,
+      64,
+      54,
+      28,
+      67
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 8
+  },
+  {
+    "component_id": "office_B.support.storage",
+    "room_id": "office_B.support",
+    "kind": "storage",
+    "bounds_xyz": [
+      41,
+      81,
+      54,
+      48,
+      84,
+      56
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "printing": true,
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 21
+  },
+  {
+    "component_id": "office_B.public.bench",
+    "room_id": "office_B.public",
+    "kind": "window_bench",
+    "bounds_xyz": [
+      40,
+      81,
+      72,
+      49,
+      84,
+      74
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 15
+  },
+  {
+    "component_id": "office_B.work.second_group",
+    "room_id": "office_B.work",
+    "kind": "desk_group",
+    "bounds_xyz": [
+      35,
+      81,
+      63,
+      39,
+      84,
+      67
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 18
+  },
+  {
+    "component_id": "office_B.work.archive",
+    "room_id": "office_B.work",
+    "kind": "storage",
+    "bounds_xyz": [
+      35,
+      81,
+      67,
+      39,
+      84,
+      69
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "printing": false,
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 12
+  },
+  {
+    "component_id": "office_B.rest.tea",
+    "room_id": "office_B.rest",
+    "kind": "pantry_compact",
+    "bounds_xyz": [
+      51,
+      81,
+      64,
+      54,
+      84,
+      67
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 8
+  },
+  {
+    "component_id": "lounge.support.storage",
+    "room_id": "lounge.support",
+    "kind": "storage",
+    "bounds_xyz": [
+      41,
+      130,
+      54,
+      48,
+      133,
+      56
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "printing": false,
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 21
+  },
+  {
+    "component_id": "lounge.public.bench",
+    "room_id": "lounge.public",
+    "kind": "window_bench",
+    "bounds_xyz": [
+      40,
+      130,
+      72,
+      49,
+      133,
+      74
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 15
+  },
+  {
+    "component_id": "lounge.rest.second",
+    "room_id": "lounge.rest",
+    "kind": "lounge",
+    "bounds_xyz": [
+      35,
+      130,
+      64,
+      39,
+      133,
+      68
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 8
+  },
+  {
+    "component_id": "lounge.reading.shelves",
+    "room_id": "lounge.reading",
+    "kind": "storage",
+    "bounds_xyz": [
+      51,
+      130,
+      70,
+      53,
+      133,
+      72
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "printing": false,
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 6
+  },
+  {
+    "component_id": "lobby.concierge.counter",
+    "room_id": "lobby.concierge",
+    "kind": "reception",
+    "bounds_xyz": [
+      37,
+      4,
+      58,
+      39,
+      7,
+      60
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 4
+  },
+  {
+    "component_id": "lobby.east_waiting.lounge",
+    "room_id": "lobby.east_waiting",
+    "kind": "lounge",
+    "bounds_xyz": [
+      51,
+      4,
+      61,
+      54,
+      7,
+      65
+    ],
+    "use_faces": [
+      "south",
+      "east"
+    ],
+    "consumer": "guangzhou_citic.interior_v2:furnish",
+    "geometry_status": "generated",
+    "net_blocks_added": 6
+  }
+]

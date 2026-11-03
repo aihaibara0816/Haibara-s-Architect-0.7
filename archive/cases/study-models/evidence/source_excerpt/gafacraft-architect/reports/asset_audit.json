@@ -1,0 +1,64 @@
+[
+  {
+    "name": "reference_selftest",
+    "command": [
+      "python3",
+      "scripts/selftest.py"
+    ],
+    "cwd": "vendor/building_reference",
+    "exit_code": 0
+  },
+  {
+    "name": "packet_template",
+    "command": [
+      "python3",
+      "scripts/validate_packet.py",
+      "references/packet-template.json",
+      "--mode",
+      "template"
+    ],
+    "cwd": "vendor/building_reference",
+    "exit_code": 0
+  },
+  {
+    "name": "scale_smoke",
+    "command": [
+      "python3",
+      "scripts/scale.py",
+      "--meters",
+      "100.5",
+      "--s",
+      "0.5"
+    ],
+    "cwd": "vendor/building_reference",
+    "exit_code": 0
+  },
+  {
+    "name": "buildkit_tests",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "cwd": "vendor/buildkit_v03",
+    "exit_code": 0
+  },
+  {
+    "name": "inspector_tests",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      ".agents/skills/real-to-minecraft/tests",
+      "-v"
+    ],
+    "cwd": "vendor/buildkit_v03",
+    "exit_code": 0
+  }
+]

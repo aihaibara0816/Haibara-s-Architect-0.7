@@ -1,0 +1,1378 @@
+{
+  "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+  "non_air_blocks": 802672,
+  "dimensions": [
+    356,
+    84,
+    250
+  ],
+  "offline_geometry": {
+    "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+    "pass": true,
+    "counts": {
+      "bed_blocks": 954,
+      "supported_small_props": 2874,
+      "external_entries": 101,
+      "public_road_cells": 7709,
+      "public_lane_cells": 4887,
+      "qilou_functional_approaches": 249,
+      "qilou_stair_links": 25,
+      "paired_doors": 79,
+      "urban_units": 383,
+      "urban_stair_links": 171,
+      "urban_furniture": 3206
+    },
+    "buildings": 44,
+    "states": 274,
+    "block_entities": 4313,
+    "paintings": 24,
+    "errors": [],
+    "scope": "Independent NBT state/model availability, supported props, entry/room/furniture flood fill, approximate 0.6×1.8 body and stair records. Doors treated open. Not a Minecraft client test.",
+    "game_status": "pending"
+  },
+  "world_readback": {
+    "block_entity_payload_exact": true,
+    "version": "Java 1.21.1",
+    "data_version": 3955,
+    "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+    "world_offset": [
+      -178,
+      62,
+      -125
+    ],
+    "spawn": [
+      22,
+      65,
+      -4
+    ],
+    "chunks": 468,
+    "scene_chunks": 384,
+    "checked_cells": 8257536,
+    "mismatches": 0,
+    "lighting": "isLightOn=0; game must recalculate on first load",
+    "game": "loaded in vanilla Java 1.21.1; real F2 screenshots captured; interactions not exhaustively tested",
+    "heightmaps": "authored approximations; actual collision/light pending game",
+    "decorative": [
+      "furniture"
+    ],
+    "block_entities": 4313,
+    "entities": 24,
+    "entity_payload_exact": true,
+    "entity_chunks": 17
+  },
+  "variation": {
+    "same_seed_nbt_bytes_identical": true,
+    "replay_files": 45,
+    "source_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+    "variant_seed": 311149,
+    "variant_sha256": "de834b3808ed896a9c4d3dfaf60b4b9295ac01797824bdec82e077b8abf92d3c",
+    "changed_massing": 32,
+    "changed_setbacks": 23,
+    "unique_residential_width_depth_height": 32,
+    "residential_height_histogram": {
+      "7": 3,
+      "4": 7,
+      "11": 1,
+      "3": 5,
+      "6": 6,
+      "5": 4,
+      "2": 2,
+      "8": 3,
+      "12": 1
+    },
+    "shape_histogram": {
+      "rear_cut": 14,
+      "compound": 4,
+      "front_cut": 8,
+      "rect": 6
+    },
+    "variant_offline_audit_pass": true,
+    "preserved_module_blocks_checked": 523202,
+    "allowed_join_connection_updates": 30,
+    "overwritten_module_blocks": 0,
+    "scope": "Authored irregular street/parcel topology with bounded independent massing/household/detail variation. Demonstrated for baseline and one alternative; not arbitrary-city generation.",
+    "changes": [
+      {
+        "id": "A1",
+        "changes": {
+          "d": [
+            31,
+            30
+          ],
+          "floors": [
+            7,
+            6
+          ],
+          "x": [
+            15,
+            16
+          ]
+        }
+      },
+      {
+        "id": "A2",
+        "changes": {
+          "w": [
+            35,
+            33
+          ]
+        }
+      },
+      {
+        "id": "A3",
+        "changes": {
+          "d": [
+            47,
+            46
+          ],
+          "z": [
+            15,
+            16
+          ]
+        }
+      },
+      {
+        "id": "A4",
+        "changes": {
+          "w": [
+            40,
+            38
+          ],
+          "floors": [
+            3,
+            4
+          ],
+          "x": [
+            116,
+            117
+          ],
+          "z": [
+            9,
+            10
+          ]
+        }
+      },
+      {
+        "id": "A5",
+        "changes": {
+          "d": [
+            36,
+            34
+          ],
+          "floors": [
+            6,
+            5
+          ],
+          "z": [
+            15,
+            16
+          ]
+        }
+      },
+      {
+        "id": "B1",
+        "changes": {
+          "w": [
+            41,
+            40
+          ],
+          "d": [
+            24,
+            23
+          ]
+        }
+      },
+      {
+        "id": "B2",
+        "changes": {
+          "d": [
+            33,
+            31
+          ],
+          "floors": [
+            6,
+            5
+          ]
+        }
+      },
+      {
+        "id": "B3",
+        "changes": {
+          "d": [
+            40,
+            38
+          ],
+          "floors": [
+            5,
+            4
+          ],
+          "x": [
+            111,
+            112
+          ]
+        }
+      },
+      {
+        "id": "B4",
+        "changes": {
+          "d": [
+            28,
+            27
+          ]
+        }
+      },
+      {
+        "id": "B5",
+        "changes": {
+          "d": [
+            19,
+            18
+          ],
+          "floors": [
+            2,
+            3
+          ],
+          "x": [
+            179,
+            180
+          ],
+          "z": [
+            64,
+            65
+          ]
+        }
+      },
+      {
+        "id": "C1",
+        "changes": {
+          "d": [
+            32,
+            31
+          ],
+          "floors": [
+            6,
+            7
+          ],
+          "x": [
+            13,
+            14
+          ]
+        }
+      },
+      {
+        "id": "C2",
+        "changes": {
+          "w": [
+            36,
+            35
+          ],
+          "d": [
+            25,
+            24
+          ],
+          "floors": [
+            3,
+            2
+          ],
+          "x": [
+            44,
+            45
+          ]
+        }
+      },
+      {
+        "id": "C3",
+        "changes": {
+          "w": [
+            24,
+            22
+          ],
+          "d": [
+            24,
+            22
+          ],
+          "floors": [
+            7,
+            8
+          ],
+          "x": [
+            42,
+            43
+          ]
+        }
+      },
+      {
+        "id": "C4",
+        "changes": {
+          "w": [
+            19,
+            18
+          ],
+          "floors": [
+            8,
+            7
+          ],
+          "x": [
+            88,
+            89
+          ],
+          "z": [
+            187,
+            188
+          ]
+        }
+      },
+      {
+        "id": "C5",
+        "changes": {
+          "d": [
+            24,
+            23
+          ],
+          "x": [
+            116,
+            117
+          ],
+          "z": [
+            181,
+            182
+          ]
+        }
+      },
+      {
+        "id": "C6",
+        "changes": {
+          "d": [
+            23,
+            21
+          ]
+        }
+      },
+      {
+        "id": "C7",
+        "changes": {
+          "d": [
+            28,
+            26
+          ],
+          "floors": [
+            6,
+            7
+          ],
+          "x": [
+            153,
+            154
+          ],
+          "z": [
+            213,
+            214
+          ]
+        }
+      },
+      {
+        "id": "C8",
+        "changes": {
+          "w": [
+            35,
+            34
+          ],
+          "d": [
+            23,
+            21
+          ],
+          "floors": [
+            5,
+            4
+          ]
+        }
+      },
+      {
+        "id": "C9",
+        "changes": {
+          "floors": [
+            4,
+            5
+          ]
+        }
+      },
+      {
+        "id": "D1",
+        "changes": {
+          "d": [
+            36,
+            34
+          ],
+          "floors": [
+            7,
+            8
+          ],
+          "x": [
+            233,
+            234
+          ]
+        }
+      },
+      {
+        "id": "D2",
+        "changes": {
+          "w": [
+            38,
+            36
+          ],
+          "floors": [
+            4,
+            5
+          ],
+          "x": [
+            265,
+            266
+          ]
+        }
+      },
+      {
+        "id": "D3",
+        "changes": {
+          "w": [
+            28,
+            26
+          ],
+          "d": [
+            45,
+            43
+          ],
+          "floors": [
+            6,
+            5
+          ],
+          "x": [
+            311,
+            312
+          ],
+          "z": [
+            19,
+            20
+          ]
+        }
+      },
+      {
+        "id": "D4",
+        "changes": {
+          "w": [
+            20,
+            19
+          ],
+          "d": [
+            46,
+            45
+          ],
+          "floors": [
+            5,
+            4
+          ],
+          "x": [
+            233,
+            234
+          ],
+          "z": [
+            62,
+            63
+          ]
+        }
+      },
+      {
+        "id": "D5",
+        "changes": {
+          "w": [
+            35,
+            34
+          ],
+          "d": [
+            26,
+            24
+          ],
+          "x": [
+            262,
+            263
+          ],
+          "z": [
+            46,
+            47
+          ]
+        }
+      },
+      {
+        "id": "D6",
+        "changes": {
+          "d": [
+            29,
+            28
+          ],
+          "floors": [
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "id": "D7",
+        "changes": {
+          "d": [
+            34,
+            33
+          ],
+          "floors": [
+            5,
+            4
+          ],
+          "x": [
+            311,
+            312
+          ],
+          "z": [
+            77,
+            78
+          ]
+        }
+      },
+      {
+        "id": "E1",
+        "changes": {
+          "w": [
+            33,
+            32
+          ],
+          "floors": [
+            6,
+            7
+          ],
+          "x": [
+            232,
+            233
+          ],
+          "z": [
+            149,
+            150
+          ]
+        }
+      },
+      {
+        "id": "E2",
+        "changes": {
+          "d": [
+            47,
+            45
+          ],
+          "z": [
+            146,
+            147
+          ]
+        }
+      },
+      {
+        "id": "E3",
+        "changes": {
+          "w": [
+            39,
+            38
+          ],
+          "x": [
+            306,
+            307
+          ]
+        }
+      },
+      {
+        "id": "E4",
+        "changes": {
+          "w": [
+            32,
+            31
+          ]
+        }
+      },
+      {
+        "id": "E5",
+        "changes": {
+          "d": [
+            32,
+            30
+          ],
+          "floors": [
+            3,
+            4
+          ],
+          "x": [
+            274,
+            275
+          ]
+        }
+      },
+      {
+        "id": "E6",
+        "changes": {
+          "w": [
+            34,
+            33
+          ],
+          "floors": [
+            8,
+            7
+          ],
+          "x": [
+            308,
+            309
+          ],
+          "z": [
+            194,
+            195
+          ]
+        }
+      }
+    ],
+    "changed_whole_building_palette": 37,
+    "changed_qilou_roof_type": 4,
+    "changed_household_activity_states": 230,
+    "randomness_channels": [
+      "occupancy",
+      "evening_activity",
+      "business",
+      "street_fixture"
+    ]
+  },
+  "control_check": {
+    "scope": "JavaScript controls and packed draw ranges exercised with DOM/WebGL recorder; not a browser or actual WebGL driver test",
+    "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+    "pass": true,
+    "building_selections": 44,
+    "individual_floors": 201,
+    "control_events": 334,
+    "draw_calls": 985,
+    "packed_buffer_bytes": 124379724,
+    "rotation": true,
+    "zoom": true,
+    "night": true,
+    "cardinals": 4,
+    "parent_selection": true,
+    "mobile_viewport": true
+  },
+  "shader_check": {
+    "pass": true,
+    "scope": "Mesa EGL actual packed attributes, draw ranges, GLSL shaders and pixel readback; browser interaction covered separately; no Minecraft client run",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+    "views": [
+      {
+        "name": "whole",
+        "gid": 0,
+        "floor": 0,
+        "night": 0,
+        "gl_error": 0,
+        "color_std": 38.9403122952297
+      },
+      {
+        "name": "whole_night",
+        "gid": 0,
+        "floor": 0,
+        "night": 1,
+        "gl_error": 0,
+        "color_std": 25.64131402149406
+      },
+      {
+        "name": "A2",
+        "gid": 14,
+        "floor": 0,
+        "night": 0,
+        "gl_error": 0,
+        "color_std": 29.834845198796923
+      },
+      {
+        "name": "N08_floor1",
+        "gid": 7,
+        "floor": 1,
+        "night": 0,
+        "gl_error": 0,
+        "color_std": 33.18783212827699
+      },
+      {
+        "name": "E6_floor8",
+        "gid": 44,
+        "floor": 8,
+        "night": 0,
+        "gl_error": 0,
+        "color_std": 30.04286043613296
+      }
+    ]
+  },
+  "browser_model_check": {
+    "pass": true,
+    "browser": "Chrome Headless Shell 131 / Playwright",
+    "mode": "model",
+    "viewport_checks": [
+      "1400x900",
+      "390px mobile"
+    ],
+    "page_errors": [],
+    "scope": "Actual WebGL2 model load, rendering, selection, floor 3, night, drag rotation and responsive layout"
+  },
+  "game_capture": {
+    "pass": true,
+    "game": "Minecraft Java 1.21.1",
+    "mode": "actual unmodified vanilla client; local singleplayer preview world",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "external_shaders": false,
+    "resource_pack": "vanilla",
+    "capture_method": "Minecraft built-in F2 screenshot; original PNG bytes copied without resizing or recompression",
+    "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+    "source_world": "Qilou04 exported world copy; original deliverable not overwritten by play session",
+    "exterior_views": 12,
+    "interior_views": 11,
+    "day_night_pairs": 23,
+    "gallery_screenshots": 46,
+    "startup_proof": true,
+    "coverage": "Loaded world, real client render, painting/bed/furniture visuals at sampled viewpoints; not exhaustive per-house interactive gameplay test",
+    "audio": "disabled in capture environment",
+    "records": [
+      {
+        "name": "street_west",
+        "file": "street_west.png",
+        "source_f2_file": "2026-10-31_19.27.59.png",
+        "sha256": "37e762b0024af2f77382fbc610bffc107b90f9d0d034ebcfb3e0f8eda297f073",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1518456,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "street_west_night",
+        "file": "street_west_night.png",
+        "source_f2_file": "2026-10-31_19.32.20.png",
+        "sha256": "c3dbf72f8d709766e069d7b80f53553a3d0d5f2f2fe7bea93720608f7849b875",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1621109,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "street_east",
+        "file": "street_east.png",
+        "source_f2_file": "2026-10-31_19.28.10.png",
+        "sha256": "1d693aec10412f82b9ae8346e05fc5103121a0fd6f3ffdd7ca14cbfde5bdbdf4",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1522836,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "street_east_night",
+        "file": "street_east_night.png",
+        "source_f2_file": "2026-10-31_19.32.31.png",
+        "sha256": "9b3a0a5aa789bc73ac35c16294f832a876494fffa84df547397d5272494a74ec",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1463938,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "plaza",
+        "file": "plaza.png",
+        "source_f2_file": "2026-10-31_19.28.21.png",
+        "sha256": "7a8e0a476347602f5566a59a3abb1ac4f81834c037f242a28ac486159eccb4de",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1655928,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "plaza_night",
+        "file": "plaza_night.png",
+        "source_f2_file": "2026-10-31_19.32.42.png",
+        "sha256": "830b0ecae25bfa08f62411f2b2869471bdc183cdfc8ac4148607b8b308a8c992",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1470121,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "lane",
+        "file": "lane.png",
+        "source_f2_file": "2026-10-31_19.28.32.png",
+        "sha256": "0d4f431745aa592cdf3913aeb2cd510f3ff8a4ae3062df7b8e7161f6f109c135",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1425828,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "lane_night",
+        "file": "lane_night.png",
+        "source_f2_file": "2026-10-31_19.32.53.png",
+        "sha256": "9e59809ff89a66301d83987d87b0e4937f4c99468e7ffc8b77bdac01ebcdb774",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1497776,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "arcade",
+        "file": "arcade.png",
+        "source_f2_file": "2026-10-31_19.28.43.png",
+        "sha256": "bb6e7586ea69fb65d9da292ee08505212be4328f6de3d24b2bed734fce97c0d5",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1023622,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "arcade_night",
+        "file": "arcade_night.png",
+        "source_f2_file": "2026-10-31_19.33.04.png",
+        "sha256": "8e60f5637bc8458599ef7924f15b541eb195c60e2c5bd770441f15af3ed34385",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1059642,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "village_entry",
+        "file": "village_entry.png",
+        "source_f2_file": "2026-10-31_19.28.54.png",
+        "sha256": "1ed9c93733cc4262000554ff81d7f49be84cb5621eb6a7b943de36edde3f6ca9",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1437757,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "village_entry_night",
+        "file": "village_entry_night.png",
+        "source_f2_file": "2026-10-31_19.33.15.png",
+        "sha256": "884d08e3dbfa715ca2576db62cde0227fc8043d817a2b6677d1e15a929254b25",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1559720,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "across_road",
+        "file": "across_road.png",
+        "source_f2_file": "2026-10-31_19.29.05.png",
+        "sha256": "c8a4fdbaf38075f5180442cfd925c4852a67dfe65e7cd711514b7827cccb1191",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1855403,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "across_road_night",
+        "file": "across_road_night.png",
+        "source_f2_file": "2026-10-31_19.33.26.png",
+        "sha256": "6a4130e82408dd3fc453e008d998f5fc2832d31b3e2f49cf6b22a9766dc5d3a5",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1824863,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "tree_detail",
+        "file": "tree_detail.png",
+        "source_f2_file": "2026-10-31_19.29.16.png",
+        "sha256": "f8c43906f4a72288ae85835dd57776aa11ba98a0571c22b7b917b6e8d1f57113",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 2121375,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "tree_detail_night",
+        "file": "tree_detail_night.png",
+        "source_f2_file": "2026-10-31_19.33.37.png",
+        "sha256": "7bfadb6b32eea6c33cd9631e4acfd98b0a21631e1a6fe560b65835bca436ecec",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1902130,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "roof_mix",
+        "file": "roof_mix.png",
+        "source_f2_file": "2026-10-31_19.29.28.png",
+        "sha256": "6bf2535cc20264e5d0eadcc3c5ee9ca970b9f69344d191804615872b1438f131",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 2541787,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "roof_mix_night",
+        "file": "roof_mix_night.png",
+        "source_f2_file": "2026-10-31_19.33.48.png",
+        "sha256": "79b0162be2763e028119726e6b1c93fc1c5bbd924bb86bca0261ba54d9c3eebf",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 2355164,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "village_shops",
+        "file": "village_shops.png",
+        "source_f2_file": "2026-10-31_19.27.26.png",
+        "sha256": "78aa2c0bdc90c36a13ded525a50931f472627735fc4a7f6db4f0e4dcb36a67ac",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1216179,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "village_shops_night",
+        "file": "village_shops_night.png",
+        "source_f2_file": "2026-10-31_19.31.47.png",
+        "sha256": "6063ebc716c9429e8b51c80daad2b5a2731453d5ba6cc3c2a0cab0f393ae45dd",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1347005,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "cross_shops",
+        "file": "cross_shops.png",
+        "source_f2_file": "2026-10-31_19.36.08.png",
+        "sha256": "839c31a5a1f00148733d5b81bc58b5fdfbd8fa25e98d5b23f921266cbc333964",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 958737,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "cross_shops_night",
+        "file": "cross_shops_night.png",
+        "source_f2_file": "2026-10-31_19.36.02.png",
+        "sha256": "e72b08bb91de5cfd708a009564ea09a78b90e1d4f332df5a33ffee41949be50d",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1217702,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "night_skyline",
+        "file": "night_skyline.png",
+        "source_f2_file": "2026-10-31_19.27.48.png",
+        "sha256": "a6deb4658dc7d47b75cb16cc3cb7d9d77cc371198ef438c43c9af49ed36e1228",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 2168329,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "night_skyline_night",
+        "file": "night_skyline_night.png",
+        "source_f2_file": "2026-10-31_19.32.09.png",
+        "sha256": "34a9e4f9008189a7d6268ac03f4ebb127d0106161c7f8fc1a632de97ee8d44c5",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 2232679,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "N03_interior",
+        "file": "N03_interior.png",
+        "source_f2_file": "2026-10-31_19.29.39.png",
+        "sha256": "76c758b65fa361807a8eefe24ed400f7dc78c563cbb5b9a3d2f7985e2d5239f9",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1064290,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "N03_interior_night",
+        "file": "N03_interior_night.png",
+        "source_f2_file": "2026-10-31_19.33.59.png",
+        "sha256": "653df215298e9d5ca6c83ead2202dc746664e82f6aa3bf01029574750f86c02e",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1061755,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "N08_interior",
+        "file": "N08_interior.png",
+        "source_f2_file": "2026-10-31_19.29.50.png",
+        "sha256": "9d294d1652cf6f06f7617484ee72a728ca7ad477bb23f98a92b398839804fb7d",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 999808,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "N08_interior_night",
+        "file": "N08_interior_night.png",
+        "source_f2_file": "2026-10-31_19.34.11.png",
+        "sha256": "0831eed86963e73019e0f4d4295a1cb1291c37e54fc0c723bbff874e28dceaa4",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1005401,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "S03_interior",
+        "file": "S03_interior.png",
+        "source_f2_file": "2026-10-31_19.30.01.png",
+        "sha256": "dfa2f0f748fe530068c2b2e1d9d69ce23246022424fa3755867187277631008f",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 962715,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "S03_interior_night",
+        "file": "S03_interior_night.png",
+        "source_f2_file": "2026-10-31_19.34.22.png",
+        "sha256": "46d431761f02f8c425d0e42a8b505553a97f26777725df83feef5bcfa5c091da",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 978108,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "A1_interior",
+        "file": "A1_interior.png",
+        "source_f2_file": "2026-10-31_19.30.12.png",
+        "sha256": "a24c3b69cdda76abd47f4e843f5d4b8f88197e89a42b0710ea318f3aac8ecda9",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 966279,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "A1_interior_night",
+        "file": "A1_interior_night.png",
+        "source_f2_file": "2026-10-31_19.34.33.png",
+        "sha256": "98f5b753089c13f66e6785d02c48fdd4ae950320c9b1a3555dcae9414a20c06d",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 690239,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "A2_interior",
+        "file": "A2_interior.png",
+        "source_f2_file": "2026-10-31_19.30.24.png",
+        "sha256": "e29b64feeb7a104fd950e723c65df1fcf79fbabb662028c3769434dc955b1c39",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1100014,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "A2_interior_night",
+        "file": "A2_interior_night.png",
+        "source_f2_file": "2026-10-31_19.34.44.png",
+        "sha256": "e69c0515fa299130600db4542bcc49f88f0c9040d676891bda066434d358116a",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 708861,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "B3_interior",
+        "file": "B3_interior.png",
+        "source_f2_file": "2026-10-31_19.30.35.png",
+        "sha256": "bbbbdb59de7334fb27e6c682d1b3f8883e0134643ba8bc8fa12af3f1027e552e",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1090452,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "B3_interior_night",
+        "file": "B3_interior_night.png",
+        "source_f2_file": "2026-10-31_19.34.56.png",
+        "sha256": "3ef984666989b95cf6c89f42f3f6b94745bb82e7687a040c00239457b6c55995",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 979378,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "D5_interior",
+        "file": "D5_interior.png",
+        "source_f2_file": "2026-10-31_19.30.46.png",
+        "sha256": "9671be52cd35ed1ebfc2b0dd436ea7e561c29f14548ac7645d6a0f652ac9062f",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1108536,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "D5_interior_night",
+        "file": "D5_interior_night.png",
+        "source_f2_file": "2026-10-31_19.35.07.png",
+        "sha256": "07920c077e9b8c8154bf08cd1682e699352ab78f5258ac4fbb5e0b1287f46193",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1105032,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "E4_interior",
+        "file": "E4_interior.png",
+        "source_f2_file": "2026-10-31_19.30.57.png",
+        "sha256": "b12b2b8548dea5e0dd54f515931a6ae6cf0c761d4a4259f9c9d710d652484117",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 697136,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "E4_interior_night",
+        "file": "E4_interior_night.png",
+        "source_f2_file": "2026-10-31_19.35.17.png",
+        "sha256": "9efabb0a5d50112798542e5f568d7ad1d61d9c250cd70fb9970644a1290abda8",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 617732,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "E2_interior",
+        "file": "E2_interior.png",
+        "source_f2_file": "2026-10-31_19.31.08.png",
+        "sha256": "7a5e67da05f3c86ebc5f2ec812c9a58c3ffef29e344ce5074ced01c8b7cdda51",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 986799,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "E2_interior_night",
+        "file": "E2_interior_night.png",
+        "source_f2_file": "2026-10-31_19.35.28.png",
+        "sha256": "6109fb25ffb5c720a2eded67ab8702c36a344ecb648a974855db9f0351c0c242",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 963974,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "D4_interior",
+        "file": "D4_interior.png",
+        "source_f2_file": "2026-10-31_19.31.19.png",
+        "sha256": "8eb10997571554e99a4d7373b4dd71197a51f95c7c906bd9bdd1aaeb430ca355",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 918884,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "D4_interior_night",
+        "file": "D4_interior_night.png",
+        "source_f2_file": "2026-10-31_19.35.39.png",
+        "sha256": "caf23dd9b24ba9a353d3c69359ddb71da84d5d61903d9fcda58b4ebf570a444b",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 925549,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "E1_interior",
+        "file": "E1_interior.png",
+        "source_f2_file": "2026-10-31_19.31.30.png",
+        "sha256": "50e407e1b7d6ec9b1062a31f628044605e9e4aa6e950aa00f6b2634c2d6f2eb7",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 989011,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "E1_interior_night",
+        "file": "E1_interior_night.png",
+        "source_f2_file": "2026-10-31_19.35.51.png",
+        "sha256": "85b1eab2b75e051061529775e5c29624dcdbe69befd2aae577340e4c9468765b",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1011615,
+        "unaltered_client_png": true
+      },
+      {
+        "name": "startup_proof",
+        "file": "startup_proof.png",
+        "source_f2_file": "2026-10-31_19.26.57.png",
+        "sha256": "5a5a30e076680c6ea5edbcdf9ee67ad7fe0ffe4c0b891c4be6f3479f0a141920",
+        "dimensions": [
+          1920,
+          1080
+        ],
+        "bytes": 1221454,
+        "unaltered_client_png": true
+      }
+    ]
+  },
+  "landscape_and_roofs": {
+    "pass": true,
+    "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+    "buildings": 44,
+    "qilou": 12,
+    "homes": 32,
+    "tall_homes": {
+      "A3": 11,
+      "E2": 12
+    },
+    "large_qilou_frontages": {
+      "N03": 46,
+      "S01": 38,
+      "S04": 51
+    },
+    "qilou_roof_types": {
+      "flat": 6,
+      "gable": 3,
+      "terrace": 1,
+      "hip": 2
+    },
+    "whole_building_palette_counts": {
+      "gray": 8,
+      "cream": 3,
+      "ivory": 8,
+      "rose": 7,
+      "ochre": 5,
+      "brick": 3,
+      "sand": 7,
+      "mint": 3
+    },
+    "planted_ground_cells": 5420,
+    "trees": 26,
+    "banyan_branch_segments": 43,
+    "banyan_leaf_clusters": 25,
+    "scope": "Record and geometry ownership checks; tree silhouette still requires actual image review. This case is original design, not a botanical simulation."
+  },
+  "shopfronts_and_lighting": {
+    "pass": true,
+    "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+    "street_shopfronts": 22,
+    "commercial_ground_floors": 19,
+    "activity_states": {
+      "living": 130,
+      "asleep": 130,
+      "cooking": 56,
+      "bedside": 45,
+      "open": 21,
+      "closing": 1
+    },
+    "street_lights": {
+      "road": 36,
+      "lane": 24,
+      "garden": 4
+    },
+    "upper_cells_compared": 433894,
+    "intentional_upper_light_changes": 1381,
+    "new_shop_blade_cells": 27,
+    "adjacent_bar_connection_changes": 7,
+    "errors": [],
+    "error_count": 0,
+    "scope": "Actual NBT openings, light blocks and upper-building geometry compared to approved R18; general navigation independently checked by audit_district. Visual quality still needs real-client night inspection."
+  },
+  "browser_report_check": {
+    "pass": true,
+    "browser": "Chrome Headless Shell 131 / Playwright",
+    "mode": "report",
+    "viewport_checks": [
+      "1400x900",
+      "390px mobile"
+    ],
+    "page_errors": [],
+    "scope": "Actual report navigation, raw PNG gallery, building selection, interior image and mobile layout"
+  }
+}

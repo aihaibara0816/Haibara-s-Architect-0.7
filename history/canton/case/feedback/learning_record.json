@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-21",
+  "build_id": "V5_r02",
+  "method": "案例规则整理，不是模型训练",
+  "aesthetic_acceptance": "等待用户对 V5 的反馈",
+  "lessons": [
+    {
+      "case": "V4→V5 平台层级",
+      "observation": "V4 使用单一地坪和直条草地，V5 增加首层、承托平台和曲线分区。",
+      "rule": "先确认承托与相对标高，再组织绿化和材质。",
+      "evidence": [
+        "inputs/podium_images.json",
+        "src/v5_geometry.py",
+        "runs/V5_r02/site_validation.json"
+      ],
+      "tested": "本案例几何与预览",
+      "next_check": "用户同相机反馈及游戏实地通行"
+    },
+    {
+      "case": "模型与图片取舍",
+      "observation": "保留 SKP 塔身空间走势；塔冠沿用 A；新广场依据建成年代照片。",
+      "rule": "按构件和证据能力选择，不取整套坐标的平均值。",
+      "evidence": [
+        "runs/V5_r02/component_decisions.json",
+        "history/tower_delta.json"
+      ],
+      "tested": "Y≥12 最终塔体状态保持",
+      "next_check": "其他建筑的迁移与冲突案例"
+    },
+    {
+      "case": "删减 −1F",
+      "observation": "双椭圆底面截在 1F，地上边缘与通向上层的平台保留。",
+      "rule": "把范围适配、截断标高与实景事实分开记录。",
+      "evidence": [
+        "inputs/v5_parameters.json",
+        "runs/V5_r02/site_validation.json"
+      ],
+      "tested": "无负一层使用构件、中心开口与地面检查",
+      "next_check": "用户确认是否保留当前地上椭圆表达"
+    },
+    {
+      "case": "台阶交接失败",
+      "observation": "首轮两组南端台阶各自生成，但交接丢一级。r02 修复。",
+      "rule": "在最终合成场景检验接口，不能只验单个构件。",
+      "evidence": [
+        "runs/V5_r01/site_validation.json",
+        "runs/V5_r02/site_validation.json"
+      ],
+      "tested": "最终台阶支承与两格净空",
+      "next_check": "实际 Minecraft 碰撞和邻接更新"
+    }
+  ]
+}

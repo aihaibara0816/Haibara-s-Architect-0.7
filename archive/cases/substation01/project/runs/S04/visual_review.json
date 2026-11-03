@@ -1,0 +1,16 @@
+{
+  "source_nbt_sha256": "be2a371a680a03c5ba89e65f6bd6245c0db72a0c3e601ef42f6fe9b76f0e28cc",
+  "review_scope": "architectural shape and occupied-block routes; not electrical certification",
+  "observations": [
+    "Equipment is arranged as an outdoor AIS station with separate incoming, transformer and outgoing fields.",
+    "Transformer radiator ribs, horizontal conservators, bushing stems, firewalls and containment basins are modeled.",
+    "No broad lawn inside the yard; only three entry tree pits.",
+    "Control, switchgear and workshop buildings have interior fixtures and tested selected access paths."
+  ],
+  "limits": [
+    "Vanilla chains represent conductors with stepped geometry.",
+    "Small hardware, gauges and electrical components are voxel approximations.",
+    "Electrical protection, load flow, earthing mesh and actual statutory clearances are not simulated.",
+    "Browser preview interactions verified in Chrome 156; Minecraft checks not executed."
+  ]
+}

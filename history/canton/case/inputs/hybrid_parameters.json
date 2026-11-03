@@ -1,0 +1,46 @@
+{
+  "schema": "canton-hybrid-0.1",
+  "revision": "V3_r01",
+  "target_height_blocks": 280,
+  "size_xyz": [
+    56,
+    282,
+    56
+  ],
+  "frame": {
+    "column_count": 24,
+    "ring_count": 46,
+    "sample_step_blocks": 0.25,
+    "body_preserved_until_y": 204.0,
+    "column_material": "column",
+    "ring_material": "ring",
+    "brace_material": "brace",
+    "brace_step": 1
+  },
+  "enclosure": {
+    "inset_blocks": 3.0,
+    "bands_from": "inputs/common.json",
+    "minimum_radii": [
+      3.7,
+      3.2
+    ]
+  },
+  "crown": {
+    "track_center_y": 213.0,
+    "tilt_amplitude_blocks": 1.0,
+    "radius_adjust_blocks": 0.0,
+    "capsule_count": 16,
+    "interface_fit_y": 206.0,
+    "terrace_enabled": true
+  },
+  "mast": {
+    "source": "B_photo_stepped",
+    "center": "snap_to_crown_center_cell",
+    "height_end_exclusive": 282
+  },
+  "feedback_policy": {
+    "requires_geometry_hash": true,
+    "new_run_required": true,
+    "import_does_not_execute": true
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "case": "Substation01",
+  "title": "新港枢纽变电站",
+  "route": "original Minecraft industrial infrastructure design",
+  "version": "S04",
+  "units": "blocks; approximate building scale, not electrical engineering clearances",
+  "axes": "east +X, north -Z, Y up",
+  "size_xyz": [
+    256,
+    64,
+    240
+  ],
+  "design_brief": {
+    "voltage_theme": "220/110/10 kV",
+    "transformers": 2,
+    "220kV_incoming": 2,
+    "110kV_outgoing": 4,
+    "10kV_feeders": 12,
+    "yard_type": "outdoor AIS visual vocabulary",
+    "surface": "gravel and concrete; greenery only at entrance",
+    "materials": "pale concrete, charcoal steel, porcelain ribbed insulators, restrained teal accents",
+    "electrical_simulation": false
+  },
+  "spatial_spec": {
+    "rail_or_factory_assets_modified": false,
+    "west_incoming_towers_x": 12,
+    "220yard": [
+      40,
+      38,
+      112,
+      172
+    ],
+    "transformer_centres": [
+      [
+        141,
+        64
+      ],
+      [
+        141,
+        122
+      ]
+    ],
+    "110yard": [
+      170,
+      38,
+      235,
+      146
+    ],
+    "control_building": [
+      40,
+      185,
+      94,
+      222
+    ],
+    "switchgear_hall": [
+      112,
+      185,
+      194,
+      222
+    ],
+    "workshop": [
+      204,
+      185,
+      236,
+      222
+    ],
+    "main_gate": [
+      96,
+      234,
+      108,
+      240
+    ],
+    "road_finished_y": 7,
+    "building_floor_y": [
+      7,
+      13
+    ],
+    "cable_trench_floor_y": 4,
+    "walk_headroom_cells": 2
+  },
+  "electrical_relationships": [
+    [
+      "grid_A",
+      "220yard"
+    ],
+    [
+      "grid_B",
+      "220yard"
+    ],
+    [
+      "220yard",
+      "T1"
+    ],
+    [
+      "220yard",
+      "T2"
+    ],
+    [
+      "T1",
+      "110yard"
+    ],
+    [
+      "T2",
+      "110yard"
+    ],
+    [
+      "T1",
+      "10hall"
+    ],
+    [
+      "T2",
+      "10hall"
+    ],
+    [
+      "110yard",
+      "regional_feeders"
+    ],
+    [
+      "10hall",
+      "industrial_park"
+    ],
+    [
+      "10hall",
+      "rail_depot"
+    ]
+  ],
+  "boundary": "Voltage labels and connections are architectural intent. Equipment sizes and conductor geometry are artistic approximations; no protection or electrical clearance design certification."
+}

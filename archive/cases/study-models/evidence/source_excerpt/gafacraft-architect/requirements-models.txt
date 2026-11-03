@@ -1,0 +1,9 @@
+# Tested optional model-research dependencies; core engine can run without these.
+-r requirements.txt
+openskp==1.3.0
+trimesh==5.1.1
+pycollada==0.9.3
+defusedxml==0.7.1
+numpy==2.5.4
+mapbox-earcut==2.1.0
+shapely==2.2.0

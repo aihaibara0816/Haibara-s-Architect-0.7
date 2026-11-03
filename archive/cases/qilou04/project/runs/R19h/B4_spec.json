@@ -1,0 +1,735 @@
+{
+  "id": "B4",
+  "name": "巷口维修铺",
+  "size": [
+    27,
+    84,
+    31
+  ],
+  "floors": [
+    2,
+    7,
+    12,
+    17
+  ],
+  "entry": [
+    3,
+    3,
+    21
+  ],
+  "rooms": [
+    {
+      "id": "B4.F01.L.home",
+      "unit_id": "B4.F01.L",
+      "floor_id": "B4.F01",
+      "function": "living",
+      "bounds_xyz": [
+        158,
+        3,
+        78,
+        168,
+        6,
+        83
+      ],
+      "entrances": [
+        [
+          159,
+          3,
+          78
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        14,
+        3,
+        23,
+        24,
+        6,
+        28
+      ]
+    },
+    {
+      "id": "B4.F01.L.bath",
+      "unit_id": "B4.F01.L",
+      "floor_id": "B4.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        165,
+        3,
+        80,
+        168,
+        6,
+        83
+      ],
+      "entrances": [
+        [
+          165,
+          3,
+          80
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        21,
+        3,
+        25,
+        24,
+        6,
+        28
+      ]
+    },
+    {
+      "id": "B4.F01.R.repair",
+      "unit_id": "B4.F01.R",
+      "floor_id": "B4.F01",
+      "function": "repair",
+      "bounds_xyz": [
+        148,
+        3,
+        57,
+        168,
+        6,
+        74
+      ],
+      "entrances": [
+        [
+          150,
+          3,
+          73
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        4,
+        3,
+        2,
+        24,
+        6,
+        19
+      ]
+    },
+    {
+      "id": "B4.F01.R.bath",
+      "unit_id": "B4.F01.R",
+      "floor_id": "B4.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        165,
+        3,
+        71,
+        168,
+        6,
+        74
+      ],
+      "entrances": [
+        [
+          165,
+          3,
+          71
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        21,
+        3,
+        16,
+        24,
+        6,
+        19
+      ]
+    },
+    {
+      "id": "B4.F02.L.home",
+      "unit_id": "B4.F02.L",
+      "floor_id": "B4.F02",
+      "function": "living",
+      "bounds_xyz": [
+        158,
+        8,
+        78,
+        168,
+        11,
+        83
+      ],
+      "entrances": [
+        [
+          159,
+          8,
+          78
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        14,
+        8,
+        23,
+        24,
+        11,
+        28
+      ]
+    },
+    {
+      "id": "B4.F02.L.bath",
+      "unit_id": "B4.F02.L",
+      "floor_id": "B4.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        165,
+        8,
+        80,
+        168,
+        11,
+        83
+      ],
+      "entrances": [
+        [
+          165,
+          8,
+          80
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        21,
+        8,
+        25,
+        24,
+        11,
+        28
+      ]
+    },
+    {
+      "id": "B4.F02.R.home",
+      "unit_id": "B4.F02.R",
+      "floor_id": "B4.F02",
+      "function": "living",
+      "bounds_xyz": [
+        148,
+        8,
+        57,
+        168,
+        11,
+        74
+      ],
+      "entrances": [
+        [
+          150,
+          8,
+          73
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        4,
+        8,
+        2,
+        24,
+        11,
+        19
+      ]
+    },
+    {
+      "id": "B4.F02.R.bath",
+      "unit_id": "B4.F02.R",
+      "floor_id": "B4.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        165,
+        8,
+        71,
+        168,
+        11,
+        74
+      ],
+      "entrances": [
+        [
+          165,
+          8,
+          71
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        21,
+        8,
+        16,
+        24,
+        11,
+        19
+      ]
+    },
+    {
+      "id": "B4.F02.R.bedroom",
+      "unit_id": "B4.F02.R",
+      "floor_id": "B4.F02",
+      "function": "bedroom",
+      "bounds_xyz": [
+        148,
+        8,
+        57,
+        155,
+        11,
+        62
+      ],
+      "entrances": [
+        [
+          152,
+          8,
+          61
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        4,
+        8,
+        2,
+        11,
+        11,
+        7
+      ]
+    },
+    {
+      "id": "B4.F03.L.home",
+      "unit_id": "B4.F03.L",
+      "floor_id": "B4.F03",
+      "function": "living",
+      "bounds_xyz": [
+        158,
+        13,
+        78,
+        168,
+        16,
+        83
+      ],
+      "entrances": [
+        [
+          159,
+          13,
+          78
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        14,
+        13,
+        23,
+        24,
+        16,
+        28
+      ]
+    },
+    {
+      "id": "B4.F03.L.bath",
+      "unit_id": "B4.F03.L",
+      "floor_id": "B4.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        165,
+        13,
+        80,
+        168,
+        16,
+        83
+      ],
+      "entrances": [
+        [
+          165,
+          13,
+          80
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        21,
+        13,
+        25,
+        24,
+        16,
+        28
+      ]
+    },
+    {
+      "id": "B4.F03.R.home",
+      "unit_id": "B4.F03.R",
+      "floor_id": "B4.F03",
+      "function": "living",
+      "bounds_xyz": [
+        148,
+        13,
+        57,
+        168,
+        16,
+        74
+      ],
+      "entrances": [
+        [
+          150,
+          13,
+          73
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        4,
+        13,
+        2,
+        24,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "B4.F03.R.bath",
+      "unit_id": "B4.F03.R",
+      "floor_id": "B4.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        165,
+        13,
+        71,
+        168,
+        16,
+        74
+      ],
+      "entrances": [
+        [
+          165,
+          13,
+          71
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        21,
+        13,
+        16,
+        24,
+        16,
+        19
+      ]
+    },
+    {
+      "id": "B4.F03.R.bedroom",
+      "unit_id": "B4.F03.R",
+      "floor_id": "B4.F03",
+      "function": "bedroom",
+      "bounds_xyz": [
+        148,
+        13,
+        57,
+        155,
+        16,
+        62
+      ],
+      "entrances": [
+        [
+          152,
+          13,
+          61
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        4,
+        13,
+        2,
+        11,
+        16,
+        7
+      ]
+    },
+    {
+      "id": "B4.F04.L.home",
+      "unit_id": "B4.F04.L",
+      "floor_id": "B4.F04",
+      "function": "living",
+      "bounds_xyz": [
+        158,
+        18,
+        78,
+        168,
+        21,
+        83
+      ],
+      "entrances": [
+        [
+          159,
+          18,
+          78
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        14,
+        18,
+        23,
+        24,
+        21,
+        28
+      ]
+    },
+    {
+      "id": "B4.F04.L.bath",
+      "unit_id": "B4.F04.L",
+      "floor_id": "B4.F04",
+      "function": "bathroom",
+      "bounds_xyz": [
+        165,
+        18,
+        80,
+        168,
+        21,
+        83
+      ],
+      "entrances": [
+        [
+          165,
+          18,
+          80
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        21,
+        18,
+        25,
+        24,
+        21,
+        28
+      ]
+    },
+    {
+      "id": "B4.F04.R.home",
+      "unit_id": "B4.F04.R",
+      "floor_id": "B4.F04",
+      "function": "living",
+      "bounds_xyz": [
+        148,
+        18,
+        57,
+        168,
+        21,
+        74
+      ],
+      "entrances": [
+        [
+          150,
+          18,
+          73
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        4,
+        18,
+        2,
+        24,
+        21,
+        19
+      ]
+    },
+    {
+      "id": "B4.F04.R.bath",
+      "unit_id": "B4.F04.R",
+      "floor_id": "B4.F04",
+      "function": "bathroom",
+      "bounds_xyz": [
+        165,
+        18,
+        71,
+        168,
+        21,
+        74
+      ],
+      "entrances": [
+        [
+          165,
+          18,
+          71
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        21,
+        18,
+        16,
+        24,
+        21,
+        19
+      ]
+    },
+    {
+      "id": "B4.F04.R.bedroom",
+      "unit_id": "B4.F04.R",
+      "floor_id": "B4.F04",
+      "function": "bedroom",
+      "bounds_xyz": [
+        148,
+        18,
+        57,
+        155,
+        21,
+        62
+      ],
+      "entrances": [
+        [
+          152,
+          18,
+          61
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        4,
+        18,
+        2,
+        11,
+        21,
+        7
+      ]
+    }
+  ],
+  "uses": [],
+  "doors": [],
+  "lights": [],
+  "stairs": [],
+  "groups": [],
+  "sources": [],
+  "kind": "front_cut",
+  "program": "repair",
+  "urban": {
+    "id": "B4",
+    "name": "巷口维修铺",
+    "x": 147,
+    "z": 56,
+    "w": 22,
+    "d": 28,
+    "floors": 4,
+    "rotation": 3,
+    "ground": "repair",
+    "shape": "front_cut",
+    "cut": 4,
+    "base_y": 3,
+    "palette": "rose",
+    "maintenance": 0.7777188638785271,
+    "balcony": true,
+    "street_role": "frontage",
+    "extra_shop_entry": false,
+    "corner_shop": false
+  },
+  "unit_count": 8,
+  "main_entries": [
+    {
+      "id": "B4",
+      "entry": [
+        147,
+        3,
+        76
+      ],
+      "outside": [
+        146,
+        3,
+        76
+      ],
+      "core_landing": [
+        155,
+        3,
+        78
+      ],
+      "width": 2
+    },
+    {
+      "id": "B4.shop",
+      "entry": [
+        147,
+        3,
+        63
+      ],
+      "outside": [
+        146,
+        3,
+        63
+      ],
+      "width": 2,
+      "kind": "repair",
+      "unit_id": "B4.F01.R",
+      "role": "customer"
+    },
+    {
+      "id": "B4.street.R",
+      "unit_id": "B4.F01.R",
+      "entry": [
+        147,
+        3,
+        67
+      ],
+      "inside": [
+        148,
+        3,
+        67
+      ],
+      "outside": [
+        146,
+        3,
+        67
+      ],
+      "width": 2,
+      "kind": "repair",
+      "role": "customer",
+      "face": "west"
+    }
+  ],
+  "upper_starts": {},
+  "stair_runs": [],
+  "family": "village",
+  "placement": {
+    "id": "B4",
+    "name": "巷口维修铺",
+    "origin": [
+      144,
+      0,
+      55
+    ],
+    "turn": 0,
+    "w": 27,
+    "d": 31,
+    "family": "village",
+    "kind": "front_cut",
+    "program": "repair",
+    "lot": {
+      "id": "B4",
+      "name": "巷口维修铺",
+      "x": 147,
+      "z": 56,
+      "w": 22,
+      "d": 28,
+      "floors": 4,
+      "rotation": 3,
+      "ground": "repair",
+      "shape": "front_cut",
+      "cut": 4,
+      "base_y": 3,
+      "palette": "rose",
+      "maintenance": 0.7777188638785271,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    "facade_revision": {
+      "palette": "rose",
+      "wall": "white_terracotta",
+      "roof": "flat_service",
+      "roof_label": "平屋顶与生活设备"
+    }
+  },
+  "source_nbt_sha256": "b2cbe29e015b3cdf2ee33dc23e35fb8536e05d5ef3e3ec2dd4115cba5673159b",
+  "size_xyz": [
+    27,
+    84,
+    31
+  ],
+  "non_air": 8223,
+  "block_entities": 60,
+  "entities": 0
+}

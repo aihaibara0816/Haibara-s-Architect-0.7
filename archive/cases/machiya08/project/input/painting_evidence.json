@@ -1,0 +1,24 @@
+{
+  "version": "Java 1.21.1",
+  "client_sha1": "30c73b1c5da787909b2f73340419fdf13b9def88",
+  "mapping_sha1": "2244b6f072256667bcd9a73df124d6c58de77992",
+  "sources": [
+    "https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials",
+    "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar"
+  ],
+  "variants": {
+    "plant": [
+      1,
+      1
+    ],
+    "wasteland": [
+      1,
+      1
+    ],
+    "kebab": [
+      1,
+      1
+    ]
+  },
+  "checks": "Registry JSON dimensions and textures read from verified client JAR; official mapping identifies Painting cjc and BlockAttachedEntity cix. Constant-pool strings confirm variant/facing/TileX/TileY/TileZ. Not executed in client."
+}

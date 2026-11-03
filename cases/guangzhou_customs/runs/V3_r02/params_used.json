@@ -1,0 +1,473 @@
+{
+  "schema": "haf-explicit-case-1",
+  "case": "guangzhou_customs",
+  "case_version": "0.3.0",
+  "seed": 202610231,
+  "identity": {
+    "name": "广州海关新业务技术综合楼",
+    "address": "花城大道83号",
+    "user_location_conflict": "沿用用户标注照片所示花城大道83号新海关；非沿江旧海关"
+  },
+  "frame": {
+    "size_xyz": [
+      126,
+      148,
+      116
+    ],
+    "ground_y": 4,
+    "center_x": 63,
+    "blocks_per_metre": 1,
+    "local_east": "+X",
+    "local_north": "-Z",
+    "front": "+Z",
+    "geographic_bearing": "unverified",
+    "packet_mapping": "原资料包Z朝后，案例Z朝前；Z符号反转，未做地理配准"
+  },
+  "height": {
+    "study_envelope": 137,
+    "reported_candidates_m": [
+      103,
+      114,
+      137
+    ],
+    "status": "conflicted; editable study envelope, not a surveyed 1:1 claim"
+  },
+  "podium": {
+    "rect": [
+      13,
+      16,
+      114,
+      87
+    ],
+    "top": 22,
+    "floor_levels": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "roof_surface": "smooth_stone",
+    "roof_surface_note": "后部居中屋面的绿灰色代理；不推定草坪或铜材质。",
+    "glass_pavilions": [
+      [
+        31,
+        24,
+        50,
+        36
+      ],
+      [
+        77,
+        24,
+        96,
+        36
+      ]
+    ],
+    "pavilion_height": 8,
+    "side_arcades": {
+      "normal": [
+        1,
+        0
+      ],
+      "wall_x": 113,
+      "centers_z": [
+        42,
+        57,
+        72
+      ],
+      "width": 7,
+      "bottom": 3,
+      "spring": 12,
+      "note": "V2不消费此V1字段；由v2.side_portal替代，保留以对照历史"
+    },
+    "roof_tinted_regions": [
+      [
+        27,
+        18,
+        100,
+        43
+      ]
+    ]
+  },
+  "tower": {
+    "main_rect": [
+      25,
+      45,
+      102,
+      74
+    ],
+    "central_rect": [
+      50,
+      52,
+      77,
+      76
+    ],
+    "center_top": 113,
+    "wing_top": 104,
+    "inner_front_z": 70,
+    "outer_front_z": 73,
+    "center_front_z": 75,
+    "middle_front_z": 72,
+    "floor_levels": [
+      22,
+      26,
+      30,
+      34,
+      38,
+      42,
+      46,
+      50,
+      54,
+      58,
+      62,
+      66,
+      70,
+      74,
+      78,
+      82,
+      86,
+      90,
+      94,
+      98,
+      102
+    ],
+    "upper_floor_levels": [
+      106,
+      110
+    ],
+    "outer_pair_windows": [
+      29,
+      33,
+      93,
+      97
+    ],
+    "inner_windows": [
+      40,
+      44,
+      48,
+      78,
+      82,
+      86
+    ],
+    "center_edge_windows": [
+      52,
+      74
+    ],
+    "center_windows": [
+      57,
+      60,
+      63,
+      66,
+      69
+    ]
+  },
+  "crown": {
+    "arch_width": 11,
+    "arch_bottom": 96,
+    "arch_spring": 104,
+    "arch_top": 110,
+    "clock_center_xz": [
+      63,
+      64
+    ],
+    "clock_base": 114,
+    "clock_roof": 124,
+    "clock_radius": 6,
+    "dial_radius": 4.5,
+    "dial_y": 119,
+    "clock_time": [
+      10,
+      10
+    ],
+    "dome_rise": 3,
+    "spire_base": 127,
+    "spire_top": 137,
+    "unseen_clock_faces": "四面钟的后两面按构造连续性补全，照片只确认相邻两面"
+  },
+  "entrance": {
+    "front_z": 95,
+    "wall_z": 86,
+    "column_x": [
+      49,
+      53,
+      73,
+      77
+    ],
+    "floor_above_grade": 3,
+    "canopy_bottom": 15,
+    "canopy_top": 19,
+    "clear_opening_x": [
+      56,
+      71
+    ]
+  },
+  "materials": {
+    "main_stone": "smooth_quartz",
+    "panel_stone": "quartz_block",
+    "base_stone": "smooth_sandstone",
+    "glass": "gray_stained_glass_pane",
+    "cap": "smooth_stone_slab"
+  },
+  "lighting": {
+    "namespace": "guangzhou-customs-v1",
+    "off_probability": 0.5,
+    "warm_probability": 0.25,
+    "cool_probability": 0.25,
+    "fidelity": "游戏表现方案；尚无可用同楼夜景照，非实景灯位复原",
+    "aviation": "红石火把为细针端部比例替代；非真实灯具位置或航空规范证明"
+  },
+  "scope": [
+    "主塔",
+    "钟冠",
+    "一体基座",
+    "柱式入口",
+    "简化地景",
+    "楼板与局部伪内饰"
+  ],
+  "estimates": [
+    "保持V1/V2的137格总高、126×148×116包围盒和相机，便于比较；不是精确1:1。",
+    "倒T平面由用户标注与OSM粗轮廓共同支持；具体边长与拐点是本版建模假设。",
+    "高层屋顶在斜卫星图中的偏移不直接转成裙楼轮廓；不同标高分开建模。",
+    "中央体后墙由z44收至z52，中央下段与上段均27×24格，钟室13×13格；精确尺寸仍待核实。",
+    "三拱后入口沿模型中轴布置，照片支持拱券形式，绝对朝向与具体位置仍需核实。",
+    "伪内饰、混合暖冷窗灯及小型地景沿用游戏设计；未进Minecraft测试。"
+  ],
+  "v2": {
+    "podium_masses": [
+      [
+        13,
+        72,
+        114,
+        87
+      ],
+      [
+        25,
+        16,
+        102,
+        72
+      ]
+    ],
+    "tower_masses": [
+      [
+        25,
+        45,
+        38,
+        74
+      ],
+      [
+        38,
+        54,
+        50,
+        71
+      ],
+      [
+        77,
+        54,
+        89,
+        71
+      ],
+      [
+        89,
+        45,
+        102,
+        74
+      ]
+    ],
+    "upper_center_rect": [
+      50,
+      52,
+      77,
+      76
+    ],
+    "rear_window_bands": [
+      {
+        "xs": [
+          29,
+          34,
+          93,
+          98
+        ],
+        "z": 45
+      },
+      {
+        "xs": [
+          41,
+          46,
+          80,
+          85
+        ],
+        "z": 54
+      },
+      {
+        "xs": [
+          53,
+          58,
+          63,
+          68,
+          73
+        ],
+        "z": 52
+      }
+    ],
+    "side_window_zs": [
+      49,
+      54,
+      59,
+      64,
+      69
+    ],
+    "dimension_status": "block hypotheses from multiple views; not measured ratios",
+    "geometry_intent": "V3保留V2塔身细节消费者；主体轮廓由倒T裙楼和收进中央后墙重新约束。"
+  },
+  "v3": {
+    "podium_components": [
+      {
+        "component_id": "podium.front_bar",
+        "rect": [
+          13,
+          72,
+          114,
+          87
+        ]
+      },
+      {
+        "component_id": "podium.centered_stem",
+        "rect": [
+          25,
+          16,
+          102,
+          72
+        ]
+      }
+    ],
+    "symmetry_axis_x": 63,
+    "rear_portal": {
+      "wall_z": 16,
+      "span_x": [
+        43,
+        84
+      ],
+      "centres_x": [
+        51,
+        63,
+        75
+      ],
+      "confidence": "中低：中轴后门按用户形态解释；三拱细节来自img-nc-11，具体朝向/位置未测绘"
+    },
+    "podium_window_segments": [
+      {
+        "id": "stem_left",
+        "normal": [
+          -1,
+          0
+        ],
+        "wall": 25,
+        "centres": [
+          22,
+          28,
+          34,
+          40,
+          46,
+          52,
+          58,
+          64,
+          70
+        ]
+      },
+      {
+        "id": "stem_right",
+        "normal": [
+          1,
+          0
+        ],
+        "wall": 101,
+        "centres": [
+          22,
+          28,
+          34,
+          40,
+          46,
+          52,
+          58,
+          64,
+          70
+        ]
+      },
+      {
+        "id": "front_bar_left",
+        "normal": [
+          -1,
+          0
+        ],
+        "wall": 13,
+        "centres": [
+          76
+        ]
+      },
+      {
+        "id": "front_bar_right",
+        "normal": [
+          1,
+          0
+        ],
+        "wall": 113,
+        "centres": [
+          76
+        ]
+      },
+      {
+        "id": "left_return",
+        "normal": [
+          0,
+          -1
+        ],
+        "wall": 72,
+        "centres": [
+          17,
+          22
+        ]
+      },
+      {
+        "id": "right_return",
+        "normal": [
+          0,
+          -1
+        ],
+        "wall": 72,
+        "centres": [
+          104,
+          109
+        ]
+      },
+      {
+        "id": "rear_flanks",
+        "normal": [
+          0,
+          -1
+        ],
+        "wall": 16,
+        "centres": [
+          30,
+          36,
+          90,
+          96
+        ]
+      }
+    ],
+    "coordinates": "前+Z，后-Z，左右以模型坐标为准；东北拍摄假设未据此强行旋转全模型",
+    "evidence_priority": [
+      "user annotated oblique satellite: topology only",
+      "OSM way 313905695: coarse footprint",
+      "img-nc-11: roof pavilions, green-gray roof and three arches",
+      "front photos: preserved front facade"
+    ],
+    "dimension_status": "101格前横段、77格居中后段、左右各12格退让；为整数化建模假设，不是地理配准测量",
+    "feedback_status": "V2单侧突起被用户否定；V3待用户审阅",
+    "not_claimed": [
+      "实测正射平面",
+      "自动照片配准",
+      "全部细节严格对称",
+      "Minecraft游戏内通过"
+    ]
+  }
+}

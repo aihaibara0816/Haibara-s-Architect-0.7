@@ -1,0 +1,259 @@
+{
+  "source_nbt_sha256": "4533d0508baef7384f37d9a3de0709ded5586b94d6fd1c7ff58ee0e39101871d",
+  "checks": [
+    {
+      "id": "six_towers_120_households",
+      "status": "pass",
+      "details": {
+        "towers": 6,
+        "homes": 120
+      }
+    },
+    {
+      "id": "exact_10_block_step",
+      "status": "pass",
+      "details": [
+        [
+          "A1",
+          15,
+          118
+        ],
+        [
+          "A2",
+          65,
+          108
+        ],
+        [
+          "A3",
+          115,
+          98
+        ],
+        [
+          "B1",
+          10,
+          31
+        ],
+        [
+          "B2",
+          60,
+          21
+        ],
+        [
+          "B3",
+          110,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "front_3_beds_study_rear_2_beds",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_home_entries_clear_supported",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_room_entries_reachable",
+      "status": "pass",
+      "details": {
+        "failures": [],
+        "rooms": 780
+      }
+    },
+    {
+      "id": "all_75_landings_reach_120_homes",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_150_balconies_reachable_from_homes",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "three_clear_two_separator_at_landings",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "69_stair_links_two_width_support_headroom",
+      "status": "pass",
+      "details": {
+        "errors": [],
+        "connections": 69,
+        "game_collision": "pending"
+      }
+    },
+    {
+      "id": "flush_and_supported_rod_lamps_survive",
+      "status": "pass",
+      "details": {
+        "count": 627,
+        "errors": []
+      }
+    },
+    {
+      "id": "70_percent_households_lit",
+      "status": "pass",
+      "details": {
+        "lit": 84,
+        "all": 120
+      }
+    },
+    {
+      "id": "all_furniture_modules_survive_final_assembly",
+      "status": "pass",
+      "details": {
+        "modules": 1620,
+        "errors": []
+      }
+    },
+    {
+      "id": "furniture_has_reachable_adjacent_floor",
+      "status": "pass",
+      "details": {
+        "unapproachable": [],
+        "scope": "Adjacent air cells, not block interaction mechanics"
+      }
+    },
+    {
+      "id": "full_declared_garden_paths_clear",
+      "status": "pass",
+      "details": {
+        "cells": 4212,
+        "errors": []
+      }
+    },
+    {
+      "id": "gate_reaches_every_main_entry",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "main_entry_to_stairs",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "mixed_security_grilles",
+      "status": "pass",
+      "details": {
+        "none": 521,
+        "cage": 193,
+        "flush": 126
+      }
+    },
+    {
+      "id": "approved_P01_footprints_in_final_NBT",
+      "status": "pass",
+      "details": {
+        "errors": [],
+        "A_area": 722,
+        "B_area": 822
+      }
+    },
+    {
+      "id": "segmented_roofs_cover_main_floor",
+      "status": "pass",
+      "details": {
+        "roof_parts": 21,
+        "missing_columns": []
+      }
+    },
+    {
+      "id": "all_12_tree_roots_supported",
+      "status": "pass",
+      "details": {
+        "trees": 12,
+        "errors": []
+      }
+    },
+    {
+      "id": "retained_pond_contained",
+      "status": "pass",
+      "details": {
+        "water_cells": 93,
+        "leaks": []
+      }
+    },
+    {
+      "id": "only_lighting_facade_tones_and_pipes_changed",
+      "status": "pass",
+      "details": {
+        "changed_blocks": 4750,
+        "unapproved": [],
+        "baseline": "V2_r05"
+      }
+    },
+    {
+      "id": "layout_furniture_garden_records_unchanged",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "lighting_assignment_matches_actual_emitters",
+      "status": "pass",
+      "details": {
+        "issues": [],
+        "lamps": 627,
+        "types": {
+          "end_rod": 52,
+          "glowstone": 316,
+          "sea_lantern": 259
+        }
+      }
+    },
+    {
+      "id": "each_tower_70_percent_and_three_lamp_materials",
+      "status": "pass",
+      "details": {
+        "A1": 7,
+        "A2": 7,
+        "A3": 7,
+        "B1": 21,
+        "B2": 21,
+        "B3": 21
+      }
+    },
+    {
+      "id": "isolated_single_block_tones_no_connected_patches",
+      "status": "pass",
+      "details": {
+        "accents": 3639,
+        "adjacent_accent_pairs": 0,
+        "mismatches": [],
+        "palette": {
+          "cut_sandstone": 862,
+          "terracotta": 531,
+          "packed_mud": 2246
+        }
+      }
+    },
+    {
+      "id": "nine_supported_continuous_pipes_clear_of_windows_paths",
+      "status": "pass",
+      "details": {
+        "stacks": 9,
+        "blocks": 591,
+        "issues": [],
+        "world_neighbor_updates": "pending game check"
+      }
+    },
+    {
+      "id": "delta_manifest_exact",
+      "status": "pass",
+      "details": 4750
+    }
+  ],
+  "passed": true,
+  "game_status": "pending",
+  "visual_status": "pending_user_review",
+  "limitations": [
+    "Vanilla game import/collision/light propagation not run",
+    "Static lifts and decorative beds/furniture",
+    "P01 zoning refined for block walls/core; exact main footprints retained"
+  ]
+}

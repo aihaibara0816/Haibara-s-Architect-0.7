@@ -1,0 +1,3048 @@
+{
+  "source_nbt_sha256": "070e6bef12a0466f194567e6e89cd3ccf5f1b514e076c9c80d1bd801ed9749e5",
+  "buildings": 18,
+  "entries_reachable": 18,
+  "use_points": 285,
+  "reachable_ground_cells": 15692,
+  "tree_groups": 32,
+  "groundcover_plants": 1613,
+  "paintings": 12,
+  "block_entities": 335,
+  "stair_flights": 10,
+  "errors": [],
+  "scope": "final NBT states/support and approximate .6x1.8 player-body checks; doors treated open; not Minecraft execution",
+  "game": "pending",
+  "aesthetic": "pending",
+  "building_records": [
+    {
+      "id": "B01",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B01.stairs.start.2",
+          "pos": [
+            7,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.bar_storage",
+          "pos": [
+            16,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.main",
+          "pos": [
+            15,
+            3,
+            32
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.side",
+          "pos": [
+            21,
+            3,
+            30
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.garden",
+          "pos": [
+            14,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.stove",
+          "pos": [
+            13,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.sink",
+          "pos": [
+            15,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.stock",
+          "pos": [
+            17,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.counter",
+          "pos": [
+            16,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.counter_customer",
+          "pos": [
+            14,
+            3,
+            28
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.table_west",
+          "pos": [
+            10,
+            3,
+            31
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.table_east",
+          "pos": [
+            21,
+            3,
+            31
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.return",
+          "pos": [
+            20,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.wc_sink",
+          "pos": [
+            19,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.wc_toilet",
+          "pos": [
+            21,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.garden.path",
+          "pos": [
+            16,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.garden.basin",
+          "pos": [
+            19,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.landing_stock",
+          "pos": [
+            10,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.under_stair_stock",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.drinks",
+          "pos": [
+            19,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.return_linen",
+          "pos": [
+            21,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.prep_strip",
+          "pos": [
+            14,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.pantry_strip",
+          "pos": [
+            16,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.understair_rear",
+          "pos": [
+            10,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.understair_shelf",
+          "pos": [
+            10,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.understair_counter",
+          "pos": [
+            10,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.front_counter",
+          "pos": [
+            10,
+            3,
+            35
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.side_counter",
+          "pos": [
+            24,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.G.entry_threshold",
+          "pos": [
+            15,
+            3,
+            33
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B01.stairs.start.7",
+          "pos": [
+            7,
+            8,
+            27
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.landing",
+          "pos": [
+            10,
+            8,
+            27
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.bedroom_entry",
+          "pos": [
+            16,
+            8,
+            25
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.bed_left",
+          "pos": [
+            14,
+            8,
+            21
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.bed_right",
+          "pos": [
+            17,
+            8,
+            21
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.wardrobe",
+          "pos": [
+            19,
+            8,
+            21
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.desk",
+          "pos": [
+            19,
+            8,
+            23
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.sofa",
+          "pos": [
+            19,
+            8,
+            31
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.tea",
+          "pos": [
+            18,
+            8,
+            30
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.study",
+          "pos": [
+            10,
+            8,
+            30
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.books",
+          "pos": [
+            8,
+            8,
+            31
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B01.U.storage",
+          "pos": [
+            10,
+            8,
+            32
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B02.entry",
+          "pos": [
+            36,
+            3,
+            33
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B02.wc",
+          "pos": [
+            40,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B02.stock",
+          "pos": [
+            33,
+            3,
+            23
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B02.serve",
+          "pos": [
+            34,
+            3,
+            29
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B02.work",
+          "pos": [
+            34,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B02.side_table",
+          "pos": [
+            34,
+            3,
+            32
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B03.entry",
+          "pos": [
+            55,
+            3,
+            33
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B03.wc",
+          "pos": [
+            58,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B03.stock",
+          "pos": [
+            52,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B03.serve",
+          "pos": [
+            53,
+            3,
+            30
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B03.work",
+          "pos": [
+            53,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B03.side_table",
+          "pos": [
+            53,
+            3,
+            32
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B04.stairs.start.2",
+          "pos": [
+            76,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.bar_storage",
+          "pos": [
+            85,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.main",
+          "pos": [
+            84,
+            3,
+            32
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.side",
+          "pos": [
+            90,
+            3,
+            30
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.garden",
+          "pos": [
+            83,
+            3,
+            19
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.stove",
+          "pos": [
+            82,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.sink",
+          "pos": [
+            84,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.stock",
+          "pos": [
+            86,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.counter",
+          "pos": [
+            85,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.counter_customer",
+          "pos": [
+            83,
+            3,
+            28
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.table_west",
+          "pos": [
+            79,
+            3,
+            31
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.table_east",
+          "pos": [
+            90,
+            3,
+            31
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.return",
+          "pos": [
+            89,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.wc_sink",
+          "pos": [
+            88,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.wc_toilet",
+          "pos": [
+            90,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.garden.path",
+          "pos": [
+            85,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.garden.basin",
+          "pos": [
+            88,
+            3,
+            16
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.landing_stock",
+          "pos": [
+            79,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.under_stair_stock",
+          "pos": [
+            79,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.drinks",
+          "pos": [
+            88,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.return_linen",
+          "pos": [
+            90,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.prep_strip",
+          "pos": [
+            83,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.pantry_strip",
+          "pos": [
+            85,
+            3,
+            22
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.understair_rear",
+          "pos": [
+            79,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.understair_shelf",
+          "pos": [
+            79,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.understair_counter",
+          "pos": [
+            79,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.front_counter",
+          "pos": [
+            79,
+            3,
+            35
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.side_counter",
+          "pos": [
+            93,
+            3,
+            26
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.G.entry_threshold",
+          "pos": [
+            84,
+            3,
+            33
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.display",
+          "pos": [
+            79,
+            3,
+            29
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B04.stairs.start.7",
+          "pos": [
+            76,
+            8,
+            27
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.landing",
+          "pos": [
+            79,
+            8,
+            27
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.bedroom_entry",
+          "pos": [
+            85,
+            8,
+            25
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.bed_left",
+          "pos": [
+            83,
+            8,
+            21
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.bed_right",
+          "pos": [
+            86,
+            8,
+            21
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.wardrobe",
+          "pos": [
+            88,
+            8,
+            21
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.desk",
+          "pos": [
+            88,
+            8,
+            23
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.sofa",
+          "pos": [
+            88,
+            8,
+            31
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.tea",
+          "pos": [
+            87,
+            8,
+            30
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.study",
+          "pos": [
+            79,
+            8,
+            30
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.books",
+          "pos": [
+            77,
+            8,
+            31
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B04.U.storage",
+          "pos": [
+            79,
+            8,
+            32
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B05.entry",
+          "pos": [
+            103,
+            3,
+            33
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B05.wc",
+          "pos": [
+            106,
+            3,
+            25
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B05.stock",
+          "pos": [
+            100,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B05.serve",
+          "pos": [
+            101,
+            3,
+            30
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B05.work",
+          "pos": [
+            101,
+            3,
+            27
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B05.side_table",
+          "pos": [
+            101,
+            3,
+            32
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B06.entry",
+          "pos": [
+            126,
+            3,
+            33
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B06.stair_start",
+          "pos": [
+            121,
+            3,
+            31
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B06.wc",
+          "pos": [
+            130,
+            3,
+            21
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B06.kitchen",
+          "pos": [
+            126,
+            3,
+            20
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B06.living",
+          "pos": [
+            129,
+            3,
+            29
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B06.books",
+          "pos": [
+            125,
+            3,
+            24
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B06.stair_landing",
+          "pos": [
+            121,
+            8,
+            25
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B06.bed8",
+          "pos": [
+            127,
+            8,
+            22
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B06.bed11",
+          "pos": [
+            130,
+            8,
+            22
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B06.wardrobe",
+          "pos": [
+            130,
+            8,
+            27
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B06.desk",
+          "pos": [
+            124,
+            8,
+            32
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B06.tea",
+          "pos": [
+            129,
+            8,
+            29
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B07.entry",
+          "pos": [
+            14,
+            3,
+            51
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B07.wc",
+          "pos": [
+            11,
+            3,
+            59
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B07.stock",
+          "pos": [
+            17,
+            3,
+            60
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B07.serve",
+          "pos": [
+            16,
+            3,
+            54
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B07.work",
+          "pos": [
+            16,
+            3,
+            57
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B07.side_table",
+          "pos": [
+            16,
+            3,
+            52
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B08.entry",
+          "pos": [
+            35,
+            3,
+            52
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B08.stair_start",
+          "pos": [
+            40,
+            3,
+            54
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B08.wc",
+          "pos": [
+            31,
+            3,
+            64
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B08.kitchen",
+          "pos": [
+            35,
+            3,
+            65
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B08.living",
+          "pos": [
+            32,
+            3,
+            56
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B08.books",
+          "pos": [
+            36,
+            3,
+            61
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B08.stair_landing",
+          "pos": [
+            40,
+            8,
+            60
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B08.bed8",
+          "pos": [
+            34,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B08.bed11",
+          "pos": [
+            31,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B08.wardrobe",
+          "pos": [
+            31,
+            8,
+            58
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B08.desk",
+          "pos": [
+            37,
+            8,
+            53
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B08.tea",
+          "pos": [
+            32,
+            8,
+            56
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B09.entry",
+          "pos": [
+            54,
+            3,
+            51
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B09.wc",
+          "pos": [
+            51,
+            3,
+            59
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B09.stock",
+          "pos": [
+            57,
+            3,
+            60
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B09.serve",
+          "pos": [
+            56,
+            3,
+            54
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B09.work",
+          "pos": [
+            56,
+            3,
+            57
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B09.side_table",
+          "pos": [
+            56,
+            3,
+            52
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B10.entry",
+          "pos": [
+            84,
+            3,
+            52
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B10.stair_start",
+          "pos": [
+            89,
+            3,
+            54
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B10.wc",
+          "pos": [
+            80,
+            3,
+            64
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B10.kitchen",
+          "pos": [
+            84,
+            3,
+            65
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B10.living",
+          "pos": [
+            81,
+            3,
+            56
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B10.books",
+          "pos": [
+            85,
+            3,
+            61
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B10.stair_landing",
+          "pos": [
+            89,
+            8,
+            60
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B10.bed8",
+          "pos": [
+            83,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B10.bed11",
+          "pos": [
+            80,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B10.wardrobe",
+          "pos": [
+            80,
+            8,
+            58
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B10.desk",
+          "pos": [
+            86,
+            8,
+            53
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B10.tea",
+          "pos": [
+            81,
+            8,
+            56
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B11",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B11.stairs.start.2",
+          "pos": [
+            111,
+            3,
+            57
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.bar_storage",
+          "pos": [
+            102,
+            3,
+            57
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.main",
+          "pos": [
+            103,
+            3,
+            52
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.side",
+          "pos": [
+            97,
+            3,
+            54
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.garden",
+          "pos": [
+            104,
+            3,
+            65
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.stove",
+          "pos": [
+            105,
+            3,
+            64
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.sink",
+          "pos": [
+            103,
+            3,
+            64
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.stock",
+          "pos": [
+            101,
+            3,
+            64
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.counter",
+          "pos": [
+            102,
+            3,
+            58
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.counter_customer",
+          "pos": [
+            104,
+            3,
+            56
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.table_west",
+          "pos": [
+            108,
+            3,
+            53
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.table_east",
+          "pos": [
+            97,
+            3,
+            53
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.return",
+          "pos": [
+            98,
+            3,
+            57
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.wc_sink",
+          "pos": [
+            99,
+            3,
+            63
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.wc_toilet",
+          "pos": [
+            97,
+            3,
+            63
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.garden.path",
+          "pos": [
+            102,
+            3,
+            68
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.garden.basin",
+          "pos": [
+            99,
+            3,
+            68
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.landing_stock",
+          "pos": [
+            108,
+            3,
+            63
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.under_stair_stock",
+          "pos": [
+            108,
+            3,
+            57
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.drinks",
+          "pos": [
+            99,
+            3,
+            59
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.return_linen",
+          "pos": [
+            97,
+            3,
+            59
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.prep_strip",
+          "pos": [
+            104,
+            3,
+            62
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.pantry_strip",
+          "pos": [
+            102,
+            3,
+            62
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.understair_rear",
+          "pos": [
+            108,
+            3,
+            60
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.understair_shelf",
+          "pos": [
+            108,
+            3,
+            59
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.understair_counter",
+          "pos": [
+            108,
+            3,
+            58
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.front_counter",
+          "pos": [
+            108,
+            3,
+            49
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.side_counter",
+          "pos": [
+            94,
+            3,
+            58
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.G.entry_threshold",
+          "pos": [
+            103,
+            3,
+            51
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.display",
+          "pos": [
+            108,
+            3,
+            55
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B11.stairs.start.7",
+          "pos": [
+            111,
+            8,
+            57
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.landing",
+          "pos": [
+            108,
+            8,
+            57
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.bedroom_entry",
+          "pos": [
+            102,
+            8,
+            59
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.bed_left",
+          "pos": [
+            104,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.bed_right",
+          "pos": [
+            101,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.wardrobe",
+          "pos": [
+            99,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.desk",
+          "pos": [
+            99,
+            8,
+            61
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.sofa",
+          "pos": [
+            99,
+            8,
+            53
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.tea",
+          "pos": [
+            100,
+            8,
+            54
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.study",
+          "pos": [
+            108,
+            8,
+            54
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.books",
+          "pos": [
+            110,
+            8,
+            53
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B11.U.storage",
+          "pos": [
+            108,
+            8,
+            52
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B12",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B12.entry",
+          "pos": [
+            124,
+            3,
+            52
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B12.stair_start",
+          "pos": [
+            129,
+            3,
+            54
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B12.wc",
+          "pos": [
+            120,
+            3,
+            64
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B12.kitchen",
+          "pos": [
+            124,
+            3,
+            65
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B12.living",
+          "pos": [
+            121,
+            3,
+            56
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B12.books",
+          "pos": [
+            125,
+            3,
+            61
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B12.stair_landing",
+          "pos": [
+            129,
+            8,
+            60
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B12.bed8",
+          "pos": [
+            123,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B12.bed11",
+          "pos": [
+            120,
+            8,
+            63
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B12.wardrobe",
+          "pos": [
+            120,
+            8,
+            58
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B12.desk",
+          "pos": [
+            126,
+            8,
+            53
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B12.tea",
+          "pos": [
+            121,
+            8,
+            56
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B13",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B13.stairs.start.2",
+          "pos": [
+            21,
+            3,
+            89
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.bar_storage",
+          "pos": [
+            12,
+            3,
+            89
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.main",
+          "pos": [
+            13,
+            3,
+            84
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.side",
+          "pos": [
+            7,
+            3,
+            86
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.garden",
+          "pos": [
+            14,
+            3,
+            97
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.stove",
+          "pos": [
+            15,
+            3,
+            96
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.sink",
+          "pos": [
+            13,
+            3,
+            96
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.stock",
+          "pos": [
+            11,
+            3,
+            96
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.counter",
+          "pos": [
+            12,
+            3,
+            90
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.counter_customer",
+          "pos": [
+            14,
+            3,
+            88
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.table_west",
+          "pos": [
+            18,
+            3,
+            85
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.table_east",
+          "pos": [
+            7,
+            3,
+            85
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.return",
+          "pos": [
+            8,
+            3,
+            89
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.wc_sink",
+          "pos": [
+            9,
+            3,
+            95
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.wc_toilet",
+          "pos": [
+            7,
+            3,
+            95
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.garden.path",
+          "pos": [
+            12,
+            3,
+            100
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.garden.basin",
+          "pos": [
+            9,
+            3,
+            100
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.landing_stock",
+          "pos": [
+            18,
+            3,
+            95
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.under_stair_stock",
+          "pos": [
+            18,
+            3,
+            89
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.drinks",
+          "pos": [
+            9,
+            3,
+            91
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.return_linen",
+          "pos": [
+            7,
+            3,
+            91
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.prep_strip",
+          "pos": [
+            14,
+            3,
+            94
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.pantry_strip",
+          "pos": [
+            12,
+            3,
+            94
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.understair_rear",
+          "pos": [
+            18,
+            3,
+            92
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.understair_shelf",
+          "pos": [
+            18,
+            3,
+            91
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.understair_counter",
+          "pos": [
+            18,
+            3,
+            90
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.front_counter",
+          "pos": [
+            18,
+            3,
+            81
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.side_counter",
+          "pos": [
+            4,
+            3,
+            90
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.G.entry_threshold",
+          "pos": [
+            13,
+            3,
+            83
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B13.stairs.start.7",
+          "pos": [
+            21,
+            8,
+            89
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.landing",
+          "pos": [
+            18,
+            8,
+            89
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.bedroom_entry",
+          "pos": [
+            12,
+            8,
+            91
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.bed_left",
+          "pos": [
+            14,
+            8,
+            95
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.bed_right",
+          "pos": [
+            11,
+            8,
+            95
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.wardrobe",
+          "pos": [
+            9,
+            8,
+            95
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.desk",
+          "pos": [
+            9,
+            8,
+            93
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.sofa",
+          "pos": [
+            9,
+            8,
+            85
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.tea",
+          "pos": [
+            10,
+            8,
+            86
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.study",
+          "pos": [
+            18,
+            8,
+            86
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.books",
+          "pos": [
+            20,
+            8,
+            85
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B13.U.storage",
+          "pos": [
+            18,
+            8,
+            84
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B14",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B14.entry",
+          "pos": [
+            34,
+            3,
+            84
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B14.stair_start",
+          "pos": [
+            39,
+            3,
+            86
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B14.wc",
+          "pos": [
+            30,
+            3,
+            96
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B14.kitchen",
+          "pos": [
+            34,
+            3,
+            97
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B14.living",
+          "pos": [
+            31,
+            3,
+            88
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B14.books",
+          "pos": [
+            35,
+            3,
+            93
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B14.stair_landing",
+          "pos": [
+            39,
+            8,
+            92
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B14.bed8",
+          "pos": [
+            33,
+            8,
+            95
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B14.bed11",
+          "pos": [
+            30,
+            8,
+            95
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B14.wardrobe",
+          "pos": [
+            30,
+            8,
+            90
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B14.desk",
+          "pos": [
+            36,
+            8,
+            85
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B14.tea",
+          "pos": [
+            31,
+            8,
+            88
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B15",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B15.entry",
+          "pos": [
+            56,
+            3,
+            83
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B15.wc",
+          "pos": [
+            53,
+            3,
+            91
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B15.back_books",
+          "pos": [
+            59,
+            3,
+            92
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B15.wall_books",
+          "pos": [
+            60,
+            3,
+            89
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B15.reading",
+          "pos": [
+            57,
+            3,
+            86
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B15.borrow",
+          "pos": [
+            59,
+            3,
+            85
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B16",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B16.entry",
+          "pos": [
+            82,
+            3,
+            83
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B16.wc",
+          "pos": [
+            78,
+            3,
+            93
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B16.wash",
+          "pos": [
+            82,
+            3,
+            92
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B16.changing",
+          "pos": [
+            85,
+            3,
+            88
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B16.basin_edge",
+          "pos": [
+            85,
+            3,
+            89
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B17",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B17.entry",
+          "pos": [
+            105,
+            3,
+            84
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B17.stair_start",
+          "pos": [
+            110,
+            3,
+            86
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B17.wc",
+          "pos": [
+            101,
+            3,
+            96
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B17.kitchen",
+          "pos": [
+            105,
+            3,
+            97
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B17.living",
+          "pos": [
+            102,
+            3,
+            88
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B17.books",
+          "pos": [
+            106,
+            3,
+            93
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B17.stair_landing",
+          "pos": [
+            110,
+            8,
+            92
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B17.bed8",
+          "pos": [
+            104,
+            8,
+            95
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B17.bed11",
+          "pos": [
+            101,
+            8,
+            95
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B17.wardrobe",
+          "pos": [
+            101,
+            8,
+            90
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B17.desk",
+          "pos": [
+            107,
+            8,
+            85
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        },
+        {
+          "id": "B17.tea",
+          "pos": [
+            102,
+            8,
+            88
+          ],
+          "floor_block_y": 7,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "id": "B18",
+      "entry_reachable": true,
+      "use_points": [
+        {
+          "id": "B18.entry",
+          "pos": [
+            125,
+            3,
+            83
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B18.wc",
+          "pos": [
+            121,
+            3,
+            92
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B18.stock",
+          "pos": [
+            128,
+            3,
+            93
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B18.serve",
+          "pos": [
+            127,
+            3,
+            87
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B18.work",
+          "pos": [
+            127,
+            3,
+            90
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        },
+        {
+          "id": "B18.side_table",
+          "pos": [
+            127,
+            3,
+            84
+          ],
+          "floor_block_y": 2,
+          "reachable": true
+        }
+      ]
+    }
+  ],
+  "stair_records": [
+    {
+      "id": "B01",
+      "samples": 91,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B04",
+      "samples": 91,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B06",
+      "samples": 49,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B08",
+      "samples": 49,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B10",
+      "samples": 49,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B11",
+      "samples": 91,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B12",
+      "samples": 49,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B13",
+      "samples": 91,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B14",
+      "samples": 49,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "id": "B17",
+      "samples": 49,
+      "end_y": 8,
+      "collisions": [],
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "case_id": "Clock",
+  "run": "O09",
+  "seed": 151145,
+  "buildings": [
+    {
+      "id": "Clock",
+      "name": "櫻坂時計会所｜河畔公共钟楼",
+      "size": [
+        17,
+        28,
+        19
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        8,
+        3,
+        15
+      ],
+      "rooms": [
+        {
+          "id": "Clock.info",
+          "name": "广场导览与休息",
+          "bounds": [
+            4,
+            3,
+            4,
+            13,
+            7,
+            15
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Clock.info",
+          "pos": [
+            10,
+            3,
+            8
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Clock.door.0",
+          "pos": [
+            8,
+            3,
+            15
+          ],
+          "lintel": [
+            8,
+            5,
+            15
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            10,
+            7,
+            11
+          ],
+          "support": [
+            10,
+            8,
+            11
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Clock.visitor.map.dining_table.5_1_4",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            5,
+            3,
+            4,
+            11,
+            4,
+            5
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "uses": [
+    {
+      "id": "Clock.info",
+      "pos": [
+        10,
+        3,
+        8
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Clock.door.0",
+      "pos": [
+        8,
+        3,
+        15
+      ],
+      "lintel": [
+        8,
+        5,
+        15
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        10,
+        7,
+        11
+      ],
+      "support": [
+        10,
+        8,
+        11
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    8,
+    3,
+    16
+  ],
+  "upper_start": [
+    4,
+    5
+  ],
+  "source_nbt_sha256": "e80b863340595fc2bc0b481879b6ceb6220b711957c3ec3db1e8a0584a498bfe",
+  "non_air": 2946,
+  "size_xyz": [
+    17,
+    32,
+    19
+  ],
+  "block_entities": 0,
+  "entities": 0
+}

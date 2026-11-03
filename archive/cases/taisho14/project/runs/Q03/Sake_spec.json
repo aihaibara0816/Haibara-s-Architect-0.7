@@ -1,0 +1,262 @@
+{
+  "case_id": "Sake",
+  "run": "Q03",
+  "seed": 141145,
+  "buildings": [
+    {
+      "id": "Sake",
+      "name": "松葉酒舗｜酒铺与库房",
+      "size": [
+        20,
+        28,
+        25
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        10,
+        3,
+        20
+      ],
+      "rooms": [
+        {
+          "id": "Sake.main",
+          "name": "松葉酒舗｜酒铺与库房",
+          "bounds": [
+            7,
+            3,
+            4,
+            16,
+            7,
+            20
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Sake.entry",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Sake.counter",
+          "pos": [
+            10,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Sake.stock",
+          "pos": [
+            10,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Sake.door.0",
+          "pos": [
+            10,
+            3,
+            20
+          ],
+          "lintel": [
+            10,
+            5,
+            20
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            10,
+            6,
+            16
+          ],
+          "support": [
+            10,
+            7,
+            16
+          ]
+        },
+        {
+          "position": [
+            13,
+            6,
+            7
+          ],
+          "support": [
+            13,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            12
+          ],
+          "support": [
+            7,
+            7,
+            12
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Sake.tasting.dining_table.12_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            12,
+            3,
+            17,
+            15,
+            4,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotated_180": false,
+      "entry_world": [
+        161,
+        8,
+        50
+      ],
+      "upper_start": [
+        4,
+        4
+      ],
+      "street_row": 0
+    }
+  ],
+  "uses": [
+    {
+      "id": "Sake.entry",
+      "pos": [
+        10,
+        3,
+        19
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Sake.counter",
+      "pos": [
+        10,
+        3,
+        15
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Sake.stock",
+      "pos": [
+        10,
+        3,
+        7
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Sake.door.0",
+      "pos": [
+        10,
+        3,
+        20
+      ],
+      "lintel": [
+        10,
+        5,
+        20
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        10,
+        6,
+        16
+      ],
+      "support": [
+        10,
+        7,
+        16
+      ]
+    },
+    {
+      "position": [
+        13,
+        6,
+        7
+      ],
+      "support": [
+        13,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        12
+      ],
+      "support": [
+        7,
+        7,
+        12
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    10,
+    3,
+    21
+  ],
+  "upper_start": [
+    4,
+    4
+  ],
+  "source_nbt_sha256": "050c4fa0ecd773906711f0e933fd251d5ac29c962918604399214132faa00ee6",
+  "non_air": 3313,
+  "size_xyz": [
+    20,
+    28,
+    25
+  ],
+  "block_entities": 53,
+  "entities": 0
+}

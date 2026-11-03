@@ -1,0 +1,156 @@
+{
+  "research_policy": "不限照片；按有效构件覆盖，重复照与细节裁切不计新方向",
+  "photos_reviewed": 11,
+  "photos_new_to_v1_use": 7,
+  "independent_view_count": "不作11个独立方向的承诺；02/12近重复，03/05遮挡严重",
+  "rows": [
+    {
+      "component_id": "central_mass",
+      "evidence": [
+        "img-nc-11",
+        "img-nc-13",
+        "user-feedback-032226"
+      ],
+      "problem": "长条中央体令钟冠显得过小",
+      "decision": "下段27×32、上段27×24；钟室移至新上段中心，新增21→19→17阶梯底座",
+      "parameters": [
+        "tower.central_rect",
+        "v2.upper_center_rect",
+        "crown.clock_center_xz"
+      ],
+      "consumer": "masks / shell_and_floors / crown",
+      "confidence": "中：进退可靠，尺寸待核"
+    },
+    {
+      "component_id": "front_facade",
+      "evidence": [
+        "img-nc-04",
+        "img-nc-07",
+        "img-nc-08"
+      ],
+      "problem": "不能因侧面过宽而误缩正面多组窗列",
+      "decision": "保留正面77格总宽、中央五列细窗与两侧分组；加深后侧凹槽",
+      "parameters": [
+        "v2.tower_masses",
+        "v2.rear_window_bands"
+      ],
+      "consumer": "masks / tower_facades",
+      "confidence": "中高：正面；中：背面"
+    },
+    {
+      "component_id": "upper_band",
+      "evidence": [
+        "img-nc-11",
+        "img-nc-13",
+        "user-feedback-031839"
+      ],
+      "problem": "V1横带仅前方短线，侧后断失",
+      "decision": "94格标高绕各翼连续横带；103/112格两级檐口",
+      "parameters": [
+        "v2.tower_masses"
+      ],
+      "consumer": "shell_and_floors",
+      "confidence": "中高"
+    },
+    {
+      "component_id": "podium_massing",
+      "evidence": [
+        "img-nc-11",
+        "img-nc-13",
+        "user-feedback-031839"
+      ],
+      "problem": "单矩形基座不能表达突出翼与内退墙",
+      "decision": "四个体块组合；后侧留11格进退；独立屋顶玻璃亭",
+      "parameters": [
+        "v2.podium_masses",
+        "podium.glass_pavilions"
+      ],
+      "consumer": "masks / podium",
+      "confidence": "中低：缺可靠平面"
+    },
+    {
+      "component_id": "side_portal",
+      "evidence": [
+        "img-nc-11",
+        "img-nc-13",
+        "user-feedback-031839"
+      ],
+      "problem": "普通窗墙、拱门与台阶混在错误连续立面",
+      "decision": "模型-X侧独立三拱门与外凸门廊、宽台阶；+X侧普通窗格；后侧内退墙与外挑翼",
+      "parameters": [
+        "v2.side_portal",
+        "v2.podium_window_segments"
+      ],
+      "consumer": "podium",
+      "confidence": "中：相对侧向关系；地理方向待核"
+    },
+    {
+      "component_id": "front_colonnade",
+      "evidence": [
+        "img-nc-02",
+        "img-nc-03",
+        "img-nc-04",
+        "img-nc-05",
+        "img-nc-12"
+      ],
+      "problem": "V1只有中央四柱，遗漏整排侧柱与通高空间",
+      "decision": "中央成对柱保留；两侧连续柱廊、退后玻璃、上层小拱窗、栏杆",
+      "parameters": [
+        "entrance"
+      ],
+      "consumer": "entrance",
+      "confidence": "高：可见结构；柱数与半格表达近似"
+    },
+    {
+      "component_id": "door_soffit",
+      "evidence": [
+        "img-nc-02",
+        "img-nc-04",
+        "img-nc-12"
+      ],
+      "problem": "入口门框/吊顶层次少",
+      "decision": "内缩门厅、半砖吊顶格栅、细铁框圆形纹样代理",
+      "parameters": [
+        "entrance"
+      ],
+      "consumer": "entrance",
+      "confidence": "中：小尺度抽象"
+    },
+    {
+      "component_id": "roof_finish",
+      "evidence": [
+        "img-nc-11"
+      ],
+      "problem": "绿灰屋面误当统一铺草",
+      "decision": "限制绿色表面范围，区分灰屋面和两座深玻璃亭",
+      "parameters": [
+        "podium.roof_tinted_regions",
+        "podium.glass_pavilions"
+      ],
+      "consumer": "podium",
+      "confidence": "中；不认定具体屋面用途/材料"
+    },
+    {
+      "component_id": "interior_lighting",
+      "evidence": [],
+      "problem": "不能用亮灯数量代替还原",
+      "decision": "保留V1种子、占用规则、暖冷比例，按新几何重排合格房间",
+      "parameters": [
+        "lighting"
+      ],
+      "consumer": "interiors (V1 shared)",
+      "confidence": "游戏方案，真实室内和夜景待核"
+    }
+  ],
+  "remaining_gaps": [
+    "137格总高保持V1对照条件；103/114/137米资料冲突尚未解决，非精确1:1",
+    "中央下段27×32格、上段27×24格、钟室13×13格；为多视角解释后的可调假设，非透视图直接测量",
+    "上段进深48→24格；下段48→32格；不是将照片里投影宽度强制等同实体尺寸",
+    "侧后拱门、退入墙、外挑翼关系有照片支持；精确方位和尺寸仍待实测/清晰平面核对",
+    "卫星影像与OSM轮廓已检查，但高楼倾倒、遮挡及轮廓口径不一致；未据此宣称获得屋顶测绘图",
+    "未见处围护按连续性补齐；伪内饰和固定种子暖冷混合灯光为游戏设计",
+    "无同楼可靠夜景证据；无SKP/其他模型；未进行Minecraft客户端验证"
+  ],
+  "visual_status": "offline renders inspected; user fidelity review and game verification pending",
+  "model_training": false
+}

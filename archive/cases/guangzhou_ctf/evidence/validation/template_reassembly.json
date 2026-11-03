@@ -1,0 +1,969 @@
+{
+  "target_version": "Java 1.21.1",
+  "full_nbt_sha256": "58db77a6499aab981ccf8efdd048c3ce80b9383053713059ca61010af7afcc96",
+  "template_count": 40,
+  "exact_reassembly": true,
+  "world_test": "not run",
+  "placements": [
+    {
+      "template": "hafctf:v1/c_0_0_0",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "file": "game_templates/v1/c_0_0_0.nbt",
+      "nbt": {
+        "file": "c_0_0_0.nbt",
+        "bytes": 12875,
+        "sha256": "b54abf5276d1877f9c092d71cd51df6f8a967713c4a5a1f46dbaf1d7f365e905",
+        "listed_blocks": 4307,
+        "non_air_blocks": 4307,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "00b5df80911082fc2662d508f559115d7221da14342f1edc45850454d846dedd",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_0_32",
+      "origin": [
+        0,
+        0,
+        32
+      ],
+      "file": "game_templates/v1/c_0_0_32.nbt",
+      "nbt": {
+        "file": "c_0_0_32.nbt",
+        "bytes": 14037,
+        "sha256": "6d14b484b4293a1ac6ac85612504b0e58b4ca987cfb659c78b589ea1428bdb74",
+        "listed_blocks": 4529,
+        "non_air_blocks": 4529,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "e07a9584263ba4efd1c63aba48b771f90609e45ab43f430c523c8a39b88c9da5",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_0_64",
+      "origin": [
+        0,
+        0,
+        64
+      ],
+      "file": "game_templates/v1/c_0_0_64.nbt",
+      "nbt": {
+        "file": "c_0_0_64.nbt",
+        "bytes": 10076,
+        "sha256": "6da07d4f9df53cc6af09a3403b0f038501de742e4df73080c6ee5bf1b42532a5",
+        "listed_blocks": 3169,
+        "non_air_blocks": 3169,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "dd373563f836d8ddc44a12439fd21e329677441610adc61157c3d21150918cff",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_32_32",
+      "origin": [
+        0,
+        32,
+        32
+      ],
+      "file": "game_templates/v1/c_0_32_32.nbt",
+      "nbt": {
+        "file": "c_0_32_32.nbt",
+        "bytes": 8541,
+        "sha256": "a2bcef55bf11df86d68257aee10a1ba40fcec2a8f963dd191dc0a655ef173749",
+        "listed_blocks": 2712,
+        "non_air_blocks": 2712,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "a8c6a29bae56d2e989a5955e9eabb5d8b8fa30c1b5de1d9178dc5cb09844236c",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_32_64",
+      "origin": [
+        0,
+        32,
+        64
+      ],
+      "file": "game_templates/v1/c_0_32_64.nbt",
+      "nbt": {
+        "file": "c_0_32_64.nbt",
+        "bytes": 8049,
+        "sha256": "102423e0ba57fa03b8fb6da098c12fd0851552eb96724dad534ba3f20d50fbe6",
+        "listed_blocks": 2517,
+        "non_air_blocks": 2517,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "83c1c1b6bd9de10463a0b77461a80c1d1db8b67951b00e4b79fa7f4f5f2585c1",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_64_32",
+      "origin": [
+        0,
+        64,
+        32
+      ],
+      "file": "game_templates/v1/c_0_64_32.nbt",
+      "nbt": {
+        "file": "c_0_64_32.nbt",
+        "bytes": 8685,
+        "sha256": "b9cd52e976a961d6828ca716fa9e7867a230cfa000ff49927df6e8e7c3d0227f",
+        "listed_blocks": 2797,
+        "non_air_blocks": 2797,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "8993a13e66238f055a4968a17154ba94c3db93c0951aa36636ff9c2d49d8e201",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_64_64",
+      "origin": [
+        0,
+        64,
+        64
+      ],
+      "file": "game_templates/v1/c_0_64_64.nbt",
+      "nbt": {
+        "file": "c_0_64_64.nbt",
+        "bytes": 8218,
+        "sha256": "e2c37e32ed370598dce34b5e1daa145272918ea498af3f6cba2feee54df03916",
+        "listed_blocks": 2595,
+        "non_air_blocks": 2595,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "22ce7e7bd8a4d01d2c609ac0c5ac04e172a0129476fb2af41dfaff4a408386b6",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_96_32",
+      "origin": [
+        0,
+        96,
+        32
+      ],
+      "file": "game_templates/v1/c_0_96_32.nbt",
+      "nbt": {
+        "file": "c_0_96_32.nbt",
+        "bytes": 8613,
+        "sha256": "21e288d0b36665e3187f672646ca3ce8c3a2ef00a6ffcdd040a09529d0666c26",
+        "listed_blocks": 2743,
+        "non_air_blocks": 2743,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "9b9160366c8a2baf33969f7729468da15d75d662eda0cc794b71a269b87c7451",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_96_64",
+      "origin": [
+        0,
+        96,
+        64
+      ],
+      "file": "game_templates/v1/c_0_96_64.nbt",
+      "nbt": {
+        "file": "c_0_96_64.nbt",
+        "bytes": 8129,
+        "sha256": "964e24de257acd6904460afb951fa240b3725dc1af77ac5f1efa395edace552b",
+        "listed_blocks": 2538,
+        "non_air_blocks": 2538,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "6406d92a8f50624f18a2ae6121e45811388359c775db05240b452b0cf32b25f8",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_128_32",
+      "origin": [
+        0,
+        128,
+        32
+      ],
+      "file": "game_templates/v1/c_0_128_32.nbt",
+      "nbt": {
+        "file": "c_0_128_32.nbt",
+        "bytes": 8406,
+        "sha256": "dcf45a8ba8dc50838ee19b6806b838fa2d725e826efd2b16fd738da348fdc4dc",
+        "listed_blocks": 2694,
+        "non_air_blocks": 2694,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "9900d074c893e2bfd8976dc33b4fbaba263ffd286e2b75d89e8982267823272b",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_128_64",
+      "origin": [
+        0,
+        128,
+        64
+      ],
+      "file": "game_templates/v1/c_0_128_64.nbt",
+      "nbt": {
+        "file": "c_0_128_64.nbt",
+        "bytes": 8030,
+        "sha256": "1adbc7b30bd422d5b22e0feac5ad44c05076e55048b065444950a789a958e25f",
+        "listed_blocks": 2508,
+        "non_air_blocks": 2508,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "789bd45b40c849344ea0a236bdb66df87684092c1e8c1a9dbe75b641f3eb6081",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_160_32",
+      "origin": [
+        0,
+        160,
+        32
+      ],
+      "file": "game_templates/v1/c_0_160_32.nbt",
+      "nbt": {
+        "file": "c_0_160_32.nbt",
+        "bytes": 8624,
+        "sha256": "e86a0852a03d9f77d21c8d765eb31b3c68630e50cfb134391c99f892084ed9a1",
+        "listed_blocks": 2692,
+        "non_air_blocks": 2692,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "b3dc43e687441fc578947539fb36ef88ac6881a4477da23b455d99eebcd32190",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_160_64",
+      "origin": [
+        0,
+        160,
+        64
+      ],
+      "file": "game_templates/v1/c_0_160_64.nbt",
+      "nbt": {
+        "file": "c_0_160_64.nbt",
+        "bytes": 5816,
+        "sha256": "b744cf14762197b4352ed1984d50a3a2eada40a1dd8c1f4d4352bd454ca26b90",
+        "listed_blocks": 1745,
+        "non_air_blocks": 1745,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "d07c8e85939d7b5658e65b6636be738760adb11ec770c23f26073fe0f3c67ef0",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_192_32",
+      "origin": [
+        0,
+        192,
+        32
+      ],
+      "file": "game_templates/v1/c_0_192_32.nbt",
+      "nbt": {
+        "file": "c_0_192_32.nbt",
+        "bytes": 8190,
+        "sha256": "0e892e94ce0375e6d8b50b66c2ad9fc5ff2ab17df73b2eb916c4a3f994c7176c",
+        "listed_blocks": 2567,
+        "non_air_blocks": 2567,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "b2d152fb3538446a064a53aeed5aba57558e7b7918ee5354820cb09f77fa93a2",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_192_64",
+      "origin": [
+        0,
+        192,
+        64
+      ],
+      "file": "game_templates/v1/c_0_192_64.nbt",
+      "nbt": {
+        "file": "c_0_192_64.nbt",
+        "bytes": 3875,
+        "sha256": "5e83fad1d593c4bad889ed8fffcfae5764b528374ad995907f903c2878f231a1",
+        "listed_blocks": 1166,
+        "non_air_blocks": 1166,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "816b7b8686683095e08f73cd52e420e8798dbd2feecd7076c5ce1b3a3b70499c",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_224_32",
+      "origin": [
+        0,
+        224,
+        32
+      ],
+      "file": "game_templates/v1/c_0_224_32.nbt",
+      "nbt": {
+        "file": "c_0_224_32.nbt",
+        "bytes": 8006,
+        "sha256": "837a094b6090740f3d025474c2c108f60740b8847e3eeafb94410353296e9f15",
+        "listed_blocks": 2473,
+        "non_air_blocks": 2473,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "5e2530e541df91a0deb359866133ae03e82672b35af7a08f0ea9b5dba655a6e1",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_224_64",
+      "origin": [
+        0,
+        224,
+        64
+      ],
+      "file": "game_templates/v1/c_0_224_64.nbt",
+      "nbt": {
+        "file": "c_0_224_64.nbt",
+        "bytes": 3405,
+        "sha256": "8bd90a2d6b8fa7adb54395617f836ef7df8c552f824b28cd8e08d06e612850dc",
+        "listed_blocks": 1001,
+        "non_air_blocks": 1001,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "187570d855c9bf7d10ed6e6bf28262995c341dc3eb771dd2e2a0e234c8f564d8",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_0_256_32",
+      "origin": [
+        0,
+        256,
+        32
+      ],
+      "file": "game_templates/v1/c_0_256_32.nbt",
+      "nbt": {
+        "file": "c_0_256_32.nbt",
+        "bytes": 1827,
+        "sha256": "54a61f9f45f086141608a75a13eb0ffb3f2d6ec4e3fee809a77cb1c0d21ff1c8",
+        "listed_blocks": 478,
+        "non_air_blocks": 478,
+        "size_xyz": [
+          32,
+          13,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "32db33a49e0430f5a0036f2c3c9bf90e421c634603c34a0fb1a6bc3a74216924",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_0_0",
+      "origin": [
+        32,
+        0,
+        0
+      ],
+      "file": "game_templates/v1/c_32_0_0.nbt",
+      "nbt": {
+        "file": "c_32_0_0.nbt",
+        "bytes": 15049,
+        "sha256": "11f5b05f43982d459b98b88b8d02d33a1af35dd706470e75fe2bb5d093a0f2f8",
+        "listed_blocks": 5221,
+        "non_air_blocks": 5221,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "e31e098cb31d541fbc43c58317248d4e1c74a5a76e6fb97ca0446268a62edc36",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_0_32",
+      "origin": [
+        32,
+        0,
+        32
+      ],
+      "file": "game_templates/v1/c_32_0_32.nbt",
+      "nbt": {
+        "file": "c_32_0_32.nbt",
+        "bytes": 28642,
+        "sha256": "51d7d02170be5ff794e05e7ae2712c26b35b1aa499f92dda6d14a398598256d1",
+        "listed_blocks": 9991,
+        "non_air_blocks": 9991,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "e0c87b218cdd984f2eba5a192501148d90b6d94131b320cbcd76b3c39532dda2",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_0_64",
+      "origin": [
+        32,
+        0,
+        64
+      ],
+      "file": "game_templates/v1/c_32_0_64.nbt",
+      "nbt": {
+        "file": "c_32_0_64.nbt",
+        "bytes": 20377,
+        "sha256": "6dbe83669cca5b94dcddc836dc69f6543c60b705f9d0d7fbc639cd3d2259da74",
+        "listed_blocks": 7332,
+        "non_air_blocks": 7332,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "d167c313a8db3108e23bb34549dc13bfb1bc90788298f28752120e6182f86003",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_32_32",
+      "origin": [
+        32,
+        32,
+        32
+      ],
+      "file": "game_templates/v1/c_32_32_32.nbt",
+      "nbt": {
+        "file": "c_32_32_32.nbt",
+        "bytes": 20235,
+        "sha256": "6ce8450effbf1b5c0d4518e439a37b775d56d68eb04d1033845f272c72c0a922",
+        "listed_blocks": 7212,
+        "non_air_blocks": 7212,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "16036debbbaa2baa4e3dce08d4f761a472830167b9a9033807900e5ded6fff35",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_32_64",
+      "origin": [
+        32,
+        32,
+        64
+      ],
+      "file": "game_templates/v1/c_32_32_64.nbt",
+      "nbt": {
+        "file": "c_32_32_64.nbt",
+        "bytes": 19256,
+        "sha256": "33bd258ef6dd20f382c4bda87e6dc66c0ecb99cf8349c9cae8ce082bcae94041",
+        "listed_blocks": 7120,
+        "non_air_blocks": 7120,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "5f3db9bf6fa267f48341bddc914a5281f65629fb0c2a17f9a703e00a8bde1f0a",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_64_32",
+      "origin": [
+        32,
+        64,
+        32
+      ],
+      "file": "game_templates/v1/c_32_64_32.nbt",
+      "nbt": {
+        "file": "c_32_64_32.nbt",
+        "bytes": 21061,
+        "sha256": "06abf4ff7f456b839af5a526b795b737166007c4a3568631d6db828c49897321",
+        "listed_blocks": 7610,
+        "non_air_blocks": 7610,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "e59090efc0419245af021201afedcbf8e857f8ab424efa4f633389a4ee3efdf9",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_64_64",
+      "origin": [
+        32,
+        64,
+        64
+      ],
+      "file": "game_templates/v1/c_32_64_64.nbt",
+      "nbt": {
+        "file": "c_32_64_64.nbt",
+        "bytes": 19590,
+        "sha256": "4998628c8a7c66cd1b325fcfc66114484c55ab91bc75300398e6a4e3ad66d95b",
+        "listed_blocks": 7461,
+        "non_air_blocks": 7461,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "886170c7511d1150ed3f396013111785bc1e3616e674564e36bbce14639823bb",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_96_32",
+      "origin": [
+        32,
+        96,
+        32
+      ],
+      "file": "game_templates/v1/c_32_96_32.nbt",
+      "nbt": {
+        "file": "c_32_96_32.nbt",
+        "bytes": 20487,
+        "sha256": "1194d2b4b5291dd4e2b16361058064498fb4339214f1c79ec97a2e7535e9cb2d",
+        "listed_blocks": 7259,
+        "non_air_blocks": 7259,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "6b8b52a2c3b44705b914b7655a2427b8aa2f897c15b553463a81f3b32fcc39f2",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_96_64",
+      "origin": [
+        32,
+        96,
+        64
+      ],
+      "file": "game_templates/v1/c_32_96_64.nbt",
+      "nbt": {
+        "file": "c_32_96_64.nbt",
+        "bytes": 19285,
+        "sha256": "4df2b8b54376c03f0e74ad944ceff9e808c16ef58c0130562c75267aef20f078",
+        "listed_blocks": 7162,
+        "non_air_blocks": 7162,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "c023602bf88deb6cd4c29eb967ee82eb164a69047554e6311a7b0b5f9f349563",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_128_32",
+      "origin": [
+        32,
+        128,
+        32
+      ],
+      "file": "game_templates/v1/c_32_128_32.nbt",
+      "nbt": {
+        "file": "c_32_128_32.nbt",
+        "bytes": 20205,
+        "sha256": "889e6f0737a81246f46434942418efd94e7ebac034095438518880e86904b693",
+        "listed_blocks": 7186,
+        "non_air_blocks": 7186,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "4616e7b9f01c49f0deaeebd3d93dabd858b1f3f04d3cd9f3c84c7415f4044627",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_128_64",
+      "origin": [
+        32,
+        128,
+        64
+      ],
+      "file": "game_templates/v1/c_32_128_64.nbt",
+      "nbt": {
+        "file": "c_32_128_64.nbt",
+        "bytes": 19111,
+        "sha256": "9d27cc1ad75b929df2b74c19e603a4142ddbf4350254f9fea25698cb67ac4229",
+        "listed_blocks": 7102,
+        "non_air_blocks": 7102,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "ca8ed61109d2b49acaf1f3c06b62f6de6aa32669b841a8d36010a77f14a0eaeb",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_160_32",
+      "origin": [
+        32,
+        160,
+        32
+      ],
+      "file": "game_templates/v1/c_32_160_32.nbt",
+      "nbt": {
+        "file": "c_32_160_32.nbt",
+        "bytes": 22277,
+        "sha256": "ee53123b0775b15e5803e070982cb61058bf20d0b7077591d3b4ffdf123d6750",
+        "listed_blocks": 8006,
+        "non_air_blocks": 8006,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "6a7bd06b7f3dbc6a3ac59added38c2a63a8e2fe1a5ae6444ca8f052ce9a5e292",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_160_64",
+      "origin": [
+        32,
+        160,
+        64
+      ],
+      "file": "game_templates/v1/c_32_160_64.nbt",
+      "nbt": {
+        "file": "c_32_160_64.nbt",
+        "bytes": 21125,
+        "sha256": "d29afa1d97cb1fc9e2aa62783ea86759b9dab33e68a7df4aa9109e773987d3e3",
+        "listed_blocks": 7969,
+        "non_air_blocks": 7969,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "892c719413e1d75a4ba8e3f93abeb176c70bd81c7bb6492db80a623664e72af6",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_192_32",
+      "origin": [
+        32,
+        192,
+        32
+      ],
+      "file": "game_templates/v1/c_32_192_32.nbt",
+      "nbt": {
+        "file": "c_32_192_32.nbt",
+        "bytes": 22164,
+        "sha256": "0dc172df0ee3fbe76b9a9a7a53f729f5538d5e0d6b6207d55834afd27aa05a50",
+        "listed_blocks": 8000,
+        "non_air_blocks": 8000,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "885b87cb8abda871683c34b12bc3b3d88010534189ed09a238cd57234bf8cb22",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_192_64",
+      "origin": [
+        32,
+        192,
+        64
+      ],
+      "file": "game_templates/v1/c_32_192_64.nbt",
+      "nbt": {
+        "file": "c_32_192_64.nbt",
+        "bytes": 21334,
+        "sha256": "c30f73a862a8c574c04213aaab047f4eed1243ea3b716be52d6e5b0968216588",
+        "listed_blocks": 8019,
+        "non_air_blocks": 8019,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "0396b800312d5e5e6cdb9e154fa10ed876f1ce3cc09c22578683e7a2ac53ae45",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_224_32",
+      "origin": [
+        32,
+        224,
+        32
+      ],
+      "file": "game_templates/v1/c_32_224_32.nbt",
+      "nbt": {
+        "file": "c_32_224_32.nbt",
+        "bytes": 18312,
+        "sha256": "14e9ab029da0960d9d23d8e2e0649806b4bfd5fc6b39424d65250f6159cddfbd",
+        "listed_blocks": 6567,
+        "non_air_blocks": 6567,
+        "size_xyz": [
+          32,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "f619e34df6b8e4426379108ff87f44c97e2fc4a5f8d910bbfc5b159af199f050",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_224_64",
+      "origin": [
+        32,
+        224,
+        64
+      ],
+      "file": "game_templates/v1/c_32_224_64.nbt",
+      "nbt": {
+        "file": "c_32_224_64.nbt",
+        "bytes": 17576,
+        "sha256": "d651f03d8d0a4eb586ce9e092913bc4bd7b9518d22bd94a75c37335af4a47f2c",
+        "listed_blocks": 6427,
+        "non_air_blocks": 6427,
+        "size_xyz": [
+          32,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "8095973fc8fe2ba77e19c11745d652cc1f140a9b63cadfbbdc6554909e760420",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_256_32",
+      "origin": [
+        32,
+        256,
+        32
+      ],
+      "file": "game_templates/v1/c_32_256_32.nbt",
+      "nbt": {
+        "file": "c_32_256_32.nbt",
+        "bytes": 3018,
+        "sha256": "61017e3cba3b2a17d8597e38112717b3c96882fbe6593025fd5dbf2c6cbc9dfa",
+        "listed_blocks": 904,
+        "non_air_blocks": 904,
+        "size_xyz": [
+          32,
+          13,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "028a5de311f66deed9168f02343e6b6874ae5a8622f5603971d5eb947bf352e4",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_32_256_64",
+      "origin": [
+        32,
+        256,
+        64
+      ],
+      "file": "game_templates/v1/c_32_256_64.nbt",
+      "nbt": {
+        "file": "c_32_256_64.nbt",
+        "bytes": 4340,
+        "sha256": "0b96d91a3e2b80971929e41f152f90e726c51240c42bc6c8debb1ef376e78166",
+        "listed_blocks": 1415,
+        "non_air_blocks": 1415,
+        "size_xyz": [
+          32,
+          13,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "793cf0a61cce0101f2a7bbd3cf241e400f70ebd23e199f54046b96c9550f94de",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_64_0_0",
+      "origin": [
+        64,
+        0,
+        0
+      ],
+      "file": "game_templates/v1/c_64_0_0.nbt",
+      "nbt": {
+        "file": "c_64_0_0.nbt",
+        "bytes": 3839,
+        "sha256": "46a45143bfd4b13ac91e375b07dfdb0a0cf747bc91c1c8cfcc84c06780f2b8d4",
+        "listed_blocks": 1193,
+        "non_air_blocks": 1193,
+        "size_xyz": [
+          16,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "74d52806d62968bc880e706cb7e312ea48ca54a452c0168f082fe7da252f514a",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_64_0_32",
+      "origin": [
+        64,
+        0,
+        32
+      ],
+      "file": "game_templates/v1/c_64_0_32.nbt",
+      "nbt": {
+        "file": "c_64_0_32.nbt",
+        "bytes": 3156,
+        "sha256": "3c962878ad53486c49c810093316e2420ef4d1b50005b3db586d9a6834edeb96",
+        "listed_blocks": 942,
+        "non_air_blocks": 942,
+        "size_xyz": [
+          16,
+          32,
+          32
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "3119e660c9d63b5e4e513ef66d0bd50e751a8b410b65d067b3f2a68faa97d17c",
+        "data_version": 3955
+      }
+    },
+    {
+      "template": "hafctf:v1/c_64_0_64",
+      "origin": [
+        64,
+        0,
+        64
+      ],
+      "file": "game_templates/v1/c_64_0_64.nbt",
+      "nbt": {
+        "file": "c_64_0_64.nbt",
+        "bytes": 1398,
+        "sha256": "caca5e1c0ed2c328ba4b1d71bb63c257108547095d45bc2275519c1231964667",
+        "listed_blocks": 401,
+        "non_air_blocks": 401,
+        "size_xyz": [
+          16,
+          32,
+          28
+        ],
+        "contains_explicit_air": false,
+        "geometry_sha256": "8d0f140e65b7a8dac50a0c92d81e086a347c6764e9296ef3277f98dedb0db70d",
+        "data_version": 3955
+      }
+    }
+  ]
+}

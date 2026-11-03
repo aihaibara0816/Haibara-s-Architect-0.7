@@ -1,0 +1,128 @@
+{
+  "schema": "haf-case-parameters-1",
+  "case": "guangzhou_south",
+  "engine": "HAF 0.2.0",
+  "adapter": "guangzhou-south-v1",
+  "seed": 20261024,
+  "size_xyz": [
+    640,
+    64,
+    660
+  ],
+  "blocks_per_metre": 1.0,
+  "scale_status": "uniform study scale; engineering drawing bay widths used, hidden dimensions estimated",
+  "ground_y": 2,
+  "rail_y": 13,
+  "platform_y": 14,
+  "departure_y": 22,
+  "center_xz": [
+    310,
+    330
+  ],
+  "hall_bounds_xz": [
+    112,
+    234,
+    510,
+    426
+  ],
+  "roof_bay_edges_x": [
+    126,
+    171,
+    239,
+    307,
+    375,
+    443,
+    495
+  ],
+  "roof_north_ends_z": [
+    100,
+    64,
+    42,
+    54,
+    80,
+    110
+  ],
+  "roof_south_ends_z": [
+    560,
+    596,
+    618,
+    606,
+    580,
+    550
+  ],
+  "roof_main_edge_y": 43,
+  "roof_main_rise": 7,
+  "roof_outer_edge_y": [
+    35,
+    25
+  ],
+  "skylight": {
+    "xmin": 90,
+    "xmax": 532,
+    "halfwidth_center": 12,
+    "halfwidth_end": 32,
+    "rim_y": 45,
+    "rise": 9,
+    "grid_pitch": 6
+  },
+  "track_layout": {
+    "start_x": 124,
+    "pair_pitch": 26,
+    "pairs": 14,
+    "track_centers_offset": [
+      9,
+      17
+    ],
+    "platform_halfwidth": 5,
+    "zrange": [
+      10,
+      650
+    ],
+    "platform_zrange": [
+      100,
+      560
+    ],
+    "decorative_only": true
+  },
+  "lighting": {
+    "public_hall_fixed": true,
+    "warm_commercial_activity": 0.45,
+    "namespace": "guangzhou-south-v1"
+  },
+  "coordinates": {
+    "x": "model east, entrance-to-entrance transverse direction",
+    "y": "up",
+    "z": "model south, track direction",
+    "actual_geographic_bearing": "not surveyed; working directions follow published elevation labels, no georeferenced transform"
+  },
+  "scope": {
+    "include": [
+      "main terminal",
+      "six vaulted roof bays",
+      "central flared skylight",
+      "north/south platform canopies",
+      "15 platform bodies / 28 decorative track corridors",
+      "ground arrival hall and elevated waiting hall",
+      "east/west drop-offs at different levels",
+      "bounded plaza landscaping"
+    ],
+    "exclude": [
+      "basements and metro",
+      "full railway throats",
+      "TOD towers",
+      "functional Create track/rolling stock/control",
+      "surveyed interiors"
+    ]
+  },
+  "uncertainties": [
+    "source envelopes differ: sbp 450x400x40m vs drawing 398m axes and longer canopy envelope; not combined into one measured overall box",
+    "main roof heights are a study interpretation within the 47–52m maintenance-report range",
+    "six unequal bay widths use rounded published design axes, not as-built survey",
+    "plaza paving/planting and road curves are approximate",
+    "seating/retail/lighting fixture count are procedural supplements",
+    "15 platform bodies are retained but individual track spacing is regularized"
+  ],
+  "roof_material": "smooth_stone",
+  "structure_material": "smooth_quartz",
+  "glazing_material": "light_blue_stained_glass_pane"
+}

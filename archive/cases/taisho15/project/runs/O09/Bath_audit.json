@@ -1,0 +1,67 @@
+{
+  "source_nbt_sha256": "c79a23d278dc7fcba0e5d5898d00763815f35343a7138165dd0bd6a9479c5492",
+  "non_air": 8497,
+  "entries": [
+    {
+      "id": "Bath",
+      "pos": [
+        14,
+        3,
+        26
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 4,
+  "use_checks": [
+    {
+      "id": "Bath.entry",
+      "pos": [
+        14,
+        3,
+        25
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bath.changing",
+      "pos": [
+        16,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bath.bath",
+      "pos": [
+        20,
+        3,
+        10
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bath.wing.laundry",
+      "pos": [
+        26,
+        3,
+        9
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 21,
+  "paintings": 0,
+  "official_model_states": 54,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

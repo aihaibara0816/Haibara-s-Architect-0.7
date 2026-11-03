@@ -1,0 +1,264 @@
+[
+  {
+    "id": "structure.main_0",
+    "kind": "tube",
+    "axis_m": [
+      9.006664199358163,
+      5.199999999999999
+    ],
+    "diameter_m": 9,
+    "height_m": 284
+  },
+  {
+    "id": "structure.slant_0",
+    "kind": "tube",
+    "a_m": [
+      55.50666419935819,
+      0,
+      32.046787517317604
+    ],
+    "b_m": [
+      9.006664199358163,
+      93,
+      5.199999999999999
+    ],
+    "diameter_m": 7
+  },
+  {
+    "id": "structure.main_1",
+    "kind": "tube",
+    "axis_m": [
+      -9.00666419935816,
+      5.200000000000004
+    ],
+    "diameter_m": 9,
+    "height_m": 284
+  },
+  {
+    "id": "structure.slant_1",
+    "kind": "tube",
+    "a_m": [
+      -55.50666419935818,
+      0,
+      32.04678751731763
+    ],
+    "b_m": [
+      -9.00666419935816,
+      93,
+      5.200000000000004
+    ],
+    "diameter_m": 7
+  },
+  {
+    "id": "structure.main_2",
+    "kind": "tube",
+    "axis_m": [
+      -1.910449006669871e-15,
+      -10.4
+    ],
+    "diameter_m": 9,
+    "height_m": 284
+  },
+  {
+    "id": "structure.slant_2",
+    "kind": "tube",
+    "a_m": [
+      -1.1773798726811509e-14,
+      0,
+      -64.09357503463522
+    ],
+    "b_m": [
+      -1.910449006669871e-15,
+      93,
+      -10.4
+    ],
+    "diameter_m": 7
+  },
+  {
+    "id": "sphere.lower",
+    "kind": "sphere",
+    "center_m": [
+      0,
+      93,
+      0
+    ],
+    "radius_m": 25.0,
+    "center_voxel": [
+      44.0,
+      46.4,
+      44.0
+    ],
+    "radius_voxel": 11.666666666666666,
+    "style": "lower"
+  },
+  {
+    "id": "sphere.upper",
+    "kind": "sphere",
+    "center_m": [
+      0,
+      272.5,
+      0
+    ],
+    "radius_m": 22.5,
+    "center_voxel": [
+      44.0,
+      130.16666666666669,
+      44.0
+    ],
+    "radius_voxel": 10.5,
+    "style": "upper"
+  },
+  {
+    "id": "sphere.capsule",
+    "kind": "sphere",
+    "center_m": [
+      0,
+      342,
+      0
+    ],
+    "radius_m": 8.0,
+    "center_voxel": [
+      44.0,
+      162.6,
+      44.0
+    ],
+    "radius_voxel": 3.7333333333333334,
+    "style": "capsule"
+  },
+  {
+    "id": "sphere.small_0",
+    "kind": "sphere",
+    "center_m": [
+      0,
+      136,
+      0
+    ],
+    "radius_m": 6,
+    "center_voxel": [
+      44.0,
+      66.46666666666667,
+      44.0
+    ],
+    "radius_voxel": 2.8,
+    "style": "small"
+  },
+  {
+    "id": "sphere.small_1",
+    "kind": "sphere",
+    "center_m": [
+      0,
+      162,
+      0
+    ],
+    "radius_m": 6,
+    "center_voxel": [
+      44.0,
+      78.6,
+      44.0
+    ],
+    "radius_voxel": 2.8,
+    "style": "small"
+  },
+  {
+    "id": "sphere.small_2",
+    "kind": "sphere",
+    "center_m": [
+      0,
+      188,
+      0
+    ],
+    "radius_m": 6,
+    "center_voxel": [
+      44.0,
+      90.73333333333333,
+      44.0
+    ],
+    "radius_voxel": 2.8,
+    "style": "small"
+  },
+  {
+    "id": "sphere.small_3",
+    "kind": "sphere",
+    "center_m": [
+      0,
+      214,
+      0
+    ],
+    "radius_m": 6,
+    "center_voxel": [
+      44.0,
+      102.86666666666667,
+      44.0
+    ],
+    "radius_voxel": 2.8,
+    "style": "small"
+  },
+  {
+    "id": "sphere.small_4",
+    "kind": "sphere",
+    "center_m": [
+      0,
+      240,
+      0
+    ],
+    "radius_m": 6,
+    "center_voxel": [
+      44.0,
+      115.0,
+      44.0
+    ],
+    "radius_voxel": 2.8,
+    "style": "small"
+  },
+  {
+    "id": "sphere.base_0",
+    "kind": "sphere",
+    "center_m": [
+      33.00666419935818,
+      45,
+      19.05640646055102
+    ],
+    "radius_m": 5,
+    "center_voxel": [
+      59.40310995970049,
+      24.0,
+      52.89298968159048
+    ],
+    "radius_voxel": 2.3333333333333335,
+    "style": "small"
+  },
+  {
+    "id": "sphere.base_1",
+    "kind": "sphere",
+    "center_m": [
+      -33.00666419935816,
+      45,
+      19.056406460551038
+    ],
+    "radius_m": 5,
+    "center_voxel": [
+      28.596890040299524,
+      24.0,
+      52.892989681590485
+    ],
+    "radius_voxel": 2.3333333333333335,
+    "style": "small"
+  },
+  {
+    "id": "sphere.base_2",
+    "kind": "sphere",
+    "center_m": [
+      -7.001210152549426e-15,
+      45,
+      -38.11281292110205
+    ],
+    "radius_m": 5,
+    "center_voxel": [
+      44.0,
+      24.0,
+      26.214020636819043
+    ],
+    "radius_voxel": 2.3333333333333335,
+    "style": "small"
+  }
+]

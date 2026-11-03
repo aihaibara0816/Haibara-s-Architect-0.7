@@ -1,0 +1,64 @@
+{
+  "source_nbt_sha256": "7f10e59f2eeb06de8423fc459848ed9efea87fac20a1aeb28460fdc8369523e1",
+  "size_xyz": [
+    92,
+    224,
+    100
+  ],
+  "schematic": {
+    "file": "Guangzhou_IFC_HAF03_V1.schem",
+    "bytes": 38857,
+    "sha256": "f7424d60c4f48b8516edd085d40be8e403790b345bb507d5e3c762018cdcd1b4",
+    "format": "Sponge schematic v3",
+    "contains_explicit_air": true,
+    "nonair_readback_exact": true,
+    "non_air_blocks": 134847
+  },
+  "modules": [
+    {
+      "file": "modules/parta.nbt",
+      "offset_xyz": [
+        0,
+        0,
+        0
+      ],
+      "bytes": 254751,
+      "sha256": "33f760615206d4e401fad69a6c5909b9d3fb8d08b29b14a04c43ab471ef45748",
+      "listed_blocks": 86005,
+      "non_air_blocks": 86005,
+      "size_xyz": [
+        92,
+        112,
+        100
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "264c33167085a252f4dedebfd2b28ffb3c5cea6579f9ade5e1eb9a984d280430",
+      "data_version": 3955
+    },
+    {
+      "file": "modules/partb.nbt",
+      "offset_xyz": [
+        0,
+        112,
+        0
+      ],
+      "bytes": 148482,
+      "sha256": "9f7e54deb5db48670a5133befb2e91637a67c9cc30ec10c0f0fe62720751702b",
+      "listed_blocks": 48842,
+      "non_air_blocks": 48842,
+      "size_xyz": [
+        92,
+        112,
+        100
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "e5fe1b399cdd873355083a10bdae160ecadf21a9ee952b254f86be730c49f4f8",
+      "data_version": 3955
+    }
+  ],
+  "module_count": 2,
+  "module_union_exact": true,
+  "module_max_bytes": 254751,
+  "coordinate_convention": "Local X/Y/Z; module minimum corner = project origin + offset_xyz; no rotation. Geographic orientation is case-specific; see case parameters.",
+  "tested": "Offline readback and exact coordinate/state union only; game import pending"
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-26",
+  "queries": [
+    "Shanghai World Financial Center KPF 492 trapezoid square base 58 meters",
+    "上海环球金融中心 顶部 梯形 风洞 结构",
+    "site.commons.wikimedia.org Shanghai World Financial Center top close view",
+    "site.swfc-shanghai.com 474 439 55",
+    "site.lera.com Shanghai World Financial Center 58"
+  ],
+  "visited_primary": [
+    "https://swfc-shanghai.com/about_intro.php?l=en",
+    "https://www.kpf.com/project/shanghai-world-financial-center",
+    "https://old.skyscraper.org/EXHIBITIONS/SUPERTALL/wfc.php",
+    "https://swfc-shanghai.com/up_pdf/1321340644_23490.pdf",
+    "https://structure.tongji.edu.cn/info/1358/4227.htm",
+    "https://www.lera.com/shanghai-world-financial-center"
+  ],
+  "rejected": [
+    {
+      "file": "images/06_canopy.jpg",
+      "title": "Shanghai World Financial Center ground cover (3135088282).jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shanghai_World_Financial_Center_ground_cover_(3135088282).jpg",
+      "author": "BriYYZ",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "reason": "实际是蓝色地被灯饰，初始文件名canopy误判；排除建筑几何用途"
+    }
+  ],
+  "access_issues": [
+    "Commons初始请求因缺User-Agent被拒；按站点明确要求设置研究客户端标识后成功",
+    "两个CTBUH旧PDF返回404，未声称读取全文"
+  ],
+  "optional_model_route": "not attempted this case; no user supplied model, image/document route sufficient for first explicit adapter",
+  "next_search": [
+    "带尺寸顶冠剖面",
+    "现状裙楼总平",
+    "真实灯具位置与背面夜景"
+  ]
+}

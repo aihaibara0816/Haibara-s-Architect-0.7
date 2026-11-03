@@ -1,0 +1,79 @@
+{
+  "file_name": "building.nbt",
+  "file_sha256": "763adee9f0bf0dcab3a62d02b38e8ce7a1766f86357aa9eb327cf88436350e1c",
+  "file_bytes": 36450,
+  "decoded_bytes": 538838,
+  "compression": "gzip",
+  "root_name": "",
+  "format": "java_structure",
+  "data_version": 3955,
+  "offset_xyz": [
+    0,
+    0,
+    0
+  ],
+  "block_entities_count": 0,
+  "entities_count": 0,
+  "structural_subset_check": "pass",
+  "usable_nonempty_sample": true,
+  "size_xyz": [
+    22,
+    20,
+    34
+  ],
+  "bounding_volume_cells": 14960,
+  "listed_block_entries": 14960,
+  "unlisted_cells": 0,
+  "non_air_non_void_blocks": 3698,
+  "explicit_air_entries": 11262,
+  "structure_void_entries": 0,
+  "occupied_bbox_inclusive": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      21,
+      18,
+      33
+    ]
+  ],
+  "palette_entries": 6,
+  "used_block_state_counts": {
+    "minecraft:air": 11262,
+    "minecraft:gray_concrete": 448,
+    "minecraft:red_terracotta": 1002,
+    "minecraft:smooth_quartz": 672,
+    "minecraft:smooth_stone": 828,
+    "minecraft:stone_bricks": 748
+  },
+  "non_air_blocks_by_y": {
+    "0": 748,
+    "1": 748,
+    "2": 144,
+    "3": 136,
+    "4": 128,
+    "5": 124,
+    "6": 88,
+    "7": 88,
+    "8": 88,
+    "9": 92,
+    "10": 92,
+    "11": 92,
+    "12": 92,
+    "13": 92,
+    "14": 96,
+    "15": 180,
+    "16": 352,
+    "17": 286,
+    "18": 32
+  },
+  "local_listed_blockstates_sha256": "91ca1911082aea24fe674f484276f82125294e0c9830b8eeac5f0b31a2165cd7",
+  "game_validation": "pending",
+  "warnings": [
+    "Subset structural checks only; no registry/property compatibility or game import test.",
+    "Entities, block-entity contents, biomes, NBT field tag kinds and extra metadata are not semantically validated.",
+    "Counts by Y are block distributions, not verified floor counts or collision/solidity measurements."
+  ]
+}

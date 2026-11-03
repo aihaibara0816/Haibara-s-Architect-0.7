@@ -1,0 +1,85 @@
+{
+  "project": "Guanggang01",
+  "run": "G03",
+  "scope": "original compact steelworks inspired by Guanggang heritage",
+  "source_nbt_sha256": "51ff100a694e747961abab8b16712740e1fd91d055ecd60cb34d97e017194622",
+  "final_geometry": {
+    "source_nbt_sha256": "51ff100a694e747961abab8b16712740e1fd91d055ecd60cb34d97e017194622",
+    "size_xyz": [
+      240,
+      88,
+      192
+    ],
+    "blocks": 216068,
+    "palette": 66,
+    "independent_nbt_equal": true,
+    "state_subset_valid": true,
+    "main_road_clearance_2_blocks": true,
+    "blocked_route_cells": [],
+    "game_test": "not_run",
+    "renderer": "NBT-readback approximate block shapes and colors",
+    "data_version": 3955
+  },
+  "world": {
+    "block_entity_payload_exact": true,
+    "version": "Java 1.21.1",
+    "data_version": 3955,
+    "source_nbt_sha256": "51ff100a694e747961abab8b16712740e1fd91d055ecd60cb34d97e017194622",
+    "world_offset": [
+      -120,
+      62,
+      -96
+    ],
+    "spawn": [
+      12,
+      65,
+      83
+    ],
+    "chunks": 252,
+    "scene_chunks": 192,
+    "checked_cells": 4325376,
+    "mismatches": 0,
+    "lighting": "isLightOn=0; game must recalculate on first load",
+    "game": "pending",
+    "heightmaps": "authored approximations; actual collision/light pending game",
+    "decorative": [
+      "steelworks equipment",
+      "freight vehicles",
+      "production line"
+    ],
+    "block_entities": 0,
+    "entities": 0,
+    "entity_payload_exact": true,
+    "entity_chunks": 0
+  },
+  "schematic": {
+    "format": "Sponge v2",
+    "checked_cells": 4055040,
+    "mismatches": 0,
+    "origin_local": [
+      132,
+      3,
+      179
+    ],
+    "offset_xyz": [
+      -132,
+      -3,
+      -179
+    ],
+    "source_nbt_sha256": "51ff100a694e747961abab8b16712740e1fd91d055ecd60cb34d97e017194622",
+    "schem_sha256": "4186f949493369f73f17dc91bda3e7487545403460c64afc56a5189a5432992f",
+    "worldedit_import": "not_run",
+    "air": "full bounding box included; paste can replace existing blocks"
+  },
+  "visual_review": "18 same-source views reviewed, including interior, section and night",
+  "interactive": "WebGL2 package checked structurally and JS syntax checked; browser runtime not executed",
+  "source_packages_recovered": [
+    "HAF04.zip",
+    "Qilou04_Project.zip"
+  ],
+  "drafts_preserved_locally": [
+    "G01 route lamp collision fixed",
+    "G02 roof light hangers and entrance steps added"
+  ],
+  "no_game_run": true
+}

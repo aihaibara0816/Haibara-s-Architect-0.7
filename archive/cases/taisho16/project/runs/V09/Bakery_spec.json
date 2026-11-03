@@ -1,0 +1,330 @@
+{
+  "case_id": "Bakery",
+  "run": "V09",
+  "seed": 151145,
+  "buildings": [
+    {
+      "id": "Bakery",
+      "name": "麦穂パン店｜面包房",
+      "size": [
+        18,
+        28,
+        24
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        9,
+        3,
+        19
+      ],
+      "rooms": [
+        {
+          "id": "Bakery.main",
+          "name": "麦穂パン店｜面包房",
+          "bounds": [
+            7,
+            3,
+            4,
+            14,
+            7,
+            19
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Bakery.entry",
+          "pos": [
+            9,
+            3,
+            18
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bakery.order",
+          "pos": [
+            10,
+            3,
+            13
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bakery.bakery",
+          "pos": [
+            12,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Bakery.door.0",
+          "pos": [
+            9,
+            3,
+            19
+          ],
+          "lintel": [
+            9,
+            5,
+            19
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            9,
+            6,
+            15
+          ],
+          "support": [
+            9,
+            7,
+            15
+          ]
+        },
+        {
+          "position": [
+            11,
+            6,
+            7
+          ],
+          "support": [
+            11,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            12
+          ],
+          "support": [
+            7,
+            7,
+            12
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Bakery.stove.cooking.4_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            4,
+            3,
+            4,
+            5,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              4,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bakery.stove.cooking.5_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            5,
+            3,
+            4,
+            6,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bakery.sink.water_basin.8_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            8,
+            3,
+            4,
+            9,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bakery.cafe.dining_table.4_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            4,
+            3,
+            15,
+            7,
+            4,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bakery.chair.seat.5_1_13",
+          "recipe": "seat",
+          "bounds_xyz": [
+            5,
+            3,
+            13,
+            6,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "entry_world": [
+        9,
+        3,
+        19
+      ]
+    }
+  ],
+  "uses": [
+    {
+      "id": "Bakery.entry",
+      "pos": [
+        9,
+        3,
+        18
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Bakery.order",
+      "pos": [
+        10,
+        3,
+        13
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Bakery.bakery",
+      "pos": [
+        12,
+        3,
+        7
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Bakery.door.0",
+      "pos": [
+        9,
+        3,
+        19
+      ],
+      "lintel": [
+        9,
+        5,
+        19
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        9,
+        6,
+        15
+      ],
+      "support": [
+        9,
+        7,
+        15
+      ]
+    },
+    {
+      "position": [
+        11,
+        6,
+        7
+      ],
+      "support": [
+        11,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        12
+      ],
+      "support": [
+        7,
+        7,
+        12
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    9,
+    3,
+    20
+  ],
+  "upper_start": [
+    4,
+    4
+  ],
+  "source_nbt_sha256": "5e7ea6159fbd51d883d0df4220bc47f35e1332f1d0aafe6628b9174788e326c0",
+  "non_air": 2830,
+  "size_xyz": [
+    18,
+    28,
+    24
+  ],
+  "block_entities": 18,
+  "entities": 0
+}

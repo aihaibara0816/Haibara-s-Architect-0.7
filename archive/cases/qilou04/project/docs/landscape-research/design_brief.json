@@ -1,0 +1,23 @@
+{
+  "case_id": "Qilou04",
+  "version": "R15",
+  "route": "original",
+  "coordinates": {
+    "x": "east",
+    "y": "up",
+    "z": "south",
+    "units": "minecraft blocks"
+  },
+  "seed": 311148,
+  "hard_constraints": [
+    "keep main and cross-road topology",
+    "preserve usable rooms and stairs",
+    "tree branches must not overwrite buildings",
+    "retain raw Minecraft screenshots as close-ups"
+  ],
+  "facade_spec": "runs/R18/spec.json building.facade_revision",
+  "spatial_spec": "runs/R18/spec.json plus independent building specs",
+  "planting_spec": "runs/R18/spec.json landscape",
+  "long_prompt": "广州老城骑楼与城中村混合街区，主街连续柱廊，背后与过街为宽深不一的住宅；38、46、51格宽的大骑楼分散穿插，11层与12层高宅各一栋，其他2–8层。整栋灰白、米黄、暖黄、浅粉赭与少量青绿砖红分色，平屋顶女儿墙、露台与完整坡顶混合，修补按小片。榕树粗细递减分枝、枝梢大小叶簇留空、少量气根；树下连续绿地、灌木蕨草，保留步行路线。铺装同灰石家族有组织变化。",
+  "short_prompt": "广州骑楼与村居，大小高低错落，逐栋分色，平坡屋顶混合，分枝榕树与成片绿地，实机近景验收。"
+}

@@ -1,0 +1,1620 @@
+{
+  "case_id": "InteriorDetail05",
+  "mode": "after",
+  "rooms": [
+    {
+      "id": "R1",
+      "title": "木框软垫起居组",
+      "origin": [
+        1,
+        1,
+        1
+      ],
+      "bounds": [
+        1,
+        1,
+        13,
+        13
+      ],
+      "entry": [
+        6,
+        2,
+        12
+      ],
+      "floor_y": 1
+    },
+    {
+      "id": "R2",
+      "title": "卧室床头组",
+      "origin": [
+        16,
+        1,
+        1
+      ],
+      "bounds": [
+        16,
+        1,
+        28,
+        13
+      ],
+      "entry": [
+        21,
+        2,
+        12
+      ],
+      "floor_y": 1
+    },
+    {
+      "id": "R3",
+      "title": "紧凑木作厨房",
+      "origin": [
+        1,
+        1,
+        16
+      ],
+      "bounds": [
+        1,
+        16,
+        13,
+        28
+      ],
+      "entry": [
+        6,
+        2,
+        27
+      ],
+      "floor_y": 1
+    },
+    {
+      "id": "R4",
+      "title": "日式食铺吧台",
+      "origin": [
+        16,
+        1,
+        16
+      ],
+      "bounds": [
+        16,
+        16,
+        28,
+        28
+      ],
+      "entry": [
+        21,
+        2,
+        27
+      ],
+      "floor_y": 1
+    }
+  ],
+  "components": [
+    {
+      "id": "R1.daybed.mattress.bed.3_1_3",
+      "recipe": "bed",
+      "bounds_xyz": [
+        4,
+        2,
+        4,
+        5,
+        3,
+        6
+      ],
+      "use_points": [
+        [
+          4,
+          2,
+          6
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R1.daybed.mattress.bed.4_1_3",
+      "recipe": "bed",
+      "bounds_xyz": [
+        5,
+        2,
+        4,
+        6,
+        3,
+        6
+      ],
+      "use_points": [
+        [
+          5,
+          2,
+          6
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R1.daybed.mattress.bed.5_1_3",
+      "recipe": "bed",
+      "bounds_xyz": [
+        6,
+        2,
+        4,
+        7,
+        3,
+        6
+      ],
+      "use_points": [
+        [
+          6,
+          2,
+          6
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R1.daybed.framed_daybed.2_1_2",
+      "recipe": "framed_daybed",
+      "bounds_xyz": [
+        3,
+        2,
+        3,
+        8,
+        3,
+        6
+      ],
+      "use_points": [],
+      "interaction": "decorative",
+      "recipe_version": "0.1",
+      "source_refs": [
+        "S01@01:49"
+      ],
+      "evidence": "authored adaptation",
+      "geometry_consumer": "furniture_detail_kit.py",
+      "children": [
+        "R1.daybed.mattress.bed.3_1_3",
+        "R1.daybed.mattress.bed.4_1_3",
+        "R1.daybed.mattress.bed.5_1_3"
+      ],
+      "part_cells": [
+        {
+          "part": "daybed.mattress",
+          "pos": [
+            4,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "daybed.mattress",
+          "pos": [
+            4,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "daybed.back",
+          "pos": [
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "daybed.mattress",
+          "pos": [
+            5,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "daybed.mattress",
+          "pos": [
+            5,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "daybed.back",
+          "pos": [
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "daybed.mattress",
+          "pos": [
+            6,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "daybed.mattress",
+          "pos": [
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "daybed.back",
+          "pos": [
+            6,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "daybed.arm",
+          "pos": [
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "daybed.arm",
+          "pos": [
+            7,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "daybed.arm",
+          "pos": [
+            3,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "daybed.arm",
+          "pos": [
+            7,
+            2,
+            5
+          ]
+        }
+      ],
+      "limitations": [
+        "bed-as-upholstery; vanilla sleep interaction untested",
+        "decorative seating; no sit interaction promised"
+      ],
+      "game_checked": false
+    },
+    {
+      "id": "R1.cabinet.closed.storage_container.6_1_1",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        7,
+        2,
+        2,
+        8,
+        3,
+        3
+      ],
+      "use_points": [
+        [
+          7,
+          2,
+          3
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R1.cabinet.closed.storage_container.7_1_1",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        8,
+        2,
+        2,
+        9,
+        3,
+        3
+      ],
+      "use_points": [
+        [
+          8,
+          2,
+          3
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R1.cabinet.mixed_cabinet.5_1_1",
+      "recipe": "mixed_cabinet",
+      "bounds_xyz": [
+        6,
+        2,
+        2,
+        12,
+        5,
+        3
+      ],
+      "use_points": [],
+      "interaction": "decorative",
+      "recipe_version": "0.1",
+      "source_refs": [
+        "S01@01:49",
+        "UIMG1"
+      ],
+      "evidence": "authored adaptation",
+      "geometry_consumer": "furniture_detail_kit.py",
+      "children": [
+        "R1.cabinet.closed.storage_container.6_1_1",
+        "R1.cabinet.closed.storage_container.7_1_1"
+      ],
+      "part_cells": [
+        {
+          "part": "cabinet.closed",
+          "pos": [
+            7,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.closed",
+          "pos": [
+            8,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.books",
+          "pos": [
+            9,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.open_base",
+          "pos": [
+            10,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.open_object",
+          "pos": [
+            10,
+            3,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.cap",
+          "pos": [
+            7,
+            4,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.cap",
+          "pos": [
+            8,
+            4,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.cap",
+          "pos": [
+            9,
+            4,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.cap",
+          "pos": [
+            10,
+            4,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.side",
+          "pos": [
+            6,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.side",
+          "pos": [
+            11,
+            2,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.side",
+          "pos": [
+            6,
+            3,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.side",
+          "pos": [
+            11,
+            3,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.side",
+          "pos": [
+            6,
+            4,
+            2
+          ]
+        },
+        {
+          "part": "cabinet.side",
+          "pos": [
+            11,
+            4,
+            2
+          ]
+        }
+      ],
+      "limitations": [
+        "fixed bay composition; no auto-fit or container access guarantee"
+      ],
+      "game_checked": false
+    },
+    {
+      "id": "R1.coffee.low_table.3_1_6",
+      "recipe": "low_table",
+      "bounds_xyz": [
+        4,
+        2,
+        7,
+        7,
+        3,
+        8
+      ],
+      "use_points": [],
+      "interaction": "decorative"
+    },
+    {
+      "id": "R2.bedwall.sleep.bed.4_1_3",
+      "recipe": "bed",
+      "bounds_xyz": [
+        20,
+        2,
+        4,
+        21,
+        3,
+        6
+      ],
+      "use_points": [
+        [
+          19,
+          2,
+          5
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R2.bedwall.sleep.bed.5_1_3",
+      "recipe": "bed",
+      "bounds_xyz": [
+        21,
+        2,
+        4,
+        22,
+        3,
+        6
+      ],
+      "use_points": [
+        [
+          22,
+          2,
+          5
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R2.bedwall.bed_wall.2_1_2",
+      "recipe": "bed_wall",
+      "bounds_xyz": [
+        18,
+        2,
+        3,
+        24,
+        4,
+        8
+      ],
+      "use_points": [],
+      "interaction": "decorative",
+      "recipe_version": "0.1",
+      "source_refs": [
+        "B01@00:26.070",
+        "UIMG2"
+      ],
+      "evidence": "authored adaptation",
+      "geometry_consumer": "furniture_detail_kit.py",
+      "children": [
+        "R2.bedwall.sleep.bed.4_1_3",
+        "R2.bedwall.sleep.bed.5_1_3"
+      ],
+      "part_cells": [
+        {
+          "part": "bedwall.sleep",
+          "pos": [
+            20,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "bedwall.sleep",
+          "pos": [
+            20,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "bedwall.sleep",
+          "pos": [
+            21,
+            2,
+            5
+          ]
+        },
+        {
+          "part": "bedwall.sleep",
+          "pos": [
+            21,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "bedwall.headboard",
+          "pos": [
+            19,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "bedwall.headboard_top",
+          "pos": [
+            19,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "bedwall.headboard",
+          "pos": [
+            20,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "bedwall.headboard_top",
+          "pos": [
+            20,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "bedwall.headboard",
+          "pos": [
+            21,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "bedwall.headboard_top",
+          "pos": [
+            21,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "bedwall.headboard",
+          "pos": [
+            22,
+            2,
+            3
+          ]
+        },
+        {
+          "part": "bedwall.headboard_top",
+          "pos": [
+            22,
+            3,
+            3
+          ]
+        },
+        {
+          "part": "bedwall.bedside",
+          "pos": [
+            18,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "bedwall.bedside",
+          "pos": [
+            23,
+            2,
+            4
+          ]
+        },
+        {
+          "part": "bedwall.lamp",
+          "pos": [
+            18,
+            3,
+            4
+          ]
+        },
+        {
+          "part": "bedwall.cup",
+          "pos": [
+            23,
+            3,
+            4
+          ]
+        },
+        {
+          "part": "bedwall.rug",
+          "pos": [
+            19,
+            2,
+            6
+          ]
+        },
+        {
+          "part": "bedwall.rug",
+          "pos": [
+            19,
+            2,
+            7
+          ]
+        },
+        {
+          "part": "bedwall.rug",
+          "pos": [
+            20,
+            2,
+            6
+          ]
+        },
+        {
+          "part": "bedwall.rug",
+          "pos": [
+            20,
+            2,
+            7
+          ]
+        },
+        {
+          "part": "bedwall.rug",
+          "pos": [
+            21,
+            2,
+            6
+          ]
+        },
+        {
+          "part": "bedwall.rug",
+          "pos": [
+            21,
+            2,
+            7
+          ]
+        },
+        {
+          "part": "bedwall.rug",
+          "pos": [
+            22,
+            2,
+            6
+          ]
+        },
+        {
+          "part": "bedwall.rug",
+          "pos": [
+            22,
+            2,
+            7
+          ]
+        }
+      ],
+      "limitations": [
+        "true double bed plus authored headboard, not enlarged fake mattress",
+        "lighting and sleep still require client verification"
+      ],
+      "game_checked": false
+    },
+    {
+      "id": "R2.linen_storage.storage_container.1_1_7",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        17,
+        2,
+        8,
+        18,
+        3,
+        9
+      ],
+      "use_points": [
+        [
+          18,
+          2,
+          8
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R2.linen_storage.storage_container.1_2_7",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        17,
+        3,
+        8,
+        18,
+        4,
+        9
+      ],
+      "use_points": [
+        [
+          18,
+          2,
+          8
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R2.desk.dining_table.7_1_8",
+      "recipe": "dining_table",
+      "bounds_xyz": [
+        23,
+        2,
+        9,
+        26,
+        3,
+        10
+      ],
+      "use_points": [],
+      "interaction": "decorative"
+    },
+    {
+      "id": "R2.desk_chair.seat.8_1_9",
+      "recipe": "seat",
+      "bounds_xyz": [
+        24,
+        2,
+        10,
+        25,
+        3,
+        11
+      ],
+      "use_points": [],
+      "interaction": "decorative"
+    },
+    {
+      "id": "R3.kitchen.store.storage_container.2_1_1",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        3,
+        2,
+        17,
+        4,
+        3,
+        18
+      ],
+      "use_points": [
+        [
+          3,
+          2,
+          18
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R3.kitchen.wash.water_basin.4_1_1",
+      "recipe": "water_basin",
+      "bounds_xyz": [
+        5,
+        2,
+        17,
+        6,
+        3,
+        18
+      ],
+      "use_points": [
+        [
+          5,
+          2,
+          18
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R3.kitchen.cook.cooking.6_1_1",
+      "recipe": "cooking",
+      "bounds_xyz": [
+        7,
+        2,
+        17,
+        8,
+        3,
+        18
+      ],
+      "use_points": [
+        [
+          7,
+          2,
+          18
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R3.kitchen.store.storage_container.7_1_1",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        8,
+        2,
+        17,
+        9,
+        3,
+        18
+      ],
+      "use_points": [
+        [
+          8,
+          2,
+          18
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R3.kitchen.meal.food_display.3_2_1",
+      "recipe": "food_display",
+      "bounds_xyz": [
+        4,
+        3,
+        17,
+        5,
+        4,
+        18
+      ],
+      "use_points": [],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R3.kitchen.kitchen_band.2_1_1",
+      "recipe": "kitchen_band",
+      "bounds_xyz": [
+        3,
+        2,
+        17,
+        10,
+        6,
+        19
+      ],
+      "use_points": [],
+      "interaction": "decorative",
+      "recipe_version": "0.1",
+      "source_refs": [
+        "UIMG1",
+        "Y02@00:37"
+      ],
+      "evidence": "authored adaptation",
+      "geometry_consumer": "furniture_detail_kit.py",
+      "children": [
+        "R3.kitchen.store.storage_container.2_1_1",
+        "R3.kitchen.wash.water_basin.4_1_1",
+        "R3.kitchen.cook.cooking.6_1_1",
+        "R3.kitchen.store.storage_container.7_1_1",
+        "R3.kitchen.meal.food_display.3_2_1"
+      ],
+      "part_cells": [
+        {
+          "part": "kitchen.store",
+          "pos": [
+            3,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.prep",
+          "pos": [
+            4,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.wash",
+          "pos": [
+            5,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.prep",
+          "pos": [
+            6,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.cook",
+          "pos": [
+            7,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.store",
+          "pos": [
+            8,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.end",
+          "pos": [
+            9,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.door_front",
+          "pos": [
+            4,
+            2,
+            18
+          ]
+        },
+        {
+          "part": "kitchen.door_front",
+          "pos": [
+            6,
+            2,
+            18
+          ]
+        },
+        {
+          "part": "kitchen.door_front",
+          "pos": [
+            9,
+            2,
+            18
+          ]
+        },
+        {
+          "part": "kitchen.meal",
+          "pos": [
+            4,
+            3,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.cup",
+          "pos": [
+            9,
+            3,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.upper",
+          "pos": [
+            3,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.upper_door",
+          "pos": [
+            3,
+            4,
+            18
+          ]
+        },
+        {
+          "part": "kitchen.upper",
+          "pos": [
+            4,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.upper_door",
+          "pos": [
+            4,
+            4,
+            18
+          ]
+        },
+        {
+          "part": "kitchen.upper",
+          "pos": [
+            8,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.upper_door",
+          "pos": [
+            8,
+            4,
+            18
+          ]
+        },
+        {
+          "part": "kitchen.upper",
+          "pos": [
+            9,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.upper_door",
+          "pos": [
+            9,
+            4,
+            18
+          ]
+        },
+        {
+          "part": "kitchen.open_shelf",
+          "pos": [
+            6,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.shelf_cup",
+          "pos": [
+            6,
+            5,
+            17
+          ]
+        },
+        {
+          "part": "kitchen.hood",
+          "pos": [
+            7,
+            4,
+            17
+          ]
+        }
+      ],
+      "limitations": [
+        "authored small kitchen; appliance interaction untested",
+        "cup/meal props are symbolic vanilla blocks, not custom heads"
+      ],
+      "game_checked": false
+    },
+    {
+      "id": "R3.worktable.dining_table.3_1_6",
+      "recipe": "dining_table",
+      "bounds_xyz": [
+        4,
+        2,
+        22,
+        8,
+        3,
+        24
+      ],
+      "use_points": [],
+      "interaction": "decorative"
+    },
+    {
+      "id": "R3.table_food.food_display.3_2_6",
+      "recipe": "food_display",
+      "bounds_xyz": [
+        4,
+        3,
+        22,
+        5,
+        4,
+        23
+      ],
+      "use_points": [],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R3.seat_a.seat.3_1_8",
+      "recipe": "seat",
+      "bounds_xyz": [
+        4,
+        2,
+        24,
+        5,
+        3,
+        25
+      ],
+      "use_points": [],
+      "interaction": "decorative"
+    },
+    {
+      "id": "R3.seat_b.seat.6_1_8",
+      "recipe": "seat",
+      "bounds_xyz": [
+        7,
+        2,
+        24,
+        8,
+        3,
+        25
+      ],
+      "use_points": [],
+      "interaction": "decorative"
+    },
+    {
+      "id": "R3.pantry.storage_container.1_1_9",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        2,
+        2,
+        25,
+        3,
+        3,
+        26
+      ],
+      "use_points": [
+        [
+          3,
+          2,
+          25
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R3.pantry.storage_container.1_2_9",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        2,
+        3,
+        25,
+        3,
+        4,
+        26
+      ],
+      "use_points": [
+        [
+          3,
+          2,
+          25
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R4.back_work.store.storage_container.2_1_1",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        18,
+        2,
+        17,
+        19,
+        3,
+        18
+      ],
+      "use_points": [
+        [
+          18,
+          2,
+          18
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R4.back_work.wash.water_basin.4_1_1",
+      "recipe": "water_basin",
+      "bounds_xyz": [
+        20,
+        2,
+        17,
+        21,
+        3,
+        18
+      ],
+      "use_points": [
+        [
+          20,
+          2,
+          18
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R4.back_work.cook.cooking.6_1_1",
+      "recipe": "cooking",
+      "bounds_xyz": [
+        22,
+        2,
+        17,
+        23,
+        3,
+        18
+      ],
+      "use_points": [
+        [
+          22,
+          2,
+          18
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R4.back_work.store.storage_container.7_1_1",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        23,
+        2,
+        17,
+        24,
+        3,
+        18
+      ],
+      "use_points": [
+        [
+          23,
+          2,
+          18
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R4.back_work.meal.food_display.3_2_1",
+      "recipe": "food_display",
+      "bounds_xyz": [
+        19,
+        3,
+        17,
+        20,
+        4,
+        18
+      ],
+      "use_points": [],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R4.back_work.kitchen_band.2_1_1",
+      "recipe": "kitchen_band",
+      "bounds_xyz": [
+        18,
+        2,
+        17,
+        25,
+        6,
+        19
+      ],
+      "use_points": [],
+      "interaction": "decorative",
+      "recipe_version": "0.1",
+      "source_refs": [
+        "UIMG1",
+        "Y02@00:37"
+      ],
+      "evidence": "authored adaptation",
+      "geometry_consumer": "furniture_detail_kit.py",
+      "children": [
+        "R4.back_work.store.storage_container.2_1_1",
+        "R4.back_work.wash.water_basin.4_1_1",
+        "R4.back_work.cook.cooking.6_1_1",
+        "R4.back_work.store.storage_container.7_1_1",
+        "R4.back_work.meal.food_display.3_2_1"
+      ],
+      "part_cells": [
+        {
+          "part": "back_work.store",
+          "pos": [
+            18,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "back_work.prep",
+          "pos": [
+            19,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "back_work.wash",
+          "pos": [
+            20,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "back_work.prep",
+          "pos": [
+            21,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "back_work.cook",
+          "pos": [
+            22,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "back_work.store",
+          "pos": [
+            23,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "back_work.end",
+          "pos": [
+            24,
+            2,
+            17
+          ]
+        },
+        {
+          "part": "back_work.door_front",
+          "pos": [
+            19,
+            2,
+            18
+          ]
+        },
+        {
+          "part": "back_work.door_front",
+          "pos": [
+            21,
+            2,
+            18
+          ]
+        },
+        {
+          "part": "back_work.door_front",
+          "pos": [
+            24,
+            2,
+            18
+          ]
+        },
+        {
+          "part": "back_work.meal",
+          "pos": [
+            19,
+            3,
+            17
+          ]
+        },
+        {
+          "part": "back_work.cup",
+          "pos": [
+            24,
+            3,
+            17
+          ]
+        },
+        {
+          "part": "back_work.upper",
+          "pos": [
+            18,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "back_work.upper_door",
+          "pos": [
+            18,
+            4,
+            18
+          ]
+        },
+        {
+          "part": "back_work.upper",
+          "pos": [
+            19,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "back_work.upper_door",
+          "pos": [
+            19,
+            4,
+            18
+          ]
+        },
+        {
+          "part": "back_work.upper",
+          "pos": [
+            23,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "back_work.upper_door",
+          "pos": [
+            23,
+            4,
+            18
+          ]
+        },
+        {
+          "part": "back_work.upper",
+          "pos": [
+            24,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "back_work.upper_door",
+          "pos": [
+            24,
+            4,
+            18
+          ]
+        },
+        {
+          "part": "back_work.open_shelf",
+          "pos": [
+            21,
+            4,
+            17
+          ]
+        },
+        {
+          "part": "back_work.shelf_cup",
+          "pos": [
+            21,
+            5,
+            17
+          ]
+        },
+        {
+          "part": "back_work.hood",
+          "pos": [
+            22,
+            4,
+            17
+          ]
+        }
+      ],
+      "limitations": [
+        "authored small kitchen; appliance interaction untested",
+        "cup/meal props are symbolic vanilla blocks, not custom heads"
+      ],
+      "game_checked": false
+    },
+    {
+      "id": "R4.customer_counter.service_counter.2_1_5",
+      "recipe": "service_counter",
+      "bounds_xyz": [
+        18,
+        2,
+        21,
+        25,
+        3,
+        23
+      ],
+      "use_points": [
+        [
+          18,
+          2,
+          23
+        ],
+        [
+          24,
+          2,
+          20
+        ]
+      ],
+      "interaction": "decorative"
+    },
+    {
+      "id": "R4.entry_store.storage_container.9_1_9",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        25,
+        2,
+        25,
+        26,
+        3,
+        26
+      ],
+      "use_points": [
+        [
+          24,
+          2,
+          25
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "R4.entry_plant.small_plant.9_2_9",
+      "recipe": "small_plant",
+      "bounds_xyz": [
+        25,
+        3,
+        25,
+        26,
+        4,
+        26
+      ],
+      "use_points": [],
+      "interaction": "decorative"
+    }
+  ],
+  "size_xyz": [
+    30,
+    8,
+    30
+  ],
+  "non_air": 2061,
+  "source_nbt_sha256": "d174d92a3590709fc3a483bcc761ac1df1eb97718e57376ae85d01d94a381593",
+  "verification": {
+    "nbt_exact": true,
+    "game": "pending",
+    "user_aesthetic": "pending",
+    "Corner01": "needs_revision"
+  },
+  "dependencies": "Java 1.21.1 vanilla block study; no texture pack required; previews approximate"
+}

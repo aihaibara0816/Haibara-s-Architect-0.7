@@ -1,0 +1,28 @@
+{
+  "template_version": "0.1",
+  "project_id": null,
+  "generator_version": null,
+  "input_snapshot_hash": null,
+  "environment_snapshot_path": null,
+  "modules": [],
+  "module_record_fields": {
+    "id": null,
+    "artifact_path": null,
+    "sha256": null,
+    "byte_size": null,
+    "relative_origin_xyz": null,
+    "world_origin_xyz": null,
+    "rotation_degrees": null,
+    "size_xyz": null,
+    "world_bbox_min_xyz": null,
+    "world_bbox_max_xyz_exclusive": null,
+    "dependencies": [],
+    "non_air_count": null,
+    "placement_order": null,
+    "air_policy": "unconfirmed",
+    "protected_mask_path": null,
+    "mask_enforcement_tool": null,
+    "validation_status": "pending"
+  },
+  "note": "外部施工清单，不是NBT原生字段；导入器是否执行保护掩码需单独验证。"
+}

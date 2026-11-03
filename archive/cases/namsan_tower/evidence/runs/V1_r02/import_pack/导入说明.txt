@@ -1,0 +1,39 @@
+南山首尔塔 V1 / HAF 0.2
+
+尺寸：X320 × Y308 × Z320 格。主塔实体高度237格，塔基局部Y67、塔尖Y303。
+坐标：X东，-Z北。工程原点为场地包围盒的西北底角；不旋转导入时，与俯视图方向一致。
+所有方块均为Java原版方块，数据版本3955；实际客户端/模组兼容性尚待游戏内验证。
+
+一、WorldEdit / 支持Sponge v3的工具
+Namsan_Tower_HAF_V1.schem 是完整单文件，含空气，Offset为[0,0,0]。
+放入工具的schematics目录后，使用该工具的加载/粘贴入口。WorldEdit常用命令为：
+//schem load Namsan_Tower_HAF_V1
+//paste -a
+-a跳过空气。建议在空白测试世界、指定的场地角点粘贴；本轮未操作任何游戏世界。
+如果希望原点放在Y=0，则塔基位于Y=67、塔尖Y=303。请为308格包围盒留足垂直空间。
+
+二、Java结构NBT / Create等支持对应NBT格式的工具
+Namsan_Tower_HAF_V1.nbt 为完整结构文件，约2.0MiB，不包含显式空气。
+较小上传上限可以改用modules目录的14个分块；全部不超过256KiB。
+这不代表所有Create配置都已兼容：还需在实际环境检查体积、文件大小与版本限制。
+大包围盒不适合直接按原版结构方块的小尺寸限制导入。
+
+三、分块定位
+用同一个工程原点。每个分块的最小角坐标=工程原点+module_offsets.csv里的(x,y,z)。
+不要给不同分块分别居中或分别旋转。分块没有重复占位，重组已与总NBT逐格比较一致。
+
+四、材料与场地
+materials.csv是导出后的实际方块数量，包含地形壳、树林、道路、建筑和灯具。
+地形为封底、封边的表层壳体，内部留空；它不是完整实心山体或地下空间。
+要在已有地形中放置时需先规划清空范围；跳过空气不会替你清除原有山体。
+室内为简化游客空间和可见家具；电梯、缆车、灯光闪烁均不是可运行机关。
+
+五、数据说明
+SRTM约30米原始精度，平台细部高差人工解释，林木为确定性程序化布置。
+地图数据 © OpenStreetMap contributors / ODbL 1.0:
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+地形来自SRTM，经OpenTopoData取得：https://www.opentopodata.org/datasets/srtm/
+
+验证：NBT回读一致；Sponge v3非空气坐标/状态一致；14分块重组一致。
+待验证：Minecraft游戏内导入、碰撞/通行、游戏照明与资源包效果。

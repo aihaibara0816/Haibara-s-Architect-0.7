@@ -1,0 +1,2598 @@
+{
+  "run": "r02",
+  "version": "0.1.0",
+  "target": "Java 1.21.1",
+  "data_version": 3955,
+  "comparison": "A = same occupied cells / architectural partial states replaced with full blocks; B = detail states. Not old HA0.3 versus HAFusion.",
+  "game_validation": "PENDING",
+  "samples": [
+    {
+      "id": "modern",
+      "title": "现代幕墙 · 窗后空间与吊顶",
+      "sources": [
+        "jinmao",
+        "ifc",
+        "video_LMC",
+        "video_PLIN"
+      ],
+      "parameters": {
+        "bays": 4,
+        "bay_pitch": 6,
+        "floor_pitch": 6,
+        "glass_z": 5
+      },
+      "focus": "玻璃片、前置细肋、层间遮蔽、后退楼板、桌椅及顶灯分别建造。",
+      "limits": "局部两层样板；窗后是示意办公室，无完整楼梯和疏散路线。",
+      "changed_state_cells": 876,
+      "occupied_cells_identical": true,
+      "variants": {
+        "A": {
+          "file": "modern_A.nbt",
+          "bytes": 19436,
+          "sha256": "96c204c8439b5e8e73d08023df3bfdb68874395a60fbda4e99d93d7ebaba16a1",
+          "listed_blocks": 8064,
+          "non_air_blocks": 2281,
+          "size_xyz": [
+            28,
+            16,
+            18
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "19fc840af9e3154b212a22fd3b8ace4d7d5c5c1b89675cebc554c2e9ec4af350",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 37,
+          "state_count": 11,
+          "partial_cells": 0,
+          "base_material_counts": {
+            "minecraft:smooth_quartz": 526,
+            "minecraft:smooth_stone": 504,
+            "minecraft:polished_andesite": 462,
+            "minecraft:gray_concrete": 205,
+            "minecraft:light_gray_concrete": 184,
+            "minecraft:light_blue_stained_glass": 160,
+            "minecraft:gray_stained_glass": 80,
+            "minecraft:iron_block": 80,
+            "minecraft:black_concrete": 40,
+            "minecraft:sea_lantern": 20,
+            "minecraft:oak_planks": 20
+          },
+          "state_material_counts": {
+            "minecraft:smooth_quartz": 526,
+            "minecraft:smooth_stone": 504,
+            "minecraft:polished_andesite": 462,
+            "minecraft:gray_concrete": 205,
+            "minecraft:light_gray_concrete": 184,
+            "minecraft:light_blue_stained_glass": 160,
+            "minecraft:gray_stained_glass": 80,
+            "minecraft:iron_block": 80,
+            "minecraft:black_concrete": 40,
+            "minecraft:sea_lantern": 20,
+            "minecraft:oak_planks": 20
+          },
+          "preview": {
+            "source_nbt_sha256": "96c204c8439b5e8e73d08023df3bfdb68874395a60fbda4e99d93d7ebaba16a1",
+            "size_xyz": [
+              28,
+              16,
+              18
+            ],
+            "triangles": {
+              "opaque": 7344,
+              "glass": 928
+            },
+            "lamps": [
+              [
+                4,
+                5,
+                8,
+                15
+              ],
+              [
+                9,
+                5,
+                8,
+                15
+              ],
+              [
+                14,
+                5,
+                8,
+                15
+              ],
+              [
+                19,
+                5,
+                8,
+                15
+              ],
+              [
+                24,
+                5,
+                8,
+                15
+              ],
+              [
+                4,
+                5,
+                13,
+                15
+              ],
+              [
+                9,
+                5,
+                13,
+                15
+              ],
+              [
+                14,
+                5,
+                13,
+                15
+              ],
+              [
+                19,
+                5,
+                13,
+                15
+              ],
+              [
+                24,
+                5,
+                13,
+                15
+              ],
+              [
+                4,
+                11,
+                8,
+                15
+              ],
+              [
+                9,
+                11,
+                8,
+                15
+              ],
+              [
+                14,
+                11,
+                8,
+                15
+              ],
+              [
+                19,
+                11,
+                8,
+                15
+              ],
+              [
+                24,
+                11,
+                8,
+                15
+              ],
+              [
+                4,
+                11,
+                13,
+                15
+              ],
+              [
+                9,
+                11,
+                13,
+                15
+              ],
+              [
+                14,
+                11,
+                13,
+                15
+              ],
+              [
+                19,
+                11,
+                13,
+                15
+              ],
+              [
+                24,
+                11,
+                13,
+                15
+              ]
+            ],
+            "visual_box_volume": 2281.0,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        },
+        "B": {
+          "file": "modern_B.nbt",
+          "bytes": 19880,
+          "sha256": "b149086dbe67d01e7b7e7faf38abc15fea5106d1fec6a0bc5ceaa10fc599c6dd",
+          "listed_blocks": 8064,
+          "non_air_blocks": 2281,
+          "size_xyz": [
+            28,
+            16,
+            18
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "e0c96799f1cdee335704ae54d74adbd11b4ec2ef74642e3968b9d8d3a2eff474",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 37,
+          "state_count": 19,
+          "partial_cells": 876,
+          "base_material_counts": {
+            "minecraft:smooth_quartz_slab": 516,
+            "minecraft:smooth_stone": 504,
+            "minecraft:polished_andesite": 462,
+            "minecraft:gray_concrete": 205,
+            "minecraft:light_gray_concrete": 184,
+            "minecraft:light_blue_stained_glass_pane": 160,
+            "minecraft:gray_stained_glass_pane": 80,
+            "minecraft:iron_trapdoor": 48,
+            "minecraft:black_concrete": 40,
+            "minecraft:iron_bars": 32,
+            "minecraft:oak_slab": 20,
+            "minecraft:sea_lantern": 10,
+            "minecraft:quartz_stairs": 10,
+            "minecraft:end_rod": 10
+          },
+          "state_material_counts": {
+            "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]": 516,
+            "minecraft:smooth_stone": 504,
+            "minecraft:polished_andesite": 462,
+            "minecraft:gray_concrete": 205,
+            "minecraft:light_gray_concrete": 184,
+            "minecraft:light_blue_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]": 120,
+            "minecraft:gray_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]": 62,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]": 48,
+            "minecraft:black_concrete": 40,
+            "minecraft:light_blue_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=true]": 32,
+            "minecraft:iron_bars[east=false,north=false,south=true,waterlogged=false,west=false]": 32,
+            "minecraft:oak_slab[type=top,waterlogged=false]": 20,
+            "minecraft:sea_lantern": 10,
+            "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 10,
+            "minecraft:end_rod[facing=east]": 10,
+            "minecraft:gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]": 8,
+            "minecraft:light_blue_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]": 8,
+            "minecraft:gray_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]": 8,
+            "minecraft:gray_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]": 2
+          },
+          "preview": {
+            "source_nbt_sha256": "b149086dbe67d01e7b7e7faf38abc15fea5106d1fec6a0bc5ceaa10fc599c6dd",
+            "size_xyz": [
+              28,
+              16,
+              18
+            ],
+            "triangles": {
+              "opaque": 13244,
+              "glass": 6572
+            },
+            "lamps": [
+              [
+                4,
+                5,
+                8,
+                14
+              ],
+              [
+                9,
+                5,
+                8,
+                14
+              ],
+              [
+                14,
+                5,
+                8,
+                14
+              ],
+              [
+                19,
+                5,
+                8,
+                14
+              ],
+              [
+                24,
+                5,
+                8,
+                14
+              ],
+              [
+                4,
+                11,
+                8,
+                14
+              ],
+              [
+                9,
+                11,
+                8,
+                14
+              ],
+              [
+                14,
+                11,
+                8,
+                14
+              ],
+              [
+                19,
+                11,
+                8,
+                14
+              ],
+              [
+                24,
+                11,
+                8,
+                14
+              ],
+              [
+                4,
+                5,
+                13,
+                15
+              ],
+              [
+                9,
+                5,
+                13,
+                15
+              ],
+              [
+                14,
+                5,
+                13,
+                15
+              ],
+              [
+                19,
+                5,
+                13,
+                15
+              ],
+              [
+                24,
+                5,
+                13,
+                15
+              ],
+              [
+                4,
+                11,
+                13,
+                15
+              ],
+              [
+                9,
+                11,
+                13,
+                15
+              ],
+              [
+                14,
+                11,
+                13,
+                15
+              ],
+              [
+                19,
+                11,
+                13,
+                15
+              ],
+              [
+                24,
+                11,
+                13,
+                15
+              ]
+            ],
+            "visual_box_volume": 1724.6406,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        }
+      },
+      "intentional_replacements": [
+        {
+          "from": "modern.interior.level0.floor",
+          "to": "modern.structure.column",
+          "replaced_cells": 4
+        },
+        {
+          "from": "modern.facade.spandrel0",
+          "to": "modern.structure.column",
+          "replaced_cells": 4
+        },
+        {
+          "from": "modern.interior.level0.ceiling",
+          "to": "modern.structure.column",
+          "replaced_cells": 4
+        },
+        {
+          "from": "modern.interior.level1.floor",
+          "to": "modern.structure.column",
+          "replaced_cells": 4
+        },
+        {
+          "from": "modern.facade.spandrel1",
+          "to": "modern.structure.column",
+          "replaced_cells": 4
+        },
+        {
+          "from": "modern.interior.level1.ceiling",
+          "to": "modern.structure.column",
+          "replaced_cells": 4
+        },
+        {
+          "from": "modern.interior.level0.floor",
+          "to": "modern.structure.side_base",
+          "replaced_cells": 10
+        },
+        {
+          "from": "modern.interior.level0.background",
+          "to": "modern.facade.return",
+          "replaced_cells": 4
+        },
+        {
+          "from": "modern.interior.level1.background",
+          "to": "modern.facade.return",
+          "replaced_cells": 4
+        }
+      ]
+    },
+    {
+      "id": "millennium",
+      "title": "千禧年语汇 · 蓝玻璃与白色横带",
+      "sources": [
+        "swan",
+        "ifc",
+        "jinmao"
+      ],
+      "parameters": {
+        "bays": 4,
+        "bay_pitch": 6,
+        "floor_pitch": 5,
+        "glass_z": 6
+      },
+      "focus": "白框、蓝玻璃、细竖肋、暖色背景；装饰横带不等于楼板。",
+      "limits": "千禧年为本轮风格探索标签，不是对三个原案例年代的考证结论。",
+      "changed_state_cells": 1241,
+      "occupied_cells_identical": true,
+      "variants": {
+        "A": {
+          "file": "millennium_A.nbt",
+          "bytes": 25407,
+          "sha256": "7a496503eaedc64a2aeb4fead84e675134646f98a637cbbb209ae9ea262a4b6c",
+          "listed_blocks": 10640,
+          "non_air_blocks": 3152,
+          "size_xyz": [
+            28,
+            20,
+            19
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "97518b3a0ad70023edc64c951cc5d618c419a76124ce844fcedd5e874d3ed120",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 52,
+          "state_count": 8,
+          "partial_cells": 0,
+          "base_material_counts": {
+            "minecraft:smooth_quartz": 1436,
+            "minecraft:polished_andesite": 692,
+            "minecraft:smooth_stone": 532,
+            "minecraft:yellow_terracotta": 216,
+            "minecraft:light_blue_stained_glass": 180,
+            "minecraft:white_stained_glass": 36,
+            "minecraft:sea_lantern": 30,
+            "minecraft:oak_planks": 30
+          },
+          "state_material_counts": {
+            "minecraft:smooth_quartz": 1436,
+            "minecraft:polished_andesite": 692,
+            "minecraft:smooth_stone": 532,
+            "minecraft:yellow_terracotta": 216,
+            "minecraft:light_blue_stained_glass": 180,
+            "minecraft:white_stained_glass": 36,
+            "minecraft:sea_lantern": 30,
+            "minecraft:oak_planks": 30
+          },
+          "preview": {
+            "source_nbt_sha256": "7a496503eaedc64a2aeb4fead84e675134646f98a637cbbb209ae9ea262a4b6c",
+            "size_xyz": [
+              28,
+              20,
+              19
+            ],
+            "triangles": {
+              "opaque": 10300,
+              "glass": 1008
+            },
+            "lamps": [
+              [
+                4,
+                4,
+                9,
+                15
+              ],
+              [
+                9,
+                4,
+                9,
+                15
+              ],
+              [
+                14,
+                4,
+                9,
+                15
+              ],
+              [
+                19,
+                4,
+                9,
+                15
+              ],
+              [
+                24,
+                4,
+                9,
+                15
+              ],
+              [
+                4,
+                4,
+                13,
+                15
+              ],
+              [
+                9,
+                4,
+                13,
+                15
+              ],
+              [
+                14,
+                4,
+                13,
+                15
+              ],
+              [
+                19,
+                4,
+                13,
+                15
+              ],
+              [
+                24,
+                4,
+                13,
+                15
+              ],
+              [
+                4,
+                9,
+                9,
+                15
+              ],
+              [
+                9,
+                9,
+                9,
+                15
+              ],
+              [
+                14,
+                9,
+                9,
+                15
+              ],
+              [
+                19,
+                9,
+                9,
+                15
+              ],
+              [
+                24,
+                9,
+                9,
+                15
+              ],
+              [
+                4,
+                9,
+                13,
+                15
+              ],
+              [
+                9,
+                9,
+                13,
+                15
+              ],
+              [
+                14,
+                9,
+                13,
+                15
+              ],
+              [
+                19,
+                9,
+                13,
+                15
+              ],
+              [
+                24,
+                9,
+                13,
+                15
+              ],
+              [
+                4,
+                14,
+                9,
+                15
+              ],
+              [
+                9,
+                14,
+                9,
+                15
+              ],
+              [
+                14,
+                14,
+                9,
+                15
+              ],
+              [
+                19,
+                14,
+                9,
+                15
+              ],
+              [
+                24,
+                14,
+                9,
+                15
+              ],
+              [
+                4,
+                14,
+                13,
+                15
+              ],
+              [
+                9,
+                14,
+                13,
+                15
+              ],
+              [
+                14,
+                14,
+                13,
+                15
+              ],
+              [
+                19,
+                14,
+                13,
+                15
+              ],
+              [
+                24,
+                14,
+                13,
+                15
+              ]
+            ],
+            "visual_box_volume": 3152.0,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        },
+        "B": {
+          "file": "millennium_B.nbt",
+          "bytes": 25702,
+          "sha256": "05413497b87b43293fa6410ebce061fcd81c9ca400e6ec7071cd13890a00a6fc",
+          "listed_blocks": 10640,
+          "non_air_blocks": 3152,
+          "size_xyz": [
+            28,
+            20,
+            19
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "41c543d602c07963cc66037c597aae15797487d51cc20030101a3f72169cf07b",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 52,
+          "state_count": 13,
+          "partial_cells": 1241,
+          "base_material_counts": {
+            "minecraft:smooth_quartz_slab": 945,
+            "minecraft:polished_andesite": 648,
+            "minecraft:smooth_stone": 532,
+            "minecraft:smooth_quartz": 320,
+            "minecraft:yellow_terracotta": 216,
+            "minecraft:light_blue_stained_glass": 180,
+            "minecraft:quartz_stairs": 171,
+            "minecraft:polished_andesite_slab": 44,
+            "minecraft:white_stained_glass_pane": 36,
+            "minecraft:oak_slab": 30,
+            "minecraft:sea_lantern": 15,
+            "minecraft:end_rod": 15
+          },
+          "state_material_counts": {
+            "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]": 705,
+            "minecraft:polished_andesite": 648,
+            "minecraft:smooth_stone": 532,
+            "minecraft:smooth_quartz": 320,
+            "minecraft:smooth_quartz_slab[type=top,waterlogged=false]": 240,
+            "minecraft:yellow_terracotta": 216,
+            "minecraft:light_blue_stained_glass": 180,
+            "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 171,
+            "minecraft:polished_andesite_slab[type=bottom,waterlogged=false]": 44,
+            "minecraft:white_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=false]": 36,
+            "minecraft:oak_slab[type=top,waterlogged=false]": 30,
+            "minecraft:sea_lantern": 15,
+            "minecraft:end_rod[facing=east]": 15
+          },
+          "preview": {
+            "source_nbt_sha256": "05413497b87b43293fa6410ebce061fcd81c9ca400e6ec7071cd13890a00a6fc",
+            "size_xyz": [
+              28,
+              20,
+              19
+            ],
+            "triangles": {
+              "opaque": 23672,
+              "glass": 1608
+            },
+            "lamps": [
+              [
+                4,
+                4,
+                9,
+                14
+              ],
+              [
+                9,
+                4,
+                9,
+                14
+              ],
+              [
+                14,
+                4,
+                9,
+                14
+              ],
+              [
+                19,
+                4,
+                9,
+                14
+              ],
+              [
+                24,
+                4,
+                9,
+                14
+              ],
+              [
+                4,
+                9,
+                9,
+                14
+              ],
+              [
+                9,
+                9,
+                9,
+                14
+              ],
+              [
+                14,
+                9,
+                9,
+                14
+              ],
+              [
+                19,
+                9,
+                9,
+                14
+              ],
+              [
+                24,
+                9,
+                9,
+                14
+              ],
+              [
+                4,
+                14,
+                9,
+                14
+              ],
+              [
+                9,
+                14,
+                9,
+                14
+              ],
+              [
+                14,
+                14,
+                9,
+                14
+              ],
+              [
+                19,
+                14,
+                9,
+                14
+              ],
+              [
+                24,
+                14,
+                9,
+                14
+              ],
+              [
+                4,
+                4,
+                13,
+                15
+              ],
+              [
+                9,
+                4,
+                13,
+                15
+              ],
+              [
+                14,
+                4,
+                13,
+                15
+              ],
+              [
+                19,
+                4,
+                13,
+                15
+              ],
+              [
+                24,
+                4,
+                13,
+                15
+              ],
+              [
+                4,
+                9,
+                13,
+                15
+              ],
+              [
+                9,
+                9,
+                13,
+                15
+              ],
+              [
+                14,
+                9,
+                13,
+                15
+              ],
+              [
+                19,
+                9,
+                13,
+                15
+              ],
+              [
+                24,
+                9,
+                13,
+                15
+              ],
+              [
+                4,
+                14,
+                13,
+                15
+              ],
+              [
+                9,
+                14,
+                13,
+                15
+              ],
+              [
+                14,
+                14,
+                13,
+                15
+              ],
+              [
+                19,
+                14,
+                13,
+                15
+              ],
+              [
+                24,
+                14,
+                13,
+                15
+              ]
+            ],
+            "visual_box_volume": 2551.5156,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        }
+      },
+      "intentional_replacements": [
+        {
+          "from": "millennium.facade.band0",
+          "to": "millennium.structure.pilaster",
+          "replaced_cells": 16
+        },
+        {
+          "from": "millennium.facade.band1",
+          "to": "millennium.structure.pilaster",
+          "replaced_cells": 16
+        },
+        {
+          "from": "millennium.facade.band2",
+          "to": "millennium.structure.pilaster",
+          "replaced_cells": 16
+        },
+        {
+          "from": "millennium.facade.decorative_band0",
+          "to": "millennium.structure.pilaster",
+          "replaced_cells": 3
+        },
+        {
+          "from": "millennium.facade.decorative_band1",
+          "to": "millennium.structure.pilaster",
+          "replaced_cells": 3
+        },
+        {
+          "from": "millennium.facade.decorative_band2",
+          "to": "millennium.structure.pilaster",
+          "replaced_cells": 3
+        }
+      ]
+    },
+    {
+      "id": "western",
+      "title": "西式砖石 · 厚墙窗洞与檐口",
+      "sources": [
+        "customs",
+        "station"
+      ],
+      "parameters": {
+        "bays": 4,
+        "bay_pitch": 6
+      },
+      "focus": "窗洞真实挖空，窗套前凸、玻璃后退；倒楼梯形成拱口边缘。",
+      "limits": "简化的阶梯拱、砖石和石英语汇；不代表所有西式建筑。",
+      "changed_state_cells": 668,
+      "occupied_cells_identical": true,
+      "variants": {
+        "A": {
+          "file": "western_A.nbt",
+          "bytes": 22821,
+          "sha256": "19bbbb578069a7af6c6af1d28e60660b0b826fcc22382feca1d1cef7ac434564",
+          "listed_blocks": 9576,
+          "non_air_blocks": 2459,
+          "size_xyz": [
+            28,
+            18,
+            19
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "816630edc351b425de2ce0cd4600dc775c43f86dcb9617552798ee2e263a6088",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 51,
+          "state_count": 8,
+          "partial_cells": 0,
+          "base_material_counts": {
+            "minecraft:smooth_quartz": 675,
+            "minecraft:bricks": 624,
+            "minecraft:smooth_stone": 532,
+            "minecraft:dark_oak_planks": 288,
+            "minecraft:polished_andesite": 240,
+            "minecraft:gray_stained_glass": 80,
+            "minecraft:sea_lantern": 10,
+            "minecraft:oak_planks": 10
+          },
+          "state_material_counts": {
+            "minecraft:smooth_quartz": 675,
+            "minecraft:bricks": 624,
+            "minecraft:smooth_stone": 532,
+            "minecraft:dark_oak_planks": 288,
+            "minecraft:polished_andesite": 240,
+            "minecraft:gray_stained_glass": 80,
+            "minecraft:sea_lantern": 10,
+            "minecraft:oak_planks": 10
+          },
+          "preview": {
+            "source_nbt_sha256": "19bbbb578069a7af6c6af1d28e60660b0b826fcc22382feca1d1cef7ac434564",
+            "size_xyz": [
+              28,
+              18,
+              19
+            ],
+            "triangles": {
+              "opaque": 7724,
+              "glass": 320
+            },
+            "lamps": [
+              [
+                4,
+                13,
+                9,
+                15
+              ],
+              [
+                9,
+                13,
+                9,
+                15
+              ],
+              [
+                14,
+                13,
+                9,
+                15
+              ],
+              [
+                19,
+                13,
+                9,
+                15
+              ],
+              [
+                24,
+                13,
+                9,
+                15
+              ],
+              [
+                4,
+                13,
+                14,
+                15
+              ],
+              [
+                9,
+                13,
+                14,
+                15
+              ],
+              [
+                14,
+                13,
+                14,
+                15
+              ],
+              [
+                19,
+                13,
+                14,
+                15
+              ],
+              [
+                24,
+                13,
+                14,
+                15
+              ]
+            ],
+            "visual_box_volume": 2459.0,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        },
+        "B": {
+          "file": "western_B.nbt",
+          "bytes": 23144,
+          "sha256": "23a6c39648bf2358b01f5315dfd1dfd0a9329003143f62324e2f7417e474f70b",
+          "listed_blocks": 9576,
+          "non_air_blocks": 2459,
+          "size_xyz": [
+            28,
+            18,
+            19
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "2a44e043452b720b4792691374d09931b2613ea7b8d3cce5fb6ce875441f25f0",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 51,
+          "state_count": 15,
+          "partial_cells": 668,
+          "base_material_counts": {
+            "minecraft:bricks": 624,
+            "minecraft:smooth_stone": 532,
+            "minecraft:dark_oak_planks": 288,
+            "minecraft:polished_andesite": 240,
+            "minecraft:smooth_quartz_slab": 216,
+            "minecraft:quartz_slab": 206,
+            "minecraft:quartz_stairs": 151,
+            "minecraft:smooth_quartz": 102,
+            "minecraft:gray_stained_glass_pane": 80,
+            "minecraft:oak_slab": 10,
+            "minecraft:sea_lantern": 5,
+            "minecraft:end_rod": 5
+          },
+          "state_material_counts": {
+            "minecraft:bricks": 624,
+            "minecraft:smooth_stone": 532,
+            "minecraft:dark_oak_planks": 288,
+            "minecraft:polished_andesite": 240,
+            "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]": 216,
+            "minecraft:quartz_slab[type=bottom,waterlogged=false]": 182,
+            "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 135,
+            "minecraft:smooth_quartz": 102,
+            "minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]": 80,
+            "minecraft:quartz_slab[type=top,waterlogged=false]": 24,
+            "minecraft:oak_slab[type=top,waterlogged=false]": 10,
+            "minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]": 8,
+            "minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]": 8,
+            "minecraft:sea_lantern": 5,
+            "minecraft:end_rod[facing=east]": 5
+          },
+          "preview": {
+            "source_nbt_sha256": "23a6c39648bf2358b01f5315dfd1dfd0a9329003143f62324e2f7417e474f70b",
+            "size_xyz": [
+              28,
+              18,
+              19
+            ],
+            "triangles": {
+              "opaque": 15184,
+              "glass": 1824
+            },
+            "lamps": [
+              [
+                4,
+                13,
+                9,
+                14
+              ],
+              [
+                9,
+                13,
+                9,
+                14
+              ],
+              [
+                14,
+                13,
+                9,
+                14
+              ],
+              [
+                19,
+                13,
+                9,
+                14
+              ],
+              [
+                24,
+                13,
+                9,
+                14
+              ],
+              [
+                4,
+                13,
+                14,
+                15
+              ],
+              [
+                9,
+                13,
+                14,
+                15
+              ],
+              [
+                14,
+                13,
+                14,
+                15
+              ],
+              [
+                19,
+                13,
+                14,
+                15
+              ],
+              [
+                24,
+                13,
+                14,
+                15
+              ]
+            ],
+            "visual_box_volume": 2130.3281,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        }
+      },
+      "intentional_replacements": [
+        {
+          "from": "western.wall.masonry",
+          "to": "western.opening.bay0.level0",
+          "replaced_cells": 30
+        },
+        {
+          "from": "western.wall.masonry",
+          "to": "western.opening.bay1.level0",
+          "replaced_cells": 30
+        },
+        {
+          "from": "western.wall.masonry",
+          "to": "western.opening.bay2.level0",
+          "replaced_cells": 30
+        },
+        {
+          "from": "western.wall.masonry",
+          "to": "western.opening.bay3.level0",
+          "replaced_cells": 30
+        },
+        {
+          "from": "western.wall.masonry",
+          "to": "western.opening.bay0.level1",
+          "replaced_cells": 30
+        },
+        {
+          "from": "western.wall.masonry",
+          "to": "western.opening.bay1.level1",
+          "replaced_cells": 30
+        },
+        {
+          "from": "western.wall.masonry",
+          "to": "western.opening.bay2.level1",
+          "replaced_cells": 30
+        },
+        {
+          "from": "western.wall.masonry",
+          "to": "western.opening.bay3.level1",
+          "replaced_cells": 30
+        },
+        {
+          "from": "western.interior.ceiling",
+          "to": "western.roof.cornice",
+          "replaced_cells": 24
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "title": "当代中式 · 白墙灰顶与院落开口",
+      "sources": [
+        "suzhou_official"
+      ],
+      "parameters": {},
+      "focus": "白墙、深灰坡顶、几何洞口、院内留白与木质屏片。",
+      "limits": "七份样本中缺少可靠的中式屋面范例；这是低证据探索样板，不是古建复原。",
+      "changed_state_cells": 360,
+      "occupied_cells_identical": true,
+      "variants": {
+        "A": {
+          "file": "chinese_A.nbt",
+          "bytes": 28641,
+          "sha256": "0cbc468cbc35c2c34d1b65cc1402ea86669427c4b79b9fd73d0e67047301da3a",
+          "listed_blocks": 11339,
+          "non_air_blocks": 1885,
+          "size_xyz": [
+            29,
+            17,
+            23
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "268e5e3ceceb02d07ab449b6aeba46412c2a59f11412960d82245eba8a1059d1",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 14,
+          "state_count": 10,
+          "partial_cells": 0,
+          "base_material_counts": {
+            "minecraft:smooth_stone": 667,
+            "minecraft:white_concrete": 454,
+            "minecraft:stone_bricks": 368,
+            "minecraft:polished_deepslate": 320,
+            "minecraft:grass_block": 25,
+            "minecraft:gray_stained_glass": 24,
+            "minecraft:azalea_leaves": 9,
+            "minecraft:dark_oak_planks": 8,
+            "minecraft:oak_planks": 8,
+            "minecraft:sea_lantern": 2
+          },
+          "state_material_counts": {
+            "minecraft:smooth_stone": 667,
+            "minecraft:white_concrete": 454,
+            "minecraft:stone_bricks": 368,
+            "minecraft:polished_deepslate": 320,
+            "minecraft:grass_block[snowy=false]": 25,
+            "minecraft:gray_stained_glass": 24,
+            "minecraft:azalea_leaves[distance=7,persistent=true,waterlogged=false]": 9,
+            "minecraft:dark_oak_planks": 8,
+            "minecraft:oak_planks": 8,
+            "minecraft:sea_lantern": 2
+          },
+          "preview": {
+            "source_nbt_sha256": "0cbc468cbc35c2c34d1b65cc1402ea86669427c4b79b9fd73d0e67047301da3a",
+            "size_xyz": [
+              29,
+              17,
+              23
+            ],
+            "triangles": {
+              "opaque": 7436,
+              "glass": 152
+            },
+            "lamps": [
+              [
+                6,
+                8,
+                17,
+                15
+              ],
+              [
+                22,
+                8,
+                17,
+                15
+              ]
+            ],
+            "visual_box_volume": 1885.0,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        },
+        "B": {
+          "file": "chinese_B.nbt",
+          "bytes": 28814,
+          "sha256": "3e8e1aedaed4140c28cecfd06c019d86b2dcc1c8acefc63963f62f3dfc63a95a",
+          "listed_blocks": 11339,
+          "non_air_blocks": 1885,
+          "size_xyz": [
+            29,
+            17,
+            23
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "955281f795ee48cbeca65ff98a68e30e2e48635e4df7f05f81068c414fff3e3a",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 14,
+          "state_count": 14,
+          "partial_cells": 360,
+          "base_material_counts": {
+            "minecraft:smooth_stone": 667,
+            "minecraft:white_concrete": 454,
+            "minecraft:stone_bricks": 368,
+            "minecraft:polished_deepslate_stairs": 300,
+            "minecraft:grass_block": 25,
+            "minecraft:gray_stained_glass_pane": 24,
+            "minecraft:polished_deepslate_slab": 20,
+            "minecraft:azalea_leaves": 9,
+            "minecraft:dark_oak_trapdoor": 8,
+            "minecraft:oak_slab": 8,
+            "minecraft:sea_lantern": 2
+          },
+          "state_material_counts": {
+            "minecraft:smooth_stone": 667,
+            "minecraft:white_concrete": 454,
+            "minecraft:stone_bricks": 368,
+            "minecraft:polished_deepslate_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 150,
+            "minecraft:polished_deepslate_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": 150,
+            "minecraft:grass_block[snowy=false]": 25,
+            "minecraft:polished_deepslate_slab[type=top,waterlogged=false]": 20,
+            "minecraft:azalea_leaves[distance=7,persistent=true,waterlogged=false]": 9,
+            "minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]": 8,
+            "minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]": 8,
+            "minecraft:gray_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]": 8,
+            "minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]": 8,
+            "minecraft:oak_slab[type=bottom,waterlogged=false]": 8,
+            "minecraft:sea_lantern": 2
+          },
+          "preview": {
+            "source_nbt_sha256": "3e8e1aedaed4140c28cecfd06c019d86b2dcc1c8acefc63963f62f3dfc63a95a",
+            "size_xyz": [
+              29,
+              17,
+              23
+            ],
+            "triangles": {
+              "opaque": 13852,
+              "glass": 544
+            },
+            "lamps": [
+              [
+                6,
+                8,
+                17,
+                15
+              ],
+              [
+                22,
+                8,
+                17,
+                15
+              ]
+            ],
+            "visual_box_volume": 1767.625,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        }
+      },
+      "intentional_replacements": [
+        {
+          "from": "chinese.wall.front",
+          "to": "chinese.opening.center",
+          "replaced_cells": 47
+        },
+        {
+          "from": "chinese.wall.front",
+          "to": "chinese.opening.window",
+          "replaced_cells": 24
+        },
+        {
+          "from": "chinese.wall.front",
+          "to": "chinese.window.sill",
+          "replaced_cells": 10
+        },
+        {
+          "from": "chinese.wall.side",
+          "to": "chinese.roof.back",
+          "replaced_cells": 2
+        }
+      ]
+    },
+    {
+      "id": "antenna",
+      "title": "高层天线 · 粗杆到四脚细芯",
+      "sources": [
+        "skytree",
+        "shiba"
+      ],
+      "parameters": {},
+      "focus": "屋顶基座、主杆、撑杆、平台、四脚、单芯、灯标分段。",
+      "limits": "红白玻璃片用于细杆；不是幕墙。灯标不自动闪烁，无工程结构验算。",
+      "changed_state_cells": 378,
+      "occupied_cells_identical": true,
+      "variants": {
+        "A": {
+          "file": "antenna_A.nbt",
+          "bytes": 32768,
+          "sha256": "532d55980a98005e9a32fe9aafdd5b53ce3d420fc499277bba46c4ad8bbe9cb0",
+          "listed_blocks": 14079,
+          "non_air_blocks": 1312,
+          "size_xyz": [
+            19,
+            39,
+            19
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "2b19744058ee2ff9738767af25194fe420fc4f98de0018099b3719d1e46f0341",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 14,
+          "state_count": 8,
+          "partial_cells": 0,
+          "base_material_counts": {
+            "minecraft:smooth_stone": 505,
+            "minecraft:light_gray_concrete": 450,
+            "minecraft:iron_block": 149,
+            "minecraft:smooth_quartz": 81,
+            "minecraft:white_concrete": 75,
+            "minecraft:white_stained_glass": 32,
+            "minecraft:red_stained_glass": 15,
+            "minecraft:sea_lantern": 5
+          },
+          "state_material_counts": {
+            "minecraft:smooth_stone": 505,
+            "minecraft:light_gray_concrete": 450,
+            "minecraft:iron_block": 149,
+            "minecraft:smooth_quartz": 81,
+            "minecraft:white_concrete": 75,
+            "minecraft:white_stained_glass": 32,
+            "minecraft:red_stained_glass": 15,
+            "minecraft:sea_lantern": 5
+          },
+          "preview": {
+            "source_nbt_sha256": "532d55980a98005e9a32fe9aafdd5b53ce3d420fc499277bba46c4ad8bbe9cb0",
+            "size_xyz": [
+              19,
+              39,
+              19
+            ],
+            "triangles": {
+              "opaque": 3464,
+              "glass": 376
+            },
+            "lamps": [
+              [
+                4,
+                4,
+                4,
+                15
+              ],
+              [
+                14,
+                4,
+                4,
+                15
+              ],
+              [
+                4,
+                4,
+                14,
+                15
+              ],
+              [
+                14,
+                4,
+                14,
+                15
+              ],
+              [
+                9,
+                37,
+                9,
+                15
+              ]
+            ],
+            "visual_box_volume": 1312.0,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        },
+        "B": {
+          "file": "antenna_B.nbt",
+          "bytes": 33190,
+          "sha256": "67aae986ba812c69050185bc7bf92aedf4def4ebe06e2591e675a6e3893a2717",
+          "listed_blocks": 14079,
+          "non_air_blocks": 1312,
+          "size_xyz": [
+            19,
+            39,
+            19
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "2ce47ce6d741e2d78b453941b003f9cbb78be2c404ba8504d85fb6d73882f480",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 14,
+          "state_count": 20,
+          "partial_cells": 378,
+          "base_material_counts": {
+            "minecraft:light_gray_concrete": 450,
+            "minecraft:smooth_stone": 361,
+            "minecraft:smooth_stone_slab": 144,
+            "minecraft:iron_bars": 96,
+            "minecraft:smooth_quartz_slab": 81,
+            "minecraft:white_concrete": 75,
+            "minecraft:iron_block": 44,
+            "minecraft:white_stained_glass_pane": 32,
+            "minecraft:red_stained_glass_pane": 15,
+            "minecraft:iron_trapdoor": 9,
+            "minecraft:sea_lantern": 4,
+            "minecraft:end_rod": 1
+          },
+          "state_material_counts": {
+            "minecraft:light_gray_concrete": 450,
+            "minecraft:smooth_stone": 361,
+            "minecraft:smooth_stone_slab[type=top,waterlogged=false]": 144,
+            "minecraft:smooth_quartz_slab[type=top,waterlogged=false]": 81,
+            "minecraft:white_concrete": 75,
+            "minecraft:iron_block": 44,
+            "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=true]": 36,
+            "minecraft:white_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]": 32,
+            "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=false]": 26,
+            "minecraft:red_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=false]": 15,
+            "minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]": 9,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=true]": 8,
+            "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=false]": 8,
+            "minecraft:iron_bars[east=false,north=false,south=true,waterlogged=false,west=true]": 4,
+            "minecraft:iron_bars[east=true,north=false,south=true,waterlogged=false,west=false]": 4,
+            "minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=true]": 4,
+            "minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=false]": 4,
+            "minecraft:sea_lantern": 4,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]": 2,
+            "minecraft:end_rod[facing=up]": 1
+          },
+          "preview": {
+            "source_nbt_sha256": "67aae986ba812c69050185bc7bf92aedf4def4ebe06e2591e675a6e3893a2717",
+            "size_xyz": [
+              19,
+              39,
+              19
+            ],
+            "triangles": {
+              "opaque": 7592,
+              "glass": 564
+            },
+            "lamps": [
+              [
+                9,
+                37,
+                9,
+                14
+              ],
+              [
+                4,
+                4,
+                4,
+                15
+              ],
+              [
+                14,
+                4,
+                4,
+                15
+              ],
+              [
+                4,
+                4,
+                14,
+                15
+              ],
+              [
+                14,
+                4,
+                14,
+                15
+              ]
+            ],
+            "visual_box_volume": 1059.8438,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        }
+      },
+      "intentional_replacements": [
+        {
+          "from": "antenna.roof.edge",
+          "to": "antenna.mast.base",
+          "replaced_cells": 25
+        },
+        {
+          "from": "antenna.mast.primary",
+          "to": "antenna.mast.tie",
+          "replaced_cells": 8
+        },
+        {
+          "from": "antenna.mast.primary",
+          "to": "antenna.mast.brace",
+          "replaced_cells": 12
+        },
+        {
+          "from": "antenna.mast.brace",
+          "to": "antenna.mast.primary",
+          "replaced_cells": 12
+        },
+        {
+          "from": "antenna.mast.tie",
+          "to": "antenna.mast.primary",
+          "replaced_cells": 8
+        },
+        {
+          "from": "antenna.mast.upper_leg",
+          "to": "antenna.mast.upper_tie",
+          "replaced_cells": 12
+        }
+      ]
+    },
+    {
+      "id": "planter",
+      "title": "广场花坛 · 铺装、压顶与座椅",
+      "sources": [
+        "shiba",
+        "station"
+      ],
+      "parameters": {},
+      "focus": "铺装带、抬高土层、半砖压顶、种植、坐凳和灯柱分别控制。",
+      "limits": "原创小型场地样板；不声称复原广州塔广场，也没有自动地形适配。",
+      "changed_state_cells": 110,
+      "occupied_cells_identical": true,
+      "variants": {
+        "A": {
+          "file": "planter_A.nbt",
+          "bytes": 26689,
+          "sha256": "3215c5264d0480a675b7649f0a5839be1fd317b68e2df743d47463fe68cde73d",
+          "listed_blocks": 10472,
+          "non_air_blocks": 1352,
+          "size_xyz": [
+            34,
+            11,
+            28
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "7e312bda488a5a979e41f7340f1ef4d2d0ec947627e139b1c7ed30d0efcfb58a",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 29,
+          "state_count": 12,
+          "partial_cells": 0,
+          "base_material_counts": {
+            "minecraft:smooth_stone": 856,
+            "minecraft:oak_leaves": 138,
+            "minecraft:stone_bricks": 116,
+            "minecraft:light_gray_concrete": 96,
+            "minecraft:grass_block": 64,
+            "minecraft:dark_oak_planks": 24,
+            "minecraft:iron_block": 18,
+            "minecraft:poppy": 11,
+            "minecraft:oak_log": 10,
+            "minecraft:oxeye_daisy": 8,
+            "minecraft:oak_planks": 8,
+            "minecraft:sea_lantern": 3
+          },
+          "state_material_counts": {
+            "minecraft:smooth_stone": 856,
+            "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]": 138,
+            "minecraft:stone_bricks": 116,
+            "minecraft:light_gray_concrete": 96,
+            "minecraft:grass_block[snowy=false]": 64,
+            "minecraft:dark_oak_planks": 24,
+            "minecraft:iron_block": 18,
+            "minecraft:poppy": 11,
+            "minecraft:oak_log[axis=y]": 10,
+            "minecraft:oxeye_daisy": 8,
+            "minecraft:oak_planks": 8,
+            "minecraft:sea_lantern": 3
+          },
+          "preview": {
+            "source_nbt_sha256": "3215c5264d0480a675b7649f0a5839be1fd317b68e2df743d47463fe68cde73d",
+            "size_xyz": [
+              34,
+              11,
+              28
+            ],
+            "triangles": {
+              "opaque": 5634,
+              "glass": 0
+            },
+            "lamps": [
+              [
+                2,
+                6,
+                3,
+                15
+              ],
+              [
+                31,
+                6,
+                14,
+                15
+              ],
+              [
+                16,
+                6,
+                24,
+                15
+              ]
+            ],
+            "visual_box_volume": 1334.0762,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        },
+        "B": {
+          "file": "planter_B.nbt",
+          "bytes": 26891,
+          "sha256": "94f2791a1cdb7e6572aed024b9bad563a26aaacd166c841956acb38f5c29d128",
+          "listed_blocks": 10472,
+          "non_air_blocks": 1352,
+          "size_xyz": [
+            34,
+            11,
+            28
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "ff47c1bc4312276ed5e7415d14fcedb68ff671a7215eebd5e8efd160f4a5ebf6",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 29,
+          "state_count": 15,
+          "partial_cells": 110,
+          "base_material_counts": {
+            "minecraft:smooth_stone": 856,
+            "minecraft:oak_leaves": 138,
+            "minecraft:light_gray_concrete": 96,
+            "minecraft:grass_block": 64,
+            "minecraft:stone_bricks": 56,
+            "minecraft:stone_brick_slab": 56,
+            "minecraft:dark_oak_trapdoor": 24,
+            "minecraft:iron_bars": 15,
+            "minecraft:poppy": 11,
+            "minecraft:oak_log": 10,
+            "minecraft:oxeye_daisy": 8,
+            "minecraft:oak_slab": 8,
+            "minecraft:stone_brick_stairs": 4,
+            "minecraft:sea_lantern": 3,
+            "minecraft:iron_trapdoor": 3
+          },
+          "state_material_counts": {
+            "minecraft:smooth_stone": 856,
+            "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]": 138,
+            "minecraft:light_gray_concrete": 96,
+            "minecraft:grass_block[snowy=false]": 64,
+            "minecraft:stone_bricks": 56,
+            "minecraft:stone_brick_slab[type=bottom,waterlogged=false]": 56,
+            "minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]": 24,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]": 15,
+            "minecraft:poppy": 11,
+            "minecraft:oak_log[axis=y]": 10,
+            "minecraft:oxeye_daisy": 8,
+            "minecraft:oak_slab[type=top,waterlogged=false]": 8,
+            "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 4,
+            "minecraft:sea_lantern": 3,
+            "minecraft:iron_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]": 3
+          },
+          "preview": {
+            "source_nbt_sha256": "94f2791a1cdb7e6572aed024b9bad563a26aaacd166c841956acb38f5c29d128",
+            "size_xyz": [
+              34,
+              11,
+              28
+            ],
+            "triangles": {
+              "opaque": 6380,
+              "glass": 0
+            },
+            "lamps": [
+              [
+                2,
+                6,
+                3,
+                15
+              ],
+              [
+                31,
+                6,
+                14,
+                15
+              ],
+              [
+                16,
+                6,
+                24,
+                15
+              ]
+            ],
+            "visual_box_volume": 1264.373,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        }
+      },
+      "intentional_replacements": [
+        {
+          "from": "planter.site.paving",
+          "to": "planter.site.paving_band",
+          "replaced_cells": 96
+        },
+        {
+          "from": "planter.garden.bed0.wall",
+          "to": "planter.garden.bed0.soil",
+          "replaced_cells": 28
+        },
+        {
+          "from": "planter.garden.bed0.flowers",
+          "to": "planter.garden.bed0.tree",
+          "replaced_cells": 1
+        },
+        {
+          "from": "planter.garden.bed1.wall",
+          "to": "planter.garden.bed1.soil",
+          "replaced_cells": 36
+        },
+        {
+          "from": "planter.garden.bed1.flowers",
+          "to": "planter.garden.bed1.tree",
+          "replaced_cells": 1
+        },
+        {
+          "from": "planter.furniture.bench0.seat",
+          "to": "planter.furniture.bench0.leg",
+          "replaced_cells": 2
+        },
+        {
+          "from": "planter.furniture.bench1.seat",
+          "to": "planter.furniture.bench1.leg",
+          "replaced_cells": 2
+        }
+      ]
+    },
+    {
+      "id": "framework",
+      "title": "开敞框架 · 核心、斜杆与有围护楼层",
+      "sources": [
+        "skytree",
+        "shiba"
+      ],
+      "parameters": {},
+      "focus": "外围粗细杆、独立核心、局部功能楼层；其余高度保持贯通。",
+      "limits": "正交栅格斜杆仍呈阶梯；不等于连续斜向网格或真实受力结构。",
+      "changed_state_cells": 962,
+      "occupied_cells_identical": true,
+      "variants": {
+        "A": {
+          "file": "framework_A.nbt",
+          "bytes": 42974,
+          "sha256": "7238211ab033a20ab795479561161ca3a0935c7e58ab80ced05fa870f5a306a2",
+          "listed_blocks": 18009,
+          "non_air_blocks": 2312,
+          "size_xyz": [
+            27,
+            29,
+            23
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "c53bed9c1d07ab69849fe3c9d23431109da1deb00945389f6622ebd69a18c0e2",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 10,
+          "state_count": 6,
+          "partial_cells": 0,
+          "base_material_counts": {
+            "minecraft:light_gray_concrete": 625,
+            "minecraft:smooth_stone": 621,
+            "minecraft:iron_block": 538,
+            "minecraft:smooth_quartz": 284,
+            "minecraft:gray_stained_glass": 240,
+            "minecraft:sea_lantern": 4
+          },
+          "state_material_counts": {
+            "minecraft:light_gray_concrete": 625,
+            "minecraft:smooth_stone": 621,
+            "minecraft:iron_block": 538,
+            "minecraft:smooth_quartz": 284,
+            "minecraft:gray_stained_glass": 240,
+            "minecraft:sea_lantern": 4
+          },
+          "preview": {
+            "source_nbt_sha256": "7238211ab033a20ab795479561161ca3a0935c7e58ab80ced05fa870f5a306a2",
+            "size_xyz": [
+              27,
+              29,
+              23
+            ],
+            "triangles": {
+              "opaque": 9028,
+              "glass": 960
+            },
+            "lamps": [
+              [
+                8,
+                18,
+                8,
+                15
+              ],
+              [
+                18,
+                18,
+                8,
+                15
+              ],
+              [
+                8,
+                18,
+                14,
+                15
+              ],
+              [
+                18,
+                18,
+                14,
+                15
+              ]
+            ],
+            "visual_box_volume": 2312.0,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        },
+        "B": {
+          "file": "framework_B.nbt",
+          "bytes": 43680,
+          "sha256": "9679771b9165e192ebfc0d95dd366a59ca94953b4fc540662ac72f8485bdf50f",
+          "listed_blocks": 18009,
+          "non_air_blocks": 2312,
+          "size_xyz": [
+            27,
+            29,
+            23
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "49a23547b7520b6a0b41362ce74793dddf93ac82944539c0e80fc6fcc0f27cb7",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 10,
+          "state_count": 19,
+          "partial_cells": 962,
+          "base_material_counts": {
+            "minecraft:light_gray_concrete": 625,
+            "minecraft:smooth_stone": 621,
+            "minecraft:iron_bars": 434,
+            "minecraft:smooth_quartz_slab": 280,
+            "minecraft:gray_stained_glass_pane": 240,
+            "minecraft:iron_block": 104,
+            "minecraft:end_rod": 4,
+            "minecraft:quartz_stairs": 4
+          },
+          "state_material_counts": {
+            "minecraft:light_gray_concrete": 625,
+            "minecraft:smooth_stone": 621,
+            "minecraft:smooth_quartz_slab[type=top,waterlogged=false]": 280,
+            "minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]": 130,
+            "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=true]": 112,
+            "minecraft:iron_block": 104,
+            "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=false]": 90,
+            "minecraft:gray_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]": 90,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=true]": 58,
+            "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=false]": 58,
+            "minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=false]": 44,
+            "minecraft:iron_bars[east=false,north=false,south=true,waterlogged=false,west=false]": 44,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]": 28,
+            "minecraft:gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]": 5,
+            "minecraft:gray_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]": 5,
+            "minecraft:gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]": 5,
+            "minecraft:gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]": 5,
+            "minecraft:end_rod[facing=up]": 4,
+            "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 4
+          },
+          "preview": {
+            "source_nbt_sha256": "9679771b9165e192ebfc0d95dd366a59ca94953b4fc540662ac72f8485bdf50f",
+            "size_xyz": [
+              27,
+              29,
+              23
+            ],
+            "triangles": {
+              "opaque": 17900,
+              "glass": 6720
+            },
+            "lamps": [
+              [
+                8,
+                18,
+                8,
+                14
+              ],
+              [
+                18,
+                18,
+                8,
+                14
+              ],
+              [
+                8,
+                18,
+                14,
+                14
+              ],
+              [
+                18,
+                18,
+                14,
+                14
+              ]
+            ],
+            "visual_box_volume": 1563.0938,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        }
+      },
+      "intentional_replacements": [
+        {
+          "from": "framework.frame.primary",
+          "to": "framework.frame.ring",
+          "replaced_cells": 12
+        },
+        {
+          "from": "framework.frame.primary",
+          "to": "framework.frame.diagonal",
+          "replaced_cells": 16
+        },
+        {
+          "from": "framework.core",
+          "to": "framework.occupied.floor",
+          "replaced_cells": 25
+        },
+        {
+          "from": "framework.core",
+          "to": "framework.occupied.ceiling",
+          "replaced_cells": 25
+        },
+        {
+          "from": "framework.occupied.floor",
+          "to": "framework.core",
+          "replaced_cells": 25
+        },
+        {
+          "from": "framework.occupied.ceiling",
+          "to": "framework.core",
+          "replaced_cells": 25
+        },
+        {
+          "from": "framework.frame.ring",
+          "to": "framework.frame.primary",
+          "replaced_cells": 12
+        },
+        {
+          "from": "framework.frame.diagonal",
+          "to": "framework.frame.primary",
+          "replaced_cells": 16
+        }
+      ]
+    },
+    {
+      "id": "canopy",
+      "title": "复合站房 · 砖石界面与玻璃拱棚",
+      "sources": [
+        "station",
+        "video_PLIN"
+      ],
+      "parameters": {},
+      "focus": "厚重站房、薄拱肋、透明棚顶、吊灯和站台家具使用不同表达。",
+      "limits": "棚顶使用玻璃块；原版玻璃片不能水平旋转为平板。无列车运行系统。",
+      "changed_state_cells": 278,
+      "occupied_cells_identical": true,
+      "variants": {
+        "A": {
+          "file": "canopy_A.nbt",
+          "bytes": 36262,
+          "sha256": "8a8c18e647026bd20ca4330546626c7dd6a24dc6257e9228d027faf72c134242",
+          "listed_blocks": 14500,
+          "non_air_blocks": 2042,
+          "size_xyz": [
+            29,
+            20,
+            25
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "574c37352d9f6939a4f09e83dd73703e9397089860399686f8def974c2fbd8ec",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 15,
+          "state_count": 9,
+          "partial_cells": 0,
+          "base_material_counts": {
+            "minecraft:smooth_stone": 725,
+            "minecraft:stone_bricks": 500,
+            "minecraft:glass": 375,
+            "minecraft:iron_block": 192,
+            "minecraft:bricks": 108,
+            "minecraft:gray_stained_glass": 60,
+            "minecraft:smooth_quartz": 56,
+            "minecraft:oak_planks": 24,
+            "minecraft:sea_lantern": 2
+          },
+          "state_material_counts": {
+            "minecraft:smooth_stone": 725,
+            "minecraft:stone_bricks": 500,
+            "minecraft:glass": 375,
+            "minecraft:iron_block": 192,
+            "minecraft:bricks": 108,
+            "minecraft:gray_stained_glass": 60,
+            "minecraft:smooth_quartz": 56,
+            "minecraft:oak_planks": 24,
+            "minecraft:sea_lantern": 2
+          },
+          "preview": {
+            "source_nbt_sha256": "8a8c18e647026bd20ca4330546626c7dd6a24dc6257e9228d027faf72c134242",
+            "size_xyz": [
+              29,
+              20,
+              25
+            ],
+            "triangles": {
+              "opaque": 5652,
+              "glass": 2412
+            },
+            "lamps": [
+              [
+                14,
+                13,
+                9,
+                15
+              ],
+              [
+                14,
+                13,
+                18,
+                15
+              ]
+            ],
+            "visual_box_volume": 2042.0,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        },
+        "B": {
+          "file": "canopy_B.nbt",
+          "bytes": 36735,
+          "sha256": "cf861c7f30a95666cb17d36e9488a85dd88516f31826ef967d04d8b08d490758",
+          "listed_blocks": 14500,
+          "non_air_blocks": 2042,
+          "size_xyz": [
+            29,
+            20,
+            25
+          ],
+          "contains_explicit_air": true,
+          "geometry_sha256": "74f94e5b415c21f7998fc283fd259a01beb389301bbadc8084609d319ea192b4",
+          "data_version": 3955,
+          "independent_readback": "PASS",
+          "components": 15,
+          "state_count": 27,
+          "partial_cells": 278,
+          "base_material_counts": {
+            "minecraft:smooth_stone": 725,
+            "minecraft:stone_bricks": 500,
+            "minecraft:glass": 375,
+            "minecraft:iron_bars": 132,
+            "minecraft:bricks": 108,
+            "minecraft:gray_stained_glass_pane": 60,
+            "minecraft:iron_block": 56,
+            "minecraft:quartz_stairs": 36,
+            "minecraft:oak_slab": 24,
+            "minecraft:quartz_slab": 20,
+            "minecraft:chain": 4,
+            "minecraft:end_rod": 2
+          },
+          "state_material_counts": {
+            "minecraft:smooth_stone": 725,
+            "minecraft:stone_bricks": 500,
+            "minecraft:glass": 375,
+            "minecraft:bricks": 108,
+            "minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]": 60,
+            "minecraft:iron_block": 56,
+            "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=true]": 56,
+            "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 36,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=true]": 24,
+            "minecraft:oak_slab[type=top,waterlogged=false]": 24,
+            "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=false]": 20,
+            "minecraft:quartz_slab[type=top,waterlogged=false]": 20,
+            "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]": 8,
+            "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=true]": 6,
+            "minecraft:chain[axis=y,waterlogged=false]": 4,
+            "minecraft:iron_bars[east=false,north=false,south=true,waterlogged=false,west=true]": 3,
+            "minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=true]": 3,
+            "minecraft:iron_bars[east=true,north=true,south=true,waterlogged=false,west=false]": 2,
+            "minecraft:iron_bars[east=true,north=true,south=true,waterlogged=false,west=true]": 2,
+            "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=false]": 2,
+            "minecraft:end_rod[facing=east]": 2,
+            "minecraft:iron_bars[east=true,north=false,south=true,waterlogged=false,west=false]": 1,
+            "minecraft:iron_bars[east=true,north=false,south=true,waterlogged=false,west=true]": 1,
+            "minecraft:iron_bars[east=false,north=false,south=true,waterlogged=false,west=false]": 1,
+            "minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=false]": 1,
+            "minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=true]": 1,
+            "minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=false]": 1
+          },
+          "preview": {
+            "source_nbt_sha256": "cf861c7f30a95666cb17d36e9488a85dd88516f31826ef967d04d8b08d490758",
+            "size_xyz": [
+              29,
+              20,
+              25
+            ],
+            "triangles": {
+              "opaque": 9072,
+              "glass": 4020
+            },
+            "lamps": [
+              [
+                14,
+                13,
+                9,
+                14
+              ],
+              [
+                14,
+                13,
+                18,
+                14
+              ]
+            ],
+            "visual_box_volume": 1834.4688,
+            "source": "independent NBT readback, state-aware preview boxes",
+            "limitations": [
+              "No resource-pack textures",
+              "Glass alpha is approximate",
+              "Bars/chains/flowers are simplified solid boxes",
+              "Slabs/stairs/closed trapdoors conservatively block whole light cells",
+              "No game collision verification"
+            ]
+          }
+        }
+      },
+      "intentional_replacements": [
+        {
+          "from": "canopy.canopy.glass",
+          "to": "canopy.canopy.rib0",
+          "replaced_cells": 6
+        },
+        {
+          "from": "canopy.canopy.rib0",
+          "to": "canopy.canopy.column",
+          "replaced_cells": 2
+        },
+        {
+          "from": "canopy.canopy.glass",
+          "to": "canopy.canopy.rib1",
+          "replaced_cells": 6
+        },
+        {
+          "from": "canopy.canopy.rib1",
+          "to": "canopy.canopy.column",
+          "replaced_cells": 2
+        },
+        {
+          "from": "canopy.canopy.glass",
+          "to": "canopy.canopy.rib2",
+          "replaced_cells": 6
+        },
+        {
+          "from": "canopy.canopy.rib2",
+          "to": "canopy.canopy.column",
+          "replaced_cells": 2
+        },
+        {
+          "from": "canopy.canopy.glass",
+          "to": "canopy.canopy.rib3",
+          "replaced_cells": 6
+        },
+        {
+          "from": "canopy.canopy.rib3",
+          "to": "canopy.canopy.column",
+          "replaced_cells": 2
+        }
+      ]
+    }
+  ],
+  "gallery": {
+    "file": "detail_gallery_B.nbt",
+    "bytes": 1299009,
+    "sha256": "83e7a0540129e76790442ff8e70358dfc2328cad6fd7f29fecc5722cf873b9c1",
+    "listed_blocks": 456960,
+    "non_air_blocks": 16795,
+    "size_xyz": [
+      168,
+      40,
+      68
+    ],
+    "contains_explicit_air": true,
+    "geometry_sha256": "ec567ab6d8ede6e42e2450fb01d01d86f4217a587aab9dfdc445883b4c0ddbc6",
+    "data_version": 3955,
+    "independent_readback": "PASS",
+    "placements": [
+      {
+        "id": "modern",
+        "origin_xyz": [
+          3,
+          0,
+          3
+        ],
+        "size_xyz": [
+          28,
+          16,
+          18
+        ]
+      },
+      {
+        "id": "millennium",
+        "origin_xyz": [
+          45,
+          0,
+          3
+        ],
+        "size_xyz": [
+          28,
+          20,
+          19
+        ]
+      },
+      {
+        "id": "western",
+        "origin_xyz": [
+          87,
+          0,
+          3
+        ],
+        "size_xyz": [
+          28,
+          18,
+          19
+        ]
+      },
+      {
+        "id": "chinese",
+        "origin_xyz": [
+          129,
+          0,
+          3
+        ],
+        "size_xyz": [
+          29,
+          17,
+          23
+        ]
+      },
+      {
+        "id": "antenna",
+        "origin_xyz": [
+          3,
+          0,
+          37
+        ],
+        "size_xyz": [
+          19,
+          39,
+          19
+        ]
+      },
+      {
+        "id": "planter",
+        "origin_xyz": [
+          45,
+          0,
+          37
+        ],
+        "size_xyz": [
+          34,
+          11,
+          28
+        ]
+      },
+      {
+        "id": "framework",
+        "origin_xyz": [
+          87,
+          0,
+          37
+        ],
+        "size_xyz": [
+          27,
+          29,
+          23
+        ]
+      },
+      {
+        "id": "canopy",
+        "origin_xyz": [
+          129,
+          0,
+          37
+        ],
+        "size_xyz": [
+          29,
+          20,
+          25
+        ]
+      }
+    ]
+  }
+}

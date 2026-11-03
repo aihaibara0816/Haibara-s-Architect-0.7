@@ -1,0 +1,102 @@
+{
+  "release": "HAF 0.3.0",
+  "source": "本会话用户反馈；历史研究文件作为补充",
+  "items": [
+    {
+      "case_id": "canton",
+      "baseline": "V1→V2A/B→V3/V3a→V4→V5→V6",
+      "user_acceptance": "历史迭代；V2B立面进步获反馈，V5/V6整体还原未见完整验收",
+      "open_issues": "格构粗细、节点、最低截面拟合与游戏通行仍需核验；案例网格适配不等于通用自动融合。",
+      "next_validation": "在另一栋开敞塔架保留可见空隙，并核查最终拼合的塔脚和平台；模型有无两路不得共用模型派生参数。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "pazhou",
+      "baseline": "HA0.3/HAF 基线",
+      "user_acceptance": "needs_revision：用户明确否定壳体感与细节还原",
+      "open_issues": "琶洲幕墙、桥底梁肋、平台底面仍未重做；七份schem学习不能关闭此负例。",
+      "next_validation": "先重做一个真实幕墙转角和两种不同底面，按同相机参考区域评审，再回到整栋。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "shenzhen_press",
+      "baseline": "V2",
+      "user_acceptance": "用户反馈明显改善；非整栋测绘/游戏验收",
+      "open_issues": "背面模式及办公室仍估算；不能把伪内饰宣称真实可进入办公室。",
+      "next_validation": "保持V2轮廓，验证一段水平幕墙在转角/背面/檐底不封错洞口；改变灯光种子不改变非灯光格位。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "guangzhou_ctf",
+      "baseline": "V1",
+      "user_acceptance": "竖向体系获正向反馈；斜顶、夜景及细节仍待改",
+      "open_issues": "细节v2是局部样板，不是完整V2；SU未取得；真实夜景排布及红色光/闪烁未实现。",
+      "next_validation": "把已研究的暖色灯带和细分隔接入整栋前后对照；非灯光几何差分为0，塔冠另做相反方向局部评审。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "namsan_tower",
+      "baseline": "V1_r02",
+      "user_acceptance": "用户未作整体验收；不能因转入下一案例记pass",
+      "open_issues": "细部高差/植被估算，真实RGB投光及游戏坡道未验证。",
+      "next_validation": "复核台地接坡、塔身环带镂空、亭子相机及游戏台阶，避免以灯数代替夜景。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "elizabeth_tower",
+      "baseline": "V1_r02",
+      "user_acceptance": "用户提出材质纹理不足；未关闭",
+      "open_issues": "仅带截断的议会邻翼；钟针静态，钟室/楼梯可玩性待测，未补真实资源包纹理。",
+      "next_validation": "游戏或资源包下比较砂岩、深板岩/黑石候选的同尺度角部样板，复核四面钟盘和尖顶层级。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "buckingham_palace",
+      "baseline": "V1_r02",
+      "user_acceptance": "纹理感反馈仍开放；无整栋认可记录",
+      "open_issues": "只做指定建筑群与花园边缘，不是775房间全还原；内饰和园景多为示意。",
+      "next_validation": "以同尺度正背面、庭院剖切和柱廊近景核验窗洞/墙厚，纹理另在游戏验证。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "nanshan_cloud",
+      "baseline": "V2_r01",
+      "user_acceptance": "露台比例经反馈缩小；未收到新版明确验收",
+      "open_issues": "后部塔体和平面未测绘；当地理北未标定时四向只是模型坐标。",
+      "next_validation": "同相机叠看四面露台轮廓，上三层一致、下段逐级放宽；限定差分区域并让用户复核。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "guangzhou_customs",
+      "baseline": "V3_r02",
+      "user_acceptance": "形体获用户认可；大堂裙楼和钟楼灯光needs_revision",
+      "open_issues": "钟楼/大堂照明未补；137格是研究包络而非解决了所有高度来源冲突。",
+      "next_validation": "限定大堂/钟冠补灯，不动已认可体块；比较日夜四向、真俯视和灯位存活。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "guangzhou_memorial",
+      "baseline": "V2_r02",
+      "user_acceptance": "V2离线几何修复已验证；用户视觉验收待补",
+      "open_issues": "8项修复检查不等于8栋测试；复杂屋面仍案例几何；礼堂示意布局和游戏碰撞待验。",
+      "next_validation": "保留V1负例与V2修复，另在不同柱廊/坡屋顶验证承托、净空和收口规则。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "zhujiang_dijing",
+      "baseline": "V1_r03",
+      "user_acceptance": "技术问题修过；用户主要反馈下载失败，未有视觉验收",
+      "open_issues": "不代表整个小区；真实楼栋身份、绿化分布与户型细节待核；夜景远景偏弱。",
+      "next_validation": "近看窗/阳台/柱脚并核验旧失败样点；对比自然景观分区而非机械重复花坛，测试离线HTML和导出。",
+      "game_status": "pending"
+    },
+    {
+      "case_id": "guangzhou_south",
+      "baseline": "V1_r02",
+      "user_acceptance": "用户认可当前体量下已足够；细节限制继续保留",
+      "open_issues": "轨道和列车装饰性；ETFE/柱网/广场估算；采光脊文字尺寸与含端部包络未完全闭合；游戏未测。",
+      "next_validation": "当前不重做整栋。下次集中入口夜景、薄壳采光脊与局部柱网；保持已认可总体规模和空间层级。",
+      "game_status": "pending"
+    }
+  ]
+}

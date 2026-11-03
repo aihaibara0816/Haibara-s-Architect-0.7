@@ -1,0 +1,87 @@
+.............FF.....................                                     [100%]
+=================================== FAILURES ===================================
+____________________ test_template_project_compiles_cleanly ____________________
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-1/test_template_project_compiles0')
+
+    def test_template_project_compiles_cleanly(tmp_path):
+        proj = project.create(tmp_path / "t", "Template")
+>       out = proj.model().compile()
+              ^^^^^^^^^^^^^^^^^^^^^^
+
+ha-research-r03/upstream/PlanCraft/tools/building/tests/test_model.py:182: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ha-research-r03/upstream/PlanCraft/tools/building/building/model.py:571: in compile
+    handler(out, part)
+ha-research-r03/upstream/PlanCraft/tools/building/building/model.py:1066: in _part_stair
+    stairs = self.material_variant(material, "stairs") or self.material(material)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ha-research-r03/upstream/PlanCraft/tools/building/building/model.py:356: in material_variant
+    known = registry.blocks()
+            ^^^^^^^^^^^^^^^^^
+ha-research-r03/upstream/PlanCraft/tools/building/building/registry.py:66: in blocks
+    return json.loads(ensure_reports(version).read_text(encoding="utf-8"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+version = '26.1.2'
+
+    def ensure_reports(version: str = DEFAULT_VERSION) -> Path:
+        out = CACHE / version
+        blocks = out / "blocks.json"
+        if blocks.exists():
+            return blocks
+        server_jar = _loom_dir(version) / "minecraft-server.jar"
+        if not server_jar.exists():
+>           raise RuntimeError(f"{server_jar} missing; run a Gradle build for {version} first")
+E           RuntimeError: /root/.gradle/caches/fabric-loom/26.1.2/minecraft-server.jar missing; run a Gradle build for 26.1.2 first
+
+ha-research-r03/upstream/PlanCraft/tools/building/building/registry.py:50: RuntimeError
+______________________ test_stair_roof_steps_face_uphill _______________________
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-1/test_stair_roof_steps_face_uph0')
+
+    def test_stair_roof_steps_face_uphill(tmp_path):
+        proj = project.create(tmp_path / "t", "Template")
+        data = proj.data()
+        palette = copy.deepcopy(proj.palette())
+        palette["roof"] = {"block": "minecraft:polished_blackstone", "stairs": "minecraft:polished_blackstone_stairs"}
+        for p in data["parts"]:
+            if p["type"] == "roof":
+                p["smooth"] = "stairs"
+                p["slope"] = 0.3
+>       out = Model(data, palette).compile()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ha-research-r03/upstream/PlanCraft/tools/building/tests/test_model.py:198: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ha-research-r03/upstream/PlanCraft/tools/building/building/model.py:571: in compile
+    handler(out, part)
+ha-research-r03/upstream/PlanCraft/tools/building/building/model.py:1066: in _part_stair
+    stairs = self.material_variant(material, "stairs") or self.material(material)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ha-research-r03/upstream/PlanCraft/tools/building/building/model.py:356: in material_variant
+    known = registry.blocks()
+            ^^^^^^^^^^^^^^^^^
+ha-research-r03/upstream/PlanCraft/tools/building/building/registry.py:66: in blocks
+    return json.loads(ensure_reports(version).read_text(encoding="utf-8"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+version = '26.1.2'
+
+    def ensure_reports(version: str = DEFAULT_VERSION) -> Path:
+        out = CACHE / version
+        blocks = out / "blocks.json"
+        if blocks.exists():
+            return blocks
+        server_jar = _loom_dir(version) / "minecraft-server.jar"
+        if not server_jar.exists():
+>           raise RuntimeError(f"{server_jar} missing; run a Gradle build for {version} first")
+E           RuntimeError: /root/.gradle/caches/fabric-loom/26.1.2/minecraft-server.jar missing; run a Gradle build for 26.1.2 first
+
+ha-research-r03/upstream/PlanCraft/tools/building/building/registry.py:50: RuntimeError
+=========================== short test summary info ============================
+FAILED ha-research-r03/upstream/PlanCraft/tools/building/tests/test_model.py::test_template_project_compiles_cleanly
+FAILED ha-research-r03/upstream/PlanCraft/tools/building/tests/test_model.py::test_stair_roof_steps_face_uphill
+2 failed, 34 passed in 3.65s

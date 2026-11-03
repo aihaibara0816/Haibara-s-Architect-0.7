@@ -1,0 +1,43 @@
+{
+  "file": "building.nbt",
+  "bytes": 2093576,
+  "sha256": "6bafe61286063a318be1d0270df2cea18156d6311d5ed20a3c00947d8f719afb",
+  "listed_blocks": 709683,
+  "non_air_blocks": 709683,
+  "size_xyz": [
+    320,
+    308,
+    320
+  ],
+  "contains_explicit_air": false,
+  "geometry_sha256": "70a2cae5508a626c5453e0069a151fa04293e5d837031cf46f0380980e31483e",
+  "data_version": 3955,
+  "case": "namsan_tower",
+  "engine": "HAF 0.2.0",
+  "run": "V1_r01",
+  "components": {
+    "terrain": 448075,
+    "site": 11485,
+    "park": 210480,
+    "podium": 29136,
+    "tower": 10502,
+    "antenna": 5
+  },
+  "material_types": 40,
+  "state_count": 95,
+  "tree_count": 645,
+  "tower_height_blocks": 237,
+  "readback_exact": true,
+  "connection_updates": 7582,
+  "source_code_sha256": "917fcb5b01fcc82dabeedf4c452943f7c11b748ea5ba06d3650d87bfce086bf9",
+  "params_sha256": "8457419a5f87a85ce39f78116165a8b06a1df37d3e09e038b7a516b127920006",
+  "terrain_sha256": "400e486685d57a1175941cd479f28b806049410d9c77962d3e4cf0dc0630d1ce",
+  "osm_sha256": "1a39eda1dbf25d5291b8a1cf9c06461c4beffcaa44bb70030e2c6e709343a495",
+  "notes": [
+    "Sparse NBT omits air: paste into cleared area",
+    "Terrain is a closed surface shell with hollow interior",
+    "No game import, collision, lighting engine or walkability validation",
+    "Photograph-based component dimensions are estimates except documented total height",
+    "Tree distribution and room furnishing are authored approximations"
+  ]
+}

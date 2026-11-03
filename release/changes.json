@@ -1,0 +1,36 @@
+{
+  "new": [
+    "hafusion/review.py",
+    "tools/review_case.py",
+    "tools/validate_release.py",
+    "tests/test_review_contracts.py",
+    "cases/guangzhou_south/src/review_samples.py",
+    "cases/guangzhou_memorial/src/review_samples.py",
+    "learning/case_registry.json",
+    "learning/feedback_ledger.json"
+  ],
+  "upgraded": [
+    "hafusion/views.py: add true top and preserve four diagonals",
+    "tools/render_building_case.py: consume ensure_review_views",
+    "tools/agent.py: registry, readonly review and immutable-run guard",
+    "hafusion/case_io.py: report current engine version",
+    "hafusion/__init__.py: 0.3.0",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "retained": [
+    "all existing case geometry sources",
+    "stable random namespace and seed streams",
+    "evidence arbitration and cache",
+    "BuildKit NBT reader/writer",
+    "third-party license files",
+    "original archives and historical runs"
+  ],
+  "collected_not_new": [
+    "classical/site helpers",
+    "residential state support",
+    "atomic mesh and image writes",
+    "large scene shadow bounds"
+  ],
+  "skill_update": "Architect and HA Research 0.3.0; exact installed save receipts in companion index.html"
+}

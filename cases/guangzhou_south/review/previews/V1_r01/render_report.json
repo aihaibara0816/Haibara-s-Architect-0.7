@@ -1,0 +1,98 @@
+[
+  {
+    "image": "overview.png",
+    "sha256": "4bf02b0bad43cf620e5823a9f591164caceb4ec181c47c19e25fcbe53bfb9e8f",
+    "source_nbt_sha256": "473edcad768aa2b2bbb90d67d3b75f70efd2e7afbcae4d4e6843360d613a2b15",
+    "camera": {
+      "width": 2400,
+      "height": 1600,
+      "fov": 36,
+      "ortho": true,
+      "concept": false,
+      "sun_day": [
+        0.65,
+        0.9,
+        0.7
+      ],
+      "id": "overview",
+      "eye": [
+        1010,
+        490,
+        1120
+      ],
+      "target": [
+        320,
+        20,
+        330
+      ],
+      "spanX": 850,
+      "spanZ": 566.6666666666666
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "top.png",
+    "sha256": "f29f56114c398c6bea3ba349d9a6a8ca4ebda87ab7b7b6caecb7b5a21831eae6",
+    "source_nbt_sha256": "473edcad768aa2b2bbb90d67d3b75f70efd2e7afbcae4d4e6843360d613a2b15",
+    "camera": {
+      "width": 2400,
+      "height": 2300,
+      "fov": 36,
+      "ortho": true,
+      "concept": false,
+      "sun_day": [
+        0.65,
+        0.9,
+        0.7
+      ],
+      "id": "top",
+      "eye": [
+        320,
+        1100,
+        330
+      ],
+      "target": [
+        320,
+        0,
+        330
+      ],
+      "spanX": 690,
+      "spanZ": 661.25
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "hall.png",
+    "sha256": "1967a14066698808af20411b2a06e11223ad406c2d8aa698252fb56b98a317d3",
+    "source_nbt_sha256": "473edcad768aa2b2bbb90d67d3b75f70efd2e7afbcae4d4e6843360d613a2b15",
+    "camera": {
+      "width": 2400,
+      "height": 1600,
+      "fov": 80,
+      "ortho": false,
+      "concept": false,
+      "sun_day": [
+        0.65,
+        0.9,
+        0.7
+      ],
+      "id": "hall",
+      "eye": [
+        160,
+        27,
+        330
+      ],
+      "target": [
+        420,
+        43,
+        330
+      ],
+      "spanX": 100,
+      "spanZ": 66.66666666666667
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

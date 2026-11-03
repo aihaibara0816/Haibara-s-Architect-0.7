@@ -1,0 +1,113 @@
+{
+  "source_nbt_sha256": "f62e6624a0453073d384d619472b0b53c66c20808be9589e701d3fdb77c08f5c",
+  "non_air": 8650,
+  "entries": [
+    {
+      "id": "Library",
+      "pos": [
+        13,
+        3,
+        25
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 8,
+  "use_checks": [
+    {
+      "id": "Library.stairs.bottom",
+      "pos": [
+        4,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Library.stairs.top",
+      "pos": [
+        4,
+        9,
+        5
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Library.entry",
+      "pos": [
+        13,
+        3,
+        24
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Library.reading.2",
+      "pos": [
+        14,
+        3,
+        21
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Library.browse.2",
+      "pos": [
+        14,
+        3,
+        11
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Library.reading.8",
+      "pos": [
+        14,
+        9,
+        21
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Library.browse.8",
+      "pos": [
+        14,
+        9,
+        11
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Library.wing.reading",
+      "pos": [
+        24,
+        3,
+        10
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 7,
+  "paintings": 1,
+  "official_model_states": 61,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

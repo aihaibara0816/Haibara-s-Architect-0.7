@@ -1,0 +1,1227 @@
+{
+  "case_id": "Residence",
+  "run": "Q03",
+  "seed": 141145,
+  "buildings": [
+    {
+      "id": "Residence",
+      "name": "山手下宿｜住宅",
+      "size": [
+        22,
+        28,
+        28
+      ],
+      "floors": [
+        2,
+        8
+      ],
+      "entry": [
+        11,
+        3,
+        23
+      ],
+      "rooms": [
+        {
+          "id": "Residence.main",
+          "name": "山手下宿｜住宅",
+          "bounds": [
+            7,
+            3,
+            4,
+            18,
+            7,
+            23
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Residence.upper",
+          "name": "二层功能空间",
+          "bounds": [
+            7,
+            9,
+            4,
+            18,
+            13,
+            23
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Residence.stairs.bottom",
+          "pos": [
+            4,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Residence.stairs.top",
+          "pos": [
+            4,
+            9,
+            5
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Residence.entry",
+          "pos": [
+            11,
+            3,
+            22
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Residence.dining",
+          "pos": [
+            17,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Residence.living",
+          "pos": [
+            13,
+            3,
+            19
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Residence.upper.work",
+          "pos": [
+            13,
+            9,
+            17
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Residence.upper.bed",
+          "pos": [
+            14,
+            9,
+            8
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "doors": [
+        {
+          "id": "Residence.door.0",
+          "pos": [
+            11,
+            3,
+            23
+          ],
+          "lintel": [
+            11,
+            5,
+            23
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Residence.door.1",
+          "pos": [
+            14,
+            9,
+            11
+          ],
+          "lintel": [
+            14,
+            11,
+            11
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            11,
+            6,
+            19
+          ],
+          "support": [
+            11,
+            7,
+            19
+          ]
+        },
+        {
+          "position": [
+            15,
+            6,
+            7
+          ],
+          "support": [
+            15,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            14
+          ],
+          "support": [
+            7,
+            7,
+            14
+          ]
+        },
+        {
+          "position": [
+            11,
+            12,
+            19
+          ],
+          "support": [
+            11,
+            13,
+            19
+          ]
+        },
+        {
+          "position": [
+            15,
+            12,
+            7
+          ],
+          "support": [
+            15,
+            13,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            12,
+            14
+          ],
+          "support": [
+            7,
+            13,
+            14
+          ]
+        }
+      ],
+      "stairs": [
+        [
+          [
+            4.5,
+            3,
+            12.5
+          ],
+          [
+            4.5,
+            3,
+            12.375
+          ],
+          [
+            4.5,
+            3,
+            12.25
+          ],
+          [
+            4.5,
+            3,
+            12.125
+          ],
+          [
+            4.5,
+            3,
+            12.0
+          ],
+          [
+            4.5,
+            3,
+            11.875
+          ],
+          [
+            4.5,
+            3,
+            11.75
+          ],
+          [
+            4.5,
+            3,
+            11.625
+          ],
+          [
+            4.5,
+            3,
+            11.5
+          ],
+          [
+            4.5,
+            3,
+            11.375
+          ],
+          [
+            4.5,
+            3,
+            11.25
+          ],
+          [
+            4.5,
+            3,
+            11.125
+          ],
+          [
+            4.5,
+            3,
+            11.0
+          ],
+          [
+            4.5,
+            3,
+            10.875
+          ],
+          [
+            4.5,
+            3,
+            10.75
+          ],
+          [
+            4.5,
+            3,
+            10.625
+          ],
+          [
+            4.5,
+            3,
+            10.5
+          ],
+          [
+            4.5,
+            3,
+            10.375
+          ],
+          [
+            4.5,
+            3,
+            10.25
+          ],
+          [
+            4.5,
+            3,
+            10.125
+          ],
+          [
+            4.5,
+            3,
+            10.0
+          ],
+          [
+            4.5,
+            3,
+            9.875
+          ],
+          [
+            4.5,
+            3,
+            9.75
+          ],
+          [
+            4.5,
+            3,
+            9.625
+          ],
+          [
+            4.5,
+            3,
+            9.5
+          ],
+          [
+            4.5,
+            3,
+            9.375
+          ],
+          [
+            4.5,
+            3,
+            9.25
+          ],
+          [
+            4.5,
+            3,
+            9.125
+          ],
+          [
+            4.5,
+            3,
+            9.0
+          ],
+          [
+            4.5,
+            3,
+            8.875
+          ],
+          [
+            4.5,
+            3,
+            8.75
+          ],
+          [
+            4.5,
+            3,
+            8.625
+          ],
+          [
+            4.5,
+            3,
+            8.5
+          ],
+          [
+            4.5,
+            3,
+            8.375
+          ],
+          [
+            4.5,
+            3,
+            8.25
+          ],
+          [
+            4.5,
+            3,
+            8.125
+          ],
+          [
+            4.5,
+            3,
+            8.0
+          ],
+          [
+            4.5,
+            3,
+            7.875
+          ],
+          [
+            4.5,
+            3,
+            7.75
+          ],
+          [
+            4.5,
+            3,
+            7.625
+          ],
+          [
+            4.5,
+            3,
+            7.5
+          ],
+          [
+            4.5,
+            3,
+            7.375
+          ],
+          [
+            4.5,
+            3,
+            7.25
+          ],
+          [
+            4.5,
+            3,
+            7.125
+          ],
+          [
+            4.5,
+            3,
+            7.0
+          ],
+          [
+            4.5,
+            3,
+            6.875
+          ],
+          [
+            4.5,
+            3,
+            6.75
+          ],
+          [
+            4.5,
+            3,
+            6.625
+          ],
+          [
+            4.5,
+            3,
+            6.5
+          ],
+          [
+            4.5,
+            3,
+            6.375
+          ],
+          [
+            4.5,
+            3,
+            6.25
+          ],
+          [
+            4.5,
+            3,
+            6.125
+          ],
+          [
+            4.5,
+            3,
+            6.0
+          ],
+          [
+            4.5,
+            3,
+            5.875
+          ],
+          [
+            4.5,
+            3,
+            5.75
+          ],
+          [
+            4.5,
+            3,
+            5.625
+          ],
+          [
+            4.5,
+            3,
+            5.5
+          ]
+        ]
+      ],
+      "groups": [
+        {
+          "id": "Residence.stove.cooking.8_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            8,
+            3,
+            4,
+            9,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.sink.water_basin.11_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            11,
+            3,
+            4,
+            12,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              11,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.dining.dining_table.12_1_11",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            12,
+            3,
+            11,
+            16,
+            4,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.chair.seat.13_1_9",
+          "recipe": "seat",
+          "bounds_xyz": [
+            13,
+            3,
+            9,
+            14,
+            4,
+            10
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.living.dining_table.8_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            18,
+            12,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.bed.bed.13_1_6",
+          "recipe": "bed",
+          "bounds_xyz": [
+            13,
+            9,
+            6,
+            14,
+            10,
+            8
+          ],
+          "use_points": [
+            [
+              14,
+              9,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_container.16_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            16,
+            9,
+            4,
+            17,
+            10,
+            5
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_container.16_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            16,
+            10,
+            4,
+            17,
+            11,
+            5
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_wall.16_1_4",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            16,
+            9,
+            4,
+            17,
+            12,
+            5
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.archive.bookshelf_group.8_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            9,
+            4,
+            10,
+            13,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              9,
+              5
+            ],
+            [
+              9,
+              9,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.work.dining_table.8_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            9,
+            17,
+            12,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.chair.seat.9_1_15",
+          "recipe": "seat",
+          "bounds_xyz": [
+            9,
+            9,
+            15,
+            10,
+            10,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotated_180": false,
+      "entry_world": [
+        16,
+        14,
+        113
+      ],
+      "upper_start": [
+        4,
+        5
+      ],
+      "street_row": 1
+    }
+  ],
+  "uses": [
+    {
+      "id": "Residence.stairs.bottom",
+      "pos": [
+        4,
+        3,
+        12
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Residence.stairs.top",
+      "pos": [
+        4,
+        9,
+        5
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Residence.entry",
+      "pos": [
+        11,
+        3,
+        22
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Residence.dining",
+      "pos": [
+        17,
+        3,
+        12
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Residence.living",
+      "pos": [
+        13,
+        3,
+        19
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Residence.upper.work",
+      "pos": [
+        13,
+        9,
+        17
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Residence.upper.bed",
+      "pos": [
+        14,
+        9,
+        8
+      ],
+      "floor_block_y": 8
+    }
+  ],
+  "doors": [
+    {
+      "id": "Residence.door.0",
+      "pos": [
+        11,
+        3,
+        23
+      ],
+      "lintel": [
+        11,
+        5,
+        23
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Residence.door.1",
+      "pos": [
+        14,
+        9,
+        11
+      ],
+      "lintel": [
+        14,
+        11,
+        11
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        11,
+        6,
+        19
+      ],
+      "support": [
+        11,
+        7,
+        19
+      ]
+    },
+    {
+      "position": [
+        15,
+        6,
+        7
+      ],
+      "support": [
+        15,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        14
+      ],
+      "support": [
+        7,
+        7,
+        14
+      ]
+    },
+    {
+      "position": [
+        11,
+        12,
+        19
+      ],
+      "support": [
+        11,
+        13,
+        19
+      ]
+    },
+    {
+      "position": [
+        15,
+        12,
+        7
+      ],
+      "support": [
+        15,
+        13,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        12,
+        14
+      ],
+      "support": [
+        7,
+        13,
+        14
+      ]
+    }
+  ],
+  "stairs": [
+    [
+      [
+        4.5,
+        3,
+        12.5
+      ],
+      [
+        4.5,
+        3,
+        12.375
+      ],
+      [
+        4.5,
+        3,
+        12.25
+      ],
+      [
+        4.5,
+        3,
+        12.125
+      ],
+      [
+        4.5,
+        3,
+        12.0
+      ],
+      [
+        4.5,
+        3,
+        11.875
+      ],
+      [
+        4.5,
+        3,
+        11.75
+      ],
+      [
+        4.5,
+        3,
+        11.625
+      ],
+      [
+        4.5,
+        3,
+        11.5
+      ],
+      [
+        4.5,
+        3,
+        11.375
+      ],
+      [
+        4.5,
+        3,
+        11.25
+      ],
+      [
+        4.5,
+        3,
+        11.125
+      ],
+      [
+        4.5,
+        3,
+        11.0
+      ],
+      [
+        4.5,
+        3,
+        10.875
+      ],
+      [
+        4.5,
+        3,
+        10.75
+      ],
+      [
+        4.5,
+        3,
+        10.625
+      ],
+      [
+        4.5,
+        3,
+        10.5
+      ],
+      [
+        4.5,
+        3,
+        10.375
+      ],
+      [
+        4.5,
+        3,
+        10.25
+      ],
+      [
+        4.5,
+        3,
+        10.125
+      ],
+      [
+        4.5,
+        3,
+        10.0
+      ],
+      [
+        4.5,
+        3,
+        9.875
+      ],
+      [
+        4.5,
+        3,
+        9.75
+      ],
+      [
+        4.5,
+        3,
+        9.625
+      ],
+      [
+        4.5,
+        3,
+        9.5
+      ],
+      [
+        4.5,
+        3,
+        9.375
+      ],
+      [
+        4.5,
+        3,
+        9.25
+      ],
+      [
+        4.5,
+        3,
+        9.125
+      ],
+      [
+        4.5,
+        3,
+        9.0
+      ],
+      [
+        4.5,
+        3,
+        8.875
+      ],
+      [
+        4.5,
+        3,
+        8.75
+      ],
+      [
+        4.5,
+        3,
+        8.625
+      ],
+      [
+        4.5,
+        3,
+        8.5
+      ],
+      [
+        4.5,
+        3,
+        8.375
+      ],
+      [
+        4.5,
+        3,
+        8.25
+      ],
+      [
+        4.5,
+        3,
+        8.125
+      ],
+      [
+        4.5,
+        3,
+        8.0
+      ],
+      [
+        4.5,
+        3,
+        7.875
+      ],
+      [
+        4.5,
+        3,
+        7.75
+      ],
+      [
+        4.5,
+        3,
+        7.625
+      ],
+      [
+        4.5,
+        3,
+        7.5
+      ],
+      [
+        4.5,
+        3,
+        7.375
+      ],
+      [
+        4.5,
+        3,
+        7.25
+      ],
+      [
+        4.5,
+        3,
+        7.125
+      ],
+      [
+        4.5,
+        3,
+        7.0
+      ],
+      [
+        4.5,
+        3,
+        6.875
+      ],
+      [
+        4.5,
+        3,
+        6.75
+      ],
+      [
+        4.5,
+        3,
+        6.625
+      ],
+      [
+        4.5,
+        3,
+        6.5
+      ],
+      [
+        4.5,
+        3,
+        6.375
+      ],
+      [
+        4.5,
+        3,
+        6.25
+      ],
+      [
+        4.5,
+        3,
+        6.125
+      ],
+      [
+        4.5,
+        3,
+        6.0
+      ],
+      [
+        4.5,
+        3,
+        5.875
+      ],
+      [
+        4.5,
+        3,
+        5.75
+      ],
+      [
+        4.5,
+        3,
+        5.625
+      ],
+      [
+        4.5,
+        3,
+        5.5
+      ]
+    ]
+  ],
+  "spawn_local": [
+    11,
+    3,
+    24
+  ],
+  "upper_start": [
+    4,
+    5
+  ],
+  "source_nbt_sha256": "1a9d149debc79431f869805a4b51108f44186ba6b2017c17580ebd4cddcb54ae",
+  "non_air": 5184,
+  "size_xyz": [
+    22,
+    28,
+    28
+  ],
+  "block_entities": 20,
+  "entities": 1
+}

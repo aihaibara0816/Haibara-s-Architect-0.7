@@ -1,0 +1,57 @@
+{
+  "run": "P3_B2",
+  "source_nbt_sha256": "58c3f8f9c7605a8ce18aa580e3758dcadb4d15321dfeca5cf4d872d84dbba3a6",
+  "size": [
+    320,
+    48,
+    288
+  ],
+  "non_air": 455858,
+  "data_version": 3955,
+  "house_count": 18,
+  "house_types": {
+    "finished": 9,
+    "old": 5,
+    "frame": 1,
+    "brick": 2,
+    "hybrid": 1
+  },
+  "field_subplots": 32,
+  "greenhouse_count": 6,
+  "road_components": 1,
+  "road_blockers": [
+    [
+      183,
+      5,
+      146,
+      "minecraft:smooth_stone_slab[type=top,waterlogged=false]"
+    ],
+    [
+      183,
+      4,
+      157,
+      "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=true]"
+    ],
+    [
+      183,
+      5,
+      157,
+      "minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=true]"
+    ]
+  ],
+  "entry_failures": [],
+  "occupied_floors": 34,
+  "missing_lamps": [],
+  "lamps_missing_upper_floor": [],
+  "crop_count": 24950,
+  "unsupported_crops": [],
+  "unhydrated_crop_count": 64,
+  "uncontained_water": [],
+  "light_blocks": {
+    "minecraft:glowstone": 72,
+    "minecraft:sea_lantern": 89
+  },
+  "game_client": "pending",
+  "game_server": "not run this version",
+  "collision": "pending; road and entrance geometry only"
+}

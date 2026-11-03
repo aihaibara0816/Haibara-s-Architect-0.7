@@ -1,0 +1,2496 @@
+{
+  "case": "田埂里",
+  "version": "P3_B1",
+  "route": "approved_P3_layout_to_NBT",
+  "seed": 2026102918,
+  "size_xyz": [
+    320,
+    48,
+    288
+  ],
+  "coordinates": {
+    "north": "-Z",
+    "east": "+X",
+    "up": "+Y"
+  },
+  "buildings": [
+    {
+      "id": "R01",
+      "x": 116,
+      "z": 110,
+      "w": 24,
+      "d": 19,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 2,
+      "shape": "L",
+      "base": 4,
+      "source_set": "V4",
+      "source_id": "R01",
+      "rotation_delta": 0,
+      "source_x": 70,
+      "source_z": 104,
+      "front": "S",
+      "entry": [
+        132.5,
+        129.5
+      ],
+      "gate": [
+        132.5,
+        129.5
+      ],
+      "plot": [
+        115,
+        109,
+        141,
+        130
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          132.5,
+          129.5
+        ],
+        [
+          132.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "R02",
+      "x": 144,
+      "z": 108,
+      "w": 18,
+      "d": 22,
+      "floors": 2,
+      "kind": "old",
+      "rotation": 2,
+      "shape": "rect",
+      "base": 4,
+      "source_set": "V4",
+      "source_id": "R02",
+      "rotation_delta": 0,
+      "source_x": 104,
+      "source_z": 100,
+      "front": "S",
+      "entry": [
+        154.5,
+        130.5
+      ],
+      "gate": [
+        154.5,
+        130.5
+      ],
+      "plot": [
+        143,
+        107,
+        163,
+        131
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          154.5,
+          130.5
+        ],
+        [
+          154.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "R03",
+      "x": 166,
+      "z": 107,
+      "w": 28,
+      "d": 21,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 2,
+      "shape": "L",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R03",
+      "rotation_delta": 0,
+      "source_x": 132,
+      "source_z": 83,
+      "front": "S",
+      "entry": [
+        186.5,
+        128.5
+      ],
+      "gate": [
+        186.5,
+        128.5
+      ],
+      "plot": [
+        165,
+        106,
+        195,
+        129
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          186.5,
+          128.5
+        ],
+        [
+          186.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "R04",
+      "x": 173,
+      "z": 72,
+      "w": 20,
+      "d": 18,
+      "floors": 2,
+      "kind": "frame",
+      "rotation": 2,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R04",
+      "rotation_delta": 0,
+      "source_x": 171,
+      "source_z": 74,
+      "front": "S",
+      "entry": [
+        185.5,
+        90.5
+      ],
+      "gate": [
+        185.5,
+        90.5
+      ],
+      "plot": [
+        172,
+        71,
+        194,
+        91
+      ],
+      "group": "transition",
+      "access_path": [
+        [
+          185.5,
+          90.5
+        ],
+        [
+          185.5,
+          99.0
+        ]
+      ]
+    },
+    {
+      "id": "R05",
+      "x": 113,
+      "z": 141,
+      "w": 19,
+      "d": 16,
+      "floors": 1,
+      "kind": "old",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 4,
+      "source_set": "V4",
+      "source_id": "R05",
+      "rotation_delta": 0,
+      "source_x": 69,
+      "source_z": 146,
+      "front": "N",
+      "entry": [
+        120.5,
+        140.5
+      ],
+      "gate": [
+        120.5,
+        140.5
+      ],
+      "plot": [
+        112,
+        140,
+        133,
+        158
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          120.5,
+          140.5
+        ],
+        [
+          120.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "R06",
+      "x": 137,
+      "z": 141,
+      "w": 18,
+      "d": 22,
+      "floors": 2,
+      "kind": "brick",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 4,
+      "source_set": "V4",
+      "source_id": "R06",
+      "rotation_delta": 3,
+      "source_x": 98,
+      "source_z": 134,
+      "front": "N",
+      "entry": [
+        144.5,
+        140.5
+      ],
+      "gate": [
+        144.5,
+        140.5
+      ],
+      "plot": [
+        136,
+        140,
+        156,
+        164
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          144.5,
+          140.5
+        ],
+        [
+          144.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "R07",
+      "x": 159,
+      "z": 142,
+      "w": 24,
+      "d": 18,
+      "floors": 4,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R07",
+      "rotation_delta": 2,
+      "source_x": 137,
+      "source_z": 119,
+      "front": "N",
+      "entry": [
+        166.5,
+        141.5
+      ],
+      "gate": [
+        166.5,
+        141.5
+      ],
+      "plot": [
+        158,
+        141,
+        184,
+        161
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          166.5,
+          141.5
+        ],
+        [
+          166.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "R08",
+      "x": 214,
+      "z": 111,
+      "w": 24,
+      "d": 19,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 3,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R08",
+      "rotation_delta": 0,
+      "source_x": 224,
+      "source_z": 117,
+      "front": "W",
+      "entry": [
+        213.5,
+        122.5
+      ],
+      "gate": [
+        213.5,
+        122.5
+      ],
+      "plot": [
+        213,
+        110,
+        239,
+        131
+      ],
+      "group": "transition",
+      "access_path": [
+        [
+          213.5,
+          122.5
+        ],
+        [
+          210.5,
+          122.5
+        ]
+      ]
+    },
+    {
+      "id": "R09",
+      "x": 187,
+      "z": 141,
+      "w": 22,
+      "d": 17,
+      "floors": 2,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R09",
+      "rotation_delta": 0,
+      "source_x": 63,
+      "source_z": 196,
+      "front": "N",
+      "entry": [
+        194.5,
+        140.5
+      ],
+      "gate": [
+        194.5,
+        140.5
+      ],
+      "plot": [
+        186,
+        140,
+        210,
+        159
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          194.5,
+          140.5
+        ],
+        [
+          194.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "R10",
+      "x": 109,
+      "z": 176,
+      "w": 19,
+      "d": 15,
+      "floors": 1,
+      "kind": "old",
+      "rotation": 0,
+      "shape": "L",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R10",
+      "rotation_delta": 0,
+      "source_x": 94,
+      "source_z": 202,
+      "front": "N",
+      "entry": [
+        116.5,
+        175.5
+      ],
+      "gate": [
+        116.5,
+        175.5
+      ],
+      "plot": [
+        108,
+        175,
+        129,
+        192
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          116.5,
+          175.5
+        ]
+      ]
+    },
+    {
+      "id": "R11",
+      "x": 143,
+      "z": 180,
+      "w": 26,
+      "d": 20,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R11",
+      "rotation_delta": 0,
+      "source_x": 126,
+      "source_z": 178,
+      "front": "N",
+      "entry": [
+        150.5,
+        179.5
+      ],
+      "gate": [
+        150.5,
+        179.5
+      ],
+      "plot": [
+        142,
+        179,
+        170,
+        201
+      ],
+      "group": "transition",
+      "access_path": [
+        [
+          150.5,
+          179.5
+        ],
+        [
+          150.5,
+          175.0
+        ]
+      ]
+    },
+    {
+      "id": "R12",
+      "x": 178,
+      "z": 177,
+      "w": 23,
+      "d": 21,
+      "floors": 3,
+      "kind": "hybrid",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R12",
+      "rotation_delta": 0,
+      "source_x": 165,
+      "source_z": 168,
+      "front": "N",
+      "entry": [
+        185.5,
+        176.5
+      ],
+      "gate": [
+        185.5,
+        176.5
+      ],
+      "plot": [
+        177,
+        176,
+        202,
+        199
+      ],
+      "group": "transition",
+      "access_path": [
+        [
+          185.5,
+          176.5
+        ],
+        [
+          184.5,
+          176.5
+        ],
+        [
+          184.5,
+          175.0
+        ]
+      ]
+    },
+    {
+      "id": "R13",
+      "x": 66,
+      "z": 149,
+      "w": 15,
+      "d": 20,
+      "floors": 1,
+      "kind": "old",
+      "rotation": 1,
+      "shape": "L",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R13",
+      "rotation_delta": 1,
+      "source_x": 171,
+      "source_z": 211,
+      "front": "E",
+      "entry": [
+        81.5,
+        156.5
+      ],
+      "gate": [
+        81.5,
+        156.5
+      ],
+      "plot": [
+        65,
+        148,
+        82,
+        170
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          81.5,
+          156.5
+        ],
+        [
+          85.5,
+          156.5
+        ]
+      ]
+    },
+    {
+      "id": "R14",
+      "x": 74,
+      "z": 88,
+      "w": 24,
+      "d": 18,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 2,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "archive",
+      "source_id": "R05",
+      "rotation_delta": 0,
+      "source_x": 201,
+      "source_z": 76,
+      "front": "S",
+      "entry": [
+        90.5,
+        106.5
+      ],
+      "gate": [
+        90.5,
+        106.5
+      ],
+      "plot": [
+        73,
+        87,
+        99,
+        107
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          90.5,
+          106.5
+        ],
+        [
+          90.5,
+          109.0
+        ]
+      ]
+    },
+    {
+      "id": "R15",
+      "x": 104,
+      "z": 70,
+      "w": 18,
+      "d": 21,
+      "floors": 2,
+      "kind": "old",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "archive",
+      "source_id": "R09",
+      "rotation_delta": 0,
+      "source_x": 178,
+      "source_z": 112,
+      "front": "N",
+      "entry": [
+        111.5,
+        69.5
+      ],
+      "gate": [
+        111.5,
+        69.5
+      ],
+      "plot": [
+        103,
+        69,
+        123,
+        92
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          111.5,
+          69.5
+        ],
+        [
+          111.5,
+          65.5
+        ]
+      ]
+    },
+    {
+      "id": "R16",
+      "x": 240,
+      "z": 180,
+      "w": 17,
+      "d": 22,
+      "floors": 2,
+      "kind": "brick",
+      "rotation": 2,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "archive",
+      "source_id": "R15",
+      "rotation_delta": 1,
+      "source_x": 201,
+      "source_z": 157,
+      "front": "S",
+      "entry": [
+        249.5,
+        202.5
+      ],
+      "gate": [
+        249.5,
+        202.5
+      ],
+      "plot": [
+        239,
+        179,
+        258,
+        203
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          249.5,
+          202.5
+        ],
+        [
+          249.5,
+          204.0
+        ]
+      ]
+    },
+    {
+      "id": "R17",
+      "x": 70,
+      "z": 221,
+      "w": 21,
+      "d": 27,
+      "floors": 2,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "L",
+      "base": 3,
+      "source_set": "archive",
+      "source_id": "R16",
+      "rotation_delta": 1,
+      "source_x": 222,
+      "source_z": 199,
+      "front": "N",
+      "entry": [
+        77.5,
+        220.5
+      ],
+      "gate": [
+        77.5,
+        220.5
+      ],
+      "plot": [
+        69,
+        220,
+        92,
+        249
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          77.5,
+          220.5
+        ],
+        [
+          77.5,
+          216.5
+        ]
+      ]
+    },
+    {
+      "id": "R18",
+      "x": 185,
+      "z": 238,
+      "w": 22,
+      "d": 17,
+      "floors": 2,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R09",
+      "design_status": "roof template placeholder; facade variation to be designed",
+      "rotation_delta": 0,
+      "source_x": 63,
+      "source_z": 196,
+      "front": "N",
+      "entry": [
+        192.5,
+        237.5
+      ],
+      "gate": [
+        192.5,
+        237.5
+      ],
+      "plot": [
+        184,
+        237,
+        208,
+        256
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          192.5,
+          237.5
+        ],
+        [
+          192.5,
+          233.5
+        ]
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "id": "F01.1",
+      "bounds": [
+        12,
+        48,
+        63,
+        81
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F01.2",
+      "bounds": [
+        12,
+        81,
+        63,
+        107
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F01.3",
+      "bounds": [
+        12,
+        12,
+        33,
+        48
+      ],
+      "crop": "potatoes",
+      "rows": "N",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F01.4",
+      "bounds": [
+        33,
+        12,
+        63,
+        48
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F02.1",
+      "bounds": [
+        114,
+        12,
+        158,
+        58
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 4,
+      "harvest_strip": true,
+      "notch": 3
+    },
+    {
+      "id": "F02.2",
+      "bounds": [
+        70,
+        12,
+        114,
+        30
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F02.3",
+      "bounds": [
+        70,
+        30,
+        114,
+        58
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F03.1",
+      "bounds": [
+        165,
+        12,
+        193,
+        60
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F03.2",
+      "bounds": [
+        193,
+        12,
+        230,
+        39
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F03.3",
+      "bounds": [
+        193,
+        39,
+        230,
+        60
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 3
+    },
+    {
+      "id": "F04.1",
+      "bounds": [
+        237,
+        12,
+        308,
+        47
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F04.2",
+      "bounds": [
+        237,
+        47,
+        272,
+        88
+      ],
+      "crop": "wheat",
+      "rows": "N",
+      "base_age": 2,
+      "harvest_strip": true,
+      "notch": 3
+    },
+    {
+      "id": "F04.3",
+      "bounds": [
+        272,
+        47,
+        308,
+        88
+      ],
+      "crop": "potatoes",
+      "rows": "N",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F05.1",
+      "bounds": [
+        12,
+        116,
+        60,
+        132
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 3
+    },
+    {
+      "id": "F06.1",
+      "bounds": [
+        12,
+        188,
+        58,
+        229
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F06.2",
+      "bounds": [
+        12,
+        229,
+        58,
+        252
+      ],
+      "crop": "wheat",
+      "rows": "N",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F06.3",
+      "bounds": [
+        12,
+        252,
+        58,
+        276
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F07.1",
+      "bounds": [
+        98,
+        220,
+        129,
+        276
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F09.1",
+      "bounds": [
+        264,
+        151,
+        308,
+        176
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 3
+    },
+    {
+      "id": "F09.2",
+      "bounds": [
+        264,
+        176,
+        308,
+        211
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F11.1",
+      "bounds": [
+        128,
+        69,
+        165,
+        97
+      ],
+      "crop": "beetroots",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F12.1",
+      "bounds": [
+        68,
+        180,
+        89,
+        207
+      ],
+      "crop": "fallow",
+      "rows": "N",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F12.2",
+      "bounds": [
+        89,
+        180,
+        103,
+        207
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 5,
+      "harvest_strip": true,
+      "notch": 2
+    },
+    {
+      "id": "F13.1",
+      "bounds": [
+        140,
+        213,
+        160,
+        227
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F13.2",
+      "bounds": [
+        160,
+        213,
+        174,
+        227
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F14.1",
+      "bounds": [
+        140,
+        239,
+        174,
+        276
+      ],
+      "crop": "potatoes",
+      "rows": "N",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F15.1",
+      "bounds": [
+        180,
+        263,
+        228,
+        276
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F16.1",
+      "bounds": [
+        217,
+        155,
+        235,
+        175
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 0
+    },
+    {
+      "id": "F16.2",
+      "bounds": [
+        217,
+        175,
+        235,
+        198
+      ],
+      "crop": "beetroots",
+      "rows": "N",
+      "base_age": 2,
+      "harvest_strip": true,
+      "notch": 3
+    },
+    {
+      "id": "F17.1",
+      "bounds": [
+        37,
+        141,
+        60,
+        180
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 2
+    },
+    {
+      "id": "F17.2",
+      "bounds": [
+        12,
+        141,
+        37,
+        155
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": true,
+      "notch": 2
+    },
+    {
+      "id": "F17.3",
+      "bounds": [
+        12,
+        155,
+        37,
+        180
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0
+    }
+  ],
+  "greenhouses": [
+    {
+      "id": "G01",
+      "kind": "film",
+      "bounds": [
+        249,
+        100,
+        258,
+        132
+      ]
+    },
+    {
+      "id": "G02",
+      "kind": "film",
+      "bounds": [
+        263,
+        100,
+        272,
+        132
+      ]
+    },
+    {
+      "id": "G03",
+      "kind": "film",
+      "bounds": [
+        277,
+        100,
+        286,
+        132
+      ]
+    },
+    {
+      "id": "G04",
+      "kind": "film",
+      "bounds": [
+        291,
+        100,
+        300,
+        132
+      ]
+    },
+    {
+      "id": "G05",
+      "kind": "shade",
+      "bounds": [
+        243,
+        230,
+        269,
+        249
+      ]
+    },
+    {
+      "id": "G06",
+      "kind": "shade",
+      "bounds": [
+        276,
+        230,
+        302,
+        249
+      ]
+    }
+  ],
+  "roads": [
+    {
+      "id": "main",
+      "kind": "main",
+      "width": 5,
+      "path": [
+        [
+          0,
+          136
+        ],
+        [
+          93,
+          136
+        ],
+        [
+          103,
+          135
+        ],
+        [
+          215,
+          135
+        ],
+        [
+          226,
+          143
+        ],
+        [
+          320,
+          143
+        ]
+      ]
+    },
+    {
+      "id": "village_loop",
+      "kind": "lane",
+      "width": 3.5,
+      "path": [
+        [
+          87,
+          136
+        ],
+        [
+          87,
+          174
+        ],
+        [
+          134,
+          174
+        ],
+        [
+          134,
+          205
+        ],
+        [
+          212,
+          205
+        ],
+        [
+          212,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "core_cross_w",
+      "kind": "lane",
+      "width": 3,
+      "path": [
+        [
+          134,
+          135
+        ],
+        [
+          134,
+          174
+        ]
+      ]
+    },
+    {
+      "id": "core_cross_e",
+      "kind": "lane",
+      "width": 2.5,
+      "path": [
+        [
+          184.5,
+          135
+        ],
+        [
+          184.5,
+          174
+        ],
+        [
+          134,
+          174
+        ]
+      ]
+    },
+    {
+      "id": "north_link",
+      "kind": "lane",
+      "width": 3,
+      "path": [
+        [
+          0,
+          110
+        ],
+        [
+          103,
+          110
+        ],
+        [
+          103,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "north_farm_loop",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          65,
+          110
+        ],
+        [
+          65,
+          64
+        ],
+        [
+          232,
+          64
+        ],
+        [
+          232,
+          91
+        ],
+        [
+          314,
+          91
+        ],
+        [
+          314,
+          143
+        ]
+      ]
+    },
+    {
+      "id": "north_local",
+      "kind": "lane",
+      "width": 3,
+      "path": [
+        [
+          103,
+          110
+        ],
+        [
+          103,
+          100
+        ],
+        [
+          232,
+          100
+        ],
+        [
+          232,
+          91
+        ]
+      ]
+    },
+    {
+      "id": "east_local",
+      "kind": "lane",
+      "width": 3,
+      "path": [
+        [
+          209,
+          100
+        ],
+        [
+          209,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "west_lower_loop",
+      "kind": "lane",
+      "width": 3.5,
+      "path": [
+        [
+          87,
+          174
+        ],
+        [
+          64,
+          174
+        ],
+        [
+          64,
+          215
+        ],
+        [
+          107,
+          215
+        ],
+        [
+          107,
+          205
+        ],
+        [
+          134,
+          205
+        ]
+      ]
+    },
+    {
+      "id": "south_loop",
+      "kind": "lane",
+      "width": 3.5,
+      "path": [
+        [
+          134,
+          205
+        ],
+        [
+          134,
+          232
+        ],
+        [
+          232,
+          232
+        ],
+        [
+          232,
+          205
+        ],
+        [
+          212,
+          205
+        ]
+      ]
+    },
+    {
+      "id": "east_field_loop",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          232,
+          205
+        ],
+        [
+          260,
+          205
+        ],
+        [
+          260,
+          143
+        ]
+      ]
+    },
+    {
+      "id": "south_farm",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          0,
+          281
+        ],
+        [
+          232,
+          281
+        ],
+        [
+          232,
+          232
+        ]
+      ]
+    },
+    {
+      "id": "west_south_link",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          64,
+          215
+        ],
+        [
+          64,
+          281
+        ]
+      ]
+    },
+    {
+      "id": "south_mid_link",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          134,
+          232
+        ],
+        [
+          134,
+          281
+        ]
+      ]
+    },
+    {
+      "id": "greenhouse_loading",
+      "kind": "service",
+      "width": 3,
+      "path": [
+        [
+          247,
+          135
+        ],
+        [
+          304,
+          135
+        ],
+        [
+          304,
+          143
+        ]
+      ]
+    },
+    {
+      "id": "nursery_front",
+      "kind": "service",
+      "width": 3,
+      "path": [
+        [
+          232,
+          254
+        ],
+        [
+          305,
+          254
+        ]
+      ]
+    },
+    {
+      "id": "nursery_back",
+      "kind": "service",
+      "width": 2.5,
+      "path": [
+        [
+          232,
+          270
+        ],
+        [
+          305,
+          270
+        ],
+        [
+          305,
+          254
+        ]
+      ]
+    },
+    {
+      "id": "door_R01",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          132.5,
+          129.5
+        ],
+        [
+          132.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R02",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          154.5,
+          130.5
+        ],
+        [
+          154.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R03",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          186.5,
+          128.5
+        ],
+        [
+          186.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R04",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          185.5,
+          90.5
+        ],
+        [
+          185.5,
+          99.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R05",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          120.5,
+          140.5
+        ],
+        [
+          120.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R06",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          144.5,
+          140.5
+        ],
+        [
+          144.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R07",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          166.5,
+          141.5
+        ],
+        [
+          166.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R08",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          213.5,
+          122.5
+        ],
+        [
+          210.5,
+          122.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R09",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          194.5,
+          140.5
+        ],
+        [
+          194.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R10",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          116.5,
+          175.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R11",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          150.5,
+          179.5
+        ],
+        [
+          150.5,
+          175.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R12",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          185.5,
+          176.5
+        ],
+        [
+          184.5,
+          176.5
+        ],
+        [
+          184.5,
+          175.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R13",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          81.5,
+          156.5
+        ],
+        [
+          85.5,
+          156.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R14",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          90.5,
+          106.5
+        ],
+        [
+          90.5,
+          109.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R15",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          111.5,
+          69.5
+        ],
+        [
+          111.5,
+          65.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R16",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          249.5,
+          202.5
+        ],
+        [
+          249.5,
+          204.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R17",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          77.5,
+          220.5
+        ],
+        [
+          77.5,
+          216.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R18",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          192.5,
+          237.5
+        ],
+        [
+          192.5,
+          233.5
+        ]
+      ]
+    },
+    {
+      "id": "door_G01",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          253.5,
+          132.5
+        ],
+        [
+          253.5,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "door_G02",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          267.5,
+          132.5
+        ],
+        [
+          267.5,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "door_G03",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          281.5,
+          132.5
+        ],
+        [
+          281.5,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "door_G04",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          295.5,
+          132.5
+        ],
+        [
+          295.5,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "door_G05",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          256.0,
+          249.5
+        ],
+        [
+          256.0,
+          254
+        ]
+      ]
+    },
+    {
+      "id": "door_G06",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          289.0,
+          249.5
+        ],
+        [
+          289.0,
+          254
+        ]
+      ]
+    },
+    {
+      "id": "door_A01",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          252.0,
+          267.5
+        ],
+        [
+          252.0,
+          270
+        ]
+      ]
+    },
+    {
+      "id": "door_A02",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          288.0,
+          266.5
+        ],
+        [
+          288.0,
+          270
+        ]
+      ]
+    }
+  ],
+  "source_hashes": {
+    "V4": "77ae0865b32c35b27636481c65aaa5dacaab61ed5f8d63c13ce7cfae60765555",
+    "archive": "10d6fe5d878cf56bdfb1f2c92a4bf6b5fac78a1f85ad157a697c6879c364d92f"
+  },
+  "source_plan_sha256": "599c74dbb17728a95de34399a3732ce1fc2535f1396651b18898fcbb62f47f80",
+  "house_adoption": [
+    {
+      "id": "R01",
+      "source": "V4",
+      "source_id": "R01",
+      "rotation": 0,
+      "copied_blocks": 4423
+    },
+    {
+      "id": "R02",
+      "source": "V4",
+      "source_id": "R02",
+      "rotation": 0,
+      "copied_blocks": 3122
+    },
+    {
+      "id": "R03",
+      "source": "V4",
+      "source_id": "R03",
+      "rotation": 0,
+      "copied_blocks": 5605
+    },
+    {
+      "id": "R04",
+      "source": "V4",
+      "source_id": "R04",
+      "rotation": 0,
+      "copied_blocks": 1330
+    },
+    {
+      "id": "R05",
+      "source": "V4",
+      "source_id": "R05",
+      "rotation": 0,
+      "copied_blocks": 1603
+    },
+    {
+      "id": "R06",
+      "source": "V4",
+      "source_id": "R06",
+      "rotation": 3,
+      "copied_blocks": 1873
+    },
+    {
+      "id": "R07",
+      "source": "V4",
+      "source_id": "R07",
+      "rotation": 2,
+      "copied_blocks": 5855
+    },
+    {
+      "id": "R08",
+      "source": "V4",
+      "source_id": "R08",
+      "rotation": 0,
+      "copied_blocks": 4562
+    },
+    {
+      "id": "R09",
+      "source": "V4",
+      "source_id": "R09",
+      "rotation": 0,
+      "copied_blocks": 2907
+    },
+    {
+      "id": "R10",
+      "source": "V4",
+      "source_id": "R10",
+      "rotation": 0,
+      "copied_blocks": 1377
+    },
+    {
+      "id": "R11",
+      "source": "V4",
+      "source_id": "R11",
+      "rotation": 0,
+      "copied_blocks": 5328
+    },
+    {
+      "id": "R12",
+      "source": "V4",
+      "source_id": "R12",
+      "rotation": 0,
+      "copied_blocks": 4506
+    },
+    {
+      "id": "R13",
+      "source": "V4",
+      "source_id": "R13",
+      "rotation": 1,
+      "copied_blocks": 1459
+    },
+    {
+      "id": "R14",
+      "source": "archive",
+      "source_id": "R05",
+      "rotation": 0,
+      "copied_blocks": 4516
+    },
+    {
+      "id": "R15",
+      "source": "archive",
+      "source_id": "R09",
+      "rotation": 0,
+      "copied_blocks": 3030
+    },
+    {
+      "id": "R16",
+      "source": "archive",
+      "source_id": "R15",
+      "rotation": 1,
+      "copied_blocks": 1798
+    },
+    {
+      "id": "R17",
+      "source": "archive",
+      "source_id": "R16",
+      "rotation": 1,
+      "copied_blocks": 3805
+    },
+    {
+      "id": "R18",
+      "source": "V4",
+      "source_id": "R09",
+      "rotation": 0,
+      "copied_blocks": 2887
+    }
+  ],
+  "trees": [
+    [
+      11,
+      3,
+      9,
+      2
+    ],
+    [
+      25,
+      3,
+      10,
+      2
+    ],
+    [
+      23,
+      284,
+      9,
+      2
+    ],
+    [
+      44,
+      3,
+      10,
+      2
+    ],
+    [
+      64,
+      3,
+      7,
+      2
+    ],
+    [
+      68,
+      284,
+      10,
+      2
+    ],
+    [
+      75,
+      4,
+      7,
+      2
+    ],
+    [
+      92,
+      3,
+      9,
+      2
+    ],
+    [
+      90,
+      284,
+      7,
+      2
+    ],
+    [
+      97,
+      4,
+      10,
+      3
+    ],
+    [
+      98,
+      284,
+      10,
+      2
+    ],
+    [
+      112,
+      4,
+      10,
+      3
+    ],
+    [
+      120,
+      4,
+      8,
+      2
+    ],
+    [
+      135,
+      3,
+      9,
+      2
+    ],
+    [
+      136,
+      284,
+      9,
+      2
+    ],
+    [
+      146,
+      4,
+      9,
+      2
+    ],
+    [
+      143,
+      284,
+      7,
+      2
+    ],
+    [
+      152,
+      3,
+      9,
+      3
+    ],
+    [
+      154,
+      284,
+      9,
+      2
+    ],
+    [
+      164,
+      3,
+      9,
+      2
+    ],
+    [
+      175,
+      3,
+      9,
+      2
+    ],
+    [
+      188,
+      3,
+      9,
+      3
+    ],
+    [
+      202,
+      3,
+      9,
+      3
+    ],
+    [
+      231,
+      4,
+      7,
+      2
+    ],
+    [
+      240,
+      4,
+      9,
+      2
+    ],
+    [
+      256,
+      4,
+      9,
+      3
+    ],
+    [
+      262,
+      4,
+      8,
+      3
+    ],
+    [
+      279,
+      4,
+      9,
+      2
+    ],
+    [
+      288,
+      4,
+      7,
+      3
+    ],
+    [
+      297,
+      3,
+      8,
+      2
+    ],
+    [
+      3,
+      36,
+      9,
+      2
+    ],
+    [
+      3,
+      49,
+      7,
+      2
+    ],
+    [
+      4,
+      57,
+      10,
+      2
+    ],
+    [
+      4,
+      126,
+      8,
+      3
+    ],
+    [
+      3,
+      148,
+      7,
+      2
+    ],
+    [
+      4,
+      188,
+      10,
+      3
+    ],
+    [
+      3,
+      205,
+      7,
+      3
+    ],
+    [
+      4,
+      216,
+      9,
+      2
+    ],
+    [
+      4,
+      242,
+      9,
+      2
+    ],
+    [
+      3,
+      254,
+      9,
+      2
+    ],
+    [
+      4,
+      265,
+      10,
+      2
+    ],
+    [
+      100,
+      155,
+      8,
+      2
+    ],
+    [
+      216,
+      95,
+      9,
+      2
+    ],
+    [
+      211,
+      212,
+      10,
+      3
+    ],
+    [
+      94,
+      252,
+      7,
+      2
+    ],
+    [
+      179,
+      257,
+      10,
+      3
+    ],
+    [
+      224,
+      215,
+      8,
+      2
+    ],
+    [
+      201,
+      222,
+      7,
+      2
+    ]
+  ],
+  "lighting": "All occupied low-rise rooms lit; raw floors unlit; cool/warm material intent only",
+  "changes": [
+    "P3 footprints and road centerlines preserved",
+    "Unequal rectangular subplots, growth cohorts, harvested strips, loading notches",
+    "Narrow thresholds instead of wide courts",
+    "R18 sandstone and teal details, rooftop shade, blue glazing",
+    "Six agricultural sheds built"
+  ],
+  "limitations": [
+    "Furniture is decorative",
+    "Approximate preview materials and light; no in-game screenshots",
+    "Player collision and live game lighting pending"
+  ]
+}

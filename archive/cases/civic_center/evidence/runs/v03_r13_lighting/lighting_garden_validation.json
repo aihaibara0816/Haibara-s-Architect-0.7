@@ -1,0 +1,214 @@
+{
+  "run": "v03_r13_lighting",
+  "baseline": "v03_r10_public",
+  "NBT_sha256": "1e8b8c4516b8d0e0b26c0fc343de9faf18d0b296c2de850fdf5ca34889a96fb4",
+  "status": "pass",
+  "pass_count": 11,
+  "total": 11,
+  "checks": [
+    {
+      "name": "only_declared_light_and_garden_changes",
+      "pass": true,
+      "details": {
+        "unexpected": [],
+        "changed_counts": {
+          "lighting3": 1616,
+          "garden": 585
+        }
+      }
+    },
+    {
+      "name": "all_prior_lamps_retained",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "windows_ledges_screens_stairs_furniture_columns_exact",
+      "pass": true,
+      "details": 19223
+    },
+    {
+      "name": "garden_outside_ground_floor_footprint",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "two_actual_bamboo_gardens",
+      "pass": true,
+      "details": 29
+    },
+    {
+      "name": "bamboo_native_states_grounded_and_capped",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "garden_rims_benches_and_posts_supported",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "fixtures_supported_or_flush_replacements",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "forecourt_reaches_main_door",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "all_floor_sample_coverage_above_90_percent",
+      "pass": true,
+      "details": [
+        {
+          "floor": 1,
+          "samples": 425,
+          "positive_percent": 98.6,
+          "mean_preview_level": 6.16
+        },
+        {
+          "floor": 2,
+          "samples": 356,
+          "positive_percent": 99.7,
+          "mean_preview_level": 6.45
+        },
+        {
+          "floor": 3,
+          "samples": 472,
+          "positive_percent": 99.8,
+          "mean_preview_level": 6.41
+        },
+        {
+          "floor": 4,
+          "samples": 449,
+          "positive_percent": 98.9,
+          "mean_preview_level": 6.77
+        },
+        {
+          "floor": 5,
+          "samples": 335,
+          "positive_percent": 98.8,
+          "mean_preview_level": 6.92
+        },
+        {
+          "floor": 6,
+          "samples": 204,
+          "positive_percent": 98.0,
+          "mean_preview_level": 6.76
+        },
+        {
+          "floor": 7,
+          "samples": 204,
+          "positive_percent": 98.0,
+          "mean_preview_level": 6.86
+        }
+      ]
+    },
+    {
+      "name": "every_floor_improves_vs_R10",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "before": {
+    "emissive_blocks": 241,
+    "floors": [
+      {
+        "floor": 1,
+        "samples": 425,
+        "positive_percent": 21.4,
+        "mean_preview_level": 0.94
+      },
+      {
+        "floor": 2,
+        "samples": 356,
+        "positive_percent": 49.2,
+        "mean_preview_level": 1.83
+      },
+      {
+        "floor": 3,
+        "samples": 472,
+        "positive_percent": 50.8,
+        "mean_preview_level": 1.79
+      },
+      {
+        "floor": 4,
+        "samples": 449,
+        "positive_percent": 36.1,
+        "mean_preview_level": 1.63
+      },
+      {
+        "floor": 5,
+        "samples": 335,
+        "positive_percent": 46.3,
+        "mean_preview_level": 1.99
+      },
+      {
+        "floor": 6,
+        "samples": 204,
+        "positive_percent": 42.2,
+        "mean_preview_level": 1.84
+      },
+      {
+        "floor": 7,
+        "samples": 204,
+        "positive_percent": 52.9,
+        "mean_preview_level": 2.37
+      }
+    ]
+  },
+  "after": {
+    "emissive_blocks": 1857,
+    "floors": [
+      {
+        "floor": 1,
+        "samples": 425,
+        "positive_percent": 98.6,
+        "mean_preview_level": 6.16
+      },
+      {
+        "floor": 2,
+        "samples": 356,
+        "positive_percent": 99.7,
+        "mean_preview_level": 6.45
+      },
+      {
+        "floor": 3,
+        "samples": 472,
+        "positive_percent": 99.8,
+        "mean_preview_level": 6.41
+      },
+      {
+        "floor": 4,
+        "samples": 449,
+        "positive_percent": 98.9,
+        "mean_preview_level": 6.77
+      },
+      {
+        "floor": 5,
+        "samples": 335,
+        "positive_percent": 98.8,
+        "mean_preview_level": 6.92
+      },
+      {
+        "floor": 6,
+        "samples": 204,
+        "positive_percent": 98.0,
+        "mean_preview_level": 6.76
+      },
+      {
+        "floor": 7,
+        "samples": 204,
+        "positive_percent": 98.0,
+        "mean_preview_level": 6.86
+      }
+    ]
+  },
+  "game": "pending",
+  "limits": [
+    "Preview lightfield is a conservative 6-neighbor grid, not actual Minecraft light or lux.",
+    "Positive sample percentage does not certify gameplay safety or lighting compliance.",
+    "Bamboo leaves simplified in preview; native vanilla block state used in NBT."
+  ]
+}

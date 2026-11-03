@@ -1,0 +1,22 @@
+{
+  "id": "guangzhou_ctf",
+  "name": "广州周大福金融中心",
+  "style": "modern_tower",
+  "origin": "HAF 0.4 快照",
+  "version": "整栋 V1_r05；Detail V2 局部研究",
+  "history": "V1 → r04 → r05；Detail V2 幕墙/塔冠灯局部样板",
+  "achievement": "竖梃、玻璃与内背景分层；墙柱/铁栏细度按尺度取舍；稳定灯槽避免抽样引起玻璃邻接变化。",
+  "lesson": "两相反方向检查斜顶；固定夜景灯带与随机窗灯分离；航空灯先算尺寸，3×3格在1:2下宽6米过大。",
+  "failure": "弧面量化角缝、过粗分隔、冷光偏多；冠部灯候选未落地，整栋塔冠专灯实际为0。",
+  "open": "整栋斜顶、幕墙与高层夜景仍需改进；Detail V2 不等于完整 V2 建筑。",
+  "acceptance": "竖向体系获正向反馈；斜顶、夜景及细节仍待改",
+  "game": "待实测",
+  "source": "HAF04.zip",
+  "source_evidence": [
+    "cases/guangzhou_ctf/README.md",
+    "learning/vertical_facade_ctf_v1.md",
+    "learning/ctf_night_detail_study.md"
+  ],
+  "nbt_member": "HAF-0.4/cases/guangzhou_ctf/runs/V1_r05/building.nbt",
+  "style_name": "现代高层与幕墙"
+}

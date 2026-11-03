@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "method": "Extracted packaged runtime with an empty cache; regenerated NBT using packaged entry point",
+  "nbt_exact": true,
+  "nbt_sha256": "a186747e423754ca2edccfbac2536ac3b02086c376d6b55c901b5309d2419afe",
+  "checks": {
+    "reserved_3x3_shaft_empty": true,
+    "program_only_in_reviewed_bands": true,
+    "all_46_planned_ring_paths_present": true,
+    "ring_paths_avoid_core": true,
+    "ring_footprints_inside_columns": true,
+    "tower_height_280": true,
+    "no_underground_room_blocks": true,
+    "stairs_two_cell_clearance": true,
+    "water_contained": true,
+    "tree_roots_supported": true,
+    "site_states_and_ownership_frozen": true,
+    "plancraft_six_access_targets": true,
+    "all_five_program_bands_lit": true,
+    "nbt_independent_readback_exact": true,
+    "modules_reassemble_exactly": true,
+    "source_model_hash_unchanged": true
+  },
+  "seconds": 23.855,
+  "source_files_sha256": {
+    "hafusion/pipeline.py": "c65db2a3b90e2d4bfee6f6635900148f3181e045337856f7be98c866e3c5e0cf",
+    "hafusion/constraints.py": "a38429a920a8493c21af549a119f04d807bdcd74c2d2ce622c2042c906fb5a0a",
+    "hafusion/bootstrap.py": "f1584b4c7816207bb456d9bdf3af1e75e28a8f4a90819d6696eeb70dc92058ad",
+    "hafusion/qa.py": "aafa7683275eb3fea0e9c5c46ea96e9cb97554fdf4a310cb5fd2be4c0dc82a74",
+    "hafusion/canton.py": "1ee37ba3a50d2ddb90db7bf90f6aea66583dbd57a2a394672c851179584fb207",
+    "hafusion/cache.py": "1b056e4889b895b1f437e4e1475c61f1a4f08e3868b6e3ece81badc8a1136b8a",
+    "hafusion/__init__.py": "3b1228519e8f2c985cbe5633ddad59b9b33bf4c0457028e0974b72945c8b96cb",
+    "hafusion/evidence.py": "5c7ec938b9945959edf749ca48d3f9d12fc3662f2e8775beaaac51f497123984",
+    "tools/export_preview.py": "ccda09cb3cd1841a8b8a046a0946cd9a4b157bd7ab64b6cc656d799e5098620b",
+    "tools/archive.py": "0c3c884a834132730c1ed341b50e1eccc19770672ad54fe622f11e849cf637e4",
+    "tools/build.py": "9f4ca32b3b0fe3dd100e9daf57aaf608204131fe30d82f3473e4e0886759c968",
+    "tools/verify_replay.py": "dba410825f772f8e2b7def892a7ba271f4eaf4a2c7e5f55c94e9b18aaf7bdd4b",
+    "tools/package_review.py": "4b6721f9f285d59503978343857bbb5a50c45101bdbf22b33c151cc1ba2e8f19",
+    "tools/render_egl.py": "fa56c6ad8b14414c24b327c28677921be6831c1f767011dd66d0ca9451261d8b",
+    "tests/test_hafusion.py": "7193c5e54ce51b641fb19468955c786dbc38060109d404e1ae44d2a619af68db"
+  },
+  "previous_packaging_failure": "An overly broad cache exclusion matched cache.py. Fixed archive filter; this replay uses the fixed bundle."
+}

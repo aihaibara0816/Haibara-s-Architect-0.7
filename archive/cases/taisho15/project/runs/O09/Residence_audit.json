@@ -1,0 +1,113 @@
+{
+  "source_nbt_sha256": "a507535806fba6cc0dc844961c3620e40f900b0c656d8a634bac6bfc2315c15a",
+  "non_air": 7216,
+  "entries": [
+    {
+      "id": "Residence",
+      "pos": [
+        11,
+        3,
+        23
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 8,
+  "use_checks": [
+    {
+      "id": "Residence.stairs.bottom",
+      "pos": [
+        4,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Residence.stairs.top",
+      "pos": [
+        4,
+        9,
+        5
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Residence.entry",
+      "pos": [
+        11,
+        3,
+        22
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Residence.dining",
+      "pos": [
+        17,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Residence.living",
+      "pos": [
+        13,
+        3,
+        19
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Residence.upper.work",
+      "pos": [
+        13,
+        9,
+        17
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Residence.upper.bed",
+      "pos": [
+        14,
+        9,
+        8
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Residence.wing.bedroom",
+      "pos": [
+        20,
+        3,
+        9
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "block_entities": 24,
+  "paintings": 1,
+  "official_model_states": 68,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

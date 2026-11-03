@@ -1,0 +1,46 @@
+{
+  "run": "V1_r02",
+  "source_nbt_sha256": "d1be52d98763c1337d9a9ecee53d82bac9a8d6ed9842ee00ac89d32d4f1be245",
+  "reviewed_full": [
+    "night",
+    "platform",
+    "platform_night",
+    "soffit",
+    "section",
+    "arrivals",
+    "hall_night",
+    "west_entrance",
+    "east_entrance",
+    "roof_detail",
+    "waiting_plan"
+  ],
+  "reviewed_contact_sheet": [
+    "overview",
+    "top",
+    "south_roof",
+    "se_day",
+    "sw_day",
+    "ne_day",
+    "nw_day",
+    "se_night",
+    "sw_night",
+    "ne_night",
+    "nw_night",
+    "entrance_night",
+    "plaza",
+    "platform_plan"
+  ],
+  "hall_same_camera_checked_on_r01": "only doorway cuts changed model; final hash lineage verified",
+  "result": "reviewable V1, not fidelity acceptance",
+  "observations": [
+    "six unequal roof bays and stepped height relation visible",
+    "four diagonal full-scene views fit scene; top view required and included",
+    "platform camera lowered beneath roof for actual platform inspection",
+    "glass/mullions, thin soffits, truss ties and seating visible",
+    "night central hall floor and entrances remain dimmer than reference photos; future fixture-spacing/height review needed",
+    "central ETFE diamond lattice appears coarse at 1block/metre",
+    "plaza and regularized track/column layout remain estimates"
+  ],
+  "user_acceptance": "pending",
+  "game_validation": "pending"
+}

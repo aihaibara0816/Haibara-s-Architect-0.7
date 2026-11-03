@@ -1,0 +1,144 @@
+{
+  "group": "Grocery",
+  "source_nbt_sha256": "793eeb45f9332e41ffa59fcbd2f1e905d302ae79d98e53d94992267a4379c297",
+  "blocks": 3739,
+  "states": 71,
+  "uses": [
+    {
+      "id": "Grocery.main_entry",
+      "pos": [
+        7,
+        3,
+        22
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.bed.9",
+      "pos": [
+        10,
+        10,
+        8
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.wash.9",
+      "pos": [
+        2,
+        10,
+        5
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.browse",
+      "pos": [
+        6,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.pay",
+      "pos": [
+        10,
+        3,
+        19
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.staff",
+      "pos": [
+        11,
+        3,
+        16
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.packing",
+      "pos": [
+        9,
+        3,
+        12
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.kitchen",
+      "pos": [
+        10,
+        3,
+        6
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.living",
+      "pos": [
+        6,
+        10,
+        24
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.dining",
+      "pos": [
+        12,
+        10,
+        17
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.stairs.lower.2",
+      "pos": [
+        1,
+        3,
+        15
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Grocery.stairs.upper.9",
+      "pos": [
+        1,
+        10,
+        7
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    }
+  ],
+  "stairs": [
+    {
+      "from_floor": 2,
+      "to_floor": 9,
+      "samples": 65,
+      "end_y": 10,
+      "errors": []
+    }
+  ],
+  "arcade": [],
+  "block_entities": 34,
+  "paintings": 2,
+  "errors": [],
+  "game": "pending",
+  "aesthetic": "pending user review",
+  "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+}

@@ -1,0 +1,5775 @@
+{
+  "schema": "qilou-authored-sample-1",
+  "mainline": "HAF 0.4",
+  "run": "Q05",
+  "case": {
+    "case_id": "Qilou01",
+    "run": "Q05",
+    "mainline": "HAF 0.4",
+    "seed": 311145,
+    "scope": "Three connected prototype shop-houses; not a complete streetscape or measured replica",
+    "coordinates": {
+      "X": "east",
+      "Y": "up",
+      "Z": "south",
+      "front": "south"
+    },
+    "spawn_local": [
+      35,
+      3,
+      43
+    ],
+    "buildings": [
+      {
+        "id": "Grocery",
+        "name": "和顺杂货",
+        "origin": [
+          7,
+          0,
+          6
+        ],
+        "size": [
+          15,
+          34,
+          33
+        ],
+        "floors": [
+          2,
+          9
+        ],
+        "entry": [
+          14,
+          3,
+          29
+        ],
+        "kind": "plain"
+      },
+      {
+        "id": "Apothecary",
+        "name": "济安药铺",
+        "origin": [
+          22,
+          0,
+          6
+        ],
+        "size": [
+          17,
+          34,
+          33
+        ],
+        "floors": [
+          2,
+          9,
+          15
+        ],
+        "entry": [
+          30,
+          3,
+          29
+        ],
+        "kind": "classical"
+      },
+      {
+        "id": "Teahouse",
+        "name": "榕荫茶楼",
+        "origin": [
+          39,
+          0,
+          6
+        ],
+        "size": [
+          23,
+          34,
+          33
+        ],
+        "floors": [
+          2,
+          9,
+          15
+        ],
+        "entry": [
+          49,
+          3,
+          29
+        ],
+        "kind": "corner"
+      }
+    ],
+    "arcade_paths": [
+      {
+        "id": "continuous_front",
+        "bounds": [
+          7,
+          3,
+          30,
+          59,
+          7,
+          34
+        ]
+      },
+      {
+        "id": "corner_return",
+        "bounds": [
+          57,
+          3,
+          10,
+          61,
+          7,
+          30
+        ]
+      },
+      {
+        "id": "corner_splay",
+        "bounds": [
+          57,
+          3,
+          30,
+          61,
+          7,
+          33
+        ]
+      }
+    ],
+    "status": {
+      "game": "pending",
+      "aesthetic": "pending user review"
+    },
+    "source_nbt_sha256": "b103f731b38a36dc1a0446bc4b6a70f2eb9e37c33f5ab9e1e95e7f8dae08abb3",
+    "size_xyz": [
+      76,
+      40,
+      52
+    ],
+    "non_air": 22023,
+    "block_entities": 132,
+    "entities": 7
+  },
+  "buildings": [
+    {
+      "id": "Grocery",
+      "name": "和顺杂货",
+      "size": [
+        15,
+        34,
+        33
+      ],
+      "floors": [
+        2,
+        9
+      ],
+      "entry": [
+        7,
+        3,
+        23
+      ],
+      "rooms": [
+        {
+          "id": "Grocery.bed.9",
+          "name": "店主卧室",
+          "bounds": [
+            7,
+            10,
+            4,
+            14,
+            14,
+            13
+          ],
+          "floor_y": 10,
+          "capacity": 1,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Grocery.shop",
+          "name": "杂货陈列与结账",
+          "bounds": [
+            1,
+            3,
+            14,
+            14,
+            7,
+            23
+          ],
+          "floor_y": 3,
+          "capacity": 5,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Grocery.back",
+          "name": "备货与厨房",
+          "bounds": [
+            5,
+            3,
+            4,
+            14,
+            7,
+            13
+          ],
+          "floor_y": 3,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Grocery.living",
+          "name": "起居、茶桌与餐桌",
+          "bounds": [
+            5,
+            10,
+            15,
+            14,
+            14,
+            28
+          ],
+          "floor_y": 10,
+          "capacity": 3,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Grocery.main_entry",
+          "pos": [
+            7,
+            3,
+            22
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Grocery.bed.9",
+          "pos": [
+            10,
+            10,
+            8
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Grocery.wash.9",
+          "pos": [
+            2,
+            10,
+            5
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Grocery.browse",
+          "pos": [
+            6,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Grocery.pay",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Grocery.staff",
+          "pos": [
+            11,
+            3,
+            16
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Grocery.packing",
+          "pos": [
+            9,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Grocery.kitchen",
+          "pos": [
+            10,
+            3,
+            6
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Grocery.living",
+          "pos": [
+            6,
+            10,
+            24
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Grocery.dining",
+          "pos": [
+            12,
+            10,
+            17
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Grocery.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Grocery.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9
+        }
+      ],
+      "doors": [
+        {
+          "id": "Grocery.door.0",
+          "pos": [
+            7,
+            3,
+            23
+          ],
+          "lintel": [
+            7,
+            5,
+            23
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Grocery.door.1",
+          "pos": [
+            9,
+            3,
+            13
+          ],
+          "lintel": [
+            9,
+            5,
+            13
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Grocery.door.2",
+          "pos": [
+            9,
+            10,
+            13
+          ],
+          "lintel": [
+            9,
+            12,
+            13
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Grocery.door.3",
+          "pos": [
+            2,
+            10,
+            6
+          ],
+          "lintel": [
+            2,
+            12,
+            6
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            7,
+            7,
+            19
+          ],
+          "support": [
+            7,
+            8,
+            19
+          ]
+        },
+        {
+          "position": [
+            7,
+            7,
+            7
+          ],
+          "support": [
+            7,
+            8,
+            7
+          ]
+        },
+        {
+          "position": [
+            11,
+            7,
+            12
+          ],
+          "support": [
+            11,
+            8,
+            12
+          ]
+        },
+        {
+          "position": [
+            7,
+            13,
+            19
+          ],
+          "support": [
+            7,
+            14,
+            19
+          ]
+        },
+        {
+          "position": [
+            7,
+            13,
+            7
+          ],
+          "support": [
+            7,
+            14,
+            7
+          ]
+        },
+        {
+          "position": [
+            11,
+            13,
+            12
+          ],
+          "support": [
+            11,
+            14,
+            12
+          ]
+        },
+        {
+          "position": [
+            3,
+            7,
+            25
+          ],
+          "support": [
+            3,
+            8,
+            25
+          ]
+        },
+        {
+          "position": [
+            11,
+            7,
+            25
+          ],
+          "support": [
+            11,
+            8,
+            25
+          ]
+        },
+        {
+          "position": [
+            4,
+            7,
+            15
+          ],
+          "support": [
+            4,
+            8,
+            15
+          ]
+        }
+      ],
+      "stairs": [
+        [
+          [
+            1.5,
+            3,
+            15.5
+          ],
+          [
+            1.5,
+            3,
+            15.375
+          ],
+          [
+            1.5,
+            3,
+            15.25
+          ],
+          [
+            1.5,
+            3,
+            15.125
+          ],
+          [
+            1.5,
+            3,
+            15.0
+          ],
+          [
+            1.5,
+            3,
+            14.875
+          ],
+          [
+            1.5,
+            3,
+            14.75
+          ],
+          [
+            1.5,
+            3,
+            14.625
+          ],
+          [
+            1.5,
+            3,
+            14.5
+          ],
+          [
+            1.5,
+            3,
+            14.375
+          ],
+          [
+            1.5,
+            3,
+            14.25
+          ],
+          [
+            1.5,
+            3,
+            14.125
+          ],
+          [
+            1.5,
+            3,
+            14.0
+          ],
+          [
+            1.5,
+            3,
+            13.875
+          ],
+          [
+            1.5,
+            3,
+            13.75
+          ],
+          [
+            1.5,
+            3,
+            13.625
+          ],
+          [
+            1.5,
+            3,
+            13.5
+          ],
+          [
+            1.5,
+            3,
+            13.375
+          ],
+          [
+            1.5,
+            3,
+            13.25
+          ],
+          [
+            1.5,
+            3,
+            13.125
+          ],
+          [
+            1.5,
+            3,
+            13.0
+          ],
+          [
+            1.5,
+            3,
+            12.875
+          ],
+          [
+            1.5,
+            3,
+            12.75
+          ],
+          [
+            1.5,
+            3,
+            12.625
+          ],
+          [
+            1.5,
+            3,
+            12.5
+          ],
+          [
+            1.5,
+            3,
+            12.375
+          ],
+          [
+            1.5,
+            3,
+            12.25
+          ],
+          [
+            1.5,
+            3,
+            12.125
+          ],
+          [
+            1.5,
+            3,
+            12.0
+          ],
+          [
+            1.5,
+            3,
+            11.875
+          ],
+          [
+            1.5,
+            3,
+            11.75
+          ],
+          [
+            1.5,
+            3,
+            11.625
+          ],
+          [
+            1.5,
+            3,
+            11.5
+          ],
+          [
+            1.5,
+            3,
+            11.375
+          ],
+          [
+            1.5,
+            3,
+            11.25
+          ],
+          [
+            1.5,
+            3,
+            11.125
+          ],
+          [
+            1.5,
+            3,
+            11.0
+          ],
+          [
+            1.5,
+            3,
+            10.875
+          ],
+          [
+            1.5,
+            3,
+            10.75
+          ],
+          [
+            1.5,
+            3,
+            10.625
+          ],
+          [
+            1.5,
+            3,
+            10.5
+          ],
+          [
+            1.5,
+            3,
+            10.375
+          ],
+          [
+            1.5,
+            3,
+            10.25
+          ],
+          [
+            1.5,
+            3,
+            10.125
+          ],
+          [
+            1.5,
+            3,
+            10.0
+          ],
+          [
+            1.5,
+            3,
+            9.875
+          ],
+          [
+            1.5,
+            3,
+            9.75
+          ],
+          [
+            1.5,
+            3,
+            9.625
+          ],
+          [
+            1.5,
+            3,
+            9.5
+          ],
+          [
+            1.5,
+            3,
+            9.375
+          ],
+          [
+            1.5,
+            3,
+            9.25
+          ],
+          [
+            1.5,
+            3,
+            9.125
+          ],
+          [
+            1.5,
+            3,
+            9.0
+          ],
+          [
+            1.5,
+            3,
+            8.875
+          ],
+          [
+            1.5,
+            3,
+            8.75
+          ],
+          [
+            1.5,
+            3,
+            8.625
+          ],
+          [
+            1.5,
+            3,
+            8.5
+          ],
+          [
+            1.5,
+            3,
+            8.375
+          ],
+          [
+            1.5,
+            3,
+            8.25
+          ],
+          [
+            1.5,
+            3,
+            8.125
+          ],
+          [
+            1.5,
+            3,
+            8.0
+          ],
+          [
+            1.5,
+            3,
+            7.875
+          ],
+          [
+            1.5,
+            3,
+            7.75
+          ],
+          [
+            1.5,
+            3,
+            7.625
+          ],
+          [
+            1.5,
+            3,
+            7.5
+          ]
+        ]
+      ],
+      "groups": [
+        {
+          "id": "Grocery.packing.dining_table.9_1_10",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            9,
+            3,
+            10,
+            12,
+            4,
+            12
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Grocery.stove.cooking.7_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            7,
+            3,
+            4,
+            8,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              7,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Grocery.sink.water_basin.9_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            9,
+            3,
+            4,
+            10,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              9,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Grocery.bed.bed.9_1_7",
+          "recipe": "bed",
+          "bounds_xyz": [
+            9,
+            10,
+            7,
+            10,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              10,
+              10,
+              8
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Grocery.wardrobe.storage_container.12_1_5",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            12,
+            10,
+            5,
+            13,
+            11,
+            6
+          ],
+          "use_points": [
+            [
+              12,
+              10,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Grocery.wardrobe.storage_container.12_2_5",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            12,
+            11,
+            5,
+            13,
+            12,
+            6
+          ],
+          "use_points": [
+            [
+              12,
+              10,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Grocery.wardrobe.storage_wall.12_1_5",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            12,
+            10,
+            5,
+            13,
+            13,
+            6
+          ],
+          "use_points": [
+            [
+              12,
+              10,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Grocery.tea.table.dining_table.8_1_22",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            10,
+            22,
+            11,
+            11,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Grocery.family.dining.dining_table.8_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            10,
+            17,
+            11,
+            11,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Grocery.chair.seat.8_1_16",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            10,
+            16,
+            9,
+            11,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Grocery.chair.seat.10_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            10,
+            10,
+            18,
+            11,
+            11,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "E01 Enning street",
+        "E02 Enning 140 facade",
+        "E03 arcade portal",
+        "E04 Fuxing adaptive reuse interior"
+      ],
+      "kind": "plain",
+      "levels": 2,
+      "upper_starts": {
+        "9": [
+          1,
+          7
+        ]
+      },
+      "stair_runs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "path": [
+            [
+              1.5,
+              3,
+              15.5
+            ],
+            [
+              1.5,
+              3,
+              15.375
+            ],
+            [
+              1.5,
+              3,
+              15.25
+            ],
+            [
+              1.5,
+              3,
+              15.125
+            ],
+            [
+              1.5,
+              3,
+              15.0
+            ],
+            [
+              1.5,
+              3,
+              14.875
+            ],
+            [
+              1.5,
+              3,
+              14.75
+            ],
+            [
+              1.5,
+              3,
+              14.625
+            ],
+            [
+              1.5,
+              3,
+              14.5
+            ],
+            [
+              1.5,
+              3,
+              14.375
+            ],
+            [
+              1.5,
+              3,
+              14.25
+            ],
+            [
+              1.5,
+              3,
+              14.125
+            ],
+            [
+              1.5,
+              3,
+              14.0
+            ],
+            [
+              1.5,
+              3,
+              13.875
+            ],
+            [
+              1.5,
+              3,
+              13.75
+            ],
+            [
+              1.5,
+              3,
+              13.625
+            ],
+            [
+              1.5,
+              3,
+              13.5
+            ],
+            [
+              1.5,
+              3,
+              13.375
+            ],
+            [
+              1.5,
+              3,
+              13.25
+            ],
+            [
+              1.5,
+              3,
+              13.125
+            ],
+            [
+              1.5,
+              3,
+              13.0
+            ],
+            [
+              1.5,
+              3,
+              12.875
+            ],
+            [
+              1.5,
+              3,
+              12.75
+            ],
+            [
+              1.5,
+              3,
+              12.625
+            ],
+            [
+              1.5,
+              3,
+              12.5
+            ],
+            [
+              1.5,
+              3,
+              12.375
+            ],
+            [
+              1.5,
+              3,
+              12.25
+            ],
+            [
+              1.5,
+              3,
+              12.125
+            ],
+            [
+              1.5,
+              3,
+              12.0
+            ],
+            [
+              1.5,
+              3,
+              11.875
+            ],
+            [
+              1.5,
+              3,
+              11.75
+            ],
+            [
+              1.5,
+              3,
+              11.625
+            ],
+            [
+              1.5,
+              3,
+              11.5
+            ],
+            [
+              1.5,
+              3,
+              11.375
+            ],
+            [
+              1.5,
+              3,
+              11.25
+            ],
+            [
+              1.5,
+              3,
+              11.125
+            ],
+            [
+              1.5,
+              3,
+              11.0
+            ],
+            [
+              1.5,
+              3,
+              10.875
+            ],
+            [
+              1.5,
+              3,
+              10.75
+            ],
+            [
+              1.5,
+              3,
+              10.625
+            ],
+            [
+              1.5,
+              3,
+              10.5
+            ],
+            [
+              1.5,
+              3,
+              10.375
+            ],
+            [
+              1.5,
+              3,
+              10.25
+            ],
+            [
+              1.5,
+              3,
+              10.125
+            ],
+            [
+              1.5,
+              3,
+              10.0
+            ],
+            [
+              1.5,
+              3,
+              9.875
+            ],
+            [
+              1.5,
+              3,
+              9.75
+            ],
+            [
+              1.5,
+              3,
+              9.625
+            ],
+            [
+              1.5,
+              3,
+              9.5
+            ],
+            [
+              1.5,
+              3,
+              9.375
+            ],
+            [
+              1.5,
+              3,
+              9.25
+            ],
+            [
+              1.5,
+              3,
+              9.125
+            ],
+            [
+              1.5,
+              3,
+              9.0
+            ],
+            [
+              1.5,
+              3,
+              8.875
+            ],
+            [
+              1.5,
+              3,
+              8.75
+            ],
+            [
+              1.5,
+              3,
+              8.625
+            ],
+            [
+              1.5,
+              3,
+              8.5
+            ],
+            [
+              1.5,
+              3,
+              8.375
+            ],
+            [
+              1.5,
+              3,
+              8.25
+            ],
+            [
+              1.5,
+              3,
+              8.125
+            ],
+            [
+              1.5,
+              3,
+              8.0
+            ],
+            [
+              1.5,
+              3,
+              7.875
+            ],
+            [
+              1.5,
+              3,
+              7.75
+            ],
+            [
+              1.5,
+              3,
+              7.625
+            ],
+            [
+              1.5,
+              3,
+              7.5
+            ]
+          ]
+        }
+      ],
+      "spawn_local": [
+        7,
+        3,
+        31
+      ],
+      "arcade_clear": [
+        0,
+        3,
+        24,
+        15,
+        7,
+        28
+      ],
+      "variation": [],
+      "source_nbt_sha256": "793eeb45f9332e41ffa59fcbd2f1e905d302ae79d98e53d94992267a4379c297",
+      "size_xyz": [
+        15,
+        34,
+        33
+      ],
+      "non_air": 3739,
+      "block_entities": 34,
+      "entities": 2
+    },
+    {
+      "id": "Apothecary",
+      "name": "济安药铺",
+      "size": [
+        17,
+        34,
+        33
+      ],
+      "floors": [
+        2,
+        9,
+        15
+      ],
+      "entry": [
+        8,
+        3,
+        23
+      ],
+      "rooms": [
+        {
+          "id": "Apothecary.bed.15",
+          "name": "店主卧室",
+          "bounds": [
+            7,
+            16,
+            4,
+            16,
+            20,
+            13
+          ],
+          "floor_y": 16,
+          "capacity": 1,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Apothecary.dispense",
+          "name": "药柜、称量与发药",
+          "bounds": [
+            5,
+            3,
+            10,
+            16,
+            7,
+            19
+          ],
+          "floor_y": 3,
+          "capacity": 3,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Apothecary.waiting",
+          "name": "咨询与等候",
+          "bounds": [
+            2,
+            3,
+            18,
+            16,
+            7,
+            23
+          ],
+          "floor_y": 3,
+          "capacity": 5,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Apothecary.inventory",
+          "name": "库存与分装",
+          "bounds": [
+            5,
+            10,
+            4,
+            16,
+            14,
+            14
+          ],
+          "floor_y": 10,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Apothecary.accounts",
+          "name": "账房与包装",
+          "bounds": [
+            5,
+            10,
+            15,
+            16,
+            14,
+            25
+          ],
+          "floor_y": 10,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Apothecary.home",
+          "name": "店主起居",
+          "bounds": [
+            5,
+            16,
+            15,
+            16,
+            20,
+            25
+          ],
+          "floor_y": 16,
+          "capacity": 3,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Apothecary.balcony.9",
+          "pos": [
+            8,
+            10,
+            27
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Apothecary.balcony.15",
+          "pos": [
+            8,
+            16,
+            27
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Apothecary.main_entry",
+          "pos": [
+            8,
+            3,
+            22
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Apothecary.bed.15",
+          "pos": [
+            10,
+            16,
+            8
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Apothecary.wash.15",
+          "pos": [
+            2,
+            16,
+            5
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Apothecary.consult",
+          "pos": [
+            7,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Apothecary.counter",
+          "pos": [
+            10,
+            3,
+            18
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Apothecary.preparation",
+          "pos": [
+            13,
+            3,
+            14
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Apothecary.drawers",
+          "pos": [
+            12,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Apothecary.inventory",
+          "pos": [
+            12,
+            10,
+            8
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Apothecary.accounts",
+          "pos": [
+            13,
+            10,
+            20
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Apothecary.home",
+          "pos": [
+            6,
+            16,
+            22
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Apothecary.home.kitchen",
+          "pos": [
+            10,
+            16,
+            17
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Apothecary.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Apothecary.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Apothecary.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Apothecary.stairs.upper.15",
+          "pos": [
+            1,
+            16,
+            8
+          ],
+          "floor_block_y": 15
+        }
+      ],
+      "doors": [
+        {
+          "id": "Apothecary.door.0",
+          "pos": [
+            8,
+            10,
+            25
+          ],
+          "lintel": [
+            8,
+            12,
+            25
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Apothecary.door.1",
+          "pos": [
+            8,
+            16,
+            25
+          ],
+          "lintel": [
+            8,
+            18,
+            25
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Apothecary.door.2",
+          "pos": [
+            8,
+            3,
+            23
+          ],
+          "lintel": [
+            8,
+            5,
+            23
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Apothecary.door.3",
+          "pos": [
+            9,
+            16,
+            13
+          ],
+          "lintel": [
+            9,
+            18,
+            13
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Apothecary.door.4",
+          "pos": [
+            2,
+            16,
+            6
+          ],
+          "lintel": [
+            2,
+            18,
+            6
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            8,
+            7,
+            19
+          ],
+          "support": [
+            8,
+            8,
+            19
+          ]
+        },
+        {
+          "position": [
+            8,
+            7,
+            7
+          ],
+          "support": [
+            8,
+            8,
+            7
+          ]
+        },
+        {
+          "position": [
+            13,
+            7,
+            12
+          ],
+          "support": [
+            13,
+            8,
+            12
+          ]
+        },
+        {
+          "position": [
+            8,
+            13,
+            19
+          ],
+          "support": [
+            8,
+            14,
+            19
+          ]
+        },
+        {
+          "position": [
+            8,
+            13,
+            7
+          ],
+          "support": [
+            8,
+            14,
+            7
+          ]
+        },
+        {
+          "position": [
+            13,
+            13,
+            12
+          ],
+          "support": [
+            13,
+            14,
+            12
+          ]
+        },
+        {
+          "position": [
+            8,
+            19,
+            19
+          ],
+          "support": [
+            8,
+            20,
+            19
+          ]
+        },
+        {
+          "position": [
+            8,
+            19,
+            7
+          ],
+          "support": [
+            8,
+            20,
+            7
+          ]
+        },
+        {
+          "position": [
+            13,
+            19,
+            12
+          ],
+          "support": [
+            13,
+            20,
+            12
+          ]
+        },
+        {
+          "position": [
+            3,
+            7,
+            25
+          ],
+          "support": [
+            3,
+            8,
+            25
+          ]
+        },
+        {
+          "position": [
+            13,
+            7,
+            25
+          ],
+          "support": [
+            13,
+            8,
+            25
+          ]
+        },
+        {
+          "position": [
+            4,
+            7,
+            15
+          ],
+          "support": [
+            4,
+            8,
+            15
+          ]
+        },
+        {
+          "position": [
+            4,
+            13,
+            15
+          ],
+          "support": [
+            4,
+            14,
+            15
+          ]
+        }
+      ],
+      "stairs": [
+        [
+          [
+            1.5,
+            3,
+            15.5
+          ],
+          [
+            1.5,
+            3,
+            15.375
+          ],
+          [
+            1.5,
+            3,
+            15.25
+          ],
+          [
+            1.5,
+            3,
+            15.125
+          ],
+          [
+            1.5,
+            3,
+            15.0
+          ],
+          [
+            1.5,
+            3,
+            14.875
+          ],
+          [
+            1.5,
+            3,
+            14.75
+          ],
+          [
+            1.5,
+            3,
+            14.625
+          ],
+          [
+            1.5,
+            3,
+            14.5
+          ],
+          [
+            1.5,
+            3,
+            14.375
+          ],
+          [
+            1.5,
+            3,
+            14.25
+          ],
+          [
+            1.5,
+            3,
+            14.125
+          ],
+          [
+            1.5,
+            3,
+            14.0
+          ],
+          [
+            1.5,
+            3,
+            13.875
+          ],
+          [
+            1.5,
+            3,
+            13.75
+          ],
+          [
+            1.5,
+            3,
+            13.625
+          ],
+          [
+            1.5,
+            3,
+            13.5
+          ],
+          [
+            1.5,
+            3,
+            13.375
+          ],
+          [
+            1.5,
+            3,
+            13.25
+          ],
+          [
+            1.5,
+            3,
+            13.125
+          ],
+          [
+            1.5,
+            3,
+            13.0
+          ],
+          [
+            1.5,
+            3,
+            12.875
+          ],
+          [
+            1.5,
+            3,
+            12.75
+          ],
+          [
+            1.5,
+            3,
+            12.625
+          ],
+          [
+            1.5,
+            3,
+            12.5
+          ],
+          [
+            1.5,
+            3,
+            12.375
+          ],
+          [
+            1.5,
+            3,
+            12.25
+          ],
+          [
+            1.5,
+            3,
+            12.125
+          ],
+          [
+            1.5,
+            3,
+            12.0
+          ],
+          [
+            1.5,
+            3,
+            11.875
+          ],
+          [
+            1.5,
+            3,
+            11.75
+          ],
+          [
+            1.5,
+            3,
+            11.625
+          ],
+          [
+            1.5,
+            3,
+            11.5
+          ],
+          [
+            1.5,
+            3,
+            11.375
+          ],
+          [
+            1.5,
+            3,
+            11.25
+          ],
+          [
+            1.5,
+            3,
+            11.125
+          ],
+          [
+            1.5,
+            3,
+            11.0
+          ],
+          [
+            1.5,
+            3,
+            10.875
+          ],
+          [
+            1.5,
+            3,
+            10.75
+          ],
+          [
+            1.5,
+            3,
+            10.625
+          ],
+          [
+            1.5,
+            3,
+            10.5
+          ],
+          [
+            1.5,
+            3,
+            10.375
+          ],
+          [
+            1.5,
+            3,
+            10.25
+          ],
+          [
+            1.5,
+            3,
+            10.125
+          ],
+          [
+            1.5,
+            3,
+            10.0
+          ],
+          [
+            1.5,
+            3,
+            9.875
+          ],
+          [
+            1.5,
+            3,
+            9.75
+          ],
+          [
+            1.5,
+            3,
+            9.625
+          ],
+          [
+            1.5,
+            3,
+            9.5
+          ],
+          [
+            1.5,
+            3,
+            9.375
+          ],
+          [
+            1.5,
+            3,
+            9.25
+          ],
+          [
+            1.5,
+            3,
+            9.125
+          ],
+          [
+            1.5,
+            3,
+            9.0
+          ],
+          [
+            1.5,
+            3,
+            8.875
+          ],
+          [
+            1.5,
+            3,
+            8.75
+          ],
+          [
+            1.5,
+            3,
+            8.625
+          ],
+          [
+            1.5,
+            3,
+            8.5
+          ],
+          [
+            1.5,
+            3,
+            8.375
+          ],
+          [
+            1.5,
+            3,
+            8.25
+          ],
+          [
+            1.5,
+            3,
+            8.125
+          ],
+          [
+            1.5,
+            3,
+            8.0
+          ],
+          [
+            1.5,
+            3,
+            7.875
+          ],
+          [
+            1.5,
+            3,
+            7.75
+          ],
+          [
+            1.5,
+            3,
+            7.625
+          ],
+          [
+            1.5,
+            3,
+            7.5
+          ]
+        ],
+        [
+          [
+            1.5,
+            10,
+            15.5
+          ],
+          [
+            1.5,
+            10,
+            15.375
+          ],
+          [
+            1.5,
+            10,
+            15.25
+          ],
+          [
+            1.5,
+            10,
+            15.125
+          ],
+          [
+            1.5,
+            10,
+            15.0
+          ],
+          [
+            1.5,
+            10,
+            14.875
+          ],
+          [
+            1.5,
+            10,
+            14.75
+          ],
+          [
+            1.5,
+            10,
+            14.625
+          ],
+          [
+            1.5,
+            10,
+            14.5
+          ],
+          [
+            1.5,
+            10,
+            14.375
+          ],
+          [
+            1.5,
+            10,
+            14.25
+          ],
+          [
+            1.5,
+            10,
+            14.125
+          ],
+          [
+            1.5,
+            10,
+            14.0
+          ],
+          [
+            1.5,
+            10,
+            13.875
+          ],
+          [
+            1.5,
+            10,
+            13.75
+          ],
+          [
+            1.5,
+            10,
+            13.625
+          ],
+          [
+            1.5,
+            10,
+            13.5
+          ],
+          [
+            1.5,
+            10,
+            13.375
+          ],
+          [
+            1.5,
+            10,
+            13.25
+          ],
+          [
+            1.5,
+            10,
+            13.125
+          ],
+          [
+            1.5,
+            10,
+            13.0
+          ],
+          [
+            1.5,
+            10,
+            12.875
+          ],
+          [
+            1.5,
+            10,
+            12.75
+          ],
+          [
+            1.5,
+            10,
+            12.625
+          ],
+          [
+            1.5,
+            10,
+            12.5
+          ],
+          [
+            1.5,
+            10,
+            12.375
+          ],
+          [
+            1.5,
+            10,
+            12.25
+          ],
+          [
+            1.5,
+            10,
+            12.125
+          ],
+          [
+            1.5,
+            10,
+            12.0
+          ],
+          [
+            1.5,
+            10,
+            11.875
+          ],
+          [
+            1.5,
+            10,
+            11.75
+          ],
+          [
+            1.5,
+            10,
+            11.625
+          ],
+          [
+            1.5,
+            10,
+            11.5
+          ],
+          [
+            1.5,
+            10,
+            11.375
+          ],
+          [
+            1.5,
+            10,
+            11.25
+          ],
+          [
+            1.5,
+            10,
+            11.125
+          ],
+          [
+            1.5,
+            10,
+            11.0
+          ],
+          [
+            1.5,
+            10,
+            10.875
+          ],
+          [
+            1.5,
+            10,
+            10.75
+          ],
+          [
+            1.5,
+            10,
+            10.625
+          ],
+          [
+            1.5,
+            10,
+            10.5
+          ],
+          [
+            1.5,
+            10,
+            10.375
+          ],
+          [
+            1.5,
+            10,
+            10.25
+          ],
+          [
+            1.5,
+            10,
+            10.125
+          ],
+          [
+            1.5,
+            10,
+            10.0
+          ],
+          [
+            1.5,
+            10,
+            9.875
+          ],
+          [
+            1.5,
+            10,
+            9.75
+          ],
+          [
+            1.5,
+            10,
+            9.625
+          ],
+          [
+            1.5,
+            10,
+            9.5
+          ],
+          [
+            1.5,
+            10,
+            9.375
+          ],
+          [
+            1.5,
+            10,
+            9.25
+          ],
+          [
+            1.5,
+            10,
+            9.125
+          ],
+          [
+            1.5,
+            10,
+            9.0
+          ],
+          [
+            1.5,
+            10,
+            8.875
+          ],
+          [
+            1.5,
+            10,
+            8.75
+          ],
+          [
+            1.5,
+            10,
+            8.625
+          ],
+          [
+            1.5,
+            10,
+            8.5
+          ]
+        ]
+      ],
+      "groups": [
+        {
+          "id": "Apothecary.medicine.weighing.dining_table.9_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            9,
+            3,
+            13,
+            13,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Apothecary.consultation.dining_table.4_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            4,
+            3,
+            19,
+            6,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Apothecary.chair.seat.4_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            4,
+            3,
+            18,
+            5,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Apothecary.chair.seat.5_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            5,
+            3,
+            20,
+            6,
+            4,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Apothecary.account.archive.bookshelf_group.6_1_16",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            6,
+            10,
+            16,
+            9,
+            13,
+            17
+          ],
+          "use_points": [
+            [
+              6,
+              10,
+              17
+            ],
+            [
+              7,
+              10,
+              17
+            ],
+            [
+              8,
+              10,
+              17
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Apothecary.accounts.dining_table.8_1_20",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            10,
+            20,
+            12,
+            11,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Apothecary.chair.seat.8_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            10,
+            19,
+            9,
+            11,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Apothecary.chair.seat.11_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            10,
+            22,
+            12,
+            11,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Apothecary.bed.bed.9_1_7",
+          "recipe": "bed",
+          "bounds_xyz": [
+            9,
+            16,
+            7,
+            10,
+            17,
+            9
+          ],
+          "use_points": [
+            [
+              10,
+              16,
+              8
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Apothecary.wardrobe.storage_container.14_1_5",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            16,
+            5,
+            15,
+            17,
+            6
+          ],
+          "use_points": [
+            [
+              14,
+              16,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Apothecary.wardrobe.storage_container.14_2_5",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            17,
+            5,
+            15,
+            18,
+            6
+          ],
+          "use_points": [
+            [
+              14,
+              16,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Apothecary.wardrobe.storage_wall.14_1_5",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            14,
+            16,
+            5,
+            15,
+            19,
+            6
+          ],
+          "use_points": [
+            [
+              14,
+              16,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Apothecary.stove.cooking.7_1_15",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            7,
+            16,
+            15,
+            8,
+            17,
+            16
+          ],
+          "use_points": [
+            [
+              7,
+              16,
+              16
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Apothecary.sink.water_basin.9_1_15",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            9,
+            16,
+            15,
+            10,
+            17,
+            16
+          ],
+          "use_points": [
+            [
+              9,
+              16,
+              16
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Apothecary.living.tea.dining_table.8_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            16,
+            18,
+            11,
+            17,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "E01 Enning street",
+        "E02 Enning 140 facade",
+        "E03 arcade portal",
+        "E04 Fuxing adaptive reuse interior"
+      ],
+      "kind": "classical",
+      "levels": 3,
+      "upper_starts": {
+        "9": [
+          1,
+          7
+        ],
+        "15": [
+          1,
+          8
+        ]
+      },
+      "stair_runs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "path": [
+            [
+              1.5,
+              3,
+              15.5
+            ],
+            [
+              1.5,
+              3,
+              15.375
+            ],
+            [
+              1.5,
+              3,
+              15.25
+            ],
+            [
+              1.5,
+              3,
+              15.125
+            ],
+            [
+              1.5,
+              3,
+              15.0
+            ],
+            [
+              1.5,
+              3,
+              14.875
+            ],
+            [
+              1.5,
+              3,
+              14.75
+            ],
+            [
+              1.5,
+              3,
+              14.625
+            ],
+            [
+              1.5,
+              3,
+              14.5
+            ],
+            [
+              1.5,
+              3,
+              14.375
+            ],
+            [
+              1.5,
+              3,
+              14.25
+            ],
+            [
+              1.5,
+              3,
+              14.125
+            ],
+            [
+              1.5,
+              3,
+              14.0
+            ],
+            [
+              1.5,
+              3,
+              13.875
+            ],
+            [
+              1.5,
+              3,
+              13.75
+            ],
+            [
+              1.5,
+              3,
+              13.625
+            ],
+            [
+              1.5,
+              3,
+              13.5
+            ],
+            [
+              1.5,
+              3,
+              13.375
+            ],
+            [
+              1.5,
+              3,
+              13.25
+            ],
+            [
+              1.5,
+              3,
+              13.125
+            ],
+            [
+              1.5,
+              3,
+              13.0
+            ],
+            [
+              1.5,
+              3,
+              12.875
+            ],
+            [
+              1.5,
+              3,
+              12.75
+            ],
+            [
+              1.5,
+              3,
+              12.625
+            ],
+            [
+              1.5,
+              3,
+              12.5
+            ],
+            [
+              1.5,
+              3,
+              12.375
+            ],
+            [
+              1.5,
+              3,
+              12.25
+            ],
+            [
+              1.5,
+              3,
+              12.125
+            ],
+            [
+              1.5,
+              3,
+              12.0
+            ],
+            [
+              1.5,
+              3,
+              11.875
+            ],
+            [
+              1.5,
+              3,
+              11.75
+            ],
+            [
+              1.5,
+              3,
+              11.625
+            ],
+            [
+              1.5,
+              3,
+              11.5
+            ],
+            [
+              1.5,
+              3,
+              11.375
+            ],
+            [
+              1.5,
+              3,
+              11.25
+            ],
+            [
+              1.5,
+              3,
+              11.125
+            ],
+            [
+              1.5,
+              3,
+              11.0
+            ],
+            [
+              1.5,
+              3,
+              10.875
+            ],
+            [
+              1.5,
+              3,
+              10.75
+            ],
+            [
+              1.5,
+              3,
+              10.625
+            ],
+            [
+              1.5,
+              3,
+              10.5
+            ],
+            [
+              1.5,
+              3,
+              10.375
+            ],
+            [
+              1.5,
+              3,
+              10.25
+            ],
+            [
+              1.5,
+              3,
+              10.125
+            ],
+            [
+              1.5,
+              3,
+              10.0
+            ],
+            [
+              1.5,
+              3,
+              9.875
+            ],
+            [
+              1.5,
+              3,
+              9.75
+            ],
+            [
+              1.5,
+              3,
+              9.625
+            ],
+            [
+              1.5,
+              3,
+              9.5
+            ],
+            [
+              1.5,
+              3,
+              9.375
+            ],
+            [
+              1.5,
+              3,
+              9.25
+            ],
+            [
+              1.5,
+              3,
+              9.125
+            ],
+            [
+              1.5,
+              3,
+              9.0
+            ],
+            [
+              1.5,
+              3,
+              8.875
+            ],
+            [
+              1.5,
+              3,
+              8.75
+            ],
+            [
+              1.5,
+              3,
+              8.625
+            ],
+            [
+              1.5,
+              3,
+              8.5
+            ],
+            [
+              1.5,
+              3,
+              8.375
+            ],
+            [
+              1.5,
+              3,
+              8.25
+            ],
+            [
+              1.5,
+              3,
+              8.125
+            ],
+            [
+              1.5,
+              3,
+              8.0
+            ],
+            [
+              1.5,
+              3,
+              7.875
+            ],
+            [
+              1.5,
+              3,
+              7.75
+            ],
+            [
+              1.5,
+              3,
+              7.625
+            ],
+            [
+              1.5,
+              3,
+              7.5
+            ]
+          ]
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 15,
+          "path": [
+            [
+              1.5,
+              10,
+              15.5
+            ],
+            [
+              1.5,
+              10,
+              15.375
+            ],
+            [
+              1.5,
+              10,
+              15.25
+            ],
+            [
+              1.5,
+              10,
+              15.125
+            ],
+            [
+              1.5,
+              10,
+              15.0
+            ],
+            [
+              1.5,
+              10,
+              14.875
+            ],
+            [
+              1.5,
+              10,
+              14.75
+            ],
+            [
+              1.5,
+              10,
+              14.625
+            ],
+            [
+              1.5,
+              10,
+              14.5
+            ],
+            [
+              1.5,
+              10,
+              14.375
+            ],
+            [
+              1.5,
+              10,
+              14.25
+            ],
+            [
+              1.5,
+              10,
+              14.125
+            ],
+            [
+              1.5,
+              10,
+              14.0
+            ],
+            [
+              1.5,
+              10,
+              13.875
+            ],
+            [
+              1.5,
+              10,
+              13.75
+            ],
+            [
+              1.5,
+              10,
+              13.625
+            ],
+            [
+              1.5,
+              10,
+              13.5
+            ],
+            [
+              1.5,
+              10,
+              13.375
+            ],
+            [
+              1.5,
+              10,
+              13.25
+            ],
+            [
+              1.5,
+              10,
+              13.125
+            ],
+            [
+              1.5,
+              10,
+              13.0
+            ],
+            [
+              1.5,
+              10,
+              12.875
+            ],
+            [
+              1.5,
+              10,
+              12.75
+            ],
+            [
+              1.5,
+              10,
+              12.625
+            ],
+            [
+              1.5,
+              10,
+              12.5
+            ],
+            [
+              1.5,
+              10,
+              12.375
+            ],
+            [
+              1.5,
+              10,
+              12.25
+            ],
+            [
+              1.5,
+              10,
+              12.125
+            ],
+            [
+              1.5,
+              10,
+              12.0
+            ],
+            [
+              1.5,
+              10,
+              11.875
+            ],
+            [
+              1.5,
+              10,
+              11.75
+            ],
+            [
+              1.5,
+              10,
+              11.625
+            ],
+            [
+              1.5,
+              10,
+              11.5
+            ],
+            [
+              1.5,
+              10,
+              11.375
+            ],
+            [
+              1.5,
+              10,
+              11.25
+            ],
+            [
+              1.5,
+              10,
+              11.125
+            ],
+            [
+              1.5,
+              10,
+              11.0
+            ],
+            [
+              1.5,
+              10,
+              10.875
+            ],
+            [
+              1.5,
+              10,
+              10.75
+            ],
+            [
+              1.5,
+              10,
+              10.625
+            ],
+            [
+              1.5,
+              10,
+              10.5
+            ],
+            [
+              1.5,
+              10,
+              10.375
+            ],
+            [
+              1.5,
+              10,
+              10.25
+            ],
+            [
+              1.5,
+              10,
+              10.125
+            ],
+            [
+              1.5,
+              10,
+              10.0
+            ],
+            [
+              1.5,
+              10,
+              9.875
+            ],
+            [
+              1.5,
+              10,
+              9.75
+            ],
+            [
+              1.5,
+              10,
+              9.625
+            ],
+            [
+              1.5,
+              10,
+              9.5
+            ],
+            [
+              1.5,
+              10,
+              9.375
+            ],
+            [
+              1.5,
+              10,
+              9.25
+            ],
+            [
+              1.5,
+              10,
+              9.125
+            ],
+            [
+              1.5,
+              10,
+              9.0
+            ],
+            [
+              1.5,
+              10,
+              8.875
+            ],
+            [
+              1.5,
+              10,
+              8.75
+            ],
+            [
+              1.5,
+              10,
+              8.625
+            ],
+            [
+              1.5,
+              10,
+              8.5
+            ]
+          ]
+        }
+      ],
+      "spawn_local": [
+        8,
+        3,
+        31
+      ],
+      "arcade_clear": [
+        0,
+        3,
+        24,
+        17,
+        7,
+        28
+      ],
+      "variation": [
+        {
+          "id": "Apothecary.plant.0",
+          "channel": "plant",
+          "seed": "311145/plants/Apothecary/0",
+          "selected": "potted_bamboo",
+          "position": [
+            14,
+            4,
+            4
+          ]
+        }
+      ],
+      "source_nbt_sha256": "f18fcee92e1454130287a296cd80473e65aa011418f53d8d0e51989b36ac554e",
+      "size_xyz": [
+        17,
+        34,
+        33
+      ],
+      "non_air": 5133,
+      "block_entities": 62,
+      "entities": 1
+    },
+    {
+      "id": "Teahouse",
+      "name": "榕荫茶楼",
+      "size": [
+        23,
+        34,
+        33
+      ],
+      "floors": [
+        2,
+        9,
+        15
+      ],
+      "entry": [
+        10,
+        3,
+        23
+      ],
+      "rooms": [
+        {
+          "id": "Teahouse.bed.15",
+          "name": "店主卧室",
+          "bounds": [
+            7,
+            16,
+            4,
+            16,
+            20,
+            13
+          ],
+          "floor_y": 16,
+          "capacity": 1,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Teahouse.restaurant",
+          "name": "首层茶座与收银",
+          "bounds": [
+            1,
+            3,
+            12,
+            17,
+            7,
+            23
+          ],
+          "floor_y": 3,
+          "capacity": 10,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Teahouse.kitchen",
+          "name": "备餐、炉灶、清洗",
+          "bounds": [
+            5,
+            3,
+            4,
+            17,
+            7,
+            11
+          ],
+          "floor_y": 3,
+          "capacity": 3,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Teahouse.tearoom",
+          "name": "二层茶厅、窗边长座与服务柜",
+          "bounds": [
+            5,
+            10,
+            4,
+            22,
+            14,
+            28
+          ],
+          "floor_y": 10,
+          "capacity": 18,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Teahouse.home",
+          "name": "三层起居、餐厨与书柜",
+          "bounds": [
+            5,
+            16,
+            14,
+            22,
+            20,
+            28
+          ],
+          "floor_y": 16,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Teahouse.side_entry",
+          "pos": [
+            16,
+            3,
+            16
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Teahouse.main_entry",
+          "pos": [
+            10,
+            3,
+            22
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Teahouse.bed.15",
+          "pos": [
+            10,
+            16,
+            8
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Teahouse.wash.15",
+          "pos": [
+            2,
+            16,
+            5
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Teahouse.ground.seats",
+          "pos": [
+            9,
+            3,
+            18
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Teahouse.kitchen",
+          "pos": [
+            12,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Teahouse.wash",
+          "pos": [
+            13,
+            3,
+            6
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Teahouse.tea.room",
+          "pos": [
+            12,
+            10,
+            18
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Teahouse.tea.service",
+          "pos": [
+            19,
+            10,
+            7
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Teahouse.window.booth",
+          "pos": [
+            13,
+            10,
+            25
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Teahouse.home.living",
+          "pos": [
+            6,
+            16,
+            23
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Teahouse.home.dining",
+          "pos": [
+            20,
+            16,
+            17
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Teahouse.home.books",
+          "pos": [
+            18,
+            16,
+            10
+          ],
+          "floor_block_y": 15
+        },
+        {
+          "id": "Teahouse.stairs.lower.2",
+          "pos": [
+            1,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Teahouse.stairs.upper.9",
+          "pos": [
+            1,
+            10,
+            7
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Teahouse.stairs.lower.9",
+          "pos": [
+            1,
+            10,
+            15
+          ],
+          "floor_block_y": 9
+        },
+        {
+          "id": "Teahouse.stairs.upper.15",
+          "pos": [
+            1,
+            16,
+            8
+          ],
+          "floor_block_y": 15
+        }
+      ],
+      "doors": [
+        {
+          "id": "Teahouse.door.0",
+          "pos": [
+            10,
+            3,
+            23
+          ],
+          "lintel": [
+            10,
+            5,
+            23
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Teahouse.door.1",
+          "pos": [
+            17,
+            3,
+            16
+          ],
+          "lintel": [
+            17,
+            5,
+            16
+          ],
+          "facing": "east"
+        },
+        {
+          "id": "Teahouse.door.2",
+          "pos": [
+            13,
+            3,
+            11
+          ],
+          "lintel": [
+            13,
+            5,
+            11
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Teahouse.door.3",
+          "pos": [
+            9,
+            16,
+            13
+          ],
+          "lintel": [
+            9,
+            18,
+            13
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Teahouse.door.4",
+          "pos": [
+            2,
+            16,
+            6
+          ],
+          "lintel": [
+            2,
+            18,
+            6
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            11,
+            7,
+            19
+          ],
+          "support": [
+            11,
+            8,
+            19
+          ]
+        },
+        {
+          "position": [
+            11,
+            7,
+            7
+          ],
+          "support": [
+            11,
+            8,
+            7
+          ]
+        },
+        {
+          "position": [
+            14,
+            7,
+            12
+          ],
+          "support": [
+            14,
+            8,
+            12
+          ]
+        },
+        {
+          "position": [
+            11,
+            13,
+            19
+          ],
+          "support": [
+            11,
+            14,
+            19
+          ]
+        },
+        {
+          "position": [
+            11,
+            13,
+            7
+          ],
+          "support": [
+            11,
+            14,
+            7
+          ]
+        },
+        {
+          "position": [
+            19,
+            13,
+            12
+          ],
+          "support": [
+            19,
+            14,
+            12
+          ]
+        },
+        {
+          "position": [
+            11,
+            19,
+            19
+          ],
+          "support": [
+            11,
+            20,
+            19
+          ]
+        },
+        {
+          "position": [
+            11,
+            19,
+            7
+          ],
+          "support": [
+            11,
+            20,
+            7
+          ]
+        },
+        {
+          "position": [
+            19,
+            19,
+            12
+          ],
+          "support": [
+            19,
+            20,
+            12
+          ]
+        },
+        {
+          "position": [
+            3,
+            7,
+            25
+          ],
+          "support": [
+            3,
+            8,
+            25
+          ]
+        },
+        {
+          "position": [
+            19,
+            7,
+            25
+          ],
+          "support": [
+            19,
+            8,
+            25
+          ]
+        },
+        {
+          "position": [
+            4,
+            7,
+            15
+          ],
+          "support": [
+            4,
+            8,
+            15
+          ]
+        },
+        {
+          "position": [
+            4,
+            13,
+            15
+          ],
+          "support": [
+            4,
+            14,
+            15
+          ]
+        }
+      ],
+      "stairs": [
+        [
+          [
+            1.5,
+            3,
+            15.5
+          ],
+          [
+            1.5,
+            3,
+            15.375
+          ],
+          [
+            1.5,
+            3,
+            15.25
+          ],
+          [
+            1.5,
+            3,
+            15.125
+          ],
+          [
+            1.5,
+            3,
+            15.0
+          ],
+          [
+            1.5,
+            3,
+            14.875
+          ],
+          [
+            1.5,
+            3,
+            14.75
+          ],
+          [
+            1.5,
+            3,
+            14.625
+          ],
+          [
+            1.5,
+            3,
+            14.5
+          ],
+          [
+            1.5,
+            3,
+            14.375
+          ],
+          [
+            1.5,
+            3,
+            14.25
+          ],
+          [
+            1.5,
+            3,
+            14.125
+          ],
+          [
+            1.5,
+            3,
+            14.0
+          ],
+          [
+            1.5,
+            3,
+            13.875
+          ],
+          [
+            1.5,
+            3,
+            13.75
+          ],
+          [
+            1.5,
+            3,
+            13.625
+          ],
+          [
+            1.5,
+            3,
+            13.5
+          ],
+          [
+            1.5,
+            3,
+            13.375
+          ],
+          [
+            1.5,
+            3,
+            13.25
+          ],
+          [
+            1.5,
+            3,
+            13.125
+          ],
+          [
+            1.5,
+            3,
+            13.0
+          ],
+          [
+            1.5,
+            3,
+            12.875
+          ],
+          [
+            1.5,
+            3,
+            12.75
+          ],
+          [
+            1.5,
+            3,
+            12.625
+          ],
+          [
+            1.5,
+            3,
+            12.5
+          ],
+          [
+            1.5,
+            3,
+            12.375
+          ],
+          [
+            1.5,
+            3,
+            12.25
+          ],
+          [
+            1.5,
+            3,
+            12.125
+          ],
+          [
+            1.5,
+            3,
+            12.0
+          ],
+          [
+            1.5,
+            3,
+            11.875
+          ],
+          [
+            1.5,
+            3,
+            11.75
+          ],
+          [
+            1.5,
+            3,
+            11.625
+          ],
+          [
+            1.5,
+            3,
+            11.5
+          ],
+          [
+            1.5,
+            3,
+            11.375
+          ],
+          [
+            1.5,
+            3,
+            11.25
+          ],
+          [
+            1.5,
+            3,
+            11.125
+          ],
+          [
+            1.5,
+            3,
+            11.0
+          ],
+          [
+            1.5,
+            3,
+            10.875
+          ],
+          [
+            1.5,
+            3,
+            10.75
+          ],
+          [
+            1.5,
+            3,
+            10.625
+          ],
+          [
+            1.5,
+            3,
+            10.5
+          ],
+          [
+            1.5,
+            3,
+            10.375
+          ],
+          [
+            1.5,
+            3,
+            10.25
+          ],
+          [
+            1.5,
+            3,
+            10.125
+          ],
+          [
+            1.5,
+            3,
+            10.0
+          ],
+          [
+            1.5,
+            3,
+            9.875
+          ],
+          [
+            1.5,
+            3,
+            9.75
+          ],
+          [
+            1.5,
+            3,
+            9.625
+          ],
+          [
+            1.5,
+            3,
+            9.5
+          ],
+          [
+            1.5,
+            3,
+            9.375
+          ],
+          [
+            1.5,
+            3,
+            9.25
+          ],
+          [
+            1.5,
+            3,
+            9.125
+          ],
+          [
+            1.5,
+            3,
+            9.0
+          ],
+          [
+            1.5,
+            3,
+            8.875
+          ],
+          [
+            1.5,
+            3,
+            8.75
+          ],
+          [
+            1.5,
+            3,
+            8.625
+          ],
+          [
+            1.5,
+            3,
+            8.5
+          ],
+          [
+            1.5,
+            3,
+            8.375
+          ],
+          [
+            1.5,
+            3,
+            8.25
+          ],
+          [
+            1.5,
+            3,
+            8.125
+          ],
+          [
+            1.5,
+            3,
+            8.0
+          ],
+          [
+            1.5,
+            3,
+            7.875
+          ],
+          [
+            1.5,
+            3,
+            7.75
+          ],
+          [
+            1.5,
+            3,
+            7.625
+          ],
+          [
+            1.5,
+            3,
+            7.5
+          ]
+        ],
+        [
+          [
+            1.5,
+            10,
+            15.5
+          ],
+          [
+            1.5,
+            10,
+            15.375
+          ],
+          [
+            1.5,
+            10,
+            15.25
+          ],
+          [
+            1.5,
+            10,
+            15.125
+          ],
+          [
+            1.5,
+            10,
+            15.0
+          ],
+          [
+            1.5,
+            10,
+            14.875
+          ],
+          [
+            1.5,
+            10,
+            14.75
+          ],
+          [
+            1.5,
+            10,
+            14.625
+          ],
+          [
+            1.5,
+            10,
+            14.5
+          ],
+          [
+            1.5,
+            10,
+            14.375
+          ],
+          [
+            1.5,
+            10,
+            14.25
+          ],
+          [
+            1.5,
+            10,
+            14.125
+          ],
+          [
+            1.5,
+            10,
+            14.0
+          ],
+          [
+            1.5,
+            10,
+            13.875
+          ],
+          [
+            1.5,
+            10,
+            13.75
+          ],
+          [
+            1.5,
+            10,
+            13.625
+          ],
+          [
+            1.5,
+            10,
+            13.5
+          ],
+          [
+            1.5,
+            10,
+            13.375
+          ],
+          [
+            1.5,
+            10,
+            13.25
+          ],
+          [
+            1.5,
+            10,
+            13.125
+          ],
+          [
+            1.5,
+            10,
+            13.0
+          ],
+          [
+            1.5,
+            10,
+            12.875
+          ],
+          [
+            1.5,
+            10,
+            12.75
+          ],
+          [
+            1.5,
+            10,
+            12.625
+          ],
+          [
+            1.5,
+            10,
+            12.5
+          ],
+          [
+            1.5,
+            10,
+            12.375
+          ],
+          [
+            1.5,
+            10,
+            12.25
+          ],
+          [
+            1.5,
+            10,
+            12.125
+          ],
+          [
+            1.5,
+            10,
+            12.0
+          ],
+          [
+            1.5,
+            10,
+            11.875
+          ],
+          [
+            1.5,
+            10,
+            11.75
+          ],
+          [
+            1.5,
+            10,
+            11.625
+          ],
+          [
+            1.5,
+            10,
+            11.5
+          ],
+          [
+            1.5,
+            10,
+            11.375
+          ],
+          [
+            1.5,
+            10,
+            11.25
+          ],
+          [
+            1.5,
+            10,
+            11.125
+          ],
+          [
+            1.5,
+            10,
+            11.0
+          ],
+          [
+            1.5,
+            10,
+            10.875
+          ],
+          [
+            1.5,
+            10,
+            10.75
+          ],
+          [
+            1.5,
+            10,
+            10.625
+          ],
+          [
+            1.5,
+            10,
+            10.5
+          ],
+          [
+            1.5,
+            10,
+            10.375
+          ],
+          [
+            1.5,
+            10,
+            10.25
+          ],
+          [
+            1.5,
+            10,
+            10.125
+          ],
+          [
+            1.5,
+            10,
+            10.0
+          ],
+          [
+            1.5,
+            10,
+            9.875
+          ],
+          [
+            1.5,
+            10,
+            9.75
+          ],
+          [
+            1.5,
+            10,
+            9.625
+          ],
+          [
+            1.5,
+            10,
+            9.5
+          ],
+          [
+            1.5,
+            10,
+            9.375
+          ],
+          [
+            1.5,
+            10,
+            9.25
+          ],
+          [
+            1.5,
+            10,
+            9.125
+          ],
+          [
+            1.5,
+            10,
+            9.0
+          ],
+          [
+            1.5,
+            10,
+            8.875
+          ],
+          [
+            1.5,
+            10,
+            8.75
+          ],
+          [
+            1.5,
+            10,
+            8.625
+          ],
+          [
+            1.5,
+            10,
+            8.5
+          ]
+        ]
+      ],
+      "groups": [
+        {
+          "id": "Teahouse.stove.cooking.7_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            7,
+            3,
+            4,
+            8,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              7,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Teahouse.sink.water_basin.9_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            9,
+            3,
+            4,
+            10,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              9,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Teahouse.prep.dining_table.8_1_8",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            8,
+            12,
+            4,
+            9
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.guest.table.dining_table.5_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            5,
+            3,
+            17,
+            8,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.5_1_16",
+          "recipe": "seat",
+          "bounds_xyz": [
+            5,
+            3,
+            16,
+            6,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.7_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            7,
+            3,
+            19,
+            8,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.guest.table.dining_table.11_1_20",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            11,
+            3,
+            20,
+            14,
+            4,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.11_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            3,
+            19,
+            12,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.13_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            13,
+            3,
+            22,
+            14,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.tea.room.dining_table.6_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            6,
+            10,
+            18,
+            9,
+            11,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.6_1_17",
+          "recipe": "seat",
+          "bounds_xyz": [
+            6,
+            10,
+            17,
+            7,
+            11,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.8_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            10,
+            20,
+            9,
+            11,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.tea.room.dining_table.13_1_21",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            13,
+            10,
+            21,
+            17,
+            11,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.13_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            13,
+            10,
+            20,
+            14,
+            11,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.16_1_23",
+          "recipe": "seat",
+          "bounds_xyz": [
+            16,
+            10,
+            23,
+            17,
+            11,
+            24
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.tea.room.dining_table.17_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            10,
+            12,
+            20,
+            11,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.17_1_11",
+          "recipe": "seat",
+          "bounds_xyz": [
+            17,
+            10,
+            11,
+            18,
+            11,
+            12
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.19_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            19,
+            10,
+            14,
+            20,
+            11,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.tea.room.dining_table.7_1_8",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            7,
+            10,
+            8,
+            11,
+            11,
+            10
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.7_1_7",
+          "recipe": "seat",
+          "bounds_xyz": [
+            7,
+            10,
+            7,
+            8,
+            11,
+            8
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.10_1_10",
+          "recipe": "seat",
+          "bounds_xyz": [
+            10,
+            10,
+            10,
+            11,
+            11,
+            11
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.booth.tea.dining_table.8_1_23",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            10,
+            23,
+            12,
+            11,
+            24
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.bed.bed.9_1_7",
+          "recipe": "bed",
+          "bounds_xyz": [
+            9,
+            16,
+            7,
+            10,
+            17,
+            9
+          ],
+          "use_points": [
+            [
+              10,
+              16,
+              8
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Teahouse.wardrobe.storage_container.14_1_5",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            16,
+            5,
+            15,
+            17,
+            6
+          ],
+          "use_points": [
+            [
+              14,
+              16,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Teahouse.wardrobe.storage_container.14_2_5",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            17,
+            5,
+            15,
+            18,
+            6
+          ],
+          "use_points": [
+            [
+              14,
+              16,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Teahouse.wardrobe.storage_wall.14_1_5",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            14,
+            16,
+            5,
+            15,
+            19,
+            6
+          ],
+          "use_points": [
+            [
+              14,
+              16,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Teahouse.stove.cooking.16_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            16,
+            16,
+            4,
+            17,
+            17,
+            5
+          ],
+          "use_points": [
+            [
+              16,
+              16,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Teahouse.sink.water_basin.18_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            18,
+            16,
+            4,
+            19,
+            17,
+            5
+          ],
+          "use_points": [
+            [
+              18,
+              16,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Teahouse.home.tea.dining_table.8_1_21",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            16,
+            21,
+            12,
+            17,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.home.dining.dining_table.16_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            16,
+            16,
+            17,
+            19,
+            17,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.16_1_16",
+          "recipe": "seat",
+          "bounds_xyz": [
+            16,
+            16,
+            16,
+            17,
+            17,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.chair.seat.18_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            16,
+            19,
+            19,
+            17,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Teahouse.home.books.bookshelf_group.17_1_9",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            17,
+            16,
+            9,
+            20,
+            20,
+            10
+          ],
+          "use_points": [
+            [
+              17,
+              16,
+              10
+            ],
+            [
+              18,
+              16,
+              10
+            ],
+            [
+              19,
+              16,
+              10
+            ]
+          ],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "E01 Enning street",
+        "E02 Enning 140 facade",
+        "E03 arcade portal",
+        "E04 Fuxing adaptive reuse interior"
+      ],
+      "kind": "corner",
+      "levels": 3,
+      "upper_starts": {
+        "9": [
+          1,
+          7
+        ],
+        "15": [
+          1,
+          8
+        ]
+      },
+      "stair_runs": [
+        {
+          "from_floor": 2,
+          "to_floor": 9,
+          "path": [
+            [
+              1.5,
+              3,
+              15.5
+            ],
+            [
+              1.5,
+              3,
+              15.375
+            ],
+            [
+              1.5,
+              3,
+              15.25
+            ],
+            [
+              1.5,
+              3,
+              15.125
+            ],
+            [
+              1.5,
+              3,
+              15.0
+            ],
+            [
+              1.5,
+              3,
+              14.875
+            ],
+            [
+              1.5,
+              3,
+              14.75
+            ],
+            [
+              1.5,
+              3,
+              14.625
+            ],
+            [
+              1.5,
+              3,
+              14.5
+            ],
+            [
+              1.5,
+              3,
+              14.375
+            ],
+            [
+              1.5,
+              3,
+              14.25
+            ],
+            [
+              1.5,
+              3,
+              14.125
+            ],
+            [
+              1.5,
+              3,
+              14.0
+            ],
+            [
+              1.5,
+              3,
+              13.875
+            ],
+            [
+              1.5,
+              3,
+              13.75
+            ],
+            [
+              1.5,
+              3,
+              13.625
+            ],
+            [
+              1.5,
+              3,
+              13.5
+            ],
+            [
+              1.5,
+              3,
+              13.375
+            ],
+            [
+              1.5,
+              3,
+              13.25
+            ],
+            [
+              1.5,
+              3,
+              13.125
+            ],
+            [
+              1.5,
+              3,
+              13.0
+            ],
+            [
+              1.5,
+              3,
+              12.875
+            ],
+            [
+              1.5,
+              3,
+              12.75
+            ],
+            [
+              1.5,
+              3,
+              12.625
+            ],
+            [
+              1.5,
+              3,
+              12.5
+            ],
+            [
+              1.5,
+              3,
+              12.375
+            ],
+            [
+              1.5,
+              3,
+              12.25
+            ],
+            [
+              1.5,
+              3,
+              12.125
+            ],
+            [
+              1.5,
+              3,
+              12.0
+            ],
+            [
+              1.5,
+              3,
+              11.875
+            ],
+            [
+              1.5,
+              3,
+              11.75
+            ],
+            [
+              1.5,
+              3,
+              11.625
+            ],
+            [
+              1.5,
+              3,
+              11.5
+            ],
+            [
+              1.5,
+              3,
+              11.375
+            ],
+            [
+              1.5,
+              3,
+              11.25
+            ],
+            [
+              1.5,
+              3,
+              11.125
+            ],
+            [
+              1.5,
+              3,
+              11.0
+            ],
+            [
+              1.5,
+              3,
+              10.875
+            ],
+            [
+              1.5,
+              3,
+              10.75
+            ],
+            [
+              1.5,
+              3,
+              10.625
+            ],
+            [
+              1.5,
+              3,
+              10.5
+            ],
+            [
+              1.5,
+              3,
+              10.375
+            ],
+            [
+              1.5,
+              3,
+              10.25
+            ],
+            [
+              1.5,
+              3,
+              10.125
+            ],
+            [
+              1.5,
+              3,
+              10.0
+            ],
+            [
+              1.5,
+              3,
+              9.875
+            ],
+            [
+              1.5,
+              3,
+              9.75
+            ],
+            [
+              1.5,
+              3,
+              9.625
+            ],
+            [
+              1.5,
+              3,
+              9.5
+            ],
+            [
+              1.5,
+              3,
+              9.375
+            ],
+            [
+              1.5,
+              3,
+              9.25
+            ],
+            [
+              1.5,
+              3,
+              9.125
+            ],
+            [
+              1.5,
+              3,
+              9.0
+            ],
+            [
+              1.5,
+              3,
+              8.875
+            ],
+            [
+              1.5,
+              3,
+              8.75
+            ],
+            [
+              1.5,
+              3,
+              8.625
+            ],
+            [
+              1.5,
+              3,
+              8.5
+            ],
+            [
+              1.5,
+              3,
+              8.375
+            ],
+            [
+              1.5,
+              3,
+              8.25
+            ],
+            [
+              1.5,
+              3,
+              8.125
+            ],
+            [
+              1.5,
+              3,
+              8.0
+            ],
+            [
+              1.5,
+              3,
+              7.875
+            ],
+            [
+              1.5,
+              3,
+              7.75
+            ],
+            [
+              1.5,
+              3,
+              7.625
+            ],
+            [
+              1.5,
+              3,
+              7.5
+            ]
+          ]
+        },
+        {
+          "from_floor": 9,
+          "to_floor": 15,
+          "path": [
+            [
+              1.5,
+              10,
+              15.5
+            ],
+            [
+              1.5,
+              10,
+              15.375
+            ],
+            [
+              1.5,
+              10,
+              15.25
+            ],
+            [
+              1.5,
+              10,
+              15.125
+            ],
+            [
+              1.5,
+              10,
+              15.0
+            ],
+            [
+              1.5,
+              10,
+              14.875
+            ],
+            [
+              1.5,
+              10,
+              14.75
+            ],
+            [
+              1.5,
+              10,
+              14.625
+            ],
+            [
+              1.5,
+              10,
+              14.5
+            ],
+            [
+              1.5,
+              10,
+              14.375
+            ],
+            [
+              1.5,
+              10,
+              14.25
+            ],
+            [
+              1.5,
+              10,
+              14.125
+            ],
+            [
+              1.5,
+              10,
+              14.0
+            ],
+            [
+              1.5,
+              10,
+              13.875
+            ],
+            [
+              1.5,
+              10,
+              13.75
+            ],
+            [
+              1.5,
+              10,
+              13.625
+            ],
+            [
+              1.5,
+              10,
+              13.5
+            ],
+            [
+              1.5,
+              10,
+              13.375
+            ],
+            [
+              1.5,
+              10,
+              13.25
+            ],
+            [
+              1.5,
+              10,
+              13.125
+            ],
+            [
+              1.5,
+              10,
+              13.0
+            ],
+            [
+              1.5,
+              10,
+              12.875
+            ],
+            [
+              1.5,
+              10,
+              12.75
+            ],
+            [
+              1.5,
+              10,
+              12.625
+            ],
+            [
+              1.5,
+              10,
+              12.5
+            ],
+            [
+              1.5,
+              10,
+              12.375
+            ],
+            [
+              1.5,
+              10,
+              12.25
+            ],
+            [
+              1.5,
+              10,
+              12.125
+            ],
+            [
+              1.5,
+              10,
+              12.0
+            ],
+            [
+              1.5,
+              10,
+              11.875
+            ],
+            [
+              1.5,
+              10,
+              11.75
+            ],
+            [
+              1.5,
+              10,
+              11.625
+            ],
+            [
+              1.5,
+              10,
+              11.5
+            ],
+            [
+              1.5,
+              10,
+              11.375
+            ],
+            [
+              1.5,
+              10,
+              11.25
+            ],
+            [
+              1.5,
+              10,
+              11.125
+            ],
+            [
+              1.5,
+              10,
+              11.0
+            ],
+            [
+              1.5,
+              10,
+              10.875
+            ],
+            [
+              1.5,
+              10,
+              10.75
+            ],
+            [
+              1.5,
+              10,
+              10.625
+            ],
+            [
+              1.5,
+              10,
+              10.5
+            ],
+            [
+              1.5,
+              10,
+              10.375
+            ],
+            [
+              1.5,
+              10,
+              10.25
+            ],
+            [
+              1.5,
+              10,
+              10.125
+            ],
+            [
+              1.5,
+              10,
+              10.0
+            ],
+            [
+              1.5,
+              10,
+              9.875
+            ],
+            [
+              1.5,
+              10,
+              9.75
+            ],
+            [
+              1.5,
+              10,
+              9.625
+            ],
+            [
+              1.5,
+              10,
+              9.5
+            ],
+            [
+              1.5,
+              10,
+              9.375
+            ],
+            [
+              1.5,
+              10,
+              9.25
+            ],
+            [
+              1.5,
+              10,
+              9.125
+            ],
+            [
+              1.5,
+              10,
+              9.0
+            ],
+            [
+              1.5,
+              10,
+              8.875
+            ],
+            [
+              1.5,
+              10,
+              8.75
+            ],
+            [
+              1.5,
+              10,
+              8.625
+            ],
+            [
+              1.5,
+              10,
+              8.5
+            ]
+          ]
+        }
+      ],
+      "spawn_local": [
+        11,
+        3,
+        31
+      ],
+      "arcade_clear": [
+        0,
+        3,
+        24,
+        23,
+        7,
+        28
+      ],
+      "variation": [],
+      "source_nbt_sha256": "a8d79d4c6392fdf479b2ea2c3d421b8ef1f1c392659eaf088510a1e2198cf163",
+      "size_xyz": [
+        23,
+        34,
+        33
+      ],
+      "non_air": 6708,
+      "block_entities": 36,
+      "entities": 4
+    }
+  ],
+  "coordinate_note": "X east, Y up, Z south; blocks and endpoints as recorded in each module; floor_block_y is the support block; floor_y is foot level.",
+  "original_design": true,
+  "measured_replica": false,
+  "game": "pending",
+  "world": {
+    "block_entity_payload_exact": true,
+    "version": "Java 1.21.1",
+    "data_version": 3955,
+    "source_nbt_sha256": "b103f731b38a36dc1a0446bc4b6a70f2eb9e37c33f5ab9e1e95e7f8dae08abb3",
+    "world_offset": [
+      -38,
+      62,
+      -26
+    ],
+    "spawn": [
+      -3,
+      65,
+      17
+    ],
+    "chunks": 48,
+    "scene_chunks": 24,
+    "checked_cells": 245760,
+    "mismatches": 0,
+    "lighting": "isLightOn=0; game must recalculate on first load",
+    "game": "pending",
+    "heightmaps": "authored approximations; actual collision/light pending game",
+    "decorative": [
+      "furniture"
+    ],
+    "block_entities": 132,
+    "entities": 7,
+    "entity_payload_exact": true,
+    "entity_chunks": 4
+  }
+}

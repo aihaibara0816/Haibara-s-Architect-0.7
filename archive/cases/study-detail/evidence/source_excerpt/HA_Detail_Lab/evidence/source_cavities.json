@@ -1,0 +1,68 @@
+[
+  {
+    "case_id": "swan",
+    "sample_point_xyz": [
+      41,
+      25,
+      21
+    ],
+    "air_cells": 6,
+    "bbox_inclusive_xyz": [
+      [
+        41,
+        24,
+        21
+      ],
+      [
+        42,
+        25,
+        22
+      ]
+    ],
+    "method": "six-connected exact air cells; partial blocks treated as barriers; not collision or reachability test"
+  },
+  {
+    "case_id": "jinmao",
+    "sample_point_xyz": [
+      12,
+      9,
+      16
+    ],
+    "air_cells": 8,
+    "bbox_inclusive_xyz": [
+      [
+        12,
+        9,
+        16
+      ],
+      [
+        13,
+        10,
+        17
+      ]
+    ],
+    "method": "six-connected exact air cells; partial blocks treated as barriers; not collision or reachability test"
+  },
+  {
+    "case_id": "ifc",
+    "sample_point_xyz": [
+      20,
+      10,
+      26
+    ],
+    "air_cells": 15,
+    "bbox_inclusive_xyz": [
+      [
+        20,
+        9,
+        26
+      ],
+      [
+        22,
+        11,
+        27
+      ]
+    ],
+    "method": "six-connected exact air cells; partial blocks treated as barriers; not collision or reachability test"
+  }
+]

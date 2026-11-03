@@ -1,0 +1,731 @@
+{
+  "topology": "20->32->44->56->68->80->87 and 136->124->112->100->93; independent maintenance track Z135",
+  "stone_formation_cells": 39079,
+  "straight_lines": [
+    [
+      0,
+      19,
+      87
+    ],
+    [
+      0,
+      19,
+      93
+    ],
+    [
+      70,
+      457,
+      80
+    ],
+    [
+      70,
+      457,
+      100
+    ],
+    [
+      126,
+      457,
+      68
+    ],
+    [
+      126,
+      457,
+      112
+    ],
+    [
+      182,
+      457,
+      56
+    ],
+    [
+      182,
+      457,
+      124
+    ],
+    [
+      238,
+      457,
+      44
+    ],
+    [
+      238,
+      457,
+      136
+    ],
+    [
+      294,
+      457,
+      32
+    ],
+    [
+      350,
+      457,
+      20
+    ],
+    [
+      40,
+      181,
+      135
+    ]
+  ],
+  "curves": [
+    {
+      "a": [
+        18,
+        7,
+        87
+      ],
+      "b": [
+        70,
+        7,
+        80
+      ],
+      "length_blocks": 51.57339487347873,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        18,
+        7,
+        93
+      ],
+      "b": [
+        70,
+        7,
+        100
+      ],
+      "length_blocks": 51.57339487347873,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        74,
+        7,
+        80
+      ],
+      "b": [
+        126,
+        7,
+        68
+      ],
+      "length_blocks": 52.66814929203046,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        74,
+        7,
+        100
+      ],
+      "b": [
+        126,
+        7,
+        112
+      ],
+      "length_blocks": 52.66814929203046,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        130,
+        7,
+        68
+      ],
+      "b": [
+        182,
+        7,
+        56
+      ],
+      "length_blocks": 52.66814929203046,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        130,
+        7,
+        112
+      ],
+      "b": [
+        182,
+        7,
+        124
+      ],
+      "length_blocks": 52.66814929203046,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        186,
+        7,
+        56
+      ],
+      "b": [
+        238,
+        7,
+        44
+      ],
+      "length_blocks": 52.66814929203046,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        186,
+        7,
+        124
+      ],
+      "b": [
+        238,
+        7,
+        136
+      ],
+      "length_blocks": 52.66814929203046,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        242,
+        7,
+        44
+      ],
+      "b": [
+        294,
+        7,
+        32
+      ],
+      "length_blocks": 52.66814929203047,
+      "projected_endpoint_distance_x": 52
+    },
+    {
+      "a": [
+        298,
+        7,
+        32
+      ],
+      "b": [
+        350,
+        7,
+        20
+      ],
+      "length_blocks": 52.66814929203046,
+      "projected_endpoint_distance_x": 52
+    }
+  ],
+  "stations": [
+    {
+      "name": "RD-TEST-W",
+      "pos": [
+        48,
+        9,
+        140
+      ],
+      "target": [
+        48,
+        7,
+        135
+      ],
+      "direction": -1
+    },
+    {
+      "name": "RD-TEST-E",
+      "pos": [
+        168,
+        9,
+        140
+      ],
+      "target": [
+        168,
+        7,
+        135
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-OUTDOOR-01",
+      "pos": [
+        440,
+        9,
+        37
+      ],
+      "target": [
+        440,
+        7,
+        32
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-OUTDOOR-02",
+      "pos": [
+        440,
+        9,
+        25
+      ],
+      "target": [
+        440,
+        7,
+        20
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-STABLE-01",
+      "pos": [
+        420,
+        9,
+        49
+      ],
+      "target": [
+        420,
+        7,
+        44
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-STABLE-02",
+      "pos": [
+        420,
+        9,
+        61
+      ],
+      "target": [
+        420,
+        7,
+        56
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-STABLE-03",
+      "pos": [
+        420,
+        9,
+        73
+      ],
+      "target": [
+        420,
+        7,
+        68
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-STABLE-04",
+      "pos": [
+        420,
+        9,
+        85
+      ],
+      "target": [
+        420,
+        7,
+        80
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-INSPECT-01",
+      "pos": [
+        420,
+        9,
+        105
+      ],
+      "target": [
+        420,
+        7,
+        100
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-INSPECT-02",
+      "pos": [
+        420,
+        9,
+        117
+      ],
+      "target": [
+        420,
+        7,
+        112
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-HEAVY-01",
+      "pos": [
+        420,
+        9,
+        129
+      ],
+      "target": [
+        420,
+        7,
+        124
+      ],
+      "direction": 1
+    },
+    {
+      "name": "RD-WASH-01",
+      "pos": [
+        420,
+        9,
+        141
+      ],
+      "target": [
+        420,
+        7,
+        136
+      ],
+      "direction": 1
+    }
+  ],
+  "signals": [
+    {
+      "pos": [
+        10,
+        7,
+        83
+      ],
+      "target": [
+        10,
+        7,
+        87
+      ],
+      "direction": -1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        97
+      ],
+      "target": [
+        10,
+        7,
+        93
+      ],
+      "direction": 1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        60,
+        7,
+        131
+      ],
+      "target": [
+        60,
+        7,
+        135
+      ],
+      "direction": -1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        156,
+        7,
+        139
+      ],
+      "target": [
+        156,
+        7,
+        135
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        354,
+        7,
+        16
+      ],
+      "target": [
+        354,
+        7,
+        20
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        354,
+        7,
+        24
+      ],
+      "target": [
+        354,
+        7,
+        20
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        28
+      ],
+      "target": [
+        300,
+        7,
+        32
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        36
+      ],
+      "target": [
+        300,
+        7,
+        32
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        40
+      ],
+      "target": [
+        300,
+        7,
+        44
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        48
+      ],
+      "target": [
+        300,
+        7,
+        44
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        52
+      ],
+      "target": [
+        300,
+        7,
+        56
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        60
+      ],
+      "target": [
+        300,
+        7,
+        56
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        64
+      ],
+      "target": [
+        300,
+        7,
+        68
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        72
+      ],
+      "target": [
+        300,
+        7,
+        68
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        76
+      ],
+      "target": [
+        300,
+        7,
+        80
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        84
+      ],
+      "target": [
+        300,
+        7,
+        80
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        96
+      ],
+      "target": [
+        300,
+        7,
+        100
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        104
+      ],
+      "target": [
+        300,
+        7,
+        100
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        108
+      ],
+      "target": [
+        300,
+        7,
+        112
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        116
+      ],
+      "target": [
+        300,
+        7,
+        112
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        120
+      ],
+      "target": [
+        300,
+        7,
+        124
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        128
+      ],
+      "target": [
+        300,
+        7,
+        124
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        132
+      ],
+      "target": [
+        300,
+        7,
+        136
+      ],
+      "direction": -1,
+      "type": "cross_signal"
+    },
+    {
+      "pos": [
+        300,
+        7,
+        140
+      ],
+      "target": [
+        300,
+        7,
+        136
+      ],
+      "direction": 1,
+      "type": "entry_signal"
+    }
+  ],
+  "schedule_route": [
+    "RD-TEST-W",
+    "RD-TEST-E"
+  ],
+  "schedule_barrel_local": [
+    222,
+    7,
+    182
+  ],
+  "railway_status": "authored, not game-run"
+}

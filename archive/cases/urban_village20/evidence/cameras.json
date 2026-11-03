@@ -1,0 +1,420 @@
+[
+  {
+    "id": "overview",
+    "eye": [
+      480,
+      240,
+      444
+    ],
+    "target": [
+      144,
+      20,
+      108
+    ],
+    "width": 1800,
+    "height": 1350,
+    "spanX": 390,
+    "spanZ": 292.5,
+    "ortho": true,
+    "concept": false
+  },
+  {
+    "id": "street_cut",
+    "eye": [
+      420,
+      230,
+      390
+    ],
+    "target": [
+      144,
+      12,
+      108
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 380,
+    "spanZ": 278.6666666666667,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 13
+  },
+  {
+    "id": "corner_shop",
+    "eye": [
+      289,
+      49,
+      218
+    ],
+    "target": [
+      236,
+      5,
+      162
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 72,
+    "spanZ": 52.8,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 5.95,
+    "minY": 2,
+    "bounds": [
+      217,
+      140,
+      257,
+      186
+    ]
+  },
+  {
+    "id": "corner_facade",
+    "eye": [
+      300,
+      40,
+      227
+    ],
+    "target": [
+      238,
+      18,
+      164
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 76,
+    "spanZ": 55.733333333333334,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "east_street",
+    "eye": [
+      307,
+      28,
+      160
+    ],
+    "target": [
+      239,
+      20,
+      96
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 155,
+    "spanZ": 113.66666666666667,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "south_street",
+    "eye": [
+      130,
+      28,
+      250
+    ],
+    "target": [
+      130,
+      18,
+      157
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 215,
+    "spanZ": 157.66666666666666,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "northwest_slope",
+    "eye": [
+      -95,
+      100,
+      -30
+    ],
+    "target": [
+      75,
+      20,
+      86
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 190,
+    "spanZ": 139.33333333333334,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "family_cut",
+    "eye": [
+      298,
+      67,
+      111
+    ],
+    "target": [
+      240,
+      13,
+      53
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 91,
+    "spanZ": 66.73333333333333,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 13.95,
+    "minY": 10,
+    "bounds": [
+      225,
+      20,
+      255,
+      86
+    ]
+  },
+  {
+    "id": "food_shop",
+    "eye": [
+      289,
+      58,
+      173
+    ],
+    "target": [
+      237.5,
+      7,
+      116.5
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 84,
+    "spanZ": 61.6,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 7.95,
+    "minY": 4,
+    "bounds": [
+      220,
+      93,
+      255,
+      140
+    ]
+  },
+  {
+    "id": "facade_detail",
+    "eye": [
+      75,
+      33,
+      51
+    ],
+    "target": [
+      69,
+      21,
+      80
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 49,
+    "spanZ": 35.93333333333333,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "roof_detail",
+    "eye": [
+      295,
+      105,
+      177
+    ],
+    "target": [
+      237.5,
+      42,
+      116.5
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 81,
+    "spanZ": 59.4,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 50,
+    "bounds": [
+      220,
+      93,
+      255,
+      140
+    ]
+  },
+  {
+    "id": "terrain_section",
+    "eye": [
+      360,
+      80,
+      340
+    ],
+    "target": [
+      144,
+      7,
+      108
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 390,
+    "spanZ": 286.0,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 12
+  },
+  {
+    "id": "elevation_front",
+    "eye": [
+      144,
+      28,
+      550
+    ],
+    "target": [
+      144,
+      28,
+      108
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 315,
+    "spanZ": 231.0,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "elevation_back",
+    "eye": [
+      144,
+      28,
+      -350
+    ],
+    "target": [
+      144,
+      28,
+      108
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 315,
+    "spanZ": 231.0,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "elevation_left",
+    "eye": [
+      -350,
+      28,
+      108
+    ],
+    "target": [
+      144,
+      28,
+      108
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 315,
+    "spanZ": 231.0,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "elevation_right",
+    "eye": [
+      550,
+      28,
+      108
+    ],
+    "target": [
+      144,
+      28,
+      108
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 315,
+    "spanZ": 231.0,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "lane_eye",
+    "eye": [
+      212,
+      6,
+      185
+    ],
+    "target": [
+      214,
+      15,
+      128
+    ],
+    "width": 1500,
+    "height": 1100,
+    "fov": 65,
+    "ortho": false,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "lane_eye_night",
+    "eye": [
+      212,
+      6,
+      185
+    ],
+    "target": [
+      214,
+      15,
+      128
+    ],
+    "width": 1500,
+    "height": 1100,
+    "fov": 65,
+    "ortho": false,
+    "night": true,
+    "concept": false
+  },
+  {
+    "id": "corner_loggia_cut",
+    "eye": [
+      288,
+      55,
+      214
+    ],
+    "target": [
+      243,
+      10,
+      173
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 51,
+    "spanZ": 37.4,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 10.95,
+    "minY": 7,
+    "bounds": [
+      219,
+      142,
+      254,
+      183
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "case_version": "V1",
+  "frame": {
+    "size_xyz": [
+      472,
+      88,
+      592
+    ],
+    "blocks_per_metre": 2,
+    "ground_y": 4,
+    "plan_offset_xz": [
+      256,
+      316
+    ]
+  },
+  "plan": "research/aligned_plan.json",
+  "front": {
+    "width_blocks": 216,
+    "x0": 99,
+    "z": 244,
+    "body_height_blocks": 48,
+    "bay_groups": [
+      3,
+      7,
+      3,
+      7,
+      3
+    ],
+    "bay_pitch": 9,
+    "first_bay_x": 108,
+    "pavilion_centres_x": [
+      117,
+      207,
+      297
+    ]
+  },
+  "site": {
+    "memorial_xz": [
+      208,
+      50
+    ],
+    "forecourt_fence_z": 164,
+    "garden_strip_z": [
+      536,
+      592
+    ]
+  },
+  "seed": 20261023,
+  "scope": "Main palace quadrangle and mapped side wings, forecourt, simplified Victoria Memorial and a garden-edge strip; not the whole 16-hectare garden",
+  "evidence": {
+    "facade_width_m": 108,
+    "main_body_height_m": 24,
+    "main_depth_including_quadrangle_m": 120,
+    "source": "https://www.royal.uk/royal-residences-buckingham-palace",
+    "bay_groups_source": "https://historicengland.org.uk/listing/the-list/list-entry/1239087",
+    "geometry_status": "OSM plan + authored component interpretation; roof elevations and hidden interiors approximate"
+  }
+}

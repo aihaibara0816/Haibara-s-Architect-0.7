@@ -1,0 +1,94 @@
+{
+  "case_id": "Qilou01",
+  "run": "Q05",
+  "scope": "3 connected authored Cantonese arcade shop-house prototypes; no full scene and no measured replica",
+  "reference_records": [
+    {
+      "id": "E01",
+      "title": "E01 · 恩宁路街段",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670801/10956036.png",
+      "credit": "摄影：李宁 / 来源：荔湾区规划资源分局",
+      "file": "reference_images/enning_street.png",
+      "sha256": "392e396ca2cb128c74094ae9626d3eef24147e768d8d0562106cf07899d2eaa7",
+      "actual_visual_review": true,
+      "observation": "底层柱廊与上层屋面、山花之间的街景关系。"
+    },
+    {
+      "id": "E02",
+      "title": "E02 · 恩宁路 140 号",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670804/10956036.png",
+      "credit": "图源署名：自摄 / 荔湾区规划资源分局",
+      "file": "reference_images/enning_140.png",
+      "sha256": "a88a6aaad270a27aaeaa6a8cddb5c8113c20fdd7b95e65756c15c404315a135a",
+      "actual_visual_review": true,
+      "observation": "凹阳台、栏杆、浅色柱式和顶部装饰。"
+    },
+    {
+      "id": "E03",
+      "title": "E03 · 骑楼街门夜景",
+      "source_page": "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+      "source_image": "https://www.lw.gov.cn/img/1/1670/1670806/10956036.png",
+      "credit": "摄影：陈明辉 / 来源：荔湾区规划资源分局",
+      "file": "reference_images/arcade.png",
+      "sha256": "b58979cc907c7db9b4e9e0d86b87c0a3dfeda09544ce4ad9af005e7e6ddedd7e",
+      "actual_visual_review": true,
+      "observation": "廊柱、街门与门头；节庆装饰不用于常态归纳。"
+    },
+    {
+      "id": "E04",
+      "title": "E04 · 富兴茶居室内",
+      "source_page": "https://huacheng.gz-cmc.com/pages/2026/03/16/d242879e6adb40bf90236b9f31e644d6.html",
+      "source_image": "https://oss.gz-cmc.com/pgcr/root/huacheng/upload/news/image/2026/03/16/1773645534976058136.jpg?x-oss-process=style%2Fcontent",
+      "credit": "摄影：吴多 / 来源：广州日报新花城",
+      "file": "reference_images/fuxing_interior.jpg",
+      "sha256": "0db973adbab3cf52d3ee996ca0e287b1f2d58ccdb0d8921a0b31cc90d124cadc",
+      "actual_visual_review": true,
+      "observation": "座席组、服务空间、暖光与小植物。"
+    }
+  ],
+  "programs": {
+    "Qilou01": "三栋原创广式骑楼小样，相通的前廊接到茶楼侧廊；总尺寸 76 × 40 × 52 格。平铺测试底座，尚未扩展为完整街区。",
+    "Grocery": "两层杂货铺：首层陈列、结账、备货与厨房；楼上卧室、盥洗、起居和餐桌。窄小货架、木墙裙、靠窗长座与床组分别服务经营和住家。",
+    "Apothecary": "三层药铺：一层药柜、称量、咨询与等候；二层库存、分装和账房；三层居住与餐厨。立面以凹阳台、浅色柱式和栏杆区别于相邻店屋。",
+    "Teahouse": "三层转角茶楼：一层茶座、备餐与清洗；二层多组茶桌、窗边长座与服务柜；三层住家、厨房、餐桌和书柜。双面骑楼廊、退切转角与圆窗形成街角识别。"
+  },
+  "facade_recipes": {
+    "Grocery": "朴素两层 / 面宽 15 格",
+    "Apothecary": "凹阳台三层 / 面宽 17 格",
+    "Teahouse": "退切转角三层 / 面宽 23 格"
+  },
+  "primary_sources": [
+    "https://www.lw.gov.cn/zzzs/bmdt/content/post_10956036.html",
+    "https://huacheng.gz-cmc.com/pages/2026/03/16/d242879e6adb40bf90236b9f31e644d6.html",
+    "https://ghzyj.gz.gov.cn/gzlpc/ywpd_mcbh_mcgg/201901/11f083c3d8b243df8921d6622ec0ad1d/files/59d5ee0b0c0c40a185c881940730aee8.pdf"
+  ],
+  "implementation_mapping": [
+    {
+      "evidence": "E01/E03",
+      "decision": "Four-block front arcade and side arcade, integrated shop sign, clear doorway",
+      "code": "build_qilou.py:build_shell / assembly arcade_paths",
+      "validation": "audit_qilou.py: entire arcade bounds and three reachable entrances"
+    },
+    {
+      "evidence": "E02",
+      "decision": "Recessed balconies and separated column/parapet layers on Apothecary",
+      "code": "build_qilou.py:build_shell classical branch",
+      "validation": "four elevations, front close-up, balcony use points"
+    },
+    {
+      "evidence": "E04",
+      "decision": "Authored tea-room groups, service sideboard and kitchen separate from guest area",
+      "code": "build_qilou.py:teahouse / interior_finish",
+      "validation": "Tea ground and upper plan, use points, interior views"
+    }
+  ],
+  "scope_notes": [
+    "Uses the established HAF 0.4 workflow; case version Qilou01 is not a new universal engine version.",
+    "Seeds change plant species only; three building/facade/furniture recipes are authored.",
+    "15/17/23-block widths are playability experiments, not measured historic frontage.",
+    "No actual client gameplay, medical use or historical business identity claimed.",
+    "Image rendering uses actual NBT and local official assets with recorded approximations."
+  ]
+}

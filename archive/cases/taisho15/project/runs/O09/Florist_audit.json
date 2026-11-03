@@ -1,0 +1,67 @@
+{
+  "source_nbt_sha256": "af0c4d36de773f45c00fa5c34b836705a8d8a0fb1a3143f10eea1dee8ca22928",
+  "non_air": 3281,
+  "entries": [
+    {
+      "id": "Florist",
+      "pos": [
+        8,
+        3,
+        17
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 4,
+  "use_checks": [
+    {
+      "id": "Florist.entry",
+      "pos": [
+        8,
+        3,
+        16
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Florist.flowers",
+      "pos": [
+        8,
+        3,
+        11
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Florist.wrap",
+      "pos": [
+        11,
+        3,
+        15
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Florist.wing.greenhouse",
+      "pos": [
+        14,
+        3,
+        9
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 15,
+  "paintings": 0,
+  "official_model_states": 42,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

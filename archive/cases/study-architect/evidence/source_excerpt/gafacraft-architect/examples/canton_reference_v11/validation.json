@@ -1,0 +1,99 @@
+{
+  "status": "PASS_WITH_GAPS",
+  "errors": [],
+  "gaps": [
+    "src-architect.title: source page title not inspected",
+    "src-architect.accessed_at: source access date unknown; discovery only",
+    "src-owner.title: source page title not inspected",
+    "src-owner.accessed_at: source access date unknown; discovery only",
+    "src-geometry-interview.title: source page title not inspected",
+    "src-geometry-interview.accessed_at: source access date unknown; discovery only",
+    "src-structure-count.title: source page title not inspected",
+    "src-structure-count.accessed_at: source access date unknown; discovery only",
+    "src-platform-height.title: source page title not inspected",
+    "src-platform-height.accessed_at: source access date unknown; discovery only",
+    "src-capsules.title: source page title not inspected",
+    "src-capsules.accessed_at: source access date unknown; discovery only",
+    "R01: full image unverified or inaccessible",
+    "R02: full image unverified or inaccessible",
+    "R03: full image unverified or inaccessible",
+    "R04: full image unverified or inaccessible",
+    "R05: full image unverified or inaccessible",
+    "R06: full image unverified or inaccessible",
+    "R07: full image unverified or inaccessible",
+    "R08: full image unverified or inaccessible",
+    "R09: full image unverified or inaccessible",
+    "R10: full image unverified or inaccessible",
+    "R11: full image unverified or inaccessible",
+    "R12: full image unverified or inaccessible",
+    "R13: full image unverified or inaccessible",
+    "coverage: front/component-tower: 补查能够对应项目局部正面、从塔脚连续覆盖至尖顶的照片；现有 front 回查镜头不能证明照片朝向。",
+    "coverage: back/component-tower: 补查能够对应同一局部坐标系反面的完整主体照片；目前没有可确认的背面标注。",
+    "coverage: left/component-tower: 补查可确认项目局部左侧的完整主体照片，并记录定向依据；不能由透视猜地理方位。",
+    "coverage: right/component-tower: 补查可确认项目局部右侧的完整主体照片；旧 right 是模型回查视图，不计入方向覆盖。",
+    "coverage: top/component-crown: 补查塔冠、平台、天线基座的可辨俯视或正式几何资料；既有俯视用途文本不足以确认为 top。",
+    "coverage: oblique/component-lattice: 补查能够说明格构内外关系及主柱、环梁、斜撑粗细的斜向照片；先确认照片本身，不把 iso45 模型镜头当照片方向。",
+    "coverage: interior/component-inner: 如后续确需内部回查，补查内核与外壳层次的实际照片；内部功能、楼梯与节点不从现有文字补造。",
+    "selection.core: no core images; do not claim complete reconstruction",
+    "same_version: not confirmed",
+    "clean_subject: not confirmed",
+    "orientation_aligned: not confirmed",
+    "scale.building_dimensions.width: dimension unverified",
+    "scale.building_dimensions.length: dimension unverified",
+    "scale.building_dimensions.overall_height: dimension unverified",
+    "scale.building_dimensions.architectural_height: dimension unverified",
+    "scale.building_dimensions.roof_height: dimension unverified",
+    "scale.building_dimensions.tip_height: dimension unverified",
+    "scale.site_dimensions.width: dimension unverified",
+    "scale.site_dimensions.length: dimension unverified",
+    "scale.world_budget.width: available build allowance unconfirmed",
+    "scale.world_budget.depth: available build allowance unconfirmed",
+    "scale.world_budget.height: available build allowance unconfirmed",
+    "subject.identity_status: identity provisional"
+  ],
+  "coverage": [
+    {
+      "face": "front",
+      "component_id": "component-tower",
+      "image_ids": [],
+      "status": "missing"
+    },
+    {
+      "face": "back",
+      "component_id": "component-tower",
+      "image_ids": [],
+      "status": "missing"
+    },
+    {
+      "face": "left",
+      "component_id": "component-tower",
+      "image_ids": [],
+      "status": "missing"
+    },
+    {
+      "face": "right",
+      "component_id": "component-tower",
+      "image_ids": [],
+      "status": "missing"
+    },
+    {
+      "face": "top",
+      "component_id": "component-crown",
+      "image_ids": [],
+      "status": "missing"
+    },
+    {
+      "face": "oblique",
+      "component_id": "component-lattice",
+      "image_ids": [],
+      "status": "missing"
+    },
+    {
+      "face": "interior",
+      "component_id": "component-inner",
+      "image_ids": [],
+      "status": "missing"
+    }
+  ],
+  "limits": "Structural/provenance/consistency validation only; not independent web, image or generated-building verification."
+}

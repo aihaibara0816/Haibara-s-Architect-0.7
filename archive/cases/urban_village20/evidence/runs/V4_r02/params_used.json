@@ -1,0 +1,764 @@
+{
+  "case_id": "urban_village20",
+  "version": "V4",
+  "route": "original",
+  "seed": 20261028,
+  "size_xyz": [
+    288,
+    72,
+    216
+  ],
+  "units": "block; authored, not surveyed metres",
+  "coordinates": {
+    "up": "Y",
+    "north": "-Z",
+    "east": "+X"
+  },
+  "design_brief": {
+    "title": "榕荫里 · 六边坡街",
+    "hard_constraints": [
+      "20栋，保留混合尺度、逐户内饰与生活外饰",
+      "整片街区六边形边界；北边短折线与斜边",
+      "东、南主街与人行道；西北留空",
+      "E1长度60格",
+      "东南街角至西北最高行走面8格高差",
+      "D5二层以上斜角可进入阳台",
+      "住宅约70%亮灯"
+    ],
+    "assumptions": [
+      "六边形是街区，不是所有单栋都做六边形",
+      "地块、道路与高程为原创设计，非测绘或工程合规",
+      "20栋既有楼层数不变；地面台地高程、门口、楼梯及设备一起抬升",
+      "选择少量多转折楼板，避免所有建筑只采用单一削角"
+    ],
+    "revision_reason": "V3形态获正面反馈；延长一栋到60格、总高差取8格、整片街区采用用户六边形边界，D5斜面改可进入阳台，并少量增加多转折单栋轮廓。"
+  },
+  "buildings": [
+    {
+      "id": "A1",
+      "name": "窄宅八层楼",
+      "x": 28,
+      "z": 66,
+      "w": 18,
+      "d": 24,
+      "floors": 8,
+      "rotation": 2,
+      "palette": "ivory",
+      "ground": "home",
+      "shape": "rear_cut",
+      "cut": 3,
+      "base_y": 10,
+      "maintenance": 0.3,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "A2",
+      "name": "凹角合院楼",
+      "x": 54,
+      "z": 66,
+      "w": 32,
+      "d": 22,
+      "floors": 5,
+      "rotation": 0,
+      "palette": "sand",
+      "ground": "home",
+      "shape": "compound",
+      "cut": 5,
+      "base_y": 10,
+      "maintenance": 0.47,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false,
+      "edge_recesses": [
+        {
+          "face": "right",
+          "start": 9,
+          "end": 14,
+          "depth": 3
+        },
+        {
+          "face": "rear_right",
+          "depth": 5
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "name": "深进深旧楼",
+      "x": 98,
+      "z": 53,
+      "w": 22,
+      "d": 37,
+      "floors": 7,
+      "rotation": 0,
+      "palette": "gray",
+      "ground": "home",
+      "shape": "rear_cut",
+      "cut": 6,
+      "base_y": 9,
+      "maintenance": 0.64,
+      "balcony": false,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "A4",
+      "name": "矮层旧宅",
+      "x": 131,
+      "z": 45,
+      "w": 26,
+      "d": 24,
+      "floors": 3,
+      "rotation": 2,
+      "palette": "rose",
+      "ground": "home",
+      "shape": "front_cut",
+      "cut": 5,
+      "base_y": 8,
+      "maintenance": 0.81,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "B1",
+      "name": "内巷食店楼",
+      "x": 28,
+      "z": 103,
+      "w": 37,
+      "d": 24,
+      "floors": 4,
+      "rotation": 1,
+      "palette": "sand",
+      "ground": "restaurant",
+      "shape": "rear_cut",
+      "cut": 6,
+      "base_y": 9,
+      "maintenance": 0.44999999999999996,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": true,
+      "corner_shop": false
+    },
+    {
+      "id": "B2",
+      "name": "夹缝出租楼",
+      "x": 71,
+      "z": 99,
+      "w": 18,
+      "d": 23,
+      "floors": 6,
+      "rotation": 2,
+      "palette": "ivory",
+      "ground": "home",
+      "shape": "rect",
+      "cut": 0,
+      "base_y": 9,
+      "maintenance": 0.62,
+      "balcony": false,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "B3",
+      "name": "旧式低层小楼",
+      "x": 129,
+      "z": 82,
+      "w": 27,
+      "d": 20,
+      "floors": 2,
+      "rotation": 1,
+      "palette": "mud",
+      "ground": "home",
+      "shape": "compound",
+      "cut": 4,
+      "base_y": 7,
+      "maintenance": 0.79,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false,
+      "edge_recesses": [
+        {
+          "face": "right",
+          "start": 9,
+          "end": 15,
+          "depth": 2
+        },
+        {
+          "face": "rear_right",
+          "depth": 4
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "name": "横向出租楼",
+      "x": 194,
+      "z": 57,
+      "w": 23,
+      "d": 36,
+      "floors": 7,
+      "rotation": 1,
+      "palette": "gray",
+      "ground": "home",
+      "shape": "front_cut",
+      "cut": 5,
+      "base_y": 6,
+      "maintenance": 0.43,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "C1",
+      "name": "深巷住宅",
+      "x": 98,
+      "z": 104,
+      "w": 31,
+      "d": 22,
+      "floors": 5,
+      "rotation": 3,
+      "palette": "sand",
+      "ground": "home",
+      "shape": "rear_cut",
+      "cut": 5,
+      "base_y": 8,
+      "maintenance": 0.6,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "C2",
+      "name": "高层窄宅",
+      "x": 164,
+      "z": 78,
+      "w": 22,
+      "d": 35,
+      "floors": 8,
+      "rotation": 2,
+      "palette": "ivory",
+      "ground": "home",
+      "shape": "rect",
+      "cut": 0,
+      "base_y": 7,
+      "maintenance": 0.77,
+      "balcony": false,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "C3",
+      "name": "理发铺小楼",
+      "x": 193,
+      "z": 102,
+      "w": 17,
+      "d": 22,
+      "floors": 4,
+      "rotation": 0,
+      "palette": "rose",
+      "ground": "barber",
+      "shape": "rect",
+      "cut": 0,
+      "base_y": 6,
+      "maintenance": 0.41,
+      "balcony": false,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "C4",
+      "name": "巷口茶座",
+      "x": 137,
+      "z": 118,
+      "w": 22,
+      "d": 21,
+      "floors": 2,
+      "rotation": 3,
+      "palette": "mud",
+      "ground": "tea",
+      "shape": "rect",
+      "cut": 0,
+      "base_y": 7,
+      "maintenance": 0.5800000000000001,
+      "balcony": true,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "D1",
+      "name": "南街长条杂货楼",
+      "x": 28,
+      "z": 146,
+      "w": 47,
+      "d": 27,
+      "floors": 5,
+      "rotation": 2,
+      "palette": "rose",
+      "ground": "grocery",
+      "shape": "front_cut",
+      "cut": 6,
+      "base_y": 8,
+      "maintenance": 0.75,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": true,
+      "corner_shop": false
+    },
+    {
+      "id": "D2",
+      "name": "南街食店楼",
+      "x": 84,
+      "z": 151,
+      "w": 35,
+      "d": 22,
+      "floors": 7,
+      "rotation": 2,
+      "palette": "sand",
+      "ground": "restaurant",
+      "shape": "rear_cut",
+      "cut": 4,
+      "base_y": 7,
+      "maintenance": 0.39,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": true,
+      "corner_shop": false
+    },
+    {
+      "id": "D3",
+      "name": "窄面洗衣楼",
+      "x": 127,
+      "z": 144,
+      "w": 20,
+      "d": 31,
+      "floors": 4,
+      "rotation": 2,
+      "palette": "ivory",
+      "ground": "laundry",
+      "shape": "rect",
+      "cut": 0,
+      "base_y": 6,
+      "maintenance": 0.56,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "D4",
+      "name": "南侧横向住宅",
+      "x": 166,
+      "z": 149,
+      "w": 38,
+      "d": 24,
+      "floors": 3,
+      "rotation": 1,
+      "palette": "gray",
+      "ground": "home",
+      "shape": "rect",
+      "cut": 0,
+      "base_y": 5,
+      "maintenance": 0.73,
+      "balcony": false,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    {
+      "id": "D5",
+      "name": "东南街角小卖部",
+      "x": 220,
+      "z": 143,
+      "w": 32,
+      "d": 38,
+      "floors": 6,
+      "rotation": 0,
+      "palette": "sand",
+      "ground": "grocery",
+      "shape": "rear_cut",
+      "cut": 9,
+      "base_y": 3,
+      "maintenance": 0.37,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": true,
+      "corner_shop": true,
+      "corner_loggia": true,
+      "terrain_apron_pad": 2
+    },
+    {
+      "id": "E1",
+      "name": "东街维修长楼",
+      "x": 228,
+      "z": 23,
+      "w": 24,
+      "d": 60,
+      "floors": 6,
+      "rotation": 1,
+      "palette": "ivory",
+      "ground": "repair",
+      "shape": "front_cut",
+      "cut": 6,
+      "base_y": 6,
+      "maintenance": 0.54,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": true,
+      "corner_shop": false
+    },
+    {
+      "id": "E2",
+      "name": "东街食店长楼",
+      "x": 223,
+      "z": 96,
+      "w": 29,
+      "d": 41,
+      "floors": 7,
+      "rotation": 1,
+      "palette": "rose",
+      "ground": "restaurant",
+      "shape": "front_cut",
+      "cut": 6,
+      "base_y": 5,
+      "maintenance": 0.71,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": true,
+      "corner_shop": false,
+      "terrain_apron_pad": 2
+    },
+    {
+      "id": "E3",
+      "name": "口袋地块小宅",
+      "x": 168,
+      "z": 31,
+      "w": 20,
+      "d": 18,
+      "floors": 2,
+      "rotation": 1,
+      "palette": "sand",
+      "ground": "home",
+      "shape": "compound",
+      "cut": 2,
+      "base_y": 8,
+      "maintenance": 0.35,
+      "balcony": false,
+      "street_role": "inner",
+      "extra_shop_entry": false,
+      "corner_shop": false,
+      "edge_recesses": [
+        {
+          "face": "right",
+          "start": 1,
+          "end": 4,
+          "depth": 2
+        }
+      ]
+    }
+  ],
+  "streets": [
+    {
+      "id": "market_crooked",
+      "width": 3,
+      "points": [
+        [
+          19,
+          96
+        ],
+        [
+          49,
+          96
+        ],
+        [
+          92,
+          94
+        ],
+        [
+          124,
+          94
+        ],
+        [
+          124,
+          75
+        ],
+        [
+          162,
+          75
+        ],
+        [
+          162,
+          53
+        ],
+        [
+          189,
+          53
+        ],
+        [
+          189,
+          94
+        ],
+        [
+          214,
+          94
+        ],
+        [
+          221,
+          89
+        ],
+        [
+          261,
+          89
+        ]
+      ]
+    },
+    {
+      "id": "west_link",
+      "width": 3,
+      "points": [
+        [
+          93,
+          94
+        ],
+        [
+          93,
+          132
+        ],
+        [
+          69,
+          137
+        ],
+        [
+          19,
+          137
+        ]
+      ]
+    },
+    {
+      "id": "middle_link",
+      "width": 3,
+      "points": [
+        [
+          93,
+          132
+        ],
+        [
+          133,
+          132
+        ],
+        [
+          133,
+          141
+        ],
+        [
+          161,
+          141
+        ],
+        [
+          161,
+          107
+        ],
+        [
+          161,
+          75
+        ]
+      ]
+    },
+    {
+      "id": "east_link",
+      "width": 3,
+      "points": [
+        [
+          189,
+          94
+        ],
+        [
+          189,
+          128
+        ],
+        [
+          216,
+          128
+        ],
+        [
+          217,
+          141
+        ],
+        [
+          261,
+          141
+        ]
+      ]
+    },
+    {
+      "id": "wider_lane",
+      "width": 5,
+      "points": [
+        [
+          161,
+          117
+        ],
+        [
+          189,
+          117
+        ]
+      ]
+    },
+    {
+      "id": "south_west",
+      "width": 3,
+      "points": [
+        [
+          69,
+          137
+        ],
+        [
+          79,
+          142
+        ],
+        [
+          79,
+          185
+        ]
+      ]
+    },
+    {
+      "id": "south_mid",
+      "width": 3,
+      "points": [
+        [
+          123,
+          132
+        ],
+        [
+          123,
+          186
+        ]
+      ]
+    },
+    {
+      "id": "south_deep",
+      "width": 3,
+      "points": [
+        [
+          161,
+          141
+        ],
+        [
+          161,
+          188
+        ]
+      ]
+    },
+    {
+      "id": "south_east",
+      "width": 3,
+      "points": [
+        [
+          216,
+          128
+        ],
+        [
+          214,
+          145
+        ],
+        [
+          212,
+          190
+        ]
+      ]
+    }
+  ],
+  "lighting": {
+    "home_ratio": 0.7,
+    "public": "all",
+    "override_reason": "沿用用户住宅约70%亮灯偏好"
+  },
+  "weathering": {
+    "tone_mode": "isolated near-colour blocks",
+    "protected": [
+      "floors",
+      "stairs",
+      "entries",
+      "corridors"
+    ]
+  },
+  "site": {
+    "boundary_xz": [
+      [
+        4,
+        54
+      ],
+      [
+        74,
+        56
+      ],
+      [
+        205,
+        9
+      ],
+      [
+        282,
+        13
+      ],
+      [
+        284,
+        210
+      ],
+      [
+        3,
+        201
+      ]
+    ],
+    "boundary_source": "user_hexagon_sketch.png; authored six-vertex approximation, not a pixel trace",
+    "hexagon_scope": "whole district, explicitly confirmed",
+    "height_range": [
+      3,
+      11
+    ],
+    "high_anchor": [
+      18,
+      65
+    ],
+    "low_anchor": [
+      255,
+      181
+    ],
+    "east_edge": [
+      282,
+      13,
+      284,
+      210
+    ],
+    "south_edge": [
+      3,
+      201,
+      284,
+      210
+    ],
+    "east_crossings": [
+      89,
+      141,
+      187
+    ],
+    "south_crossings": [
+      79,
+      123,
+      161,
+      212
+    ]
+  }
+}

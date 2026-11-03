@@ -1,0 +1,8446 @@
+{
+  "case": "田埂里",
+  "version": "P4_B4",
+  "route": "approved_P3_layout_to_NBT",
+  "seed": 20261029,
+  "size_xyz": [
+    320,
+    48,
+    288
+  ],
+  "coordinates": {
+    "north": "-Z",
+    "east": "+X",
+    "up": "+Y"
+  },
+  "buildings": [
+    {
+      "id": "R01",
+      "x": 116,
+      "z": 110,
+      "w": 24,
+      "d": 19,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 2,
+      "shape": "L",
+      "base": 4,
+      "source_set": "V4",
+      "source_id": "R01",
+      "rotation_delta": 0,
+      "source_x": 70,
+      "source_z": 104,
+      "front": "S",
+      "entry": [
+        132.5,
+        129.5
+      ],
+      "gate": [
+        132.5,
+        129.5
+      ],
+      "plot": [
+        115,
+        109,
+        141,
+        130
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          132.5,
+          129.5
+        ],
+        [
+          132.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "R02",
+      "x": 144,
+      "z": 108,
+      "w": 18,
+      "d": 22,
+      "floors": 2,
+      "kind": "old",
+      "rotation": 2,
+      "shape": "rect",
+      "base": 4,
+      "source_set": "V4",
+      "source_id": "R02",
+      "rotation_delta": 0,
+      "source_x": 104,
+      "source_z": 100,
+      "front": "S",
+      "entry": [
+        154.5,
+        130.5
+      ],
+      "gate": [
+        154.5,
+        130.5
+      ],
+      "plot": [
+        143,
+        107,
+        163,
+        131
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          154.5,
+          130.5
+        ],
+        [
+          154.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "R03",
+      "x": 166,
+      "z": 107,
+      "w": 28,
+      "d": 21,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 2,
+      "shape": "L",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R03",
+      "rotation_delta": 0,
+      "source_x": 132,
+      "source_z": 83,
+      "front": "S",
+      "entry": [
+        186.5,
+        128.5
+      ],
+      "gate": [
+        186.5,
+        128.5
+      ],
+      "plot": [
+        165,
+        106,
+        195,
+        129
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          186.5,
+          128.5
+        ],
+        [
+          186.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "R04",
+      "x": 173,
+      "z": 72,
+      "w": 20,
+      "d": 18,
+      "floors": 2,
+      "kind": "frame",
+      "rotation": 2,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R04",
+      "rotation_delta": 0,
+      "source_x": 171,
+      "source_z": 74,
+      "front": "S",
+      "entry": [
+        185.5,
+        90.5
+      ],
+      "gate": [
+        185.5,
+        90.5
+      ],
+      "plot": [
+        172,
+        71,
+        194,
+        91
+      ],
+      "group": "transition",
+      "access_path": [
+        [
+          185.5,
+          90.5
+        ],
+        [
+          185.5,
+          99.0
+        ]
+      ]
+    },
+    {
+      "id": "R05",
+      "x": 113,
+      "z": 141,
+      "w": 19,
+      "d": 16,
+      "floors": 1,
+      "kind": "old",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 4,
+      "source_set": "V4",
+      "source_id": "R05",
+      "rotation_delta": 0,
+      "source_x": 69,
+      "source_z": 146,
+      "front": "N",
+      "entry": [
+        120.5,
+        140.5
+      ],
+      "gate": [
+        120.5,
+        140.5
+      ],
+      "plot": [
+        112,
+        140,
+        133,
+        158
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          120.5,
+          140.5
+        ],
+        [
+          120.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "R06",
+      "x": 137,
+      "z": 141,
+      "w": 18,
+      "d": 22,
+      "floors": 2,
+      "kind": "brick",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 4,
+      "source_set": "V4",
+      "source_id": "R06",
+      "rotation_delta": 3,
+      "source_x": 98,
+      "source_z": 134,
+      "front": "N",
+      "entry": [
+        144.5,
+        140.5
+      ],
+      "gate": [
+        144.5,
+        140.5
+      ],
+      "plot": [
+        136,
+        140,
+        156,
+        164
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          144.5,
+          140.5
+        ],
+        [
+          144.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "R07",
+      "x": 159,
+      "z": 142,
+      "w": 24,
+      "d": 18,
+      "floors": 4,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R07",
+      "rotation_delta": 2,
+      "source_x": 137,
+      "source_z": 119,
+      "front": "N",
+      "entry": [
+        166.5,
+        141.5
+      ],
+      "gate": [
+        166.5,
+        141.5
+      ],
+      "plot": [
+        158,
+        141,
+        184,
+        161
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          166.5,
+          141.5
+        ],
+        [
+          166.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "R08",
+      "x": 214,
+      "z": 111,
+      "w": 24,
+      "d": 19,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 3,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R08",
+      "rotation_delta": 0,
+      "source_x": 224,
+      "source_z": 117,
+      "front": "W",
+      "entry": [
+        213.5,
+        122.5
+      ],
+      "gate": [
+        213.5,
+        122.5
+      ],
+      "plot": [
+        213,
+        110,
+        239,
+        131
+      ],
+      "group": "transition",
+      "access_path": [
+        [
+          213.5,
+          122.5
+        ],
+        [
+          210.5,
+          122.5
+        ]
+      ]
+    },
+    {
+      "id": "R09",
+      "x": 187,
+      "z": 141,
+      "w": 22,
+      "d": 17,
+      "floors": 2,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R09",
+      "rotation_delta": 0,
+      "source_x": 63,
+      "source_z": 196,
+      "front": "N",
+      "entry": [
+        194.5,
+        140.5
+      ],
+      "gate": [
+        194.5,
+        140.5
+      ],
+      "plot": [
+        186,
+        140,
+        210,
+        159
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          194.5,
+          140.5
+        ],
+        [
+          194.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "R10",
+      "x": 109,
+      "z": 176,
+      "w": 19,
+      "d": 15,
+      "floors": 1,
+      "kind": "old",
+      "rotation": 0,
+      "shape": "L",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R10",
+      "rotation_delta": 0,
+      "source_x": 94,
+      "source_z": 202,
+      "front": "N",
+      "entry": [
+        116.5,
+        175.5
+      ],
+      "gate": [
+        116.5,
+        175.5
+      ],
+      "plot": [
+        108,
+        175,
+        129,
+        192
+      ],
+      "group": "core",
+      "access_path": [
+        [
+          116.5,
+          175.5
+        ]
+      ]
+    },
+    {
+      "id": "R11",
+      "x": 143,
+      "z": 180,
+      "w": 26,
+      "d": 20,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R11",
+      "rotation_delta": 0,
+      "source_x": 126,
+      "source_z": 178,
+      "front": "N",
+      "entry": [
+        150.5,
+        179.5
+      ],
+      "gate": [
+        150.5,
+        179.5
+      ],
+      "plot": [
+        142,
+        179,
+        170,
+        201
+      ],
+      "group": "transition",
+      "access_path": [
+        [
+          150.5,
+          179.5
+        ],
+        [
+          150.5,
+          175.0
+        ]
+      ]
+    },
+    {
+      "id": "R12",
+      "x": 178,
+      "z": 177,
+      "w": 23,
+      "d": 21,
+      "floors": 3,
+      "kind": "hybrid",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R12",
+      "rotation_delta": 0,
+      "source_x": 165,
+      "source_z": 168,
+      "front": "N",
+      "entry": [
+        185.5,
+        176.5
+      ],
+      "gate": [
+        185.5,
+        176.5
+      ],
+      "plot": [
+        177,
+        176,
+        202,
+        199
+      ],
+      "group": "transition",
+      "access_path": [
+        [
+          185.5,
+          176.5
+        ],
+        [
+          184.5,
+          176.5
+        ],
+        [
+          184.5,
+          175.0
+        ]
+      ]
+    },
+    {
+      "id": "R13",
+      "x": 66,
+      "z": 149,
+      "w": 15,
+      "d": 20,
+      "floors": 1,
+      "kind": "old",
+      "rotation": 1,
+      "shape": "L",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R13",
+      "rotation_delta": 1,
+      "source_x": 171,
+      "source_z": 211,
+      "front": "E",
+      "entry": [
+        81.5,
+        156.5
+      ],
+      "gate": [
+        81.5,
+        156.5
+      ],
+      "plot": [
+        65,
+        148,
+        82,
+        170
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          81.5,
+          156.5
+        ],
+        [
+          85.5,
+          156.5
+        ]
+      ]
+    },
+    {
+      "id": "R14",
+      "x": 74,
+      "z": 88,
+      "w": 24,
+      "d": 18,
+      "floors": 3,
+      "kind": "finished",
+      "rotation": 2,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "archive",
+      "source_id": "R05",
+      "rotation_delta": 0,
+      "source_x": 201,
+      "source_z": 76,
+      "front": "S",
+      "entry": [
+        90.5,
+        106.5
+      ],
+      "gate": [
+        90.5,
+        106.5
+      ],
+      "plot": [
+        73,
+        87,
+        99,
+        107
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          90.5,
+          106.5
+        ],
+        [
+          90.5,
+          109.0
+        ]
+      ]
+    },
+    {
+      "id": "R15",
+      "x": 104,
+      "z": 70,
+      "w": 18,
+      "d": 21,
+      "floors": 2,
+      "kind": "old",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "archive",
+      "source_id": "R09",
+      "rotation_delta": 0,
+      "source_x": 178,
+      "source_z": 112,
+      "front": "N",
+      "entry": [
+        111.5,
+        69.5
+      ],
+      "gate": [
+        111.5,
+        69.5
+      ],
+      "plot": [
+        103,
+        69,
+        123,
+        92
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          111.5,
+          69.5
+        ],
+        [
+          111.5,
+          65.5
+        ]
+      ]
+    },
+    {
+      "id": "R16",
+      "x": 240,
+      "z": 180,
+      "w": 17,
+      "d": 22,
+      "floors": 2,
+      "kind": "brick",
+      "rotation": 2,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "archive",
+      "source_id": "R15",
+      "rotation_delta": 1,
+      "source_x": 201,
+      "source_z": 157,
+      "front": "S",
+      "entry": [
+        249.5,
+        202.5
+      ],
+      "gate": [
+        249.5,
+        202.5
+      ],
+      "plot": [
+        239,
+        179,
+        258,
+        203
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          249.5,
+          202.5
+        ],
+        [
+          249.5,
+          204.0
+        ]
+      ]
+    },
+    {
+      "id": "R17",
+      "x": 70,
+      "z": 221,
+      "w": 21,
+      "d": 27,
+      "floors": 2,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "L",
+      "base": 3,
+      "source_set": "archive",
+      "source_id": "R16",
+      "rotation_delta": 1,
+      "source_x": 222,
+      "source_z": 199,
+      "front": "N",
+      "entry": [
+        77.5,
+        220.5
+      ],
+      "gate": [
+        77.5,
+        220.5
+      ],
+      "plot": [
+        69,
+        220,
+        92,
+        249
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          77.5,
+          220.5
+        ],
+        [
+          77.5,
+          216.5
+        ]
+      ]
+    },
+    {
+      "id": "R18",
+      "x": 185,
+      "z": 238,
+      "w": 22,
+      "d": 17,
+      "floors": 2,
+      "kind": "finished",
+      "rotation": 0,
+      "shape": "rect",
+      "base": 3,
+      "source_set": "V4",
+      "source_id": "R09",
+      "design_status": "roof template placeholder; facade variation to be designed",
+      "rotation_delta": 0,
+      "source_x": 63,
+      "source_z": 196,
+      "front": "N",
+      "entry": [
+        192.5,
+        237.5
+      ],
+      "gate": [
+        192.5,
+        237.5
+      ],
+      "plot": [
+        184,
+        237,
+        208,
+        256
+      ],
+      "group": "outer",
+      "access_path": [
+        [
+          192.5,
+          237.5
+        ],
+        [
+          192.5,
+          233.5
+        ]
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "id": "F01.1",
+      "bounds": [
+        12,
+        48,
+        63,
+        81
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "flooded_paddy_visual"
+    },
+    {
+      "id": "F01.2",
+      "bounds": [
+        12,
+        81,
+        63,
+        107
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F01.3",
+      "bounds": [
+        12,
+        12,
+        33,
+        48
+      ],
+      "crop": "potatoes",
+      "rows": "N",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F01.4",
+      "bounds": [
+        33,
+        12,
+        63,
+        48
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F02.1",
+      "bounds": [
+        114,
+        12,
+        158,
+        58
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 4,
+      "harvest_strip": true,
+      "notch": 3,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "flooded_paddy_visual"
+    },
+    {
+      "id": "F02.2",
+      "bounds": [
+        70,
+        12,
+        114,
+        30
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F02.3",
+      "bounds": [
+        70,
+        30,
+        114,
+        58
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F03.1",
+      "bounds": [
+        165,
+        12,
+        193,
+        60
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F03.2",
+      "bounds": [
+        193,
+        12,
+        230,
+        39
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F03.3",
+      "bounds": [
+        193,
+        39,
+        230,
+        60
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 3,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F04.1",
+      "bounds": [
+        237,
+        12,
+        308,
+        47
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "flooded_paddy_visual"
+    },
+    {
+      "id": "F04.2",
+      "bounds": [
+        237,
+        47,
+        272,
+        88
+      ],
+      "crop": "wheat",
+      "rows": "N",
+      "base_age": 2,
+      "harvest_strip": true,
+      "notch": 3,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F04.3",
+      "bounds": [
+        272,
+        47,
+        308,
+        88
+      ],
+      "crop": "potatoes",
+      "rows": "N",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F05.1",
+      "bounds": [
+        12,
+        116,
+        60,
+        132
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 3,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F06.1",
+      "bounds": [
+        12,
+        188,
+        58,
+        229
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F06.2",
+      "bounds": [
+        12,
+        229,
+        58,
+        252
+      ],
+      "crop": "wheat",
+      "rows": "N",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "flooded_paddy_visual"
+    },
+    {
+      "id": "F06.3",
+      "bounds": [
+        12,
+        252,
+        58,
+        276
+      ],
+      "crop": "wheat",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "flooded_paddy_visual"
+    },
+    {
+      "id": "F07.1",
+      "bounds": [
+        98,
+        220,
+        129,
+        276
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F09.1",
+      "bounds": [
+        264,
+        151,
+        308,
+        176
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 3,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F09.2",
+      "bounds": [
+        264,
+        176,
+        308,
+        211
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "flooded_paddy_visual"
+    },
+    {
+      "id": "F11.1",
+      "bounds": [
+        128,
+        69,
+        165,
+        97
+      ],
+      "crop": "beetroots",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F12.1",
+      "bounds": [
+        68,
+        180,
+        89,
+        207
+      ],
+      "crop": "fallow",
+      "rows": "N",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F12.2",
+      "bounds": [
+        89,
+        180,
+        103,
+        207
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F13.1",
+      "bounds": [
+        140,
+        213,
+        160,
+        227
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F13.2",
+      "bounds": [
+        160,
+        213,
+        174,
+        227
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 7,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F14.1",
+      "bounds": [
+        140,
+        239,
+        174,
+        276
+      ],
+      "crop": "potatoes",
+      "rows": "N",
+      "base_age": 5,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "flooded_paddy_visual"
+    },
+    {
+      "id": "F15.1",
+      "bounds": [
+        180,
+        263,
+        228,
+        276
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "flooded_paddy_visual"
+    },
+    {
+      "id": "F16.1",
+      "bounds": [
+        217,
+        155,
+        235,
+        175
+      ],
+      "crop": "carrots",
+      "rows": "N",
+      "base_age": 4,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F16.2",
+      "bounds": [
+        217,
+        175,
+        235,
+        198
+      ],
+      "crop": "beetroots",
+      "rows": "N",
+      "base_age": 2,
+      "harvest_strip": true,
+      "notch": 3,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F17.1",
+      "bounds": [
+        37,
+        141,
+        60,
+        180
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F17.2",
+      "bounds": [
+        12,
+        141,
+        37,
+        155
+      ],
+      "crop": "potatoes",
+      "rows": "E",
+      "base_age": 5,
+      "harvest_strip": true,
+      "notch": 2,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    },
+    {
+      "id": "F17.3",
+      "bounds": [
+        12,
+        155,
+        37,
+        180
+      ],
+      "crop": "carrots",
+      "rows": "E",
+      "base_age": 2,
+      "harvest_strip": false,
+      "notch": 0,
+      "surface_y": 2,
+      "bank_y": 3,
+      "landscape_type": "lowered_dry_field"
+    }
+  ],
+  "greenhouses": [
+    {
+      "id": "G01",
+      "kind": "film",
+      "bounds": [
+        249,
+        100,
+        258,
+        132
+      ]
+    },
+    {
+      "id": "G02",
+      "kind": "film",
+      "bounds": [
+        263,
+        100,
+        272,
+        132
+      ]
+    },
+    {
+      "id": "G03",
+      "kind": "film",
+      "bounds": [
+        277,
+        100,
+        286,
+        132
+      ]
+    },
+    {
+      "id": "G04",
+      "kind": "film",
+      "bounds": [
+        291,
+        100,
+        300,
+        132
+      ]
+    },
+    {
+      "id": "G05",
+      "kind": "shade",
+      "bounds": [
+        243,
+        230,
+        269,
+        249
+      ]
+    },
+    {
+      "id": "G06",
+      "kind": "shade",
+      "bounds": [
+        276,
+        230,
+        302,
+        249
+      ]
+    }
+  ],
+  "roads": [
+    {
+      "id": "main",
+      "kind": "main",
+      "width": 5,
+      "path": [
+        [
+          0,
+          136
+        ],
+        [
+          93,
+          136
+        ],
+        [
+          103,
+          135
+        ],
+        [
+          215,
+          135
+        ],
+        [
+          226,
+          143
+        ],
+        [
+          320,
+          143
+        ]
+      ]
+    },
+    {
+      "id": "village_loop",
+      "kind": "lane",
+      "width": 3.5,
+      "path": [
+        [
+          87,
+          136
+        ],
+        [
+          87,
+          174
+        ],
+        [
+          134,
+          174
+        ],
+        [
+          134,
+          205
+        ],
+        [
+          212,
+          205
+        ],
+        [
+          212,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "core_cross_w",
+      "kind": "lane",
+      "width": 3,
+      "path": [
+        [
+          134,
+          135
+        ],
+        [
+          134,
+          174
+        ]
+      ]
+    },
+    {
+      "id": "core_cross_e",
+      "kind": "lane",
+      "width": 2.5,
+      "path": [
+        [
+          184.5,
+          135
+        ],
+        [
+          184.5,
+          174
+        ],
+        [
+          134,
+          174
+        ]
+      ]
+    },
+    {
+      "id": "north_link",
+      "kind": "lane",
+      "width": 3,
+      "path": [
+        [
+          0,
+          110
+        ],
+        [
+          103,
+          110
+        ],
+        [
+          103,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "north_farm_loop",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          65,
+          110
+        ],
+        [
+          65,
+          64
+        ],
+        [
+          232,
+          64
+        ],
+        [
+          232,
+          91
+        ],
+        [
+          314,
+          91
+        ],
+        [
+          314,
+          143
+        ]
+      ]
+    },
+    {
+      "id": "north_local",
+      "kind": "lane",
+      "width": 3,
+      "path": [
+        [
+          103,
+          110
+        ],
+        [
+          103,
+          100
+        ],
+        [
+          232,
+          100
+        ],
+        [
+          232,
+          91
+        ]
+      ]
+    },
+    {
+      "id": "east_local",
+      "kind": "lane",
+      "width": 3,
+      "path": [
+        [
+          209,
+          100
+        ],
+        [
+          209,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "west_lower_loop",
+      "kind": "lane",
+      "width": 3.5,
+      "path": [
+        [
+          87,
+          174
+        ],
+        [
+          64,
+          174
+        ],
+        [
+          64,
+          215
+        ],
+        [
+          107,
+          215
+        ],
+        [
+          107,
+          205
+        ],
+        [
+          134,
+          205
+        ]
+      ]
+    },
+    {
+      "id": "south_loop",
+      "kind": "lane",
+      "width": 3.5,
+      "path": [
+        [
+          134,
+          205
+        ],
+        [
+          134,
+          232
+        ],
+        [
+          232,
+          232
+        ],
+        [
+          232,
+          205
+        ],
+        [
+          212,
+          205
+        ]
+      ]
+    },
+    {
+      "id": "east_field_loop",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          232,
+          205
+        ],
+        [
+          260,
+          205
+        ],
+        [
+          260,
+          143
+        ]
+      ]
+    },
+    {
+      "id": "south_farm",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          0,
+          281
+        ],
+        [
+          232,
+          281
+        ],
+        [
+          232,
+          232
+        ]
+      ]
+    },
+    {
+      "id": "west_south_link",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          64,
+          215
+        ],
+        [
+          64,
+          281
+        ]
+      ]
+    },
+    {
+      "id": "south_mid_link",
+      "kind": "farm",
+      "width": 3,
+      "path": [
+        [
+          134,
+          232
+        ],
+        [
+          134,
+          281
+        ]
+      ]
+    },
+    {
+      "id": "greenhouse_loading",
+      "kind": "service",
+      "width": 3,
+      "path": [
+        [
+          247,
+          135
+        ],
+        [
+          304,
+          135
+        ],
+        [
+          304,
+          143
+        ]
+      ]
+    },
+    {
+      "id": "nursery_front",
+      "kind": "service",
+      "width": 3,
+      "path": [
+        [
+          232,
+          254
+        ],
+        [
+          305,
+          254
+        ]
+      ]
+    },
+    {
+      "id": "nursery_back",
+      "kind": "service",
+      "width": 2.5,
+      "path": [
+        [
+          232,
+          270
+        ],
+        [
+          305,
+          270
+        ],
+        [
+          305,
+          254
+        ]
+      ]
+    },
+    {
+      "id": "door_R01",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          132.5,
+          129.5
+        ],
+        [
+          132.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R02",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          154.5,
+          130.5
+        ],
+        [
+          154.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R03",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          186.5,
+          128.5
+        ],
+        [
+          186.5,
+          133.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R04",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          185.5,
+          90.5
+        ],
+        [
+          185.5,
+          99.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R05",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          120.5,
+          140.5
+        ],
+        [
+          120.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R06",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          144.5,
+          140.5
+        ],
+        [
+          144.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R07",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          166.5,
+          141.5
+        ],
+        [
+          166.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R08",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          213.5,
+          122.5
+        ],
+        [
+          210.5,
+          122.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R09",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          194.5,
+          140.5
+        ],
+        [
+          194.5,
+          137.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R10",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          116.5,
+          175.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R11",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          150.5,
+          179.5
+        ],
+        [
+          150.5,
+          175.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R12",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          185.5,
+          176.5
+        ],
+        [
+          184.5,
+          176.5
+        ],
+        [
+          184.5,
+          175.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R13",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          81.5,
+          156.5
+        ],
+        [
+          85.5,
+          156.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R14",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          90.5,
+          106.5
+        ],
+        [
+          90.5,
+          109.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R15",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          111.5,
+          69.5
+        ],
+        [
+          111.5,
+          65.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R16",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          249.5,
+          202.5
+        ],
+        [
+          249.5,
+          204.0
+        ]
+      ]
+    },
+    {
+      "id": "door_R17",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          77.5,
+          220.5
+        ],
+        [
+          77.5,
+          216.5
+        ]
+      ]
+    },
+    {
+      "id": "door_R18",
+      "kind": "access",
+      "width": 1.5,
+      "path": [
+        [
+          192.5,
+          237.5
+        ],
+        [
+          192.5,
+          233.5
+        ]
+      ]
+    },
+    {
+      "id": "door_G01",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          253.5,
+          132.5
+        ],
+        [
+          253.5,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "door_G02",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          267.5,
+          132.5
+        ],
+        [
+          267.5,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "door_G03",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          281.5,
+          132.5
+        ],
+        [
+          281.5,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "door_G04",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          295.5,
+          132.5
+        ],
+        [
+          295.5,
+          135
+        ]
+      ]
+    },
+    {
+      "id": "door_G05",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          256.0,
+          249.5
+        ],
+        [
+          256.0,
+          254
+        ]
+      ]
+    },
+    {
+      "id": "door_G06",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          289.0,
+          249.5
+        ],
+        [
+          289.0,
+          254
+        ]
+      ]
+    },
+    {
+      "id": "door_A01",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          252.0,
+          267.5
+        ],
+        [
+          252.0,
+          270
+        ]
+      ]
+    },
+    {
+      "id": "door_A02",
+      "kind": "access",
+      "width": 2,
+      "path": [
+        [
+          288.0,
+          266.5
+        ],
+        [
+          288.0,
+          270
+        ]
+      ]
+    }
+  ],
+  "source_hashes": {
+    "V4": "77ae0865b32c35b27636481c65aaa5dacaab61ed5f8d63c13ce7cfae60765555",
+    "archive": "10d6fe5d878cf56bdfb1f2c92a4bf6b5fac78a1f85ad157a697c6879c364d92f"
+  },
+  "source_plan_sha256": "599c74dbb17728a95de34399a3732ce1fc2535f1396651b18898fcbb62f47f80",
+  "house_adoption": [
+    {
+      "id": "R01",
+      "source": "V4",
+      "source_id": "R01",
+      "rotation": 0,
+      "copied_blocks": 4423
+    },
+    {
+      "id": "R02",
+      "source": "V4",
+      "source_id": "R02",
+      "rotation": 0,
+      "copied_blocks": 3122
+    },
+    {
+      "id": "R03",
+      "source": "V4",
+      "source_id": "R03",
+      "rotation": 0,
+      "copied_blocks": 5605
+    },
+    {
+      "id": "R04",
+      "source": "V4",
+      "source_id": "R04",
+      "rotation": 0,
+      "copied_blocks": 1330
+    },
+    {
+      "id": "R05",
+      "source": "V4",
+      "source_id": "R05",
+      "rotation": 0,
+      "copied_blocks": 1603
+    },
+    {
+      "id": "R06",
+      "source": "V4",
+      "source_id": "R06",
+      "rotation": 3,
+      "copied_blocks": 1873
+    },
+    {
+      "id": "R07",
+      "source": "V4",
+      "source_id": "R07",
+      "rotation": 2,
+      "copied_blocks": 5855
+    },
+    {
+      "id": "R08",
+      "source": "V4",
+      "source_id": "R08",
+      "rotation": 0,
+      "copied_blocks": 4562
+    },
+    {
+      "id": "R09",
+      "source": "V4",
+      "source_id": "R09",
+      "rotation": 0,
+      "copied_blocks": 2907
+    },
+    {
+      "id": "R10",
+      "source": "V4",
+      "source_id": "R10",
+      "rotation": 0,
+      "copied_blocks": 1377
+    },
+    {
+      "id": "R11",
+      "source": "V4",
+      "source_id": "R11",
+      "rotation": 0,
+      "copied_blocks": 5328
+    },
+    {
+      "id": "R12",
+      "source": "V4",
+      "source_id": "R12",
+      "rotation": 0,
+      "copied_blocks": 4506
+    },
+    {
+      "id": "R13",
+      "source": "V4",
+      "source_id": "R13",
+      "rotation": 1,
+      "copied_blocks": 1459
+    },
+    {
+      "id": "R14",
+      "source": "archive",
+      "source_id": "R05",
+      "rotation": 0,
+      "copied_blocks": 4516
+    },
+    {
+      "id": "R15",
+      "source": "archive",
+      "source_id": "R09",
+      "rotation": 0,
+      "copied_blocks": 3030
+    },
+    {
+      "id": "R16",
+      "source": "archive",
+      "source_id": "R15",
+      "rotation": 1,
+      "copied_blocks": 1798
+    },
+    {
+      "id": "R17",
+      "source": "archive",
+      "source_id": "R16",
+      "rotation": 1,
+      "copied_blocks": 3805
+    },
+    {
+      "id": "R18",
+      "source": "V4",
+      "source_id": "R09",
+      "rotation": 0,
+      "copied_blocks": 2887
+    }
+  ],
+  "trees": [
+    [
+      11,
+      3,
+      9,
+      2
+    ],
+    [
+      25,
+      3,
+      10,
+      2
+    ],
+    [
+      44,
+      3,
+      10,
+      2
+    ],
+    [
+      64,
+      3,
+      7,
+      2
+    ],
+    [
+      75,
+      4,
+      7,
+      2
+    ],
+    [
+      92,
+      3,
+      9,
+      2
+    ],
+    [
+      97,
+      4,
+      10,
+      3
+    ],
+    [
+      112,
+      4,
+      10,
+      3
+    ],
+    [
+      120,
+      4,
+      8,
+      2
+    ],
+    [
+      135,
+      3,
+      9,
+      2
+    ],
+    [
+      146,
+      4,
+      9,
+      2
+    ],
+    [
+      152,
+      3,
+      9,
+      3
+    ],
+    [
+      164,
+      3,
+      9,
+      2
+    ],
+    [
+      175,
+      3,
+      9,
+      2
+    ],
+    [
+      188,
+      3,
+      9,
+      3
+    ],
+    [
+      202,
+      3,
+      9,
+      3
+    ],
+    [
+      231,
+      4,
+      7,
+      2
+    ],
+    [
+      240,
+      4,
+      9,
+      2
+    ],
+    [
+      256,
+      4,
+      9,
+      3
+    ],
+    [
+      262,
+      4,
+      8,
+      3
+    ],
+    [
+      279,
+      4,
+      9,
+      2
+    ],
+    [
+      288,
+      4,
+      7,
+      3
+    ],
+    [
+      297,
+      3,
+      8,
+      2
+    ],
+    [
+      3,
+      36,
+      9,
+      2
+    ],
+    [
+      3,
+      49,
+      7,
+      2
+    ],
+    [
+      4,
+      57,
+      10,
+      2
+    ],
+    [
+      4,
+      126,
+      8,
+      3
+    ],
+    [
+      3,
+      148,
+      7,
+      2
+    ],
+    [
+      4,
+      188,
+      10,
+      3
+    ],
+    [
+      3,
+      205,
+      7,
+      3
+    ],
+    [
+      4,
+      216,
+      9,
+      2
+    ],
+    [
+      4,
+      242,
+      9,
+      2
+    ],
+    [
+      3,
+      254,
+      9,
+      2
+    ],
+    [
+      4,
+      265,
+      10,
+      2
+    ],
+    [
+      100,
+      155,
+      8,
+      2
+    ],
+    [
+      216,
+      95,
+      9,
+      2
+    ],
+    [
+      211,
+      212,
+      10,
+      3
+    ],
+    [
+      94,
+      252,
+      7,
+      2
+    ],
+    [
+      179,
+      257,
+      10,
+      3
+    ],
+    [
+      224,
+      215,
+      8,
+      2
+    ],
+    [
+      201,
+      222,
+      7,
+      2
+    ]
+  ],
+  "lighting": "All occupied low-rise rooms lit; raw floors unlit; cool/warm material intent only",
+  "changes": [
+    "P3 footprints and road centerlines preserved",
+    "Unequal rectangular subplots, growth cohorts, harvested strips, loading notches",
+    "Narrow thresholds instead of wide courts",
+    "R18 sandstone and teal details, rooftop shade, blue glazing",
+    "Six agricultural sheds built",
+    "P4: lowered fields, eight shallow flooded paddies, connected irrigation, pond, orchard and rural workyards."
+  ],
+  "limitations": [
+    "Furniture is decorative",
+    "Approximate preview materials and light; no in-game screenshots",
+    "Player collision and live game lighting pending"
+  ],
+  "landscape_revision": {
+    "base_run": "P3_B4",
+    "dry_soil_drop": 1,
+    "paddy_count": 8,
+    "paddy_ids": [
+      "F01.1",
+      "F02.1",
+      "F04.1",
+      "F06.2",
+      "F06.3",
+      "F09.2",
+      "F14.1",
+      "F15.1"
+    ],
+    "paddy_representation": "Vanilla young wheat on wet planting strips; no rice block or mod.",
+    "fields": [
+      {
+        "id": "F01.1",
+        "type": "flooded_paddy_visual",
+        "soil_drop": 1,
+        "water_cells": 1219
+      },
+      {
+        "id": "F01.2",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 274
+      },
+      {
+        "id": "F01.3",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 198
+      },
+      {
+        "id": "F01.4",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 224
+      },
+      {
+        "id": "F02.1",
+        "type": "flooded_paddy_visual",
+        "soil_drop": 1,
+        "water_cells": 1452
+      },
+      {
+        "id": "F02.2",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 192
+      },
+      {
+        "id": "F02.3",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 252
+      },
+      {
+        "id": "F03.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 284
+      },
+      {
+        "id": "F03.2",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 215
+      },
+      {
+        "id": "F03.3",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 202
+      },
+      {
+        "id": "F04.1",
+        "type": "flooded_paddy_visual",
+        "soil_drop": 1,
+        "water_cells": 1687
+      },
+      {
+        "id": "F04.2",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 288
+      },
+      {
+        "id": "F04.3",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 290
+      },
+      {
+        "id": "F05.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 160
+      },
+      {
+        "id": "F06.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 372
+      },
+      {
+        "id": "F06.2",
+        "type": "flooded_paddy_visual",
+        "soil_drop": 1,
+        "water_cells": 754
+      },
+      {
+        "id": "F06.3",
+        "type": "flooded_paddy_visual",
+        "soil_drop": 1,
+        "water_cells": 778
+      },
+      {
+        "id": "F07.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 324
+      },
+      {
+        "id": "F09.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 231
+      },
+      {
+        "id": "F09.2",
+        "type": "flooded_paddy_visual",
+        "soil_drop": 1,
+        "water_cells": 1012
+      },
+      {
+        "id": "F11.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 217
+      },
+      {
+        "id": "F12.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 84
+      },
+      {
+        "id": "F12.2",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 100
+      },
+      {
+        "id": "F13.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 76
+      },
+      {
+        "id": "F13.2",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 64
+      },
+      {
+        "id": "F14.1",
+        "type": "flooded_paddy_visual",
+        "soil_drop": 1,
+        "water_cells": 830
+      },
+      {
+        "id": "F15.1",
+        "type": "flooded_paddy_visual",
+        "soil_drop": 1,
+        "water_cells": 426
+      },
+      {
+        "id": "F16.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 96
+      },
+      {
+        "id": "F16.2",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 108
+      },
+      {
+        "id": "F17.1",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 207
+      },
+      {
+        "id": "F17.2",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 108
+      },
+      {
+        "id": "F17.3",
+        "type": "lowered_dry_field",
+        "soil_drop": 1,
+        "water_cells": 130
+      }
+    ],
+    "routes": [
+      {
+        "id": "F01.1",
+        "path": [
+          [
+            7,
+            64
+          ],
+          [
+            8,
+            64
+          ],
+          [
+            9,
+            64
+          ],
+          [
+            10,
+            64
+          ],
+          [
+            11,
+            64
+          ],
+          [
+            12,
+            64
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F01.2",
+        "path": [
+          [
+            7,
+            81
+          ],
+          [
+            8,
+            81
+          ],
+          [
+            9,
+            81
+          ],
+          [
+            10,
+            81
+          ],
+          [
+            11,
+            81
+          ],
+          [
+            12,
+            81
+          ],
+          [
+            13,
+            81
+          ],
+          [
+            14,
+            81
+          ],
+          [
+            15,
+            81
+          ],
+          [
+            16,
+            81
+          ],
+          [
+            17,
+            81
+          ],
+          [
+            18,
+            81
+          ],
+          [
+            19,
+            81
+          ],
+          [
+            20,
+            81
+          ],
+          [
+            21,
+            81
+          ],
+          [
+            22,
+            81
+          ],
+          [
+            23,
+            81
+          ],
+          [
+            24,
+            81
+          ],
+          [
+            25,
+            81
+          ],
+          [
+            26,
+            81
+          ],
+          [
+            27,
+            81
+          ],
+          [
+            28,
+            81
+          ],
+          [
+            29,
+            81
+          ],
+          [
+            30,
+            81
+          ],
+          [
+            31,
+            81
+          ],
+          [
+            32,
+            81
+          ],
+          [
+            33,
+            81
+          ],
+          [
+            34,
+            81
+          ],
+          [
+            35,
+            81
+          ],
+          [
+            36,
+            81
+          ],
+          [
+            37,
+            81
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F01.3",
+        "path": [
+          [
+            7,
+            47
+          ],
+          [
+            8,
+            47
+          ],
+          [
+            9,
+            47
+          ],
+          [
+            10,
+            47
+          ],
+          [
+            11,
+            47
+          ],
+          [
+            12,
+            47
+          ],
+          [
+            13,
+            47
+          ],
+          [
+            14,
+            47
+          ],
+          [
+            15,
+            47
+          ],
+          [
+            16,
+            47
+          ],
+          [
+            17,
+            47
+          ],
+          [
+            18,
+            47
+          ],
+          [
+            19,
+            47
+          ],
+          [
+            20,
+            47
+          ],
+          [
+            21,
+            47
+          ],
+          [
+            22,
+            47
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F01.4",
+        "path": [
+          [
+            33,
+            7
+          ],
+          [
+            33,
+            8
+          ],
+          [
+            33,
+            9
+          ],
+          [
+            33,
+            10
+          ],
+          [
+            33,
+            11
+          ],
+          [
+            33,
+            12
+          ],
+          [
+            33,
+            13
+          ],
+          [
+            33,
+            14
+          ],
+          [
+            33,
+            15
+          ],
+          [
+            33,
+            16
+          ],
+          [
+            33,
+            17
+          ],
+          [
+            33,
+            18
+          ],
+          [
+            33,
+            19
+          ],
+          [
+            33,
+            20
+          ],
+          [
+            33,
+            21
+          ],
+          [
+            33,
+            22
+          ],
+          [
+            33,
+            23
+          ],
+          [
+            33,
+            24
+          ],
+          [
+            33,
+            25
+          ],
+          [
+            33,
+            26
+          ],
+          [
+            33,
+            27
+          ],
+          [
+            33,
+            28
+          ],
+          [
+            33,
+            29
+          ],
+          [
+            33,
+            30
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F02.1",
+        "path": [
+          [
+            161,
+            35
+          ],
+          [
+            160,
+            35
+          ],
+          [
+            159,
+            35
+          ],
+          [
+            158,
+            35
+          ],
+          [
+            157,
+            35
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F02.2",
+        "path": [
+          [
+            113,
+            7
+          ],
+          [
+            113,
+            8
+          ],
+          [
+            113,
+            9
+          ],
+          [
+            113,
+            10
+          ],
+          [
+            113,
+            11
+          ],
+          [
+            113,
+            12
+          ],
+          [
+            113,
+            13
+          ],
+          [
+            113,
+            14
+          ],
+          [
+            113,
+            15
+          ],
+          [
+            113,
+            16
+          ],
+          [
+            113,
+            17
+          ],
+          [
+            113,
+            18
+          ],
+          [
+            113,
+            19
+          ],
+          [
+            113,
+            20
+          ],
+          [
+            113,
+            21
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F02.3",
+        "path": [
+          [
+            113,
+            21
+          ],
+          [
+            113,
+            22
+          ],
+          [
+            113,
+            23
+          ],
+          [
+            113,
+            24
+          ],
+          [
+            113,
+            25
+          ],
+          [
+            113,
+            26
+          ],
+          [
+            113,
+            27
+          ],
+          [
+            113,
+            28
+          ],
+          [
+            113,
+            29
+          ],
+          [
+            113,
+            30
+          ],
+          [
+            113,
+            31
+          ],
+          [
+            113,
+            32
+          ],
+          [
+            113,
+            33
+          ],
+          [
+            113,
+            34
+          ],
+          [
+            113,
+            35
+          ],
+          [
+            113,
+            36
+          ],
+          [
+            113,
+            37
+          ],
+          [
+            113,
+            38
+          ],
+          [
+            113,
+            39
+          ],
+          [
+            113,
+            40
+          ],
+          [
+            113,
+            41
+          ],
+          [
+            113,
+            42
+          ],
+          [
+            113,
+            43
+          ],
+          [
+            113,
+            44
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F03.1",
+        "path": [
+          [
+            161,
+            36
+          ],
+          [
+            162,
+            36
+          ],
+          [
+            163,
+            36
+          ],
+          [
+            164,
+            36
+          ],
+          [
+            165,
+            36
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F03.2",
+        "path": [
+          [
+            193,
+            7
+          ],
+          [
+            193,
+            8
+          ],
+          [
+            193,
+            9
+          ],
+          [
+            193,
+            10
+          ],
+          [
+            193,
+            11
+          ],
+          [
+            193,
+            12
+          ],
+          [
+            193,
+            13
+          ],
+          [
+            193,
+            14
+          ],
+          [
+            193,
+            15
+          ],
+          [
+            193,
+            16
+          ],
+          [
+            193,
+            17
+          ],
+          [
+            193,
+            18
+          ],
+          [
+            193,
+            19
+          ],
+          [
+            193,
+            20
+          ],
+          [
+            193,
+            21
+          ],
+          [
+            193,
+            22
+          ],
+          [
+            193,
+            23
+          ],
+          [
+            193,
+            24
+          ],
+          [
+            193,
+            25
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F03.3",
+        "path": [
+          [
+            193,
+            25
+          ],
+          [
+            193,
+            26
+          ],
+          [
+            193,
+            27
+          ],
+          [
+            193,
+            28
+          ],
+          [
+            193,
+            29
+          ],
+          [
+            193,
+            30
+          ],
+          [
+            193,
+            31
+          ],
+          [
+            193,
+            32
+          ],
+          [
+            193,
+            33
+          ],
+          [
+            193,
+            34
+          ],
+          [
+            193,
+            35
+          ],
+          [
+            193,
+            36
+          ],
+          [
+            193,
+            37
+          ],
+          [
+            193,
+            38
+          ],
+          [
+            193,
+            39
+          ],
+          [
+            193,
+            40
+          ],
+          [
+            193,
+            41
+          ],
+          [
+            193,
+            42
+          ],
+          [
+            193,
+            43
+          ],
+          [
+            193,
+            44
+          ],
+          [
+            193,
+            45
+          ],
+          [
+            193,
+            46
+          ],
+          [
+            193,
+            47
+          ],
+          [
+            193,
+            48
+          ],
+          [
+            193,
+            49
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F04.1",
+        "path": [
+          [
+            312,
+            29
+          ],
+          [
+            311,
+            29
+          ],
+          [
+            310,
+            29
+          ],
+          [
+            309,
+            29
+          ],
+          [
+            308,
+            29
+          ],
+          [
+            307,
+            29
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F04.2",
+        "path": [
+          [
+            236,
+            7
+          ],
+          [
+            236,
+            8
+          ],
+          [
+            236,
+            9
+          ],
+          [
+            236,
+            10
+          ],
+          [
+            236,
+            11
+          ],
+          [
+            236,
+            12
+          ],
+          [
+            236,
+            13
+          ],
+          [
+            236,
+            14
+          ],
+          [
+            236,
+            15
+          ],
+          [
+            236,
+            16
+          ],
+          [
+            236,
+            17
+          ],
+          [
+            236,
+            18
+          ],
+          [
+            236,
+            19
+          ],
+          [
+            236,
+            20
+          ],
+          [
+            236,
+            21
+          ],
+          [
+            236,
+            22
+          ],
+          [
+            236,
+            23
+          ],
+          [
+            236,
+            24
+          ],
+          [
+            236,
+            25
+          ],
+          [
+            236,
+            26
+          ],
+          [
+            236,
+            27
+          ],
+          [
+            236,
+            28
+          ],
+          [
+            236,
+            29
+          ],
+          [
+            236,
+            30
+          ],
+          [
+            236,
+            31
+          ],
+          [
+            236,
+            32
+          ],
+          [
+            236,
+            33
+          ],
+          [
+            236,
+            34
+          ],
+          [
+            236,
+            35
+          ],
+          [
+            236,
+            36
+          ],
+          [
+            236,
+            37
+          ],
+          [
+            236,
+            38
+          ],
+          [
+            236,
+            39
+          ],
+          [
+            236,
+            40
+          ],
+          [
+            236,
+            41
+          ],
+          [
+            236,
+            42
+          ],
+          [
+            236,
+            43
+          ],
+          [
+            236,
+            44
+          ],
+          [
+            236,
+            45
+          ],
+          [
+            236,
+            46
+          ],
+          [
+            236,
+            47
+          ],
+          [
+            237,
+            47
+          ],
+          [
+            238,
+            47
+          ],
+          [
+            239,
+            47
+          ],
+          [
+            240,
+            47
+          ],
+          [
+            241,
+            47
+          ],
+          [
+            242,
+            47
+          ],
+          [
+            243,
+            47
+          ],
+          [
+            244,
+            47
+          ],
+          [
+            245,
+            47
+          ],
+          [
+            246,
+            47
+          ],
+          [
+            247,
+            47
+          ],
+          [
+            248,
+            47
+          ],
+          [
+            249,
+            47
+          ],
+          [
+            250,
+            47
+          ],
+          [
+            251,
+            47
+          ],
+          [
+            252,
+            47
+          ],
+          [
+            253,
+            47
+          ],
+          [
+            254,
+            47
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F04.3",
+        "path": [
+          [
+            254,
+            47
+          ],
+          [
+            255,
+            47
+          ],
+          [
+            256,
+            47
+          ],
+          [
+            257,
+            47
+          ],
+          [
+            258,
+            47
+          ],
+          [
+            259,
+            47
+          ],
+          [
+            260,
+            47
+          ],
+          [
+            261,
+            47
+          ],
+          [
+            262,
+            47
+          ],
+          [
+            263,
+            47
+          ],
+          [
+            264,
+            47
+          ],
+          [
+            265,
+            47
+          ],
+          [
+            266,
+            47
+          ],
+          [
+            267,
+            47
+          ],
+          [
+            268,
+            47
+          ],
+          [
+            269,
+            47
+          ],
+          [
+            270,
+            47
+          ],
+          [
+            271,
+            47
+          ],
+          [
+            271,
+            48
+          ],
+          [
+            271,
+            49
+          ],
+          [
+            271,
+            50
+          ],
+          [
+            271,
+            51
+          ],
+          [
+            271,
+            52
+          ],
+          [
+            271,
+            53
+          ],
+          [
+            271,
+            54
+          ],
+          [
+            271,
+            55
+          ],
+          [
+            271,
+            56
+          ],
+          [
+            271,
+            57
+          ],
+          [
+            271,
+            58
+          ],
+          [
+            271,
+            59
+          ],
+          [
+            271,
+            60
+          ],
+          [
+            271,
+            61
+          ],
+          [
+            271,
+            62
+          ],
+          [
+            271,
+            63
+          ],
+          [
+            271,
+            64
+          ],
+          [
+            271,
+            65
+          ],
+          [
+            271,
+            66
+          ],
+          [
+            271,
+            67
+          ],
+          [
+            272,
+            67
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F05.1",
+        "path": [
+          [
+            7,
+            124
+          ],
+          [
+            8,
+            124
+          ],
+          [
+            9,
+            124
+          ],
+          [
+            10,
+            124
+          ],
+          [
+            11,
+            124
+          ],
+          [
+            12,
+            124
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F06.1",
+        "path": [
+          [
+            61,
+            208
+          ],
+          [
+            60,
+            208
+          ],
+          [
+            59,
+            208
+          ],
+          [
+            58,
+            208
+          ],
+          [
+            57,
+            208
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F06.2",
+        "path": [
+          [
+            61,
+            229
+          ],
+          [
+            60,
+            229
+          ],
+          [
+            59,
+            229
+          ],
+          [
+            58,
+            229
+          ],
+          [
+            57,
+            229
+          ],
+          [
+            56,
+            229
+          ],
+          [
+            55,
+            229
+          ],
+          [
+            54,
+            229
+          ],
+          [
+            53,
+            229
+          ],
+          [
+            52,
+            229
+          ],
+          [
+            51,
+            229
+          ],
+          [
+            50,
+            229
+          ],
+          [
+            49,
+            229
+          ],
+          [
+            48,
+            229
+          ],
+          [
+            47,
+            229
+          ],
+          [
+            46,
+            229
+          ],
+          [
+            45,
+            229
+          ],
+          [
+            44,
+            229
+          ],
+          [
+            43,
+            229
+          ],
+          [
+            42,
+            229
+          ],
+          [
+            41,
+            229
+          ],
+          [
+            40,
+            229
+          ],
+          [
+            39,
+            229
+          ],
+          [
+            38,
+            229
+          ],
+          [
+            37,
+            229
+          ],
+          [
+            36,
+            229
+          ],
+          [
+            35,
+            229
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F06.3",
+        "path": [
+          [
+            61,
+            252
+          ],
+          [
+            60,
+            252
+          ],
+          [
+            59,
+            252
+          ],
+          [
+            58,
+            252
+          ],
+          [
+            57,
+            252
+          ],
+          [
+            56,
+            252
+          ],
+          [
+            55,
+            252
+          ],
+          [
+            54,
+            252
+          ],
+          [
+            53,
+            252
+          ],
+          [
+            52,
+            252
+          ],
+          [
+            51,
+            252
+          ],
+          [
+            50,
+            252
+          ],
+          [
+            49,
+            252
+          ],
+          [
+            48,
+            252
+          ],
+          [
+            47,
+            252
+          ],
+          [
+            46,
+            252
+          ],
+          [
+            45,
+            252
+          ],
+          [
+            44,
+            252
+          ],
+          [
+            43,
+            252
+          ],
+          [
+            42,
+            252
+          ],
+          [
+            41,
+            252
+          ],
+          [
+            40,
+            252
+          ],
+          [
+            39,
+            252
+          ],
+          [
+            38,
+            252
+          ],
+          [
+            37,
+            252
+          ],
+          [
+            36,
+            252
+          ],
+          [
+            35,
+            252
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F07.1",
+        "path": [
+          [
+            113,
+            284
+          ],
+          [
+            113,
+            283
+          ],
+          [
+            113,
+            282
+          ],
+          [
+            113,
+            281
+          ],
+          [
+            113,
+            280
+          ],
+          [
+            113,
+            279
+          ],
+          [
+            113,
+            278
+          ],
+          [
+            113,
+            277
+          ],
+          [
+            113,
+            276
+          ],
+          [
+            113,
+            275
+          ]
+        ],
+        "culvert_cells": 4
+      },
+      {
+        "id": "F09.1",
+        "path": [
+          [
+            313,
+            163
+          ],
+          [
+            312,
+            163
+          ],
+          [
+            311,
+            163
+          ],
+          [
+            310,
+            163
+          ],
+          [
+            309,
+            163
+          ],
+          [
+            308,
+            163
+          ],
+          [
+            307,
+            163
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F09.2",
+        "path": [
+          [
+            313,
+            176
+          ],
+          [
+            312,
+            176
+          ],
+          [
+            311,
+            176
+          ],
+          [
+            310,
+            176
+          ],
+          [
+            309,
+            176
+          ],
+          [
+            308,
+            176
+          ],
+          [
+            307,
+            176
+          ],
+          [
+            306,
+            176
+          ],
+          [
+            305,
+            176
+          ],
+          [
+            304,
+            176
+          ],
+          [
+            303,
+            176
+          ],
+          [
+            302,
+            176
+          ],
+          [
+            301,
+            176
+          ],
+          [
+            300,
+            176
+          ],
+          [
+            299,
+            176
+          ],
+          [
+            298,
+            176
+          ],
+          [
+            297,
+            176
+          ],
+          [
+            296,
+            176
+          ],
+          [
+            295,
+            176
+          ],
+          [
+            294,
+            176
+          ],
+          [
+            293,
+            176
+          ],
+          [
+            292,
+            176
+          ],
+          [
+            291,
+            176
+          ],
+          [
+            290,
+            176
+          ],
+          [
+            289,
+            176
+          ],
+          [
+            288,
+            176
+          ],
+          [
+            287,
+            176
+          ],
+          [
+            286,
+            176
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F11.1",
+        "path": [
+          [
+            161,
+            60
+          ],
+          [
+            160,
+            60
+          ],
+          [
+            159,
+            60
+          ],
+          [
+            158,
+            60
+          ],
+          [
+            157,
+            60
+          ],
+          [
+            156,
+            60
+          ],
+          [
+            155,
+            60
+          ],
+          [
+            154,
+            60
+          ],
+          [
+            153,
+            60
+          ],
+          [
+            152,
+            60
+          ],
+          [
+            151,
+            60
+          ],
+          [
+            150,
+            60
+          ],
+          [
+            149,
+            60
+          ],
+          [
+            148,
+            60
+          ],
+          [
+            147,
+            60
+          ],
+          [
+            146,
+            60
+          ],
+          [
+            146,
+            61
+          ],
+          [
+            146,
+            62
+          ],
+          [
+            146,
+            63
+          ],
+          [
+            146,
+            64
+          ],
+          [
+            146,
+            65
+          ],
+          [
+            146,
+            66
+          ],
+          [
+            146,
+            67
+          ],
+          [
+            146,
+            68
+          ],
+          [
+            146,
+            69
+          ]
+        ],
+        "culvert_cells": 4
+      },
+      {
+        "id": "F12.1",
+        "path": [
+          [
+            61,
+            193
+          ],
+          [
+            62,
+            193
+          ],
+          [
+            63,
+            193
+          ],
+          [
+            64,
+            193
+          ],
+          [
+            65,
+            193
+          ],
+          [
+            66,
+            193
+          ],
+          [
+            67,
+            193
+          ],
+          [
+            68,
+            193
+          ]
+        ],
+        "culvert_cells": 4
+      },
+      {
+        "id": "F12.2",
+        "path": [
+          [
+            67,
+            193
+          ],
+          [
+            67,
+            192
+          ],
+          [
+            67,
+            191
+          ],
+          [
+            67,
+            190
+          ],
+          [
+            67,
+            189
+          ],
+          [
+            67,
+            188
+          ],
+          [
+            67,
+            187
+          ],
+          [
+            67,
+            186
+          ],
+          [
+            67,
+            185
+          ],
+          [
+            67,
+            184
+          ],
+          [
+            67,
+            183
+          ],
+          [
+            67,
+            182
+          ],
+          [
+            67,
+            181
+          ],
+          [
+            67,
+            180
+          ],
+          [
+            67,
+            179
+          ],
+          [
+            68,
+            179
+          ],
+          [
+            69,
+            179
+          ],
+          [
+            70,
+            179
+          ],
+          [
+            71,
+            179
+          ],
+          [
+            72,
+            179
+          ],
+          [
+            73,
+            179
+          ],
+          [
+            74,
+            179
+          ],
+          [
+            75,
+            179
+          ],
+          [
+            76,
+            179
+          ],
+          [
+            77,
+            179
+          ],
+          [
+            78,
+            179
+          ],
+          [
+            79,
+            179
+          ],
+          [
+            80,
+            179
+          ],
+          [
+            81,
+            179
+          ],
+          [
+            82,
+            179
+          ],
+          [
+            83,
+            179
+          ],
+          [
+            84,
+            179
+          ],
+          [
+            85,
+            179
+          ],
+          [
+            86,
+            179
+          ],
+          [
+            87,
+            179
+          ],
+          [
+            88,
+            179
+          ],
+          [
+            89,
+            179
+          ],
+          [
+            89,
+            180
+          ],
+          [
+            89,
+            181
+          ],
+          [
+            89,
+            182
+          ],
+          [
+            89,
+            183
+          ],
+          [
+            89,
+            184
+          ],
+          [
+            89,
+            185
+          ],
+          [
+            89,
+            186
+          ],
+          [
+            89,
+            187
+          ],
+          [
+            89,
+            188
+          ],
+          [
+            89,
+            189
+          ],
+          [
+            89,
+            190
+          ],
+          [
+            89,
+            191
+          ],
+          [
+            89,
+            192
+          ],
+          [
+            89,
+            193
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F13.1",
+        "path": [
+          [
+            113,
+            276
+          ],
+          [
+            114,
+            276
+          ],
+          [
+            115,
+            276
+          ],
+          [
+            116,
+            276
+          ],
+          [
+            117,
+            276
+          ],
+          [
+            118,
+            276
+          ],
+          [
+            119,
+            276
+          ],
+          [
+            120,
+            276
+          ],
+          [
+            121,
+            276
+          ],
+          [
+            122,
+            276
+          ],
+          [
+            123,
+            276
+          ],
+          [
+            124,
+            276
+          ],
+          [
+            125,
+            276
+          ],
+          [
+            126,
+            276
+          ],
+          [
+            127,
+            276
+          ],
+          [
+            128,
+            276
+          ],
+          [
+            129,
+            276
+          ],
+          [
+            129,
+            275
+          ],
+          [
+            129,
+            274
+          ],
+          [
+            129,
+            273
+          ],
+          [
+            129,
+            272
+          ],
+          [
+            129,
+            271
+          ],
+          [
+            129,
+            270
+          ],
+          [
+            129,
+            269
+          ],
+          [
+            129,
+            268
+          ],
+          [
+            129,
+            267
+          ],
+          [
+            129,
+            266
+          ],
+          [
+            129,
+            265
+          ],
+          [
+            129,
+            264
+          ],
+          [
+            129,
+            263
+          ],
+          [
+            129,
+            262
+          ],
+          [
+            129,
+            261
+          ],
+          [
+            129,
+            260
+          ],
+          [
+            129,
+            259
+          ],
+          [
+            129,
+            258
+          ],
+          [
+            129,
+            257
+          ],
+          [
+            129,
+            256
+          ],
+          [
+            129,
+            255
+          ],
+          [
+            129,
+            254
+          ],
+          [
+            129,
+            253
+          ],
+          [
+            129,
+            252
+          ],
+          [
+            129,
+            251
+          ],
+          [
+            129,
+            250
+          ],
+          [
+            129,
+            249
+          ],
+          [
+            129,
+            248
+          ],
+          [
+            129,
+            247
+          ],
+          [
+            129,
+            246
+          ],
+          [
+            129,
+            245
+          ],
+          [
+            129,
+            244
+          ],
+          [
+            129,
+            243
+          ],
+          [
+            129,
+            242
+          ],
+          [
+            129,
+            241
+          ],
+          [
+            129,
+            240
+          ],
+          [
+            129,
+            239
+          ],
+          [
+            129,
+            238
+          ],
+          [
+            129,
+            237
+          ],
+          [
+            129,
+            236
+          ],
+          [
+            129,
+            235
+          ],
+          [
+            129,
+            234
+          ],
+          [
+            129,
+            233
+          ],
+          [
+            129,
+            232
+          ],
+          [
+            129,
+            231
+          ],
+          [
+            129,
+            230
+          ],
+          [
+            129,
+            229
+          ],
+          [
+            129,
+            228
+          ],
+          [
+            129,
+            227
+          ],
+          [
+            129,
+            226
+          ],
+          [
+            129,
+            225
+          ],
+          [
+            129,
+            224
+          ],
+          [
+            129,
+            223
+          ],
+          [
+            129,
+            222
+          ],
+          [
+            129,
+            221
+          ],
+          [
+            129,
+            220
+          ],
+          [
+            130,
+            220
+          ],
+          [
+            131,
+            220
+          ],
+          [
+            132,
+            220
+          ],
+          [
+            133,
+            220
+          ],
+          [
+            134,
+            220
+          ],
+          [
+            135,
+            220
+          ],
+          [
+            136,
+            220
+          ],
+          [
+            137,
+            220
+          ],
+          [
+            138,
+            220
+          ],
+          [
+            139,
+            220
+          ],
+          [
+            140,
+            220
+          ]
+        ],
+        "culvert_cells": 4
+      },
+      {
+        "id": "F13.2",
+        "path": [
+          [
+            139,
+            220
+          ],
+          [
+            139,
+            221
+          ],
+          [
+            139,
+            222
+          ],
+          [
+            139,
+            223
+          ],
+          [
+            139,
+            224
+          ],
+          [
+            139,
+            225
+          ],
+          [
+            139,
+            226
+          ],
+          [
+            139,
+            227
+          ],
+          [
+            140,
+            227
+          ],
+          [
+            141,
+            227
+          ],
+          [
+            142,
+            227
+          ],
+          [
+            143,
+            227
+          ],
+          [
+            144,
+            227
+          ],
+          [
+            145,
+            227
+          ],
+          [
+            146,
+            227
+          ],
+          [
+            147,
+            227
+          ],
+          [
+            148,
+            227
+          ],
+          [
+            149,
+            227
+          ],
+          [
+            150,
+            227
+          ],
+          [
+            151,
+            227
+          ],
+          [
+            152,
+            227
+          ],
+          [
+            153,
+            227
+          ],
+          [
+            154,
+            227
+          ],
+          [
+            155,
+            227
+          ],
+          [
+            156,
+            227
+          ],
+          [
+            157,
+            227
+          ],
+          [
+            158,
+            227
+          ],
+          [
+            159,
+            227
+          ],
+          [
+            160,
+            227
+          ],
+          [
+            160,
+            226
+          ],
+          [
+            160,
+            225
+          ],
+          [
+            160,
+            224
+          ],
+          [
+            160,
+            223
+          ],
+          [
+            160,
+            222
+          ],
+          [
+            160,
+            221
+          ],
+          [
+            160,
+            220
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F14.1",
+        "path": [
+          [
+            157,
+            284
+          ],
+          [
+            157,
+            283
+          ],
+          [
+            157,
+            282
+          ],
+          [
+            157,
+            281
+          ],
+          [
+            157,
+            280
+          ],
+          [
+            157,
+            279
+          ],
+          [
+            157,
+            278
+          ],
+          [
+            157,
+            277
+          ],
+          [
+            157,
+            276
+          ],
+          [
+            157,
+            275
+          ]
+        ],
+        "culvert_cells": 4
+      },
+      {
+        "id": "F15.1",
+        "path": [
+          [
+            157,
+            276
+          ],
+          [
+            158,
+            276
+          ],
+          [
+            159,
+            276
+          ],
+          [
+            160,
+            276
+          ],
+          [
+            161,
+            276
+          ],
+          [
+            162,
+            276
+          ],
+          [
+            163,
+            276
+          ],
+          [
+            164,
+            276
+          ],
+          [
+            165,
+            276
+          ],
+          [
+            166,
+            276
+          ],
+          [
+            167,
+            276
+          ],
+          [
+            168,
+            276
+          ],
+          [
+            169,
+            276
+          ],
+          [
+            170,
+            276
+          ],
+          [
+            171,
+            276
+          ],
+          [
+            172,
+            276
+          ],
+          [
+            173,
+            276
+          ],
+          [
+            174,
+            276
+          ],
+          [
+            174,
+            275
+          ],
+          [
+            174,
+            274
+          ],
+          [
+            174,
+            273
+          ],
+          [
+            174,
+            272
+          ],
+          [
+            174,
+            271
+          ],
+          [
+            174,
+            270
+          ],
+          [
+            174,
+            269
+          ],
+          [
+            175,
+            269
+          ],
+          [
+            176,
+            269
+          ],
+          [
+            177,
+            269
+          ],
+          [
+            178,
+            269
+          ],
+          [
+            179,
+            269
+          ],
+          [
+            180,
+            269
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F16.1",
+        "path": [
+          [
+            286,
+            176
+          ],
+          [
+            285,
+            176
+          ],
+          [
+            284,
+            176
+          ],
+          [
+            283,
+            176
+          ],
+          [
+            282,
+            176
+          ],
+          [
+            281,
+            176
+          ],
+          [
+            280,
+            176
+          ],
+          [
+            279,
+            176
+          ],
+          [
+            278,
+            176
+          ],
+          [
+            277,
+            176
+          ],
+          [
+            276,
+            176
+          ],
+          [
+            275,
+            176
+          ],
+          [
+            274,
+            176
+          ],
+          [
+            273,
+            176
+          ],
+          [
+            272,
+            176
+          ],
+          [
+            271,
+            176
+          ],
+          [
+            270,
+            176
+          ],
+          [
+            269,
+            176
+          ],
+          [
+            268,
+            176
+          ],
+          [
+            267,
+            176
+          ],
+          [
+            266,
+            176
+          ],
+          [
+            265,
+            176
+          ],
+          [
+            264,
+            176
+          ],
+          [
+            263,
+            176
+          ],
+          [
+            263,
+            175
+          ],
+          [
+            263,
+            174
+          ],
+          [
+            263,
+            173
+          ],
+          [
+            263,
+            172
+          ],
+          [
+            263,
+            171
+          ],
+          [
+            263,
+            170
+          ],
+          [
+            263,
+            169
+          ],
+          [
+            263,
+            168
+          ],
+          [
+            263,
+            167
+          ],
+          [
+            263,
+            166
+          ],
+          [
+            263,
+            165
+          ],
+          [
+            262,
+            165
+          ],
+          [
+            261,
+            165
+          ],
+          [
+            260,
+            165
+          ],
+          [
+            259,
+            165
+          ],
+          [
+            258,
+            165
+          ],
+          [
+            257,
+            165
+          ],
+          [
+            256,
+            165
+          ],
+          [
+            255,
+            165
+          ],
+          [
+            254,
+            165
+          ],
+          [
+            253,
+            165
+          ],
+          [
+            252,
+            165
+          ],
+          [
+            251,
+            165
+          ],
+          [
+            250,
+            165
+          ],
+          [
+            249,
+            165
+          ],
+          [
+            248,
+            165
+          ],
+          [
+            247,
+            165
+          ],
+          [
+            246,
+            165
+          ],
+          [
+            245,
+            165
+          ],
+          [
+            244,
+            165
+          ],
+          [
+            243,
+            165
+          ],
+          [
+            242,
+            165
+          ],
+          [
+            241,
+            165
+          ],
+          [
+            240,
+            165
+          ],
+          [
+            239,
+            165
+          ],
+          [
+            238,
+            165
+          ],
+          [
+            237,
+            165
+          ],
+          [
+            236,
+            165
+          ],
+          [
+            235,
+            165
+          ],
+          [
+            234,
+            165
+          ]
+        ],
+        "culvert_cells": 4
+      },
+      {
+        "id": "F16.2",
+        "path": [
+          [
+            235,
+            165
+          ],
+          [
+            235,
+            166
+          ],
+          [
+            235,
+            167
+          ],
+          [
+            235,
+            168
+          ],
+          [
+            235,
+            169
+          ],
+          [
+            235,
+            170
+          ],
+          [
+            235,
+            171
+          ],
+          [
+            235,
+            172
+          ],
+          [
+            235,
+            173
+          ],
+          [
+            235,
+            174
+          ],
+          [
+            235,
+            175
+          ],
+          [
+            234,
+            175
+          ],
+          [
+            233,
+            175
+          ],
+          [
+            232,
+            175
+          ],
+          [
+            231,
+            175
+          ],
+          [
+            230,
+            175
+          ],
+          [
+            229,
+            175
+          ],
+          [
+            228,
+            175
+          ],
+          [
+            227,
+            175
+          ],
+          [
+            226,
+            175
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F17.1",
+        "path": [
+          [
+            48,
+            184
+          ],
+          [
+            48,
+            183
+          ],
+          [
+            48,
+            182
+          ],
+          [
+            48,
+            181
+          ],
+          [
+            48,
+            180
+          ],
+          [
+            48,
+            179
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F17.2",
+        "path": [
+          [
+            7,
+            140
+          ],
+          [
+            8,
+            140
+          ],
+          [
+            9,
+            140
+          ],
+          [
+            10,
+            140
+          ],
+          [
+            11,
+            140
+          ],
+          [
+            12,
+            140
+          ],
+          [
+            13,
+            140
+          ],
+          [
+            14,
+            140
+          ],
+          [
+            15,
+            140
+          ],
+          [
+            16,
+            140
+          ],
+          [
+            17,
+            140
+          ],
+          [
+            18,
+            140
+          ],
+          [
+            19,
+            140
+          ],
+          [
+            20,
+            140
+          ],
+          [
+            21,
+            140
+          ],
+          [
+            22,
+            140
+          ],
+          [
+            23,
+            140
+          ],
+          [
+            24,
+            140
+          ],
+          [
+            25,
+            140
+          ],
+          [
+            26,
+            140
+          ],
+          [
+            27,
+            140
+          ],
+          [
+            28,
+            140
+          ],
+          [
+            29,
+            140
+          ],
+          [
+            30,
+            140
+          ],
+          [
+            31,
+            140
+          ],
+          [
+            32,
+            140
+          ],
+          [
+            33,
+            140
+          ],
+          [
+            34,
+            140
+          ],
+          [
+            35,
+            140
+          ],
+          [
+            36,
+            140
+          ],
+          [
+            36,
+            141
+          ],
+          [
+            36,
+            142
+          ],
+          [
+            36,
+            143
+          ],
+          [
+            36,
+            144
+          ],
+          [
+            36,
+            145
+          ],
+          [
+            36,
+            146
+          ],
+          [
+            36,
+            147
+          ],
+          [
+            36,
+            148
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "F17.3",
+        "path": [
+          [
+            36,
+            184
+          ],
+          [
+            36,
+            183
+          ],
+          [
+            36,
+            182
+          ],
+          [
+            36,
+            181
+          ],
+          [
+            36,
+            180
+          ],
+          [
+            36,
+            179
+          ],
+          [
+            36,
+            178
+          ],
+          [
+            36,
+            177
+          ],
+          [
+            36,
+            176
+          ],
+          [
+            36,
+            175
+          ],
+          [
+            36,
+            174
+          ],
+          [
+            36,
+            173
+          ],
+          [
+            36,
+            172
+          ],
+          [
+            36,
+            171
+          ],
+          [
+            36,
+            170
+          ],
+          [
+            36,
+            169
+          ],
+          [
+            36,
+            168
+          ],
+          [
+            36,
+            167
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "pond",
+        "path": [
+          [
+            146,
+            68
+          ],
+          [
+            147,
+            68
+          ],
+          [
+            148,
+            68
+          ],
+          [
+            149,
+            68
+          ],
+          [
+            150,
+            68
+          ],
+          [
+            151,
+            68
+          ],
+          [
+            152,
+            68
+          ],
+          [
+            153,
+            68
+          ],
+          [
+            154,
+            68
+          ],
+          [
+            155,
+            68
+          ],
+          [
+            156,
+            68
+          ],
+          [
+            157,
+            68
+          ],
+          [
+            158,
+            68
+          ],
+          [
+            159,
+            68
+          ],
+          [
+            160,
+            68
+          ],
+          [
+            161,
+            68
+          ],
+          [
+            162,
+            68
+          ],
+          [
+            163,
+            68
+          ],
+          [
+            164,
+            68
+          ],
+          [
+            165,
+            68
+          ],
+          [
+            166,
+            68
+          ],
+          [
+            167,
+            68
+          ],
+          [
+            168,
+            68
+          ],
+          [
+            169,
+            68
+          ],
+          [
+            170,
+            68
+          ],
+          [
+            171,
+            68
+          ],
+          [
+            172,
+            68
+          ],
+          [
+            173,
+            68
+          ],
+          [
+            174,
+            68
+          ],
+          [
+            175,
+            68
+          ],
+          [
+            176,
+            68
+          ],
+          [
+            177,
+            68
+          ],
+          [
+            178,
+            68
+          ],
+          [
+            179,
+            68
+          ],
+          [
+            180,
+            68
+          ],
+          [
+            181,
+            68
+          ],
+          [
+            182,
+            68
+          ],
+          [
+            183,
+            68
+          ],
+          [
+            184,
+            68
+          ],
+          [
+            185,
+            68
+          ],
+          [
+            186,
+            68
+          ],
+          [
+            187,
+            68
+          ],
+          [
+            188,
+            68
+          ],
+          [
+            189,
+            68
+          ],
+          [
+            190,
+            68
+          ],
+          [
+            191,
+            68
+          ],
+          [
+            192,
+            68
+          ],
+          [
+            193,
+            68
+          ],
+          [
+            194,
+            68
+          ],
+          [
+            195,
+            68
+          ],
+          [
+            196,
+            68
+          ],
+          [
+            197,
+            68
+          ],
+          [
+            198,
+            68
+          ],
+          [
+            199,
+            68
+          ],
+          [
+            200,
+            68
+          ],
+          [
+            200,
+            69
+          ],
+          [
+            200,
+            70
+          ],
+          [
+            200,
+            71
+          ],
+          [
+            200,
+            72
+          ],
+          [
+            200,
+            73
+          ],
+          [
+            200,
+            74
+          ],
+          [
+            200,
+            75
+          ],
+          [
+            200,
+            76
+          ],
+          [
+            200,
+            77
+          ],
+          [
+            200,
+            78
+          ],
+          [
+            200,
+            79
+          ],
+          [
+            200,
+            80
+          ],
+          [
+            200,
+            81
+          ],
+          [
+            200,
+            82
+          ],
+          [
+            200,
+            83
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "network_repair_1",
+        "path": [
+          [
+            161,
+            7
+          ],
+          [
+            161,
+            8
+          ],
+          [
+            161,
+            9
+          ],
+          [
+            161,
+            10
+          ]
+        ],
+        "culvert_cells": 0
+      },
+      {
+        "id": "network_repair_2",
+        "path": [
+          [
+            61,
+            284
+          ],
+          [
+            61,
+            283
+          ],
+          [
+            61,
+            282
+          ],
+          [
+            61,
+            281
+          ],
+          [
+            61,
+            280
+          ],
+          [
+            61,
+            279
+          ],
+          [
+            61,
+            278
+          ]
+        ],
+        "culvert_cells": 4
+      },
+      {
+        "id": "network_repair_3",
+        "path": [
+          [
+            256,
+            165
+          ],
+          [
+            256,
+            166
+          ],
+          [
+            256,
+            167
+          ],
+          [
+            256,
+            168
+          ],
+          [
+            256,
+            169
+          ],
+          [
+            256,
+            170
+          ],
+          [
+            256,
+            171
+          ],
+          [
+            256,
+            172
+          ],
+          [
+            256,
+            173
+          ],
+          [
+            256,
+            174
+          ],
+          [
+            255,
+            174
+          ],
+          [
+            254,
+            174
+          ],
+          [
+            253,
+            174
+          ],
+          [
+            252,
+            174
+          ],
+          [
+            251,
+            174
+          ],
+          [
+            250,
+            174
+          ],
+          [
+            249,
+            174
+          ],
+          [
+            248,
+            174
+          ],
+          [
+            247,
+            174
+          ],
+          [
+            246,
+            174
+          ],
+          [
+            245,
+            174
+          ],
+          [
+            244,
+            174
+          ],
+          [
+            243,
+            174
+          ],
+          [
+            242,
+            174
+          ],
+          [
+            241,
+            174
+          ],
+          [
+            240,
+            174
+          ],
+          [
+            240,
+            173
+          ],
+          [
+            240,
+            172
+          ],
+          [
+            240,
+            171
+          ],
+          [
+            240,
+            170
+          ],
+          [
+            240,
+            169
+          ],
+          [
+            240,
+            168
+          ],
+          [
+            240,
+            167
+          ],
+          [
+            240,
+            166
+          ],
+          [
+            240,
+            165
+          ]
+        ],
+        "culvert_cells": 0
+      }
+    ],
+    "features": [
+      {
+        "type": "kitchen_garden",
+        "bounds": [
+          70,
+          117,
+          82,
+          130
+        ],
+        "id": "P4.garden.west1"
+      },
+      {
+        "type": "kitchen_garden",
+        "bounds": [
+          85,
+          117,
+          98,
+          130
+        ],
+        "id": "P4.garden.west2"
+      },
+      {
+        "type": "kitchen_garden",
+        "bounds": [
+          241,
+          153,
+          256,
+          174
+        ],
+        "id": "P4.garden.east"
+      },
+      {
+        "type": "open_farm_shelter",
+        "bounds": [
+          95,
+          146,
+          106,
+          153
+        ],
+        "id": "P4.toolshed.west"
+      },
+      {
+        "type": "open_farm_shelter",
+        "bounds": [
+          73,
+          256,
+          83,
+          264
+        ],
+        "id": "P4.southbarn"
+      },
+      {
+        "id": "P4.orchard",
+        "type": "orchard",
+        "tree_count": 13,
+        "trees": [
+          {
+            "x": 180,
+            "z": 215,
+            "height": 5,
+            "radius": 3
+          },
+          {
+            "x": 191,
+            "z": 215,
+            "height": 8,
+            "radius": 3
+          },
+          {
+            "x": 202,
+            "z": 214,
+            "height": 6,
+            "radius": 3
+          },
+          {
+            "x": 217,
+            "z": 214,
+            "height": 8,
+            "radius": 2
+          },
+          {
+            "x": 224,
+            "z": 221,
+            "height": 8,
+            "radius": 2
+          },
+          {
+            "x": 212,
+            "z": 224,
+            "height": 8,
+            "radius": 3
+          },
+          {
+            "x": 200,
+            "z": 225,
+            "height": 5,
+            "radius": 2
+          },
+          {
+            "x": 187,
+            "z": 225,
+            "height": 6,
+            "radius": 3
+          },
+          {
+            "x": 179,
+            "z": 223,
+            "height": 6,
+            "radius": 2
+          },
+          {
+            "x": 76,
+            "z": 268,
+            "height": 7,
+            "radius": 2
+          },
+          {
+            "x": 91,
+            "z": 274,
+            "height": 8,
+            "radius": 3
+          },
+          {
+            "x": 72,
+            "z": 112,
+            "height": 5,
+            "radius": 3
+          },
+          {
+            "x": 87,
+            "z": 113,
+            "height": 8,
+            "radius": 3
+          }
+        ]
+      },
+      {
+        "type": "open_farm_shelter",
+        "bounds": [
+          222,
+          242,
+          226,
+          247
+        ],
+        "id": "P4.coop"
+      },
+      {
+        "id": "P4.pen",
+        "type": "poultry_yard_without_entities",
+        "bounds": [
+          215,
+          241,
+          227,
+          253
+        ]
+      },
+      {
+        "type": "open_farm_shelter",
+        "bounds": [
+          242,
+          213,
+          251,
+          220
+        ],
+        "id": "P4.farmservice"
+      },
+      {
+        "type": "static_tractor",
+        "bounds": [
+          246,
+          222,
+          251,
+          226
+        ]
+      },
+      {
+        "type": "open_farm_shelter",
+        "bounds": [
+          224,
+          85,
+          229,
+          90
+        ],
+        "id": "P4.pumphouse"
+      }
+    ],
+    "extra_lights": [
+      [
+        100,
+        7,
+        149
+      ],
+      [
+        78,
+        8,
+        260
+      ],
+      [
+        205,
+        4,
+        220
+      ],
+      [
+        224,
+        6,
+        244
+      ],
+      [
+        246,
+        7,
+        216
+      ],
+      [
+        226,
+        6,
+        87
+      ],
+      [
+        68,
+        5,
+        130
+      ],
+      [
+        92,
+        5,
+        160
+      ],
+      [
+        69,
+        5,
+        264
+      ],
+      [
+        229,
+        5,
+        90
+      ],
+      [
+        255,
+        5,
+        225
+      ],
+      [
+        214,
+        5,
+        250
+      ]
+    ],
+    "field_steps": [
+      [
+        15,
+        2,
+        82
+      ],
+      [
+        15,
+        2,
+        13
+      ],
+      [
+        36,
+        2,
+        13
+      ],
+      [
+        73,
+        2,
+        13
+      ],
+      [
+        73,
+        2,
+        31
+      ],
+      [
+        168,
+        2,
+        13
+      ],
+      [
+        196,
+        2,
+        13
+      ],
+      [
+        196,
+        2,
+        40
+      ],
+      [
+        240,
+        2,
+        48
+      ],
+      [
+        275,
+        2,
+        48
+      ],
+      [
+        15,
+        2,
+        117
+      ],
+      [
+        15,
+        2,
+        189
+      ],
+      [
+        101,
+        2,
+        221
+      ],
+      [
+        267,
+        2,
+        152
+      ],
+      [
+        131,
+        2,
+        70
+      ],
+      [
+        71,
+        2,
+        181
+      ],
+      [
+        92,
+        2,
+        181
+      ],
+      [
+        143,
+        2,
+        214
+      ],
+      [
+        163,
+        2,
+        214
+      ],
+      [
+        220,
+        2,
+        156
+      ],
+      [
+        220,
+        2,
+        176
+      ],
+      [
+        40,
+        2,
+        142
+      ],
+      [
+        15,
+        2,
+        142
+      ],
+      [
+        15,
+        2,
+        156
+      ]
+    ],
+    "pond_cells": 367,
+    "culvert_cells": 165,
+    "house_source_blocks_changed": 0,
+    "primary_water_components": 1,
+    "network_repairs": [
+      [
+        [
+          161,
+          7
+        ],
+        [
+          161,
+          8
+        ],
+        [
+          161,
+          9
+        ],
+        [
+          161,
+          10
+        ]
+      ],
+      [
+        [
+          61,
+          284
+        ],
+        [
+          61,
+          283
+        ],
+        [
+          61,
+          282
+        ],
+        [
+          61,
+          281
+        ],
+        [
+          61,
+          280
+        ],
+        [
+          61,
+          279
+        ],
+        [
+          61,
+          278
+        ]
+      ],
+      [
+        [
+          256,
+          165
+        ],
+        [
+          256,
+          166
+        ],
+        [
+          256,
+          167
+        ],
+        [
+          256,
+          168
+        ],
+        [
+          256,
+          169
+        ],
+        [
+          256,
+          170
+        ],
+        [
+          256,
+          171
+        ],
+        [
+          256,
+          172
+        ],
+        [
+          256,
+          173
+        ],
+        [
+          256,
+          174
+        ],
+        [
+          255,
+          174
+        ],
+        [
+          254,
+          174
+        ],
+        [
+          253,
+          174
+        ],
+        [
+          252,
+          174
+        ],
+        [
+          251,
+          174
+        ],
+        [
+          250,
+          174
+        ],
+        [
+          249,
+          174
+        ],
+        [
+          248,
+          174
+        ],
+        [
+          247,
+          174
+        ],
+        [
+          246,
+          174
+        ],
+        [
+          245,
+          174
+        ],
+        [
+          244,
+          174
+        ],
+        [
+          243,
+          174
+        ],
+        [
+          242,
+          174
+        ],
+        [
+          241,
+          174
+        ],
+        [
+          240,
+          174
+        ],
+        [
+          240,
+          173
+        ],
+        [
+          240,
+          172
+        ],
+        [
+          240,
+          171
+        ],
+        [
+          240,
+          170
+        ],
+        [
+          240,
+          169
+        ],
+        [
+          240,
+          168
+        ],
+        [
+          240,
+          167
+        ],
+        [
+          240,
+          166
+        ],
+        [
+          240,
+          165
+        ]
+      ]
+    ],
+    "new_path_cells": [
+      [
+        66,
+        3,
+        259
+      ],
+      [
+        67,
+        3,
+        259
+      ],
+      [
+        68,
+        3,
+        259
+      ],
+      [
+        69,
+        3,
+        259
+      ],
+      [
+        70,
+        3,
+        259
+      ],
+      [
+        71,
+        3,
+        132
+      ],
+      [
+        71,
+        3,
+        259
+      ],
+      [
+        71,
+        3,
+        260
+      ],
+      [
+        71,
+        3,
+        261
+      ],
+      [
+        71,
+        3,
+        262
+      ],
+      [
+        71,
+        3,
+        263
+      ],
+      [
+        71,
+        3,
+        264
+      ],
+      [
+        71,
+        3,
+        265
+      ],
+      [
+        71,
+        3,
+        266
+      ],
+      [
+        71,
+        3,
+        267
+      ],
+      [
+        71,
+        3,
+        268
+      ],
+      [
+        71,
+        3,
+        269
+      ],
+      [
+        71,
+        3,
+        270
+      ],
+      [
+        71,
+        3,
+        271
+      ],
+      [
+        71,
+        3,
+        272
+      ],
+      [
+        71,
+        3,
+        273
+      ],
+      [
+        71,
+        3,
+        274
+      ],
+      [
+        71,
+        3,
+        275
+      ],
+      [
+        71,
+        3,
+        276
+      ],
+      [
+        72,
+        3,
+        132
+      ],
+      [
+        72,
+        3,
+        259
+      ],
+      [
+        72,
+        3,
+        260
+      ],
+      [
+        72,
+        3,
+        261
+      ],
+      [
+        72,
+        3,
+        262
+      ],
+      [
+        72,
+        3,
+        263
+      ],
+      [
+        72,
+        3,
+        264
+      ],
+      [
+        72,
+        3,
+        265
+      ],
+      [
+        72,
+        3,
+        266
+      ],
+      [
+        72,
+        3,
+        267
+      ],
+      [
+        72,
+        3,
+        268
+      ],
+      [
+        72,
+        3,
+        269
+      ],
+      [
+        72,
+        3,
+        270
+      ],
+      [
+        72,
+        3,
+        271
+      ],
+      [
+        72,
+        3,
+        272
+      ],
+      [
+        72,
+        3,
+        273
+      ],
+      [
+        72,
+        3,
+        274
+      ],
+      [
+        72,
+        3,
+        275
+      ],
+      [
+        72,
+        3,
+        276
+      ],
+      [
+        73,
+        3,
+        132
+      ],
+      [
+        73,
+        3,
+        276
+      ],
+      [
+        74,
+        3,
+        132
+      ],
+      [
+        74,
+        3,
+        276
+      ],
+      [
+        75,
+        3,
+        132
+      ],
+      [
+        75,
+        3,
+        276
+      ],
+      [
+        76,
+        3,
+        132
+      ],
+      [
+        76,
+        3,
+        276
+      ],
+      [
+        77,
+        3,
+        132
+      ],
+      [
+        77,
+        3,
+        276
+      ],
+      [
+        78,
+        3,
+        132
+      ],
+      [
+        78,
+        3,
+        276
+      ],
+      [
+        79,
+        3,
+        132
+      ],
+      [
+        79,
+        3,
+        276
+      ],
+      [
+        80,
+        3,
+        132
+      ],
+      [
+        80,
+        3,
+        276
+      ],
+      [
+        81,
+        3,
+        132
+      ],
+      [
+        81,
+        3,
+        276
+      ],
+      [
+        82,
+        3,
+        132
+      ],
+      [
+        82,
+        3,
+        276
+      ],
+      [
+        82,
+        3,
+        277
+      ],
+      [
+        82,
+        3,
+        278
+      ],
+      [
+        82,
+        3,
+        279
+      ],
+      [
+        82,
+        3,
+        280
+      ],
+      [
+        83,
+        3,
+        132
+      ],
+      [
+        83,
+        3,
+        276
+      ],
+      [
+        83,
+        3,
+        277
+      ],
+      [
+        83,
+        3,
+        278
+      ],
+      [
+        83,
+        3,
+        279
+      ],
+      [
+        83,
+        3,
+        280
+      ],
+      [
+        84,
+        3,
+        132
+      ],
+      [
+        85,
+        3,
+        132
+      ],
+      [
+        86,
+        3,
+        132
+      ],
+      [
+        87,
+        3,
+        132
+      ],
+      [
+        88,
+        3,
+        132
+      ],
+      [
+        89,
+        3,
+        132
+      ],
+      [
+        89,
+        3,
+        155
+      ],
+      [
+        90,
+        3,
+        132
+      ],
+      [
+        90,
+        3,
+        155
+      ],
+      [
+        91,
+        3,
+        132
+      ],
+      [
+        91,
+        3,
+        155
+      ],
+      [
+        91,
+        3,
+        156
+      ],
+      [
+        91,
+        3,
+        157
+      ],
+      [
+        91,
+        3,
+        158
+      ],
+      [
+        92,
+        3,
+        132
+      ],
+      [
+        92,
+        3,
+        155
+      ],
+      [
+        92,
+        3,
+        156
+      ],
+      [
+        92,
+        3,
+        157
+      ],
+      [
+        92,
+        3,
+        158
+      ],
+      [
+        93,
+        3,
+        132
+      ],
+      [
+        93,
+        3,
+        158
+      ],
+      [
+        94,
+        3,
+        132
+      ],
+      [
+        94,
+        3,
+        158
+      ],
+      [
+        95,
+        3,
+        132
+      ],
+      [
+        95,
+        3,
+        158
+      ],
+      [
+        96,
+        3,
+        132
+      ],
+      [
+        96,
+        3,
+        158
+      ],
+      [
+        97,
+        3,
+        132
+      ],
+      [
+        97,
+        3,
+        158
+      ],
+      [
+        98,
+        3,
+        132
+      ],
+      [
+        98,
+        3,
+        158
+      ],
+      [
+        99,
+        3,
+        132
+      ],
+      [
+        99,
+        3,
+        158
+      ],
+      [
+        100,
+        3,
+        132
+      ],
+      [
+        100,
+        3,
+        158
+      ],
+      [
+        101,
+        3,
+        132
+      ],
+      [
+        101,
+        3,
+        158
+      ],
+      [
+        102,
+        3,
+        132
+      ],
+      [
+        102,
+        3,
+        158
+      ],
+      [
+        103,
+        3,
+        158
+      ],
+      [
+        104,
+        3,
+        158
+      ],
+      [
+        105,
+        3,
+        158
+      ],
+      [
+        106,
+        3,
+        158
+      ],
+      [
+        107,
+        3,
+        158
+      ],
+      [
+        108,
+        3,
+        158
+      ],
+      [
+        109,
+        3,
+        158
+      ],
+      [
+        207,
+        3,
+        207
+      ],
+      [
+        207,
+        3,
+        208
+      ],
+      [
+        207,
+        3,
+        209
+      ],
+      [
+        207,
+        3,
+        210
+      ],
+      [
+        207,
+        3,
+        211
+      ],
+      [
+        207,
+        3,
+        212
+      ],
+      [
+        207,
+        3,
+        213
+      ],
+      [
+        207,
+        3,
+        214
+      ],
+      [
+        207,
+        3,
+        215
+      ],
+      [
+        207,
+        3,
+        216
+      ],
+      [
+        207,
+        3,
+        217
+      ],
+      [
+        207,
+        3,
+        218
+      ],
+      [
+        207,
+        3,
+        219
+      ],
+      [
+        207,
+        3,
+        220
+      ],
+      [
+        207,
+        3,
+        221
+      ],
+      [
+        208,
+        3,
+        207
+      ],
+      [
+        208,
+        3,
+        208
+      ],
+      [
+        208,
+        3,
+        209
+      ],
+      [
+        208,
+        3,
+        210
+      ],
+      [
+        208,
+        3,
+        211
+      ],
+      [
+        208,
+        3,
+        212
+      ],
+      [
+        208,
+        3,
+        213
+      ],
+      [
+        208,
+        3,
+        214
+      ],
+      [
+        208,
+        3,
+        215
+      ],
+      [
+        208,
+        3,
+        216
+      ],
+      [
+        208,
+        3,
+        217
+      ],
+      [
+        208,
+        3,
+        218
+      ],
+      [
+        208,
+        3,
+        219
+      ],
+      [
+        208,
+        3,
+        220
+      ],
+      [
+        208,
+        3,
+        221
+      ],
+      [
+        209,
+        3,
+        221
+      ],
+      [
+        210,
+        3,
+        221
+      ],
+      [
+        211,
+        3,
+        221
+      ],
+      [
+        212,
+        3,
+        221
+      ],
+      [
+        213,
+        3,
+        221
+      ],
+      [
+        213,
+        3,
+        247
+      ],
+      [
+        214,
+        3,
+        221
+      ],
+      [
+        214,
+        3,
+        247
+      ],
+      [
+        215,
+        3,
+        221
+      ],
+      [
+        215,
+        3,
+        247
+      ],
+      [
+        216,
+        3,
+        221
+      ],
+      [
+        217,
+        3,
+        221
+      ],
+      [
+        218,
+        3,
+        221
+      ],
+      [
+        219,
+        3,
+        221
+      ],
+      [
+        219,
+        3,
+        222
+      ],
+      [
+        220,
+        3,
+        222
+      ],
+      [
+        221,
+        3,
+        222
+      ],
+      [
+        222,
+        3,
+        222
+      ],
+      [
+        222,
+        3,
+        223
+      ],
+      [
+        223,
+        3,
+        222
+      ],
+      [
+        223,
+        3,
+        223
+      ],
+      [
+        224,
+        3,
+        223
+      ],
+      [
+        225,
+        3,
+        223
+      ],
+      [
+        226,
+        3,
+        223
+      ],
+      [
+        226,
+        3,
+        224
+      ],
+      [
+        227,
+        3,
+        224
+      ],
+      [
+        228,
+        3,
+        91
+      ],
+      [
+        228,
+        3,
+        92
+      ],
+      [
+        228,
+        3,
+        93
+      ],
+      [
+        228,
+        3,
+        94
+      ],
+      [
+        228,
+        3,
+        95
+      ],
+      [
+        228,
+        3,
+        96
+      ],
+      [
+        228,
+        3,
+        97
+      ],
+      [
+        228,
+        3,
+        98
+      ],
+      [
+        228,
+        3,
+        224
+      ],
+      [
+        228,
+        3,
+        225
+      ],
+      [
+        229,
+        3,
+        91
+      ],
+      [
+        229,
+        3,
+        92
+      ],
+      [
+        229,
+        3,
+        93
+      ],
+      [
+        229,
+        3,
+        94
+      ],
+      [
+        229,
+        3,
+        95
+      ],
+      [
+        229,
+        3,
+        96
+      ],
+      [
+        229,
+        3,
+        97
+      ],
+      [
+        229,
+        3,
+        98
+      ],
+      [
+        229,
+        3,
+        224
+      ],
+      [
+        229,
+        3,
+        225
+      ],
+      [
+        230,
+        3,
+        225
+      ],
+      [
+        231,
+        3,
+        225
+      ],
+      [
+        239,
+        3,
+        207
+      ],
+      [
+        239,
+        3,
+        208
+      ],
+      [
+        239,
+        3,
+        209
+      ],
+      [
+        239,
+        3,
+        210
+      ],
+      [
+        239,
+        3,
+        211
+      ],
+      [
+        239,
+        3,
+        212
+      ],
+      [
+        239,
+        3,
+        213
+      ],
+      [
+        239,
+        3,
+        214
+      ],
+      [
+        239,
+        3,
+        215
+      ],
+      [
+        239,
+        3,
+        216
+      ],
+      [
+        239,
+        3,
+        217
+      ],
+      [
+        239,
+        3,
+        218
+      ],
+      [
+        239,
+        3,
+        219
+      ],
+      [
+        239,
+        3,
+        220
+      ],
+      [
+        239,
+        3,
+        221
+      ],
+      [
+        239,
+        3,
+        222
+      ],
+      [
+        239,
+        3,
+        223
+      ],
+      [
+        239,
+        3,
+        224
+      ],
+      [
+        239,
+        3,
+        225
+      ],
+      [
+        239,
+        3,
+        226
+      ],
+      [
+        240,
+        3,
+        207
+      ],
+      [
+        240,
+        3,
+        208
+      ],
+      [
+        240,
+        3,
+        209
+      ],
+      [
+        240,
+        3,
+        210
+      ],
+      [
+        240,
+        3,
+        211
+      ],
+      [
+        240,
+        3,
+        212
+      ],
+      [
+        240,
+        3,
+        213
+      ],
+      [
+        240,
+        3,
+        214
+      ],
+      [
+        240,
+        3,
+        215
+      ],
+      [
+        240,
+        3,
+        216
+      ],
+      [
+        240,
+        3,
+        217
+      ],
+      [
+        240,
+        3,
+        218
+      ],
+      [
+        240,
+        3,
+        219
+      ],
+      [
+        240,
+        3,
+        220
+      ],
+      [
+        240,
+        3,
+        221
+      ],
+      [
+        240,
+        3,
+        222
+      ],
+      [
+        240,
+        3,
+        223
+      ],
+      [
+        240,
+        3,
+        224
+      ],
+      [
+        240,
+        3,
+        225
+      ],
+      [
+        240,
+        3,
+        226
+      ],
+      [
+        241,
+        3,
+        226
+      ],
+      [
+        242,
+        3,
+        226
+      ],
+      [
+        243,
+        3,
+        226
+      ],
+      [
+        244,
+        3,
+        226
+      ],
+      [
+        245,
+        3,
+        226
+      ],
+      [
+        246,
+        3,
+        226
+      ],
+      [
+        247,
+        3,
+        226
+      ],
+      [
+        248,
+        3,
+        226
+      ],
+      [
+        249,
+        3,
+        174
+      ],
+      [
+        249,
+        3,
+        226
+      ],
+      [
+        250,
+        3,
+        174
+      ],
+      [
+        250,
+        3,
+        226
+      ],
+      [
+        251,
+        3,
+        174
+      ],
+      [
+        251,
+        3,
+        226
+      ],
+      [
+        252,
+        3,
+        174
+      ],
+      [
+        252,
+        3,
+        226
+      ],
+      [
+        253,
+        3,
+        174
+      ],
+      [
+        253,
+        3,
+        226
+      ],
+      [
+        254,
+        3,
+        174
+      ],
+      [
+        254,
+        3,
+        226
+      ],
+      [
+        255,
+        3,
+        174
+      ],
+      [
+        255,
+        3,
+        226
+      ],
+      [
+        256,
+        3,
+        174
+      ],
+      [
+        256,
+        3,
+        226
+      ],
+      [
+        257,
+        3,
+        174
+      ],
+      [
+        257,
+        3,
+        226
+      ],
+      [
+        258,
+        3,
+        174
+      ],
+      [
+        258,
+        3,
+        226
+      ],
+      [
+        259,
+        3,
+        174
+      ],
+      [
+        259,
+        3,
+        226
+      ]
+    ]
+  }
+}

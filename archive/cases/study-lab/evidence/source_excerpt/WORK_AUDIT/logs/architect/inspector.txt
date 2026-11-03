@@ -1,0 +1,36 @@
+test_cell_budget (test_inspect_build.InspectorTests.test_cell_budget) ... ok
+test_cli_never_overwrites_input (test_inspect_build.InspectorTests.test_cli_never_overwrites_input) ... ok
+test_cli_report_can_be_created (test_inspect_build.InspectorTests.test_cli_report_can_be_created) ... ok
+test_decoded_byte_limit (test_inspect_build.InspectorTests.test_decoded_byte_limit) ... ok
+test_duplicate_compound_keys_rejected (test_inspect_build.InspectorTests.test_duplicate_compound_keys_rejected) ... ok
+test_duplicate_coordinates_rejected (test_inspect_build.InspectorTests.test_duplicate_coordinates_rejected) ... ok
+test_empty_structure_reports_unusable (test_inspect_build.InspectorTests.test_empty_structure_reports_unusable) ... ok
+test_excess_varint_entries_rejected (test_inspect_build.InspectorTests.test_excess_varint_entries_rejected) ... ok
+test_explicit_air_is_not_absent_for_placement (test_inspect_build.InspectorTests.test_explicit_air_is_not_absent_for_placement) ... ok
+test_gzip_changes_only_binary_hash (test_inspect_build.InspectorTests.test_gzip_changes_only_binary_hash) ... ok
+test_input_file_byte_limit (test_inspect_build.InspectorTests.test_input_file_byte_limit) ... ok
+test_invalid_namespaced_id_rejected (test_inspect_build.InspectorTests.test_invalid_namespaced_id_rejected) ... ok
+test_invalid_palette_reference_rejected (test_inspect_build.InspectorTests.test_invalid_palette_reference_rejected) ... ok
+test_modified_utf8_nul_in_unused_metadata (test_inspect_build.InspectorTests.test_modified_utf8_nul_in_unused_metadata) ... ok
+test_multi_palette_not_silently_accepted (test_inspect_build.InspectorTests.test_multi_palette_not_silently_accepted) ... ok
+test_negative_list_length_rejected (test_inspect_build.InspectorTests.test_negative_list_length_rejected) ... ok
+test_other_nbt_numeric_tags_do_not_break_parser (test_inspect_build.InspectorTests.test_other_nbt_numeric_tags_do_not_break_parser) ... ok
+test_out_of_bounds_rejected (test_inspect_build.InspectorTests.test_out_of_bounds_rejected) ... ok
+test_overlong_varint_rejected (test_inspect_build.InspectorTests.test_overlong_varint_rejected) ... ok
+test_palette_order_does_not_change_voxel_hash (test_inspect_build.InspectorTests.test_palette_order_does_not_change_voxel_hash) ... ok
+test_property_order_is_canonicalized (test_inspect_build.InspectorTests.test_property_order_is_canonicalized) ... ok
+test_raw_structure_counts (test_inspect_build.InspectorTests.test_raw_structure_counts) ... ok
+test_roi_reports_changes_outside_target (test_inspect_build.InspectorTests.test_roi_reports_changes_outside_target) ... ok
+test_sponge_v2_axis_order (test_inspect_build.InspectorTests.test_sponge_v2_axis_order) ... ok
+test_sponge_v3_nested (test_inspect_build.InspectorTests.test_sponge_v3_nested) ... ok
+test_structure_void_is_not_counted_as_building (test_inspect_build.InspectorTests.test_structure_void_is_not_counted_as_building) ... ok
+test_trailing_nbt_data_rejected (test_inspect_build.InspectorTests.test_trailing_nbt_data_rejected) ... ok
+test_truncated_gzip_rejected (test_inspect_build.InspectorTests.test_truncated_gzip_rejected) ... ok
+test_truncated_varint_rejected (test_inspect_build.InspectorTests.test_truncated_varint_rejected) ... ok
+test_unknown_format_rejected (test_inspect_build.InspectorTests.test_unknown_format_rejected) ... ok
+test_varint_over_127 (test_inspect_build.InspectorTests.test_varint_over_127) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.528s
+
+OK

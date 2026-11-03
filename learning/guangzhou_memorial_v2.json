@@ -1,0 +1,61 @@
+{
+  "case": "guangzhou_memorial",
+  "baseline": "V1_r03",
+  "revision": "V2",
+  "engine": "HAF 0.2",
+  "not_model_weight_training": true,
+  "user_feedback_image": "history/user_feedback_v1.png",
+  "lessons": [
+    {
+      "problem": "Large voxel lettering distorted plaque proportion",
+      "rule": "Determine sign envelope from the facade first; when letters exceed it, use single-block symbol marks",
+      "consumer": "src/build_case_v2.py: repair plaque",
+      "validation": "small_symbolic_plaque",
+      "scope": "case implementation; user preference applies to later small signs too"
+    },
+    {
+      "problem": "Eight column bases had no floor directly below",
+      "rule": "Check the complete support footprint and connect porch floor, stair landing and hall doorway",
+      "consumer": "repair platform + soffit",
+      "validation": [
+        "column_base_bearing",
+        "portico_landing_continuity",
+        "porch_to_hall_path"
+      ],
+      "scope": "block geometry, game collision still pending"
+    },
+    {
+      "problem": "Independent roof parts did not close shared junctions",
+      "rule": "Define shared roof boundary surfaces and recessed enclosure; check all symmetric instances",
+      "consumer": "repair four upper roof junctions",
+      "validation": [
+        "four_roof_corner_connections",
+        "corner_recessed_enclosure"
+      ],
+      "scope": "case-specific estimated roof geometry"
+    },
+    {
+      "problem": "Octagonal band floated above roof; polygon fill left diagonal raster gaps",
+      "rule": "Validate and support final discretized boundary cells, not only ideal continuous geometry",
+      "consumer": "repair central apron union actual clerestory bases",
+      "validation": "clerestory_bottom_sealed",
+      "scope": "same case; cross-building validation needed"
+    },
+    {
+      "problem": "Previous file/geometry tests passed despite visible defects",
+      "rule": "Turn each user-observed defect into a final-output check and run it against the preserved failing baseline",
+      "consumer": "src/validate_repairs.py",
+      "validation": "paired V1 negative control and V2 regression",
+      "scope": "8 new geometry checks are not 8 buildings or aesthetic tests"
+    }
+  ],
+  "validation": {
+    "final_run": "V2_r02",
+    "new_checks_passed": 8,
+    "negative_control_detected": 8,
+    "changed_cells": 14683,
+    "outside_authorized_regions": 0,
+    "game": "pending",
+    "user_fidelity": "pending"
+  }
+}

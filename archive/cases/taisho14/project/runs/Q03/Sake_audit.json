@@ -1,0 +1,56 @@
+{
+  "source_nbt_sha256": "050c4fa0ecd773906711f0e933fd251d5ac29c962918604399214132faa00ee6",
+  "non_air": 3313,
+  "entries": [
+    {
+      "id": "Sake",
+      "pos": [
+        10,
+        3,
+        20
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 3,
+  "use_checks": [
+    {
+      "id": "Sake.entry",
+      "pos": [
+        10,
+        3,
+        19
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Sake.counter",
+      "pos": [
+        10,
+        3,
+        15
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Sake.stock",
+      "pos": [
+        10,
+        3,
+        7
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 53,
+  "paintings": 0,
+  "official_model_states": 44,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

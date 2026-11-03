@@ -1,0 +1,19 @@
+{
+  "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+  "day_night": "same immutable lighting layout, actual sun/time change in vanilla client",
+  "fixture_connection": "street lamp arm bottom slabs touch lamp heads; solid joint touches posts",
+  "audited_models": 44,
+  "game_capture_target_pairs": 23,
+  "screenshots": "built-in F2; original PNG; no resizing/recompression",
+  "remaining_visual_limitations": [
+    "原版无光影，灯光传播为原版效果",
+    "按户亮灯是设计快照，不包含自动开关电路",
+    "未逐户操作全部家具容器"
+  ],
+  "sample_shop_status": {
+    "E4": "closing: two retained work lights; dining lights off",
+    "E2": "open: convenience shop shelving and display",
+    "D4": "open: side repair shop plus original grocery",
+    "E1": "open: north-facing shop and west-facing tea counter"
+  }
+}

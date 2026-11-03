@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),path=require('path'),crypto=require('crypto');
+const root=path.resolve(__dirname,'..'),h=fs.readFileSync(path.join(root,'delivery/Taisho12.html'),'utf8');
+const scripts=[...h.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m=>m[1]);
+class El { constructor(){this.children=[];this.value='all';this.dataset={};this.classList={toggle(){}};} append(...x){this.children.push(...x);} showModal(){} close(){} click(){} }
+const els={};const ctx=vm.createContext({document:{getElementById:id=>els[id]??=new El(),createElement:()=>new El(),createTextNode:t=>({textContent:t}),querySelectorAll:()=>[]},console});
+scripts.forEach(s=>vm.runInContext(s,ctx));const g=vm.runInContext('GALLERY',ctx),blobs=vm.runInContext('BLOBS',ctx);let count=0;
+for(const group of Object.keys(g)){vm.runInContext(`choose(${JSON.stringify(group)})`,ctx);for(const view of Object.keys(g[group])){vm.runInContext(`show(${JSON.stringify(view)})`,ctx);if(els.mainview.src!==g[group][view].src)throw Error('view');count++;}for(const cat of ['all','human','day','night','drawing']){els.category.value=cat;vm.runInContext('render()',ctx);if(!els.mainview.src)throw Error('empty category');}}
+if(count!==92)throw Error('view count');
+let downloads=0;for(const [name,data] of Object.entries(blobs)){let target=name.endsWith('.nbt')?'runs/A06/'+name:name==='Taisho12_Spatial.json'?'runs/A06/spec.json':'delivery/'+name;let bytes=Buffer.from(data,'base64');if(!bytes.equals(fs.readFileSync(path.join(root,target))))throw Error('embedded download '+name);downloads++;}
+const ids=[...h.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);if(new Set(ids).size!==ids.length)throw Error('duplicate ids');for(const a of h.matchAll(/href="#([^"]+)"/g)){if(!ids.includes(a[1]))throw Error('anchor');}if(/<script\s+src=/.test(h))throw Error('external script');if(!h.includes('NBT SHA-256'))throw Error('hash label');if(!h.includes('BV1Dx41187iG'))throw Error('video reference');
+const result={views_checked:count,building_groups:Object.keys(g).length,embedded_downloads_exact:downloads,broken_anchors:0,duplicate_ids:0,js_execution:'pass',real_browser_layout:'not tested',game:'not run'};fs.writeFileSync(path.join(root,'runs/A06/html_check.json'),JSON.stringify(result,null,2));console.log(result);

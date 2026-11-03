@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+.work*/
+.pytest_cache/
+runs/
+!cases/**/runs/
+!cases/**/runs/**
+!archive/cases/**/runs/
+!archive/cases/**/runs/**

@@ -1,0 +1,12 @@
+{
+  "schema":"canton-v4-0.1", "parent":"V3a_r01", "target_height_blocks":280,
+  "size_xyz":[128,288,232], "tower_offset_xyz":[36,6,12],
+  "rings":{"inset_blocks":1.6,"count":46,"levels":"inherit V3a; ring slope and nonuniform real spacing not revised","evidence":["IBA_tvt05","IBA_tvt06","U04"]},
+  "plaza":{"epoch":"2024-12 opening / 2025 lighting photographs", "ground_top_y":7,"axis_x":64.5,
+    "courts":[{"id":"north","center_xz":[64.5,105.5],"radii":[21,24],"floor_y":1,"canopy_rise":5},{"id":"south","center_xz":[64.5,192.5],"radii":[20,25],"floor_y":1,"canopy_rise":3}],
+    "status":"photo-interpreted topology; footprint, position, height and curves estimated, no surveyed plan",
+    "reference_ids":["P01","P02","P03","P04","P05","P06","P07","P08","P09","P10"]},
+  "lighting":{"tower":"sea lanterns replace existing program ceiling/floor cells; sparse core lights", "site":"actual sea_lantern and shroomlight blocks", "status":"vanilla light sources exported; game performance/appearance pending"},
+  "alignment":{"plus_z":"towards south plaza in this study","geographic_azimuth_degrees":null,"tower_skp_rotation":"retained; not surveyed registration to plaza"},
+  "limits":["No measured plaza plan; government PDF could not be retrieved", "No semantic automatic reconstruction", "No continuous interior room or escalator reconstruction", "No RGB light show", "No Minecraft game test"]
+}

@@ -1,0 +1,167 @@
+{
+  "schema": "haf.memorial.case.v1",
+  "seed": 20261024,
+  "size_xyz": [
+    236,
+    108,
+    280
+  ],
+  "center_xz": [
+    118,
+    100
+  ],
+  "ground_y": 3,
+  "floor_y": 8,
+  "scale_blocks_per_m": 2,
+  "body_radius": 53,
+  "wing_wall_rects": [
+    [
+      -44,
+      30,
+      44,
+      54
+    ],
+    [
+      -41,
+      -73,
+      41,
+      -30
+    ],
+    [
+      35,
+      -35,
+      62,
+      35
+    ],
+    [
+      -62,
+      -35,
+      -35,
+      35
+    ]
+  ],
+  "entrance_columns_x": [
+    -42,
+    -30,
+    -18,
+    -6,
+    6,
+    18,
+    30,
+    42
+  ],
+  "central_roof": {
+    "radius": 44,
+    "eave_y": 72,
+    "peak_y": 97
+  },
+  "statue_xz": [
+    0,
+    117
+  ],
+  "plaque_bitmap": [
+    "000000000000000000000000000000000000",
+    "000000000001010000000000000000000000",
+    "000101000011111100011111110011111110",
+    "001000100000100100000010000000010000",
+    "010000010000111110000010000000010000",
+    "010110001001000010000011100011111110",
+    "000100000011111110000010010000111000",
+    "001000100110000010000010000000101000",
+    "011111110010110110000010000001000100"
+  ],
+  "wing_roofs": [
+    {
+      "ident": "front_lower",
+      "axis": "z",
+      "uc": 0,
+      "vc": 49,
+      "hw": 55,
+      "hd": 23,
+      "eave": 37,
+      "rise": 10,
+      "upper": false
+    },
+    {
+      "ident": "back_lower",
+      "axis": "z",
+      "uc": 0,
+      "vc": -51,
+      "hw": 50,
+      "hd": 23,
+      "eave": 37,
+      "rise": 10,
+      "upper": false
+    },
+    {
+      "ident": "east_lower",
+      "axis": "x",
+      "uc": 0,
+      "vc": 48,
+      "hw": 37,
+      "hd": 15,
+      "eave": 37,
+      "rise": 10,
+      "upper": false
+    },
+    {
+      "ident": "west_lower",
+      "axis": "x",
+      "uc": 0,
+      "vc": -48,
+      "hw": 37,
+      "hd": 15,
+      "eave": 37,
+      "rise": 10,
+      "upper": false
+    },
+    {
+      "ident": "front_upper",
+      "axis": "z",
+      "uc": 0,
+      "vc": 45,
+      "hw": 43,
+      "hd": 15,
+      "eave": 52,
+      "rise": 9,
+      "upper": true
+    },
+    {
+      "ident": "back_upper",
+      "axis": "z",
+      "uc": 0,
+      "vc": -49,
+      "hw": 43,
+      "hd": 20,
+      "eave": 52,
+      "rise": 9,
+      "upper": true
+    },
+    {
+      "ident": "east_upper",
+      "axis": "x",
+      "uc": 0,
+      "vc": 41,
+      "hw": 31,
+      "hd": 14,
+      "eave": 52,
+      "rise": 9,
+      "upper": true
+    },
+    {
+      "ident": "west_upper",
+      "axis": "x",
+      "uc": 0,
+      "vc": -41,
+      "hw": 31,
+      "hd": 14,
+      "eave": 52,
+      "rise": 9,
+      "upper": true
+    }
+  ],
+  "dimension_status": "uniform scale from official body envelope; individual levels and projection depths visually estimated",
+  "north_status": "front approximately south; previews use model axes, not surveyed bearing",
+  "plaque_note": "天下為公，按照片右至左书写；9px字形方块化，字形仍简化",
+  "revision": "r02: entry lighting, roof junctions, reproducible Chinese glyph"
+}

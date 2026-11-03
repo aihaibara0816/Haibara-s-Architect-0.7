@@ -1,0 +1,262 @@
+{
+  "release": "0.7.0",
+  "validated_source_commit": "096299273146facb125e3b1c46e8e21febae499e",
+  "workflow_run_id": 41593392313,
+  "workflow_url": "https://github.com/aihaibara0816/Haibara-s-Architect-0.7/actions/runs/41593392313",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 125775075613,
+      "name": "test (windows-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41593392313,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run python -m pip install -r requirements.txt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Run python -X utf8 -m unittest discover -s tests -v",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py archive verify",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py scene-build examples/habitat07/reading-garden.json --runs-root runs/ci07 --run garden-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py scene-verify --runs-root runs/ci07 --run garden-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py scene-build examples/habitat07/industrial-yard.json --runs-root runs/ci07 --run industry-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py scene-verify --runs-root runs/ci07 --run industry-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py build-study --case room06 --runs-root runs/ci07 --run room-001 --seed 1145",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py demo --runs-root runs/ci --run demo-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py verify --runs-root runs/ci --run demo-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py dispatch examples/workflow06/model-call.json --runs-root runs/ci --parent demo-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py verify --runs-root runs/ci --run model-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py build-case --case elizabeth_tower --run ci-clocktower --execute",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 31
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 32
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 33
+        }
+      ]
+    },
+    {
+      "id": 125775075841,
+      "name": "test (ubuntu-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41593392313,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run python -m pip install -r requirements.txt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Run python -X utf8 -m unittest discover -s tests -v",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py archive verify",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py scene-build examples/habitat07/reading-garden.json --runs-root runs/ci07 --run garden-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py scene-verify --runs-root runs/ci07 --run garden-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py scene-build examples/habitat07/industrial-yard.json --runs-root runs/ci07 --run industry-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py scene-verify --runs-root runs/ci07 --run industry-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py build-study --case room06 --runs-root runs/ci07 --run room-001 --seed 1145",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py demo --runs-root runs/ci --run demo-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py verify --runs-root runs/ci --run demo-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py dispatch examples/workflow06/model-call.json --runs-root runs/ci --parent demo-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py verify --runs-root runs/ci --run model-001",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15
+        },
+        {
+          "name": "Run python -X utf8 tools/haf.py build-case --case elizabeth_tower --run ci-clocktower --execute",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 31
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 32
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 33
+        }
+      ]
+    }
+  ],
+  "scope": "Unit tests, archive integrity, both habitat07 scene builds/readbacks, Room06 build/audit, workflow06 compatibility and clocktower case. Publication metadata added after this tested source; production code unchanged.",
+  "game": "pending",
+  "visual": "pending",
+  "personal_skills": "not_installed_by_this_release"
+}

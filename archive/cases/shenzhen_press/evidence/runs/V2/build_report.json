@@ -1,0 +1,32 @@
+{
+  "route": "HAF",
+  "engine": "HAF mainline + SZ case adapter 0.2.0 + shared seeded lighting + Detail Lab",
+  "nbt": {
+    "file": "building.nbt",
+    "bytes": 239523,
+    "sha256": "e1aefdd2383fed8747c69c5806ab5cd367d7d91eeaf0092cd77c1a1f25176e20",
+    "listed_blocks": 87248,
+    "non_air_blocks": 87248,
+    "size_xyz": [
+      68,
+      214,
+      68
+    ],
+    "contains_explicit_air": false,
+    "geometry_sha256": "40c3c97ef692ad530a3166835af1a2a8d9dae145e78e0d1fa805c56cca6aeba1",
+    "data_version": 3955
+  },
+  "components": 1015,
+  "nbt_readback_exact_match": true,
+  "state_validation": "explicit local vanilla subset; not authoritative game registry",
+  "runtime_game_test": "pending",
+  "native_canton_pipeline_used": false,
+  "automatic_model_or_image_fusion": false,
+  "geometry_case_specific": true,
+  "limitations": [
+    "Rear facade and offices are estimated",
+    "No calibrated camera/survey data",
+    "State preview shapes approximate; no Minecraft runtime",
+    "Paper work-frame X reflected on export to respect right-handed Minecraft front orientation"
+  ]
+}

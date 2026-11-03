@@ -1,0 +1,1443 @@
+{
+  "schema_version": "1.1",
+  "packet_id": "pazhou-wechat-v2-20261025",
+  "collected_at": "2026-10-25",
+  "subject": {
+    "name": "广州琶洲微信总部",
+    "aliases": [
+      "腾讯广州大厦",
+      "Tencent Tower Guangzhou"
+    ],
+    "city": "广州",
+    "kind": "complex",
+    "identity_status": "confirmed",
+    "version": "2025竣工后实景为主",
+    "core_identifiers": [
+      "四道单侧悬挑",
+      "倾斜玻璃峡谷",
+      "跨路主裙楼"
+    ],
+    "boundary": "主楼、裙楼、两道连接、必要小场地；不含邻栋和地下层",
+    "areas": {
+      "land_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "gross_floor_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "footprint_area": {
+        "value_m2": null,
+        "fact_id": null
+      }
+    }
+  },
+  "provenance": {
+    "origin_conversation_id": null,
+    "user_input": "完整重做一版建筑HTML，另作全流程与skill能力HTML",
+    "research_status": "incomplete"
+  },
+  "sources": [
+    {
+      "source_id": "src-ajn",
+      "title": "AJN 建筑师项目页",
+      "url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "type": "architect",
+      "accessed_at": "2026-10-25",
+      "access_status": "已读；8张旧原图恢复并复看"
+    },
+    {
+      "source_id": "src-cscec",
+      "title": "中建：竣工验收",
+      "url": "https://www.cscec.com/xwzx_new/zqydt_new/202508/3897857.html",
+      "type": "builder",
+      "accessed_at": "2026-10-25",
+      "access_status": "已读；新增img-009"
+    },
+    {
+      "source_id": "src-gz",
+      "title": "广州政府：验收运营",
+      "url": "https://www.gz.gov.cn/ysgz/xwdt/ysdt/content/post_10354890.html",
+      "type": "government",
+      "accessed_at": "2026-10-25",
+      "access_status": "已读；新增img-010"
+    },
+    {
+      "source_id": "src-bim",
+      "title": "BIAD / Autodesk 2021 BIM案例",
+      "url": "https://damassets.autodesk.net/content/dam/autodesk/www/apac/zh-cn/campaigns/bim-award-cases/a05-innovative-application-of-bim-technology.pdf",
+      "type": "designer_document",
+      "accessed_at": "2026-10-25",
+      "access_status": "已读PDF第2、3页及剖透插图；设计阶段"
+    },
+    {
+      "source_id": "src-cantilever",
+      "title": "中建二局：高位悬挑施工",
+      "url": "https://2bur.cscec.com/xwzx6/gskx6/202012/3247007.html",
+      "type": "builder",
+      "accessed_at": "2026-10-25",
+      "access_status": "已读；199.6米标高与28米挑臂"
+    },
+    {
+      "source_id": "src-deka",
+      "title": "IHA / Deka 腾讯大厦介绍",
+      "url": "https://www.deka-immobilien.de/en/insights-news/international-high-rise-award/finalists/?tab70189=tencent_tower",
+      "type": "award_organizer",
+      "accessed_at": "2026-10-25",
+      "access_status": "已读；新增img-011、012；低分辨率补充"
+    },
+    {
+      "source_id": "src-nf",
+      "title": "南方日报：交付报道及项目技术负责人说明",
+      "url": "https://epaper.nfnews.com/nfdaily/html/202507/18/content_10142118.html",
+      "type": "reported_firsthand",
+      "accessed_at": "2026-10-25",
+      "access_status": "已读；平台对应14/23/32/38层；不是逐层标高测绘"
+    },
+    {
+      "source_id": "src-archi",
+      "title": "有方：AJN授权发布 / 摄影原作者",
+      "url": "https://www.archiposition.com/items/0ab77bbec4",
+      "type": "architect_authorized",
+      "accessed_at": "2026-10-25",
+      "access_status": "正文已读；12个目标图片请求超时或403，不计入看图证据"
+    },
+    {
+      "source_id": "src-gdt",
+      "title": "GDToday 夜景报道",
+      "url": "https://www.newsgd.com/node_99363c4f3b/aa4f98e421.shtml",
+      "type": "reported_firsthand",
+      "accessed_at": "2026-10-25",
+      "access_status": "正文已读；两张目标图567下载失败，不使用"
+    },
+    {
+      "source_id": "src-biad",
+      "title": "BIAD华南设计中心项目页",
+      "url": "https://www.biad-sc.com/pro/detail71.html",
+      "type": "designer",
+      "accessed_at": null,
+      "access_status": "搜索发现；打开两次超时，未用于确认尺寸"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "fact-height",
+      "kind": "fact",
+      "field": "overall_height",
+      "value": 206.75,
+      "unit": "m",
+      "status": "verified",
+      "source_ids": [
+        "src-cscec",
+        "src-gz"
+      ],
+      "image_ids": []
+    },
+    {
+      "fact_id": "fact-platforms",
+      "kind": "fact",
+      "field": "cantilever_count",
+      "value": 4,
+      "unit": "count",
+      "status": "verified",
+      "source_ids": [
+        "src-cantilever"
+      ],
+      "image_ids": [
+        "img-001",
+        "img-009"
+      ]
+    },
+    {
+      "fact_id": "fact-projection",
+      "kind": "fact",
+      "field": "top_projection",
+      "value": 28,
+      "unit": "m",
+      "status": "verified",
+      "source_ids": [
+        "src-cantilever"
+      ],
+      "image_ids": []
+    },
+    {
+      "fact_id": "fact-podium",
+      "kind": "fact",
+      "field": "podium_height",
+      "value": 45,
+      "unit": "m",
+      "status": "conflicted",
+      "conflict_group": "podium-height",
+      "source_ids": [
+        "src-bim"
+      ],
+      "image_ids": [],
+      "basis": "2021设计稿45m；旧工程采用54.05m，其竣工标高与边界未核实。本轮保持旧包络研究尺寸。"
+    },
+    {
+      "fact_id": "fact-canyon",
+      "kind": "observation",
+      "field": "inclined_canyon",
+      "value": "主楼中央存在分段倾斜的玻璃界面",
+      "status": "verified",
+      "source_ids": [
+        "src-bim"
+      ],
+      "image_ids": [
+        "img-004",
+        "img-005"
+      ]
+    },
+    {
+      "fact_id": "fact-scale",
+      "kind": "suggestion",
+      "field": "scale",
+      "value": 0.4666666666666667,
+      "status": "proposed",
+      "source_ids": [],
+      "image_ids": [],
+      "basis": "继承本建筑旧版统一比例，便于比较；不是对新建筑默认套用此比例"
+    }
+  ],
+  "components": [
+    {
+      "component_id": "frame",
+      "name": "主楼框架",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "platform",
+      "name": "四道悬挑与开口",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "soffit",
+      "name": "平台双向底格",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "bridge_ribs",
+      "name": "连桥横向梁肋",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "bridges",
+      "name": "跨路连接",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "canyon",
+      "name": "倾斜峡谷幕墙",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "facade",
+      "name": "分层幕墙",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "podium",
+      "name": "北侧裙楼",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "landscape",
+      "name": "景观",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "interior",
+      "name": "窗后伪内饰",
+      "parent_component_id": null,
+      "fact_ids": []
+    },
+    {
+      "component_id": "lighting",
+      "name": "照明",
+      "parent_component_id": null,
+      "fact_ids": []
+    }
+  ],
+  "images": [
+    {
+      "image_id": "img-001",
+      "title": "朝平台方向的整体斜视",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5607-1600x2400.jpg",
+      "page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "local_file": "images/img-001.jpg",
+      "local_sha256": "30bbbb402e6c90e79d3241a0c599abefb48d4f9b7a3e9aa65ff086c09052d5fd",
+      "sha256": "30bbbb402e6c90e79d3241a0c599abefb48d4f9b7a3e9aa65ff086c09052d5fd",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        1600,
+        2400
+      ],
+      "building_match_confirmed": true,
+      "view": "朝平台方向的整体斜视",
+      "covers": [
+        "frame",
+        "platform",
+        "facade",
+        "podium"
+      ],
+      "component_ids": [
+        "frame",
+        "platform",
+        "facade",
+        "podium"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "有方 Archiposition（AJN署名）",
+      "observation": "四道悬挑深度不同，开敞层与封闭办公段交替；未用透视像素直接测米数。"
+    },
+    {
+      "image_id": "img-002",
+      "title": "跨路裙楼与连接细节",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5944.jpg",
+      "page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "local_file": "images/img-002.jpg",
+      "local_sha256": "ad235254fa4d059445022f7cabb19332cf0099cc9e4a4f27373150de3a213ff8",
+      "sha256": "ad235254fa4d059445022f7cabb19332cf0099cc9e4a4f27373150de3a213ff8",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        9167,
+        6111
+      ],
+      "building_match_confirmed": true,
+      "view": "跨路裙楼与连接细节",
+      "covers": [
+        "podium",
+        "bridges",
+        "bridge_ribs"
+      ],
+      "component_ids": [
+        "podium",
+        "bridges",
+        "bridge_ribs"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "有方 Archiposition（AJN署名）",
+      "observation": "两侧低层体块、跨路连接及露台柱间形成多个不同高度的空隙；道路必须保留。"
+    },
+    {
+      "image_id": "img-003",
+      "title": "悬挑底板和开口",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0715-1600x1067.jpg",
+      "page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "local_file": "images/img-003.jpg",
+      "local_sha256": "5f12e838e45721aefe87ac6c59ea2797bdf03e4f7f8ea4705809f998cb3b4162",
+      "sha256": "5f12e838e45721aefe87ac6c59ea2797bdf03e4f7f8ea4705809f998cb3b4162",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        1600,
+        1067
+      ],
+      "building_match_confirmed": true,
+      "view": "悬挑底板和开口",
+      "covers": [
+        "soffit",
+        "platform"
+      ],
+      "component_ids": [
+        "soffit",
+        "platform"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "有方 Archiposition（AJN署名）",
+      "observation": "大悬挑底面呈两个方向的细密方格；中央开口与深色阴影分开辨认。"
+    },
+    {
+      "image_id": "img-004",
+      "title": "倾斜玻璃峡谷近景",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0573-1600x1091.jpg",
+      "page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "local_file": "images/img-004.jpg",
+      "local_sha256": "09264878e113fb72e3f7f3fd60a171d3ff992360cfbb978e7afaef7a46c4e2a8",
+      "sha256": "09264878e113fb72e3f7f3fd60a171d3ff992360cfbb978e7afaef7a46c4e2a8",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        1600,
+        1091
+      ],
+      "building_match_confirmed": true,
+      "view": "倾斜玻璃峡谷近景",
+      "covers": [
+        "canyon"
+      ],
+      "component_ids": [
+        "canyon"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "有方 Archiposition（AJN署名）",
+      "observation": "中央玻璃界面和两侧幕墙不在一个平面；照片不能单独确定倾角。"
+    },
+    {
+      "image_id": "img-005",
+      "title": "峡谷上望与桥接",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc0462.jpg",
+      "page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "local_file": "images/img-005.jpg",
+      "local_sha256": "26f2a6f867e4182856e8185d6d0cb75333f50a4497cbaa79c5031ed3b71c2c6d",
+      "sha256": "26f2a6f867e4182856e8185d6d0cb75333f50a4497cbaa79c5031ed3b71c2c6d",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        5232,
+        7844
+      ],
+      "building_match_confirmed": true,
+      "view": "峡谷上望与桥接",
+      "covers": [
+        "canyon",
+        "bridge_ribs"
+      ],
+      "component_ids": [
+        "canyon",
+        "bridge_ribs"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "有方 Archiposition（AJN署名）",
+      "observation": "窄桥底部的连续横肋不同于两侧平台的双向格网。"
+    },
+    {
+      "image_id": "img-006",
+      "title": "玻璃反射细节",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5317.jpg",
+      "page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "local_file": "images/img-006.jpg",
+      "local_sha256": "27aeb0c36d4567a631b00ce14e44f0419918fbeb9e8f4798a9062d6cb8c3b14a",
+      "sha256": "27aeb0c36d4567a631b00ce14e44f0419918fbeb9e8f4798a9062d6cb8c3b14a",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        9205,
+        6137
+      ],
+      "building_match_confirmed": true,
+      "view": "玻璃反射细节",
+      "covers": [
+        "facade",
+        "canyon"
+      ],
+      "component_ids": [
+        "facade",
+        "canyon"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "有方 Archiposition（AJN署名）",
+      "observation": "蓝、橙、紫成分含反射与彩色玻璃效果；不据此增加蓝色实心墙。"
+    },
+    {
+      "image_id": "img-007",
+      "title": "平台方向近正向全景（纠正旧反面标注）",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc5537.jpg",
+      "page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "local_file": "images/img-007.jpg",
+      "local_sha256": "96843f3fa3db73e8cec6d0c23ed48f7ba4fb2d3b51cdb5476aa4ad7a9df7744d",
+      "sha256": "96843f3fa3db73e8cec6d0c23ed48f7ba4fb2d3b51cdb5476aa4ad7a9df7744d",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        5564,
+        8346
+      ],
+      "building_match_confirmed": true,
+      "view": "平台方向近正向全景（纠正旧反面标注）",
+      "covers": [
+        "frame",
+        "facade",
+        "platform"
+      ],
+      "component_ids": [
+        "frame",
+        "facade",
+        "platform"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "有方 Archiposition（AJN署名）",
+      "observation": "接近平台方向的正向全景，有中央峡谷与开敞层；旧“反面”标题撤销。"
+    },
+    {
+      "image_id": "img-008",
+      "title": "整体夜景与平台灯点",
+      "image_url": "https://www.jeannouvel.com/wp-content/uploads/2017/02/dsc6057-1600x2400.jpg",
+      "page_url": "https://www.jeannouvel.com/en/projects/guangzhou-tencent/",
+      "source_ids": [
+        "src-ajn"
+      ],
+      "local_file": "images/img-008.jpg",
+      "local_sha256": "d485eee7ba9e9ae9694675d301a29d39d3d3e33ae7547f820d86b9286b48c76f",
+      "sha256": "d485eee7ba9e9ae9694675d301a29d39d3d3e33ae7547f820d86b9286b48c76f",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        1600,
+        2400
+      ],
+      "building_match_confirmed": true,
+      "view": "整体夜景与平台灯点",
+      "covers": [
+        "soffit",
+        "lighting"
+      ],
+      "component_ids": [
+        "soffit",
+        "lighting"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "有方 Archiposition（AJN署名）",
+      "observation": "平台底有离散点光，办公室亮暗不齐；不据此编造精确灯位和航空灯。"
+    },
+    {
+      "image_id": "img-009",
+      "title": "主裙楼较高斜视",
+      "image_url": "https://www.cscec.com/xwzx_new/zqydt_new/202508/W020250807343577424302.jpg",
+      "page_url": "https://www.cscec.com/xwzx_new/zqydt_new/202508/3897857.html",
+      "source_ids": [
+        "src-cscec"
+      ],
+      "local_file": "images/img-009.jpg",
+      "local_sha256": "c2eff6ca90b96ded933998ef66cc0ef8ca22a81b369fcd25cde517dab2a9e5a5",
+      "sha256": "c2eff6ca90b96ded933998ef66cc0ef8ca22a81b369fcd25cde517dab2a9e5a5",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        4000,
+        3000
+      ],
+      "building_match_confirmed": true,
+      "view": "主裙楼较高斜视",
+      "covers": [
+        "podium",
+        "platform",
+        "frame"
+      ],
+      "component_ids": [
+        "podium",
+        "platform",
+        "frame"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "页面未单列摄影作者",
+      "observation": "较高斜视补充裙楼屋面小体量与主裙楼空间关系；不是正交俯视。"
+    },
+    {
+      "image_id": "img-010",
+      "title": "主楼正向远景",
+      "image_url": "https://www.gz.gov.cn/img/1/1460/1460929/10354890.jpg",
+      "page_url": "https://www.gz.gov.cn/ysgz/xwdt/ysdt/content/post_10354890.html",
+      "source_ids": [
+        "src-gz"
+      ],
+      "local_file": "images/img-010.jpg",
+      "local_sha256": "1743012608af4159bacbcec27eb39ff1cb4c89b4bf7ef8de9428a8fc620bdf85",
+      "sha256": "1743012608af4159bacbcec27eb39ff1cb4c89b4bf7ef8de9428a8fc620bdf85",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        400,
+        300
+      ],
+      "building_match_confirmed": true,
+      "view": "主楼正向远景",
+      "covers": [
+        "frame",
+        "podium"
+      ],
+      "component_ids": [
+        "frame",
+        "podium"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "页面未单列摄影作者",
+      "observation": "远景复核主体、四个平台和前景裙楼的相对高度；尺寸精度有限。"
+    },
+    {
+      "image_id": "img-011",
+      "title": "中央开口与双向格网仰视",
+      "image_url": "https://www.deka-immobilien.de/ecomaXL/files/Archiposition__DSC1112.jpg?max_w=397",
+      "page_url": "https://www.deka-immobilien.de/en/insights-news/international-high-rise-award/finalists/?tab70189=tencent_tower",
+      "source_ids": [
+        "src-deka"
+      ],
+      "local_file": "images/img-011.jpg",
+      "local_sha256": "355b3e34f777bf5607f3225785f959e147bcd864a6195db52ab07ffdb37ac552",
+      "sha256": "355b3e34f777bf5607f3225785f959e147bcd864a6195db52ab07ffdb37ac552",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        397,
+        595
+      ],
+      "building_match_confirmed": true,
+      "view": "中央开口与双向格网仰视",
+      "covers": [
+        "soffit",
+        "platform",
+        "canyon"
+      ],
+      "component_ids": [
+        "soffit",
+        "platform",
+        "canyon"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确",
+          "低分辨率辅助"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "Archiposition",
+      "observation": "向上照片补充悬挑中央开口及格网连续关系，图宽397像素只作辅助。"
+    },
+    {
+      "image_id": "img-012",
+      "title": "平台方向另一斜视",
+      "image_url": "https://www.deka-immobilien.de/ecomaXL/files/Archiposition__DSC5954.jpg?max_w=397",
+      "page_url": "https://www.deka-immobilien.de/en/insights-news/international-high-rise-award/finalists/?tab70189=tencent_tower",
+      "source_ids": [
+        "src-deka"
+      ],
+      "local_file": "images/img-012.jpg",
+      "local_sha256": "a71de65280c60e793956e060049764ed95d8b40a965445e44af1ceec1a129ec3",
+      "sha256": "a71de65280c60e793956e060049764ed95d8b40a965445e44af1ceec1a129ec3",
+      "media_type": "photo",
+      "verification_state": "full_image_viewed",
+      "built_state": "constructed",
+      "checked_at": "2026-10-25",
+      "actual_pixels": [
+        397,
+        596
+      ],
+      "building_match_confirmed": true,
+      "view": "平台方向另一斜视",
+      "covers": [
+        "frame",
+        "platform"
+      ],
+      "component_ids": [
+        "frame",
+        "platform"
+      ],
+      "orientation": "工作坐标方向粗分类；无相机/北向标定",
+      "version": "竣工实景；原始拍摄日期未标定",
+      "quality": {
+        "eligible": true,
+        "assessment": "已看完整画面，适合本条观察；不是测绘图",
+        "limitations": [
+          "透视未校正",
+          "拍摄方向/日期不精确",
+          "低分辨率辅助"
+        ]
+      },
+      "license_status": "unknown",
+      "training_authorized": false,
+      "photographer": "Archiposition",
+      "observation": "与img-001相近方向的独立照片；增加互证，不增加方向覆盖。"
+    }
+  ],
+  "selection": {
+    "target_image_limit": null,
+    "consistency_checks": {
+      "same_version": true,
+      "clean_subject": false,
+      "orientation_aligned": null,
+      "layout_basis_image_ids": [
+        "img-009"
+      ],
+      "podium_closeup_image_ids": [
+        "img-002",
+        "img-009"
+      ],
+      "shell_crosscheck_image_ids": [
+        "img-001",
+        "img-007"
+      ],
+      "notes": [
+        "实景显示已建形态；部分含邻栋和遮挡",
+        "img-007旧反面标注撤销",
+        "不将12张文件当12个独立方向"
+      ]
+    },
+    "omitted_constraints": [],
+    "legacy_slots": [],
+    "core": [
+      {
+        "image_id": "img-001",
+        "purpose": "四道悬挑深度不同，开敞层与封闭办公段交替；未用透视像素直接测米数。",
+        "rationale": "补充不同视距/构件关系，不从图片数量推定覆盖"
+      },
+      {
+        "image_id": "img-007",
+        "purpose": "接近平台方向的正向全景，有中央峡谷与开敞层；旧“反面”标题撤销。",
+        "rationale": "补充不同视距/构件关系，不从图片数量推定覆盖"
+      },
+      {
+        "image_id": "img-009",
+        "purpose": "较高斜视补充裙楼屋面小体量与主裙楼空间关系；不是正交俯视。",
+        "rationale": "补充不同视距/构件关系，不从图片数量推定覆盖"
+      }
+    ],
+    "detail_groups": [
+      {
+        "component_id": "soffit",
+        "image_ids": [
+          "img-003",
+          "img-011"
+        ],
+        "purpose": "平台双向底格"
+      },
+      {
+        "component_id": "bridge_ribs",
+        "image_ids": [
+          "img-002",
+          "img-005"
+        ],
+        "purpose": "连桥横向梁肋"
+      },
+      {
+        "component_id": "canyon",
+        "image_ids": [
+          "img-004",
+          "img-006"
+        ],
+        "purpose": "倾斜峡谷幕墙"
+      },
+      {
+        "component_id": "lighting",
+        "image_ids": [
+          "img-008"
+        ],
+        "purpose": "照明"
+      },
+      {
+        "component_id": "podium",
+        "image_ids": [
+          "img-002",
+          "img-009",
+          "img-010"
+        ],
+        "purpose": "北侧裙楼"
+      }
+    ],
+    "views": [
+      {
+        "image_id": "img-001",
+        "face": "oblique",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "frame",
+          "platform",
+          "facade",
+          "podium"
+        ],
+        "duplicate_of": null,
+        "sha256": "30bbbb402e6c90e79d3241a0c599abefb48d4f9b7a3e9aa65ff086c09052d5fd"
+      },
+      {
+        "image_id": "img-002",
+        "face": "interior",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "podium",
+          "bridges",
+          "bridge_ribs"
+        ],
+        "duplicate_of": null,
+        "sha256": "ad235254fa4d059445022f7cabb19332cf0099cc9e4a4f27373150de3a213ff8"
+      },
+      {
+        "image_id": "img-003",
+        "face": "interior",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "soffit",
+          "platform"
+        ],
+        "duplicate_of": null,
+        "sha256": "5f12e838e45721aefe87ac6c59ea2797bdf03e4f7f8ea4705809f998cb3b4162"
+      },
+      {
+        "image_id": "img-004",
+        "face": "interior",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "canyon"
+        ],
+        "duplicate_of": null,
+        "sha256": "09264878e113fb72e3f7f3fd60a171d3ff992360cfbb978e7afaef7a46c4e2a8"
+      },
+      {
+        "image_id": "img-005",
+        "face": "interior",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "canyon",
+          "bridge_ribs"
+        ],
+        "duplicate_of": null,
+        "sha256": "26f2a6f867e4182856e8185d6d0cb75333f50a4497cbaa79c5031ed3b71c2c6d"
+      },
+      {
+        "image_id": "img-006",
+        "face": "interior",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "facade",
+          "canyon"
+        ],
+        "duplicate_of": null,
+        "sha256": "27aeb0c36d4567a631b00ce14e44f0419918fbeb9e8f4798a9062d6cb8c3b14a"
+      },
+      {
+        "image_id": "img-007",
+        "face": "front",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "frame",
+          "facade",
+          "platform"
+        ],
+        "duplicate_of": null,
+        "sha256": "96843f3fa3db73e8cec6d0c23ed48f7ba4fb2d3b51cdb5476aa4ad7a9df7744d"
+      },
+      {
+        "image_id": "img-008",
+        "face": "oblique",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "soffit",
+          "lighting"
+        ],
+        "duplicate_of": null,
+        "sha256": "d485eee7ba9e9ae9694675d301a29d39d3d3e33ae7547f820d86b9286b48c76f"
+      },
+      {
+        "image_id": "img-009",
+        "face": "oblique",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "podium",
+          "platform",
+          "frame"
+        ],
+        "duplicate_of": null,
+        "sha256": "c2eff6ca90b96ded933998ef66cc0ef8ca22a81b369fcd25cde517dab2a9e5a5"
+      },
+      {
+        "image_id": "img-010",
+        "face": "front",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "frame",
+          "podium"
+        ],
+        "duplicate_of": null,
+        "sha256": "1743012608af4159bacbcec27eb39ff1cb4c89b4bf7ef8de9428a8fc620bdf85"
+      },
+      {
+        "image_id": "img-011",
+        "face": "interior",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "soffit",
+          "platform",
+          "canyon"
+        ],
+        "duplicate_of": null,
+        "sha256": "355b3e34f777bf5607f3225785f959e147bcd864a6195db52ab07ffdb37ac552"
+      },
+      {
+        "image_id": "img-012",
+        "face": "oblique",
+        "orientation_basis": "中央峡谷和平台可见，为局部前向；没有已标定的地理方位",
+        "layer": "mixed",
+        "occlusion": "partial",
+        "component_ids": [
+          "frame",
+          "platform"
+        ],
+        "duplicate_of": null,
+        "sha256": "a71de65280c60e793956e060049764ed95d8b40a965445e44af1ceec1a129ec3"
+      }
+    ],
+    "coverage_requirements": [
+      {
+        "face": "front",
+        "component_id": null,
+        "missing_search": "已覆盖局部前向"
+      },
+      {
+        "face": "oblique",
+        "component_id": null,
+        "missing_search": "已覆盖前向斜视"
+      },
+      {
+        "face": "back",
+        "component_id": null,
+        "missing_search": "需相反方向全高实景；不能用img-007冒充"
+      },
+      {
+        "face": "left",
+        "component_id": null,
+        "missing_search": "需纯侧立面或已标定斜视"
+      },
+      {
+        "face": "right",
+        "component_id": null,
+        "missing_search": "需纯侧立面或已标定斜视"
+      },
+      {
+        "face": "top",
+        "component_id": null,
+        "missing_search": "需真俯视/总平面；img-009不替代"
+      }
+    ]
+  },
+  "scale": {
+    "ratio_candidates": [],
+    "selected_s": 0.4666666666666667,
+    "rounding": "half_up",
+    "world_budget": {
+      "width": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "depth": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "height": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      }
+    },
+    "building_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "overall_height": {
+        "value_m": 206.75,
+        "range_m": null,
+        "fact_id": "fact-height",
+        "basis": "施工方竣工验收"
+      },
+      "architectural_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "roof_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "tip_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "site_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "conversions": [],
+    "uniform_scale_max": null,
+    "uncertainty": [
+      "主楼60×44米为旧研究试值，不是实测",
+      "裙楼54.05米采用值保留争议",
+      "1格约2.143米；2格底网间距约4.286米，明显比真实细格粗"
+    ],
+    "local_exaggerations": [
+      "栏杆玻璃高1格，约2.143米",
+      "水平末地烛长度1格，截面1/8格；并非真实LED尺寸",
+      "伪内饰按3格层间布置，不等于逐层真实房间"
+    ]
+  },
+  "prompts": {
+    "full": "广州琶洲微信总部。以img-001、img-007、img-009、img-003、img-011、img-002、img-005、img-004、img-006、img-008、img-010作为已核验实景索引。保持四道深度不等的单侧悬挑、中央分段倾斜玻璃峡谷、主裙楼跨路联系。双向平台底格与窄桥横肋分别建造；楼板退入玻璃后。高度206.75米按280/600统一量化为96格，平面和其余尺度仅研究试值。保留真实空气开口；避免把反射颜色变成实体。办公室窗后布置为伪内饰，固定平台灯与随机室内灯分开。最终从NBT回读四个45度昼夜视角和真俯视，未测部位保持待核。",
+    "short": "广州琶洲微信总部：四道悬挑、倾斜玻璃峡谷、跨路裙楼；分开双向底格与桥底横肋；资料索引img-001、img-007、img-009、img-003、img-011、img-002、img-005、img-004、img-006、img-008、img-010。按原缩尺生成研究版，缺背面与精确平面，不宣称测绘。",
+    "image_ids": [
+      "img-001",
+      "img-007",
+      "img-009",
+      "img-003",
+      "img-011",
+      "img-002",
+      "img-005",
+      "img-004",
+      "img-006",
+      "img-008",
+      "img-010"
+    ],
+    "excluded_image_ids": [
+      "img-012"
+    ]
+  },
+  "guidance": {
+    "scope": "主楼、裙楼、两道连接、必要小场地；不含邻栋和地下层",
+    "quality": "研究重建，待视觉复核",
+    "height": "总高96格",
+    "site": "示意小场地",
+    "landscape": {
+      "enabled": true,
+      "omission_reason": null,
+      "boundary": null,
+      "elements": [],
+      "reference_image_ids": [],
+      "access_connections": [],
+      "terrain_notes": null,
+      "acceptance": []
+    },
+    "interior": "窗后伪内饰，不是原始房间",
+    "lighting": "底面离散固定点灯；稳定ID室内灯；不支持真实RGB和闪烁",
+    "material_mappings": []
+  },
+  "risks": [
+    {
+      "risk": "以文件成功替代还原成功",
+      "symptom": "NBT通过但实景仍有差异",
+      "correction": "分开技术、视觉、用户和游戏检查"
+    },
+    {
+      "risk": "缩尺丢失细密模块",
+      "symptom": "底格与灯点明显粗大",
+      "correction": "明确误差，先局部验证再考虑用户确认更大比例"
+    }
+  ],
+  "staging": {
+    "required": true,
+    "reason": "保存真实阶段NBT，检查结构关系与细部是否改变",
+    "coordinate_system": {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "x_axis": "局部向右",
+      "y_axis": "竖直向上",
+      "z_axis": "局部向后",
+      "north": "地理北向未标定；前向为-Z",
+      "s": 0.4666666666666667
+    },
+    "stages": [
+      {
+        "stage_id": "s1",
+        "name": "骨架",
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "orientation": "工作坐标前向-Z",
+        "bbox": [
+          56,
+          100,
+          82
+        ],
+        "interfaces": [],
+        "acceptance": [
+          "独立NBT回读与输入场景完全一致"
+        ],
+        "readiness": "ready",
+        "component_ids": [
+          "frame",
+          "platform",
+          "soffit",
+          "bridge_ribs",
+          "bridges",
+          "canyon",
+          "facade",
+          "podium",
+          "landscape",
+          "interior",
+          "lighting"
+        ],
+        "depends_on": []
+      },
+      {
+        "stage_id": "s2",
+        "name": "幕墙连接",
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "orientation": "工作坐标前向-Z",
+        "bbox": [
+          56,
+          100,
+          82
+        ],
+        "interfaces": [],
+        "acceptance": [
+          "独立NBT回读与输入场景完全一致"
+        ],
+        "readiness": "ready",
+        "component_ids": [
+          "frame",
+          "platform",
+          "soffit",
+          "bridge_ribs",
+          "bridges",
+          "canyon",
+          "facade",
+          "podium",
+          "landscape",
+          "interior",
+          "lighting"
+        ],
+        "depends_on": [
+          "s1"
+        ]
+      },
+      {
+        "stage_id": "s3",
+        "name": "细部灯光",
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "orientation": "工作坐标前向-Z",
+        "bbox": [
+          56,
+          100,
+          82
+        ],
+        "interfaces": [],
+        "acceptance": [
+          "独立NBT回读与输入场景完全一致"
+        ],
+        "readiness": "ready",
+        "component_ids": [
+          "frame",
+          "platform",
+          "soffit",
+          "bridge_ribs",
+          "bridges",
+          "canyon",
+          "facade",
+          "podium",
+          "landscape",
+          "interior",
+          "lighting"
+        ],
+        "depends_on": [
+          "s2"
+        ]
+      }
+    ]
+  },
+  "report_sections": [
+    {
+      "number": 1,
+      "title": "建筑概览与核心识别点",
+      "content": "对象为广州腾讯大厦，保留主体、裙楼和两道连接，排除邻栋。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 2,
+      "title": "可靠尺度与Minecraft比例建议",
+      "content": "总高206.75米已核验；96格表达；主楼平面、裙楼高度、场地边界仍是研究取值。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 3,
+      "title": "设计语言/材料/幕墙",
+      "content": "区分浅色侧幕墙、前向玻璃、内部退板和倾斜中央界面；反射不变成实体。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 4,
+      "title": "参考图片候选分类",
+      "content": "12张本地已看实景；8张恢复、4张新增；两张GDToday及12张有方目标图访问失败。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 5,
+      "title": "核心参考图与覆盖分析",
+      "content": "前向、斜视、仰视和局部内部已有资料；背面、纯侧面和正交俯视仍缺。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 6,
+      "title": "完整生成提示词",
+      "content": "广州琶洲微信总部。以img-001、img-007、img-009、img-003、img-011、img-002、img-005、img-004、img-006、img-008、img-010作为已核验实景索引。保持四道深度不等的单侧悬挑、中央分段倾斜玻璃峡谷、主裙楼跨路联系。双向平台底格与窄桥横肋分别建造；楼板退入玻璃后。高度206.75米按280/600统一量化为96格，平面和其余尺度仅研究试值。保留真实空气开口；避免把反射颜色变成实体。办公室窗后布置为伪内饰，固定平台灯与随机室内灯分开。最终从NBT回读四个45度昼夜视角和真俯视，未测部位保持待核。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 7,
+      "title": "短版提示词",
+      "content": "广州琶洲微信总部：四道悬挑、倾斜玻璃峡谷、跨路裙楼；分开双向底格与桥底横肋；资料索引img-001、img-007、img-009、img-003、img-011、img-002、img-005、img-004、img-006、img-008、img-010。按原缩尺生成研究版，缺背面与精确平面，不宣称测绘。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 8,
+      "title": "规模/质量/高度/附属广场与内部空间建议",
+      "content": "保持56×100×82包络；只做小场地和窗后伪内饰，不增加周边塔楼。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 9,
+      "title": "风险与失败排查",
+      "content": "低比例导致底格、灯点、栏杆粗化；无SKP/GLB输入，图像到参数仍需人工审阅。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 10,
+      "title": "复杂项目拆分顺序",
+      "content": "实际运行按骨架、幕墙连接、细部照明导出三个NBT检查点；全量最终NBT回读后渲染和检查。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    }
+  ],
+  "experiments": [],
+  "gaps": [
+    "未取得真实可用三维模型",
+    "背面/真俯视未覆盖",
+    "裙楼45/54.05m争议保留",
+    "未进入游戏验收"
+  ]
+}

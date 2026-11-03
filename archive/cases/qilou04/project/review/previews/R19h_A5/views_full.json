@@ -1,0 +1,101 @@
+[
+  {
+    "image": "front.png",
+    "sha256": "68bc38c625e79895390dc59bd6dce5698eb9150d6ccfb3a1a372ea25fdc93b1d",
+    "source_nbt_sha256": "a57d779e695dfda43ab65625a031f71744c7d83185ed5029c53467ff2501d272",
+    "camera": {
+      "width": 1000,
+      "height": 760,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "front",
+      "eye": [
+        96.5,
+        28.0,
+        35.0
+      ],
+      "target": [
+        16.5,
+        19.0,
+        20.0
+      ],
+      "fov": 72,
+      "ortho": true,
+      "spanX": 79,
+      "spanZ": 60.04
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "front_night.png",
+    "sha256": "358558d34c502d0f42fc4b5053f1ba1b9a018c852638de12d6e20e944a938ac1",
+    "source_nbt_sha256": "a57d779e695dfda43ab65625a031f71744c7d83185ed5029c53467ff2501d272",
+    "camera": {
+      "width": 1000,
+      "height": 760,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "front_night",
+      "eye": [
+        96.5,
+        28.0,
+        35.0
+      ],
+      "target": [
+        16.5,
+        19.0,
+        20.0
+      ],
+      "fov": 72,
+      "ortho": true,
+      "spanX": 79,
+      "spanZ": 60.04,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "plan.png",
+    "sha256": "a153fb1435c49d9e73642133503ae8c01f097d117ae18c0c73114766cfa28309",
+    "source_nbt_sha256": "a57d779e695dfda43ab65625a031f71744c7d83185ed5029c53467ff2501d272",
+    "camera": {
+      "width": 1000,
+      "height": 760,
+      "concept": false,
+      "sun_day": [
+        0.6,
+        0.9,
+        0.8
+      ],
+      "id": "plan",
+      "eye": [
+        16.5,
+        150,
+        20.0
+      ],
+      "target": [
+        16.5,
+        0,
+        20.0
+      ],
+      "fov": 72,
+      "minY": 2,
+      "cutY": 5.99,
+      "ortho": true,
+      "spanX": 57.89473684210526,
+      "spanZ": 44.0
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

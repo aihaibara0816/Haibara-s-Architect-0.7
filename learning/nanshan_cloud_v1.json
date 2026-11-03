@@ -1,0 +1,54 @@
+{
+  "case": "nanshan_cloud",
+  "baseline_run": "V1_r04",
+  "engine": "HAF 0.2.0",
+  "case_adapter": "nanshan-cloud-0.1.1",
+  "category": "多塔错位 / 阶梯平台 / 双幕墙语汇 / 架空底部",
+  "learning_kind": "reviewed construction rules and case records, not neural model training",
+  "retained": [
+    "HAF state-aware partial blocks and connection solver",
+    "stable room IDs, warm/cool lamps and deterministic seed",
+    "independent NBT readback, module union, source-bound previews"
+  ],
+  "new_case_rules": [
+    {
+      "rule": "塔体与退台使用独立楼板节奏，先检查整体并集再判断外露立面",
+      "consumer": "Cloud.floors_and_skin",
+      "failure": "r01 层高错位导致玻璃面被额外楼板切割"
+    },
+    {
+      "rule": "窗间板、压边放到玻璃外层，保留连续围护",
+      "consumer": "Cloud.floors_and_skin",
+      "failure": "r02 用不透明细部替换玻璃"
+    },
+    {
+      "rule": "屋顶设备区禁止合成办公室家具/窗灯",
+      "consumer": "Cloud.interiors",
+      "failure": "r03 屋顶混入办公室陈设"
+    },
+    {
+      "rule": "前期设计图和建成照片分开，冲突时按构件取舍",
+      "consumer": "params.height_anchor / towers",
+      "failure": "早期高度和塔体差异容易被当作竣工几何"
+    }
+  ],
+  "generalization_status": "case validated offline; repeat on a second independent stepped building before promoting case assumptions to generic engine rules",
+  "limits": [
+    "真实平面与地理北",
+    "第三塔高度",
+    "隐藏空中花园深度",
+    "夜景正常模式/节庆模式差别",
+    "航空障碍灯灯位",
+    "真实办公室布局",
+    "当前渲染未加载资源包纹理",
+    "Minecraft 导入、邻接更新和可通行性待测",
+    "地面景观为范围内近似，不是园区全量还原"
+  ],
+  "next_acceptance": [
+    "用至少一个独立视角复核平台深度和第三塔高度",
+    "加载纹理后检查铁栅栏和玻璃片连接，不出现外立面网格意外变化",
+    "以相同相机复核总体轮廓、退台、塔间槽、屋顶和柱廊",
+    "游戏导入后检查灯光、楼梯连接和无意洞口"
+  ],
+  "source_manifest": "cases/nanshan_cloud/research/images.json"
+}

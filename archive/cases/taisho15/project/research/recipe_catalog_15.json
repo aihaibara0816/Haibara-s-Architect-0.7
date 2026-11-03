@@ -1,0 +1,6917 @@
+{
+  "case": "Taisho15",
+  "reusable_scope": "Program-specific recipes in organic_types.py / quarter_types.py; not universal room generation.",
+  "entries": [
+    {
+      "id": "School",
+      "form": "T_wing",
+      "size": [
+        53,
+        28,
+        34
+      ],
+      "placed_origin": [
+        100,
+        6,
+        5
+      ],
+      "rotation": 0,
+      "local_nbt_sha256": "2e78e8b1dc4f94de2cc2e9c8fb4ad102882c5646c081af418aa81b64d54e6cd6",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "櫻坂尋常学校｜学校",
+      "rooms": [
+        {
+          "id": "School.main",
+          "name": "櫻坂尋常学校｜学校",
+          "bounds": [
+            7,
+            3,
+            4,
+            30,
+            7,
+            29
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "School.upper",
+          "name": "二层功能空间",
+          "bounds": [
+            7,
+            9,
+            4,
+            30,
+            13,
+            29
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        },
+        {
+          "id": "School.wing",
+          "name": "classroom",
+          "bounds": [
+            31,
+            3,
+            11,
+            49,
+            7,
+            24
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "School.stairs.bottom",
+          "pos": [
+            4,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "School.stairs.top",
+          "pos": [
+            4,
+            9,
+            5
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "School.entry",
+          "pos": [
+            17,
+            3,
+            28
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "School.classroom.2",
+          "pos": [
+            15,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "School.teacher.2",
+          "pos": [
+            21,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "School.classroom.8",
+          "pos": [
+            15,
+            9,
+            20
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "School.teacher.8",
+          "pos": [
+            21,
+            9,
+            9
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "School.wing.classroom",
+          "pos": [
+            32,
+            3,
+            17
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "School.teacher.desk.dining_table.16_1_7",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            16,
+            3,
+            7,
+            21,
+            4,
+            8
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.10_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            3,
+            12,
+            13,
+            4,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.11_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            3,
+            14,
+            12,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.10_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            3,
+            18,
+            13,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.11_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            3,
+            20,
+            12,
+            4,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.10_1_24",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            3,
+            24,
+            13,
+            4,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.11_1_26",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            3,
+            26,
+            12,
+            4,
+            27
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.17_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            3,
+            12,
+            20,
+            4,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.18_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            3,
+            14,
+            19,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.17_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            3,
+            18,
+            20,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.18_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            3,
+            20,
+            19,
+            4,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.17_1_24",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            3,
+            24,
+            20,
+            4,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.18_1_26",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            3,
+            26,
+            19,
+            4,
+            27
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.24_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            3,
+            12,
+            27,
+            4,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.25_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            25,
+            3,
+            14,
+            26,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.24_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            3,
+            18,
+            27,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.25_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            25,
+            3,
+            20,
+            26,
+            4,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.24_1_24",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            3,
+            24,
+            27,
+            4,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.25_1_26",
+          "recipe": "seat",
+          "bounds_xyz": [
+            25,
+            3,
+            26,
+            26,
+            4,
+            27
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.class.books.bookshelf_group.28_1_5",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            28,
+            3,
+            5,
+            29,
+            7,
+            6
+          ],
+          "use_points": [
+            [
+              28,
+              3,
+              6
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.class.books.bookshelf_group.28_1_8",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            28,
+            3,
+            8,
+            29,
+            7,
+            9
+          ],
+          "use_points": [
+            [
+              28,
+              3,
+              9
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.teacher.desk.dining_table.16_1_7",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            16,
+            9,
+            7,
+            21,
+            10,
+            8
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.10_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            9,
+            12,
+            13,
+            10,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.11_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            9,
+            14,
+            12,
+            10,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.10_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            9,
+            18,
+            13,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.11_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            9,
+            20,
+            12,
+            10,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.10_1_24",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            9,
+            24,
+            13,
+            10,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.11_1_26",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            9,
+            26,
+            12,
+            10,
+            27
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.17_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            9,
+            12,
+            20,
+            10,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.18_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            9,
+            14,
+            19,
+            10,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.17_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            9,
+            18,
+            20,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.18_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            9,
+            20,
+            19,
+            10,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.17_1_24",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            9,
+            24,
+            20,
+            10,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.18_1_26",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            9,
+            26,
+            19,
+            10,
+            27
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.24_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            9,
+            12,
+            27,
+            10,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.25_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            25,
+            9,
+            14,
+            26,
+            10,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.24_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            9,
+            18,
+            27,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.25_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            25,
+            9,
+            20,
+            26,
+            10,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.pupil.desk.dining_table.24_1_24",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            9,
+            24,
+            27,
+            10,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.25_1_26",
+          "recipe": "seat",
+          "bounds_xyz": [
+            25,
+            9,
+            26,
+            26,
+            10,
+            27
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.class.books.bookshelf_group.28_1_5",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            28,
+            9,
+            5,
+            29,
+            13,
+            6
+          ],
+          "use_points": [
+            [
+              28,
+              9,
+              6
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.class.books.bookshelf_group.28_1_8",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            28,
+            9,
+            8,
+            29,
+            13,
+            9
+          ],
+          "use_points": [
+            [
+              28,
+              9,
+              9
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.wing.desk.dining_table.33_1_14",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            33,
+            3,
+            14,
+            36,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.34_1_16",
+          "recipe": "seat",
+          "bounds_xyz": [
+            34,
+            3,
+            16,
+            35,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.wing.desk.dining_table.33_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            33,
+            3,
+            19,
+            36,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.34_1_21",
+          "recipe": "seat",
+          "bounds_xyz": [
+            34,
+            3,
+            21,
+            35,
+            4,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.wing.desk.dining_table.38_1_14",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            38,
+            3,
+            14,
+            41,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.39_1_16",
+          "recipe": "seat",
+          "bounds_xyz": [
+            39,
+            3,
+            16,
+            40,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.wing.desk.dining_table.38_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            38,
+            3,
+            19,
+            41,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.39_1_21",
+          "recipe": "seat",
+          "bounds_xyz": [
+            39,
+            3,
+            21,
+            40,
+            4,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.wing.desk.dining_table.43_1_14",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            43,
+            3,
+            14,
+            46,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.44_1_16",
+          "recipe": "seat",
+          "bounds_xyz": [
+            44,
+            3,
+            16,
+            45,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.wing.desk.dining_table.43_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            43,
+            3,
+            19,
+            46,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "School.chair.seat.44_1_21",
+          "recipe": "seat",
+          "bounds_xyz": [
+            44,
+            3,
+            21,
+            45,
+            4,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 7,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Library",
+      "form": "L_wing",
+      "size": [
+        39,
+        28,
+        30
+      ],
+      "placed_origin": [
+        117,
+        1,
+        57
+      ],
+      "rotation": 90,
+      "local_nbt_sha256": "f62e6624a0453073d384d619472b0b53c66c20808be9589e701d3fdb77c08f5c",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "櫻坂文庫｜公共阅览室",
+      "rooms": [
+        {
+          "id": "Library.main",
+          "name": "櫻坂文庫｜公共阅览室",
+          "bounds": [
+            7,
+            3,
+            4,
+            22,
+            7,
+            25
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Library.upper",
+          "name": "二层功能空间",
+          "bounds": [
+            7,
+            9,
+            4,
+            22,
+            13,
+            25
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Library.wing",
+          "name": "reading",
+          "bounds": [
+            23,
+            3,
+            4,
+            35,
+            7,
+            16
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Library.stairs.bottom",
+          "pos": [
+            4,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Library.stairs.top",
+          "pos": [
+            4,
+            9,
+            5
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Library.entry",
+          "pos": [
+            13,
+            3,
+            24
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Library.reading.2",
+          "pos": [
+            14,
+            3,
+            21
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Library.browse.2",
+          "pos": [
+            14,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Library.reading.8",
+          "pos": [
+            14,
+            9,
+            21
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Library.browse.8",
+          "pos": [
+            14,
+            9,
+            11
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Library.wing.reading",
+          "pos": [
+            24,
+            3,
+            10
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Library.wall.books.bookshelf_group.8_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            3,
+            4,
+            13,
+            7,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              3,
+              5
+            ],
+            [
+              9,
+              3,
+              5
+            ],
+            [
+              10,
+              3,
+              5
+            ],
+            [
+              11,
+              3,
+              5
+            ],
+            [
+              12,
+              3,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.catalogue.bookshelf_group.8_1_12",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            3,
+            12,
+            11,
+            6,
+            13
+          ],
+          "use_points": [
+            [
+              8,
+              3,
+              13
+            ],
+            [
+              9,
+              3,
+              13
+            ],
+            [
+              10,
+              3,
+              13
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.catalogue.bookshelf_group.8_1_13",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            3,
+            13,
+            11,
+            6,
+            14
+          ],
+          "use_points": [
+            [
+              8,
+              3,
+              14
+            ],
+            [
+              9,
+              3,
+              14
+            ],
+            [
+              10,
+              3,
+              14
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.wall.books.bookshelf_group.15_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            15,
+            3,
+            4,
+            20,
+            7,
+            5
+          ],
+          "use_points": [
+            [
+              15,
+              3,
+              5
+            ],
+            [
+              16,
+              3,
+              5
+            ],
+            [
+              17,
+              3,
+              5
+            ],
+            [
+              18,
+              3,
+              5
+            ],
+            [
+              19,
+              3,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.catalogue.bookshelf_group.15_1_12",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            15,
+            3,
+            12,
+            18,
+            6,
+            13
+          ],
+          "use_points": [
+            [
+              15,
+              3,
+              13
+            ],
+            [
+              16,
+              3,
+              13
+            ],
+            [
+              17,
+              3,
+              13
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.catalogue.bookshelf_group.15_1_13",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            15,
+            3,
+            13,
+            18,
+            6,
+            14
+          ],
+          "use_points": [
+            [
+              15,
+              3,
+              14
+            ],
+            [
+              16,
+              3,
+              14
+            ],
+            [
+              17,
+              3,
+              14
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.reading.dining_table.8_1_20",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            20,
+            12,
+            4,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.8_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            3,
+            19,
+            9,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.8_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            3,
+            22,
+            9,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.11_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            3,
+            19,
+            12,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.11_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            3,
+            22,
+            12,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.reading.dining_table.16_1_20",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            16,
+            3,
+            20,
+            20,
+            4,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.16_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            16,
+            3,
+            19,
+            17,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.16_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            16,
+            3,
+            22,
+            17,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.19_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            19,
+            3,
+            19,
+            20,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.19_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            19,
+            3,
+            22,
+            20,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.wall.books.bookshelf_group.8_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            9,
+            4,
+            13,
+            13,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              9,
+              5
+            ],
+            [
+              9,
+              9,
+              5
+            ],
+            [
+              10,
+              9,
+              5
+            ],
+            [
+              11,
+              9,
+              5
+            ],
+            [
+              12,
+              9,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.catalogue.bookshelf_group.8_1_12",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            9,
+            12,
+            11,
+            12,
+            13
+          ],
+          "use_points": [
+            [
+              8,
+              9,
+              13
+            ],
+            [
+              9,
+              9,
+              13
+            ],
+            [
+              10,
+              9,
+              13
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.catalogue.bookshelf_group.8_1_13",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            9,
+            13,
+            11,
+            12,
+            14
+          ],
+          "use_points": [
+            [
+              8,
+              9,
+              14
+            ],
+            [
+              9,
+              9,
+              14
+            ],
+            [
+              10,
+              9,
+              14
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.wall.books.bookshelf_group.15_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            15,
+            9,
+            4,
+            20,
+            13,
+            5
+          ],
+          "use_points": [
+            [
+              15,
+              9,
+              5
+            ],
+            [
+              16,
+              9,
+              5
+            ],
+            [
+              17,
+              9,
+              5
+            ],
+            [
+              18,
+              9,
+              5
+            ],
+            [
+              19,
+              9,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.catalogue.bookshelf_group.15_1_12",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            15,
+            9,
+            12,
+            18,
+            12,
+            13
+          ],
+          "use_points": [
+            [
+              15,
+              9,
+              13
+            ],
+            [
+              16,
+              9,
+              13
+            ],
+            [
+              17,
+              9,
+              13
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.catalogue.bookshelf_group.15_1_13",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            15,
+            9,
+            13,
+            18,
+            12,
+            14
+          ],
+          "use_points": [
+            [
+              15,
+              9,
+              14
+            ],
+            [
+              16,
+              9,
+              14
+            ],
+            [
+              17,
+              9,
+              14
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.reading.dining_table.8_1_20",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            9,
+            20,
+            12,
+            10,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.8_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            9,
+            19,
+            9,
+            10,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.8_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            9,
+            22,
+            9,
+            10,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.11_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            9,
+            19,
+            12,
+            10,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.11_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            9,
+            22,
+            12,
+            10,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.reading.dining_table.16_1_20",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            16,
+            9,
+            20,
+            20,
+            10,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.16_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            16,
+            9,
+            19,
+            17,
+            10,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.16_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            16,
+            9,
+            22,
+            17,
+            10,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.19_1_19",
+          "recipe": "seat",
+          "bounds_xyz": [
+            19,
+            9,
+            19,
+            20,
+            10,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.19_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            19,
+            9,
+            22,
+            20,
+            10,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.wing.books.bookshelf_group.25_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            25,
+            3,
+            4,
+            30,
+            7,
+            5
+          ],
+          "use_points": [
+            [
+              25,
+              3,
+              5
+            ],
+            [
+              26,
+              3,
+              5
+            ],
+            [
+              27,
+              3,
+              5
+            ],
+            [
+              28,
+              3,
+              5
+            ],
+            [
+              29,
+              3,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.wing.reading.dining_table.25_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            25,
+            3,
+            13,
+            30,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Library.chair.seat.26_1_11",
+          "recipe": "seat",
+          "bounds_xyz": [
+            26,
+            3,
+            11,
+            27,
+            4,
+            12
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 7,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Bookshop",
+      "form": "narrow_deep",
+      "size": [
+        28,
+        28,
+        36
+      ],
+      "placed_origin": [
+        10,
+        6,
+        89
+      ],
+      "rotation": 0,
+      "local_nbt_sha256": "e251965d5ec25fbd04defde08e303142e7afc202fe7f9dc90c0152b977723a06",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "青葉書肆｜铜板门面书店",
+      "rooms": [
+        {
+          "id": "Bookshop.shop",
+          "name": "选书与结账",
+          "bounds": [
+            5,
+            3,
+            15,
+            22,
+            7,
+            27
+          ],
+          "floor_y": 3,
+          "capacity": 7,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Bookshop.service",
+          "name": "柜台与包装",
+          "bounds": [
+            9,
+            3,
+            6,
+            22,
+            7,
+            14
+          ],
+          "floor_y": 3,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Bookshop.studio",
+          "name": "编辑、阅读",
+          "bounds": [
+            8,
+            9,
+            14,
+            22,
+            13,
+            27
+          ],
+          "floor_y": 9,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Bookshop.bed",
+          "name": "店主卧室",
+          "bounds": [
+            16,
+            9,
+            6,
+            22,
+            13,
+            13
+          ],
+          "floor_y": 9,
+          "capacity": 2,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Bookshop.stairs.bottom",
+          "pos": [
+            5,
+            3,
+            14
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bookshop.stairs.top",
+          "pos": [
+            5,
+            9,
+            7
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Bookshop.browse",
+          "pos": [
+            13,
+            3,
+            21
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bookshop.counter",
+          "pos": [
+            15,
+            3,
+            10
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bookshop.packing",
+          "pos": [
+            16,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bookshop.read",
+          "pos": [
+            14,
+            9,
+            23
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Bookshop.work",
+          "pos": [
+            16,
+            9,
+            17
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Bookshop.bed",
+          "pos": [
+            20,
+            9,
+            10
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Bookshop.wall.books.bookshelf_group.5_1_18",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            5,
+            3,
+            18,
+            6,
+            7,
+            19
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              19
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.books.bookshelf_group.21_1_18",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            21,
+            3,
+            18,
+            22,
+            7,
+            19
+          ],
+          "use_points": [
+            [
+              21,
+              3,
+              19
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.books.bookshelf_group.5_1_22",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            5,
+            3,
+            22,
+            6,
+            7,
+            23
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              23
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.books.bookshelf_group.21_1_22",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            21,
+            3,
+            22,
+            22,
+            7,
+            23
+          ],
+          "use_points": [
+            [
+              21,
+              3,
+              23
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.browse.bookshelf_group.9_1_17",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            9,
+            3,
+            17,
+            11,
+            6,
+            18
+          ],
+          "use_points": [
+            [
+              9,
+              3,
+              18
+            ],
+            [
+              10,
+              3,
+              18
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.browse.bookshelf_group.9_1_18",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            9,
+            3,
+            18,
+            11,
+            6,
+            19
+          ],
+          "use_points": [
+            [
+              9,
+              3,
+              19
+            ],
+            [
+              10,
+              3,
+              19
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.browse.bookshelf_group.16_1_17",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            16,
+            3,
+            17,
+            18,
+            6,
+            18
+          ],
+          "use_points": [
+            [
+              16,
+              3,
+              18
+            ],
+            [
+              17,
+              3,
+              18
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.browse.bookshelf_group.16_1_18",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            16,
+            3,
+            18,
+            18,
+            6,
+            19
+          ],
+          "use_points": [
+            [
+              16,
+              3,
+              19
+            ],
+            [
+              17,
+              3,
+              19
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.packing.dining_table.13_1_6",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            13,
+            3,
+            6,
+            18,
+            4,
+            7
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.archive.bookshelf_group.19_1_6",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            19,
+            3,
+            6,
+            21,
+            7,
+            7
+          ],
+          "use_points": [
+            [
+              19,
+              3,
+              7
+            ],
+            [
+              20,
+              3,
+              7
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.window.display.dining_table.7_1_25",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            7,
+            3,
+            25,
+            10,
+            4,
+            26
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.run.bookshelf_group.5_1_19",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            5,
+            3,
+            19,
+            6,
+            7,
+            20
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              20
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.run.bookshelf_group.21_1_19",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            21,
+            3,
+            19,
+            22,
+            7,
+            20
+          ],
+          "use_points": [
+            [
+              21,
+              3,
+              20
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.run.bookshelf_group.5_1_20",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            5,
+            3,
+            20,
+            6,
+            7,
+            21
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              21
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.run.bookshelf_group.21_1_20",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            21,
+            3,
+            20,
+            22,
+            7,
+            21
+          ],
+          "use_points": [
+            [
+              21,
+              3,
+              21
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.run.bookshelf_group.5_1_23",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            5,
+            3,
+            23,
+            6,
+            7,
+            24
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              24
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.run.bookshelf_group.21_1_23",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            21,
+            3,
+            23,
+            22,
+            7,
+            24
+          ],
+          "use_points": [
+            [
+              21,
+              3,
+              24
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.run.bookshelf_group.5_1_24",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            5,
+            3,
+            24,
+            6,
+            7,
+            25
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              25
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.wall.run.bookshelf_group.21_1_24",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            21,
+            3,
+            24,
+            22,
+            7,
+            25
+          ],
+          "use_points": [
+            [
+              21,
+              3,
+              25
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.new.books.dining_table.11_1_23",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            11,
+            3,
+            23,
+            15,
+            4,
+            24
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.bed.bed.18_1_8",
+          "recipe": "bed",
+          "bounds_xyz": [
+            18,
+            9,
+            8,
+            19,
+            10,
+            10
+          ],
+          "use_points": [
+            [
+              19,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bookshop.bed.bed.19_1_8",
+          "recipe": "bed",
+          "bounds_xyz": [
+            19,
+            9,
+            8,
+            20,
+            10,
+            10
+          ],
+          "use_points": [
+            [
+              20,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bookshop.wardrobe.storage_container.20_1_6",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            20,
+            9,
+            6,
+            21,
+            10,
+            7
+          ],
+          "use_points": [
+            [
+              20,
+              9,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bookshop.wardrobe.storage_container.20_2_6",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            20,
+            10,
+            6,
+            21,
+            11,
+            7
+          ],
+          "use_points": [
+            [
+              20,
+              9,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bookshop.wardrobe.storage_container.21_1_6",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            21,
+            9,
+            6,
+            22,
+            10,
+            7
+          ],
+          "use_points": [
+            [
+              21,
+              9,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bookshop.wardrobe.storage_container.21_2_6",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            21,
+            10,
+            6,
+            22,
+            11,
+            7
+          ],
+          "use_points": [
+            [
+              21,
+              9,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bookshop.wardrobe.storage_wall.20_1_6",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            20,
+            9,
+            6,
+            22,
+            12,
+            7
+          ],
+          "use_points": [
+            [
+              20,
+              9,
+              7
+            ],
+            [
+              21,
+              9,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bookshop.upper.archive.bookshelf_group.8_1_6",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            9,
+            6,
+            14,
+            13,
+            7
+          ],
+          "use_points": [
+            [
+              8,
+              9,
+              7
+            ],
+            [
+              9,
+              9,
+              7
+            ],
+            [
+              10,
+              9,
+              7
+            ],
+            [
+              11,
+              9,
+              7
+            ],
+            [
+              12,
+              9,
+              7
+            ],
+            [
+              13,
+              9,
+              7
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.editorial.dining_table.10_1_16",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            9,
+            16,
+            15,
+            10,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.chair.seat.10_1_15",
+          "recipe": "seat",
+          "bounds_xyz": [
+            10,
+            9,
+            15,
+            11,
+            10,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.chair.seat.10_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            10,
+            9,
+            18,
+            11,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.chair.seat.14_1_15",
+          "recipe": "seat",
+          "bounds_xyz": [
+            14,
+            9,
+            15,
+            15,
+            10,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.chair.seat.14_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            14,
+            9,
+            18,
+            15,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.tea.low_table.9_1_22",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            9,
+            9,
+            22,
+            13,
+            10,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.shelf.bookshelf_group.21_1_17",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            21,
+            9,
+            17,
+            22,
+            13,
+            18
+          ],
+          "use_points": [
+            [
+              21,
+              9,
+              18
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bookshop.shelf.bookshelf_group.21_1_21",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            21,
+            9,
+            21,
+            22,
+            13,
+            22
+          ],
+          "use_points": [
+            [
+              21,
+              9,
+              22
+            ]
+          ],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 9,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Textile",
+      "form": "compact_street_house",
+      "size": [
+        20,
+        28,
+        26
+      ],
+      "placed_origin": [
+        206,
+        6,
+        111
+      ],
+      "rotation": 0,
+      "local_nbt_sha256": "a4c08fd9e77ae3ab6ef53a4183e3ae0f6cb849923f708641d24573402c1c608c",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "紺屋呉服店｜布料店",
+      "rooms": [
+        {
+          "id": "Textile.main",
+          "name": "紺屋呉服店｜布料店",
+          "bounds": [
+            7,
+            3,
+            4,
+            16,
+            7,
+            21
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Textile.upper",
+          "name": "二层功能空间",
+          "bounds": [
+            7,
+            9,
+            4,
+            16,
+            13,
+            21
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Textile.stairs.bottom",
+          "pos": [
+            4,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Textile.stairs.top",
+          "pos": [
+            4,
+            9,
+            5
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Textile.entry",
+          "pos": [
+            10,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Textile.cutting",
+          "pos": [
+            13,
+            3,
+            14
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Textile.upper.work",
+          "pos": [
+            13,
+            9,
+            15
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Textile.upper.bed",
+          "pos": [
+            12,
+            9,
+            8
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Textile.cutting.dining_table.8_1_11",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            11,
+            13,
+            4,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Textile.bed.bed.11_1_6",
+          "recipe": "bed",
+          "bounds_xyz": [
+            11,
+            9,
+            6,
+            12,
+            10,
+            8
+          ],
+          "use_points": [
+            [
+              12,
+              9,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Textile.wardrobe.storage_container.14_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            9,
+            4,
+            15,
+            10,
+            5
+          ],
+          "use_points": [
+            [
+              14,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Textile.wardrobe.storage_container.14_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            10,
+            4,
+            15,
+            11,
+            5
+          ],
+          "use_points": [
+            [
+              14,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Textile.wardrobe.storage_wall.14_1_4",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            14,
+            9,
+            4,
+            15,
+            12,
+            5
+          ],
+          "use_points": [
+            [
+              14,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Textile.archive.bookshelf_group.8_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            9,
+            4,
+            10,
+            13,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              9,
+              5
+            ],
+            [
+              9,
+              9,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Textile.work.dining_table.8_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            9,
+            15,
+            12,
+            10,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Textile.chair.seat.9_1_13",
+          "recipe": "seat",
+          "bounds_xyz": [
+            9,
+            9,
+            13,
+            10,
+            10,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 6,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Clinic",
+      "form": "compact_street_house",
+      "size": [
+        22,
+        28,
+        28
+      ],
+      "placed_origin": [
+        161,
+        6,
+        11
+      ],
+      "rotation": 270,
+      "local_nbt_sha256": "943d47125800eedc4c334bbd55e45682adb7d61e81056b70f56cc769cafbf6ce",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "白川診療所｜诊所",
+      "rooms": [
+        {
+          "id": "Clinic.main",
+          "name": "白川診療所｜诊所",
+          "bounds": [
+            7,
+            3,
+            4,
+            18,
+            7,
+            23
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Clinic.upper",
+          "name": "二层功能空间",
+          "bounds": [
+            7,
+            9,
+            4,
+            18,
+            13,
+            23
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Clinic.stairs.bottom",
+          "pos": [
+            4,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Clinic.stairs.top",
+          "pos": [
+            4,
+            9,
+            5
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Clinic.entry",
+          "pos": [
+            11,
+            3,
+            22
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Clinic.reception",
+          "pos": [
+            12,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Clinic.waiting",
+          "pos": [
+            13,
+            3,
+            19
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Clinic.ward",
+          "pos": [
+            14,
+            9,
+            13
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Clinic.waiting.dining_table.8_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            17,
+            11,
+            4,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Clinic.sink.water_basin.17_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            17,
+            3,
+            4,
+            18,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              17,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.12_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            12,
+            3,
+            4,
+            13,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              12,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.12_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            12,
+            4,
+            4,
+            13,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              12,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.13_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            13,
+            3,
+            4,
+            14,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              13,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.13_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            13,
+            4,
+            4,
+            14,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              13,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.14_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            3,
+            4,
+            15,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              14,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_container.14_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            14,
+            4,
+            4,
+            15,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              14,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.medicine.storage_wall.12_1_4",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            12,
+            3,
+            4,
+            15,
+            6,
+            5
+          ],
+          "use_points": [
+            [
+              12,
+              3,
+              5
+            ],
+            [
+              13,
+              3,
+              5
+            ],
+            [
+              14,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.bed.bed.11_1_7",
+          "recipe": "bed",
+          "bounds_xyz": [
+            11,
+            9,
+            7,
+            12,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              12,
+              9,
+              8
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.bed.bed.16_1_7",
+          "recipe": "bed",
+          "bounds_xyz": [
+            16,
+            9,
+            7,
+            17,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              8
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.bed.bed.11_1_16",
+          "recipe": "bed",
+          "bounds_xyz": [
+            11,
+            9,
+            16,
+            12,
+            10,
+            18
+          ],
+          "use_points": [
+            [
+              12,
+              9,
+              17
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.bed.bed.16_1_16",
+          "recipe": "bed",
+          "bounds_xyz": [
+            16,
+            9,
+            16,
+            17,
+            10,
+            18
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              17
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Clinic.sink.water_basin.17_1_21",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            17,
+            9,
+            21,
+            18,
+            10,
+            22
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        }
+      ],
+      "lighting_count": 6,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Sake",
+      "form": "L_wing",
+      "size": [
+        35,
+        28,
+        25
+      ],
+      "placed_origin": [
+        157,
+        5,
+        50
+      ],
+      "rotation": 180,
+      "local_nbt_sha256": "6356e8145b3a69e85e62334eefba72059a00c4004a760402be5ba7ffce4fb432",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "松葉酒舗｜酒铺与库房",
+      "rooms": [
+        {
+          "id": "Sake.main",
+          "name": "松葉酒舗｜酒铺与库房",
+          "bounds": [
+            7,
+            3,
+            4,
+            16,
+            7,
+            20
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Sake.wing",
+          "name": "stock",
+          "bounds": [
+            17,
+            3,
+            4,
+            31,
+            7,
+            14
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Sake.entry",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Sake.counter",
+          "pos": [
+            10,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Sake.stock",
+          "pos": [
+            10,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Sake.wing.stock",
+          "pos": [
+            18,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Sake.tasting.dining_table.12_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            12,
+            3,
+            17,
+            15,
+            4,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 4,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Tea",
+      "form": "compact_street_house",
+      "size": [
+        18,
+        28,
+        22
+      ],
+      "placed_origin": [
+        9,
+        8,
+        146
+      ],
+      "rotation": 270,
+      "local_nbt_sha256": "210dcae67d53c61ba6e6f95625223ad0b936270c1672f33dad916ecbce22ec49",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "山茶屋｜小茶食店",
+      "rooms": [
+        {
+          "id": "Tea.tea",
+          "name": "茶食、柜台与后厨",
+          "bounds": [
+            3,
+            3,
+            3,
+            15,
+            7,
+            19
+          ],
+          "floor_y": 3,
+          "capacity": 8,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Tea.order",
+          "pos": [
+            9,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Tea.table",
+          "pos": [
+            9,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Tea.kitchen",
+          "pos": [
+            10,
+            3,
+            5
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Tea.stove.cooking.3_1_3",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            3,
+            3,
+            3,
+            4,
+            4,
+            4
+          ],
+          "use_points": [
+            [
+              3,
+              3,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Tea.sink.water_basin.5_1_3",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            5,
+            3,
+            3,
+            6,
+            4,
+            4
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Tea.tea.table.dining_table.4_1_11",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            4,
+            3,
+            11,
+            7,
+            4,
+            12
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Tea.chair.seat.5_1_9",
+          "recipe": "seat",
+          "bounds_xyz": [
+            5,
+            3,
+            9,
+            6,
+            4,
+            10
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Tea.tea.table.dining_table.4_1_16",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            4,
+            3,
+            16,
+            7,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Tea.chair.seat.5_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            5,
+            3,
+            14,
+            6,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Tea.window.table.dining_table.12_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            12,
+            3,
+            13,
+            14,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 4,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Photo",
+      "form": "compact_street_house",
+      "size": [
+        21,
+        28,
+        24
+      ],
+      "placed_origin": [
+        25,
+        10,
+        63
+      ],
+      "rotation": 270,
+      "local_nbt_sha256": "646dc4ba808264b0292731ae9a99a4e3420160dce86c16835696549ac7f68ce6",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "写真師の家｜前店后院与主人住宅",
+      "rooms": [
+        {
+          "id": "Photo.public",
+          "name": "营业、等候与柜台",
+          "bounds": [
+            6,
+            3,
+            11,
+            18,
+            7,
+            21
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Photo.service",
+          "name": "摄影／分拣与储存",
+          "bounds": [
+            6,
+            3,
+            3,
+            18,
+            7,
+            10
+          ],
+          "floor_y": 3,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Photo.work",
+          "name": "楼上工作与休息",
+          "bounds": [
+            6,
+            9,
+            12,
+            18,
+            13,
+            21
+          ],
+          "floor_y": 9,
+          "capacity": 3,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Photo.bed",
+          "name": "店主卧室",
+          "bounds": [
+            12,
+            9,
+            3,
+            18,
+            13,
+            11
+          ],
+          "floor_y": 9,
+          "capacity": 1,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Photo.stairs.bottom",
+          "pos": [
+            3,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Photo.stairs.top",
+          "pos": [
+            3,
+            9,
+            4
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Photo.portrait",
+          "pos": [
+            15,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Photo.waiting",
+          "pos": [
+            13,
+            3,
+            17
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Photo.desk",
+          "pos": [
+            16,
+            3,
+            14
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Photo.upstairs.work",
+          "pos": [
+            13,
+            9,
+            16
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Photo.upstairs.bed",
+          "pos": [
+            15,
+            9,
+            7
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Photo.bed.bed.14_1_5",
+          "recipe": "bed",
+          "bounds_xyz": [
+            14,
+            9,
+            5,
+            15,
+            10,
+            7
+          ],
+          "use_points": [
+            [
+              15,
+              9,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Photo.wardrobe.storage_container.16_1_3",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            16,
+            9,
+            3,
+            17,
+            10,
+            4
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Photo.wardrobe.storage_container.16_2_3",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            16,
+            10,
+            3,
+            17,
+            11,
+            4
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Photo.wardrobe.storage_wall.16_1_3",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            16,
+            9,
+            3,
+            17,
+            12,
+            4
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Photo.archive.bookshelf_group.7_1_3",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            7,
+            9,
+            3,
+            10,
+            13,
+            4
+          ],
+          "use_points": [
+            [
+              7,
+              9,
+              4
+            ],
+            [
+              8,
+              9,
+              4
+            ],
+            [
+              9,
+              9,
+              4
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Photo.work.dining_table.8_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            9,
+            15,
+            12,
+            10,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Photo.chair.seat.9_1_13",
+          "recipe": "seat",
+          "bounds_xyz": [
+            9,
+            9,
+            13,
+            10,
+            10,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Photo.waiting.table.dining_table.8_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            15,
+            12,
+            4,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 8,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Pharmacy",
+      "form": "corner_recess",
+      "size": [
+        34,
+        28,
+        36
+      ],
+      "placed_origin": [
+        62,
+        4,
+        101
+      ],
+      "rotation": 0,
+      "local_nbt_sha256": "a3ffc910ebcdbd54e82c5ee0f45c28d0ef538976e55c9fbe8fd609632302e4b9",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "白鷺薬局｜转角洋式药局",
+      "rooms": [
+        {
+          "id": "Pharmacy.retail",
+          "name": "陈列、咨询与等候",
+          "bounds": [
+            7,
+            3,
+            15,
+            26,
+            7,
+            27
+          ],
+          "floor_y": 3,
+          "capacity": 8,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Pharmacy.prep",
+          "name": "调配、柜台、药柜",
+          "bounds": [
+            10,
+            3,
+            6,
+            27,
+            7,
+            14
+          ],
+          "floor_y": 3,
+          "capacity": 3,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Pharmacy.office",
+          "name": "账房与资料",
+          "bounds": [
+            9,
+            9,
+            6,
+            18,
+            13,
+            27
+          ],
+          "floor_y": 9,
+          "capacity": 3,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Pharmacy.stock",
+          "name": "分类储藏",
+          "bounds": [
+            19,
+            9,
+            6,
+            27,
+            13,
+            17
+          ],
+          "floor_y": 9,
+          "capacity": 1,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Pharmacy.rest",
+          "name": "店主休息",
+          "bounds": [
+            20,
+            9,
+            19,
+            27,
+            13,
+            27
+          ],
+          "floor_y": 9,
+          "capacity": 2,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Pharmacy.stairs.bottom",
+          "pos": [
+            6,
+            3,
+            14
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.stairs.top",
+          "pos": [
+            6,
+            9,
+            7
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Pharmacy.entry",
+          "pos": [
+            25,
+            3,
+            23
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.shop",
+          "pos": [
+            16,
+            3,
+            21
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.service",
+          "pos": [
+            19,
+            3,
+            13
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.prep",
+          "pos": [
+            22,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.office",
+          "pos": [
+            16,
+            9,
+            21
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Pharmacy.stock",
+          "pos": [
+            22,
+            9,
+            15
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Pharmacy.bed",
+          "pos": [
+            24,
+            9,
+            22
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Pharmacy.preparation.dining_table.17_1_9",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            3,
+            9,
+            21,
+            4,
+            10
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.sink.water_basin.24_1_6",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            24,
+            3,
+            6,
+            25,
+            4,
+            7
+          ],
+          "use_points": [
+            [
+              24,
+              3,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.display.dining_table.10_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            3,
+            19,
+            14,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.display.dining_table.18_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            18,
+            3,
+            19,
+            22,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.consult.dining_table.7_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            7,
+            3,
+            18,
+            8,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.chair.seat.7_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            7,
+            3,
+            20,
+            8,
+            4,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.office.dining_table.10_1_20",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            9,
+            20,
+            15,
+            10,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.chair.seat.12_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            12,
+            9,
+            18,
+            13,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.chair.seat.11_1_23",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            9,
+            23,
+            12,
+            10,
+            24
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.records.bookshelf_group.10_1_6",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            10,
+            9,
+            6,
+            17,
+            13,
+            7
+          ],
+          "use_points": [
+            [
+              10,
+              9,
+              7
+            ],
+            [
+              11,
+              9,
+              7
+            ],
+            [
+              12,
+              9,
+              7
+            ],
+            [
+              13,
+              9,
+              7
+            ],
+            [
+              14,
+              9,
+              7
+            ],
+            [
+              15,
+              9,
+              7
+            ],
+            [
+              16,
+              9,
+              7
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.bed.bed.22_1_21",
+          "recipe": "bed",
+          "bounds_xyz": [
+            22,
+            9,
+            21,
+            23,
+            10,
+            23
+          ],
+          "use_points": [
+            [
+              23,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.bed.bed.23_1_21",
+          "recipe": "bed",
+          "bounds_xyz": [
+            23,
+            9,
+            21,
+            24,
+            10,
+            23
+          ],
+          "use_points": [
+            [
+              24,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.linen.storage_container.26_1_21",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            26,
+            9,
+            21,
+            27,
+            10,
+            22
+          ],
+          "use_points": [
+            [
+              26,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.linen.storage_container.26_2_21",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            26,
+            10,
+            21,
+            27,
+            11,
+            22
+          ],
+          "use_points": [
+            [
+              26,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.linen.storage_wall.26_1_21",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            26,
+            9,
+            21,
+            27,
+            12,
+            22
+          ],
+          "use_points": [
+            [
+              26,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        }
+      ],
+      "lighting_count": 10,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Inn",
+      "form": "recessed_court",
+      "size": [
+        40,
+        28,
+        40
+      ],
+      "placed_origin": [
+        105,
+        4,
+        116
+      ],
+      "rotation": 180,
+      "local_nbt_sha256": "062effe7a8b0159a08af9a226fdcefb92c45939dc6454bee087c38ef20ecb7a4",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "松風館｜和洋小旅馆",
+      "rooms": [
+        {
+          "id": "Inn.lobby",
+          "name": "玄关、接待、茶歇",
+          "bounds": [
+            9,
+            3,
+            18,
+            32,
+            7,
+            29
+          ],
+          "floor_y": 3,
+          "capacity": 10,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.bath",
+          "name": "共用盥洗与毛巾",
+          "bounds": [
+            9,
+            3,
+            8,
+            17,
+            7,
+            16
+          ],
+          "floor_y": 3,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.kitchen",
+          "name": "早餐后厨",
+          "bounds": [
+            24,
+            3,
+            8,
+            32,
+            7,
+            16
+          ],
+          "floor_y": 3,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.guest.west",
+          "name": "和式客房",
+          "bounds": [
+            9,
+            9,
+            8,
+            20,
+            13,
+            21
+          ],
+          "floor_y": 9,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.guest.east",
+          "name": "和洋客房",
+          "bounds": [
+            21,
+            9,
+            8,
+            32,
+            13,
+            21
+          ],
+          "floor_y": 9,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Inn.hall",
+          "name": "休息廊与阳台",
+          "bounds": [
+            9,
+            9,
+            22,
+            32,
+            13,
+            32
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Inn.stairs.bottom",
+          "pos": [
+            6,
+            3,
+            17
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.stairs.top",
+          "pos": [
+            6,
+            9,
+            10
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.lobby",
+          "pos": [
+            18,
+            3,
+            27
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.reception",
+          "pos": [
+            24,
+            3,
+            23
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.tea",
+          "pos": [
+            14,
+            3,
+            23
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.bath",
+          "pos": [
+            13,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.kitchen",
+          "pos": [
+            27,
+            3,
+            14
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.dining",
+          "pos": [
+            22,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Inn.hall",
+          "pos": [
+            18,
+            9,
+            25
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.west.room",
+          "pos": [
+            14,
+            9,
+            20
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.east.room",
+          "pos": [
+            26,
+            9,
+            20
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.bed.west",
+          "pos": [
+            14,
+            9,
+            11
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.bed.east",
+          "pos": [
+            27,
+            9,
+            11
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Inn.balcony",
+          "pos": [
+            18,
+            9,
+            31
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Inn.stove.cooking.25_1_8",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            25,
+            3,
+            8,
+            26,
+            4,
+            9
+          ],
+          "use_points": [
+            [
+              25,
+              3,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.sink.water_basin.28_1_8",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            28,
+            3,
+            8,
+            29,
+            4,
+            9
+          ],
+          "use_points": [
+            [
+              28,
+              3,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.prep.dining_table.25_1_12",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            25,
+            3,
+            12,
+            30,
+            4,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.key.cabinet.bookshelf_group.30_1_23",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            30,
+            3,
+            23,
+            31,
+            7,
+            24
+          ],
+          "use_points": [
+            [
+              30,
+              3,
+              24
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.reception.work.dining_table.28_1_25",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            28,
+            3,
+            25,
+            31,
+            4,
+            26
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.29_1_24",
+          "recipe": "seat",
+          "bounds_xyz": [
+            29,
+            3,
+            24,
+            30,
+            4,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.tea.low_table.9_1_22",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            9,
+            3,
+            22,
+            13,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.breakfast.dining_table.18_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            18,
+            3,
+            19,
+            21,
+            4,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.18_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            3,
+            18,
+            19,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.20_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            20,
+            3,
+            18,
+            21,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.18_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            3,
+            22,
+            19,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.20_1_22",
+          "recipe": "seat",
+          "bounds_xyz": [
+            20,
+            3,
+            22,
+            21,
+            4,
+            23
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.bed.bed.12_1_10",
+          "recipe": "bed",
+          "bounds_xyz": [
+            12,
+            9,
+            10,
+            13,
+            10,
+            12
+          ],
+          "use_points": [
+            [
+              13,
+              9,
+              11
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.bed.bed.13_1_10",
+          "recipe": "bed",
+          "bounds_xyz": [
+            13,
+            9,
+            10,
+            14,
+            10,
+            12
+          ],
+          "use_points": [
+            [
+              14,
+              9,
+              11
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.bed.bed.25_1_10",
+          "recipe": "bed",
+          "bounds_xyz": [
+            25,
+            9,
+            10,
+            26,
+            10,
+            12
+          ],
+          "use_points": [
+            [
+              26,
+              9,
+              11
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.bed.bed.26_1_10",
+          "recipe": "bed",
+          "bounds_xyz": [
+            26,
+            9,
+            10,
+            27,
+            10,
+            12
+          ],
+          "use_points": [
+            [
+              27,
+              9,
+              11
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.17_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            17,
+            9,
+            8,
+            18,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.17_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            17,
+            10,
+            8,
+            18,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.18_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            18,
+            9,
+            8,
+            19,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              18,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.18_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            18,
+            10,
+            8,
+            19,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              18,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.19_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            19,
+            9,
+            8,
+            20,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              19,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_container.19_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            19,
+            10,
+            8,
+            20,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              19,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.west.linen.storage_wall.17_1_8",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            17,
+            9,
+            8,
+            20,
+            12,
+            9
+          ],
+          "use_points": [
+            [
+              17,
+              9,
+              9
+            ],
+            [
+              18,
+              9,
+              9
+            ],
+            [
+              19,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.29_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            29,
+            9,
+            8,
+            30,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              29,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.29_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            29,
+            10,
+            8,
+            30,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              29,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.30_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            30,
+            9,
+            8,
+            31,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              30,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.30_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            30,
+            10,
+            8,
+            31,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              30,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.31_1_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            31,
+            9,
+            8,
+            32,
+            10,
+            9
+          ],
+          "use_points": [
+            [
+              31,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_container.31_2_8",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            31,
+            10,
+            8,
+            32,
+            11,
+            9
+          ],
+          "use_points": [
+            [
+              31,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.east.linen.storage_wall.29_1_8",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            29,
+            9,
+            8,
+            32,
+            12,
+            9
+          ],
+          "use_points": [
+            [
+              29,
+              9,
+              9
+            ],
+            [
+              30,
+              9,
+              9
+            ],
+            [
+              31,
+              9,
+              9
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Inn.low.tea.low_table.13_1_17",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            13,
+            9,
+            17,
+            16,
+            10,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.low.tea.low_table.26_1_17",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            26,
+            9,
+            17,
+            29,
+            10,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.hall.tea.low_table.10_1_24",
+          "recipe": "low_table",
+          "bounds_xyz": [
+            10,
+            9,
+            24,
+            14,
+            10,
+            25
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.window.desk.dining_table.30_1_14",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            30,
+            9,
+            14,
+            31,
+            10,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.28_1_15",
+          "recipe": "seat",
+          "bounds_xyz": [
+            28,
+            9,
+            15,
+            29,
+            10,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.writing.dining_table.17_1_14",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            9,
+            14,
+            19,
+            10,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Inn.chair.seat.18_1_13",
+          "recipe": "seat",
+          "bounds_xyz": [
+            18,
+            9,
+            13,
+            19,
+            10,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 14,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Florist",
+      "form": "L_wing",
+      "size": [
+        27,
+        28,
+        22
+      ],
+      "placed_origin": [
+        151,
+        4,
+        85
+      ],
+      "rotation": 90,
+      "local_nbt_sha256": "af0c4d36de773f45c00fa5c34b836705a8d8a0fb1a3143f10eea1dee8ca22928",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "花便り｜花店",
+      "rooms": [
+        {
+          "id": "Florist.main",
+          "name": "花便り｜花店",
+          "bounds": [
+            7,
+            3,
+            4,
+            12,
+            7,
+            17
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Florist.wing",
+          "name": "greenhouse",
+          "bounds": [
+            13,
+            3,
+            4,
+            23,
+            7,
+            15
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Florist.entry",
+          "pos": [
+            8,
+            3,
+            16
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Florist.flowers",
+          "pos": [
+            8,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Florist.wrap",
+          "pos": [
+            11,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Florist.wing.greenhouse",
+          "pos": [
+            14,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Florist.wrapping.dining_table.10_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            3,
+            13,
+            12,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Florist.potting.dining_table.15_1_8",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            15,
+            3,
+            8,
+            19,
+            4,
+            9
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 4,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Residence",
+      "form": "L_wing",
+      "size": [
+        35,
+        28,
+        28
+      ],
+      "placed_origin": [
+        51,
+        7,
+        150
+      ],
+      "rotation": 0,
+      "local_nbt_sha256": "a507535806fba6cc0dc844961c3620e40f900b0c656d8a634bac6bfc2315c15a",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "山手下宿｜住宅",
+      "rooms": [
+        {
+          "id": "Residence.main",
+          "name": "山手下宿｜住宅",
+          "bounds": [
+            7,
+            3,
+            4,
+            18,
+            7,
+            23
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Residence.upper",
+          "name": "二层功能空间",
+          "bounds": [
+            7,
+            9,
+            4,
+            18,
+            13,
+            23
+          ],
+          "floor_y": 9,
+          "capacity": 4,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Residence.wing",
+          "name": "bedroom",
+          "bounds": [
+            19,
+            3,
+            4,
+            31,
+            7,
+            15
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Residence.stairs.bottom",
+          "pos": [
+            4,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Residence.stairs.top",
+          "pos": [
+            4,
+            9,
+            5
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Residence.entry",
+          "pos": [
+            11,
+            3,
+            22
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Residence.dining",
+          "pos": [
+            17,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Residence.living",
+          "pos": [
+            13,
+            3,
+            19
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Residence.upper.work",
+          "pos": [
+            13,
+            9,
+            17
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Residence.upper.bed",
+          "pos": [
+            14,
+            9,
+            8
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Residence.wing.bedroom",
+          "pos": [
+            20,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Residence.stove.cooking.8_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            8,
+            3,
+            4,
+            9,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.sink.water_basin.11_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            11,
+            3,
+            4,
+            12,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              11,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.dining.dining_table.12_1_11",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            12,
+            3,
+            11,
+            16,
+            4,
+            13
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.chair.seat.13_1_9",
+          "recipe": "seat",
+          "bounds_xyz": [
+            13,
+            3,
+            9,
+            14,
+            4,
+            10
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.living.dining_table.8_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            18,
+            12,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.bed.bed.13_1_6",
+          "recipe": "bed",
+          "bounds_xyz": [
+            13,
+            9,
+            6,
+            14,
+            10,
+            8
+          ],
+          "use_points": [
+            [
+              14,
+              9,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_container.16_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            16,
+            9,
+            4,
+            17,
+            10,
+            5
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_container.16_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            16,
+            10,
+            4,
+            17,
+            11,
+            5
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_wall.16_1_4",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            16,
+            9,
+            4,
+            17,
+            12,
+            5
+          ],
+          "use_points": [
+            [
+              16,
+              9,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.archive.bookshelf_group.8_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            8,
+            9,
+            4,
+            10,
+            13,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              9,
+              5
+            ],
+            [
+              9,
+              9,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.work.dining_table.8_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            9,
+            17,
+            12,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.chair.seat.9_1_15",
+          "recipe": "seat",
+          "bounds_xyz": [
+            9,
+            9,
+            15,
+            10,
+            10,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Residence.bed.bed.22_1_5",
+          "recipe": "bed",
+          "bounds_xyz": [
+            22,
+            3,
+            5,
+            23,
+            4,
+            7
+          ],
+          "use_points": [
+            [
+              23,
+              3,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_container.29_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            29,
+            3,
+            4,
+            30,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              29,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_container.29_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            29,
+            4,
+            4,
+            30,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              29,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.wardrobe.storage_wall.29_1_4",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            29,
+            3,
+            4,
+            30,
+            6,
+            5
+          ],
+          "use_points": [
+            [
+              29,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Residence.private.tea.dining_table.21_1_10",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            21,
+            3,
+            10,
+            24,
+            4,
+            11
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 7,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Bakery",
+      "form": "compact_street_house",
+      "size": [
+        18,
+        28,
+        24
+      ],
+      "placed_origin": [
+        93,
+        5,
+        163
+      ],
+      "rotation": 90,
+      "local_nbt_sha256": "5e7ea6159fbd51d883d0df4220bc47f35e1332f1d0aafe6628b9174788e326c0",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "麦穂パン店｜面包房",
+      "rooms": [
+        {
+          "id": "Bakery.main",
+          "name": "麦穂パン店｜面包房",
+          "bounds": [
+            7,
+            3,
+            4,
+            14,
+            7,
+            19
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Bakery.entry",
+          "pos": [
+            9,
+            3,
+            18
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bakery.order",
+          "pos": [
+            10,
+            3,
+            13
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bakery.bakery",
+          "pos": [
+            12,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Bakery.stove.cooking.4_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            4,
+            3,
+            4,
+            5,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              4,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bakery.stove.cooking.5_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            5,
+            3,
+            4,
+            6,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bakery.sink.water_basin.8_1_4",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            8,
+            3,
+            4,
+            9,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              8,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bakery.cafe.dining_table.4_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            4,
+            3,
+            15,
+            7,
+            4,
+            16
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Bakery.chair.seat.5_1_13",
+          "recipe": "seat",
+          "bounds_xyz": [
+            5,
+            3,
+            13,
+            6,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 3,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Post",
+      "form": "compact_street_house",
+      "size": [
+        20,
+        28,
+        24
+      ],
+      "placed_origin": [
+        122,
+        4,
+        160
+      ],
+      "rotation": 180,
+      "local_nbt_sha256": "1d05c4645e6d46eafaa9cbf982fa1c6f5c508ca7359677a0d269d1b7d5f9661b",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "坂道郵便局｜小邮便局",
+      "rooms": [
+        {
+          "id": "Post.public",
+          "name": "营业、等候与柜台",
+          "bounds": [
+            6,
+            3,
+            11,
+            17,
+            7,
+            21
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Post.service",
+          "name": "摄影／分拣与储存",
+          "bounds": [
+            6,
+            3,
+            3,
+            17,
+            7,
+            10
+          ],
+          "floor_y": 3,
+          "capacity": 2,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Post.work",
+          "name": "楼上工作与休息",
+          "bounds": [
+            6,
+            9,
+            12,
+            17,
+            13,
+            21
+          ],
+          "floor_y": 9,
+          "capacity": 3,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Post.bed",
+          "name": "店主卧室",
+          "bounds": [
+            12,
+            9,
+            3,
+            17,
+            13,
+            11
+          ],
+          "floor_y": 9,
+          "capacity": 1,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Post.stairs.bottom",
+          "pos": [
+            3,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Post.stairs.top",
+          "pos": [
+            3,
+            9,
+            4
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Post.counter",
+          "pos": [
+            12,
+            3,
+            16
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Post.sorting",
+          "pos": [
+            12,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Post.upstairs.work",
+          "pos": [
+            13,
+            9,
+            16
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Post.upstairs.bed",
+          "pos": [
+            15,
+            9,
+            7
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Post.bed.bed.14_1_5",
+          "recipe": "bed",
+          "bounds_xyz": [
+            14,
+            9,
+            5,
+            15,
+            10,
+            7
+          ],
+          "use_points": [
+            [
+              15,
+              9,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Post.wardrobe.storage_container.15_1_3",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            15,
+            9,
+            3,
+            16,
+            10,
+            4
+          ],
+          "use_points": [
+            [
+              15,
+              9,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Post.wardrobe.storage_container.15_2_3",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            15,
+            10,
+            3,
+            16,
+            11,
+            4
+          ],
+          "use_points": [
+            [
+              15,
+              9,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Post.wardrobe.storage_wall.15_1_3",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            15,
+            9,
+            3,
+            16,
+            12,
+            4
+          ],
+          "use_points": [
+            [
+              15,
+              9,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Post.archive.bookshelf_group.7_1_3",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            7,
+            9,
+            3,
+            10,
+            13,
+            4
+          ],
+          "use_points": [
+            [
+              7,
+              9,
+              4
+            ],
+            [
+              8,
+              9,
+              4
+            ],
+            [
+              9,
+              9,
+              4
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Post.work.dining_table.8_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            9,
+            15,
+            12,
+            10,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Post.chair.seat.9_1_13",
+          "recipe": "seat",
+          "bounds_xyz": [
+            9,
+            9,
+            13,
+            10,
+            10,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 8,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Workshop",
+      "form": "T_wing",
+      "size": [
+        44,
+        28,
+        27
+      ],
+      "placed_origin": [
+        56,
+        7,
+        57
+      ],
+      "rotation": 0,
+      "local_nbt_sha256": "d05fdb631e40a6a531de25a4b8a895846857a051a9238f4584348bc82a4e77a3",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "青木工房｜修理与木作",
+      "rooms": [
+        {
+          "id": "Workshop.main",
+          "name": "青木工房｜修理与木作",
+          "bounds": [
+            7,
+            3,
+            4,
+            20,
+            7,
+            22
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Workshop.wing",
+          "name": "workshop",
+          "bounds": [
+            21,
+            3,
+            8,
+            40,
+            7,
+            19
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Workshop.entry",
+          "pos": [
+            12,
+            3,
+            21
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Workshop.workbench",
+          "pos": [
+            12,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Workshop.assembly",
+          "pos": [
+            17,
+            3,
+            16
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Workshop.wing.workshop",
+          "pos": [
+            22,
+            3,
+            13
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Workshop.bench.dining_table.6_1_10",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            6,
+            3,
+            10,
+            11,
+            4,
+            12
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Workshop.assembly.dining_table.15_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            15,
+            3,
+            13,
+            19,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Workshop.stove.cooking.18_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            18,
+            3,
+            4,
+            19,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              18,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Workshop.parts.bookshelf_group.4_1_14",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            4,
+            3,
+            14,
+            5,
+            7,
+            15
+          ],
+          "use_points": [
+            [
+              4,
+              3,
+              15
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Workshop.assembly.dining_table.24_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            3,
+            15,
+            31,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 4,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Bath",
+      "form": "L_wing",
+      "size": [
+        41,
+        28,
+        31
+      ],
+      "placed_origin": [
+        5,
+        7,
+        171
+      ],
+      "rotation": 180,
+      "local_nbt_sha256": "c79a23d278dc7fcba0e5d5898d00763815f35343a7138165dd0bd6a9479c5492",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "松の湯｜公共浴场",
+      "rooms": [
+        {
+          "id": "Bath.main",
+          "name": "松の湯｜公共浴场",
+          "bounds": [
+            7,
+            3,
+            4,
+            24,
+            7,
+            26
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Bath.wing",
+          "name": "laundry",
+          "bounds": [
+            25,
+            3,
+            4,
+            37,
+            7,
+            15
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Bath.entry",
+          "pos": [
+            14,
+            3,
+            25
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bath.changing",
+          "pos": [
+            16,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bath.bath",
+          "pos": [
+            20,
+            3,
+            10
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Bath.wing.laundry",
+          "pos": [
+            26,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Bath.sink.water_basin.22_1_5",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            22,
+            3,
+            5,
+            23,
+            4,
+            6
+          ],
+          "use_points": [
+            [
+              22,
+              3,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bath.sink.water_basin.22_1_9",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            22,
+            3,
+            9,
+            23,
+            4,
+            10
+          ],
+          "use_points": [
+            [
+              22,
+              3,
+              10
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Bath.sink.water_basin.27_1_5",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            27,
+            3,
+            5,
+            28,
+            4,
+            6
+          ],
+          "use_points": [
+            [
+              27,
+              3,
+              6
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        }
+      ],
+      "lighting_count": 4,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Clock",
+      "form": "clock_hall",
+      "size": [
+        17,
+        32,
+        19
+      ],
+      "placed_origin": [
+        154,
+        5,
+        120
+      ],
+      "rotation": 0,
+      "local_nbt_sha256": "e80b863340595fc2bc0b481879b6ceb6220b711957c3ec3db1e8a0584a498bfe",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "櫻坂時計会所｜河畔公共钟楼",
+      "rooms": [
+        {
+          "id": "Clock.info",
+          "name": "广场导览与休息",
+          "bounds": [
+            4,
+            3,
+            4,
+            13,
+            7,
+            15
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Clock.info",
+          "pos": [
+            10,
+            3,
+            8
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Clock.visitor.map.dining_table.5_1_4",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            5,
+            3,
+            4,
+            11,
+            4,
+            5
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 1,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    },
+    {
+      "id": "Station",
+      "form": "wide_shallow",
+      "size": [
+        36,
+        28,
+        38
+      ],
+      "placed_origin": [
+        149,
+        6,
+        167
+      ],
+      "rotation": 180,
+      "local_nbt_sha256": "35a5bd486737ec4ec1e860732c436d2c118e6612e2eb533b7a8cbeb7c7845ac8",
+      "status": {
+        "geometry": "built",
+        "local_geometry_audit": "passed",
+        "actual_game": "pending",
+        "aesthetic": "pending user review",
+        "town_collision_proxy": "passed O09"
+      },
+      "name": "櫻坂駅｜地方车站",
+      "rooms": [
+        {
+          "id": "Station.concourse",
+          "name": "售票、候车与站务",
+          "bounds": [
+            4,
+            3,
+            13,
+            32,
+            7,
+            32
+          ],
+          "floor_y": 3,
+          "capacity": 16,
+          "evidence": "adapted"
+        }
+      ],
+      "use_interfaces": [
+        {
+          "id": "Station.ticket",
+          "pos": [
+            13,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Station.waiting",
+          "pos": [
+            18,
+            3,
+            26
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Station.platform",
+          "pos": [
+            18,
+            3,
+            8
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "furniture_groups": [
+        {
+          "id": "Station.station.office.dining_table.24_1_15",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            24,
+            3,
+            15,
+            29,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Station.timetable.bookshelf_group.30_1_13",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            30,
+            3,
+            13,
+            31,
+            7,
+            14
+          ],
+          "use_points": [
+            [
+              30,
+              3,
+              14
+            ]
+          ],
+          "interaction": "decorative"
+        }
+      ],
+      "lighting_count": 6,
+      "recipe_source": "src/organic_types.py + src/quarter_types.py + src/interior_kit.py"
+    }
+  ],
+  "rules": [
+    "Preserve original terrain",
+    "Function determines furniture and wings",
+    "Keep entry and stair constraints",
+    "Plant clusters use occupancy and view exclusions"
+  ]
+}

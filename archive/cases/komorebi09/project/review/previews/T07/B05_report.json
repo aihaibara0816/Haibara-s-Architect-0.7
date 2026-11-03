@@ -1,0 +1,64 @@
+[
+  {
+    "image": "B05_inside.png",
+    "sha256": "caefa0803187844236046381a7f76bd863ad6da82979fdba92bf29f9a76c744f",
+    "source_nbt_sha256": "03a9da770cb2462ae1d2b8e55f658eb4f54a3177679ce15173ac824795cb8149",
+    "camera": {
+      "width": 1400,
+      "height": 1000,
+      "concept": false,
+      "id": "B05_inside",
+      "eye": [
+        141,
+        10.620000000000001,
+        142.2
+      ],
+      "target": [
+        143,
+        10.2,
+        148
+      ],
+      "fov": 78
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "texture_grid_max": 10,
+    "geometry_crop": [
+      130,
+      135,
+      152,
+      158
+    ]
+  },
+  {
+    "image": "B05_front.png",
+    "sha256": "67ab5e3be3a8e6fb1179237ec03fff8e79cf9c8086ec0dd5007d214a0819be64",
+    "source_nbt_sha256": "03a9da770cb2462ae1d2b8e55f658eb4f54a3177679ce15173ac824795cb8149",
+    "camera": {
+      "width": 1400,
+      "height": 1000,
+      "concept": false,
+      "id": "B05_front",
+      "eye": [
+        137.8,
+        10.620000000000001,
+        136
+      ],
+      "target": [
+        141.32,
+        11.2,
+        141
+      ],
+      "fov": 78
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "texture_grid_max": 10,
+    "geometry_crop": [
+      130,
+      135,
+      152,
+      158
+    ]
+  }
+]

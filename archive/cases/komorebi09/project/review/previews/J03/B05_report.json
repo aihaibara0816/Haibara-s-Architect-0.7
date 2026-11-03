@@ -1,0 +1,131 @@
+[
+  {
+    "image": "B05_inside.png",
+    "sha256": "1d8382d4a6758340d14e2b7ee1b73f8e55d786e790ed06fdc4c0949963dad426",
+    "source_nbt_sha256": "06b8a2ff23c5aea0692dcd33f4111396a8e09352a4ee1b2162fb0a14276205e1",
+    "camera": {
+      "width": 1400,
+      "height": 1000,
+      "concept": false,
+      "id": "B05_inside",
+      "eye": [
+        103,
+        4.62,
+        32.8
+      ],
+      "target": [
+        101,
+        4.2,
+        27
+      ],
+      "fov": 78
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "texture_grid_max": 12,
+    "geometry_crop": [
+      93,
+      18,
+      113,
+      39
+    ]
+  },
+  {
+    "image": "B05_detail.png",
+    "sha256": "a3ff2620b24130f72c0c874b0571518574479df9130d8d9856479d4aa4824f63",
+    "source_nbt_sha256": "06b8a2ff23c5aea0692dcd33f4111396a8e09352a4ee1b2162fb0a14276205e1",
+    "camera": {
+      "width": 1400,
+      "height": 1000,
+      "concept": false,
+      "id": "B05_detail",
+      "eye": [
+        104.5,
+        4.62,
+        29.5
+      ],
+      "target": [
+        100,
+        4.1,
+        27
+      ],
+      "fov": 76
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "texture_grid_max": 12,
+    "geometry_crop": [
+      93,
+      18,
+      113,
+      39
+    ]
+  },
+  {
+    "image": "B05_front.png",
+    "sha256": "07221978fbf65b72682946ed4f78fb05cedf2b5a8e12e63a58bd2bc500c3e9c5",
+    "source_nbt_sha256": "06b8a2ff23c5aea0692dcd33f4111396a8e09352a4ee1b2162fb0a14276205e1",
+    "camera": {
+      "width": 1400,
+      "height": 1000,
+      "concept": false,
+      "id": "B05_front",
+      "eye": [
+        106.2,
+        4.62,
+        38
+      ],
+      "target": [
+        102.68,
+        5.2,
+        34
+      ],
+      "fov": 78
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "texture_grid_max": 12,
+    "geometry_crop": [
+      93,
+      18,
+      113,
+      39
+    ]
+  },
+  {
+    "image": "B05_plan.png",
+    "sha256": "6f7e721647148322191dd97e2e3369fec4b870507ee7ee1fb089fa8474463898",
+    "source_nbt_sha256": "06b8a2ff23c5aea0692dcd33f4111396a8e09352a4ee1b2162fb0a14276205e1",
+    "camera": {
+      "width": 1400,
+      "height": 1000,
+      "concept": false,
+      "id": "B05_plan",
+      "eye": [
+        103.0,
+        60,
+        28.5
+      ],
+      "target": [
+        103.0,
+        0,
+        28.5
+      ],
+      "fov": 40,
+      "ortho": true,
+      "spanX": 23.799999999999997,
+      "spanZ": 17,
+      "minY": 2,
+      "cutY": 5.99
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+    "texture_grid_max": 12,
+    "geometry_crop": [
+      93,
+      18,
+      113,
+      39
+    ]
+  }
+]

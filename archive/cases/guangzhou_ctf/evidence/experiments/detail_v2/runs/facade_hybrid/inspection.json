@@ -1,0 +1,322 @@
+{
+  "nbt": {
+    "file": "building.nbt",
+    "bytes": 6904,
+    "sha256": "b88301aac2ae5d5552eeeabfc8c3233116d7d331b55fc211bdc6d835819624a1",
+    "listed_blocks": 2377,
+    "non_air_blocks": 2377,
+    "size_xyz": [
+      28,
+      18,
+      16
+    ],
+    "contains_explicit_air": false,
+    "geometry_sha256": "da7d68ec6e2119c37586d77fced7dbd6a502153e773dc59fb3ea2bd824489d8e",
+    "data_version": 3955
+  },
+  "materials": {
+    "minecraft:smooth_stone": 364,
+    "minecraft:diorite_wall": 80,
+    "minecraft:iron_bars": 160,
+    "minecraft:gray_stained_glass_pane": 406,
+    "minecraft:gray_stained_glass": 16,
+    "minecraft:smooth_stone_slab": 924,
+    "minecraft:gray_concrete": 352,
+    "minecraft:anvil": 13,
+    "minecraft:dark_oak_planks": 6,
+    "minecraft:bookshelf": 11,
+    "minecraft:glowstone": 6,
+    "minecraft:oak_leaves": 6,
+    "minecraft:dark_oak_slab": 11,
+    "minecraft:dark_oak_stairs": 18,
+    "minecraft:sea_lantern": 4
+  },
+  "notes": {
+    "rooms": [
+      {
+        "id": "floor1.bay0",
+        "style": "green",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor1.bay1",
+        "style": "green",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor1.bay2",
+        "style": "work",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          16,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "floor1.bay3",
+        "style": "green",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          21,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "floor4.bay0",
+        "style": "work",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor4.bay1",
+        "style": "lounge",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor4.bay2",
+        "style": "lounge",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor4.bay3",
+        "style": "lounge",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          21,
+          5,
+          6
+        ]
+      },
+      {
+        "id": "floor6.bay0",
+        "style": "green",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          6,
+          8,
+          6
+        ]
+      },
+      {
+        "id": "floor6.bay1",
+        "style": "work",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor6.bay2",
+        "style": "green",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor6.bay3",
+        "style": "lounge",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor9.bay0",
+        "style": "work",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor9.bay1",
+        "style": "work",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          11,
+          10,
+          6
+        ]
+      },
+      {
+        "id": "floor9.bay2",
+        "style": "lounge",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor9.bay3",
+        "style": "lounge",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          21,
+          10,
+          6
+        ]
+      },
+      {
+        "id": "floor11.bay0",
+        "style": "lounge",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor11.bay1",
+        "style": "lounge",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          11,
+          13,
+          6
+        ]
+      },
+      {
+        "id": "floor11.bay2",
+        "style": "work",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          16,
+          13,
+          6
+        ]
+      },
+      {
+        "id": "floor11.bay3",
+        "style": "green",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 2,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          21,
+          13,
+          6
+        ]
+      },
+      {
+        "id": "floor14.bay0",
+        "style": "lounge",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor14.bay1",
+        "style": "work",
+        "light": "sea_lantern",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      },
+      {
+        "id": "floor14.bay2",
+        "style": "library",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": true,
+        "lamp": [
+          16,
+          15,
+          6
+        ]
+      },
+      {
+        "id": "floor14.bay3",
+        "style": "library",
+        "light": "glowstone",
+        "warm_share": 0.55,
+        "clear_height": 1,
+        "fidelity": "synthetic window-back variation; not surveyed room use",
+        "lit": false,
+        "lamp": null
+      }
+    ],
+    "fin": "hybrid",
+    "clearance": "1 or 2 full clear cells; not all rooms playable",
+    "scale": "same block scale as CTF V1"
+  },
+  "game_test": "pending"
+}

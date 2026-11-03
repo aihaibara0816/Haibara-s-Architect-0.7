@@ -1,0 +1,38 @@
+{
+  "baseline": "V1_r04",
+  "new_run": "V2_r01",
+  "original_files": "history/before_v2/preserved_baseline.json",
+  "scope": "terrace footprints and grouped silhouette; tower dimensions and heights held",
+  "changes": {
+    "height_and_main_prisms": "frozen V1",
+    "front_max_glazing_width": [
+      64,
+      50
+    ],
+    "front_ratio_to_72_block_tower_span": [
+      0.8888888888888888,
+      0.6944444444444444
+    ],
+    "front_profile_bottom_to_top": [
+      50,
+      44,
+      38,
+      32,
+      26,
+      26,
+      26
+    ],
+    "outward_projection_front_and_right": [
+      8,
+      5
+    ]
+  },
+  "code_changes": [
+    "src/build_case.py: explicit per-row terrace profiles and derived light extents",
+    "hafusion/views.py: canonical matched quadrants",
+    "tools/render_building_case.py: automatic quadrants and isolated small batches",
+    "tools/package_building_case.py: explicit optional export name",
+    "AGENTS.md: enduring four-view delivery contract"
+  ],
+  "validation": "validation/v2/acceptance.json"
+}

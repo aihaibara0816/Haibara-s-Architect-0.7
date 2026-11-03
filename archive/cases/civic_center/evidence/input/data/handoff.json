@@ -1,0 +1,34 @@
+{
+  "schema": "HAF_civic_handoff/0.1",
+  "case_id": "civic_center",
+  "design_version": "0.3-offset-openings",
+  "target": "HAF续作 / latest actual HAF project; known baseline HAF 0.3",
+  "status": "ready_for_receiver_adapter_implementation",
+  "engine_adapter_included": false,
+  "nbt_included": false,
+  "source_library_file_id": "libfile_295753f5664481918bf1506214e252eb",
+  "source_library_version": "2",
+  "source_sha256": "6bd8eb49f8d24c8de914cd3cf7bd06be65f29e1f90e975fd5387b5c287e2cd2d",
+  "authoritative_spatial": "data/spatial.json",
+  "authoritative_openings": "data/spatial.json#facade_opening_groups",
+  "consumer_facade": "data/facade-resolved.json",
+  "consumer_interiors": "data/interior-handoff.json",
+  "counts": {
+    "floors": 7,
+    "window_groups": 75,
+    "openings": 401,
+    "ledges": 113,
+    "planted_ledges": 87,
+    "roof_equipment": 7
+  },
+  "random_policy": "consume the saved results; no reroll or odd/even-floor regularization",
+  "precedence": [
+    "spatial cells, cores, voids, terraces and routes",
+    "V0.3 saved opening/ledge geometry",
+    "V0.3 four elevations",
+    "earlier main intent"
+  ],
+  "next_run_requested": true,
+  "generated_model_status": "not_started_in_this_handoff",
+  "engine_version_confirmation": "receiver must inspect actual current project; do not restore older source over newer runs"
+}

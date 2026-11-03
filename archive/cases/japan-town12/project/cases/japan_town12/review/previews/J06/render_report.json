@@ -1,0 +1,131 @@
+[
+  {
+    "image": "overview.png",
+    "sha256": "a646634d71f3303d322eeb7dec469788c28679d68fc5d1f6eeae9f4f53d553cb",
+    "source_nbt_sha256": "0e632d971175ed42489dfe4b959da3ae61eb02bf9fe66b1bd59b44da992e239d",
+    "camera": {
+      "id": "overview",
+      "eye": [
+        240,
+        160,
+        224
+      ],
+      "target": [
+        80,
+        6,
+        64
+      ],
+      "width": 1800,
+      "height": 1400,
+      "spanX": 220,
+      "spanZ": 171.111,
+      "ortho": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "street.png",
+    "sha256": "4bd5ef2ef9f473c2920a1907f6d2cb6c1e051d6ba26c400c6284a217e7f6f1a2",
+    "source_nbt_sha256": "0e632d971175ed42489dfe4b959da3ae61eb02bf9fe66b1bd59b44da992e239d",
+    "camera": {
+      "id": "street",
+      "eye": [
+        94,
+        21,
+        90
+      ],
+      "target": [
+        66,
+        12,
+        51
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 73,
+      "spanZ": 50.1875,
+      "ortho": true,
+      "night": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "shops.png",
+    "sha256": "01ab324903b742c147aabba54e2a5c1368d8e5750634d21267de1accd97437ed",
+    "source_nbt_sha256": "0e632d971175ed42489dfe4b959da3ae61eb02bf9fe66b1bd59b44da992e239d",
+    "camera": {
+      "id": "shops",
+      "eye": [
+        32,
+        21,
+        81
+      ],
+      "target": [
+        57,
+        11,
+        53
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 49,
+      "spanZ": 33.6875,
+      "ortho": true,
+      "night": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "shops_night.png",
+    "sha256": "c53c7eb397862ec8de10289dcd78c654ff8fcbbb3ba3b2d28af559b9e7c7fe95",
+    "source_nbt_sha256": "0e632d971175ed42489dfe4b959da3ae61eb02bf9fe66b1bd59b44da992e239d",
+    "camera": {
+      "id": "shops_night",
+      "eye": [
+        32,
+        21,
+        81
+      ],
+      "target": [
+        57,
+        11,
+        53
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 49,
+      "spanZ": 33.6875,
+      "ortho": true,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "tea_house.png",
+    "sha256": "4389d7ac1faa518bc85317e49da62727af8ef6a803391e7e804d492421228122",
+    "source_nbt_sha256": "0e632d971175ed42489dfe4b959da3ae61eb02bf9fe66b1bd59b44da992e239d",
+    "camera": {
+      "id": "tea_house",
+      "eye": [
+        33,
+        21,
+        59
+      ],
+      "target": [
+        30,
+        12,
+        89
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 47,
+      "spanZ": 32.3125,
+      "ortho": true,
+      "night": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

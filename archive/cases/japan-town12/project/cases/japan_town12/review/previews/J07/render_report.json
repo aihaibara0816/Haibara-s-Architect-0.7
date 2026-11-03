@@ -1,0 +1,173 @@
+[
+  {
+    "image": "overview.png",
+    "sha256": "58f9d8caebcb8e384643559b5427da74dcff4fc5cc47a450c11f59a1db41d7db",
+    "source_nbt_sha256": "d6399e930285dd1e1189a5042fc778c60aff6cd9aa1256e06f67bb3a6ab000f1",
+    "camera": {
+      "id": "overview",
+      "eye": [
+        240,
+        160,
+        224
+      ],
+      "target": [
+        80,
+        6,
+        64
+      ],
+      "width": 1800,
+      "height": 1400,
+      "spanX": 220,
+      "spanZ": 171.111,
+      "ortho": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "shops.png",
+    "sha256": "57df1560af0f834b7864448275a4de78c90d1006f687efee3603b8aa21865216",
+    "source_nbt_sha256": "d6399e930285dd1e1189a5042fc778c60aff6cd9aa1256e06f67bb3a6ab000f1",
+    "camera": {
+      "id": "shops",
+      "eye": [
+        98,
+        35,
+        130
+      ],
+      "target": [
+        63,
+        12,
+        47
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 36,
+      "spanZ": 24.75,
+      "ortho": true,
+      "night": false,
+      "bounds": [
+        50,
+        30,
+        76,
+        72
+      ]
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "shops_night.png",
+    "sha256": "e35a3cc18066257d574ca39516fd779e351d8a83adacab3a9976a61865c4ca9a",
+    "source_nbt_sha256": "d6399e930285dd1e1189a5042fc778c60aff6cd9aa1256e06f67bb3a6ab000f1",
+    "camera": {
+      "id": "shops_night",
+      "eye": [
+        98,
+        35,
+        130
+      ],
+      "target": [
+        63,
+        12,
+        47
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 36,
+      "spanZ": 24.75,
+      "ortho": true,
+      "night": true,
+      "bounds": [
+        50,
+        30,
+        76,
+        72
+      ]
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "tea_house.png",
+    "sha256": "38efb4fcc4d29dce182d4f222fe65eeba5992a268ad6507b819ec1d95fb45620",
+    "source_nbt_sha256": "d6399e930285dd1e1189a5042fc778c60aff6cd9aa1256e06f67bb3a6ab000f1",
+    "camera": {
+      "id": "tea_house",
+      "eye": [
+        -8,
+        33,
+        5
+      ],
+      "target": [
+        26,
+        12,
+        89
+      ],
+      "width": 1600,
+      "height": 1100,
+      "spanX": 41,
+      "spanZ": 28.1875,
+      "ortho": true,
+      "night": false,
+      "bounds": [
+        10,
+        64,
+        42,
+        106
+      ]
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "walk.png",
+    "sha256": "dbf03dceb65731a9fbfb18b4d92841e9e577c3149806809f81e7dd493c9a92e8",
+    "source_nbt_sha256": "d6399e930285dd1e1189a5042fc778c60aff6cd9aa1256e06f67bb3a6ab000f1",
+    "camera": {
+      "id": "walk",
+      "eye": [
+        6,
+        9,
+        68
+      ],
+      "target": [
+        100,
+        12,
+        66
+      ],
+      "width": 1600,
+      "height": 1000,
+      "ortho": false,
+      "fov": 62,
+      "night": false
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  },
+  {
+    "image": "walk_night.png",
+    "sha256": "d4500bc988d6cb564303ccf136b14584349aefac5409042dae1e03589dbba753",
+    "source_nbt_sha256": "d6399e930285dd1e1189a5042fc778c60aff6cd9aa1256e06f67bb3a6ab000f1",
+    "camera": {
+      "id": "walk_night",
+      "eye": [
+        6,
+        9,
+        68
+      ],
+      "target": [
+        100,
+        12,
+        66
+      ],
+      "width": 1600,
+      "height": 1000,
+      "ortho": false,
+      "fov": 62,
+      "night": true
+    },
+    "emission_policy": "material",
+    "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+  }
+]

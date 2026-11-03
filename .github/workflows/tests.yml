@@ -1,0 +1,30 @@
+name: Haibara's Architect checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - run: python -X utf8 -m unittest discover -s tests -v
+      - run: python -X utf8 tools/haf.py archive verify
+      - run: python -X utf8 tools/haf.py scene-build examples/habitat07/reading-garden.json --runs-root runs/ci07 --run garden-001
+      - run: python -X utf8 tools/haf.py scene-verify --runs-root runs/ci07 --run garden-001
+      - run: python -X utf8 tools/haf.py scene-build examples/habitat07/industrial-yard.json --runs-root runs/ci07 --run industry-001
+      - run: python -X utf8 tools/haf.py scene-verify --runs-root runs/ci07 --run industry-001
+      - run: python -X utf8 tools/haf.py build-study --case room06 --runs-root runs/ci07 --run room-001 --seed 1145
+      - run: python -X utf8 tools/haf.py demo --runs-root runs/ci --run demo-001
+      - run: python -X utf8 tools/haf.py verify --runs-root runs/ci --run demo-001
+      - run: python -X utf8 tools/haf.py dispatch examples/workflow06/model-call.json --runs-root runs/ci --parent demo-001
+      - run: python -X utf8 tools/haf.py verify --runs-root runs/ci --run model-001
+      - run: python -X utf8 tools/haf.py build-case --case elizabeth_tower --run ci-clocktower --execute

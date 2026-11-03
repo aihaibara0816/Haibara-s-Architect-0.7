@@ -1,0 +1,55 @@
+{
+  "case": "guangzhou_customs",
+  "engine": "HAF 0.2.0",
+  "baseline": "V1_r04",
+  "learning_type": "procedural case study, not model-weight training",
+  "reused": [
+    "多向参考与证据绑定",
+    "HAF SiteScene/Builder/Facade",
+    "半砖/玻璃片/铁栅栏状态及连接",
+    "稳定房间ID和伪内饰",
+    "first_clear_slot灯位避让",
+    "NBT读回、schem与分区导出",
+    "四个45°日夜视角"
+  ],
+  "new_case_specific": [
+    "分段窗墙与中央大拱窗",
+    "古典钟冠向小尺度压缩",
+    "带双玻璃盒的基座",
+    "配对圆柱入口",
+    "侧基座拱窗映射；朝向待核"
+  ],
+  "shared_change": {
+    "files": [
+      "hafusion/views.py",
+      "cases/namsan_tower/src/render_egl_site.py"
+    ],
+    "purpose": "每个案例可显式记录日/夜太阳方向，四向保持统一，旧相机缺省值不变",
+    "workflow_replacement": false
+  },
+  "lessons": [
+    {
+      "finding": "将12个全方块刻度挤进小钟面会黑成一团",
+      "action": "保留白面、外缘和主要刻度；实际尺寸下取舍细节"
+    },
+    {
+      "finding": "相邻转角房间占同灯位",
+      "action": "复用共享槽位查找并为暗房一并预留，种子不决定几何槽"
+    },
+    {
+      "finding": "独立半砖高度环有浮空缝",
+      "action": "屋面曲线离散后补连接支承，验证最终NBT"
+    },
+    {
+      "finding": "源图方向不齐，不能把正面四向复制",
+      "action": "明确后侧凸体；不见部分封闭并标估算"
+    }
+  ],
+  "pending": [
+    "用户目视形态验收",
+    "实测/图纸高度及宽深",
+    "完整背立面与基座拱窗真实方位",
+    "同楼夜景",
+    "Minecraft纹理、导入、邻接更新、通行与灯光"
+  ]
+}

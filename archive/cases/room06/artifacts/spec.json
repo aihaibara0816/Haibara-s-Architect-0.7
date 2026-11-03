@@ -1,0 +1,478 @@
+{
+  "case_id": "Room06",
+  "run": "R03",
+  "title": "榕角里 · 单间试住",
+  "mainline": "HAF 0.4",
+  "rules": "0.4.3",
+  "route": "authored room sample, not a modification to Corner01",
+  "seed": 1145,
+  "plant_algorithm": "plant-0.1",
+  "plants_enabled": true,
+  "room_bounds": [
+    4,
+    3,
+    5,
+    12,
+    6,
+    13
+  ],
+  "floor_block_y": 2,
+  "eye_y": 4.62,
+  "interior_size_xz": [
+    8,
+    8
+  ],
+  "scale_note": "原版家具与通行量化后的样板，8×8格含独卫；不冒称现实小单间面积",
+  "doors": [
+    {
+      "id": "entry",
+      "pos": [
+        9,
+        3,
+        13
+      ],
+      "facing": "north",
+      "frame_plane": 13,
+      "leaf_plane": 13,
+      "lintel": [
+        9,
+        5,
+        13
+      ]
+    },
+    {
+      "id": "bath",
+      "pos": [
+        7,
+        3,
+        11
+      ],
+      "facing": "east",
+      "frame_plane": 7,
+      "leaf_plane": 7,
+      "lintel": [
+        7,
+        5,
+        11
+      ]
+    }
+  ],
+  "use_points": [
+    {
+      "id": "sofa_front",
+      "pos": [
+        6,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "coffee_side",
+      "pos": [
+        8,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "desk_approach",
+      "pos": [
+        8,
+        3,
+        6
+      ]
+    },
+    {
+      "id": "bed_left",
+      "pos": [
+        8,
+        3,
+        6
+      ]
+    },
+    {
+      "id": "bed_right",
+      "pos": [
+        11,
+        3,
+        6
+      ]
+    },
+    {
+      "id": "bedside",
+      "pos": [
+        11,
+        3,
+        6
+      ]
+    },
+    {
+      "id": "wardrobe",
+      "pos": [
+        10,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "sink",
+      "pos": [
+        10,
+        3,
+        10
+      ]
+    },
+    {
+      "id": "stove",
+      "pos": [
+        10,
+        3,
+        11
+      ]
+    },
+    {
+      "id": "kitchen_storage",
+      "pos": [
+        10,
+        3,
+        12
+      ]
+    },
+    {
+      "id": "prep",
+      "pos": [
+        10,
+        3,
+        9
+      ]
+    },
+    {
+      "id": "shoes",
+      "pos": [
+        9,
+        3,
+        12
+      ]
+    },
+    {
+      "id": "bath_basin",
+      "pos": [
+        5,
+        3,
+        10
+      ]
+    },
+    {
+      "id": "bath_toilet",
+      "pos": [
+        4,
+        3,
+        11
+      ]
+    },
+    {
+      "id": "shower",
+      "pos": [
+        6,
+        3,
+        12
+      ]
+    }
+  ],
+  "plants": [
+    {
+      "id": "sofa_planter",
+      "anchor": [
+        4,
+        3,
+        8
+      ],
+      "height": 2,
+      "support": [
+        4,
+        2,
+        8
+      ],
+      "role": "沙发端部竖向绿植",
+      "bounds_xyz": [
+        4,
+        3,
+        8,
+        5,
+        5,
+        9
+      ]
+    },
+    {
+      "id": "desk",
+      "anchor": [
+        6,
+        4,
+        5
+      ],
+      "support": [
+        6,
+        3,
+        5
+      ],
+      "state": "potted_flowering_azalea_bush",
+      "role": "窗边小盆",
+      "bounds_xyz": [
+        6,
+        4,
+        5,
+        7,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "entry",
+      "anchor": [
+        8,
+        4,
+        12
+      ],
+      "support": [
+        8,
+        3,
+        12
+      ],
+      "state": "potted_fern",
+      "role": "入口柜面小盆",
+      "bounds_xyz": [
+        8,
+        4,
+        12,
+        9,
+        5,
+        13
+      ]
+    }
+  ],
+  "lights": [
+    [
+      6,
+      6,
+      8
+    ],
+    [
+      9,
+      6,
+      9
+    ],
+    [
+      5,
+      6,
+      11
+    ],
+    [
+      11,
+      6,
+      11
+    ],
+    [
+      8,
+      4,
+      5
+    ],
+    [
+      6,
+      5,
+      12
+    ],
+    [
+      9,
+      5,
+      14
+    ]
+  ],
+  "components": [
+    {
+      "id": "unit.entry.privacy_door.9_1_13",
+      "recipe": "privacy_door",
+      "bounds_xyz": [
+        9,
+        3,
+        13,
+        10,
+        5,
+        14
+      ],
+      "use_points": [],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "unit.bath.privacy_door.7_1_11",
+      "recipe": "privacy_door",
+      "bounds_xyz": [
+        7,
+        3,
+        11,
+        8,
+        5,
+        12
+      ],
+      "use_points": [],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "unit.desk_chair.seat.7_1_6",
+      "recipe": "seat",
+      "bounds_xyz": [
+        7,
+        3,
+        6,
+        8,
+        4,
+        7
+      ],
+      "use_points": [],
+      "interaction": "decorative"
+    },
+    {
+      "id": "unit.sleep.left.bed.9_1_5",
+      "recipe": "bed",
+      "bounds_xyz": [
+        9,
+        3,
+        5,
+        10,
+        4,
+        7
+      ],
+      "use_points": [
+        [
+          10,
+          3,
+          6
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "unit.sleep.right.bed.10_1_5",
+      "recipe": "bed",
+      "bounds_xyz": [
+        10,
+        3,
+        5,
+        11,
+        4,
+        7
+      ],
+      "use_points": [
+        [
+          11,
+          3,
+          6
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "unit.sleep.bedside.storage_container.11_1_5",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        11,
+        3,
+        5,
+        12,
+        4,
+        6
+      ],
+      "use_points": [
+        [
+          11,
+          3,
+          6
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "unit.wardrobe.storage.storage_container.11_2_8",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        11,
+        4,
+        8,
+        12,
+        5,
+        9
+      ],
+      "use_points": [
+        [
+          10,
+          3,
+          8
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "unit.kitchen.storage.storage_container.11_1_12",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        11,
+        3,
+        12,
+        12,
+        4,
+        13
+      ],
+      "use_points": [
+        [
+          10,
+          3,
+          12
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    },
+    {
+      "id": "unit.entry.shoes.storage_container.8_1_12",
+      "recipe": "storage_container",
+      "bounds_xyz": [
+        8,
+        3,
+        12,
+        9,
+        4,
+        13
+      ],
+      "use_points": [
+        [
+          9,
+          3,
+          12
+        ]
+      ],
+      "interaction": "vanilla_unverified"
+    }
+  ],
+  "protected_regions": [
+    [
+      8,
+      3,
+      8,
+      10,
+      5,
+      12
+    ]
+  ],
+  "non_air": 1473,
+  "block_entities": 10,
+  "source_nbt_sha256": "f6a02fa241ffe50d8e47aa1ed5fd700059bae8307e2b32708c1854affdfe821c",
+  "status": {
+    "game": "pending",
+    "aesthetic": "pending",
+    "Corner01": "needs_revision"
+  },
+  "limitations": [
+    "单间脱离整栋的小样；未重做原街角楼",
+    "沙发/椅/淋浴/坐便/空调是装饰",
+    "杯具为花盆符号；空容器不代表已有生活用品",
+    "离线状态盒预览并非原版贴图或实机截图"
+  ]
+}

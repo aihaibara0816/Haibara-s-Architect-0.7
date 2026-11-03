@@ -1,0 +1,392 @@
+[
+  {
+    "id": "overview",
+    "eye": [
+      400,
+      210,
+      395
+    ],
+    "target": [
+      108,
+      18,
+      102.5
+    ],
+    "width": 1800,
+    "height": 1350,
+    "spanX": 325,
+    "spanZ": 243.75,
+    "ortho": true,
+    "concept": false
+  },
+  {
+    "id": "street_cut",
+    "eye": [
+      300,
+      200,
+      310
+    ],
+    "target": [
+      108,
+      10,
+      103
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 290,
+    "spanZ": 212.66666666666666,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 12
+  },
+  {
+    "id": "corner_shop",
+    "eye": [
+      214,
+      40,
+      196
+    ],
+    "target": [
+      175,
+      6,
+      158
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 53,
+    "spanZ": 38.86666666666667,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 5.95,
+    "minY": 2,
+    "bounds": [
+      154,
+      135,
+      190,
+      174
+    ]
+  },
+  {
+    "id": "corner_facade",
+    "eye": [
+      224,
+      31,
+      204
+    ],
+    "target": [
+      176,
+      19,
+      157
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 65,
+    "spanZ": 47.666666666666664,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "east_street",
+    "eye": [
+      215,
+      24,
+      153
+    ],
+    "target": [
+      180,
+      15,
+      100
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 100,
+    "spanZ": 73.33333333333333,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "south_street",
+    "eye": [
+      100,
+      20,
+      214
+    ],
+    "target": [
+      102,
+      15,
+      148
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 95,
+    "spanZ": 69.66666666666667,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "northwest_slope",
+    "eye": [
+      -85,
+      88,
+      -68
+    ],
+    "target": [
+      57,
+      16,
+      57
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 170,
+    "spanZ": 124.66666666666667,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "family_cut",
+    "eye": [
+      140,
+      60,
+      145
+    ],
+    "target": [
+      74,
+      11,
+      83
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 49,
+    "spanZ": 35.93333333333333,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 11.95,
+    "minY": 8,
+    "bounds": [
+      58,
+      64,
+      90,
+      101
+    ]
+  },
+  {
+    "id": "food_shop",
+    "eye": [
+      205,
+      43,
+      124
+    ],
+    "target": [
+      173,
+      5,
+      80
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 48,
+    "spanZ": 35.2,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 5.95,
+    "minY": 2,
+    "bounds": [
+      156,
+      60,
+      188,
+      98
+    ]
+  },
+  {
+    "id": "facade_detail",
+    "eye": [
+      66,
+      30,
+      41
+    ],
+    "target": [
+      44,
+      17,
+      74
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 46,
+    "spanZ": 33.733333333333334,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "roof_detail",
+    "eye": [
+      212,
+      95,
+      126
+    ],
+    "target": [
+      171,
+      39,
+      79
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 49,
+    "spanZ": 35.93333333333333,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 49,
+    "bounds": [
+      156,
+      60,
+      189,
+      98
+    ]
+  },
+  {
+    "id": "terrain_section",
+    "eye": [
+      108,
+      15,
+      400
+    ],
+    "target": [
+      108,
+      15,
+      105
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 230,
+    "spanZ": 168.66666666666666,
+    "ortho": true,
+    "night": false,
+    "concept": false,
+    "cutY": 10
+  },
+  {
+    "id": "elevation_front",
+    "eye": [
+      108,
+      25,
+      500
+    ],
+    "target": [
+      108,
+      25,
+      103
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 230,
+    "spanZ": 168.66666666666666,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "elevation_back",
+    "eye": [
+      108,
+      25,
+      -300
+    ],
+    "target": [
+      108,
+      25,
+      103
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 230,
+    "spanZ": 168.66666666666666,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "elevation_left",
+    "eye": [
+      -300,
+      25,
+      103
+    ],
+    "target": [
+      108,
+      25,
+      103
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 230,
+    "spanZ": 168.66666666666666,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "elevation_right",
+    "eye": [
+      500,
+      25,
+      103
+    ],
+    "target": [
+      108,
+      25,
+      103
+    ],
+    "width": 1500,
+    "height": 1100,
+    "spanX": 230,
+    "spanZ": 168.66666666666666,
+    "ortho": true,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "lane_eye",
+    "eye": [
+      155,
+      5,
+      169
+    ],
+    "target": [
+      155,
+      14,
+      120
+    ],
+    "width": 1500,
+    "height": 1100,
+    "fov": 65,
+    "ortho": false,
+    "night": false,
+    "concept": false
+  },
+  {
+    "id": "lane_eye_night",
+    "eye": [
+      155,
+      5,
+      169
+    ],
+    "target": [
+      155,
+      14,
+      120
+    ],
+    "width": 1500,
+    "height": 1100,
+    "fov": 65,
+    "ortho": false,
+    "night": true,
+    "concept": false
+  }
+]

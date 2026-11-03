@@ -1,0 +1,433 @@
+{
+  "schema": "haf-explicit-case-1",
+  "case": "guangzhou_customs",
+  "case_version": "0.2.0",
+  "seed": 202610231,
+  "identity": {
+    "name": "广州海关新业务技术综合楼",
+    "address": "花城大道83号",
+    "user_location_conflict": "沿用用户标注照片所示花城大道83号新海关；非沿江旧海关"
+  },
+  "frame": {
+    "size_xyz": [
+      126,
+      148,
+      116
+    ],
+    "ground_y": 4,
+    "center_x": 63,
+    "blocks_per_metre": 1,
+    "local_east": "+X",
+    "local_north": "-Z",
+    "front": "+Z",
+    "geographic_bearing": "unverified",
+    "packet_mapping": "原资料包Z朝后，案例Z朝前；Z符号反转，未做地理配准"
+  },
+  "height": {
+    "study_envelope": 137,
+    "reported_candidates_m": [
+      103,
+      114,
+      137
+    ],
+    "status": "conflicted; editable study envelope, not a surveyed 1:1 claim"
+  },
+  "podium": {
+    "rect": [
+      13,
+      16,
+      114,
+      87
+    ],
+    "top": 22,
+    "floor_levels": [
+      0,
+      5,
+      10,
+      15,
+      20
+    ],
+    "roof_surface": "smooth_stone",
+    "roof_surface_note": "大面灰屋面；仅高位图可见的后侧屋面小片用氧化铜代理绿灰色，不认定草坪或实际金属材质",
+    "glass_pavilions": [
+      [
+        24,
+        29,
+        43,
+        40
+      ],
+      [
+        61,
+        29,
+        80,
+        40
+      ]
+    ],
+    "pavilion_height": 8,
+    "side_arcades": {
+      "normal": [
+        1,
+        0
+      ],
+      "wall_x": 113,
+      "centers_z": [
+        42,
+        57,
+        72
+      ],
+      "width": 7,
+      "bottom": 3,
+      "spring": 12,
+      "note": "V2不消费此V1字段；由v2.side_portal替代，保留以对照历史"
+    },
+    "roof_tinted_regions": [
+      [
+        92,
+        17,
+        112,
+        39
+      ],
+      [
+        15,
+        29,
+        88,
+        43
+      ]
+    ]
+  },
+  "tower": {
+    "main_rect": [
+      25,
+      45,
+      102,
+      74
+    ],
+    "central_rect": [
+      50,
+      44,
+      77,
+      76
+    ],
+    "center_top": 113,
+    "wing_top": 104,
+    "inner_front_z": 70,
+    "outer_front_z": 73,
+    "center_front_z": 75,
+    "middle_front_z": 72,
+    "floor_levels": [
+      22,
+      26,
+      30,
+      34,
+      38,
+      42,
+      46,
+      50,
+      54,
+      58,
+      62,
+      66,
+      70,
+      74,
+      78,
+      82,
+      86,
+      90,
+      94,
+      98,
+      102
+    ],
+    "upper_floor_levels": [
+      106,
+      110
+    ],
+    "outer_pair_windows": [
+      29,
+      33,
+      93,
+      97
+    ],
+    "inner_windows": [
+      40,
+      44,
+      48,
+      78,
+      82,
+      86
+    ],
+    "center_edge_windows": [
+      52,
+      74
+    ],
+    "center_windows": [
+      57,
+      60,
+      63,
+      66,
+      69
+    ]
+  },
+  "crown": {
+    "arch_width": 11,
+    "arch_bottom": 96,
+    "arch_spring": 104,
+    "arch_top": 110,
+    "clock_center_xz": [
+      63,
+      64
+    ],
+    "clock_base": 114,
+    "clock_roof": 124,
+    "clock_radius": 6,
+    "dial_radius": 4.5,
+    "dial_y": 119,
+    "clock_time": [
+      10,
+      10
+    ],
+    "dome_rise": 3,
+    "spire_base": 127,
+    "spire_top": 137,
+    "unseen_clock_faces": "四面钟的后两面按构造连续性补全，照片只确认相邻两面"
+  },
+  "entrance": {
+    "front_z": 95,
+    "wall_z": 86,
+    "column_x": [
+      49,
+      53,
+      73,
+      77
+    ],
+    "floor_above_grade": 3,
+    "canopy_bottom": 15,
+    "canopy_top": 19,
+    "clear_opening_x": [
+      56,
+      71
+    ]
+  },
+  "materials": {
+    "main_stone": "smooth_quartz",
+    "panel_stone": "quartz_block",
+    "base_stone": "smooth_sandstone",
+    "glass": "gray_stained_glass_pane",
+    "cap": "smooth_stone_slab"
+  },
+  "lighting": {
+    "namespace": "guangzhou-customs-v1",
+    "off_probability": 0.5,
+    "warm_probability": 0.25,
+    "cool_probability": 0.25,
+    "fidelity": "游戏表现方案；尚无可用同楼夜景照，非实景灯位复原",
+    "aviation": "红石火把为细针端部比例替代；非真实灯具位置或航空规范证明"
+  },
+  "scope": [
+    "主塔",
+    "钟冠",
+    "一体基座",
+    "柱式入口",
+    "简化地景",
+    "楼板与局部伪内饰"
+  ],
+  "estimates": [
+    "137格总高保持V1对照条件；103/114/137米资料冲突尚未解决，非精确1:1",
+    "中央下段27×32格、上段27×24格、钟室13×13格；为多视角解释后的可调假设，非透视图直接测量",
+    "上段进深48→24格；下段48→32格；不是将照片里投影宽度强制等同实体尺寸",
+    "侧后拱门、退入墙、外挑翼关系有照片支持；精确方位和尺寸仍待实测/清晰平面核对",
+    "卫星影像与OSM轮廓已检查，但高楼倾倒、遮挡及轮廓口径不一致；未据此宣称获得屋顶测绘图",
+    "未见处围护按连续性补齐；伪内饰和固定种子暖冷混合灯光为游戏设计",
+    "无同楼可靠夜景证据；无SKP/其他模型；未进行Minecraft客户端验证"
+  ],
+  "v2": {
+    "podium_masses": [
+      [
+        13,
+        43,
+        114,
+        87
+      ],
+      [
+        90,
+        16,
+        114,
+        43
+      ],
+      [
+        13,
+        27,
+        90,
+        43
+      ],
+      [
+        10,
+        44,
+        13,
+        82
+      ]
+    ],
+    "tower_masses": [
+      [
+        25,
+        45,
+        38,
+        74
+      ],
+      [
+        38,
+        54,
+        50,
+        71
+      ],
+      [
+        77,
+        54,
+        89,
+        71
+      ],
+      [
+        89,
+        45,
+        102,
+        74
+      ]
+    ],
+    "upper_center_rect": [
+      50,
+      52,
+      77,
+      76
+    ],
+    "rear_window_bands": [
+      {
+        "xs": [
+          29,
+          34,
+          93,
+          98
+        ],
+        "z": 45
+      },
+      {
+        "xs": [
+          41,
+          46,
+          80,
+          85
+        ],
+        "z": 54
+      },
+      {
+        "xs": [
+          53,
+          58,
+          63,
+          68,
+          73
+        ],
+        "z": 44
+      }
+    ],
+    "side_window_zs": [
+      49,
+      54,
+      59,
+      64,
+      69
+    ],
+    "side_portal": {
+      "wall_x": 10,
+      "span_z": [
+        44,
+        82
+      ],
+      "centres_z": [
+        50,
+        62,
+        74
+      ],
+      "confidence": "中：img-nc-11侧后拱门与img-nc-13普通侧墙互为不同侧，映射模型-X与+X；绝对地理方位未测绘"
+    },
+    "podium_window_segments": [
+      {
+        "id": "left_side",
+        "normal": [
+          -1,
+          0
+        ],
+        "wall": 13,
+        "centres": [
+          32,
+          38
+        ]
+      },
+      {
+        "id": "right_side",
+        "normal": [
+          1,
+          0
+        ],
+        "wall": 113,
+        "centres": [
+          29,
+          35,
+          41,
+          47,
+          53,
+          59,
+          65,
+          71,
+          77
+        ]
+      },
+      {
+        "id": "projecting_rear_wing",
+        "normal": [
+          0,
+          -1
+        ],
+        "wall": 16,
+        "centres": [
+          95,
+          101,
+          107
+        ]
+      },
+      {
+        "id": "recessed_rear_wall",
+        "normal": [
+          0,
+          -1
+        ],
+        "wall": 27,
+        "centres": [
+          19,
+          25,
+          31,
+          37,
+          52,
+          58,
+          64,
+          70,
+          76,
+          82,
+          87
+        ]
+      },
+      {
+        "id": "notch_return",
+        "normal": [
+          -1,
+          0
+        ],
+        "wall": 90,
+        "centres": [
+          21,
+          25
+        ]
+      }
+    ],
+    "dimension_status": "block hypotheses from multiple views; not measured ratios",
+    "geometry_intent": "先按构件形成明确进退；中央上段与下段分开，避免V1通高长条；入口与普通窗墙分开"
+  }
+}

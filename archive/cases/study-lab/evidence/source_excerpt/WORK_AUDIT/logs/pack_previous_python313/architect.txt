@@ -1,0 +1,197 @@
+test_actual_legacy_photo_context (test_architect.AdapterTests.test_actual_legacy_photo_context) ... ok
+test_adapter_preserves_source_ids_and_unknowns (test_architect.AdapterTests.test_adapter_preserves_source_ids_and_unknowns) ... ok
+test_legacy_photo_and_old_parameters_generate_new_spec (test_architect.AdapterTests.test_legacy_photo_and_old_parameters_generate_new_spec) ... ok
+test_local_evidence_hash_mismatch_rejected (test_architect.AdapterTests.test_local_evidence_hash_mismatch_rejected) ... ok
+test_local_image_cannot_enter_final_four (test_architect.AdapterTests.test_local_image_cannot_enter_final_four) ... ok
+test_no_overlay_does_not_invent_geometry (test_architect.AdapterTests.test_no_overlay_does_not_invent_geometry) ... ok
+test_overlay_cannot_overwrite_evidence_or_scale (test_architect.AdapterTests.test_overlay_cannot_overwrite_evidence_or_scale) ... ok
+test_both_samples_valid (test_architect.ContractTests.test_both_samples_valid) ... ok
+test_cannot_promote_study_to_strict (test_architect.ContractTests.test_cannot_promote_study_to_strict) ... ok
+test_confirmed_dimension_needs_matching_evidence (test_architect.ContractTests.test_confirmed_dimension_needs_matching_evidence) ... ok
+test_confirmed_geometry_cannot_use_suggestion (test_architect.ContractTests.test_confirmed_geometry_cannot_use_suggestion) ... ok
+test_confirmed_world_needs_origin (test_architect.ContractTests.test_confirmed_world_needs_origin) ... ok
+test_conflicting_scale (test_architect.ContractTests.test_conflicting_scale) ... ok
+test_dangling_evidence (test_architect.ContractTests.test_dangling_evidence) ... ok
+test_duplicate_component_ids (test_architect.ContractTests.test_duplicate_component_ids) ... ok
+test_duplicate_json_key_and_nan (test_architect.ContractTests.test_duplicate_json_key_and_nan) ... ok
+test_forward_dependency_rejected (test_architect.ContractTests.test_forward_dependency_rejected) ... ok
+test_half_up_and_cumulative_endpoints (test_architect.ContractTests.test_half_up_and_cumulative_endpoints) ... ok
+test_missing_required_field (test_architect.ContractTests.test_missing_required_field) ... ok
+test_model_cell_budget (test_architect.ContractTests.test_model_cell_budget) ... ok
+test_nonfinite_number_rejected (test_architect.ContractTests.test_nonfinite_number_rejected) ... ok
+test_out_of_bounds_geometry (test_architect.ContractTests.test_out_of_bounds_geometry) ... ok
+test_path_with_zero_voxel_headroom (test_architect.ContractTests.test_path_with_zero_voxel_headroom) ... ok
+test_profile_anchor_order (test_architect.ContractTests.test_profile_anchor_order) ... ok
+test_profile_duplicate_floor (test_architect.ContractTests.test_profile_duplicate_floor) ... ok
+test_quantization_collapse (test_architect.ContractTests.test_quantization_collapse) ... ok
+test_self_intersecting_polygon (test_architect.ContractTests.test_self_intersecting_polygon) ... ok
+test_subtraction_requires_explicit_target (test_architect.ContractTests.test_subtraction_requires_explicit_target) ... ok
+test_unknown_dimension_cannot_contain_number (test_architect.ContractTests.test_unknown_dimension_cannot_contain_number) ... ok
+test_unknown_real_dimensions_valid_in_study (test_architect.ContractTests.test_unknown_real_dimensions_valid_in_study) ... ok
+test_unsupported_block_state (test_architect.ContractTests.test_unsupported_block_state) ... ok
+test_verified_fact_cannot_be_sourceless (test_architect.ContractTests.test_verified_fact_cannot_be_sourceless) ... ok
+test_world_exact_boundary_allowed (test_architect.ContractTests.test_world_exact_boundary_allowed) ... ok
+test_world_height_overflow (test_architect.ContractTests.test_world_height_overflow) ... ok
+test_air_omission_roundtrip (test_architect.GeometryTests.test_air_omission_roundtrip) ... ok
+test_blocked_entry_fails_acceptance (test_architect.GeometryTests.test_blocked_entry_fails_acceptance) ... ok
+test_canopy_revision_changes_only_requested_region (test_architect.GeometryTests.test_canopy_revision_changes_only_requested_region) ... ok
+test_cell_operation_budget_stops_generation (test_architect.GeometryTests.test_cell_operation_budget_stops_generation) ... ok
+test_existing_output_refused (test_architect.GeometryTests.test_existing_output_refused) ... ok
+test_missing_support_fails_walk (test_architect.GeometryTests.test_missing_support_fails_walk) ... ok
+test_nbt_roundtrip_and_deterministic_bytes (test_architect.GeometryTests.test_nbt_roundtrip_and_deterministic_bytes) ... ok
+test_non_air_budget (test_architect.GeometryTests.test_non_air_budget) ... ok
+test_retail_air_and_walk_acceptance (test_architect.GeometryTests.test_retail_air_and_walk_acceptance) ... ok
+test_step_and_linear_profiles_differ (test_architect.GeometryTests.test_step_and_linear_profiles_differ) ... ok
+test_targeted_carve_leaves_other_owner_intact (test_architect.GeometryTests.test_targeted_carve_leaves_other_owner_intact) ... ok
+test_tower_actual_profile_and_floor_clearance (test_architect.GeometryTests.test_tower_actual_profile_and_floor_clearance) ... ok
+test_cameras_are_orthonormal_and_iso_elevation_45 (test_architect.PreviewTests.test_cameras_are_orthonormal_and_iso_elevation_45) ... ok
+test_delivered_previews_and_nbt_share_hash_and_build_id (test_architect.PreviewTests.test_delivered_previews_and_nbt_share_hash_and_build_id) ... ok
+test_render_repeats_from_exported_nbt (test_architect.PreviewTests.test_render_repeats_from_exported_nbt) ... ok
+test_asset_byte_hash (test_model_io.ModelIOTests.test_asset_byte_hash) ... ok
+test_attach_candidate_preserves_executable_components (test_model_io.ModelIOTests.test_attach_candidate_preserves_executable_components) ... ok
+test_axis_conversion_is_right_handed (test_model_io.ModelIOTests.test_axis_conversion_is_right_handed) ... ok
+test_candidate_does_not_claim_alignment (test_model_io.ModelIOTests.test_candidate_does_not_claim_alignment) ... ok
+test_dae_geometry (test_model_io.ModelIOTests.test_dae_geometry) ... ERROR
+test_dae_millimetres_and_z_up (test_model_io.ModelIOTests.test_dae_millimetres_and_z_up) ... ERROR
+test_disconnected_parent (test_model_io.ModelIOTests.test_disconnected_parent) ... ok
+test_empty_mesh_rejected (test_model_io.ModelIOTests.test_empty_mesh_rejected) ... ok
+test_geometry_change_detected (test_model_io.ModelIOTests.test_geometry_change_detected) ... ok
+test_glb_nested_mirrored_instances (test_model_io.ModelIOTests.test_glb_nested_mirrored_instances) ... ERROR
+test_gltf_animation_rejected (test_model_io.ModelIOTests.test_gltf_animation_rejected) ... ok
+test_gltf_conflicting_scale (test_model_io.ModelIOTests.test_gltf_conflicting_scale) ... ok
+test_gltf_embedded_buffers (test_model_io.ModelIOTests.test_gltf_embedded_buffers) ... ERROR
+test_gltf_missing_buffer_rejected (test_model_io.ModelIOTests.test_gltf_missing_buffer_rejected) ... ok
+test_gltf_required_extension_rejected (test_model_io.ModelIOTests.test_gltf_required_extension_rejected) ... ok
+test_invalid_scale (test_model_io.ModelIOTests.test_invalid_scale) ... ok
+test_no_overwrite (test_model_io.ModelIOTests.test_no_overwrite) ... ok
+test_no_path_escape (test_model_io.ModelIOTests.test_no_path_escape) ... ok
+test_no_remote_resource (test_model_io.ModelIOTests.test_no_remote_resource) ... ok
+test_node_selection (test_model_io.ModelIOTests.test_node_selection) ... ok
+test_nonfinite_rejected (test_model_io.ModelIOTests.test_nonfinite_rejected) ... ok
+test_noninteger_indices (test_model_io.ModelIOTests.test_noninteger_indices) ... ok
+test_obj_geometry (test_model_io.ModelIOTests.test_obj_geometry) ... ok
+test_obj_requires_unit (test_model_io.ModelIOTests.test_obj_requires_unit) ... ok
+test_out_of_range_index (test_model_io.ModelIOTests.test_out_of_range_index) ... ok
+test_ply_geometry (test_model_io.ModelIOTests.test_ply_geometry) ... ok
+test_read_identity_deterministic (test_model_io.ModelIOTests.test_read_identity_deterministic) ... ERROR
+test_repeated_node_id (test_model_io.ModelIOTests.test_repeated_node_id) ... ok
+test_stl_geometry (test_model_io.ModelIOTests.test_stl_geometry) ... ok
+test_unsupported_format (test_model_io.ModelIOTests.test_unsupported_format) ... ok
+setUpClass (test_model_io.NativeSkpTests) ... ERROR
+test_build_id_checked (test_upgrade.ReviewTests.test_build_id_checked) ... ok
+test_component_id_checked (test_upgrade.ReviewTests.test_component_id_checked) ... ok
+test_major_issue_not_pass (test_upgrade.ReviewTests.test_major_issue_not_pass) ... ok
+test_missing_reference_pair (test_upgrade.ReviewTests.test_missing_reference_pair) ... ok
+test_no_fake_game_pass (test_upgrade.ReviewTests.test_no_fake_game_pass) ... ok
+test_stale_spec_rejected (test_upgrade.ReviewTests.test_stale_spec_rejected) ... ok
+test_unverifiable_cannot_pass (test_upgrade.ReviewTests.test_unverifiable_cannot_pass) ... ok
+test_unverifiable_preserved (test_upgrade.ReviewTests.test_unverifiable_preserved) ... ok
+test_binding_cannot_change_source_during_edit (test_upgrade.RevisionTests.test_binding_cannot_change_source_during_edit) ... ok
+test_bound_parameter_edit (test_upgrade.RevisionTests.test_bound_parameter_edit) ... ok
+test_canopy_six_cells (test_upgrade.RevisionTests.test_canopy_six_cells) ... ok
+test_locked_scale (test_upgrade.RevisionTests.test_locked_scale) ... ok
+test_other_component_change (test_upgrade.RevisionTests.test_other_component_change) ... ok
+test_protected_region (test_upgrade.RevisionTests.test_protected_region) ... ok
+test_small_roi (test_upgrade.RevisionTests.test_small_roi) ... ok
+test_binding_wrong_value (test_upgrade.SpecTests.test_binding_wrong_value) ... ok
+test_conflict_blocks_execution (test_upgrade.SpecTests.test_conflict_blocks_execution) ... ok
+test_dangling_binding (test_upgrade.SpecTests.test_dangling_binding) ... ok
+test_invalid_parameter_path (test_upgrade.SpecTests.test_invalid_parameter_path) ... ok
+test_migration_preserves_geometry (test_upgrade.SpecTests.test_migration_preserves_geometry) ... ok
+test_new_extra_fields_rejected (test_upgrade.SpecTests.test_new_extra_fields_rejected) ... ok
+test_no_model_route (test_upgrade.SpecTests.test_no_model_route) ... ok
+test_nonuniform_transform (test_upgrade.SpecTests.test_nonuniform_transform) ... ok
+test_parent_cycle (test_upgrade.SpecTests.test_parent_cycle) ... ok
+test_unapproved_overlap (test_upgrade.SpecTests.test_unapproved_overlap) ... ok
+test_units_matrix_consistent (test_upgrade.SpecTests.test_units_matrix_consistent) ... ok
+test_units_mismatch (test_upgrade.SpecTests.test_units_mismatch) ... ok
+test_valid_binding (test_upgrade.SpecTests.test_valid_binding) ... ok
+
+======================================================================
+ERROR: test_dae_geometry (test_model_io.ModelIOTests.test_dae_geometry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "[historical workspace path]", line 34, in test_dae_geometry
+    def test_dae_geometry(self):self.roundtrip('dae')
+                                ~~~~~~~~~~~~~~^^^^^^^
+  File "[historical workspace path]", line 25, in roundtrip
+    p=self.root/('sample.'+ext);export_mesh(self.a,p)
+                                ~~~~~~~~~~~^^^^^^^^^^
+  File "[historical workspace path]", line 334, in export_mesh
+    data=export_collada(parts)
+  File "/opt/pyvenv/lib/python3.13/site-packages/trimesh/exchange/dae.py", line 101, in export_collada
+    import collada
+ModuleNotFoundError: No module named 'collada'
+
+======================================================================
+ERROR: test_dae_millimetres_and_z_up (test_model_io.ModelIOTests.test_dae_millimetres_and_z_up)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "[historical workspace path]", line 82, in test_dae_millimetres_and_z_up
+    a=read_model(p);np.testing.assert_allclose(a.document['statistics']['bounds_m'],[[1,0,0],[2,2,0]])
+  File "[historical workspace path]", line 265, in read_model
+    elif ext=='dae':_dae(path,a,metres_per_unit,up)
+                    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[historical workspace path]", line 121, in _dae
+    import collada
+ModuleNotFoundError: No module named 'collada'
+
+======================================================================
+ERROR: test_glb_nested_mirrored_instances (test_model_io.ModelIOTests.test_glb_nested_mirrored_instances)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "[historical workspace path]", line 29, in test_glb_nested_mirrored_instances
+    def test_glb_nested_mirrored_instances(self):self.roundtrip('glb')
+                                                 ~~~~~~~~~~~~~~^^^^^^^
+  File "[historical workspace path]", line 26, in roundtrip
+    b=read_model(p,**({'metres_per_unit':1,'up':'Y'} if ext in ('obj','stl','ply') else {}))
+  File "[historical workspace path]", line 267, in read_model
+    return analyze(a)
+  File "[historical workspace path]", line 218, in analyze
+    if n['node_id'] in known:raise ValueError('Duplicate node ID')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Duplicate node ID
+
+======================================================================
+ERROR: test_gltf_embedded_buffers (test_model_io.ModelIOTests.test_gltf_embedded_buffers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "[historical workspace path]", line 30, in test_gltf_embedded_buffers
+    def test_gltf_embedded_buffers(self):self.roundtrip('gltf')
+                                         ~~~~~~~~~~~~~~^^^^^^^^
+  File "[historical workspace path]", line 26, in roundtrip
+    b=read_model(p,**({'metres_per_unit':1,'up':'Y'} if ext in ('obj','stl','ply') else {}))
+  File "[historical workspace path]", line 267, in read_model
+    return analyze(a)
+  File "[historical workspace path]", line 218, in analyze
+    if n['node_id'] in known:raise ValueError('Duplicate node ID')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Duplicate node ID
+
+======================================================================
+ERROR: test_read_identity_deterministic (test_model_io.ModelIOTests.test_read_identity_deterministic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "[historical workspace path]", line 72, in test_read_identity_deterministic
+    a=read_model(p);b=read_model(p)
+  File "[historical workspace path]", line 267, in read_model
+    return analyze(a)
+  File "[historical workspace path]", line 218, in analyze
+    if n['node_id'] in known:raise ValueError('Duplicate node ID')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Duplicate node ID
+
+======================================================================
+ERROR: setUpClass (test_model_io.NativeSkpTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "[historical workspace path]", line 87, in setUpClass
+    from openskp import create
+ModuleNotFoundError: No module named 'openskp'
+
+----------------------------------------------------------------------
+Ran 107 tests in 11.756s
+
+FAILED (errors=6)
+
+{"timestamp_utc": "2026-10-21T11:00:32.100271+00:00", "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]", "platform": "Linux-6.18.55-x86_64-with-glibc2.41", "command": "python tools/run_tests.py", "tests_run": 107, "failures": [], "errors": [{"test": "test_dae_geometry (test_model_io.ModelIOTests.test_dae_geometry)", "traceback": "Traceback (most recent call last):\n  File \"[historical workspace path]", line 34, in test_dae_geometry\n    def test_dae_geometry(self):self.roundtrip('dae')\n                                ~~~~~~~~~~~~~~^^^^^^^\n  File \"[historical workspace path]", line 25, in roundtrip\n    p=self.root/('sample.'+ext);export_mesh(self.a,p)\n                                ~~~~~~~~~~~^^^^^^^^^^\n  File \"[historical workspace path]", line 334, in export_mesh\n    data=export_collada(parts)\n  File \"/opt/pyvenv/lib/python3.13/site-packages/trimesh/exchange/dae.py\", line 101, in export_collada\n    import collada\nModuleNotFoundError: No module named 'collada'\n"}, {"test": "test_dae_millimetres_and_z_up (test_model_io.ModelIOTests.test_dae_millimetres_and_z_up)", "traceback": "Traceback (most recent call last):\n  File \"[historical workspace path]", line 82, in test_dae_millimetres_and_z_up\n    a=read_model(p);np.testing.assert_allclose(a.document['statistics']['bounds_m'],[[1,0,0],[2,2,0]])\n  File \"[historical workspace path]", line 265, in read_model\n    elif ext=='dae':_dae(path,a,metres_per_unit,up)\n                    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"[historical workspace path]", line 121, in _dae\n    import collada\nModuleNotFoundError: No module named 'collada'\n"}, {"test": "test_glb_nested_mirrored_instances (test_model_io.ModelIOTests.test_glb_nested_mirrored_instances)", "traceback": "Traceback (most recent call last):\n  File \"[historical workspace path]", line 29, in test_glb_nested_mirrored_instances\n    def test_glb_nested_mirrored_instances(self):self.roundtrip('glb')\n                                                 ~~~~~~~~~~~~~~^^^^^^^\n  File \"[historical workspace path]", line 26, in roundtrip\n    b=read_model(p,**({'metres_per_unit':1,'up':'Y'} if ext in ('obj','stl','ply') else {}))\n  File \"[historical workspace path]", line 267, in read_model\n    return analyze(a)\n  File \"[historical workspace path]", line 218, in analyze\n    if n['node_id'] in known:raise ValueError('Duplicate node ID')\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Duplicate node ID\n"}, {"test": "test_gltf_embedded_buffers (test_model_io.ModelIOTests.test_gltf_embedded_buffers)", "traceback": "Traceback (most recent call last):\n  File \"[historical workspace path]", line 30, in test_gltf_embedded_buffers\n    def test_gltf_embedded_buffers(self):self.roundtrip('gltf')\n                                         ~~~~~~~~~~~~~~^^^^^^^^\n  File \"[historical workspace path]", line 26, in roundtrip\n    b=read_model(p,**({'metres_per_unit':1,'up':'Y'} if ext in ('obj','stl','ply') else {}))\n  File \"[historical workspace path]", line 267, in read_model\n    return analyze(a)\n  File \"[historical workspace path]", line 218, in analyze\n    if n['node_id'] in known:raise ValueError('Duplicate node ID')\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Duplicate node ID\n"}, {"test": "test_read_identity_deterministic (test_model_io.ModelIOTests.test_read_identity_deterministic)", "traceback": "Traceback (most recent call last):\n  File \"[historical workspace path]", line 72, in test_read_identity_deterministic\n    a=read_model(p);b=read_model(p)\n  File \"[historical workspace path]", line 267, in read_model\n    return analyze(a)\n  File \"[historical workspace path]", line 218, in analyze\n    if n['node_id'] in known:raise ValueError('Duplicate node ID')\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Duplicate node ID\n"}, {"test": "setUpClass (test_model_io.NativeSkpTests)", "traceback": "Traceback (most recent call last):\n  File \"[historical workspace path]", line 87, in setUpClass\n    from openskp import create\nModuleNotFoundError: No module named 'openskp'\n"}], "skipped": [], "elapsed_seconds": 13.458, "status": "fail"}

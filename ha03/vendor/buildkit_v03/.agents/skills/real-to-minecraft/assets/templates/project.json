@@ -1,0 +1,75 @@
+{
+  "template_version": "0.2",
+  "project_id": null,
+  "target": {
+    "name": null,
+    "city": null,
+    "identity_source_ids": [],
+    "target_epoch": null,
+    "scope_description": null
+  },
+  "phase": "P0",
+  "requested_scale": {
+    "blocks_per_metre": 1.0,
+    "global_rescale_authorized": false,
+    "local_adaptations_require_log": true
+  },
+  "interior_scope": "to_be_confirmed",
+  "requested_environment": {
+    "edition": "Java",
+    "minecraft_version": null,
+    "loader": null,
+    "mods": [],
+    "output_format": "minecraft_structure_nbt"
+  },
+  "observed_environment": {
+    "verified": false,
+    "evidence_path": null,
+    "minecraft_version": null,
+    "loader_version": null,
+    "mods": [],
+    "palette_path": null,
+    "resource_packs": [],
+    "min_y_inclusive": null,
+    "max_y_exclusive": null,
+    "schematic_upload_limit_bytes": null
+  },
+  "placement": {
+    "world_origin_xyz": null,
+    "local_origin_definition": null,
+    "yaw_degrees": null,
+    "terrain_datum": null,
+    "coordinate_reference_system": null
+  },
+  "capabilities": {
+    "web_search": "unverified",
+    "image_reading": "unverified",
+    "document_parsing": "unverified",
+    "code_execution": "unverified",
+    "geometry_generation": "unverified",
+    "nbt_export": "unverified",
+    "nbt_readback": "unverified",
+    "minecraft_access": "unverified",
+    "schematic_inspection": "unverified",
+    "local_blockstate_diff": "unverified",
+    "model_rendering": "unverified"
+  },
+  "gates": {
+    "G1_scale": "pending",
+    "G2_sample": "pending",
+    "G3_game_validation": "pending"
+  },
+  "delivery_class": "research_draft",
+  "protected_regions": [],
+  "decisions": [],
+  "open_questions": [],
+  "execution": {
+    "mode": "prototype_first",
+    "targeted_search_batches_before_first_sample": 2,
+    "max_visual_revision_rounds": 2,
+    "allow_explicitly_assumed_study_parameters": true,
+    "study_parameters_path": "study_parameters.json",
+    "snapshot_dir": "snapshots",
+    "run_record_path": "run_record.json"
+  }
+}

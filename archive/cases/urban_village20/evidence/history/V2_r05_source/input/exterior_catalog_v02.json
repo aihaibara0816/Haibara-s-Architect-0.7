@@ -1,0 +1,1258 @@
+{
+  "schema_version": "0.2",
+  "name": "HAF Exterior Study Library",
+  "date": "2026-10-28",
+  "haf_mainline": "0.4",
+  "scope": "HAF 0.4 参考研究库：三条视频＋jiejao；新增预制组合与区域组织。无新整栋生成，无自动放置消费者。",
+  "source": {
+    "video": {
+      "id": "V01",
+      "title": "建个广东打工人都很熟悉的楼，纪念我们奋斗的青春~【我的世界Minecraft】",
+      "author": "赵相机咔咔一顿拍",
+      "url": "https://www.bilibili.com/zh-Hans/video/BV17x42117gm/",
+      "duration_seconds": 320,
+      "method": "登录后播放器关键施工段与成品画面观察；不是逐字字幕稿，也未取得视频工程。"
+    },
+    "nbt": {
+      "id": "J00",
+      "name": "jiejao.nbt",
+      "library_file_id": "libfile_690df86adc9881918fce5c41c4e88da2",
+      "sha256": "3727667d0add5244a7f5b1bcfdf2706da4c49e16ade743a4de254da15f5b62e6",
+      "size_xyz": [
+        108,
+        43,
+        72
+      ],
+      "block_records": 44127,
+      "palette_states": 325,
+      "method": "本轮实际 NBT 只读回读，保留方块状态与局部坐标。"
+    },
+    "rural_video": {
+      "id": "V02",
+      "title": "[Minecraft] 如何像预制菜一样预制农村自建房",
+      "author": "Bad_Door",
+      "url": "https://www.bilibili.com/video/BV1TpGw6JEHQ/",
+      "published": "2026-07-31",
+      "duration_seconds": 792,
+      "chapters": [
+        [
+          "预览",
+          "00:00–00:40"
+        ],
+        [
+          "墙面材质",
+          "00:40–01:17"
+        ],
+        [
+          "窗户样式",
+          "01:17–01:40"
+        ],
+        [
+          "围墙样式",
+          "01:40–02:13"
+        ],
+        [
+          "外部装饰",
+          "02:13–04:12"
+        ],
+        [
+          "窗户放置",
+          "04:12–04:33"
+        ],
+        [
+          "杂项",
+          "04:33–05:28"
+        ],
+        [
+          "例子演示",
+          "05:28–13:12"
+        ]
+      ],
+      "method": "登录后播放器关键帧观察；章节表来自页面。并非逐秒观看或完整字幕转录。",
+      "coverage": "墙材、窗型、围墙、外饰、窗口放置、收边与整栋组合。",
+      "not_covered": "完整村落规划、完整室内户型与家具、NBT 源工程、原版无光影验证。"
+    },
+    "hk_video": {
+      "id": "V03",
+      "title": "用MC方块打造一个“小香港”#01",
+      "author": "赵相机咔咔一顿拍",
+      "url": "https://www.bilibili.com/video/BV1Hf421Q7iq/",
+      "published": "2024-06-30",
+      "duration_seconds": 215,
+      "method": "登录后播放器关键帧观察。页面简介说明为直播建设成果展示，区域计划继续扩建。",
+      "coverage": "街面、高低体量、街角、立面进退、招牌、路面与屋顶。",
+      "not_covered": "施工顺序、精确尺寸、完整内饰、实际通行、整区完工。自动播放进入的 #02 不纳入本轮证据。"
+    }
+  },
+  "observations": [
+    {
+      "id": "V01-12",
+      "at": "00:12",
+      "kind": "subtitle_and_visual",
+      "observation": "红褐色楼以磨制花岗岩为主材；字幕明确材料名。外墙轮廓先于标准层复制。",
+      "limit": "31×26 是视频中的 Minecraft 建造尺度，不是真实建筑测量。"
+    },
+    {
+      "id": "V01-25",
+      "at": "00:25–00:26",
+      "kind": "visual",
+      "observation": "中部连续通道两侧设置重复隔间；窗洞外有凸出的铁栏围笼，上下分别设置薄水平构件。",
+      "limit": "不据此认定厨卫位置、套数、承重体系或完整功能内饰。"
+    },
+    {
+      "id": "V01-35",
+      "at": "00:34–00:35",
+      "kind": "visual",
+      "observation": "标准层竖向重复，顶部施工面可见平面分隔与楼梯位置；侧墙保留大段实体面。",
+      "limit": "重复层数不作为我们楼盘的楼层参数。"
+    },
+    {
+      "id": "V01-106",
+      "at": "01:46–01:47",
+      "kind": "visual",
+      "observation": "屋顶由凸起围护、白色箱体、竖管、成组细杆横线架及种植床组成，各组之间留空。",
+      "limit": "细杆横线架形态支持晾晒架判断；白箱的具体设备功能仍待证实。"
+    },
+    {
+      "id": "V01-126",
+      "at": "02:06–02:07",
+      "kind": "visual",
+      "observation": "屋顶新增薄顶棚与支柱，女儿墙加浅色压顶，沿街底层出现彩色招牌状面板。",
+      "limit": "面板内容及底层实际商铺用途未逐一核实。"
+    },
+    {
+      "id": "V01-139",
+      "at": "02:18–02:19；02:30–02:31",
+      "kind": "visual",
+      "observation": "白色小设备盒选择性地挂在窗侧，部分带深色小面板；不同楼层位置有变化。",
+      "limit": "可借鉴为空调外机的视觉表达；具体方块 ID、支架和管线不能只凭这几帧断言。"
+    },
+    {
+      "id": "V01-186",
+      "at": "03:06–03:07",
+      "kind": "visual",
+      "observation": "第二栋改用浅灰白墙面、红褐色窗顶和深棕窗台，基础分隔仍重复。",
+      "limit": "画面纹理不能等同精确材质表。"
+    },
+    {
+      "id": "V01-221",
+      "at": "03:40–03:41",
+      "kind": "visual",
+      "observation": "同一正面划分为竖向独立窗列与连续后退开口带，带状窗下沿连续转折；一层另作大开口。",
+      "limit": "凹带可作为阳台/外廊表达研究，实际通行功能未验证。"
+    },
+    {
+      "id": "V01-281",
+      "at": "04:40–04:41；04:57–04:58",
+      "kind": "visual",
+      "observation": "第二栋屋顶有多个箱体、杆架和低矮盆状设施；侧墙增加连续竖管，屋顶压顶与窗下横带呼应。",
+      "limit": "并非所有箱体都是水箱；视频中没有确认到独立电视天线的细部。"
+    },
+    {
+      "id": "J00-readback",
+      "at": "原文件坐标 X/Y/Z",
+      "kind": "nbt_readback",
+      "observation": "尺寸 108×43×72，44,127 条方块记录，325 个调色板状态；与历史记录的原文件 SHA256 一致。",
+      "limit": "尺寸包含整个模型，材料总数不是某面墙的比例。"
+    },
+    {
+      "id": "J01",
+      "at": "[92,36,22] → [95,43,25)，高端不含",
+      "kind": "nbt_excerpt",
+      "observation": "竖杆与侧向附件组成天线状轮廓，含闪长岩墙、铁栏、避雷针等状态。",
+      "limit": "形态分类为天线状杆架；实际通信或避雷功能不作承诺。"
+    },
+    {
+      "id": "J02",
+      "at": "[91,13,3] → [95,16,4)，高端不含",
+      "kind": "nbt_excerpt",
+      "observation": "两个铁块、侧向梯子、顶部铁活板门和下部拉杆构成一个附墙设备盒组合。",
+      "limit": "可以作为空调外机造型参考，原作者设备用途未核实。"
+    },
+    {
+      "id": "J03",
+      "at": "[91,32,17] → [101,35,20)，高端不含",
+      "kind": "nbt_excerpt",
+      "observation": "屋顶多个重复单元使用铁块、石英楼梯、横向锁链与避雷针组合，粗细层次不同。",
+      "limit": "暂记屋顶设施排，不强行命名水箱或风机。"
+    },
+    {
+      "id": "J00-material",
+      "at": "全模型与立面回读",
+      "kind": "nbt_readback",
+      "observation": "白色羊毛、白色混凝土、磨制闪长岩等浅色材料并存，多色玻璃与细部设施共同形成变化。",
+      "limit": "只证明模型材料及几何分布；无真实纹理渲染，不能推导污染原因。"
+    },
+    {
+      "id": "J00-plan",
+      "at": "Y≤12 的俯视剖切",
+      "kind": "nbt_readback",
+      "observation": "能看到部分隔片/房间边界与窗后细部，大量空间没有完整家具配置。",
+      "limit": "这张剖切不证明整栋有连续交通、有效户型或可进入内饰。"
+    },
+    {
+      "id": "V02-22",
+      "at": "00:22",
+      "kind": "video_visual",
+      "observation": "成组展示浅色或黄色墙面的自建房，屋顶有边缘叠层、箱罐状设施、设备盒，楼体之间有间隔。",
+      "limit": "这是样板预览；没有可测量的完整村落道路、宅地或院落总图。"
+    },
+    {
+      "id": "V02-49",
+      "at": "00:49–00:50",
+      "kind": "video_visual",
+      "observation": "并排展示墙材样板；字幕建议该教程采用每层约 7 格的尺度。",
+      "limit": "仅为作者案例建议；不能替换我们现有楼盘层高。"
+    },
+    {
+      "id": "V02-60",
+      "at": "01:00–01:01",
+      "kind": "video_visual",
+      "observation": "墙材章节提出混合接近颜色的方块。",
+      "limit": "只学习颜色接近与表面变化关系，不把某一组材料或混合比例设成全局默认。"
+    },
+    {
+      "id": "V02-90",
+      "at": "01:30–01:31",
+      "kind": "video_visual",
+      "observation": "凹入窗洞中组合玻璃、竖向锁链与水平细件；画面说明此组窗型使用 2 格墙厚。",
+      "limit": "模块必须记录依赖墙厚与进深；2 格是此组样板条件，不是所有建筑的最低墙厚。"
+    },
+    {
+      "id": "V02-115",
+      "at": "01:55–01:56",
+      "kind": "video_visual",
+      "observation": "围墙样板有节奏性镂空和柱头；物品名显示使用平滑砂岩楼梯。",
+      "limit": "镂空轮廓、方向与收口应单独建模；不能用整方块填平。"
+    },
+    {
+      "id": "V02-137",
+      "at": "02:14–02:18",
+      "kind": "video_visual",
+      "observation": "展示具有削角/阶梯轮廓的罐状设备，外侧组合细杆、栅栏与竖向梯状附件。",
+      "limit": "字幕有戏谑命名，不能当真实设施说明。暂记水箱/储罐外形候选，工程用途未知。"
+    },
+    {
+      "id": "V02-150",
+      "at": "02:30–02:31；02:55–02:56",
+      "kind": "video_visual",
+      "observation": "罐状外饰施工中使用磨制闪长岩楼梯等形成边缘层次，后续添加苍白橡木栅栏附件。",
+      "limit": "未获得可完整复现的每格布置；苍白橡木类材料与目标游戏版本及引擎支持须另核对。"
+    },
+    {
+      "id": "V02-210",
+      "at": "03:30–03:31",
+      "kind": "video_visual",
+      "observation": "浅色竖向细杆贴墙布置，字幕演示在连接部位使用楼梯形方块作过渡。",
+      "limit": "管线全部材料与连接状态未确认，保留形态和接头关系，不冒充完整配方。"
+    },
+    {
+      "id": "V02-222",
+      "at": "03:42–03:43",
+      "kind": "video_visual",
+      "observation": "附墙设备盒有顶部/侧面薄盖、按钮状细件和管线转接，风扇状开口与箱体相互区分。",
+      "limit": "可借作空调外机表达；模组/资源包及全部状态不能只凭画面确认。"
+    },
+    {
+      "id": "V02-238",
+      "at": "03:58–03:59",
+      "kind": "video_visual",
+      "observation": "双扇门两侧用红黄色竖向图案强调门面，上方另有纹样面板。",
+      "limit": "登记为门口装饰变体；不把节庆装饰铺到每栋、每个入口。"
+    },
+    {
+      "id": "V02-265",
+      "at": "04:25–04:26",
+      "kind": "video_visual",
+      "observation": "安装示例让厚窗有清楚的墙洞与侧边，字幕给出该窗型之间至少 2 格间隔的做法。",
+      "limit": "这是特定尺度下的间距提示；最终必须按净墙段和结构/功能边界检查。"
+    },
+    {
+      "id": "V02-300",
+      "at": "05:00–05:01",
+      "kind": "video_visual",
+      "observation": "阳台或楼层边缘有水平红褐色薄装饰带，和浅色栏墙产生层次。",
+      "limit": "保留为檐口/腰线表达；不认定每条装饰带都等于一层楼。"
+    },
+    {
+      "id": "V02-350",
+      "at": "05:50–05:51",
+      "kind": "video_visual",
+      "observation": "整栋示例先在灰色基础体块上向外伸出一段，再继续组织外轮廓。",
+      "limit": "画面中的 3 格外伸属于作者本例，迁移时由阳台功能和比例决定。"
+    },
+    {
+      "id": "V02-440",
+      "at": "07:20–07:21",
+      "kind": "video_visual",
+      "observation": "示例通过复制已有楼层继续形成第三层，窗洞随层重复。",
+      "limit": "复制须带着核心、楼板与门洞关系核对；视频片段不证明完整楼梯/户型。"
+    },
+    {
+      "id": "V02-600",
+      "at": "10:00–10:01",
+      "kind": "video_visual",
+      "observation": "后期选区替换灰色墙面，字幕给出石头/安山岩/砂砾的混合示例，说明材质变体晚于体量。",
+      "limit": "屏幕命令处于操作中，不把某一帧命令当最终完整配方；不照搬其色差强度。"
+    },
+    {
+      "id": "V02-675",
+      "at": "11:15–11:16",
+      "kind": "video_visual",
+      "observation": "局部进一步混入矿石、苔色或其他粗糙纹理，在窗侧形成较强表面变化。",
+      "limit": "这是作者的强纹理变体。当前住宅用户指定近色单块穿插，默认不引入明显黑斑/大片苔痕。"
+    },
+    {
+      "id": "V02-780",
+      "at": "13:00–13:01",
+      "kind": "video_visual",
+      "observation": "成品可见浅色主墙、红褐横带、外凸防盗网、屋顶设备和高低楼体的邻接。",
+      "limit": "足以研究成品组合，不足以证明完整乡村片区与内部设施已建设。"
+    },
+    {
+      "id": "V03-31",
+      "at": "00:31",
+      "kind": "video_visual",
+      "observation": "街道有连续建筑界面、沿街大幅面板和挑出竖牌，路灯、车流、斑马线与人行道共同呈现尺度。",
+      "limit": "只有表面展示；道路尺寸、实际交通规则、标牌内容未测量。"
+    },
+    {
+      "id": "V03-50",
+      "at": "00:50",
+      "kind": "video_visual",
+      "observation": "紫白相间的中层转角楼与更高的窄塔相邻，横带连续转角，窗侧挂有设备盒。",
+      "limit": "属于作者香港风格作品，不代表香港建筑的统一模板或现实建筑复原。"
+    },
+    {
+      "id": "V03-80",
+      "at": "01:20–01:21",
+      "kind": "video_visual",
+      "observation": "相邻建筑高度与窗墙系统不同；底部大檐口、竖牌和车辆强化近景，外机重复成为立面节奏。",
+      "limit": "重复外机不能自动推成每间房都必须有一台；内饰只见窗后灯点。"
+    },
+    {
+      "id": "V03-105",
+      "at": "01:45–01:46",
+      "kind": "video_visual",
+      "observation": "街角楼逐层收退，上部露台保留种植槽和晾晒状杆架；邻侧道路与待建空地清楚可见。",
+      "limit": "该段说明空间层次，不支持整个区域已经建满或完工的结论。"
+    },
+    {
+      "id": "V03-130",
+      "at": "02:10–02:11",
+      "kind": "video_visual",
+      "observation": "实体横带、粗糙竖肋、后退玻璃形成层次，街角用折线转角；底层另设彩色店招状区域。",
+      "limit": "可见窗后灯具不等于完整功能内饰，横带也不直接证明真实楼板。"
+    },
+    {
+      "id": "V03-158",
+      "at": "02:38–02:39",
+      "kind": "video_visual",
+      "observation": "较窄街道两侧有连续商住界面、不同高低的挑出招牌、小雨棚、边界栏杆和少量植被。",
+      "limit": "需要保持人行道和入口可读，不能把此效果简化成到处塞招牌。"
+    },
+    {
+      "id": "V03-188",
+      "at": "03:08–03:09",
+      "kind": "video_visual",
+      "observation": "一栋采用折面蓝玻璃与红褐实体横带的建筑插在其他竖向体量之间，立面进退形成阴影。",
+      "limit": "这是另一种立面体系；不能将同样玻璃比例用于农村自建房。"
+    }
+  ],
+  "components": [
+    {
+      "id": "C01",
+      "name": "防盗网／凸窗笼",
+      "zone": "墙面",
+      "evidence": [
+        "V01-25",
+        "V01-186"
+      ],
+      "form": "玻璃后退，铁栏在外侧形成有侧边的薄笼，上下收口。",
+      "anchor": "房间窗洞边缘；保持开口与窗台关系",
+      "parameters": [
+        "无网／贴面网／外凸笼",
+        "宽高随窗洞",
+        "突出深度分档",
+        "稳定住户 ID 决定变体"
+      ],
+      "avoid": "不要每扇窗同一种笼；不要把玻璃与铁栏并成一个实心层。",
+      "transfer": "千禧住宅保留用户要求的有网／无网混合；先定窗型再选网型。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C02",
+      "name": "窗台与小雨棚",
+      "zone": "墙面",
+      "evidence": [
+        "V01-25",
+        "V01-186"
+      ],
+      "form": "窗顶薄盖、窗底薄台形成阴影，颜色服从整栋配色。",
+      "anchor": "窗框上缘与下缘",
+      "parameters": [
+        "材质",
+        "挑出深度",
+        "连续／单窗",
+        "上下构件是否同色"
+      ],
+      "avoid": "不为变化随机抬高窗台；不要挡住窗和管线。",
+      "transfer": "可采用半砖与活板门候选做法；具体材料先做样板。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C03",
+      "name": "空调外机表达",
+      "zone": "设备",
+      "evidence": [
+        "V01-139",
+        "J02"
+      ],
+      "form": "视频用小白盒和深色细部；jiejao 用铁块加梯子、活板门、拉杆构成设备盒。",
+      "anchor": "窗侧／窗下设备位；绑定对应房间",
+      "parameters": [
+        "单／双机",
+        "左右侧",
+        "尺寸等级",
+        "支架与连接管选项"
+      ],
+      "avoid": "避免悬空无依托、正对窗中心、每户同高度同数量。",
+      "transfer": "一梯一户的大户型可按实际房间分配设备位；数量不能等同亮灯户数。",
+      "status": "extracted_reference",
+      "sample_id": "J02",
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C04",
+      "name": "屋顶水箱候选",
+      "zone": "屋顶",
+      "evidence": [
+        "V01-106",
+        "V01-281"
+      ],
+      "form": "画面确认屋顶有白色箱体，水箱的具体身份未确认。",
+      "anchor": "设备台或屋顶承托区，预留到达路径",
+      "parameters": [
+        "方形／圆筒候选",
+        "底座",
+        "进出水细管",
+        "单组／成组"
+      ],
+      "avoid": "不能把每个白箱都标成水箱，也不能从模型箱体断言真实设备规格。",
+      "transfer": "先入待研究条目；水箱精细做法由后续明确来源补齐。",
+      "status": "proposed_variant",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C05",
+      "name": "天线状杆架",
+      "zone": "屋顶",
+      "evidence": [
+        "J01"
+      ],
+      "form": "中心竖杆配多高度侧向附件，细杆与较厚附件共同形成轮廓。",
+      "anchor": "屋顶独立基座，避开出口与设备检修通道",
+      "parameters": [
+        "高度",
+        "横臂层数",
+        "附件朝向",
+        "杆径层级"
+      ],
+      "avoid": "不把晾衣架当作天线；不要给每栋复制同一高度同一坐标。",
+      "transfer": "先用小样本验证四向旋转、承托与邻接更新，再发展电视天线／通信杆等分支。",
+      "status": "extracted_reference",
+      "sample_id": "J01",
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C06",
+      "name": "外露竖管与转接",
+      "zone": "设备",
+      "evidence": [
+        "V01-281",
+        "J00-material"
+      ],
+      "form": "连续竖向细杆附着实体墙，局部连接节点形成厚度。",
+      "anchor": "实体墙带、边角或湿区设备带",
+      "parameters": [
+        "闪长岩墙候选",
+        "竖管连续高度",
+        "支架间距",
+        "上下转接"
+      ],
+      "avoid": "不横穿窗洞与出入口；墙方块连接状态需要核对。",
+      "transfer": "沿用用户提出的闪长岩墙水管表达；默认不是结构柱。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C07",
+      "name": "屋顶晾晒架",
+      "zone": "生活",
+      "evidence": [
+        "V01-106",
+        "V01-126"
+      ],
+      "form": "成对竖柱与细横线组成开敞架，分组排列。",
+      "anchor": "可到达的屋顶生活区",
+      "parameters": [
+        "列数",
+        "柱距",
+        "横线高度",
+        "有无衣物"
+      ],
+      "avoid": "不能把整片屋顶填满，也不能和天线共用语义标签。",
+      "transfer": "适合旧住宅生活感；现代办公楼按用途禁用或降权。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C08",
+      "name": "轻型遮棚",
+      "zone": "生活",
+      "evidence": [
+        "V01-126"
+      ],
+      "form": "薄屋面、少量支柱、下方留空。",
+      "anchor": "屋顶或阳台可用区，与通道相邻",
+      "parameters": [
+        "开间",
+        "薄顶材质",
+        "柱数",
+        "是否贴墙"
+      ],
+      "avoid": "不要把薄棚做成厚实楼层；不堵楼梯出口。",
+      "transfer": "保留轻重对比，不把每栋都做成相同棚。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C09",
+      "name": "屋顶种植床与花盆",
+      "zone": "生活",
+      "evidence": [
+        "V01-106",
+        "V01-281"
+      ],
+      "form": "种植床成小组，留出空白地面与步行联系。",
+      "anchor": "有使用路径的屋顶生活区",
+      "parameters": [
+        "床数",
+        "长宽变化",
+        "作物／盆栽",
+        "有无边框"
+      ],
+      "avoid": "不要平均点撒；不与管线、天线基座重叠。",
+      "transfer": "园林需先定空间与路径；不是看到空地就塞花盆。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C10",
+      "name": "楼梯出屋面体量",
+      "zone": "屋顶",
+      "evidence": [
+        "V01-106",
+        "V01-281"
+      ],
+      "form": "主楼之上有偏置的凸起围护，与设备及生活区并置。",
+      "anchor": "必须对齐下面的楼梯或核心",
+      "parameters": [
+        "位置",
+        "体量高度",
+        "顶面形式",
+        "出口方向"
+      ],
+      "avoid": "不凭外观声称内部楼梯连通；不能随意漂移核心。",
+      "transfer": "屋顶轮廓变化要受下面的交通体系约束。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C11",
+      "name": "女儿墙与压顶",
+      "zone": "墙面",
+      "evidence": [
+        "V01-126",
+        "V01-281"
+      ],
+      "form": "连续边界加薄压顶，材质与窗台/横带产生呼应。",
+      "anchor": "屋顶外轮廓与退台边缘",
+      "parameters": [
+        "墙高",
+        "压顶材料",
+        "转角收口"
+      ],
+      "avoid": "不能为做压顶抹平已确认的体块变化。",
+      "transfer": "用连续收边统一细节较多的建筑。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C12",
+      "name": "底层大开口与招牌",
+      "zone": "底层",
+      "evidence": [
+        "V01-126",
+        "V01-221"
+      ],
+      "form": "首层有不同于住宅层的开口比例，彩色面板局部集中。",
+      "anchor": "真正的入口或沿街商业段",
+      "parameters": [
+        "门洞",
+        "牌匾宽度",
+        "招牌颜色上限",
+        "檐口"
+      ],
+      "avoid": "不是所有住区首层都改商铺；不得封住入口。",
+      "transfer": "把街道使用与上层住宅分清；用于社区配套时另定范围。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C13",
+      "name": "实体墙／窗列／凹带",
+      "zone": "墙面",
+      "evidence": [
+        "V01-35",
+        "V01-221"
+      ],
+      "form": "同栋立面可同时存在大实体面、单窗列和连续后退开口。",
+      "anchor": "先依据房间与公共交通分配区域",
+      "parameters": [
+        "区域边界",
+        "窗墙比例",
+        "进退层级",
+        "横带是否连续"
+      ],
+      "avoid": "不要只随机改变玻璃颜色来解决平面单薄。",
+      "transfer": "总体体块、立面区域、单窗细部三个尺度分别设计。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C14",
+      "name": "近色块与次色玻璃",
+      "zone": "材料",
+      "evidence": [
+        "J00-material"
+      ],
+      "form": "同一主色系材料交错，少量不同玻璃色；细部不独占全部表现。",
+      "anchor": "仅在允许的墙面/窗面掩码内",
+      "parameters": [
+        "主材",
+        "近色候选",
+        "点缀强度",
+        "稳定种子",
+        "保护边缘"
+      ],
+      "avoid": "本项目按用户要求做近似颜色单块穿插，不改为成片污渍；全模型计数不能变成新立面配额。",
+      "transfer": "按年代和维护程度调强度；需要用原版材质复看真实色差。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C15",
+      "name": "屋顶连排设施",
+      "zone": "设备",
+      "evidence": [
+        "J03"
+      ],
+      "form": "重复箱体、台阶形顶部、侧向短杆和连接线构成一组。",
+      "anchor": "屋顶独立设备带",
+      "parameters": [
+        "单元数",
+        "间距",
+        "连接方向",
+        "端部收口"
+      ],
+      "avoid": "具体设备用途待确认；不把研究段直接命名成水箱排。",
+      "transfer": "先保存准确源状态，后续有证据再细分风机／设备柜等类型。",
+      "status": "extracted_reference",
+      "sample_id": "J03",
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C16",
+      "name": "带墙厚的窗户预制单元",
+      "zone": "墙面",
+      "evidence": [
+        "V02-90",
+        "V02-265"
+      ],
+      "form": "把墙洞、玻璃、细杆、窗框与侧边作为完整模块，保留前后层次。",
+      "anchor": "指定厚度的墙段；朝向与窗台标高固定",
+      "parameters": [
+        "墙厚档",
+        "洞口尺寸",
+        "窗框外包络",
+        "周边留墙",
+        "朝向"
+      ],
+      "avoid": "不能只存一张正面；复制时要包含需要挖空的区域。",
+      "transfer": "模块写出占用包络和清空包络，再按净墙段分配。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C17",
+      "name": "镂空围墙与栏墙段",
+      "zone": "围护",
+      "evidence": [
+        "V02-115"
+      ],
+      "form": "实体、镂空与柱头分工；楼梯形方块塑造重复空隙。",
+      "anchor": "院界、屋顶或阳台边界，按用途选高度",
+      "parameters": [
+        "重复单元",
+        "墙高",
+        "柱距",
+        "转角和端头"
+      ],
+      "avoid": "禁止把防护、游戏碰撞与视觉镂空混为一谈。",
+      "transfer": "建立直段、端头、转角三类参考，分别查相接。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C18",
+      "name": "削角罐体与外侧附件",
+      "zone": "屋顶",
+      "evidence": [
+        "V02-137",
+        "V02-150"
+      ],
+      "form": "通过楼梯/半砖式层次塑造罐体轮廓，细杆/梯状件附在外侧。",
+      "anchor": "屋顶设备位或独立设备台",
+      "parameters": [
+        "圆筒感／方形",
+        "边缘削角",
+        "支脚",
+        "侧向附件",
+        "管口"
+      ],
+      "avoid": "用途未明确时保持罐状设备标签，不误用戏谑字幕。",
+      "transfer": "补充水箱候选的形态来源；精确方块配方待小样板。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C19",
+      "name": "细管与转接头",
+      "zone": "设备",
+      "evidence": [
+        "V02-210",
+        "V02-222"
+      ],
+      "form": "浅色细杆贴墙，并通过阶梯形接头与设备箱连接。",
+      "anchor": "实体墙或设备带",
+      "parameters": [
+        "管径档",
+        "颜色",
+        "竖横转接",
+        "贴墙距离"
+      ],
+      "avoid": "材料版本/引擎支持未知时不默认可生成；不横穿窗洞。",
+      "transfer": "与 C06 闪长岩墙粗管形成不同粗细选项，连接和支持分别检查。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C20",
+      "name": "门口对联式装饰",
+      "zone": "底层",
+      "evidence": [
+        "V02-238"
+      ],
+      "form": "入口两侧竖向色板，上缘纹样板，门洞仍清楚。",
+      "anchor": "真正的主入口两侧",
+      "parameters": [
+        "有／无",
+        "图案密度",
+        "色彩",
+        "上缘面板"
+      ],
+      "avoid": "不把节庆标记放满所有门窗，不让装饰侵入门洞。",
+      "transfer": "住宅按住户选择性采用，公共现代建筑不默认继承。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C21",
+      "name": "薄腰线与边缘饰板",
+      "zone": "墙面",
+      "evidence": [
+        "V02-300",
+        "V02-780"
+      ],
+      "form": "薄横带在浅色主墙、阳台边缘形成收边与阴影。",
+      "anchor": "已确定楼层/阳台边缘",
+      "parameters": [
+        "带宽",
+        "突出深度",
+        "连续／中断",
+        "转角接头"
+      ],
+      "avoid": "装饰横带不能代替楼板或改变楼层标高。",
+      "transfer": "维持整栋统一色系，再小范围调整端头。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C22",
+      "name": "复制楼层与体量变体",
+      "zone": "空间",
+      "evidence": [
+        "V02-350",
+        "V02-440",
+        "V02-600"
+      ],
+      "form": "先组合基础体量和楼层，再替换表皮材料与设备。",
+      "anchor": "同一层高和核心体系中的标准层",
+      "parameters": [
+        "层数",
+        "面宽",
+        "进深",
+        "阳台位置",
+        "顶层退台"
+      ],
+      "avoid": "不能只换色就宣称多栋不同户型；复制后必须查交通核心。",
+      "transfer": "先建立两三种可用平面，再做楼栋/住户级变化。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C23",
+      "name": "转角楼的横带与折面",
+      "zone": "空间",
+      "evidence": [
+        "V03-50",
+        "V03-130",
+        "V03-188"
+      ],
+      "form": "连续横带经过折线/削角转折，玻璃、竖肋与实体带各有进退。",
+      "anchor": "街角或需要转向的立面区域",
+      "parameters": [
+        "转角轮廓",
+        "带深",
+        "窗后退",
+        "竖肋间隔"
+      ],
+      "avoid": "不能只给直角盒子加彩色带就声称完成折面。",
+      "transfer": "先画平面转角与层高，再装立面组件；适合城市街区。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C24",
+      "name": "挑出招牌与支架",
+      "zone": "底层",
+      "evidence": [
+        "V03-31",
+        "V03-80",
+        "V03-158"
+      ],
+      "form": "不同方向和高低的招牌从店铺段挑出，成为街道中景。",
+      "anchor": "对应商铺门面或建筑侧墙",
+      "parameters": [
+        "横牌／竖牌",
+        "尺寸",
+        "标高",
+        "突出深度",
+        "支架"
+      ],
+      "avoid": "不无差别塞满窗户；与路灯、树、雨棚和行人净空避让。",
+      "transfer": "用店铺 ID 绑定样式，街道全段控制总密度。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C25",
+      "name": "人行道与沿街设施组合",
+      "zone": "街道",
+      "evidence": [
+        "V03-31",
+        "V03-158"
+      ],
+      "form": "铺地、灯杆、低栏、雨棚、路口标记一起建立行走界面。",
+      "anchor": "道路边与入口前方",
+      "parameters": [
+        "铺地分区",
+        "路灯间距",
+        "栏杆开口",
+        "雨棚端部"
+      ],
+      "avoid": "不把路边空位全变成树或设备；保持入口和穿行通道。",
+      "transfer": "先定通路及入口，再摆设施；车辆只作尺度参考，不证明模拟交通功能。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C26",
+      "name": "退台屋顶与生活设施",
+      "zone": "屋顶",
+      "evidence": [
+        "V03-105"
+      ],
+      "form": "收退楼体提供露台，种植与晾晒状设施占用局部，保留空白。",
+      "anchor": "真实有楼板承托且能到达的露台",
+      "parameters": [
+        "收退范围",
+        "核心出口",
+        "设备／生活分区",
+        "留白"
+      ],
+      "avoid": "没有通路就不能声称可使用；不把全部露台塞满。",
+      "transfer": "与 C07/C09/C10 共用关系，适用密集街区顶层。",
+      "status": "observed_recipe",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    },
+    {
+      "id": "C27",
+      "name": "小片乡村的宅地组合",
+      "zone": "空间",
+      "evidence": [
+        "V02-22",
+        "V02-780"
+      ],
+      "form": "设计推演：共享村路连接独立宅地，各宅地包含房子、入口前场及服务边界。",
+      "anchor": "道路—宅地—院门—主入口",
+      "parameters": [
+        "原型数量",
+        "宅地朝向",
+        "前场退让",
+        "支巷",
+        "菜地/公共空地"
+      ],
+      "avoid": "不是视频测绘，不套整齐小区排布；不能默认每栋都有同样的大院。",
+      "transfer": "优先做可达的路与院，再用 C16–C22 组合自建房。",
+      "status": "proposed_variant",
+      "sample_id": null,
+      "consumer": null,
+      "game_validation": "pending"
+    }
+  ],
+  "rules": [
+    {
+      "id": "R01",
+      "rule": "先空间，再装饰",
+      "detail": "建筑用途与房间/核心决定窗洞和设备位；重复层形成秩序，附属设施在允许位置产生差异。"
+    },
+    {
+      "id": "R02",
+      "rule": "随机按层级分工",
+      "detail": "体块与立面分区不随机；住户级决定防盗网、空调和少量生活物；单方块级只做受限近色材质变化。"
+    },
+    {
+      "id": "R03",
+      "rule": "设备需要安装关系",
+      "detail": "每个构件记 host、anchor、facing、support、clearance、连接对象；机箱、支架、管线作为组合而非散件撒点。"
+    },
+    {
+      "id": "R04",
+      "rule": "设备量与开灯量分开",
+      "detail": "住宅约 70% 亮灯沿用当前项目的用户偏好；空调外机、晾晒架和屋顶水箱不按这一比例生成。视频无夜景验证。"
+    },
+    {
+      "id": "R05",
+      "rule": "同一组件按风格改变组合",
+      "detail": "城中村可强调外露设备与生活叠加；千禧商品住宅按单元组织并控制杂乱；现代公共建筑减少外露或集中到设备区。"
+    },
+    {
+      "id": "R06",
+      "rule": "层次要有前后关系",
+      "detail": "窗后背景—玻璃—窗框—防盗网—雨棚分别占层；外机与竖管选择实体墙带，转角和端部单独处理。"
+    },
+    {
+      "id": "R07",
+      "rule": "样本先通过小范围复用",
+      "detail": "验证朝向、支撑、玻璃与铁栏连接、两格通行净空及原版材质外观，再将模块接入 HAF。"
+    },
+    {
+      "id": "R08",
+      "rule": "保留未知与负例",
+      "detail": "外观看似水箱/天线不代表用途已证实；缺少内部功能与游戏验证时维持 pending，不用后续新案例替前案验收。"
+    },
+    {
+      "id": "R09",
+      "rule": "预制件要带接口",
+      "detail": "同时保存占用包络、清空包络、墙厚/楼层条件、安装点、朝向、支撑与端部。一个正面贴图不等于可复用模块。"
+    },
+    {
+      "id": "R10",
+      "rule": "先复用关系，再复用外观",
+      "detail": "核心与功能平面先成立，楼层复制保持接口，楼栋差异再作用于阳台、顶层、窗型与材质。"
+    },
+    {
+      "id": "R11",
+      "rule": "乡村先组织宅地与留空",
+      "detail": "我们的推演：村路和支巷连接院门/前场，菜地、停车、晒场与树荫空地有用途。建筑数量不能代替区域组织。"
+    },
+    {
+      "id": "R12",
+      "rule": "港式氛围来自街面组合",
+      "detail": "从该作品推得：连续底层界面、高低建筑相接、转角处理、近中远景细节共同作用。招牌和外机只是其中一层。"
+    },
+    {
+      "id": "R13",
+      "rule": "尺度参数跟随样板",
+      "detail": "该自建房教程的 7 格层高、2 格墙厚/窗间距属于其案例，不改写既有楼盘参数；导入前按所需细部和空间重新定尺度。"
+    },
+    {
+      "id": "R14",
+      "rule": "材质变化有强弱分支",
+      "detail": "近色混合可复用；明显矿石斑点、苔痕属于强纹理分支。当前住宅坚持用户指定的近色单块穿插。"
+    },
+    {
+      "id": "R15",
+      "rule": "成果展示不反推全部施工",
+      "detail": "小香港 #01 提供最终视觉关系，不能据此虚构原作者的施工算法、精确参数或全内饰。视频新变体仍为 research_only。"
+    }
+  ],
+  "sample_manifest": [
+    {
+      "id": "J01",
+      "label": "天线状竖杆及侧向附件",
+      "file": "J01_roof_mast.nbt",
+      "source_bbox_xyz_exclusive": [
+        92,
+        36,
+        22,
+        95,
+        43,
+        25
+      ],
+      "size_xyz": [
+        3,
+        7,
+        3
+      ],
+      "source_sha256": "3727667d0add5244a7f5b1bcfdf2706da4c49e16ade743a4de254da15f5b62e6",
+      "sha256": "920715393c93302f7111784f42dbc8830689c27cb216f7e5c421cbdc61c2d22f",
+      "blocks": 35,
+      "states": 17,
+      "anchor": "roof_base",
+      "note": "形态参考；用途推断为天线，不证明通信或避雷功能。",
+      "status": "extracted_reference",
+      "readback_state_match": true,
+      "game_test": "pending",
+      "rotation_test": "pending",
+      "neighbor_update_test": "pending",
+      "air_policy": "omitted; do not overwrite occupied target cells without planning clearance",
+      "consumer": null
+    },
+    {
+      "id": "J02",
+      "label": "外墙设备盒",
+      "file": "J02_wall_equipment.nbt",
+      "source_bbox_xyz_exclusive": [
+        91,
+        13,
+        3,
+        95,
+        16,
+        4
+      ],
+      "size_xyz": [
+        4,
+        3,
+        1
+      ],
+      "source_sha256": "3727667d0add5244a7f5b1bcfdf2706da4c49e16ade743a4de254da15f5b62e6",
+      "sha256": "fcbfa57496f1904a71ac00d5cc18ce488c34f34565730cdace3d8e9674b5188b",
+      "blocks": 8,
+      "states": 5,
+      "anchor": "wall_z_plus",
+      "note": "铁块、梯子、活板门、拉杆的组合；可借作空调外机表达，原作者用途未核实。",
+      "status": "extracted_reference",
+      "readback_state_match": true,
+      "game_test": "pending",
+      "rotation_test": "pending",
+      "neighbor_update_test": "pending",
+      "air_policy": "omitted; do not overwrite occupied target cells without planning clearance",
+      "consumer": null
+    },
+    {
+      "id": "J03",
+      "label": "屋顶连排设施研究段",
+      "file": "J03_roof_equipment_row.nbt",
+      "source_bbox_xyz_exclusive": [
+        91,
+        32,
+        17,
+        101,
+        35,
+        20
+      ],
+      "size_xyz": [
+        10,
+        3,
+        3
+      ],
+      "source_sha256": "3727667d0add5244a7f5b1bcfdf2706da4c49e16ade743a4de254da15f5b62e6",
+      "sha256": "12c7c48cd3ca447bf6df6afc84b2669f3c0e47bd852acf36aca90bdf02362129",
+      "blocks": 50,
+      "states": 5,
+      "anchor": "roof_base",
+      "note": "连排箱体与细杆组合；不强行认定水箱、风机或太阳能设备。",
+      "status": "extracted_reference",
+      "readback_state_match": true,
+      "game_test": "pending",
+      "rotation_test": "pending",
+      "neighbor_update_test": "pending",
+      "air_policy": "omitted; do not overwrite occupied target cells without planning clearance",
+      "consumer": null
+    }
+  ],
+  "placement_contract": {
+    "component_id": "required",
+    "building_id": "required",
+    "household_or_zone_id": "required",
+    "host_surface": "required",
+    "anchor_xyz": "required",
+    "facing": "required",
+    "occupied_envelope": "required",
+    "clearance_envelope": "required",
+    "support_points": "required",
+    "connection_targets": "optional",
+    "variant": "required",
+    "seed_namespace": "building/zone/component",
+    "source_evidence_ids": "required",
+    "geometry_status": "observed | inferred | proposed",
+    "implementation_status": "reference_only | implemented | game_verified",
+    "consumer": null,
+    "clear_volume_policy": "preserve | clear_listed_cells | reject_if_occupied",
+    "host_wall_thickness": "required_for_window_module",
+    "end_cap_or_corner_type": "required_for_repeating_edge",
+    "material_version_support": "must_be_checked",
+    "source_sample_dimensions": "case_specific_not_global_default"
+  },
+  "current_user_constraints": [
+    "当前六栋住区保持前排10层一梯一户、后排15层一梯两户与逐栋后退10格。",
+    "保留已确认户型、内饰、园林与体块；这轮研究不自动修改楼盘。",
+    "有防盗网和无网窗户混合。",
+    "约70%住宅亮灯是项目偏好；允许不同灯具表达。",
+    "外墙近似颜色方块穿插，不做成片旧化。",
+    "可用闪长岩墙在部分位置模拟水管。"
+  ],
+  "next_validation": [
+    "先做窗洞＋厚墙＋防盗网＋空调＋细管的小样，记录安装接口，检查正面/斜面/剖切。",
+    "再做两三种平面成立的自建房原型，改变层数、阳台或顶层，确认变化不破坏楼梯和入口。",
+    "最后做一小片乡村试验：先村路、宅地、公共空地，再组合房子；新模块经游戏验证后再用于正式楼盘。"
+  ],
+  "source_coverage_limit": "三条视频均为已记录关键段/帧观察；V02 有章节表，V03 是成品展示。未取得两条新视频的模型文件，新增构件没有 NBT，不宣称已完成村落或港式街区。",
+  "regional_patterns": [
+    {
+      "id": "P01",
+      "name": "乡村宅地小片区",
+      "status": "proposed",
+      "source_evidence": [
+        "V02-22",
+        "V02-780"
+      ],
+      "basis": "作者展示自建房预制组合；路网与宅地关系由我们另行推演。",
+      "sequence": [
+        "道路与公共空地",
+        "独立宅地及入口",
+        "两三类平面与核心",
+        "不同层数/阳台/屋顶",
+        "设备与近色墙材",
+        "通路和细部复核"
+      ],
+      "functional_zones": [
+        "居住",
+        "前场/晒场",
+        "菜地或服务后场",
+        "小卖部候选",
+        "公共树荫空地"
+      ],
+      "consumer": null,
+      "generated_nbt": false,
+      "diagram_scale": "topological_not_metric"
+    },
+    {
+      "id": "P02",
+      "name": "城市沿街高低组合",
+      "status": "inferred_design_rule",
+      "source_evidence": [
+        "V03-31",
+        "V03-50",
+        "V03-105",
+        "V03-158"
+      ],
+      "basis": "根据成品关系归纳，非原作者施工说明。",
+      "sequence": [
+        "道路与沿街建筑线",
+        "高低体量与街角",
+        "底商/入口",
+        "立面区域",
+        "招牌/雨棚/外机",
+        "屋顶与街道设施"
+      ],
+      "consumer": null,
+      "generated_nbt": false,
+      "diagram_scale": "topological_not_metric"
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1",
+      "summary": "原广东城中村视频＋jiejao，15条目、3实物片段、8规则。"
+    },
+    {
+      "version": "0.2",
+      "summary": "增加两条视频，追加12条目、7条组合规则与2种区域推演；保留全部旧证据、原样本和旧版快照。"
+    }
+  ]
+}

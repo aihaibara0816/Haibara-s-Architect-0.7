@@ -1,0 +1,24 @@
+{
+  "project": "Guanggang01",
+  "route": "original",
+  "reference_date": "2026-10-31",
+  "sources": [
+    {
+      "url": "https://lyylj.gz.gov.cn/ztzl/lvst/stsfd/content/post_9910092.html",
+      "publisher": "广州市林业和园林局",
+      "supports": "广钢工业遗存包含高炉、煤气柜、火车头等设施的类型依据",
+      "not_supported": [
+        "本模型布局",
+        "设备实测尺寸",
+        "某一年代的完整工艺流程"
+      ],
+      "images": "No downloaded source photography used"
+    }
+  ],
+  "parameters": "Authored proportions and compact layout, approximately 1 block / metre; not measured",
+  "engine_provenance": [
+    "HAF04.zip SHA256 df38c5b405a6d0f7f0e471124baa192f1a95960c4af9fc019905e415b1bb7d3c",
+    "Qilou04_Project.zip SHA256 dcccccb24378286f9e09eb2c5ea589b34b09ef124718ade7482ff0fb2a06fbbd"
+  ],
+  "adapter_scope": "Industrial01 original case; reuses voxel core, independent reader, material-box mesh, EGL and Anvil export. Does not upgrade the general HAF engine."
+}

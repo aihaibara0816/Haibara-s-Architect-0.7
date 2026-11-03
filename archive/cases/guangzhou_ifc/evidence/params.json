@@ -1,0 +1,10 @@
+{
+  "case_id": "guangzhou_ifc",
+  "version": "V1",
+  "frame": {"size_xyz": [92,224,100], "center_xz": [46,52], "grade_y": 2, "scale_blocks_per_m": 0.5, "orientation": "WE09 plan trace; model north=-Z, geographic bearing unverified"},
+  "tower": {"height_m": 438.6, "height_blocks": 220, "glass_height_blocks": 215, "maximum_width_blocks": 36, "widest_height_blocks": 72, "vertical_radius_blocks": 2550, "hotel_lobby_blocks": 150, "footprint_width_status": "estimated 72 m; published figure plus multi-view cross-check, not survey"},
+  "diagrid": {"lines_per_family": 15, "diamond_height_blocks": 27, "thin_above_blocks": 90, "status": "30 diagonals, opposing families; discrete approximation of published 54 m diamond"},
+  "podium": {"polygon": [[22,19],[70,19],[74,33],[66,44],[55,42],[33,43],[21,35]], "scope": "cropped low entrance/retail interface; plan and height estimated; apartment tower excluded"},
+  "site": {"trees": [[20,58],[20,73],[75,62],[76,75],[26,84],[62,85],[79,46]], "status": "schematic immediate paving, dropoff and planting; not full parcel"},
+  "lighting": {"seed": 20261024, "room_activity": 0.36, "bands_local_y": [26,67,108,149,177], "bands_status": "five bands estimated from WE03/WE07 and elevation; elevations uncertain +/-2 blocks; not all images share date/color", "namespace": "ifc-v1-room-20261024"}
+}

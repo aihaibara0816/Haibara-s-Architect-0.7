@@ -1,0 +1,175 @@
+{
+  "source": "frozen V0.3 east main facade",
+  "origin_in_whole": [
+    54,
+    10,
+    44
+  ],
+  "size": [
+    12,
+    56,
+    44
+  ],
+  "meta": {
+    "file": "Facade.nbt",
+    "bytes": 12055,
+    "sha256": "4ce53fde3ef1296411899d9f1533f356f971bf3b07635953a7d95c189d3927ec",
+    "listed_blocks": 4260,
+    "non_air_blocks": 4260,
+    "size_xyz": [
+      12,
+      56,
+      44
+    ],
+    "contains_explicit_air": false,
+    "geometry_sha256": "8460664652da89b306d1b609673d812945f3eb1788478d45255926d426892d2f",
+    "data_version": 3955
+  },
+  "states": {
+    "slab": {
+      "count": 39,
+      "visual_box_examples": {
+        "minecraft:smooth_quartz_slab[type=top,waterlogged=false]": [
+          [
+            0,
+            0.5,
+            0,
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "glass": {
+      "count": 1214,
+      "visual_box_examples": {
+        "minecraft:blue_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]": [
+          [
+            0.4375,
+            0,
+            0.4375,
+            0.5625,
+            1,
+            0.5625
+          ],
+          [
+            0.4375,
+            0,
+            0,
+            0.5625,
+            1,
+            0.4375
+          ],
+          [
+            0.4375,
+            0,
+            0.5625,
+            0.5625,
+            1,
+            1
+          ]
+        ],
+        "minecraft:blue_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]": [
+          [
+            0.4375,
+            0,
+            0.4375,
+            0.5625,
+            1,
+            0.5625
+          ],
+          [
+            0.4375,
+            0,
+            0,
+            0.5625,
+            1,
+            0.4375
+          ],
+          [
+            0.4375,
+            0,
+            0.5625,
+            0.5625,
+            1,
+            1
+          ],
+          [
+            0.5625,
+            0,
+            0.4375,
+            1,
+            1,
+            0.5625
+          ]
+        ],
+        "minecraft:cyan_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]": [
+          [
+            0.4375,
+            0,
+            0.4375,
+            0.5625,
+            1,
+            0.5625
+          ],
+          [
+            0.4375,
+            0,
+            0,
+            0.5625,
+            1,
+            0.4375
+          ],
+          [
+            0.4375,
+            0,
+            0.5625,
+            0.5625,
+            1,
+            1
+          ]
+        ],
+        "minecraft:cyan_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]": [
+          [
+            0.4375,
+            0,
+            0.4375,
+            0.5625,
+            1,
+            0.5625
+          ],
+          [
+            0.5625,
+            0,
+            0.4375,
+            1,
+            1,
+            0.5625
+          ]
+        ]
+      }
+    },
+    "iron": {
+      "count": 0,
+      "visual_box_examples": {}
+    },
+    "orange": {
+      "count": 257,
+      "visual_box_examples": {
+        "minecraft:orange_concrete": [
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "readback_exact": true,
+  "game": "pending"
+}

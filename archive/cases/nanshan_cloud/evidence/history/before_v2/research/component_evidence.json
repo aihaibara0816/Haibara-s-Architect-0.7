@@ -1,0 +1,195 @@
+{
+  "schema": "haf-component-evidence-1",
+  "case": "nanshan_cloud",
+  "route": "image_only",
+  "model_search": {
+    "queries": [
+      "南山云科技大厦 模型 skp"
+    ],
+    "result": "未找到本轮可用的公开三维模型，不声称不存在模型"
+  },
+  "source_priority": "建成照片 > 运营资料 > 早期设计图；图纸目录不是已取得图纸",
+  "components": [
+    {
+      "component_id": "tower.mass",
+      "image_ids": [
+        "img-002",
+        "img-005",
+        "img-022"
+      ],
+      "context_bbox_norm_in_first_image": [
+        0.28,
+        0.1,
+        0.45,
+        0.73
+      ],
+      "observation": "三座错位直立塔体，高塔对近等高；每栋尺寸以照片估算",
+      "parameter_paths": "towers; core",
+      "consumer": "Cloud.mass_masks",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "需要复核第三塔相对标高和实测平面"
+    },
+    {
+      "component_id": "hills",
+      "image_ids": [
+        "img-010",
+        "img-002",
+        "img-022"
+      ],
+      "context_bbox_norm_in_first_image": [
+        0.18,
+        0.22,
+        0.67,
+        0.79
+      ],
+      "observation": "四组阶梯状浅色外凸平台，平台之间保留深槽",
+      "parameter_paths": "cascades",
+      "consumer": "Cloud.mass_masks; floors_and_skin; terraces",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "7个方块化阶梯为近似；后侧连接根据已有图合理补全"
+    },
+    {
+      "component_id": "tower.facade",
+      "image_ids": [
+        "img-010",
+        "img-022"
+      ],
+      "context_bbox_norm_in_first_image": [
+        0.6,
+        0.2,
+        0.7,
+        0.81
+      ],
+      "observation": "深灰蓝玻璃+细密竖向深色金属肋；与浅色横向平台有明显区别",
+      "parameter_paths": "facade",
+      "consumer": "Cloud.floors_and_skin",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "铁栅栏替换过宽木活板门；颜色、连接外观仍需原版纹理和游戏邻接更新检查"
+    },
+    {
+      "component_id": "hills.soffit",
+      "image_ids": [
+        "img-010"
+      ],
+      "context_bbox_norm_in_first_image": [
+        0.25,
+        0.35,
+        0.61,
+        0.42
+      ],
+      "observation": "平台下表面有深色厚边和分格；不把整片底面发光",
+      "parameter_paths": "cascades",
+      "consumer": "Cloud.floors_and_skin",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "肋深和网格间距估算"
+    },
+    {
+      "component_id": "base",
+      "image_ids": [
+        "img-007",
+        "img-009",
+        "img-002"
+      ],
+      "context_bbox_norm_in_first_image": [
+        0.12,
+        0.05,
+        0.9,
+        0.92
+      ],
+      "observation": "石材立柱、首层架空、二层通道和玻璃栏杆",
+      "parameter_paths": "tower_base; frame.ground_y",
+      "consumer": "Cloud.support_and_lobby",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "楼梯位置/通道局部适配，未复刻真实交通系统"
+    },
+    {
+      "component_id": "roof",
+      "image_ids": [
+        "img-002",
+        "img-010"
+      ],
+      "context_bbox_norm_in_first_image": [
+        0.28,
+        0.1,
+        0.45,
+        0.28
+      ],
+      "observation": "平屋顶和开敞顶部格栅，不做尖顶",
+      "parameter_paths": "towers",
+      "consumer": "Cloud.terraces",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "机电设备为比例补全，未经竣工屋顶图校准"
+    },
+    {
+      "component_id": "lighting.fixed",
+      "image_ids": [
+        "img-001",
+        "img-022"
+      ],
+      "context_bbox_norm_in_first_image": [
+        0.37,
+        0.07,
+        0.56,
+        0.81
+      ],
+      "observation": "暖白平台底缘、局部竖向光、暗窗与冷色平台共存",
+      "parameter_paths": "Cloud.lightlines 内固定坐标；lighting.warm_outline_faces_note 仅记录，不是可执行控制项",
+      "consumer": "Cloud.lightlines",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "仅已见前侧与右侧固定灯带；背面和障碍灯定位未知"
+    },
+    {
+      "component_id": "interior",
+      "image_ids": [
+        "img-006",
+        "img-009"
+      ],
+      "context_bbox_norm_in_first_image": null,
+      "observation": "首层可见材料有照片；楼上办公室陈设为合成窗后层",
+      "parameter_paths": "seed; lighting.activity",
+      "consumer": "Cloud.interiors / HAF room_lighting / furnishing_cells",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "不声称还原真实户型"
+    },
+    {
+      "component_id": "site",
+      "image_ids": [
+        "img-002",
+        "img-004",
+        "img-008"
+      ],
+      "context_bbox_norm_in_first_image": null,
+      "observation": "入口灰色铺装、树带、矮绿篱",
+      "parameter_paths": "scope",
+      "consumer": "Cloud.site",
+      "execution_status": "generated_V1_r04; manual geometric preview reviewed; user fidelity approval pending",
+      "uncertainty": "局部场地估算；排除地下和邻楼；规划连廊不当已建"
+    }
+  ],
+  "height_candidates": [
+    {
+      "m": 234.54,
+      "source": "https://www.cncarbonneutral.com/Dgus/Detail?Id=2792",
+      "role": "operator-submitted 2025 case, adopted"
+    },
+    {
+      "m": 246,
+      "source": "https://old.skyscraper.org/EXHIBITIONS/WOHA/vanke.php",
+      "role": "2014 design exhibition, not adopted"
+    },
+    {
+      "m": 250,
+      "source": "https://m.dcbbs.com/p-101144.html",
+      "role": "2015 design approximate, not adopted"
+    }
+  ],
+  "unknowns": [
+    "真实平面与地理北",
+    "第三塔高度",
+    "隐藏空中花园深度",
+    "夜景正常模式/节庆模式差别",
+    "航空障碍灯灯位",
+    "真实办公室布局"
+  ],
+  "reference_box": "工作坐标多向参考；未进行相机恢复、正射拼接或自动分割"
+}

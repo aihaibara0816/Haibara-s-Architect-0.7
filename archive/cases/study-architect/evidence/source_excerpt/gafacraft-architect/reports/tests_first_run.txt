@@ -1,0 +1,80 @@
+test_actual_legacy_photo_context (test_architect.AdapterTests.test_actual_legacy_photo_context) ... ERROR
+test_adapter_preserves_source_ids_and_unknowns (test_architect.AdapterTests.test_adapter_preserves_source_ids_and_unknowns) ... ok
+test_no_overlay_does_not_invent_geometry (test_architect.AdapterTests.test_no_overlay_does_not_invent_geometry) ... ok
+test_overlay_cannot_overwrite_evidence_or_scale (test_architect.AdapterTests.test_overlay_cannot_overwrite_evidence_or_scale) ... ok
+test_both_samples_valid (test_architect.ContractTests.test_both_samples_valid) ... ok
+test_cannot_promote_study_to_strict (test_architect.ContractTests.test_cannot_promote_study_to_strict) ... ok
+test_confirmed_dimension_needs_matching_evidence (test_architect.ContractTests.test_confirmed_dimension_needs_matching_evidence) ... ok
+test_confirmed_geometry_cannot_use_suggestion (test_architect.ContractTests.test_confirmed_geometry_cannot_use_suggestion) ... ok
+test_confirmed_world_needs_origin (test_architect.ContractTests.test_confirmed_world_needs_origin) ... ok
+test_conflicting_scale (test_architect.ContractTests.test_conflicting_scale) ... ok
+test_dangling_evidence (test_architect.ContractTests.test_dangling_evidence) ... ok
+test_duplicate_component_ids (test_architect.ContractTests.test_duplicate_component_ids) ... ok
+test_duplicate_json_key_and_nan (test_architect.ContractTests.test_duplicate_json_key_and_nan) ... ok
+test_forward_dependency_rejected (test_architect.ContractTests.test_forward_dependency_rejected) ... ok
+test_half_up_and_cumulative_endpoints (test_architect.ContractTests.test_half_up_and_cumulative_endpoints) ... ok
+test_missing_required_field (test_architect.ContractTests.test_missing_required_field) ... ok
+test_model_cell_budget (test_architect.ContractTests.test_model_cell_budget) ... ok
+test_nonfinite_number_rejected (test_architect.ContractTests.test_nonfinite_number_rejected) ... ok
+test_out_of_bounds_geometry (test_architect.ContractTests.test_out_of_bounds_geometry) ... ok
+test_path_with_zero_voxel_headroom (test_architect.ContractTests.test_path_with_zero_voxel_headroom) ... ok
+test_profile_anchor_order (test_architect.ContractTests.test_profile_anchor_order) ... ok
+test_profile_duplicate_floor (test_architect.ContractTests.test_profile_duplicate_floor) ... ok
+test_quantization_collapse (test_architect.ContractTests.test_quantization_collapse) ... ok
+test_self_intersecting_polygon (test_architect.ContractTests.test_self_intersecting_polygon) ... ok
+test_subtraction_requires_explicit_target (test_architect.ContractTests.test_subtraction_requires_explicit_target) ... ok
+test_unknown_dimension_cannot_contain_number (test_architect.ContractTests.test_unknown_dimension_cannot_contain_number) ... ok
+test_unknown_real_dimensions_valid_in_study (test_architect.ContractTests.test_unknown_real_dimensions_valid_in_study) ... ok
+test_unsupported_block_state (test_architect.ContractTests.test_unsupported_block_state) ... ok
+test_verified_fact_cannot_be_sourceless (test_architect.ContractTests.test_verified_fact_cannot_be_sourceless) ... ok
+test_world_exact_boundary_allowed (test_architect.ContractTests.test_world_exact_boundary_allowed) ... ok
+test_world_height_overflow (test_architect.ContractTests.test_world_height_overflow) ... ok
+test_air_omission_roundtrip (test_architect.GeometryTests.test_air_omission_roundtrip) ... ok
+test_blocked_entry_fails_acceptance (test_architect.GeometryTests.test_blocked_entry_fails_acceptance) ... ok
+test_canopy_revision_changes_only_requested_region (test_architect.GeometryTests.test_canopy_revision_changes_only_requested_region) ... ok
+test_cell_operation_budget_stops_generation (test_architect.GeometryTests.test_cell_operation_budget_stops_generation) ... ok
+test_existing_output_refused (test_architect.GeometryTests.test_existing_output_refused) ... ok
+test_missing_support_fails_walk (test_architect.GeometryTests.test_missing_support_fails_walk) ... ok
+test_nbt_roundtrip_and_deterministic_bytes (test_architect.GeometryTests.test_nbt_roundtrip_and_deterministic_bytes) ... ok
+test_non_air_budget (test_architect.GeometryTests.test_non_air_budget) ... ok
+test_retail_air_and_walk_acceptance (test_architect.GeometryTests.test_retail_air_and_walk_acceptance) ... ok
+test_step_and_linear_profiles_differ (test_architect.GeometryTests.test_step_and_linear_profiles_differ) ... ok
+test_targeted_carve_leaves_other_owner_intact (test_architect.GeometryTests.test_targeted_carve_leaves_other_owner_intact) ... ok
+test_tower_actual_profile_and_floor_clearance (test_architect.GeometryTests.test_tower_actual_profile_and_floor_clearance) ... ok
+test_cameras_are_orthonormal_and_iso_elevation_45 (test_architect.PreviewTests.test_cameras_are_orthonormal_and_iso_elevation_45) ... ok
+test_delivered_previews_and_nbt_share_hash_and_build_id (test_architect.PreviewTests.test_delivered_previews_and_nbt_share_hash_and_build_id) ... ERROR
+test_render_repeats_from_exported_nbt (test_architect.PreviewTests.test_render_repeats_from_exported_nbt) ... ok
+
+======================================================================
+ERROR: test_actual_legacy_photo_context (test_architect.AdapterTests.test_actual_legacy_photo_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cfe8adbb046e/gafacraft-architect/tests/test_architect.py", line 89, in test_actual_legacy_photo_context
+    c=adapt(ROOT/"examples/legacy_gafa_research/packet.json")
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/cfe8adbb046e/gafacraft-architect/architect/packet_adapter.py", line 47, in adapt
+    context=research_context(packet,p.read_bytes())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/cfe8adbb046e/gafacraft-architect/architect/packet_adapter.py", line 25, in research_context
+    report=validate_packet(packet)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/cfe8adbb046e/gafacraft-architect/architect/packet_adapter.py", line 21, in validate_packet
+    if result["status"]=="FAIL":raise SpecError("Invalid upstream packet: "+"; ".join(result["errors"]))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+architect.spec_loader.SpecError: Invalid upstream packet: img-R002: viewed images require original-page source_ids
+
+======================================================================
+ERROR: test_delivered_previews_and_nbt_share_hash_and_build_id (test_architect.PreviewTests.test_delivered_previews_and_nbt_share_hash_and_build_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/cfe8adbb046e/gafacraft-architect/tests/test_architect.py", line 174, in test_delivered_previews_and_nbt_share_hash_and_build_id
+    with Image.open(path) as im:
+         ^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/PIL/Image.py", line 3715, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file '/workspace/scratch/cfe8adbb046e/gafacraft-architect/output/tower_segment/preview_right.png'
+
+----------------------------------------------------------------------
+Ran 46 tests in 22.949s
+
+FAILED (errors=2)

@@ -1,0 +1,894 @@
+{
+  "case": "nanshan_cloud",
+  "run": "V2_r01",
+  "passed": true,
+  "checks": [
+    {
+      "name": "NBT count/hash/dimensions",
+      "passed": true,
+      "detail": 373822
+    },
+    {
+      "name": "supported states",
+      "passed": true,
+      "detail": 109
+    },
+    {
+      "name": "owner coverage",
+      "passed": true,
+      "detail": 373822
+    },
+    {
+      "name": "unchanged tower/core/site parameters",
+      "passed": true,
+      "detail": [
+        "frame",
+        "towers",
+        "core",
+        "tower_base",
+        "floor_pitch",
+        "facade",
+        "lighting",
+        "seed"
+      ]
+    },
+    {
+      "name": "actual roof heights unchanged",
+      "passed": true,
+      "detail": {
+        "A": 235,
+        "B": 235,
+        "C": 207
+      }
+    },
+    {
+      "name": "unchanged final component site.",
+      "passed": true,
+      "detail": {
+        "cells": 33216,
+        "changed": 0
+      }
+    },
+    {
+      "name": "unchanged final component roof.",
+      "passed": true,
+      "detail": {
+        "cells": 3748,
+        "changed": 0
+      }
+    },
+    {
+      "name": "unchanged final component core.",
+      "passed": true,
+      "detail": {
+        "cells": 9108,
+        "changed": 0
+      }
+    },
+    {
+      "name": "unchanged final component lighting.site.",
+      "passed": true,
+      "detail": {
+        "cells": 32,
+        "changed": 0
+      }
+    },
+    {
+      "name": "unchanged final component lighting.crown.",
+      "passed": true,
+      "detail": {
+        "cells": 114,
+        "changed": 0
+      }
+    },
+    {
+      "name": "front band0 row0: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 50,
+        "x_range": [
+          41,
+          90
+        ]
+      }
+    },
+    {
+      "name": "front band0 row1: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 44,
+        "x_range": [
+          44,
+          87
+        ]
+      }
+    },
+    {
+      "name": "front band0 row2: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 38,
+        "x_range": [
+          47,
+          84
+        ]
+      }
+    },
+    {
+      "name": "front band0 row3: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 32,
+        "x_range": [
+          50,
+          81
+        ]
+      }
+    },
+    {
+      "name": "front band0 row4: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band0 row5: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band0 row6: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band1 row0: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 50,
+        "x_range": [
+          41,
+          90
+        ]
+      }
+    },
+    {
+      "name": "front band1 row1: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 44,
+        "x_range": [
+          44,
+          87
+        ]
+      }
+    },
+    {
+      "name": "front band1 row2: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 38,
+        "x_range": [
+          47,
+          84
+        ]
+      }
+    },
+    {
+      "name": "front band1 row3: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 32,
+        "x_range": [
+          50,
+          81
+        ]
+      }
+    },
+    {
+      "name": "front band1 row4: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band1 row5: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band1 row6: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band2 row0: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 50,
+        "x_range": [
+          41,
+          90
+        ]
+      }
+    },
+    {
+      "name": "front band2 row1: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 44,
+        "x_range": [
+          44,
+          87
+        ]
+      }
+    },
+    {
+      "name": "front band2 row2: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 38,
+        "x_range": [
+          47,
+          84
+        ]
+      }
+    },
+    {
+      "name": "front band2 row3: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 32,
+        "x_range": [
+          50,
+          81
+        ]
+      }
+    },
+    {
+      "name": "front band2 row4: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band2 row5: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band2 row6: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band3 row0: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 50,
+        "x_range": [
+          41,
+          90
+        ]
+      }
+    },
+    {
+      "name": "front band3 row1: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 44,
+        "x_range": [
+          44,
+          87
+        ]
+      }
+    },
+    {
+      "name": "front band3 row2: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 38,
+        "x_range": [
+          47,
+          84
+        ]
+      }
+    },
+    {
+      "name": "front band3 row3: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 32,
+        "x_range": [
+          50,
+          81
+        ]
+      }
+    },
+    {
+      "name": "front band3 row4: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band3 row5: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "front band3 row6: actual glazing width",
+      "passed": true,
+      "detail": {
+        "width": 26,
+        "x_range": [
+          53,
+          78
+        ]
+      }
+    },
+    {
+      "name": "continuous glazing all front bands",
+      "passed": true,
+      "detail": 1936
+    },
+    {
+      "name": "upper three rows equal, lower four widen",
+      "passed": true,
+      "detail": [
+        50,
+        44,
+        38,
+        32,
+        26,
+        26,
+        26
+      ]
+    },
+    {
+      "name": "front glazing footprint projection",
+      "passed": true,
+      "detail": {
+        "V1": 8,
+        "V2": 5,
+        "edge_trim_adds_one_block": true
+      }
+    },
+    {
+      "name": "right glazing footprint projection",
+      "passed": true,
+      "detail": {
+        "V1": 8,
+        "V2": 5,
+        "edge_trim_adds_one_block": true
+      }
+    },
+    {
+      "name": "hills.front.0.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.right.0.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.inner.0.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.front.0.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.right.0.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.inner.0.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.front.1.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.right.1.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.inner.1.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.front.1.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.right.1.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.inner.1.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.front.2.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.right.2.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.inner.2.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.front.2.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.right.2.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.inner.2.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.front.3.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.right.3.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.inner.3.step4 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.front.3.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.right.3.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "hills.inner.3.step5 no false terrace in equal-width segment",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "band0 front light strip follows narrowed platform",
+      "passed": true,
+      "detail": 50
+    },
+    {
+      "name": "band0 right light strip follows narrowed platform",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "name": "band1 front light strip follows narrowed platform",
+      "passed": true,
+      "detail": 50
+    },
+    {
+      "name": "band1 right light strip follows narrowed platform",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "name": "band2 front light strip follows narrowed platform",
+      "passed": true,
+      "detail": 50
+    },
+    {
+      "name": "band2 right light strip follows narrowed platform",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "name": "band3 front light strip follows narrowed platform",
+      "passed": true,
+      "detail": 50
+    },
+    {
+      "name": "band3 right light strip follows narrowed platform",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "name": "tower channel remains open",
+      "passed": true,
+      "detail": 640
+    },
+    {
+      "name": "four-sided enclosure sample",
+      "passed": true,
+      "detail": 36
+    },
+    {
+      "name": "all changed cells lie in terrace-level bands",
+      "passed": true,
+      "detail": {
+        "changed": 103411,
+        "outside": 0,
+        "includes_exposed_facade_reconnections": true
+      }
+    },
+    {
+      "name": "preserved original V1 files",
+      "passed": true,
+      "detail": 39
+    },
+    {
+      "name": "deterministic new run",
+      "passed": true,
+      "detail": "11cdb08cb2d0202fcb802ae0bd91648e523a74d5599349d5fe56b223bd288425"
+    },
+    {
+      "name": "schem and modules exact readback",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "name": "module size budget",
+      "passed": true,
+      "detail": 259491
+    },
+    {
+      "name": "all 21 expected views",
+      "passed": true,
+      "detail": 21
+    },
+    {
+      "name": "preview origin overview.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin front.png",
+      "passed": true,
+      "detail": [
+        1500,
+        2600
+      ]
+    },
+    {
+      "name": "preview origin hills.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1600
+      ]
+    },
+    {
+      "name": "preview origin night.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin right.png",
+      "passed": true,
+      "detail": [
+        1500,
+        2600
+      ]
+    },
+    {
+      "name": "preview origin rear.png",
+      "passed": true,
+      "detail": [
+        1500,
+        2600
+      ]
+    },
+    {
+      "name": "preview origin left.png",
+      "passed": true,
+      "detail": [
+        1500,
+        2600
+      ]
+    },
+    {
+      "name": "preview origin underside.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1500
+      ]
+    },
+    {
+      "name": "preview origin base.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1400
+      ]
+    },
+    {
+      "name": "preview origin lobby.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1400
+      ]
+    },
+    {
+      "name": "preview origin top.png",
+      "passed": true,
+      "detail": [
+        1800,
+        1800
+      ]
+    },
+    {
+      "name": "preview origin crown.png",
+      "passed": true,
+      "detail": [
+        1800,
+        1500
+      ]
+    },
+    {
+      "name": "preview origin section.png",
+      "passed": true,
+      "detail": [
+        1700,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin se_day.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin se_night.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin sw_day.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin sw_night.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin ne_day.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin ne_night.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin nw_day.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview origin nw_night.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "eight matched V1-V2 diagonal cameras",
+      "passed": true,
+      "detail": [
+        "se_day",
+        "se_night",
+        "sw_day",
+        "sw_night",
+        "ne_day",
+        "ne_night",
+        "nw_day",
+        "nw_night"
+      ]
+    },
+    {
+      "name": "baseline re-render origin se_day.png",
+      "passed": true,
+      "detail": "se_day"
+    },
+    {
+      "name": "baseline re-render origin se_night.png",
+      "passed": true,
+      "detail": "se_night"
+    },
+    {
+      "name": "baseline re-render origin sw_day.png",
+      "passed": true,
+      "detail": "sw_day"
+    },
+    {
+      "name": "baseline re-render origin sw_night.png",
+      "passed": true,
+      "detail": "sw_night"
+    },
+    {
+      "name": "baseline re-render origin ne_day.png",
+      "passed": true,
+      "detail": "ne_day"
+    },
+    {
+      "name": "baseline re-render origin ne_night.png",
+      "passed": true,
+      "detail": "ne_night"
+    },
+    {
+      "name": "baseline re-render origin nw_day.png",
+      "passed": true,
+      "detail": "nw_day"
+    },
+    {
+      "name": "baseline re-render origin nw_night.png",
+      "passed": true,
+      "detail": "nw_night"
+    }
+  ],
+  "block_diff": {
+    "added": 32647,
+    "removed": 54560,
+    "state_changed": 16204,
+    "total_changed": 103411,
+    "by_new_owner_group": {
+      "tower": 20621,
+      "hills": 22140,
+      "removed": 54560,
+      "interior": 5163,
+      "lighting": 922,
+      "base": 5
+    },
+    "bounds_xyz": [
+      [
+        33,
+        110
+      ],
+      [
+        16,
+        203
+      ],
+      [
+        25,
+        106
+      ]
+    ]
+  },
+  "unit_tests": 33,
+  "technical_status": "offline checks passed",
+  "visual_status": "terrace proportions manually reviewed; user acceptance pending",
+  "game_status": "pending",
+  "direction_status": "model coordinates; geographic north unverified",
+  "limits": [
+    "not a measured plan",
+    "hidden interfaces/third tower approximate",
+    "untextured state-box mesh",
+    "game import, neighbour updates, material textures and lighting pending"
+  ]
+}

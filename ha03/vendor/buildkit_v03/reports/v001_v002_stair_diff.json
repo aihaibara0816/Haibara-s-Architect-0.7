@@ -1,0 +1,58 @@
+{
+  "comparison": "local_blockstates_only",
+  "before": "gafa_admin_colonnade.nbt",
+  "after": "gafa_admin_colonnade.nbt",
+  "size_before": [
+    22,
+    20,
+    34
+  ],
+  "size_after": [
+    22,
+    20,
+    34
+  ],
+  "offset_before": [
+    0,
+    0,
+    0
+  ],
+  "offset_after": [
+    0,
+    0,
+    0
+  ],
+  "listed_state_changes": 40,
+  "added_entries": 0,
+  "removed_entries": 0,
+  "replaced_entries": 40,
+  "visible_state_changes": 40,
+  "change_bbox_inclusive": [
+    [
+      4,
+      2,
+      14
+    ],
+    [
+      14,
+      5,
+      19
+    ]
+  ],
+  "requested_roi_inclusive": [
+    4,
+    2,
+    14,
+    15,
+    6,
+    19
+  ],
+  "changes_outside_roi": 0,
+  "warnings": [
+    "No translation/rotation registration. Align the files before interpreting locality.",
+    "Different extents or offsets may create widespread apparent changes.",
+    "Absent and explicit air are distinct placement states; visual-state comparison ignores both.",
+    "Entities, block-entity payloads, biome and other metadata changes are not compared.",
+    "Local output changes do not prove that the generator used incremental internal computation."
+  ]
+}

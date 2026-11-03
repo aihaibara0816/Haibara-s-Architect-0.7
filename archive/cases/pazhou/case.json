@@ -1,0 +1,21 @@
+{
+  "id": "pazhou",
+  "name": "广州琶洲微信总部",
+  "style": "public",
+  "origin": "历史案例 + 独立分支",
+  "version": "V3b / v3b_04_final",
+  "history": "HA0.3/HAF 同形基线 → V2b → V3a → V3b",
+  "achievement": "已落地玻璃分色与幕墙分层；保留原始、分色、分层三个对照。V3b 修复玻璃旁栏杆额外连臂，36 项针对性检查留档。",
+  "lesson": "材质分色与几何分层分开对照；连接型方块必须检查实际邻居。",
+  "failure": "两路同参数、同编译规则，39306格完全一致；幕墙、峡谷、平台底面与室内吊顶的研究未充分落到几何。",
+  "open": "旧主表“尚未重做幕墙”已过时；V3b 尚无用户整栋认可，裙楼、大堂、峡谷与背面推断仍待核验。",
+  "acceptance": "needs_revision：用户明确否定壳体感与细节还原",
+  "game": "待实测",
+  "source": "Pazhou_V3_Source.zip",
+  "source_evidence": [
+    "history/pazhou/README.md",
+    "learning/pazhou-feedback.json"
+  ],
+  "nbt_member": "HAF-Pazhou-V3/cases/pazhou_wechat/runs/v3b_04_final/building.nbt",
+  "style_name": "现代公共与商业"
+}

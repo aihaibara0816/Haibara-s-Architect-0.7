@@ -1,0 +1,78 @@
+{
+  "scale": 0.4666666666666667,
+  "origin": [
+    44,
+    3,
+    44
+  ],
+  "size": [
+    89,
+    223,
+    89
+  ],
+  "shell_mode": "glass_control",
+  "shell_thickness_blocks": 1.15,
+  "structure": {
+    "rotation_degrees": 30,
+    "tube_axis_radius_m": 10.4,
+    "beam_levels_m": [
+      122,
+      148,
+      174,
+      200,
+      226,
+      252
+    ]
+  },
+  "spheres": [
+    {
+      "id": "sphere.lower",
+      "center_m": [
+        0,
+        93,
+        0
+      ],
+      "diameter_m": 50,
+      "style": "lower"
+    },
+    {
+      "id": "sphere.upper",
+      "center_m": [
+        0,
+        272.5,
+        0
+      ],
+      "diameter_m": 45,
+      "style": "upper"
+    },
+    {
+      "id": "sphere.capsule",
+      "center_m": [
+        0,
+        342,
+        0
+      ],
+      "diameter_m": 16,
+      "style": "capsule"
+    }
+  ],
+  "small_spheres": {
+    "centers_m": [
+      136,
+      162,
+      188,
+      214,
+      240
+    ]
+  },
+  "site": {
+    "radius_m": 75,
+    "fidelity": "editable compact study plaza; not as-built survey"
+  },
+  "lighting": {
+    "enabled": true,
+    "coloured_floodlight_simulation": false,
+    "aviation_positions": "schematic proxies, real fixture placement unverified"
+  },
+  "stage": "complete"
+}

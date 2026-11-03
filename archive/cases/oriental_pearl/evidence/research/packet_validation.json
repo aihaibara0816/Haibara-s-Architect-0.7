@@ -1,0 +1,36 @@
+{
+  "status": "PASS_WITH_GAPS",
+  "errors": [],
+  "gaps": [
+    "fact-natural-height: fact unresolved",
+    "coverage: top/podium: 需要现状正交总平或标注尺寸图，斜俯瞰不可代替",
+    "coverage: interior/sphere.upper: 需要带楼层定位的观景廊平面",
+    "same_version: not confirmed",
+    "orientation_aligned: not confirmed",
+    "scale.building_dimensions.width: dimension unverified",
+    "scale.building_dimensions.length: dimension unverified",
+    "scale.building_dimensions.architectural_height: dimension unverified",
+    "scale.building_dimensions.roof_height: dimension unverified",
+    "scale.building_dimensions.tip_height: dimension unverified",
+    "scale.site_dimensions.width: dimension unverified",
+    "scale.site_dimensions.length: dimension unverified",
+    "scale.world_budget.width: available build allowance unconfirmed",
+    "scale.world_budget.depth: available build allowance unconfirmed",
+    "scale.world_budget.height: available build allowance unconfirmed"
+  ],
+  "coverage": [
+    {
+      "face": "top",
+      "component_id": "podium",
+      "image_ids": [],
+      "status": "missing"
+    },
+    {
+      "face": "interior",
+      "component_id": "sphere.upper",
+      "image_ids": [],
+      "status": "missing"
+    }
+  ],
+  "limits": "Structural/provenance/consistency validation only; not independent web, image or generated-building verification."
+}

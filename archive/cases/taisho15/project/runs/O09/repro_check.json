@@ -1,0 +1,235 @@
+{
+  "seed": 151145,
+  "alternate_seed": 151146,
+  "identical_replay": {
+    "Workshop": true,
+    "Photo": true,
+    "Station": true,
+    "Bakery": true,
+    "Pharmacy": true,
+    "Sake": true,
+    "Post": true,
+    "School": true,
+    "Bath": true,
+    "Inn": true,
+    "Taisho15": true,
+    "Florist": true,
+    "Clinic": true,
+    "Bookshop": true,
+    "Tea": true,
+    "Library": true,
+    "Terrain_Input": true,
+    "Textile": true,
+    "Residence": true,
+    "Clock": true
+  },
+  "changed_cells": 87778,
+  "layout_changes": [
+    {
+      "id": "Library",
+      "base": [
+        117,
+        1,
+        57
+      ],
+      "alternate": [
+        114,
+        1,
+        57
+      ],
+      "base_rotation": 90,
+      "alternate_rotation": 90
+    },
+    {
+      "id": "Bookshop",
+      "base": [
+        10,
+        6,
+        89
+      ],
+      "alternate": [
+        7,
+        6,
+        86
+      ],
+      "base_rotation": 0,
+      "alternate_rotation": 0
+    },
+    {
+      "id": "Textile",
+      "base": [
+        206,
+        6,
+        111
+      ],
+      "alternate": [
+        206,
+        6,
+        108
+      ],
+      "base_rotation": 0,
+      "alternate_rotation": 0
+    },
+    {
+      "id": "Clinic",
+      "base": [
+        161,
+        6,
+        11
+      ],
+      "alternate": [
+        164,
+        6,
+        11
+      ],
+      "base_rotation": 270,
+      "alternate_rotation": 90
+    },
+    {
+      "id": "Tea",
+      "base": [
+        9,
+        8,
+        146
+      ],
+      "alternate": [
+        12,
+        8,
+        143
+      ],
+      "base_rotation": 270,
+      "alternate_rotation": 270
+    },
+    {
+      "id": "Photo",
+      "base": [
+        25,
+        10,
+        63
+      ],
+      "alternate": [
+        19,
+        11,
+        60
+      ],
+      "base_rotation": 270,
+      "alternate_rotation": 270
+    },
+    {
+      "id": "Pharmacy",
+      "base": [
+        62,
+        4,
+        101
+      ],
+      "alternate": [
+        65,
+        3,
+        98
+      ],
+      "base_rotation": 0,
+      "alternate_rotation": 0
+    },
+    {
+      "id": "Florist",
+      "base": [
+        151,
+        4,
+        85
+      ],
+      "alternate": [
+        154,
+        4,
+        85
+      ],
+      "base_rotation": 90,
+      "alternate_rotation": 270
+    },
+    {
+      "id": "Bakery",
+      "base": [
+        93,
+        5,
+        163
+      ],
+      "alternate": [
+        90,
+        5,
+        163
+      ],
+      "base_rotation": 90,
+      "alternate_rotation": 90
+    },
+    {
+      "id": "Post",
+      "base": [
+        122,
+        4,
+        160
+      ],
+      "alternate": [
+        119,
+        4,
+        160
+      ],
+      "base_rotation": 180,
+      "alternate_rotation": 180
+    },
+    {
+      "id": "Workshop",
+      "base": [
+        56,
+        7,
+        57
+      ],
+      "alternate": [
+        47,
+        7,
+        60
+      ],
+      "base_rotation": 0,
+      "alternate_rotation": 0
+    },
+    {
+      "id": "Clock",
+      "base": [
+        154,
+        5,
+        120
+      ],
+      "alternate": [
+        154,
+        5,
+        117
+      ],
+      "base_rotation": 0,
+      "alternate_rotation": 0
+    },
+    {
+      "id": "Station",
+      "base": [
+        149,
+        6,
+        167
+      ],
+      "alternate": [
+        143,
+        5,
+        164
+      ],
+      "base_rotation": 180,
+      "alternate_rotation": 180
+    }
+  ],
+  "scope_violations": [],
+  "alternate_terrain_protected_changes": 0,
+  "scope": "Same seed identical NBT including entities. Alternate seed changes candidate selection, road material and clustered plants; terrain input and program recipes remain fixed. One alternate sample is not a universal solver test.",
+  "alternate_final_audit": {
+    "run": "ALT17",
+    "errors": [],
+    "entries": 18,
+    "uses": 106,
+    "mountain_lookout": "reachable"
+  },
+  "alternate_source_nbt_sha256": "5bfa2e83fb87ee716ef4cb07426572c17902d3ee1d2655e5f483d3eb39fb730f"
+}

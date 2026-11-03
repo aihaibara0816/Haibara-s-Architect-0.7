@@ -1,0 +1,335 @@
+{
+  "case": "nanshan_cloud",
+  "run": "V1_r04",
+  "passed": true,
+  "checks": [
+    {
+      "name": "NBT hash, counts and dimensions",
+      "passed": true,
+      "detail": {
+        "hash": "79497dd9b86ec1371c4da62259c5707a63ce403fb7fe4b312b3df4bec4793da8",
+        "blocks": 395735,
+        "size": [
+          140,
+          244,
+          140
+        ]
+      }
+    },
+    {
+      "name": "complete deterministic replay",
+      "passed": true,
+      "detail": "79497dd9b86ec1371c4da62259c5707a63ce403fb7fe4b312b3df4bec4793da8"
+    },
+    {
+      "name": "all blockstates supported",
+      "passed": true,
+      "detail": 109
+    },
+    {
+      "name": "owner inventory equals exported cells",
+      "passed": true,
+      "detail": 395735
+    },
+    {
+      "name": "bounds",
+      "passed": true,
+      "detail": "no out-of-frame cells"
+    },
+    {
+      "name": "high pair 235 blocks, third authored height 207",
+      "passed": true,
+      "detail": {
+        "heights": {
+          "A": 235,
+          "B": 235,
+          "C": 207
+        },
+        "note": "third height is photo estimate, not surveyed"
+      }
+    },
+    {
+      "name": "four front cascade groups retain continuous glazing",
+      "passed": true,
+      "detail": {
+        "sample_cells": 2576,
+        "glass_cells": 2576
+      }
+    },
+    {
+      "name": "deep inter-tower channel stays open",
+      "passed": true,
+      "detail": {
+        "empty_cells": 640,
+        "samples": 640
+      }
+    },
+    {
+      "name": "ground-level passage retained",
+      "passed": true,
+      "detail": [
+        [
+          50,
+          4,
+          82
+        ],
+        [
+          50,
+          5,
+          82
+        ],
+        [
+          50,
+          6,
+          82
+        ],
+        [
+          50,
+          7,
+          82
+        ],
+        [
+          50,
+          8,
+          82
+        ],
+        [
+          50,
+          9,
+          82
+        ],
+        [
+          50,
+          10,
+          82
+        ],
+        [
+          50,
+          11,
+          82
+        ],
+        [
+          50,
+          12,
+          82
+        ],
+        [
+          50,
+          13,
+          82
+        ],
+        [
+          50,
+          14,
+          82
+        ],
+        [
+          50,
+          15,
+          82
+        ]
+      ]
+    },
+    {
+      "name": "sampled four-sided tower enclosure",
+      "passed": true,
+      "detail": {
+        "glazed_samples": 36,
+        "samples": 36
+      }
+    },
+    {
+      "name": "mechanical wells have no office furniture or room lamps",
+      "passed": true,
+      "detail": {
+        "unwanted_count": 0
+      }
+    },
+    {
+      "name": "open air above roof equipment",
+      "passed": true,
+      "detail": 1872
+    },
+    {
+      "name": "stair landing joins gallery without rail across opening",
+      "passed": true,
+      "detail": {
+        "landing_cells": 20,
+        "note": "local geometric check, full walkability not tested"
+      }
+    },
+    {
+      "name": "both warm/cool emitter materials used",
+      "passed": true,
+      "detail": {
+        "minecraft:glowstone": 1345,
+        "minecraft:sea_lantern": 238
+      }
+    },
+    {
+      "name": "thin facade elements used",
+      "passed": true,
+      "detail": {
+        "iron_bars": 26165
+      }
+    },
+    {
+      "name": "lit and unlit synthetic rooms",
+      "passed": true,
+      "detail": {
+        "room_records": 1744,
+        "surviving_room_lamps": 517,
+        "lamp_materials": {
+          "minecraft:glowstone": 283,
+          "minecraft:sea_lantern": 234
+        },
+        "note": "not real building room counts"
+      }
+    },
+    {
+      "name": "schematic readback and module union",
+      "passed": true,
+      "detail": {
+        "modules": 7,
+        "schem": "90ba74577c8b5c4c6b7de67430c39910200405c961488492ac62afb2f2f4345e"
+      }
+    },
+    {
+      "name": "module size limit",
+      "passed": true,
+      "detail": 224906
+    },
+    {
+      "name": "all 13 fixed views rendered",
+      "passed": true,
+      "detail": 13
+    },
+    {
+      "name": "preview provenance: base.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1400
+      ]
+    },
+    {
+      "name": "preview provenance: front.png",
+      "passed": true,
+      "detail": [
+        1500,
+        2600
+      ]
+    },
+    {
+      "name": "preview provenance: hills.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1600
+      ]
+    },
+    {
+      "name": "preview provenance: left.png",
+      "passed": true,
+      "detail": [
+        1500,
+        2600
+      ]
+    },
+    {
+      "name": "preview provenance: night.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview provenance: overview.png",
+      "passed": true,
+      "detail": [
+        1800,
+        2400
+      ]
+    },
+    {
+      "name": "preview provenance: rear.png",
+      "passed": true,
+      "detail": [
+        1500,
+        2600
+      ]
+    },
+    {
+      "name": "preview provenance: right.png",
+      "passed": true,
+      "detail": [
+        1500,
+        2600
+      ]
+    },
+    {
+      "name": "preview provenance: underside.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1500
+      ]
+    },
+    {
+      "name": "preview provenance: lobby.png",
+      "passed": true,
+      "detail": [
+        2000,
+        1400
+      ]
+    },
+    {
+      "name": "preview provenance: top.png",
+      "passed": true,
+      "detail": [
+        1800,
+        1800
+      ]
+    },
+    {
+      "name": "preview provenance: crown.png",
+      "passed": true,
+      "detail": [
+        1800,
+        1500
+      ]
+    },
+    {
+      "name": "preview provenance: section.png",
+      "passed": true,
+      "detail": [
+        1700,
+        2400
+      ]
+    }
+  ],
+  "full_tree_unit_tests": {
+    "passed": 30,
+    "observed_seconds": 0.726,
+    "command": "PYTHONPATH=support/deps python3 -m unittest discover -s tests -v"
+  },
+  "room_inventory": {
+    "authored_records": 1744,
+    "surviving_lamps": 517,
+    "lamp_types": {
+      "minecraft:glowstone": 283,
+      "minecraft:sea_lantern": 234
+    }
+  },
+  "technical_status": "offline checks passed",
+  "visual_status": "manually reviewed; recognizable first version with documented approximations; user fidelity approval pending",
+  "game_status": "pending",
+  "not_tested": [
+    "Minecraft import, material textures and neighbour updates",
+    "real floorplan, north and concealed platforms",
+    "complete interior navigation",
+    "measured photogrammetry accuracy",
+    "external 3D model fusion"
+  ]
+}

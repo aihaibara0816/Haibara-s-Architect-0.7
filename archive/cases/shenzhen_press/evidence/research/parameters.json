@@ -1,0 +1,150 @@
+{
+  "adapter_version": "szpress-haf-case-0.2.0",
+  "tower": {
+    "xmin": 14,
+    "xmax": 54,
+    "y0": 29,
+    "y1": 140,
+    "center_x": 34,
+    "front_center_z": 23,
+    "bow": 9,
+    "back_z": 46,
+    "floor_pitch": 6,
+    "band_pitch": 3,
+    "right_bottom_x": 48,
+    "right_slope": 0.052,
+    "curved_glass_role": "glass",
+    "external_vertical_grid": false
+  },
+  "core": {
+    "left": [
+      11,
+      2,
+      33,
+      16,
+      147,
+      44
+    ],
+    "right": [
+      53,
+      2,
+      32,
+      59,
+      157,
+      46
+    ]
+  },
+  "eye": {
+    "cavity_min": [
+      21,
+      117,
+      17
+    ],
+    "cavity_max": [
+      39,
+      137,
+      37
+    ],
+    "center": [
+      29.5,
+      125.5,
+      25.5
+    ],
+    "radius": 5.5,
+    "skin": 0.85,
+    "platform_y": 125
+  },
+  "crown": {
+    "core_top": 157,
+    "rack_y0": 158,
+    "rack_y1": 179,
+    "hoop_pitch": 3,
+    "mast_center": [
+      55,
+      38
+    ],
+    "mast_base_top": 187,
+    "tip_top_exclusive": 212
+  },
+  "podium": {
+    "xmin": 7,
+    "xmax": 62,
+    "center_x": 34,
+    "front_center_z": 15,
+    "bow": 14,
+    "back_z": 49,
+    "y0": 4,
+    "y1": 22,
+    "ribbon_ys": [
+      5,
+      9,
+      13,
+      17,
+      21
+    ],
+    "entry_x": [
+      26,
+      42
+    ],
+    "lighting_seed": 230023
+  },
+  "site": {
+    "bounds": [
+      3,
+      0,
+      3,
+      65,
+      2,
+      64
+    ],
+    "planters": [
+      [
+        10,
+        9
+      ],
+      [
+        18,
+        7
+      ],
+      [
+        53,
+        8
+      ],
+      [
+        60,
+        14
+      ]
+    ]
+  },
+  "interior": {
+    "floor_ys": [
+      29,
+      35,
+      41,
+      47,
+      53,
+      59,
+      65,
+      71,
+      77,
+      83,
+      89,
+      95,
+      101,
+      107,
+      113,
+      119,
+      125,
+      131
+    ],
+    "room_centers_x": [
+      20,
+      26,
+      32,
+      38,
+      44
+    ],
+    "seed": 230023,
+    "activity": 0.53
+  }
+}

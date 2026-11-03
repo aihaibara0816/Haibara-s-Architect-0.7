@@ -1,0 +1,42 @@
+{
+  "feedback_id": "canton-v4-podium-20261021",
+  "build_id": "V4_r02",
+  "geometry_sha256": "9977d244821bb6a17f0fa81597268b872b33b715e6a6f8511e310e7eccf59069",
+  "source_nbt_sha256": "d6ba225adeb6801fb23637d4475d423773b4c9535edecc2480b555b97a47d9a4",
+  "date": "2026-10-21",
+  "state": "needs_revision",
+  "user_requirements": [
+    "无需复原不可见地下内部",
+    "保留整体色调、绿地走向、塔脚和平台嵌接关系",
+    "补充正俯视图",
+    "先补找底部实景并研究各层关系"
+  ],
+  "confirmed_findings": [
+    "官方资料支持二层市民广场与地上/地下商业层级",
+    "V4 plaza() 使用统一地坪和规则直条草地",
+    "V4 build_v4.py 将塔体平移后覆盖到场地，没有专门的塔基接口几何"
+  ],
+  "unresolved": [
+    "每片绿地的承托面及标高",
+    "塔基与南广场实际接口的连续剖面",
+    "2025 北侧改造与本次南广场范围的版本边界",
+    "竣工米制尺寸和相机配准"
+  ],
+  "proposed_components": [
+    "tower.base.interface",
+    "podium.upper_deck",
+    "podium.edge_facade",
+    "podium.entry_canopy",
+    "courtyard.north",
+    "courtyard.south",
+    "landscape.planting_patch.*",
+    "site.vertical_connections"
+  ],
+  "next_test": "只做塔脚与邻接平台的局部灰模；尚未执行",
+  "skill_proposal": {
+    "name": "gafacraft-podium-site",
+    "status": "proposal_only",
+    "role": "裙楼、塔基与多标高场地研究；复用既有图片 Skill 和 NBT 内核"
+  },
+  "reviewer_notes": ""
+}

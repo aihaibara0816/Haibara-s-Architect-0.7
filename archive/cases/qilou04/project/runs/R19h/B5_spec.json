@@ -1,0 +1,403 @@
+{
+  "id": "B5",
+  "name": "老榕茶座",
+  "size": [
+    24,
+    84,
+    24
+  ],
+  "floors": [
+    2,
+    7
+  ],
+  "entry": [
+    14,
+    3,
+    20
+  ],
+  "rooms": [
+    {
+      "id": "B5.F01.L.home",
+      "unit_id": "B5.F01.L",
+      "floor_id": "B5.F01",
+      "function": "living",
+      "bounds_xyz": [
+        193,
+        3,
+        65,
+        198,
+        6,
+        72
+      ],
+      "entrances": [
+        [
+          193,
+          3,
+          70
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        16,
+        3,
+        3,
+        21,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "B5.F01.L.bath",
+      "unit_id": "B5.F01.L",
+      "floor_id": "B5.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        195,
+        3,
+        65,
+        198,
+        6,
+        68
+      ],
+      "entrances": [
+        [
+          195,
+          3,
+          67
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        18,
+        3,
+        3,
+        21,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "B5.F01.R.tea",
+      "unit_id": "B5.F01.R",
+      "floor_id": "B5.F01",
+      "function": "tea",
+      "bounds_xyz": [
+        180,
+        3,
+        65,
+        189,
+        6,
+        82
+      ],
+      "entrances": [
+        [
+          188,
+          3,
+          79
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        3,
+        3,
+        12,
+        6,
+        20
+      ]
+    },
+    {
+      "id": "B5.F01.R.bath",
+      "unit_id": "B5.F01.R",
+      "floor_id": "B5.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        186,
+        3,
+        65,
+        189,
+        6,
+        68
+      ],
+      "entrances": [
+        [
+          186,
+          3,
+          67
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        9,
+        3,
+        3,
+        12,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "B5.F02.L.home",
+      "unit_id": "B5.F02.L",
+      "floor_id": "B5.F02",
+      "function": "living",
+      "bounds_xyz": [
+        193,
+        8,
+        65,
+        198,
+        11,
+        72
+      ],
+      "entrances": [
+        [
+          193,
+          8,
+          70
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        16,
+        8,
+        3,
+        21,
+        11,
+        10
+      ]
+    },
+    {
+      "id": "B5.F02.L.bath",
+      "unit_id": "B5.F02.L",
+      "floor_id": "B5.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        195,
+        8,
+        65,
+        198,
+        11,
+        68
+      ],
+      "entrances": [
+        [
+          195,
+          8,
+          67
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        18,
+        8,
+        3,
+        21,
+        11,
+        6
+      ]
+    },
+    {
+      "id": "B5.F02.R.home",
+      "unit_id": "B5.F02.R",
+      "floor_id": "B5.F02",
+      "function": "living",
+      "bounds_xyz": [
+        180,
+        8,
+        65,
+        189,
+        11,
+        82
+      ],
+      "entrances": [
+        [
+          188,
+          8,
+          79
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        8,
+        3,
+        12,
+        11,
+        20
+      ]
+    },
+    {
+      "id": "B5.F02.R.bath",
+      "unit_id": "B5.F02.R",
+      "floor_id": "B5.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        186,
+        8,
+        65,
+        189,
+        11,
+        68
+      ],
+      "entrances": [
+        [
+          186,
+          8,
+          67
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        9,
+        8,
+        3,
+        12,
+        11,
+        6
+      ]
+    }
+  ],
+  "uses": [],
+  "doors": [],
+  "lights": [],
+  "stairs": [],
+  "groups": [],
+  "sources": [],
+  "kind": "rear_cut",
+  "program": "tea",
+  "urban": {
+    "id": "B5",
+    "name": "老榕茶座",
+    "x": 179,
+    "z": 64,
+    "w": 20,
+    "d": 19,
+    "floors": 2,
+    "rotation": 2,
+    "ground": "tea",
+    "shape": "rear_cut",
+    "cut": 4,
+    "base_y": 3,
+    "palette": "ochre",
+    "maintenance": 0.3617180513671037,
+    "balcony": true,
+    "street_role": "frontage",
+    "extra_shop_entry": false,
+    "corner_shop": false
+  },
+  "unit_count": 4,
+  "main_entries": [
+    {
+      "id": "B5",
+      "entry": [
+        191,
+        3,
+        82
+      ],
+      "outside": [
+        191,
+        3,
+        83
+      ],
+      "core_landing": [
+        193,
+        3,
+        74
+      ],
+      "width": 2
+    },
+    {
+      "id": "B5.shop",
+      "entry": [
+        182,
+        3,
+        82
+      ],
+      "outside": [
+        182,
+        3,
+        83
+      ],
+      "width": 2,
+      "kind": "tea",
+      "unit_id": "B5.F01.R",
+      "role": "customer"
+    },
+    {
+      "id": "B5.street.R",
+      "unit_id": "B5.F01.R",
+      "entry": [
+        185,
+        3,
+        82
+      ],
+      "inside": [
+        185,
+        3,
+        81
+      ],
+      "outside": [
+        185,
+        3,
+        83
+      ],
+      "width": 2,
+      "kind": "tea",
+      "role": "customer",
+      "face": "south"
+    }
+  ],
+  "upper_starts": {},
+  "stair_runs": [],
+  "family": "village",
+  "placement": {
+    "id": "B5",
+    "name": "老榕茶座",
+    "origin": [
+      177,
+      0,
+      62
+    ],
+    "turn": 0,
+    "w": 24,
+    "d": 24,
+    "family": "village",
+    "kind": "rear_cut",
+    "program": "tea",
+    "lot": {
+      "id": "B5",
+      "name": "老榕茶座",
+      "x": 179,
+      "z": 64,
+      "w": 20,
+      "d": 19,
+      "floors": 2,
+      "rotation": 2,
+      "ground": "tea",
+      "shape": "rear_cut",
+      "cut": 4,
+      "base_y": 3,
+      "palette": "ochre",
+      "maintenance": 0.3617180513671037,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    "facade_revision": {
+      "palette": "ochre",
+      "wall": "yellow_terracotta",
+      "roof": "flat_service",
+      "roof_label": "平屋顶与生活设备"
+    }
+  },
+  "source_nbt_sha256": "bf4214022bcb1fe8862f1ff7a99d3586632fc5390906770ea802a753bb51b6a3",
+  "size_xyz": [
+    24,
+    84,
+    24
+  ],
+  "non_air": 3068,
+  "block_entities": 25,
+  "entities": 0
+}

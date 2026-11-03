@@ -1,0 +1,26 @@
+test_collinear_anchors_rejected (test_lab.AlignmentTests.test_collinear_anchors_rejected) ... ok
+test_known_transform_and_unseen_anchor (test_lab.AlignmentTests.test_known_transform_and_unseen_anchor) ... ok
+test_mirror_not_silently_accepted (test_lab.AlignmentTests.test_mirror_not_silently_accepted) ... ok
+test_mismatched_anchor_requires_review (test_lab.AlignmentTests.test_mismatched_anchor_requires_review) ... ok
+test_nonuniform_model_not_silently_stretched (test_lab.AlignmentTests.test_nonuniform_model_not_silently_stretched) ... ok
+test_context_and_algorithm_versions_invalidate (test_lab.CacheTests.test_context_and_algorithm_versions_invalidate) ... ok
+test_corruption_does_not_reuse_stale_result (test_lab.CacheTests.test_corruption_does_not_reuse_stale_result) ... ok
+test_dependency_edit_matches_full_rebuild_and_preserves_void (test_lab.CacheTests.test_dependency_edit_matches_full_rebuild_and_preserves_void) ... ok
+test_input_roles_matter (test_lab.CacheTests.test_input_roles_matter) ... ok
+test_material_change_preserves_geometry_and_unrelated_component (test_lab.CacheTests.test_material_change_preserves_geometry_and_unrelated_component) ... ok
+test_nan_parameter_rejected (test_lab.CacheTests.test_nan_parameter_rejected) ... ok
+test_warm_disk_cache_survives_new_instance (test_lab.CacheTests.test_warm_disk_cache_survives_new_instance) ... ok
+test_cross_component_merge_rejected (test_lab.EvidenceTests.test_cross_component_merge_rejected) ... ok
+test_duplicate_source_with_conflicting_annotations_requires_review (test_lab.EvidenceTests.test_duplicate_source_with_conflicting_annotations_requires_review) ... ok
+test_nonfinite_numeric_rejected (test_lab.EvidenceTests.test_nonfinite_numeric_rejected) ... ok
+test_old_photo_and_design_cannot_vote_for_built_epoch (test_lab.EvidenceTests.test_old_photo_and_design_cannot_vote_for_built_epoch) ... ok
+test_peer_conflict_does_not_average (test_lab.EvidenceTests.test_peer_conflict_does_not_average) ... ok
+test_reposts_do_not_create_independent_support (test_lab.EvidenceTests.test_reposts_do_not_create_independent_support) ... ok
+test_same_length_different_units_not_conflict (test_lab.EvidenceTests.test_same_length_different_units_not_conflict) ... ok
+test_unknown_unit_never_silently_falls_back (test_lab.EvidenceTests.test_unknown_unit_never_silently_falls_back) ... ok
+test_weaker_conflict_preserved_and_status_not_promoted (test_lab.EvidenceTests.test_weaker_conflict_preserved_and_status_not_promoted) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.343s
+
+OK

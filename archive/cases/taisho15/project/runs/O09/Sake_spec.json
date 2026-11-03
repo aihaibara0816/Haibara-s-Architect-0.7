@@ -1,0 +1,336 @@
+{
+  "case_id": "Sake",
+  "run": "O09",
+  "seed": 151145,
+  "buildings": [
+    {
+      "id": "Sake",
+      "name": "松葉酒舗｜酒铺与库房",
+      "size": [
+        35,
+        28,
+        25
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        10,
+        3,
+        20
+      ],
+      "rooms": [
+        {
+          "id": "Sake.main",
+          "name": "松葉酒舗｜酒铺与库房",
+          "bounds": [
+            7,
+            3,
+            4,
+            16,
+            7,
+            20
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Sake.wing",
+          "name": "stock",
+          "bounds": [
+            17,
+            3,
+            4,
+            31,
+            7,
+            14
+          ],
+          "floor_y": 3,
+          "capacity": 4,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Sake.entry",
+          "pos": [
+            10,
+            3,
+            19
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Sake.counter",
+          "pos": [
+            10,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Sake.stock",
+          "pos": [
+            10,
+            3,
+            7
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Sake.wing.stock",
+          "pos": [
+            18,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Sake.door.0",
+          "pos": [
+            10,
+            3,
+            20
+          ],
+          "lintel": [
+            10,
+            5,
+            20
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Sake.door.1",
+          "pos": [
+            16,
+            3,
+            9
+          ],
+          "lintel": [
+            16,
+            5,
+            9
+          ],
+          "facing": "east"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            10,
+            6,
+            16
+          ],
+          "support": [
+            10,
+            7,
+            16
+          ]
+        },
+        {
+          "position": [
+            13,
+            6,
+            7
+          ],
+          "support": [
+            13,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            12
+          ],
+          "support": [
+            7,
+            7,
+            12
+          ]
+        },
+        {
+          "position": [
+            24,
+            6,
+            9
+          ],
+          "support": [
+            24,
+            7,
+            9
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Sake.tasting.dining_table.12_1_17",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            12,
+            3,
+            17,
+            15,
+            4,
+            18
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "uses": [
+    {
+      "id": "Sake.entry",
+      "pos": [
+        10,
+        3,
+        19
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Sake.counter",
+      "pos": [
+        10,
+        3,
+        15
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Sake.stock",
+      "pos": [
+        10,
+        3,
+        7
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Sake.wing.stock",
+      "pos": [
+        18,
+        3,
+        9
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Sake.door.0",
+      "pos": [
+        10,
+        3,
+        20
+      ],
+      "lintel": [
+        10,
+        5,
+        20
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Sake.door.1",
+      "pos": [
+        16,
+        3,
+        9
+      ],
+      "lintel": [
+        16,
+        5,
+        9
+      ],
+      "facing": "east"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        10,
+        6,
+        16
+      ],
+      "support": [
+        10,
+        7,
+        16
+      ]
+    },
+    {
+      "position": [
+        13,
+        6,
+        7
+      ],
+      "support": [
+        13,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        12
+      ],
+      "support": [
+        7,
+        7,
+        12
+      ]
+    },
+    {
+      "position": [
+        24,
+        6,
+        9
+      ],
+      "support": [
+        24,
+        7,
+        9
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    10,
+    3,
+    21
+  ],
+  "upper_start": [
+    4,
+    4
+  ],
+  "source_nbt_sha256": "6356e8145b3a69e85e62334eefba72059a00c4004a760402be5ba7ffce4fb432",
+  "non_air": 5315,
+  "size_xyz": [
+    35,
+    28,
+    25
+  ],
+  "block_entities": 69,
+  "entities": 0
+}

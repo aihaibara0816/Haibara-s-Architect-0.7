@@ -1,0 +1,21 @@
+{
+  "schema": "canton-v5-0.1",
+  "parent": "V4_r02",
+  "target_height_blocks": 280,
+  "size_xyz": [128, 282, 232],
+  "tower_offset_xyz": [36, 0, 12],
+  "levels": {"foundation_block_y": 0, "first_floor_surface_y": 2, "upper_deck_surface_y": 7},
+  "scope": "Tower + south plaza, 1F and above. No B1 rooms, lowered B1 court floors, underground stairs or excavations. Oval courts terminate at 1F by explicit user scope adaptation.",
+  "tower": {"geometry": "V4 inner hoops / V3a open lattice / V2A sloped crown", "frozen_above_local_y": 12, "base_floor_adaptation": "Remove old program A floor at local Y=2; use common 1F floor Y=1. Preserve column paths, core and shaft."},
+  "site": {
+    "epoch": "2024 opening / 2025 lighting; 2019 base photo used only for tower-platform relation",
+    "axis_x": 64.5,
+    "north_court": {"center_xz": [64.5, 103], "radii": [17, 24], "rotation_degrees": -19, "canopy_rise": 3},
+    "south_court": {"center_xz": [64.5, 191], "radii": [15, 21], "rotation_degrees": 4, "canopy_rise": 2},
+    "pool": {"center_xz": [64.5, 147], "z_range": [133, 164], "half_width": 12.5},
+    "geometry_status": "Manually interpreted photograph topology and estimated block-scale curves; not a traced orthorectified plan or measured vertical survey."
+  },
+  "alignment": {"plus_z": "towards south plaza in this study", "geographic_azimuth_degrees": null, "photo_camera_calibration": null, "source_skp_registration": "Retained tower axis; site relationship authored from references, no measured registration."},
+  "evidence_priority": ["Explicit user scope", "Dated as-built views for podium topology", "Reviewed SKP paths for tower structure", "Historic photos for unchanged interface relationships", "Schematic estimates only where evidence is missing"],
+  "limits": ["Site heights and dimensions estimated", "Court floors truncated at 1F; user-requested adaptation is not an as-built reconstruction", "No complete commercial interiors", "No surveyed geographic orientation or photo registration", "46 inherited equally spaced tower hoop levels; tilt and core conflicts remain", "No real RGB light show", "Minecraft import, collisions and fluid updates untested"]
+}

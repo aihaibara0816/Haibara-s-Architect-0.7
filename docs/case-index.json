@@ -1,0 +1,959 @@
+{
+  "schema_version": "1.0",
+  "catalog_date": "2026-11-01",
+  "language": "zh-CN",
+  "version_axes": {
+    "engine_release": "可执行共享工程发布",
+    "case_version_and_run": "具体建筑方案与不可变生成记录",
+    "skill_rule_version": "研究/编排说明版本，独立于引擎和建筑"
+  },
+  "baseline_engine": "HAF 0.4.0",
+  "research_release": "HAF 0.5 Research Consolidation",
+  "public_path_convention": "Paths are relative to the repository root, not private author storage.",
+  "counts": {
+    "registered_generators_in_baseline": 11,
+    "baseline_building_identities": 13,
+    "research_case_entries": 23,
+    "research_entries_are_not_independent_generalization_samples": true
+  },
+  "current_validation_note": "Historical output labels remain unchanged. This distribution ran the new workflow tests and generated HAF06_smoke_01 with the existing Elizabeth Tower adapter. See docs/validation.md. No in-game verification.",
+  "cases": [
+    {
+      "id": "shenzhen_press",
+      "name": "深圳特区报业大厦",
+      "building_type": "现代办公塔／水平幕墙",
+      "mainline_release_memberships": [
+        "0.2",
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF mainline + SZ case adapter 0.2.0 + shared seeded lighting + Detail Lab",
+      "case_version": "V2",
+      "run_id": "V2",
+      "latest_research_index_case_version": "V2",
+      "generation_entrypoint": "cases/shenzhen_press/src/build_case.py",
+      "parameter_path": "cases/shenzhen_press/research/parameters.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/shenzhen_press/runs/V2/building.nbt",
+        "bytes": 239523,
+        "sha256": "e1aefdd2383fed8747c69c5806ab5cd367d7d91eeaf0092cd77c1a1f25176e20",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": null,
+      "generate_command": "python tools/agent.py --case shenzhen_press --run MY_NEW_RUN",
+      "render_command": null,
+      "render_environment": null,
+      "current_session_build_replayed": false,
+      "focus": [
+        "横向幕墙、楼板端与窗后层的前后次序",
+        "正背面围护、屋顶体块和入口开口",
+        "稳定房间ID的暖冷窗灯"
+      ],
+      "learned": "先锁形体与手性，再借鉴细部；为正背面、屋顶、裙楼分别验收；随机只作用于允许的灯位和陈设位。",
+      "open_issues": "背面模式及办公室仍估算；不能把伪内饰宣称真实可进入办公室。",
+      "user_acceptance": "用户反馈明显改善；非整栋测绘/游戏验收",
+      "game_status": "pending",
+      "evidence_paths": [
+        "cases/shenzhen_press/src/build_case.py",
+        "learning/README.md"
+      ],
+      "dependency_notes": []
+    },
+    {
+      "id": "guangzhou_ctf",
+      "name": "广州周大福金融中心",
+      "building_type": "超高层／竖向幕墙",
+      "mainline_release_memberships": [
+        "0.2",
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": null,
+      "case_version": "V1",
+      "run_id": "V1",
+      "latest_research_index_case_version": "整栋 V1_r05；Detail V2 局部研究",
+      "generation_entrypoint": "cases/guangzhou_ctf/src/build_case.py",
+      "parameter_path": "cases/guangzhou_ctf/research/parameters.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/guangzhou_ctf/runs/V1/building.nbt",
+        "bytes": 508203,
+        "sha256": "58db77a6499aab981ccf8efdd048c3ce80b9383053713059ca61010af7afcc96",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/guangzhou_ctf/review/previews/V1/render_report.json",
+      "generate_command": "python tools/agent.py --case guangzhou_ctf --run MY_NEW_RUN",
+      "render_command": "python cases/guangzhou_ctf/review/render_case.py --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "竖梃、玻璃、内背景三层关系",
+        "弧面量化转角与薄构件状态",
+        "固定冠灯、普通窗灯和局部障碍灯样板的区别"
+      ],
+      "learned": "两相反方向检查斜顶；固定夜景灯带与随机窗灯分离；航空灯先算尺寸，3×3格在1:2下宽6米过大。",
+      "open_issues": "细节v2是局部样板，不是完整V2；SU未取得；真实夜景排布及红色光/闪烁未实现。",
+      "user_acceptance": "竖向体系获正向反馈；斜顶、夜景及细节仍待改",
+      "game_status": "pending",
+      "evidence_paths": [
+        "cases/guangzhou_ctf/README.md",
+        "learning/vertical_facade_ctf_v1.md",
+        "learning/ctf_night_detail_study.md"
+      ],
+      "dependency_notes": [
+        "本地发布基线是V1；V1_r04/V1_r05另存。0.5索引记录整栋V1_r05，不能把V1的NBT哈希当作r05。",
+        "Detail V2是局部研究，不是整栋V2。"
+      ]
+    },
+    {
+      "id": "namsan_tower",
+      "name": "首尔南山塔与公园",
+      "building_type": "观景塔／山地公园",
+      "mainline_release_memberships": [
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.2.0",
+      "case_version": "V1_r02",
+      "run_id": "V1_r02",
+      "latest_research_index_case_version": "V1_r02",
+      "generation_entrypoint": "cases/namsan_tower/src/build_case.py",
+      "parameter_path": "cases/namsan_tower/params.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/namsan_tower/runs/V1_r02/building.nbt",
+        "bytes": 2094052,
+        "sha256": "828086a50f2193f3020b8cb53497e07ee4ef731b3d0f80c22f61db3f086f9da6",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/namsan_tower/review/previews/V1_r02/render_report.json",
+      "generate_command": "python tools/agent.py --case namsan_tower --run MY_NEW_RUN",
+      "render_command": "python cases/namsan_tower/src/render_case.py --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "粗DEM、人工台地和步道如何衔接",
+        "设备环留空与观景舱围护",
+        "稀疏场地的实际占用预算"
+      ],
+      "learned": "基座先定承托面并渐变接坡；楼板止于核心内缘；分别限制包围体积与实际占用量。",
+      "open_issues": "细部高差/植被估算，真实RGB投光及游戏坡道未验证。",
+      "user_acceptance": "用户未作整体验收；不能因转入下一案例记pass",
+      "game_status": "pending",
+      "evidence_paths": [
+        "learning/namsan_site_v1.md",
+        "cases/namsan_tower/params.json"
+      ],
+      "dependency_notes": [
+        "生成读取research/terrain/osm.xml与dem_grid.json；保留OpenStreetMap署名、ODbL记录及SRTM/OpenTopoData来源。"
+      ]
+    },
+    {
+      "id": "elizabeth_tower",
+      "name": "伊丽莎白塔（大本钟）",
+      "building_type": "古典钟塔",
+      "mainline_release_memberships": [
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.2.0",
+      "case_version": "V1_r02",
+      "run_id": "V1_r02",
+      "latest_research_index_case_version": "V1_r02",
+      "generation_entrypoint": "cases/elizabeth_tower/src/build_case.py",
+      "parameter_path": "cases/elizabeth_tower/params.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/elizabeth_tower/runs/V1_r02/building.nbt",
+        "bytes": 315288,
+        "sha256": "88a187dcade9687223e9e80db62c832256db1f4d796ba292c5b46a6c4afd758f",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/elizabeth_tower/review/previews/V1_r02/render_report.json",
+      "generate_command": "python tools/agent.py --case elizabeth_tower --run MY_NEW_RUN",
+      "render_command": "python tools/render_building_case.py --case elizabeth_tower --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "钟盘、钟室、灯笼层和尖顶比例",
+        "厚墙窗洞、楼梯与半砖线脚",
+        "近似材质和真实资源包纹理的区别"
+      ],
+      "learned": "固定建筑身份与范围；先看钟盘/钟室/尖顶关系，再加细节；材料ID通过不等于纹理表现通过。",
+      "open_issues": "仅带截断的议会邻翼；钟针静态，钟室/楼梯可玩性待测，未补真实资源包纹理。",
+      "user_acceptance": "用户提出材质纹理不足；未关闭",
+      "game_status": "pending",
+      "evidence_paths": [
+        "learning/london_western_v1.json",
+        "cases/elizabeth_tower/src/build_case.py"
+      ],
+      "dependency_notes": []
+    },
+    {
+      "id": "buckingham_palace",
+      "name": "白金汉宫",
+      "building_type": "古典宫殿／内院",
+      "mainline_release_memberships": [
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.2.0",
+      "case_version": "V1_r02",
+      "run_id": "V1_r02",
+      "latest_research_index_case_version": "V1_r02",
+      "generation_entrypoint": "cases/buckingham_palace/src/build_case.py",
+      "parameter_path": "cases/buckingham_palace/params.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/buckingham_palace/runs/V1_r02/building.nbt",
+        "bytes": 3684739,
+        "sha256": "2d33529237c74937e6212037f40bb97facc645b87af153d97d4941bf85207a33",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/buckingham_palace/review/previews/V1_r02/render_report.json",
+      "generate_command": "python tools/agent.py --case buckingham_palace --run MY_NEW_RUN",
+      "render_command": "python tools/render_building_case.py --case buckingham_palace --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "正面开间节奏、侧翼和内院",
+        "正背面不同的凸出及窗型",
+        "地图平面与估算屋顶高度的边界"
+      ],
+      "learned": "地图辅助平面，不供应高度；正背面各自研究；景观不能遮住本轮需要评审的主建筑。",
+      "open_issues": "只做指定建筑群与花园边缘，不是775房间全还原；内饰和园景多为示意。",
+      "user_acceptance": "纹理感反馈仍开放；无整栋认可记录",
+      "game_status": "pending",
+      "evidence_paths": [
+        "learning/london_western_v1.json",
+        "cases/buckingham_palace/src/build_case.py"
+      ],
+      "dependency_notes": [
+        "生成读取research/aligned_plan.json，来自OSM平面；保留OpenStreetMap署名与ODbL记录。"
+      ]
+    },
+    {
+      "id": "nanshan_cloud",
+      "name": "南山云科技大厦",
+      "building_type": "错动办公塔／阶梯露台",
+      "mainline_release_memberships": [
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.2.0",
+      "case_version": "V2_r01",
+      "run_id": "V2_r01",
+      "latest_research_index_case_version": "V2_r01",
+      "generation_entrypoint": "cases/nanshan_cloud/src/build_case.py",
+      "parameter_path": "cases/nanshan_cloud/params.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/nanshan_cloud/runs/V2_r01/building.nbt",
+        "bytes": 1124891,
+        "sha256": "11cdb08cb2d0202fcb802ae0bd91648e523a74d5599349d5fe56b223bd288425",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/nanshan_cloud/review/previews/V2_r01/render_report.json",
+      "generate_command": "python tools/agent.py --case nanshan_cloud --run MY_NEW_RUN",
+      "render_command": "python tools/render_building_case.py --case nanshan_cloud --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "露台宽度／塔宽和挑深的比例",
+        "三塔错动与顶层重复节奏",
+        "局部修改时保持主体高度和同机位"
+      ],
+      "learned": "先量露台/塔宽比、挑深和顶层重复节奏；局部修改锁定其他体块，四个45°相机同框同尺度。",
+      "open_issues": "后部塔体和平面未测绘；当地理北未标定时四向只是模型坐标。",
+      "user_acceptance": "露台比例经反馈缩小；未收到新版明确验收",
+      "game_status": "pending",
+      "evidence_paths": [
+        "learning/nanshan_cloud_v2.json",
+        "cases/nanshan_cloud/src/build_case.py"
+      ],
+      "dependency_notes": []
+    },
+    {
+      "id": "guangzhou_customs",
+      "name": "广州新海关大厦",
+      "building_type": "纪念性办公楼／裙楼",
+      "mainline_release_memberships": [
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.2.0",
+      "case_version": "V3_r02",
+      "run_id": "V3_r02",
+      "latest_research_index_case_version": "V3_r02",
+      "generation_entrypoint": "cases/guangzhou_customs/src/build_v3.py",
+      "parameter_path": "cases/guangzhou_customs/params_v3.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/guangzhou_customs/runs/V3_r02/building.nbt",
+        "bytes": 456715,
+        "sha256": "56a665db8c46fa364c6c0ce7c8c769ffb051f91335ed81aa7863a2e42f312224",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/guangzhou_customs/review/previews/V3_r02/render_report.json",
+      "generate_command": "python tools/agent.py --case guangzhou_customs --run MY_NEW_RUN",
+      "render_command": "python tools/render_building_case.py --case guangzhou_customs --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "真俯视和分层轮廓",
+        "反T形裙楼、主楼和钟楼比例",
+        "形体返工后独立复核保留灯位"
+      ],
+      "learned": "强制真俯视+分层轮廓；对称只能作为待证假设，不能由建筑类型直接决定；返工单独保护灯光。",
+      "open_issues": "钟楼/大堂照明未补；137格是研究包络而非解决了所有高度来源冲突。",
+      "user_acceptance": "形体获用户认可；大堂裙楼和钟楼灯光needs_revision",
+      "game_status": "pending",
+      "evidence_paths": [
+        "cases/guangzhou_customs/README_V3.md",
+        "learning/customs_v3_user_acceptance.json"
+      ],
+      "dependency_notes": []
+    },
+    {
+      "id": "guangzhou_memorial",
+      "name": "广州中山纪念堂",
+      "building_type": "中式纪念建筑／复杂屋顶",
+      "mainline_release_memberships": [
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.2.0",
+      "case_version": "V2_r02",
+      "run_id": "V2_r02",
+      "latest_research_index_case_version": "V2_r02",
+      "generation_entrypoint": "cases/guangzhou_memorial/src/build_case_v2.py",
+      "parameter_path": "cases/guangzhou_memorial/research/parameters_v2.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/guangzhou_memorial/runs/V2_r02/building.nbt",
+        "bytes": 1491666,
+        "sha256": "81b06dce9e1ba323f1f34a522be08d2716e56fe942c2c7ab2aa40c55fdd66995",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/guangzhou_memorial/review/previews/V2_r02/render_report.json",
+      "generate_command": "python tools/agent.py --case guangzhou_memorial --run MY_NEW_RUN",
+      "render_command": "python tools/render_building_case.py --case guangzhou_memorial --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "完整柱脚承托和入口地坪",
+        "复杂坡屋顶的离散接缝",
+        "用旧失败版本验证修复检查"
+      ],
+      "learned": "承托要查完整脚印；入口查地坪+净空；共享屋面边界按离散方块验收；旧失败版本必须能触发新检查。",
+      "open_issues": "8项修复检查不等于8栋测试；复杂屋面仍案例几何；礼堂示意布局和游戏碰撞待验。",
+      "user_acceptance": "V2离线几何修复已验证；用户视觉验收待补",
+      "game_status": "pending",
+      "evidence_paths": [
+        "learning/guangzhou_memorial_v2.json",
+        "cases/guangzhou_memorial/src/validate_repairs.py"
+      ],
+      "dependency_notes": []
+    },
+    {
+      "id": "zhujiang_dijing",
+      "name": "广州珠江帝景苑",
+      "building_type": "城市住宅楼组",
+      "mainline_release_memberships": [
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.2.0",
+      "case_version": "V1_r03",
+      "run_id": "V1_r03",
+      "latest_research_index_case_version": "V1_r03",
+      "generation_entrypoint": "cases/zhujiang_dijing/src/build_case.py",
+      "parameter_path": "cases/zhujiang_dijing/research/parameters.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/zhujiang_dijing/runs/V1_r03/building.nbt",
+        "bytes": 1217416,
+        "sha256": "47d8dac25bda3241ebe47c2504259cc9cc862241d0a94e0e71d6844a8d871855",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/zhujiang_dijing/review/previews/V1_r03/render_report.json",
+      "generate_command": "python tools/agent.py --case zhujiang_dijing --run MY_NEW_RUN",
+      "render_command": "python tools/render_building_case.py --case zhujiang_dijing --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "窗后开口与阳台进深",
+        "水体、玻璃片及栏杆邻接",
+        "楼组范围、屋顶柱脚和夜景"
+      ],
+      "learned": "窗透明性与栏杆连接分开检查；水不是玻璃片/栏杆的实体邻块；HTML内嵌且短文件名，单独试开下载。",
+      "open_issues": "不代表整个小区；真实楼栋身份、绿化分布与户型细节待核；夜景远景偏弱。",
+      "user_acceptance": "技术问题修过；用户主要反馈下载失败，未有视觉验收",
+      "game_status": "pending",
+      "evidence_paths": [
+        "learning/zhujiang_dijing_v1.json",
+        "cases/zhujiang_dijing/runs/V1_r03/validation.json"
+      ],
+      "dependency_notes": []
+    },
+    {
+      "id": "guangzhou_south",
+      "name": "广州南站",
+      "building_type": "大型交通建筑／大跨屋盖",
+      "mainline_release_memberships": [
+        "0.3",
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.2.0",
+      "case_version": "V1_r02",
+      "run_id": "V1_r02",
+      "latest_research_index_case_version": "V1_r02",
+      "generation_entrypoint": "cases/guangzhou_south/src/build_case.py",
+      "parameter_path": "cases/guangzhou_south/research/parameters.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/guangzhou_south/runs/V1_r02/building.nbt",
+        "bytes": 3930268,
+        "sha256": "d1be52d98763c1337d9a9ecee53d82bac9a8d6ed9842ee00ac89d32d4f1be245",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [],
+      "preview_status": "png_not_in_recovered_baseline",
+      "preview_metadata_path": "cases/guangzhou_south/review/previews/V1_r02/render_report.json",
+      "generate_command": "python tools/agent.py --case guangzhou_south --run MY_NEW_RUN",
+      "render_command": "python tools/render_building_case.py --case guangzhou_south --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "大跨主次体量与上下层空间",
+        "门洞开空后竖梃再次阻挡的拼合问题",
+        "大网格原子写入与固定相机"
+      ],
+      "learned": "入口契约必须在最终NBT检查；原子写入+网格字节长度+图像读回保护大场景预览；主次体量优先于重复细节密度。",
+      "open_issues": "轨道和列车装饰性；ETFE/柱网/广场估算；采光脊文字尺寸与含端部包络未完全闭合；游戏未测。",
+      "user_acceptance": "用户认可当前体量下已足够；细节限制继续保留",
+      "game_status": "pending",
+      "evidence_paths": [
+        "learning/guangzhou_south_v1.json",
+        "cases/guangzhou_south/src/validate_case.py",
+        "tests/test_mesh_write.py"
+      ],
+      "dependency_notes": []
+    },
+    {
+      "id": "civic_center",
+      "name": "市民服务中心（原创）",
+      "building_type": "原创公共服务建筑／功能内饰与园林",
+      "mainline_release_memberships": [
+        "0.4"
+      ],
+      "original_output_engine_label": "HAF 0.3.0",
+      "case_version": "V0.3.3 / v03_r16_ceiling_landscape",
+      "run_id": "v03_r16_ceiling_landscape",
+      "latest_research_index_case_version": "v03_r16_ceiling_landscape",
+      "generation_entrypoint": "cases/civic_center/revise_ceiling_landscape.py",
+      "parameter_path": "cases/civic_center/parameters.json",
+      "source_status": "preserved_case_adapter",
+      "artifact_status": "present_in_copy_manifest",
+      "nbt": {
+        "path": "cases/civic_center/runs/v03_r16_ceiling_landscape/building.nbt",
+        "bytes": 491130,
+        "sha256": "5facdc6ad0ba108d9ff34c7e83d284836e449f10ab4786e277e3633bc8a84b9c",
+        "source": "preserved_final_nbt",
+        "game_status": "pending"
+      },
+      "previews": [
+        {
+          "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/se_day.png",
+          "sha256": "3c9813f65cf07c8b3c55855100317f8465d3ec396de2c1d22ca37e70cc2ef04b",
+          "bytes": 233845,
+          "kind": "final_nbt_offline_preview"
+        },
+        {
+          "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/sw_day.png",
+          "sha256": "a8e7ccbaf7c1fb752eeede246a39d1ba5100d9695e72206e7c08d11b8c86e4f3",
+          "bytes": 240741,
+          "kind": "final_nbt_offline_preview"
+        },
+        {
+          "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/ne_day.png",
+          "sha256": "b20a8bcbb56d4c197d72b2293acde1df5d30a20538f7f89819a342244a1be49f",
+          "bytes": 220156,
+          "kind": "final_nbt_offline_preview"
+        },
+        {
+          "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/nw_day.png",
+          "sha256": "6b2a8bea4ea8aa194f3e0edaecff6ee6b99f9692759e0d1a576c6dc8fd0dd5b9",
+          "bytes": 213512,
+          "kind": "final_nbt_offline_preview"
+        },
+        {
+          "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/top_day.png",
+          "sha256": "d840990d96eb29145a655820aba2408843745234bda07b4e712c608cf39e8cc5",
+          "bytes": 113757,
+          "kind": "final_nbt_offline_preview"
+        },
+        {
+          "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/entrance_garden_day.png",
+          "sha256": "c20f5d9e575bd66da4b0dbfa01a3f773500b01ab6c9025d11a95c323e4852b3f",
+          "bytes": 133064,
+          "kind": "final_nbt_offline_preview"
+        },
+        {
+          "path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/ceiling_eye.png",
+          "sha256": "398ddf8e09ab55d9d51156c7054aa4b3d144ed225731e18d23b29a5d84eeec99",
+          "bytes": 106496,
+          "kind": "final_nbt_offline_preview"
+        }
+      ],
+      "preview_status": "preserved_final_nbt_pngs",
+      "preview_metadata_path": "cases/civic_center/review/previews/v03_r16_ceiling_landscape/render_report.json",
+      "generate_command": "python tools/agent.py --case civic_center --run MY_NEW_RUN",
+      "render_command": "python tools/render_building_case.py --case civic_center --run MY_NEW_RUN",
+      "render_environment": "historical Linux EGL/Mesa profile; not verified on Windows",
+      "current_session_build_replayed": false,
+      "focus": [
+        "用途分区、成组家具和公共休息空间",
+        "上层地板／下层吊顶的两格关系及净高例外",
+        "整片园林、全宽路径、嵌灯与窗组保护"
+      ],
+      "learned": "保留批准窗口与标高；先动线和净空，再功能家具、灯具及植物；检查整条路径宽度。",
+      "open_issues": "真实游戏碰撞/通行/照明未测；内饰模块迁移至第二建筑未完成。",
+      "user_acceptance": "可以的；授权归纳升级 HAF0.4。不是游戏验收。",
+      "game_status": "pending",
+      "evidence_paths": [
+        "cases/civic_center/STATE.md",
+        "cases/civic_center/runs/v03_r16_ceiling_landscape/validation.json",
+        "cases/civic_center/runs/v03_r16_ceiling_landscape/interior_validation.json",
+        "cases/civic_center/runs/v03_r16_ceiling_landscape/ceiling_landscape_validation.json"
+      ],
+      "dependency_notes": [
+        "生成R16修订读取R13冻结NBT、构件归属、窗与房间记录；不支持通用--params。",
+        "内饰验收还读取R06；吊顶/照明对比读取R13和R16的离线光场。",
+        "原run manifest保留HAF 0.3.0，不改写成0.4。"
+      ]
+    },
+    {
+      "id": "canton",
+      "name": "广州塔",
+      "building_type": "地标塔架",
+      "mainline_release_memberships": [
+        "0.1"
+      ],
+      "research_index_release": "0.5",
+      "original_output_engine_label": "HAFusion 0.1",
+      "case_version": "V6 / HAF 0.1 r02",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "missing_v6_final_nbt",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "a186747e423754ca2edccfbac2536ac3b02086c376d6b55c901b5309d2419afe",
+      "archived_final_nbt_bytes": 360222,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "图片与SKP按构件选用；外框、核心、功能玻璃层、内部环、斜塔冠与多层场地分别建模。融合发生在参数/几何层，不能取整套平均值。"
+      ],
+      "learned": "先写占用/镂空高度区间、构件内外次序、平台标高和接口。V2A为SKP+图片，V2B为纯图片；V6缓存成功不等于外形更好。",
+      "open_issues": "格构粗细、节点、最低截面拟合与游戏通行仍需核验；案例网格适配不等于通用自动融合。",
+      "user_acceptance": "历史迭代；V2B立面进步获反馈，V5/V6整体还原未见完整验收",
+      "game_status": "pending",
+      "evidence_paths": [
+        "history/canton/README.md",
+        "history/canton/reports/replay_validation.json"
+      ],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "pazhou",
+      "name": "广州琶洲微信总部",
+      "building_type": "现代公共与商业",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "V3b / v3b_04_final",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [
+        {
+          "path": "history/pazhou/routes/HA03/runs/baseline/building.nbt",
+          "bytes": 1221239,
+          "sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+          "source": "preserved_final_nbt",
+          "game_status": "pending"
+        },
+        {
+          "path": "history/pazhou/routes/HAF/runs/baseline/building.nbt",
+          "bytes": 1221239,
+          "sha256": "db7922b9cd9e1ac634ab43e8688b156910819a788094acb097190ef24751d042",
+          "source": "preserved_final_nbt",
+          "game_status": "pending"
+        }
+      ],
+      "archived_final_nbt_sha256": "e993841e319ecb86834bb79c87f65da60bdaa9471de3c41b8f04c82c4295d3c5",
+      "archived_final_nbt_bytes": 110307,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "已落地玻璃分色与幕墙分层；保留原始、分色、分层三个对照。V3b 修复玻璃旁栏杆额外连臂，36 项针对性检查留档。"
+      ],
+      "learned": "材质分色与几何分层分开对照；连接型方块必须检查实际邻居。",
+      "open_issues": "旧主表“尚未重做幕墙”已过时；V3b 尚无用户整栋认可，裙楼、大堂、峡谷与背面推断仍待核验。",
+      "user_acceptance": "needs_revision：用户明确否定壳体感与细节还原",
+      "game_status": "pending",
+      "evidence_paths": [
+        "history/pazhou/README.md"
+      ],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "guangzhou_ifc",
+      "name": "广州国际金融中心（西塔）",
+      "building_type": "现代高层与幕墙",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "V1_r02",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "7f10e59f2eeb06de8423fc459848ed9efea87fac20a1aeb28460fdc8369523e1",
+      "archived_final_nbt_bytes": 402998,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "圆角三角形腹部、玻璃后斜网格；92×224×100 格，11 项案例检查。r02 只改 104 个照明位置，非照明差分为 0。"
+      ],
+      "learned": "固定结构后再改变窗后活动；局部变更以差分证明。",
+      "open_issues": "731 个窗后家具样本不是完整房间；不是 103 层可行走内饰；原分支依赖 HAF 0.3。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "oriental_pearl",
+      "name": "上海东方明珠",
+      "building_type": "地标塔架",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "v1_r04_final",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "7f127ffc8ba60c93cbeaa188130871c529c9c42fcb20ef1b7c147f336f59dc31",
+      "archived_final_nbt_bytes": 82197,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "球体、支腿和主体比例分层表达；89×223×89 格，28,198 非空气方块。"
+      ],
+      "learned": "先读远景剪影，再检查支撑与球舱，不让玻璃掩盖骨架。",
+      "open_issues": "细三角幕墙、裙楼、真实内饰与彩色泛光仍不完整。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "swfc",
+      "name": "上海环球金融中心",
+      "building_type": "现代高层与幕墙",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "v1_r02_final",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "b334ee9e653ff69439f96fe7b087848054ee46418066d4c34d6a81be83459112",
+      "archived_final_nbt_bytes": 236092,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "双弧切面、顶部梯形洞、分层幕墙与底面；73×234×73 格，21 项文件/几何检查留档。"
+      ],
+      "learned": "开洞形状、侧墙厚度与顶部透空要联合检查。",
+      "open_issues": "当前视觉仍待修订；21 项检查不能替代建筑还原评价。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "osaka",
+      "name": "大阪城希尔顿逸林酒店",
+      "building_type": "现代公共与商业",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "v1_r04_final",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "bce2be8258897b0dd5ff604ef0cca63bc0f7ef180b79939a217061b9b9e7eed1",
+      "archived_final_nbt_bytes": 251351,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "前后不对称白色错动墙板、凹入玻璃、电视台基座与悬挑底面；最后修补 6 处低位悬空衬层，23 项检查。"
+      ],
+      "learned": "按朝向建立不同立面；底面装饰必须带支撑关系。",
+      "open_issues": "未生成 373 间真实客房；河岸仅为场景示意，部分参数仍为常量。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "grand_gate",
+      "name": "广岛 JP 大厦",
+      "building_type": "现代公共与商业",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "v1_r04_final",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "794b880579b188303be2382a1004d2fe6ddbacdf037700c68610e06417505a9a",
+      "archived_final_nbt_bytes": 286667,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "19 层、约 88 格主体；幕墙/裙楼/底面三个局部样板和 16 个视图。"
+      ],
+      "learned": "建筑身份先校正，再分层研究商业基座、标准层与悬挑。",
+      "open_issues": "商业内饰未完整建成；手工研究与案例适配仍是主要方式。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "guangzhou_citic",
+      "name": "广州中信广场",
+      "building_type": "现代高层与幕墙",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "V2_r02",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "841b1bae3732280541d73bf580fa625f41a740d65fd0305fb34246e84a168765",
+      "archived_final_nbt_bytes": 280996,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "冻结体块/立面/冠部，灯方块从 737 降至 410；19 个示范功能区、27 组家具、16 根视觉柱。"
+      ],
+      "learned": "普通窗按开间/楼层组分布；入口、商业、冠部和标识灯独立控制。",
+      "open_issues": "-44.4% 是灯方块数量变化，非照度变化；示范楼层不能称为 80 层真实办公室。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "millennium_estate",
+      "name": "千禧年代住区",
+      "building_type": "城市住区",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "V3_r01",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "4533d0508baef7384f37d9a3de0709ded5586b94d6fd1c7ff58ee0e39101871d",
+      "archived_final_nbt_bytes": 857435,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "120 户、780 个功能房间、1,620 组家具；84 户亮灯。3,639 个近色方块零散穿插，9 根贴墙落水管。"
+      ],
+      "learned": "墙面近色穿插与修补斑块是两种独立风格；本案采用非成片散点。",
+      "open_issues": "28 项回读检查与 4,750 格限定差分已留档；家具可用性、玩家碰撞仍待游戏验证。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "urban_village20",
+      "name": "榕荫里 · 20 栋城中村",
+      "building_type": "高密度城中村",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "V4_r02",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "0abde9be359c8115897dc002304a6747eacf1fe06c526739601057d5f4eb14c8",
+      "archived_final_nbt_bytes": 1705557,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "20 栋、101 层、234 户与 9 店铺；六边形场地裁切、8 格地势落差、E1 长边与 D5 转角阳台。"
+      ],
+      "learned": "边界、进深、街巷和地形先确定；加建与栏窗随住户/楼栋形成差异。",
+      "open_issues": "30 项离线检查与 101 张楼层图；V3 方向获认可，V4 最终版尚未见用户验收。",
+      "user_acceptance": "V3_r04 总方向获认可；V4_r02 待确认",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "rural13",
+      "name": "田埂里 · 13 栋初版",
+      "building_type": "乡村聚落与田园",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "V4",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "77ae0865b32c35b27636481c65aaa5dacaab61ed5f8d63c13ce7cfae60765555",
+      "archived_final_nbt_bytes": 1379349,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "6 栋完成、4 栋旧房、3 栋不同施工状态；476,715 非空气方块、33,931 格作物。"
+      ],
+      "learned": "居住、旧化、建造阶段分开记录；房屋与田地是相互关联的生产场景。",
+      "open_issues": "作为田埂里同一案例家族的前代保留，不计作独立泛化建筑。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    },
+    {
+      "id": "tiangengli18",
+      "name": "田埂里 · 18 栋田园深化",
+      "building_type": "乡村聚落与田园",
+      "mainline_release_memberships": [],
+      "research_index_release": "0.5",
+      "original_output_engine_label": null,
+      "case_version": "P4_B4",
+      "run_id": null,
+      "source_status": "external_branch_not_vendored",
+      "artifact_status": "latest_branch_artifact_not_vendored",
+      "generation_entrypoint": null,
+      "parameter_path": null,
+      "nbt": null,
+      "previews": [],
+      "historical_comparison_artifacts": [],
+      "archived_final_nbt_sha256": "0f688ec3964867c4895d77a0c2db2b3ea765536fa92f883daaaa1723cdc165e0",
+      "archived_final_nbt_bytes": 1209372,
+      "generate_command": null,
+      "render_command": null,
+      "focus": [
+        "18 栋、32 片下沉田（8 水田）、6 座农业棚、3 处菜园、13 棵新增树；水网与下田通路接通。64,791 格原房屋保留，161→173 灯。"
+      ],
+      "learned": "先保证水路/田埂/入口/净空，再按功能补农具、果树、竹与休耕地；田内下沉一格保留田埂层次。",
+      "open_issues": "俯视仍偏矩形分区，边界树列均匀；共用随机数流可能串扰。16,649 格水连通仅是几何拓扑，未实测水更新。",
+      "user_acceptance": "本轮资料未见该最终版本的完整用户验收",
+      "game_status": "pending",
+      "evidence_paths": [],
+      "reader_access_note": "本仓库未提供该外部分支的完整工程；不提供仅作者可访问的链接作为公开下载。"
+    }
+  ],
+  "distribution_release": "Haibara’s Architect 0.6.0"
+}

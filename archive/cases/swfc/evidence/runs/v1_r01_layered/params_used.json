@@ -1,0 +1,61 @@
+{
+  "case": "shanghai_world_financial_center",
+  "scale": 0.4666666666666667,
+  "origin": [
+    36.5,
+    3,
+    36.5
+  ],
+  "size": [
+    73,
+    234,
+    73
+  ],
+  "target": "Java 1.21.1 / DataVersion 3955",
+  "form": {
+    "height_m": 492,
+    "square_base_side_m": 58,
+    "top_half_thickness_m": 2.4,
+    "arc_model": "symmetric circular sag fitted to base/top; radius is an estimate"
+  },
+  "aperture": {
+    "lower_m": 442,
+    "upper_m": 471.5,
+    "width_lower_m": 42,
+    "width_upper_m": 54,
+    "dimension_status": "estimated from photos and 474m observation-floor anchor; not surveyed"
+  },
+  "bridge": {
+    "floor_m": 474,
+    "ceiling_m": 481,
+    "roof_m": 487,
+    "parapet_top_m": 492
+  },
+  "facade": {
+    "mode": "layered",
+    "band_period_blocks": 2,
+    "mullion_period_blocks": 4,
+    "backing_depth_blocks": 2,
+    "glass_palette": [
+      "cyan_stained_glass",
+      "blue_stained_glass",
+      "black_stained_glass"
+    ]
+  },
+  "interior": {
+    "floor_spacing_blocks": 5,
+    "status": "synthetic depth and support only; not 101 real storey layouts"
+  },
+  "lighting": {
+    "enabled": true,
+    "seed": 20261026,
+    "window_probability": 0.22,
+    "fixed_visible_arc_face": "model +Z only; representative face mapping, geographic bearing unknown",
+    "outline_status": "photo-derived simplified white slots; no cyan projected light",
+    "obstruction": "research_only: precise locations and flashing unverified; no invented red beacons"
+  },
+  "site": {
+    "width_m": 140,
+    "status": "simplified study plaza, entrance and low podium; no surveyed site plan"
+  }
+}

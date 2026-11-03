@@ -1,0 +1,70 @@
+{
+  "nbt": {
+    "file": "building.nbt",
+    "bytes": 508705,
+    "sha256": "991a7ac36d4036b804b945dcb2ff61f9c2533f1e2a4cc8f3f4fcf1045842adf9",
+    "listed_blocks": 175852,
+    "non_air_blocks": 175852,
+    "size_xyz": [
+      80,
+      269,
+      92
+    ],
+    "contains_explicit_air": false,
+    "geometry_sha256": "a098eaafe1c94705cad0af907f5fcac06426813185b3624e38e133970cfa18ac",
+    "data_version": 3955
+  },
+  "materials": {
+    "minecraft:smooth_stone": 4824,
+    "minecraft:polished_andesite": 941,
+    "minecraft:smooth_quartz_slab": 1280,
+    "minecraft:moss_block": 276,
+    "minecraft:smooth_stone_slab": 5675,
+    "minecraft:smooth_quartz": 974,
+    "minecraft:gray_stained_glass_pane": 26605,
+    "minecraft:gray_stained_glass": 3205,
+    "minecraft:polished_deepslate_slab": 64706,
+    "minecraft:end_rod": 6,
+    "minecraft:oak_log": 24,
+    "minecraft:oak_trapdoor": 1248,
+    "minecraft:yellow_terracotta": 888,
+    "minecraft:dark_oak_planks": 406,
+    "minecraft:dark_oak_slab": 336,
+    "minecraft:light_gray_concrete": 11856,
+    "minecraft:sea_lantern": 895,
+    "minecraft:glowstone": 596,
+    "minecraft:iron_trapdoor": 2349,
+    "minecraft:oak_leaves": 1317,
+    "minecraft:diorite_wall": 16044,
+    "minecraft:gray_concrete": 31175,
+    "minecraft:dark_oak_trapdoor": 24,
+    "minecraft:glass_pane": 48,
+    "minecraft:glass": 154
+  },
+  "notes": {
+    "status": "partial lighting-layout experiment; not accepted V2",
+    "source_ids": [
+      "U02",
+      "P06",
+      "LPA01"
+    ],
+    "fixed_pattern_not_random": true,
+    "working_faces": [
+      "+Z",
+      "-X"
+    ],
+    "geographic_north": null,
+    "band_anchor_y": 101,
+    "band_anchor_m": 198,
+    "anchor_is_estimate": true,
+    "band_observation_interval_m": [
+      185,
+      210
+    ],
+    "roof_geometry_changed": false,
+    "room_lights_changed": false,
+    "other_faces": "preserved V1; reference-to-face mapping pending",
+    "crown_vertical_extent": "prototype; not an as-built fixture survey"
+  },
+  "game_test": "pending"
+}

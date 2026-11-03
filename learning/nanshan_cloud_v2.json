@@ -1,0 +1,34 @@
+{
+  "case": "nanshan_cloud",
+  "version": "V2_r01",
+  "kind": "construction/evaluation record, not neural training",
+  "feedback_source": "research/v2_feedback.json",
+  "rules": [
+    {
+      "rule": "Correct local platform width/depth before changing accepted tower height",
+      "consumer": "cases/nanshan_cloud/params.json / Cloud.mass_masks",
+      "prior_failure": "broad seven-step taper overpowered the upright towers"
+    },
+    {
+      "rule": "Represent equal-width row groups explicitly instead of one linear inset",
+      "consumer": "Cloud.mass_masks / Cloud.terraces",
+      "evidence": "user image and existing img-022; manual approximation"
+    },
+    {
+      "rule": "Fixed platform light strips must follow current component extents",
+      "consumer": "Cloud.lightlines",
+      "evidence": "exported fixture coordinate checks"
+    },
+    {
+      "rule": "Every future export shows four matched 45-degree directions; night pairs when available",
+      "consumer": "hafusion.views.ensure_diagonal_views / tools.render_building_case.py / AGENTS.md",
+      "evidence": "21 final views, 8 new baseline comparison renders, camera/provenance checks"
+    }
+  ],
+  "limits": [
+    "Geographic north not surveyed; use model axes",
+    "Rear/inner platforms still estimated",
+    "Glazing material texture, game connections, game lighting pending"
+  ],
+  "acceptance": "technical passed; fidelity awaits user review"
+}

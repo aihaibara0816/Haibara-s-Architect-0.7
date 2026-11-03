@@ -1,0 +1,169 @@
+{
+  "source_nbt_sha256": "10fe017fd2e68ad06d65bde93801c03ec6b4bec34b7df64a1edbc43bedfbe402",
+  "size_xyz": [
+    44,
+    84,
+    29
+  ],
+  "triangles": {
+    "opaque": 150132,
+    "glass": 27448
+  },
+  "lamps": [
+    [
+      5,
+      6,
+      5,
+      15
+    ],
+    [
+      29,
+      6,
+      5,
+      15
+    ],
+    [
+      17,
+      6,
+      6,
+      15
+    ],
+    [
+      17,
+      6,
+      14,
+      15
+    ],
+    [
+      29,
+      6,
+      14,
+      15
+    ],
+    [
+      37,
+      6,
+      17,
+      15
+    ],
+    [
+      17,
+      6,
+      22,
+      15
+    ],
+    [
+      29,
+      6,
+      22,
+      15
+    ],
+    [
+      5,
+      6,
+      23,
+      15
+    ],
+    [
+      39,
+      11,
+      13,
+      15
+    ],
+    [
+      37,
+      11,
+      17,
+      15
+    ],
+    [
+      37,
+      16,
+      17,
+      15
+    ],
+    [
+      33,
+      6,
+      19,
+      15
+    ],
+    [
+      10,
+      11,
+      4,
+      15
+    ],
+    [
+      19,
+      11,
+      4,
+      15
+    ],
+    [
+      28,
+      11,
+      4,
+      15
+    ],
+    [
+      15,
+      11,
+      16,
+      15
+    ],
+    [
+      30,
+      11,
+      16,
+      15
+    ],
+    [
+      33,
+      11,
+      19,
+      15
+    ],
+    [
+      10,
+      16,
+      4,
+      15
+    ],
+    [
+      19,
+      16,
+      4,
+      15
+    ],
+    [
+      28,
+      16,
+      4,
+      15
+    ],
+    [
+      33,
+      16,
+      19,
+      15
+    ]
+  ],
+  "visual_box_volume": 9170.3182,
+  "source": "independent NBT readback, state-aware preview boxes",
+  "limitations": [
+    "Entity beds and banners use approximate boxes",
+    "1x1 paintings use their NBT positions and official variant textures",
+    "Biome tint approximated; weighted model variants use first item",
+    "UV lock and element rescale not fully reproduced; no Minecraft client lighting"
+  ],
+  "alpha_lod_policy": "opaque-face-coverage-v1",
+  "texture_grid_max": 2,
+  "painting_entities_rendered": 0,
+  "material_mode": "Minecraft Java 1.21.1 JSON models + first-frame texture colours, offline EGL; not game footage",
+  "model_fallbacks": {
+    "minecraft:gray_bed": 6,
+    "minecraft:brown_bed": 4,
+    "minecraft:white_bed": 6
+  }
+}

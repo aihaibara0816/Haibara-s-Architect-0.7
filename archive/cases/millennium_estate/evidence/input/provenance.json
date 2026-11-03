@@ -1,0 +1,27 @@
+{
+  "design_brief": "前三10层一梯一户、后三15层一梯两户、中央花园、千禧年塔楼；住户级混合防盗网。",
+  "sources": [
+    {
+      "id": "USER-PHOTO",
+      "file": "style_photo.jpg",
+      "kind": "user_supplied_style_reference",
+      "url": null,
+      "used": "暖黄墙面、红瓦、银色窗框、凸出与无防盗网混用、空调和盆栽",
+      "not_used": "公交站、现场楼层数、地理位置、真实户型"
+    },
+    {
+      "id": "CONCEPT-V3",
+      "file": "approved_reference.png",
+      "kind": "generated_design_intent",
+      "url": null,
+      "used": "六栋两排、前三低后三高、错位总图、花园与屋顶语言",
+      "not_used": "像素直接转方块、图中楼层计数、未经测量的尺寸"
+    }
+  ],
+  "web_research_this_build": false,
+  "geometry_method": "Explicit authored case adapter; no automatic image reconstruction or model-weight training.",
+  "hashes": {
+    "approved_reference.png": "bbe3eacff7aec1562b89304aa55afa6b244228e07624e9fe39c0f634b8992fc4",
+    "style_photo.jpg": "39d1b9a23a637fb51db3750c5ae7c8494f5268b70b2c176416dc90a5d48a1811"
+  }
+}

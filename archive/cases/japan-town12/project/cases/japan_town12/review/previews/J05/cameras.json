@@ -1,0 +1,460 @@
+[
+  {
+    "id": "overview",
+    "eye": [
+      264,
+      170,
+      256
+    ],
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 248,
+    "spanZ": 192.889,
+    "ortho": true
+  },
+  {
+    "id": "street",
+    "eye": [
+      53,
+      19,
+      93
+    ],
+    "target": [
+      70,
+      11,
+      77
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 63,
+    "spanZ": 43.3125,
+    "ortho": true,
+    "night": false
+  },
+  {
+    "id": "street_night",
+    "eye": [
+      53,
+      19,
+      93
+    ],
+    "target": [
+      70,
+      11,
+      77
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 63,
+    "spanZ": 43.3125,
+    "ortho": true,
+    "night": true
+  },
+  {
+    "id": "shops",
+    "eye": [
+      43,
+      26,
+      64
+    ],
+    "target": [
+      55,
+      11,
+      105
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 73,
+    "spanZ": 50.1875,
+    "ortho": true,
+    "night": false
+  },
+  {
+    "id": "shops_night",
+    "eye": [
+      43,
+      26,
+      64
+    ],
+    "target": [
+      55,
+      11,
+      105
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 73,
+    "spanZ": 50.1875,
+    "ortho": true,
+    "night": true
+  },
+  {
+    "id": "civic",
+    "eye": [
+      112,
+      33,
+      97
+    ],
+    "target": [
+      123,
+      10,
+      51
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 85,
+    "spanZ": 58.4375,
+    "ortho": true,
+    "night": false
+  },
+  {
+    "id": "civic_night",
+    "eye": [
+      112,
+      33,
+      97
+    ],
+    "target": [
+      123,
+      10,
+      51
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 85,
+    "spanZ": 58.4375,
+    "ortho": true,
+    "night": true
+  },
+  {
+    "id": "upper_homes",
+    "eye": [
+      72,
+      38,
+      70
+    ],
+    "target": [
+      103,
+      16,
+      26
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 85,
+    "spanZ": 58.4375,
+    "ortho": true,
+    "night": false
+  },
+  {
+    "id": "upper_homes_night",
+    "eye": [
+      72,
+      38,
+      70
+    ],
+    "target": [
+      103,
+      16,
+      26
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 85,
+    "spanZ": 58.4375,
+    "ortho": true,
+    "night": true
+  },
+  {
+    "id": "south_homes",
+    "eye": [
+      97,
+      29,
+      110
+    ],
+    "target": [
+      142,
+      14,
+      131
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 81,
+    "spanZ": 55.6875,
+    "ortho": true,
+    "night": false
+  },
+  {
+    "id": "south_homes_night",
+    "eye": [
+      97,
+      29,
+      110
+    ],
+    "target": [
+      142,
+      14,
+      131
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 81,
+    "spanZ": 55.6875,
+    "ortho": true,
+    "night": true
+  },
+  {
+    "id": "H01_cut",
+    "eye": [
+      52,
+      38,
+      73
+    ],
+    "target": [
+      25,
+      8,
+      50
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 29,
+    "spanZ": 22.786,
+    "ortho": true,
+    "bounds": [
+      15,
+      41,
+      35,
+      59
+    ],
+    "minY": 4,
+    "cutY": 10
+  },
+  {
+    "id": "H01_upper",
+    "eye": [
+      52,
+      45,
+      73
+    ],
+    "target": [
+      25,
+      15,
+      50
+    ],
+    "width": 1400,
+    "height": 1100,
+    "spanX": 29,
+    "spanZ": 22.786,
+    "ortho": true,
+    "bounds": [
+      15,
+      41,
+      35,
+      59
+    ],
+    "minY": 11,
+    "cutY": 17
+  },
+  {
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 259.7632138405185,
+    "spanZ": 202.03805520929217,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "se_day",
+    "eye": [
+      264.0,
+      155.34095218659883,
+      255.99999999999997
+    ],
+    "night": false
+  },
+  {
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 259.7632138405185,
+    "spanZ": 202.03805520929217,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "se_night",
+    "eye": [
+      264.0,
+      155.34095218659883,
+      255.99999999999997
+    ],
+    "night": true
+  },
+  {
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 259.7632138405185,
+    "spanZ": 202.03805520929217,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "sw_day",
+    "eye": [
+      -87.99999999999997,
+      155.34095218659883,
+      255.99999999999997
+    ],
+    "night": false
+  },
+  {
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 259.7632138405185,
+    "spanZ": 202.03805520929217,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "sw_night",
+    "eye": [
+      -87.99999999999997,
+      155.34095218659883,
+      255.99999999999997
+    ],
+    "night": true
+  },
+  {
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 259.7632138405185,
+    "spanZ": 202.03805520929217,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "ne_day",
+    "eye": [
+      264.0,
+      155.34095218659883,
+      -95.99999999999997
+    ],
+    "night": false
+  },
+  {
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 259.7632138405185,
+    "spanZ": 202.03805520929217,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "ne_night",
+    "eye": [
+      264.0,
+      155.34095218659883,
+      -95.99999999999997
+    ],
+    "night": true
+  },
+  {
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 259.7632138405185,
+    "spanZ": 202.03805520929217,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "nw_day",
+    "eye": [
+      -87.99999999999997,
+      155.34095218659883,
+      -95.99999999999997
+    ],
+    "night": false
+  },
+  {
+    "target": [
+      88,
+      6,
+      80
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 259.7632138405185,
+    "spanZ": 202.03805520929217,
+    "ortho": true,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified",
+    "id": "nw_night",
+    "eye": [
+      -87.99999999999997,
+      155.34095218659883,
+      -95.99999999999997
+    ],
+    "night": true
+  },
+  {
+    "id": "top_day",
+    "eye": [
+      88.0,
+      224,
+      80.0
+    ],
+    "target": [
+      88.0,
+      24.0,
+      80.0
+    ],
+    "spanX": 186.56,
+    "spanZ": 169.56231111111114,
+    "width": 1800,
+    "height": 1636,
+    "ortho": true,
+    "night": false,
+    "fov": 36,
+    "concept": false,
+    "coordinate_frame": "model: east=+X, north=-Z; geographic bearing unverified"
+  }
+]

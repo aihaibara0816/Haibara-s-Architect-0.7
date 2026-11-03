@@ -1,0 +1,43 @@
+{
+  "seed": 20261026,
+  "groups": [
+    {
+      "id": "N-F2-OFFICE",
+      "face": "N",
+      "floor": 2,
+      "system": "ribbon",
+      "allowed_u_m": [2, 28],
+      "base_u_m": [6, 24],
+      "floor_height_m": 4.2,
+      "count_hint": 8,
+      "allow_ledges": true,
+      "support_ref": "example-authored-north-wall-ledge-F2",
+      "planting_probability": 0.65
+    },
+    {
+      "id": "N-F3-OFFICE",
+      "face": "N",
+      "floor": 3,
+      "system": "slit",
+      "allowed_u_m": [2, 28],
+      "base_u_m": [5, 23],
+      "floor_height_m": 4.2,
+      "count_hint": 9,
+      "allow_ledges": true,
+      "support_ref": "example-authored-north-wall-ledge-F3",
+      "planting_probability": 0.65
+    },
+    {
+      "id": "S-F1-LOBBY",
+      "face": "S",
+      "floor": 1,
+      "system": "glazed",
+      "allowed_u_m": [0, 10],
+      "base_u_m": [1, 9],
+      "floor_height_m": 4.8,
+      "count_hint": 4,
+      "fixed": true,
+      "allow_ledges": false
+    }
+  ]
+}

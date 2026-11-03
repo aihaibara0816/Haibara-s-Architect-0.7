@@ -1,0 +1,45 @@
+{
+  "baseline": "R18",
+  "changes": [
+    "新增7栋商业首层，另在3栋的临街侧增加窄铺",
+    "整修22处村居店面，接公共步行路；独立住宅入口",
+    "按住户状态选择嵌入式灯位；64组主路、巷口、树下灯"
+  ],
+  "retain": [
+    "44栋布局与地块关系",
+    "12栋骑楼的大小搭配、平坡屋顶",
+    "11层与12层点缀楼",
+    "原有树群与地面绿化"
+  ],
+  "source_limit": "视频仅核对标题、说明、章节与封面；没有取得可播放正文，不宣称完整观看",
+  "verification_plan": [
+    "NBT读回与首层店门通行",
+    "上层几何对照R18，仅灯具及首层店招允许改变",
+    "同种子重现与另一种子变化",
+    "真实Java1.21.1客户端日夜近景"
+  ],
+  "final_run": "R19h",
+  "source_nbt_sha256": "37bc509155445e67e517473f43c66b8c1382060afb0016703a5cb85fb2864527",
+  "validation": {
+    "entrances": 101,
+    "commercial_units": 22,
+    "storefront_ground_buildings": 19,
+    "residential_active_units": 231,
+    "residential_total_units": 361,
+    "public_lamp_groups": 64,
+    "upper_geometry_cells_compared": 433894,
+    "approved_massing_and_roofs_preserved": true
+  },
+  "actual_game_fix": "实机发现挑臂顶部半砖与灯头半格脱节；改为底半砖并增加实体连接节点。",
+  "final_world_folder": "Q04_R19h_final",
+  "requested_videos_reviewed_scope": "两段视频的作者标题、说明、章节及封面已核对；视频正文不可播放，不宣称完整观看。",
+  "verification_complete": {
+    "offline_navigation": true,
+    "actual_world_cell_readback": 8257536,
+    "mismatches": 0,
+    "replay_nbt_files": 45,
+    "alternative_seed": 311149,
+    "browser_interaction": true,
+    "physical_street_light_joints": true
+  }
+}

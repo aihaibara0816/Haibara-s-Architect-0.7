@@ -1,0 +1,108 @@
+{
+  "project": "ModernFactory01",
+  "run": "E07",
+  "source_nbt_sha256": "1f4a160cd95f5e01ca0eae8d20cead23efc571749366abbf5520533309dad648",
+  "geometry": {
+    "stair_routes": 19,
+    "stair_headroom_errors": [],
+    "source_nbt_sha256": "1f4a160cd95f5e01ca0eae8d20cead23efc571749366abbf5520533309dad648",
+    "size_xyz": [
+      448,
+      72,
+      336
+    ],
+    "blocks": 799642,
+    "palette": 92,
+    "independent_nbt_equal": true,
+    "main_road_clear": true,
+    "road_errors": [],
+    "bridge_network_clear": true,
+    "bridge_errors": [],
+    "bridge_vehicle_clearance_7": true,
+    "beds": 241,
+    "bed_pair_support_errors": [],
+    "doors": 120,
+    "door_pair_frame_errors": [],
+    "game": "not_run"
+  },
+  "access_audit": {
+    "source_nbt_sha256": "1f4a160cd95f5e01ca0eae8d20cead23efc571749366abbf5520533309dad648",
+    "office_wing_portals": 5,
+    "upper_dorm_closed_facades": 8,
+    "main_entries": 4,
+    "room_door_sides": 240,
+    "errors": [],
+    "scope": "discrete geometry and support, not game collision or full route simulation"
+  },
+  "world": {
+    "block_entity_payload_exact": true,
+    "version": "Java 1.21.1",
+    "data_version": 3955,
+    "source_nbt_sha256": "1f4a160cd95f5e01ca0eae8d20cead23efc571749366abbf5520533309dad648",
+    "world_offset": [
+      -224,
+      62,
+      -168
+    ],
+    "spawn": [
+      2,
+      65,
+      161
+    ],
+    "chunks": 720,
+    "scene_chunks": 616,
+    "checked_cells": 11354112,
+    "mismatches": 0,
+    "lighting": "isLightOn=0; game must recalculate on first load",
+    "game": "pending",
+    "heightmaps": "authored approximations; actual collision/light pending game",
+    "decorative": [
+      "process vessels and conveyors",
+      "manufacturing equipment",
+      "vehicles"
+    ],
+    "block_entities": 674,
+    "entities": 0,
+    "entity_payload_exact": true,
+    "entity_chunks": 0
+  },
+  "schematic": {
+    "format": "Sponge v2",
+    "checked_cells": 10838016,
+    "mismatches": 0,
+    "block_entities": 674,
+    "block_entity_mismatches": 0,
+    "origin_local": [
+      226,
+      3,
+      329
+    ],
+    "offset_xyz": [
+      -226,
+      -3,
+      -329
+    ],
+    "source_nbt_sha256": "1f4a160cd95f5e01ca0eae8d20cead23efc571749366abbf5520533309dad648",
+    "schem_sha256": "1f94575008730f94e82f07c5d23dfcf75128582262ea6eae5cc96aaa6e39b3be",
+    "worldedit_import": "not_run",
+    "air": "full bounding box included; paste can replace existing blocks"
+  },
+  "visual_views": 30,
+  "game": "not_run",
+  "interactive": "WebGL2 package; byte integrity and JS syntax checks; browser runtime not tested",
+  "baseline_visual_feedback": "needs_revision; previous technical checks preserved in previous version",
+  "original_design": true,
+  "surface_revision": {
+    "baseline": "E06",
+    "scope": "ground materials; buildings, routes and industrial equipment retained",
+    "grass_cells_remaining_at_ground": 8365,
+    "site_cells_xz": 150528,
+    "tree_beds": 44,
+    "not_a_regulatory_green_ratio": true,
+    "grass_cells_changed_in_final_material_pass": 22965,
+    "baseline_ground_grass_cells": 31330,
+    "current_ground_grass_cells": 8365,
+    "net_ground_grass_reduction": 22965,
+    "above_ground_geometry_unchanged": true
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "run": "V1_r01",
+  "source_nbt_sha256": "473edcad768aa2b2bbb90d67d3b75f70efd2e7afbcae4d4e6843360d613a2b15",
+  "checks": [
+    {
+      "id": "readback_bounds",
+      "status": "pass",
+      "detail": {
+        "size_xyz": [
+          640,
+          64,
+          660
+        ],
+        "nonair": 1339253
+      }
+    },
+    {
+      "id": "state_vocabulary",
+      "status": "pass",
+      "detail": {
+        "states": 63
+      }
+    },
+    {
+      "id": "six_unequal_vaults",
+      "status": "pass",
+      "detail": [
+        {
+          "id": "roof.bay1",
+          "xrange": [
+            126,
+            171
+          ],
+          "span_blocks": 45,
+          "north_end_z": 100,
+          "south_end_z": 560,
+          "main_crown_y": 50.0,
+          "shell_not_solid": true
+        },
+        {
+          "id": "roof.bay2",
+          "xrange": [
+            171,
+            239
+          ],
+          "span_blocks": 68,
+          "north_end_z": 64,
+          "south_end_z": 596,
+          "main_crown_y": 50.0,
+          "shell_not_solid": true
+        },
+        {
+          "id": "roof.bay3",
+          "xrange": [
+            239,
+            307
+          ],
+          "span_blocks": 68,
+          "north_end_z": 42,
+          "south_end_z": 618,
+          "main_crown_y": 50.0,
+          "shell_not_solid": true
+        },
+        {
+          "id": "roof.bay4",
+          "xrange": [
+            307,
+            375
+          ],
+          "span_blocks": 68,
+          "north_end_z": 54,
+          "south_end_z": 606,
+          "main_crown_y": 50.0,
+          "shell_not_solid": true
+        },
+        {
+          "id": "roof.bay5",
+          "xrange": [
+            375,
+            443
+          ],
+          "span_blocks": 68,
+          "north_end_z": 80,
+          "south_end_z": 580,
+          "main_crown_y": 50.0,
+          "shell_not_solid": true
+        },
+        {
+          "id": "roof.bay6",
+          "xrange": [
+            443,
+            495
+          ],
+          "span_blocks": 52,
+          "north_end_z": 110,
+          "south_end_z": 550,
+          "main_crown_y": 50.0,
+          "shell_not_solid": true
+        }
+      ]
+    },
+    {
+      "id": "staggered_north_south_roof_edges",
+      "status": "pass",
+      "detail": {
+        "north": [
+          100,
+          64,
+          42,
+          54,
+          80,
+          110
+        ],
+        "south": [
+          560,
+          596,
+          618,
+          606,
+          580,
+          550
+        ]
+      }
+    },
+    {
+      "id": "spine_flared_ends",
+      "status": "pass",
+      "detail": [
+        {
+          "x": 120,
+          "width": 61
+        },
+        {
+          "x": 310,
+          "width": 25
+        },
+        {
+          "x": 500,
+          "width": 61
+        }
+      ]
+    },
+    {
+      "id": "public_axis_and_28_track_clearances",
+      "status": "pass",
+      "detail": {
+        "samples": 34,
+        "failed": []
+      }
+    },
+    {
+      "id": "twenty_eight_track_corridors",
+      "status": "pass",
+      "detail": {
+        "count": 28,
+        "decorative_only": true
+      }
+    },
+    {
+      "id": "fifteen_separate_platform_bodies",
+      "status": "pass",
+      "detail": {
+        "count": 15
+      }
+    },
+    {
+      "id": "columns_have_full_bearing",
+      "status": "pass",
+      "detail": {
+        "checked": 160,
+        "missing": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "entry_floor_and_headroom",
+      "status": "fail",
+      "detail": [
+        {
+          "id": "entrance.west",
+          "z": 314,
+          "floor_y": 22,
+          "failed_x": []
+        },
+        {
+          "id": "entrance.west",
+          "z": 330,
+          "floor_y": 22,
+          "failed_x": [
+            111
+          ]
+        },
+        {
+          "id": "entrance.west",
+          "z": 346,
+          "floor_y": 22,
+          "failed_x": []
+        },
+        {
+          "id": "entrance.east",
+          "z": 314,
+          "floor_y": 14,
+          "failed_x": []
+        },
+        {
+          "id": "entrance.east",
+          "z": 330,
+          "floor_y": 14,
+          "failed_x": [
+            510
+          ]
+        },
+        {
+          "id": "entrance.east",
+          "z": 346,
+          "floor_y": 14,
+          "failed_x": []
+        }
+      ]
+    },
+    {
+      "id": "east_west_dropoff_levels_differ",
+      "status": "pass",
+      "detail": "west y22; east y14; arrival surface y2"
+    },
+    {
+      "id": "recorded_lamps_survive_assembly",
+      "status": "pass",
+      "detail": {
+        "checked": 544,
+        "lost_count": 0,
+        "examples": []
+      }
+    },
+    {
+      "id": "final_pane_bar_connections",
+      "status": "pass",
+      "detail": {
+        "mismatches": 0
+      }
+    },
+    {
+      "id": "waiting_seats_have_floors",
+      "status": "pass",
+      "detail": {
+        "seats": 672,
+        "unsupported": []
+      }
+    },
+    {
+      "id": "warm_and_cool_lighting",
+      "status": "pass",
+      "detail": {
+        "sea_lantern": 510,
+        "glowstone": 82
+      }
+    },
+    {
+      "id": "shells_remain_hollow",
+      "status": "pass",
+      "detail": "16 samples below roof; no solid roof vault"
+    },
+    {
+      "id": "small_signage_markers",
+      "status": "pass",
+      "detail": {
+        "gold_marker_count": 8,
+        "literal_voxel_text": false
+      }
+    }
+  ],
+  "passed": 16,
+  "failed": 1,
+  "visual_status": "separate_review",
+  "game_status": "pending",
+  "limits": [
+    "sampled geometry, not survey accuracy",
+    "stairs/road cell slopes do not establish game collision/pathfinding",
+    "rail corridors and trains decorative, no Create operations"
+  ]
+}

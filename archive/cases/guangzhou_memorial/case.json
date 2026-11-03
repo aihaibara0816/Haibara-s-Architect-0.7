@@ -1,0 +1,21 @@
+{
+  "id": "guangzhou_memorial",
+  "name": "广州中山纪念堂",
+  "style": "classical",
+  "origin": "HAF 0.4 快照",
+  "version": "V2_r02",
+  "history": "V2_r02",
+  "achievement": "匾额先守尺寸，小字用一格金色符号；檐面、屋角、天窗带与柱廊台基需在最终拼合后验收。",
+  "lesson": "承托要查完整脚印；入口查地坪+净空；共享屋面边界按离散方块验收；旧失败版本必须能触发新检查。",
+  "failure": "8根柱脚缺完整承托；屋面接缝/斜栅格漏洞；大体素文字失调；文件测试通过仍有可见缺陷。",
+  "open": "8项修复检查不等于8栋测试；复杂屋面仍案例几何；礼堂示意布局和游戏碰撞待验。",
+  "acceptance": "V2离线几何修复已验证；用户视觉验收待补",
+  "game": "待实测",
+  "source": "HAF04.zip",
+  "source_evidence": [
+    "learning/guangzhou_memorial_v2.json",
+    "cases/guangzhou_memorial/src/validate_repairs.py"
+  ],
+  "nbt_member": "HAF-0.4/cases/guangzhou_memorial/runs/V2_r02/building.nbt",
+  "style_name": "古典语汇与纪念性建筑"
+}

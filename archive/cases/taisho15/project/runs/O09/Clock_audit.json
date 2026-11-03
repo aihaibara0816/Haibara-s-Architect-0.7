@@ -1,0 +1,37 @@
+{
+  "source_nbt_sha256": "e80b863340595fc2bc0b481879b6ceb6220b711957c3ec3db1e8a0584a498bfe",
+  "non_air": 2946,
+  "entries": [
+    {
+      "id": "Clock",
+      "pos": [
+        8,
+        3,
+        15
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 1,
+  "use_checks": [
+    {
+      "id": "Clock.info",
+      "pos": [
+        10,
+        3,
+        8
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [],
+  "errors": [],
+  "block_entities": 0,
+  "paintings": 0,
+  "official_model_states": 38,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending",
+  "reused_from": "O08/O07, exact identical NBT"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "pass",
+  "suites": [
+    {
+      "suite": "architect",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "tools/run_tests.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "tests": 77,
+      "seconds": 121.325,
+      "log": "architect.txt"
+    },
+    {
+      "suite": "reference_legacy",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/selftest.py"
+      ],
+      "cwd": "vendor/building_reference",
+      "exit_code": 0,
+      "tests": 59,
+      "seconds": 0.273,
+      "log": "reference_legacy.txt"
+    },
+    {
+      "suite": "reference_box",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/selftest_reference.py"
+      ],
+      "cwd": "vendor/building_reference",
+      "exit_code": 0,
+      "tests": 12,
+      "seconds": 0.347,
+      "log": "reference_box.txt"
+    },
+    {
+      "suite": "reference_bundle",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/selftest_bundle.py"
+      ],
+      "cwd": "vendor/building_reference",
+      "exit_code": 0,
+      "tests": 4,
+      "seconds": 0.477,
+      "log": "reference_bundle.txt"
+    },
+    {
+      "suite": "buildkit",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "vendor/buildkit_v03",
+      "exit_code": 0,
+      "tests": 28,
+      "seconds": 6.535,
+      "log": "buildkit.txt"
+    },
+    {
+      "suite": "inspector",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".agents/skills/real-to-minecraft/tests",
+        "-v"
+      ],
+      "cwd": "vendor/buildkit_v03",
+      "exit_code": 0,
+      "tests": 31,
+      "seconds": 0.803,
+      "log": "inspector.txt"
+    }
+  ],
+  "total_tests": 211,
+  "scope": "Static regression and protocol tests, no Minecraft or SU evaluation"
+}

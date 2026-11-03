@@ -1,0 +1,144 @@
+{
+  "group": "Bakery",
+  "source_nbt_sha256": "d6eb751ca69525e787e3c06668a0ab20a38e1577a6a0982c3cd7bcf8d659a962",
+  "blocks": 4151,
+  "states": 76,
+  "uses": [
+    {
+      "id": "Bakery.main_entry",
+      "pos": [
+        8,
+        3,
+        22
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.pay",
+      "pos": [
+        10,
+        3,
+        19
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.seats",
+      "pos": [
+        6,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.oven",
+      "pos": [
+        8,
+        3,
+        6
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.prep",
+      "pos": [
+        11,
+        3,
+        10
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.bed.9",
+      "pos": [
+        10,
+        10,
+        8
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.wash.9",
+      "pos": [
+        2,
+        10,
+        5
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.home.living",
+      "pos": [
+        6,
+        10,
+        24
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.home.kitchen",
+      "pos": [
+        10,
+        10,
+        17
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.stairs.lower.2",
+      "pos": [
+        1,
+        3,
+        15
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.stairs.upper.9",
+      "pos": [
+        1,
+        10,
+        7
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.rear_entry",
+      "pos": [
+        4,
+        3,
+        4
+      ],
+      "floor_block_y": 2,
+      "reachable": true
+    }
+  ],
+  "stairs": [
+    {
+      "from_floor": 2,
+      "to_floor": 9,
+      "samples": 65,
+      "end_y": 10,
+      "errors": []
+    }
+  ],
+  "arcade": [],
+  "block_entities": 29,
+  "paintings": 1,
+  "errors": [],
+  "game": "pending",
+  "aesthetic": "pending user review",
+  "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+}

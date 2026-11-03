@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "id": "J02",
+    "label": "外墙设备盒",
+    "file": "J02_wall_equipment.nbt",
+    "source_bbox_xyz_exclusive": [
+      91,
+      13,
+      3,
+      95,
+      16,
+      4
+    ],
+    "size_xyz": [
+      4,
+      3,
+      1
+    ],
+    "source_sha256": "3727667d0add5244a7f5b1bcfdf2706da4c49e16ade743a4de254da15f5b62e6",
+    "sha256": "fcbfa57496f1904a71ac00d5cc18ce488c34f34565730cdace3d8e9674b5188b",
+    "blocks": 8,
+    "states": 5,
+    "anchor": "wall_z_plus",
+    "note": "铁块、梯子、活板门、拉杆的组合；可借作空调外机表达，原作者用途未核实。",
+    "status": "extracted_reference",
+    "readback_state_match": true,
+    "game_test": "pending",
+    "rotation_test": "pending",
+    "neighbor_update_test": "pending",
+    "air_policy": "omitted; do not overwrite occupied target cells without planning clearance",
+    "consumer": null
+  },
+  "blocks_xyz_state": [
+    [
+      0,
+      1,
+      0,
+      "minecraft:ladder[facing=west,waterlogged=false]"
+    ],
+    [
+      1,
+      0,
+      0,
+      "minecraft:lever[face=ceiling,facing=north,powered=false]"
+    ],
+    [
+      1,
+      1,
+      0,
+      "minecraft:iron_block"
+    ],
+    [
+      1,
+      2,
+      0,
+      "minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]"
+    ],
+    [
+      2,
+      0,
+      0,
+      "minecraft:lever[face=ceiling,facing=north,powered=false]"
+    ],
+    [
+      2,
+      1,
+      0,
+      "minecraft:iron_block"
+    ],
+    [
+      2,
+      2,
+      0,
+      "minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]"
+    ],
+    [
+      3,
+      1,
+      0,
+      "minecraft:ladder[facing=east,waterlogged=false]"
+    ]
+  ]
+}

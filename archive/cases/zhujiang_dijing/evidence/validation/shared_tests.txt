@@ -1,0 +1,32 @@
+test_bounds_are_not_silently_clipped (test_classical.ClassicalTests.test_bounds_are_not_silently_clipped) ... ok
+test_four_oriented_windows_open_into_thick_masonry (test_classical.ClassicalTests.test_four_oriented_windows_open_into_thick_masonry) ... ok
+test_new_material_states_survive_nbt (test_classical.ClassicalTests.test_new_material_states_survive_nbt) ... ok
+test_room_randomness_is_stable_and_has_real_void (test_classical.ClassicalTests.test_room_randomness_is_stable_and_has_real_void) ... ok
+test_anvil_visual_bounds_match_official_asset (test_detail_feedback.DetailFeedbackTests.test_anvil_visual_bounds_match_official_asset) ... ok
+test_emissive_colour_preserved_with_legacy_replay (test_detail_feedback.DetailFeedbackTests.test_emissive_colour_preserved_with_legacy_replay) ... ok
+test_room_styles_do_not_require_excess_clearance (test_detail_feedback.DetailFeedbackTests.test_room_styles_do_not_require_excess_clearance) ... ok
+test_no_clear_slot_is_explicit (test_light_slots.FixtureSlotTests.test_no_clear_slot_is_explicit) ... ok
+test_no_structural_replacement_or_new_pane_connection (test_light_slots.FixtureSlotTests.test_no_structural_replacement_or_new_pane_connection) ... ok
+test_invalid_activity (test_lighting.LightingTests.test_invalid_activity) ... ok
+test_module_release_does_not_reseed_a_saved_stream (test_lighting.LightingTests.test_module_release_does_not_reseed_a_saved_stream) ... ok
+test_published_shenzhen_room_decision (test_lighting.LightingTests.test_published_shenzhen_room_decision) ... ok
+test_stable_room_ids_and_seed (test_lighting.LightingTests.test_stable_room_ids_and_seed) ... ok
+test_green_glass_remains_transparent (test_residential_materials.ResidentialMaterials.test_green_glass_remains_transparent) ... ok
+test_green_panes_join_symmetrically (test_residential_materials.ResidentialMaterials.test_green_panes_join_symmetrically) ... ok
+test_invalid_fluid_level_rejected (test_residential_materials.ResidentialMaterials.test_invalid_fluid_level_rejected) ... ok
+test_water_has_no_solid_pane_support (test_residential_materials.ResidentialMaterials.test_water_has_no_solid_pane_support) ... ok
+test_default_coverage_and_repeated_exports (test_review_views.ReviewViews.test_default_coverage_and_repeated_exports) ... ok
+test_detail_crop_preserved_but_not_used_for_coverage (test_review_views.ReviewViews.test_detail_crop_preserved_but_not_used_for_coverage) ... ok
+test_invalid_input_rejected (test_review_views.ReviewViews.test_invalid_input_rejected) ... ok
+test_invalid_budgets (test_site_scene.SiteSceneTests.test_invalid_budgets) ... ok
+test_snapshot_and_nbt_roundtrip (test_site_scene.SiteSceneTests.test_snapshot_and_nbt_roundtrip) ... ok
+test_sparse_budget_and_legacy_limit (test_site_scene.SiteSceneTests.test_sparse_budget_and_legacy_limit) ... ok
+test_cardinal_layer_order_and_phase (test_vertical_facade.VerticalFacadeTests.test_cardinal_layer_order_and_phase) ... ok
+test_rotation_and_roundtrip_preserve_non_cube_states (test_vertical_facade.VerticalFacadeTests.test_rotation_and_roundtrip_preserve_non_cube_states) ... ok
+test_scene_budget_is_explicit_bounded_and_survives_snapshot (test_vertical_facade.VerticalFacadeTests.test_scene_budget_is_explicit_bounded_and_survives_snapshot) ... ok
+test_wall_matches_official_post_and_side_asset (test_vertical_facade.VerticalFacadeTests.test_wall_matches_official_post_and_side_asset) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.200s
+
+OK

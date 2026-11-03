@@ -1,0 +1,1232 @@
+{
+  "source_nbt_sha256": "a85632cae4e46464bfd50a272084974dfd813eda9408cec0a6aac1a34a21eac8",
+  "non_air": 409504,
+  "entries": [
+    {
+      "id": "Bookshop",
+      "pos": [
+        19,
+        16,
+        42
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Textile",
+      "pos": [
+        46,
+        14,
+        43
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Library",
+      "pos": [
+        72,
+        13,
+        41
+      ],
+      "reachable": true
+    },
+    {
+      "id": "School",
+      "pos": [
+        105,
+        11,
+        39
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Clinic",
+      "pos": [
+        136,
+        10,
+        41
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Sake",
+      "pos": [
+        161,
+        8,
+        50
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Tea",
+      "pos": [
+        16,
+        16,
+        58
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Photo",
+      "pos": [
+        39,
+        15,
+        60
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy",
+      "pos": [
+        62,
+        13,
+        67
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Inn",
+      "pos": [
+        111,
+        11,
+        65
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Florist",
+      "pos": [
+        141,
+        9,
+        66
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Residence",
+      "pos": [
+        16,
+        14,
+        113
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Bakery",
+      "pos": [
+        39,
+        13,
+        116
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Post",
+      "pos": [
+        63,
+        11,
+        114
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Workshop",
+      "pos": [
+        89,
+        10,
+        113
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Bath",
+      "pos": [
+        119,
+        8,
+        114
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Clock",
+      "pos": [
+        159,
+        6,
+        89
+      ],
+      "reachable": true
+    },
+    {
+      "id": "Station",
+      "pos": [
+        163,
+        6,
+        116
+      ],
+      "reachable": true
+    }
+  ],
+  "use_points": 99,
+  "use_checks": [
+    {
+      "id": "Bookshop.stairs.bottom",
+      "pos": [
+        11,
+        16,
+        29
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.stairs.top",
+      "pos": [
+        11,
+        22,
+        22
+      ],
+      "floor_block_y": 21,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.browse",
+      "pos": [
+        19,
+        16,
+        36
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.counter",
+      "pos": [
+        21,
+        16,
+        25
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.packing",
+      "pos": [
+        22,
+        16,
+        22
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.read",
+      "pos": [
+        20,
+        22,
+        38
+      ],
+      "floor_block_y": 21,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.work",
+      "pos": [
+        22,
+        22,
+        32
+      ],
+      "floor_block_y": 21,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.bed",
+      "pos": [
+        26,
+        22,
+        25
+      ],
+      "floor_block_y": 21,
+      "reachable": true
+    },
+    {
+      "id": "Textile.stairs.bottom",
+      "pos": [
+        40,
+        14,
+        34
+      ],
+      "floor_block_y": 13,
+      "reachable": true
+    },
+    {
+      "id": "Textile.stairs.top",
+      "pos": [
+        40,
+        20,
+        27
+      ],
+      "floor_block_y": 19,
+      "reachable": true
+    },
+    {
+      "id": "Textile.entry",
+      "pos": [
+        46,
+        14,
+        42
+      ],
+      "floor_block_y": 13,
+      "reachable": true
+    },
+    {
+      "id": "Textile.cutting",
+      "pos": [
+        49,
+        14,
+        36
+      ],
+      "floor_block_y": 13,
+      "reachable": true
+    },
+    {
+      "id": "Textile.upper.work",
+      "pos": [
+        49,
+        20,
+        37
+      ],
+      "floor_block_y": 19,
+      "reachable": true
+    },
+    {
+      "id": "Textile.upper.bed",
+      "pos": [
+        48,
+        20,
+        30
+      ],
+      "floor_block_y": 19,
+      "reachable": true
+    },
+    {
+      "id": "Library.stairs.bottom",
+      "pos": [
+        63,
+        13,
+        28
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Library.stairs.top",
+      "pos": [
+        63,
+        19,
+        21
+      ],
+      "floor_block_y": 18,
+      "reachable": true
+    },
+    {
+      "id": "Library.entry",
+      "pos": [
+        72,
+        13,
+        40
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Library.reading.2",
+      "pos": [
+        73,
+        13,
+        37
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Library.browse.2",
+      "pos": [
+        73,
+        13,
+        27
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Library.reading.8",
+      "pos": [
+        73,
+        19,
+        37
+      ],
+      "floor_block_y": 18,
+      "reachable": true
+    },
+    {
+      "id": "Library.browse.8",
+      "pos": [
+        73,
+        19,
+        27
+      ],
+      "floor_block_y": 18,
+      "reachable": true
+    },
+    {
+      "id": "School.stairs.bottom",
+      "pos": [
+        92,
+        11,
+        22
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "School.stairs.top",
+      "pos": [
+        92,
+        17,
+        15
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "School.entry",
+      "pos": [
+        105,
+        11,
+        38
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "School.classroom.2",
+      "pos": [
+        103,
+        11,
+        30
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "School.teacher.2",
+      "pos": [
+        109,
+        11,
+        19
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "School.classroom.8",
+      "pos": [
+        103,
+        17,
+        30
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "School.teacher.8",
+      "pos": [
+        109,
+        17,
+        19
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.stairs.bottom",
+      "pos": [
+        129,
+        10,
+        30
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.stairs.top",
+      "pos": [
+        129,
+        16,
+        23
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.entry",
+      "pos": [
+        136,
+        10,
+        40
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.reception",
+      "pos": [
+        137,
+        10,
+        30
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.waiting",
+      "pos": [
+        138,
+        10,
+        37
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Clinic.ward",
+      "pos": [
+        139,
+        16,
+        31
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Sake.entry",
+      "pos": [
+        161,
+        8,
+        49
+      ],
+      "floor_block_y": 7,
+      "reachable": true
+    },
+    {
+      "id": "Sake.counter",
+      "pos": [
+        161,
+        8,
+        45
+      ],
+      "floor_block_y": 7,
+      "reachable": true
+    },
+    {
+      "id": "Sake.stock",
+      "pos": [
+        161,
+        8,
+        37
+      ],
+      "floor_block_y": 7,
+      "reachable": true
+    },
+    {
+      "id": "Tea.order",
+      "pos": [
+        16,
+        16,
+        68
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Tea.table",
+      "pos": [
+        16,
+        16,
+        62
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Tea.kitchen",
+      "pos": [
+        15,
+        16,
+        72
+      ],
+      "floor_block_y": 15,
+      "reachable": true
+    },
+    {
+      "id": "Photo.stairs.bottom",
+      "pos": [
+        46,
+        15,
+        70
+      ],
+      "floor_block_y": 14,
+      "reachable": true
+    },
+    {
+      "id": "Photo.stairs.top",
+      "pos": [
+        46,
+        21,
+        77
+      ],
+      "floor_block_y": 20,
+      "reachable": true
+    },
+    {
+      "id": "Photo.portrait",
+      "pos": [
+        34,
+        15,
+        74
+      ],
+      "floor_block_y": 14,
+      "reachable": true
+    },
+    {
+      "id": "Photo.waiting",
+      "pos": [
+        36,
+        15,
+        64
+      ],
+      "floor_block_y": 14,
+      "reachable": true
+    },
+    {
+      "id": "Photo.desk",
+      "pos": [
+        33,
+        15,
+        67
+      ],
+      "floor_block_y": 14,
+      "reachable": true
+    },
+    {
+      "id": "Photo.upstairs.work",
+      "pos": [
+        36,
+        21,
+        65
+      ],
+      "floor_block_y": 20,
+      "reachable": true
+    },
+    {
+      "id": "Photo.upstairs.bed",
+      "pos": [
+        34,
+        21,
+        74
+      ],
+      "floor_block_y": 20,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.stairs.bottom",
+      "pos": [
+        81,
+        13,
+        75
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.stairs.top",
+      "pos": [
+        81,
+        19,
+        82
+      ],
+      "floor_block_y": 18,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.entry",
+      "pos": [
+        62,
+        13,
+        66
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.shop",
+      "pos": [
+        71,
+        13,
+        68
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.service",
+      "pos": [
+        68,
+        13,
+        76
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.prep",
+      "pos": [
+        65,
+        13,
+        80
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.office",
+      "pos": [
+        71,
+        19,
+        68
+      ],
+      "floor_block_y": 18,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.stock",
+      "pos": [
+        65,
+        19,
+        74
+      ],
+      "floor_block_y": 18,
+      "reachable": true
+    },
+    {
+      "id": "Pharmacy.bed",
+      "pos": [
+        63,
+        19,
+        67
+      ],
+      "floor_block_y": 18,
+      "reachable": true
+    },
+    {
+      "id": "Inn.stairs.bottom",
+      "pos": [
+        123,
+        11,
+        77
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Inn.stairs.top",
+      "pos": [
+        123,
+        17,
+        84
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Inn.lobby",
+      "pos": [
+        111,
+        11,
+        67
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Inn.reception",
+      "pos": [
+        105,
+        11,
+        71
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Inn.tea",
+      "pos": [
+        115,
+        11,
+        71
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Inn.bath",
+      "pos": [
+        116,
+        11,
+        79
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Inn.kitchen",
+      "pos": [
+        102,
+        11,
+        80
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Inn.dining",
+      "pos": [
+        107,
+        11,
+        74
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Inn.hall",
+      "pos": [
+        111,
+        17,
+        69
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Inn.west.room",
+      "pos": [
+        115,
+        17,
+        74
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Inn.east.room",
+      "pos": [
+        103,
+        17,
+        74
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Inn.bed.west",
+      "pos": [
+        115,
+        17,
+        83
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Inn.bed.east",
+      "pos": [
+        102,
+        17,
+        83
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Inn.balcony",
+      "pos": [
+        111,
+        17,
+        63
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Florist.entry",
+      "pos": [
+        141,
+        9,
+        67
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Florist.flowers",
+      "pos": [
+        141,
+        9,
+        72
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Florist.wrap",
+      "pos": [
+        138,
+        9,
+        68
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Residence.stairs.bottom",
+      "pos": [
+        23,
+        14,
+        124
+      ],
+      "floor_block_y": 13,
+      "reachable": true
+    },
+    {
+      "id": "Residence.stairs.top",
+      "pos": [
+        23,
+        20,
+        131
+      ],
+      "floor_block_y": 19,
+      "reachable": true
+    },
+    {
+      "id": "Residence.entry",
+      "pos": [
+        16,
+        14,
+        114
+      ],
+      "floor_block_y": 13,
+      "reachable": true
+    },
+    {
+      "id": "Residence.dining",
+      "pos": [
+        10,
+        14,
+        124
+      ],
+      "floor_block_y": 13,
+      "reachable": true
+    },
+    {
+      "id": "Residence.living",
+      "pos": [
+        14,
+        14,
+        117
+      ],
+      "floor_block_y": 13,
+      "reachable": true
+    },
+    {
+      "id": "Residence.upper.work",
+      "pos": [
+        14,
+        20,
+        119
+      ],
+      "floor_block_y": 19,
+      "reachable": true
+    },
+    {
+      "id": "Residence.upper.bed",
+      "pos": [
+        13,
+        20,
+        128
+      ],
+      "floor_block_y": 19,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.entry",
+      "pos": [
+        39,
+        13,
+        117
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.order",
+      "pos": [
+        38,
+        13,
+        122
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Bakery.bakery",
+      "pos": [
+        36,
+        13,
+        128
+      ],
+      "floor_block_y": 12,
+      "reachable": true
+    },
+    {
+      "id": "Post.stairs.bottom",
+      "pos": [
+        70,
+        11,
+        124
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Post.stairs.top",
+      "pos": [
+        70,
+        17,
+        131
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Post.counter",
+      "pos": [
+        61,
+        11,
+        119
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Post.sorting",
+      "pos": [
+        61,
+        11,
+        128
+      ],
+      "floor_block_y": 10,
+      "reachable": true
+    },
+    {
+      "id": "Post.upstairs.work",
+      "pos": [
+        60,
+        17,
+        119
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Post.upstairs.bed",
+      "pos": [
+        58,
+        17,
+        128
+      ],
+      "floor_block_y": 16,
+      "reachable": true
+    },
+    {
+      "id": "Workshop.entry",
+      "pos": [
+        89,
+        10,
+        114
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Workshop.workbench",
+      "pos": [
+        89,
+        10,
+        124
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Workshop.assembly",
+      "pos": [
+        84,
+        10,
+        119
+      ],
+      "floor_block_y": 9,
+      "reachable": true
+    },
+    {
+      "id": "Bath.entry",
+      "pos": [
+        119,
+        8,
+        115
+      ],
+      "floor_block_y": 7,
+      "reachable": true
+    },
+    {
+      "id": "Bath.changing",
+      "pos": [
+        117,
+        8,
+        120
+      ],
+      "floor_block_y": 7,
+      "reachable": true
+    },
+    {
+      "id": "Bath.bath",
+      "pos": [
+        113,
+        8,
+        130
+      ],
+      "floor_block_y": 7,
+      "reachable": true
+    },
+    {
+      "id": "Clock.info",
+      "pos": [
+        161,
+        6,
+        83
+      ],
+      "floor_block_y": 5,
+      "reachable": true
+    },
+    {
+      "id": "Station.ticket",
+      "pos": [
+        168,
+        6,
+        128
+      ],
+      "floor_block_y": 5,
+      "reachable": true
+    },
+    {
+      "id": "Station.waiting",
+      "pos": [
+        163,
+        6,
+        122
+      ],
+      "floor_block_y": 5,
+      "reachable": true
+    },
+    {
+      "id": "Station.platform",
+      "pos": [
+        163,
+        6,
+        140
+      ],
+      "floor_block_y": 5,
+      "reachable": true
+    }
+  ],
+  "navigation_nodes": 24482,
+  "stair_checks": [
+    {
+      "id": "Bookshop",
+      "samples": 57,
+      "end_y": 22,
+      "errors": []
+    },
+    {
+      "id": "Textile",
+      "samples": 57,
+      "end_y": 20,
+      "errors": []
+    },
+    {
+      "id": "Library",
+      "samples": 57,
+      "end_y": 19,
+      "errors": []
+    },
+    {
+      "id": "School",
+      "samples": 57,
+      "end_y": 17,
+      "errors": []
+    },
+    {
+      "id": "Clinic",
+      "samples": 57,
+      "end_y": 16,
+      "errors": []
+    },
+    {
+      "id": "Photo",
+      "samples": 57,
+      "end_y": 21,
+      "errors": []
+    },
+    {
+      "id": "Pharmacy",
+      "samples": 57,
+      "end_y": 19,
+      "errors": []
+    },
+    {
+      "id": "Inn",
+      "samples": 57,
+      "end_y": 17,
+      "errors": []
+    },
+    {
+      "id": "Residence",
+      "samples": 57,
+      "end_y": 20,
+      "errors": []
+    },
+    {
+      "id": "Post",
+      "samples": 57,
+      "end_y": 17,
+      "errors": []
+    }
+  ],
+  "water_boundary_errors": 0,
+  "errors": [],
+  "block_entities": 438,
+  "paintings": 22,
+  "official_model_states": 188,
+  "scope": "Final NBT readback; approximate 0.6 x 1.8 body with doors treated open; terrain connectivity allows stair-mediated one-block centre transitions; stair flights sampled separately. Not game collision or lighting verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

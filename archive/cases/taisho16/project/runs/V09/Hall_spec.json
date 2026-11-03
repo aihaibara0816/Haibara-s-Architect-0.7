@@ -1,0 +1,527 @@
+{
+  "case_id": "Hall",
+  "run": "V09",
+  "seed": 151145,
+  "buildings": [
+    {
+      "id": "Hall",
+      "name": "溪橋会所｜集会・导览・休憩",
+      "size": [
+        29,
+        28,
+        26
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        16,
+        3,
+        21
+      ],
+      "rooms": [
+        {
+          "id": "Hall.main",
+          "name": "集会、阅读与旅行导览",
+          "bounds": [
+            4,
+            3,
+            4,
+            25,
+            7,
+            21
+          ],
+          "floor_y": 3,
+          "capacity": 12,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Hall.entry",
+          "pos": [
+            16,
+            3,
+            20
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Hall.meeting",
+          "pos": [
+            17,
+            3,
+            12
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Hall.info",
+          "pos": [
+            21,
+            3,
+            18
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Hall.door.0",
+          "pos": [
+            16,
+            3,
+            21
+          ],
+          "lintel": [
+            16,
+            5,
+            21
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            8,
+            7,
+            6
+          ],
+          "support": [
+            8,
+            8,
+            6
+          ]
+        },
+        {
+          "position": [
+            17,
+            7,
+            9
+          ],
+          "support": [
+            17,
+            8,
+            9
+          ]
+        },
+        {
+          "position": [
+            20,
+            7,
+            17
+          ],
+          "support": [
+            20,
+            8,
+            17
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Hall.community.meeting.dining_table.8_1_10",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            8,
+            3,
+            10,
+            16,
+            4,
+            12
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.chair.seat.8_1_8",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            3,
+            8,
+            9,
+            4,
+            9
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.chair.seat.8_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            8,
+            3,
+            14,
+            9,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.chair.seat.11_1_8",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            3,
+            8,
+            12,
+            4,
+            9
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.chair.seat.11_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            3,
+            14,
+            12,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.chair.seat.14_1_8",
+          "recipe": "seat",
+          "bounds_xyz": [
+            14,
+            3,
+            8,
+            15,
+            4,
+            9
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.chair.seat.14_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            14,
+            3,
+            14,
+            15,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.community.books.bookshelf_group.5_1_4",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            5,
+            3,
+            4,
+            12,
+            7,
+            5
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              5
+            ],
+            [
+              6,
+              3,
+              5
+            ],
+            [
+              7,
+              3,
+              5
+            ],
+            [
+              8,
+              3,
+              5
+            ],
+            [
+              9,
+              3,
+              5
+            ],
+            [
+              10,
+              3,
+              5
+            ],
+            [
+              11,
+              3,
+              5
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.community.info.dining_table.20_1_16",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            20,
+            3,
+            16,
+            23,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Hall.stores.storage_container.22_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            22,
+            3,
+            4,
+            23,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              22,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Hall.stores.storage_container.22_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            22,
+            4,
+            4,
+            23,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              22,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Hall.stores.storage_container.23_1_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            23,
+            3,
+            4,
+            24,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              23,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Hall.stores.storage_container.23_2_4",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            23,
+            4,
+            4,
+            24,
+            5,
+            5
+          ],
+          "use_points": [
+            [
+              23,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Hall.stores.storage_wall.22_1_4",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            22,
+            3,
+            4,
+            24,
+            6,
+            5
+          ],
+          "use_points": [
+            [
+              22,
+              3,
+              5
+            ],
+            [
+              23,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Hall.sink.water_basin.21_1_7",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            21,
+            3,
+            7,
+            22,
+            4,
+            8
+          ],
+          "use_points": [
+            [
+              21,
+              3,
+              8
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        }
+      ],
+      "sources": [],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "entry_world": [
+        16,
+        3,
+        21
+      ]
+    }
+  ],
+  "uses": [
+    {
+      "id": "Hall.entry",
+      "pos": [
+        16,
+        3,
+        20
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Hall.meeting",
+      "pos": [
+        17,
+        3,
+        12
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Hall.info",
+      "pos": [
+        21,
+        3,
+        18
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Hall.door.0",
+      "pos": [
+        16,
+        3,
+        21
+      ],
+      "lintel": [
+        16,
+        5,
+        21
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        8,
+        7,
+        6
+      ],
+      "support": [
+        8,
+        8,
+        6
+      ]
+    },
+    {
+      "position": [
+        17,
+        7,
+        9
+      ],
+      "support": [
+        17,
+        8,
+        9
+      ]
+    },
+    {
+      "position": [
+        20,
+        7,
+        17
+      ],
+      "support": [
+        20,
+        8,
+        17
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    16,
+    3,
+    22
+  ],
+  "upper_start": [
+    8,
+    9
+  ],
+  "source_nbt_sha256": "1aa1f99d470d004085e0d379b39525949953452691d6e00359a76c962ce6cc5d",
+  "non_air": 5534,
+  "size_xyz": [
+    29,
+    28,
+    26
+  ],
+  "block_entities": 5,
+  "entities": 1
+}

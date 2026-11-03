@@ -1,0 +1,48 @@
+{
+  "file": "building.nbt",
+  "bytes": 315288,
+  "sha256": "79d482b4ec9cb955cb4cf3b197af9efc8dd3f58e4d0ce2b3c39853623925ec83",
+  "listed_blocks": 112474,
+  "non_air_blocks": 112474,
+  "size_xyz": [
+    100,
+    200,
+    96
+  ],
+  "contains_explicit_air": false,
+  "geometry_sha256": "45b41ad6213cdb58763f16a1ee1b4d8dc6dbf8a8cbb8aa6b45ca2627a8d64e4a",
+  "data_version": 3955,
+  "case": "elizabeth_tower",
+  "engine": "HAF 0.4.0",
+  "run": "HAF06_smoke_01",
+  "readback_exact": true,
+  "connection_updates": 4872,
+  "components": {
+    "site": 38600,
+    "lighting": 726,
+    "context": 37836,
+    "tower": 20942,
+    "clock": 6921,
+    "belfry": 2801,
+    "roof": 4248,
+    "lantern": 400
+  },
+  "component_count": 933,
+  "material_types": 23,
+  "state_types": 49,
+  "window_count": 152,
+  "synthetic_room_count": 0,
+  "source_code_sha256": "2627b1ac150bd750813aa8d433c503c1f2635f3d735720d227fe0e717353a91e",
+  "params_sha256": "5116478ca353883a47d6f981dbf999910de8481a88ba8c98a5d9c1f84364315f",
+  "game_status": "pending",
+  "scale_blocks_per_metre": 2,
+  "tower_height_blocks": 192,
+  "clock_face_count": 4,
+  "clock_dial_diameter_blocks": 14,
+  "scope": "Elizabeth Tower and an explicitly cropped, approximate adjoining Westminster wing; no whole Palace of Westminster or London terrain",
+  "limitations": [
+    "Clock numerals simplified to voxel hour markers; static hands",
+    "Context wing and internal staircase are approximations",
+    "No automatic image reconstruction or game verification"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.2",
+  "run_id": null,
+  "project_id": null,
+  "mode": "prototype_first",
+  "started_at": null,
+  "finished_at": null,
+  "input": {
+    "prompt_path": null,
+    "reference_files": []
+  },
+  "model": {
+    "displayed_label": null,
+    "requested_api_model": null,
+    "observed_response_model": null,
+    "verification_evidence": null
+  },
+  "limits": {
+    "max_visual_revisions": 2,
+    "max_spend_authorized": null
+  },
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "reported_credits": null,
+    "actual_task_charge": null,
+    "currency": null,
+    "source": null
+  },
+  "events": [],
+  "artifacts": [],
+  "validation": {
+    "file_subset": "pending",
+    "geometry": "pending",
+    "visual": "pending",
+    "game": "pending"
+  },
+  "event_schema_example_only": {
+    "timestamp": null,
+    "stage": null,
+    "status": "pending",
+    "tool": null,
+    "input_paths": [],
+    "output_paths": [],
+    "output_sha256": {},
+    "decision_summary": null,
+    "error": null
+  }
+}

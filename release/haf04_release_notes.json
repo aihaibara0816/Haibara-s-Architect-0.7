@@ -1,0 +1,32 @@
+{
+  "version": "0.4.0",
+  "date": "2026-10-27",
+  "user_authorization": "可以的，现在配合内饰skill，无实物设计skill，归纳总结来升级HAF0.4",
+  "unit_tests": 62,
+  "release_checks": 32,
+  "civic_readback_checks": 50,
+  "preserved_run_files": 910,
+  "registered_case_adapters": 11,
+  "historical_comparisons": 2,
+  "independent_buildings_in_registry": 13,
+  "design_use_types": 12,
+  "garden_archetypes": 6,
+  "structured_research_modules": 18,
+  "new_buildings_generated_this_upgrade": 0,
+  "model_weight_training": false,
+  "game_status": "pending",
+  "changes": [
+    "design handoff plan compiler and CLI",
+    "full HAF03 plus Civic case integration",
+    "Civic validators are read-only unless new report explicitly requested",
+    "bamboo/state palette carried from verified Civic branch",
+    "interior identity, lighting and landscape rules recovered and saved",
+    "standalone HTML summary and provenance"
+  ],
+  "limits": [
+    "Not all external post-HAF03 case revisions merged",
+    "No arbitrary-building auto furniture or geometry generator",
+    "Planning and box checks are not game collision or structural design",
+    "Library sample user visual/game acceptance pending"
+  ]
+}

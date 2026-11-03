@@ -1,0 +1,24 @@
+{
+ "status":"本地样板学习记录；不是模型权重训练，也未写入或安装正式 Skill",
+ "rules":[
+  {"id":"L01","topic":"幕墙不是一个同面换色表皮","observed":"金茂文件 (14,10,14) 铁栏 → (14,10,15) 灰玻璃 → (14,10,16) 混凝土。","sources":["jinmao"],"application":"把细肋、玻璃、楼板、背景和窗后物件分为独立构件与进深。","samples":["modern","millennium"],"next_acceptance":"新建筑的正面、斜视和剖面都能解释分格、进深与楼层；不能只复制现有尺寸。"},
+  {"id":"L02","topic":"横带不自动等于楼板","observed":"白天鹅文件的主体立面约 3 格一组节奏，近完整楼板约 6 格重复。","sources":["swan"],"application":"装饰横带只生成边缘；功能楼板另设高度。","samples":["millennium"],"next_acceptance":"逐层列出横带与实楼板的对应表，剖切中没有多余封堵。"},
+  {"id":"L03","topic":"伪内饰需要可解释的空间","observed":"白天鹅窗后存在 6 格小空气腔；金茂另一处存在 2×2×2 腔体。它们不证明完整房间。","sources":["swan","jinmao"],"application":"本轮配置地板、背景、桌椅、吊顶与灯，标为示意内饰。","samples":["modern","millennium","western"],"next_acceptance":"另做可进入的一间房，测净高、门洞、碰撞和游戏走动，再升级成可用内饰。"},
+  {"id":"L04","topic":"薄边、错层、顶底关系","observed":"第一段教程的关键帧示范玻璃块与玻璃片错层，以及活板门和半砖薄边。","sources":["video_LMC"],"application":"使用明确的 type、half、facing、open 与连接状态；不以一格实心替代所有细部。","samples":["modern","western","planter"],"next_acceptance":"原版与指定资源包分别验收细部；旋转后方向、玻璃连接、檐口轮廓正确。"},
+  {"id":"L05","topic":"从室内和夜间复核幕墙","observed":"第二段教程使用细杆表达内侧线条，并用末地烛表现灯带，展示组合后的建筑。","sources":["video_PLIN"],"application":"昼景、夜景和剖切共同复核；窗后不能仅有外壳。","samples":["modern","canopy"],"next_acceptance":"用游戏截图检查灯具遮蔽、透光、窗后可见性；预览光照不计作验收通过。"},
+  {"id":"L06","topic":"材料名不是构件语义","observed":"芝公园文件塔尖有红白玻璃片，形态用于细杆，不是窗。","sources":["shiba"],"application":"用 owner 记录 mast.upper_leg、mast.tip；语义由构件、位置和连接共同确定。","samples":["antenna"],"next_acceptance":"模型研究不会把所有 glass 一律识别为幕墙；天线在远近景都保留分段与收分。"},
+  {"id":"L07","topic":"开敞网架与功能围护分开","observed":"晴空塔、芝公园案例具有外围网架、核心、局部玻璃楼层和大量贯通空气。","sources":["skytree","shiba"],"application":"粗柱、薄斜杆、核心和 14≤Y<19 的围护独立生成。","samples":["framework"],"next_acceptance":"指定开敞区保持空气；不同方向无遮挡误封，细杆接点不悬空。"},
+  {"id":"L08","topic":"厚墙开口与檐口需要实体进深","observed":"海关和车站样例使用窗套、楼梯和半砖表达厚墙与出挑。","sources":["customs","station"],"application":"真实挖空窗洞，玻璃后退，前置窗套和倒楼梯边缘。","samples":["western"],"next_acceptance":"换一栋未参与学习的砖石建筑，开口比例、墙厚、转角和檐口逐项对照参考。"},
+  {"id":"L09","topic":"同一建筑可有多套构件体系","observed":"车站文件把砖石站房、透明拱棚、轨道和站台区别建造。","sources":["station"],"application":"砖柱、棚顶、拱肋、吊灯、平台家具分别生成；玻璃块做屋面，玻璃片做竖向围护。","samples":["canopy"],"next_acceptance":"站房与玻璃棚标高和端头有依据；不能给玻璃片虚构水平朝向。"},
+  {"id":"L10","topic":"风格要补可靠证据","observed":"七份文件不足以覆盖中式屋面；苏州博物馆官方说明给出白墙、深灰石材屋面及几何化江南元素。","sources":["suzhou_official"],"application":"只做当代中式探索，不称古建筑通用模板。木屏片、院落布局为本轮设计推演。","samples":["chinese"],"next_acceptance":"另收至少两例屋顶、檐口、开口可交叉验证的中式建筑，区分传统与当代；不限参考图片总数。"}
+ ],
+ "source_urls":{
+  "video_LMC":"https://www.bilibili.com/video/BV1CBrqBjELF/",
+  "video_PLIN":"https://www.bilibili.com/video/BV1PC411x76h/",
+  "suzhou_official":"https://dx.szmuseum.com/views/NewsDetails.aspx?guid=349a54de-f3f5-41bc-b86d-7c3488d3c0d6",
+  "block_models":"https://docs.neoforged.net/docs/1.21.1/resources/client/models/",
+  "minecraft_121_datapack":"https://feedback.minecraft.net/hc/en-us/articles/27547857163917-Minecraft-Java-Edition-1-21-Tricky-Trials"
+ },
+ "video_evidence_limit":"此前通过播放页面关键帧与画面字幕学习；没有完整音轨转录。本轮未重复抓取视频。",
+ "source_file_limit":"七份 schem 是学习来源，不是独立盲测；原输入为 DataVersion 4671，新样板重新生成在 3955，未将原文件改版本号冒充格式转换。"
+}

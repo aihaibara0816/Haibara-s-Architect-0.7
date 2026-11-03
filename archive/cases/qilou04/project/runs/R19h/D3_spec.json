@@ -1,0 +1,1187 @@
+{
+  "id": "D3",
+  "name": "东口住商楼",
+  "size": [
+    32,
+    84,
+    50
+  ],
+  "floors": [
+    2,
+    7,
+    12,
+    17,
+    22,
+    27
+  ],
+  "entry": [
+    9,
+    3,
+    3
+  ],
+  "rooms": [
+    {
+      "id": "D3.F01.L.home",
+      "unit_id": "D3.F01.L",
+      "floor_id": "D3.F01",
+      "function": "living",
+      "bounds_xyz": [
+        312,
+        3,
+        30,
+        317,
+        6,
+        63
+      ],
+      "entrances": [
+        [
+          316,
+          3,
+          31
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        3,
+        14,
+        8,
+        6,
+        47
+      ]
+    },
+    {
+      "id": "D3.F01.L.bath",
+      "unit_id": "D3.F01.L",
+      "floor_id": "D3.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        312,
+        3,
+        60,
+        315,
+        6,
+        63
+      ],
+      "entrances": [
+        [
+          314,
+          3,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        3,
+        44,
+        6,
+        6,
+        47
+      ]
+    },
+    {
+      "id": "D3.F01.R.laundry",
+      "unit_id": "D3.F01.R",
+      "floor_id": "D3.F01",
+      "function": "laundry",
+      "bounds_xyz": [
+        321,
+        3,
+        20,
+        338,
+        6,
+        63
+      ],
+      "entrances": [
+        [
+          321,
+          3,
+          22
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        12,
+        3,
+        4,
+        29,
+        6,
+        47
+      ]
+    },
+    {
+      "id": "D3.F01.R.bath",
+      "unit_id": "D3.F01.R",
+      "floor_id": "D3.F01",
+      "function": "bathroom",
+      "bounds_xyz": [
+        321,
+        3,
+        60,
+        324,
+        6,
+        63
+      ],
+      "entrances": [
+        [
+          323,
+          3,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        12,
+        3,
+        44,
+        15,
+        6,
+        47
+      ]
+    },
+    {
+      "id": "D3.F02.L.home",
+      "unit_id": "D3.F02.L",
+      "floor_id": "D3.F02",
+      "function": "living",
+      "bounds_xyz": [
+        312,
+        8,
+        30,
+        317,
+        11,
+        63
+      ],
+      "entrances": [
+        [
+          316,
+          8,
+          31
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        8,
+        14,
+        8,
+        11,
+        47
+      ]
+    },
+    {
+      "id": "D3.F02.L.bath",
+      "unit_id": "D3.F02.L",
+      "floor_id": "D3.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        312,
+        8,
+        60,
+        315,
+        11,
+        63
+      ],
+      "entrances": [
+        [
+          314,
+          8,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        8,
+        44,
+        6,
+        11,
+        47
+      ]
+    },
+    {
+      "id": "D3.F02.R.home",
+      "unit_id": "D3.F02.R",
+      "floor_id": "D3.F02",
+      "function": "living",
+      "bounds_xyz": [
+        321,
+        8,
+        20,
+        338,
+        11,
+        63
+      ],
+      "entrances": [
+        [
+          321,
+          8,
+          22
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        12,
+        8,
+        4,
+        29,
+        11,
+        47
+      ]
+    },
+    {
+      "id": "D3.F02.R.bath",
+      "unit_id": "D3.F02.R",
+      "floor_id": "D3.F02",
+      "function": "bathroom",
+      "bounds_xyz": [
+        321,
+        8,
+        60,
+        324,
+        11,
+        63
+      ],
+      "entrances": [
+        [
+          323,
+          8,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        12,
+        8,
+        44,
+        15,
+        11,
+        47
+      ]
+    },
+    {
+      "id": "D3.F02.R.bedroom",
+      "unit_id": "D3.F02.R",
+      "floor_id": "D3.F02",
+      "function": "bedroom",
+      "bounds_xyz": [
+        333,
+        8,
+        20,
+        338,
+        11,
+        27
+      ],
+      "entrances": [
+        [
+          333,
+          8,
+          24
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        24,
+        8,
+        4,
+        29,
+        11,
+        11
+      ]
+    },
+    {
+      "id": "D3.F02.R.deep_bed",
+      "unit_id": "D3.F02.R",
+      "floor_id": "D3.F02",
+      "function": "bedroom",
+      "bounds_xyz": [
+        326,
+        8,
+        37,
+        338,
+        11,
+        63
+      ],
+      "entrances": [
+        [
+          326,
+          8,
+          38
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        17,
+        8,
+        21,
+        29,
+        11,
+        47
+      ]
+    },
+    {
+      "id": "D3.F03.L.home",
+      "unit_id": "D3.F03.L",
+      "floor_id": "D3.F03",
+      "function": "living",
+      "bounds_xyz": [
+        312,
+        13,
+        30,
+        317,
+        16,
+        63
+      ],
+      "entrances": [
+        [
+          316,
+          13,
+          31
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        13,
+        14,
+        8,
+        16,
+        47
+      ]
+    },
+    {
+      "id": "D3.F03.L.bath",
+      "unit_id": "D3.F03.L",
+      "floor_id": "D3.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        312,
+        13,
+        60,
+        315,
+        16,
+        63
+      ],
+      "entrances": [
+        [
+          314,
+          13,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        13,
+        44,
+        6,
+        16,
+        47
+      ]
+    },
+    {
+      "id": "D3.F03.R.home",
+      "unit_id": "D3.F03.R",
+      "floor_id": "D3.F03",
+      "function": "living",
+      "bounds_xyz": [
+        321,
+        13,
+        20,
+        338,
+        16,
+        63
+      ],
+      "entrances": [
+        [
+          321,
+          13,
+          22
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        12,
+        13,
+        4,
+        29,
+        16,
+        47
+      ]
+    },
+    {
+      "id": "D3.F03.R.bath",
+      "unit_id": "D3.F03.R",
+      "floor_id": "D3.F03",
+      "function": "bathroom",
+      "bounds_xyz": [
+        321,
+        13,
+        60,
+        324,
+        16,
+        63
+      ],
+      "entrances": [
+        [
+          323,
+          13,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        12,
+        13,
+        44,
+        15,
+        16,
+        47
+      ]
+    },
+    {
+      "id": "D3.F03.R.bedroom",
+      "unit_id": "D3.F03.R",
+      "floor_id": "D3.F03",
+      "function": "bedroom",
+      "bounds_xyz": [
+        333,
+        13,
+        20,
+        338,
+        16,
+        27
+      ],
+      "entrances": [
+        [
+          333,
+          13,
+          24
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        24,
+        13,
+        4,
+        29,
+        16,
+        11
+      ]
+    },
+    {
+      "id": "D3.F03.R.deep_bed",
+      "unit_id": "D3.F03.R",
+      "floor_id": "D3.F03",
+      "function": "bedroom",
+      "bounds_xyz": [
+        326,
+        13,
+        37,
+        338,
+        16,
+        63
+      ],
+      "entrances": [
+        [
+          326,
+          13,
+          38
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        17,
+        13,
+        21,
+        29,
+        16,
+        47
+      ]
+    },
+    {
+      "id": "D3.F04.L.home",
+      "unit_id": "D3.F04.L",
+      "floor_id": "D3.F04",
+      "function": "living",
+      "bounds_xyz": [
+        312,
+        18,
+        30,
+        317,
+        21,
+        63
+      ],
+      "entrances": [
+        [
+          316,
+          18,
+          31
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        18,
+        14,
+        8,
+        21,
+        47
+      ]
+    },
+    {
+      "id": "D3.F04.L.bath",
+      "unit_id": "D3.F04.L",
+      "floor_id": "D3.F04",
+      "function": "bathroom",
+      "bounds_xyz": [
+        312,
+        18,
+        60,
+        315,
+        21,
+        63
+      ],
+      "entrances": [
+        [
+          314,
+          18,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        18,
+        44,
+        6,
+        21,
+        47
+      ]
+    },
+    {
+      "id": "D3.F04.R.home",
+      "unit_id": "D3.F04.R",
+      "floor_id": "D3.F04",
+      "function": "living",
+      "bounds_xyz": [
+        321,
+        18,
+        20,
+        338,
+        21,
+        63
+      ],
+      "entrances": [
+        [
+          321,
+          18,
+          22
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        12,
+        18,
+        4,
+        29,
+        21,
+        47
+      ]
+    },
+    {
+      "id": "D3.F04.R.bath",
+      "unit_id": "D3.F04.R",
+      "floor_id": "D3.F04",
+      "function": "bathroom",
+      "bounds_xyz": [
+        321,
+        18,
+        60,
+        324,
+        21,
+        63
+      ],
+      "entrances": [
+        [
+          323,
+          18,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        12,
+        18,
+        44,
+        15,
+        21,
+        47
+      ]
+    },
+    {
+      "id": "D3.F04.R.bedroom",
+      "unit_id": "D3.F04.R",
+      "floor_id": "D3.F04",
+      "function": "bedroom",
+      "bounds_xyz": [
+        333,
+        18,
+        20,
+        338,
+        21,
+        27
+      ],
+      "entrances": [
+        [
+          333,
+          18,
+          24
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        24,
+        18,
+        4,
+        29,
+        21,
+        11
+      ]
+    },
+    {
+      "id": "D3.F04.R.deep_bed",
+      "unit_id": "D3.F04.R",
+      "floor_id": "D3.F04",
+      "function": "bedroom",
+      "bounds_xyz": [
+        326,
+        18,
+        37,
+        338,
+        21,
+        63
+      ],
+      "entrances": [
+        [
+          326,
+          18,
+          38
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        17,
+        18,
+        21,
+        29,
+        21,
+        47
+      ]
+    },
+    {
+      "id": "D3.F05.L.home",
+      "unit_id": "D3.F05.L",
+      "floor_id": "D3.F05",
+      "function": "living",
+      "bounds_xyz": [
+        312,
+        23,
+        30,
+        317,
+        26,
+        63
+      ],
+      "entrances": [
+        [
+          316,
+          23,
+          31
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        23,
+        14,
+        8,
+        26,
+        47
+      ]
+    },
+    {
+      "id": "D3.F05.L.bath",
+      "unit_id": "D3.F05.L",
+      "floor_id": "D3.F05",
+      "function": "bathroom",
+      "bounds_xyz": [
+        312,
+        23,
+        60,
+        315,
+        26,
+        63
+      ],
+      "entrances": [
+        [
+          314,
+          23,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        23,
+        44,
+        6,
+        26,
+        47
+      ]
+    },
+    {
+      "id": "D3.F05.R.home",
+      "unit_id": "D3.F05.R",
+      "floor_id": "D3.F05",
+      "function": "living",
+      "bounds_xyz": [
+        321,
+        23,
+        20,
+        338,
+        26,
+        63
+      ],
+      "entrances": [
+        [
+          321,
+          23,
+          22
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        12,
+        23,
+        4,
+        29,
+        26,
+        47
+      ]
+    },
+    {
+      "id": "D3.F05.R.bath",
+      "unit_id": "D3.F05.R",
+      "floor_id": "D3.F05",
+      "function": "bathroom",
+      "bounds_xyz": [
+        321,
+        23,
+        60,
+        324,
+        26,
+        63
+      ],
+      "entrances": [
+        [
+          323,
+          23,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        12,
+        23,
+        44,
+        15,
+        26,
+        47
+      ]
+    },
+    {
+      "id": "D3.F05.R.bedroom",
+      "unit_id": "D3.F05.R",
+      "floor_id": "D3.F05",
+      "function": "bedroom",
+      "bounds_xyz": [
+        333,
+        23,
+        20,
+        338,
+        26,
+        27
+      ],
+      "entrances": [
+        [
+          333,
+          23,
+          24
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        24,
+        23,
+        4,
+        29,
+        26,
+        11
+      ]
+    },
+    {
+      "id": "D3.F05.R.deep_bed",
+      "unit_id": "D3.F05.R",
+      "floor_id": "D3.F05",
+      "function": "bedroom",
+      "bounds_xyz": [
+        326,
+        23,
+        37,
+        338,
+        26,
+        63
+      ],
+      "entrances": [
+        [
+          326,
+          23,
+          38
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        17,
+        23,
+        21,
+        29,
+        26,
+        47
+      ]
+    },
+    {
+      "id": "D3.F06.L.home",
+      "unit_id": "D3.F06.L",
+      "floor_id": "D3.F06",
+      "function": "living",
+      "bounds_xyz": [
+        312,
+        28,
+        30,
+        317,
+        31,
+        63
+      ],
+      "entrances": [
+        [
+          316,
+          28,
+          31
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        3,
+        28,
+        14,
+        8,
+        31,
+        47
+      ]
+    },
+    {
+      "id": "D3.F06.L.bath",
+      "unit_id": "D3.F06.L",
+      "floor_id": "D3.F06",
+      "function": "bathroom",
+      "bounds_xyz": [
+        312,
+        28,
+        60,
+        315,
+        31,
+        63
+      ],
+      "entrances": [
+        [
+          314,
+          28,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        3,
+        28,
+        44,
+        6,
+        31,
+        47
+      ]
+    },
+    {
+      "id": "D3.F06.R.home",
+      "unit_id": "D3.F06.R",
+      "floor_id": "D3.F06",
+      "function": "living",
+      "bounds_xyz": [
+        321,
+        28,
+        20,
+        338,
+        31,
+        63
+      ],
+      "entrances": [
+        [
+          321,
+          28,
+          22
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        12,
+        28,
+        4,
+        29,
+        31,
+        47
+      ]
+    },
+    {
+      "id": "D3.F06.R.bath",
+      "unit_id": "D3.F06.R",
+      "floor_id": "D3.F06",
+      "function": "bathroom",
+      "bounds_xyz": [
+        321,
+        28,
+        60,
+        324,
+        31,
+        63
+      ],
+      "entrances": [
+        [
+          323,
+          28,
+          60
+        ]
+      ],
+      "color_intent": "neutral",
+      "bounds": [
+        12,
+        28,
+        44,
+        15,
+        31,
+        47
+      ]
+    },
+    {
+      "id": "D3.F06.R.bedroom",
+      "unit_id": "D3.F06.R",
+      "floor_id": "D3.F06",
+      "function": "bedroom",
+      "bounds_xyz": [
+        333,
+        28,
+        20,
+        338,
+        31,
+        27
+      ],
+      "entrances": [
+        [
+          333,
+          28,
+          24
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        24,
+        28,
+        4,
+        29,
+        31,
+        11
+      ]
+    },
+    {
+      "id": "D3.F06.R.deep_bed",
+      "unit_id": "D3.F06.R",
+      "floor_id": "D3.F06",
+      "function": "bedroom",
+      "bounds_xyz": [
+        326,
+        28,
+        37,
+        338,
+        31,
+        63
+      ],
+      "entrances": [
+        [
+          326,
+          28,
+          38
+        ]
+      ],
+      "color_intent": "warm",
+      "bounds": [
+        17,
+        28,
+        21,
+        29,
+        31,
+        47
+      ]
+    }
+  ],
+  "uses": [],
+  "doors": [],
+  "lights": [],
+  "stairs": [],
+  "groups": [],
+  "sources": [],
+  "kind": "rear_cut",
+  "program": "laundry",
+  "urban": {
+    "id": "D3",
+    "name": "东口住商楼",
+    "x": 311,
+    "z": 19,
+    "w": 28,
+    "d": 45,
+    "floors": 6,
+    "rotation": 0,
+    "ground": "laundry",
+    "shape": "rear_cut",
+    "cut": 5,
+    "base_y": 3,
+    "palette": "sand",
+    "maintenance": 0.4283109656142279,
+    "balcony": true,
+    "street_role": "frontage",
+    "extra_shop_entry": false,
+    "corner_shop": false
+  },
+  "unit_count": 12,
+  "main_entries": [
+    {
+      "id": "D3",
+      "entry": [
+        318,
+        3,
+        19
+      ],
+      "outside": [
+        318,
+        3,
+        18
+      ],
+      "core_landing": [
+        316,
+        3,
+        27
+      ],
+      "width": 2
+    },
+    {
+      "id": "D3.shop",
+      "entry": [
+        335,
+        3,
+        19
+      ],
+      "outside": [
+        335,
+        3,
+        18
+      ],
+      "width": 2,
+      "kind": "laundry",
+      "unit_id": "D3.F01.R",
+      "role": "customer"
+    },
+    {
+      "id": "D3.street.R",
+      "unit_id": "D3.F01.R",
+      "entry": [
+        329,
+        3,
+        19
+      ],
+      "inside": [
+        329,
+        3,
+        20
+      ],
+      "outside": [
+        329,
+        3,
+        18
+      ],
+      "width": 2,
+      "kind": "laundry",
+      "role": "customer",
+      "face": "north"
+    }
+  ],
+  "upper_starts": {},
+  "stair_runs": [],
+  "family": "village",
+  "placement": {
+    "id": "D3",
+    "name": "东口住商楼",
+    "origin": [
+      309,
+      0,
+      16
+    ],
+    "turn": 0,
+    "w": 32,
+    "d": 50,
+    "family": "village",
+    "kind": "rear_cut",
+    "program": "laundry",
+    "lot": {
+      "id": "D3",
+      "name": "东口住商楼",
+      "x": 311,
+      "z": 19,
+      "w": 28,
+      "d": 45,
+      "floors": 6,
+      "rotation": 0,
+      "ground": "laundry",
+      "shape": "rear_cut",
+      "cut": 5,
+      "base_y": 3,
+      "palette": "sand",
+      "maintenance": 0.4283109656142279,
+      "balcony": true,
+      "street_role": "frontage",
+      "extra_shop_entry": false,
+      "corner_shop": false
+    },
+    "facade_revision": {
+      "palette": "sand",
+      "wall": "smooth_sandstone",
+      "roof": "flat_service",
+      "roof_label": "平屋顶与生活设备"
+    }
+  },
+  "source_nbt_sha256": "ec5d585e8ad8ac79df9c14b1528795bf76fc20b5cf220b894209e38026dce960",
+  "size_xyz": [
+    32,
+    84,
+    50
+  ],
+  "non_air": 22627,
+  "block_entities": 119,
+  "entities": 0
+}

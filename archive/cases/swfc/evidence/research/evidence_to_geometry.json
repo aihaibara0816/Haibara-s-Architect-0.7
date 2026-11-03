@@ -1,0 +1,114 @@
+[
+  {
+    "image_id": "img-01",
+    "rect_normalized": [
+      0.17,
+      0.04,
+      0.85,
+      0.93
+    ],
+    "observation": "方柱与弧面交界随高度向外移动",
+    "parameter": "form.square_base_side_m / form.top_half_thickness_m",
+    "consumer": "SWFC.half_thickness / inside",
+    "review": "overview / 四面",
+    "execution_status": "generated; parameters estimated where noted"
+  },
+  {
+    "image_id": "img-02",
+    "rect_normalized": [
+      0.18,
+      0.12,
+      0.85,
+      0.52
+    ],
+    "observation": "梯形孔、桥体与内壁深度",
+    "parameter": "aperture.* / bridge.*",
+    "consumer": "SWFC.opening / construct",
+    "review": "aperture / 通孔射线",
+    "execution_status": "generated; parameters estimated where noted"
+  },
+  {
+    "image_id": "img-03",
+    "rect_normalized": [
+      0.1,
+      0.01,
+      0.9,
+      0.97
+    ],
+    "observation": "侧视顶冠变窄",
+    "parameter": "form.height_m / arc radius estimate",
+    "consumer": "SWFC.half_thickness",
+    "review": "四面 / 截面厚度",
+    "execution_status": "generated; parameters estimated where noted"
+  },
+  {
+    "image_id": "img-05",
+    "rect_normalized": [
+      0.15,
+      0.05,
+      0.86,
+      0.88
+    ],
+    "observation": "隔玻璃仰看桥底；前景条纹不能当结构",
+    "parameter": "bridge.floor_m",
+    "consumer": "SWFC.construct bridge.soffit",
+    "review": "underside；KPF照片互证",
+    "execution_status": "generated; parameters estimated where noted"
+  },
+  {
+    "image_id": "img-07",
+    "rect_normalized": [
+      0.46,
+      0.07,
+      0.99,
+      0.99
+    ],
+    "observation": "屋顶为薄刃、孔内有深度与底平台",
+    "parameter": "bridge.roof_m / aperture.*",
+    "consumer": "SWFC.construct",
+    "review": "aperture / top_day",
+    "execution_status": "generated; parameters estimated where noted"
+  },
+  {
+    "image_id": "img-08",
+    "rect_normalized": [
+      0.2,
+      0.04,
+      0.75,
+      0.47
+    ],
+    "observation": "顶缘和上段细水平光带",
+    "parameter": "lighting.fixed_visible_arc_face",
+    "consumer": "SWFC.construct lighting.crown_slots",
+    "review": "同机位夜景；只代表+Z",
+    "execution_status": "generated; parameters estimated where noted"
+  },
+  {
+    "image_id": "img-04",
+    "rect_normalized": [
+      0.2,
+      0.2,
+      0.8,
+      0.95
+    ],
+    "observation": "有亮窗也有暗窗",
+    "parameter": "lighting.seed / window_probability",
+    "consumer": "SWFC.construct SHA256 room ID",
+    "review": "夜景和材料归属",
+    "execution_status": "generated; parameters estimated where noted"
+  },
+  {
+    "image_id": "img-09",
+    "rect_normalized": [
+      0.1,
+      0.52,
+      0.99,
+      0.99
+    ],
+    "observation": "基部石墙与幕墙交接，完整平面未知",
+    "parameter": "site.status",
+    "consumer": "SWFC.site（简化提案）",
+    "review": "base；不通过真实场地验收",
+    "execution_status": "generated; parameters estimated where noted"
+  }
+]

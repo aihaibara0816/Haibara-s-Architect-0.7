@@ -1,0 +1,266 @@
+[
+  {
+    "component_id": "tower.mass",
+    "images": [
+      {
+        "id": "img-nc-08",
+        "bbox_norm": [
+          0.18,
+          0.22,
+          0.84,
+          0.84
+        ]
+      },
+      {
+        "id": "img-nc-11",
+        "bbox_norm": [
+          0.24,
+          0.21,
+          0.72,
+          0.77
+        ]
+      }
+    ],
+    "kind": "observation + estimate",
+    "observation": "中央凸出并抬高；两侧肩部较低；背面中央柱状体向外凸出",
+    "decision": "宽77格，主要进深35格，中央进深48格；高度区分104/113格",
+    "uncertainty": "尺寸是透视照片解释，未标定；137/103口径未解决",
+    "parameters": [
+      "tower.main_rect",
+      "tower.central_rect",
+      "tower.wing_top",
+      "tower.center_top"
+    ],
+    "consumer": "Customs.masks / shell_and_floors；部分子体边界为案例显式坐标",
+    "accept_views": [
+      "front",
+      "rear",
+      "se_day",
+      "ne_day"
+    ],
+    "status": "visually_checked"
+  },
+  {
+    "component_id": "tower.front",
+    "images": [
+      {
+        "id": "img-nc-07",
+        "bbox_norm": [
+          0.34,
+          0.27,
+          0.67,
+          0.8
+        ]
+      },
+      {
+        "id": "img-nc-08",
+        "bbox_norm": [
+          0.22,
+          0.32,
+          0.8,
+          0.82
+        ]
+      }
+    ],
+    "kind": "observation + estimate",
+    "observation": "外侧成对较宽窗、中间窄窗列；石墙厚度、凹窗与竖向阴影",
+    "decision": "实际墙洞、后退1格玻璃片，薄半砖窗台；两侧窗与中间窗不同节奏",
+    "uncertainty": "微小窗框/石材缝低于1格；不宣称逐窗实测",
+    "parameters": [
+      "tower.outer_pair_windows",
+      "tower.inner_windows",
+      "tower.center_windows",
+      "materials.glass"
+    ],
+    "consumer": "Customs.window / tower_facades",
+    "accept_views": [
+      "front",
+      "facade"
+    ],
+    "status": "visually_checked"
+  },
+  {
+    "component_id": "crown.arch",
+    "images": [
+      {
+        "id": "img-nc-07",
+        "bbox_norm": [
+          0.44,
+          0.35,
+          0.54,
+          0.45
+        ]
+      },
+      {
+        "id": "img-nc-08",
+        "bbox_norm": [
+          0.44,
+          0.24,
+          0.57,
+          0.38
+        ]
+      }
+    ],
+    "kind": "observation + estimate",
+    "observation": "仅正面大拱窗、两对柱和下方厚檐；不是四面复制的大洞",
+    "decision": "中央拱窗11格宽，退后薄玻璃；拱后局部挑空，成对圆柱、突出檐口",
+    "uncertainty": "拱半径/柱径按比例离散化",
+    "parameters": [
+      "crown.arch_width",
+      "crown.arch_bottom",
+      "crown.arch_spring",
+      "crown.arch_top"
+    ],
+    "consumer": "Customs.crown / round_column",
+    "accept_views": [
+      "crown",
+      "crown_front"
+    ],
+    "status": "visually_checked"
+  },
+  {
+    "component_id": "clock",
+    "images": [
+      {
+        "id": "img-nc-07",
+        "bbox_norm": [
+          0.455,
+          0.22,
+          0.515,
+          0.34
+        ]
+      },
+      {
+        "id": "img-nc-11",
+        "bbox_norm": [
+          0.37,
+          0.001,
+          0.57,
+          0.21
+        ]
+      }
+    ],
+    "kind": "observation + completion",
+    "observation": "小方钟室、低矮弧顶、细针；斜视确认相邻两面钟",
+    "decision": "13格钟室、约9格离散表盘，四个主刻度与静态10:10；低弧顶与10格针",
+    "uncertainty": "另外两面表盘推定；没有在1格/米下强塞罗马数字，显示时间属展示设定",
+    "parameters": [
+      "crown.clock_center_xz",
+      "crown.clock_radius",
+      "crown.dial_radius",
+      "crown.dome_rise",
+      "crown.spire_base",
+      "crown.spire_top"
+    ],
+    "consumer": "Customs.crown",
+    "accept_views": [
+      "crown_front",
+      "crown",
+      "rear"
+    ],
+    "status": "visually_checked"
+  },
+  {
+    "component_id": "podium",
+    "images": [
+      {
+        "id": "img-nc-11",
+        "bbox_norm": [
+          0.03,
+          0.66,
+          0.95,
+          0.96
+        ]
+      }
+    ],
+    "kind": "observation + estimate",
+    "observation": "宽基座，侧背面多层窗墙、低层屋顶退台及两个暗色玻璃盒；绿屋面做法不明",
+    "decision": "22格低层、两个8格玻璃盒、局部侧拱窗和薄栏板；绿灰代理限于照片可见后侧屋面",
+    "uncertainty": "各面窗列及侧向装饰位置低证据，需用户视觉反馈",
+    "parameters": [
+      "podium.rect",
+      "podium.top",
+      "podium.glass_pavilions",
+      "podium.roof_surface",
+      "podium.side_arcades",
+      "podium.roof_tinted_regions"
+    ],
+    "consumer": "Customs.podium / shell_and_floors",
+    "accept_views": [
+      "podium_rear",
+      "top",
+      "ne_day",
+      "nw_day"
+    ],
+    "status": "visually_checked"
+  },
+  {
+    "component_id": "entrance",
+    "images": [
+      {
+        "id": "img-nc-01",
+        "bbox_norm": [
+          0.04,
+          0.26,
+          0.96,
+          0.98
+        ]
+      }
+    ],
+    "kind": "observation + estimate",
+    "observation": "双双圆柱、平檐、深凹玻璃门和台阶；无三角山花",
+    "decision": "四圆柱、6个半格踏步、凹入玻璃门、格栅吊顶及留空进门口",
+    "uncertainty": "缩尺未重现可读中国海关字样，柱径与大厅深度估算",
+    "parameters": [
+      "entrance.column_x",
+      "entrance.canopy_bottom",
+      "entrance.canopy_top"
+    ],
+    "consumer": "Customs.entrance / round_column",
+    "accept_views": [
+      "entrance",
+      "entrance_night"
+    ],
+    "status": "visually_checked"
+  },
+  {
+    "component_id": "lighting",
+    "images": [],
+    "kind": "proposal",
+    "observation": "没有取得可信同楼夜景；通用检索大量误命中沿江西路旧海关，排除",
+    "decision": "办公室以稳定房间ID作50%灭/25%荧石/25%海晶灯概率分配；实际数量另列，钟室和入口为固定灯",
+    "uncertainty": "不代表真实夜景，航空小红灯是比例试验",
+    "parameters": [
+      "lighting",
+      "seed"
+    ],
+    "consumer": "Customs.interiors → hafusion.lighting.first_clear_slot；入口与钟冠使用固定灯位",
+    "accept_views": [
+      "night",
+      "se_night",
+      "sw_night",
+      "ne_night",
+      "nw_night"
+    ],
+    "status": "visually_checked"
+  },
+  {
+    "component_id": "interior",
+    "images": [],
+    "kind": "proposal",
+    "observation": "无真实室内平面",
+    "decision": "完整楼板与局部窗后办公室、书架/工作台/盆栽，中央服务楼梯",
+    "uncertainty": "只保证局部表达，完整通行/消防/功能均未实测",
+    "parameters": [
+      "tower.floor_levels",
+      "podium.floor_levels",
+      "seed"
+    ],
+    "consumer": "Customs.interiors",
+    "accept_views": [
+      "section",
+      "facade"
+    ],
+    "status": "visually_checked"
+  }
+]

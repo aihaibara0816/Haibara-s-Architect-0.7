@@ -1,0 +1,57 @@
+{
+  "baseline": "R12",
+  "version": "R15",
+  "design_brief": {
+    "route": "original_local_revision",
+    "units": "Minecraft blocks",
+    "axes": "X east, Y up, Z south",
+    "changes": [
+      "connect tower and laboratory/training wing with three-storey podium",
+      "align north edge of utility pads at Z8",
+      "three footbridges with deck underside at Y18",
+      "replace yard poles/arms with flush light groups"
+    ],
+    "protected": [
+      "all main and independent track centre lines and Create data",
+      "120-block maintenance zones",
+      "tower above Y27",
+      "south campus buildings"
+    ]
+  },
+  "spatial_spec": {
+    "podium_floors_y": [
+      7,
+      13,
+      19
+    ],
+    "connection_bounds": [
+      104,
+      176,
+      120,
+      216
+    ],
+    "north_facility_front_z": 8,
+    "bridges_x": [
+      110,
+      198,
+      288
+    ],
+    "bridge_bottom_y": 18,
+    "bridge_foot_y": 19,
+    "rail_base_y": 7,
+    "vehicle_height_assumption": 7,
+    "vehicle_envelope_exclusive_top_y": 15,
+    "yard_lights_max_y": 6
+  },
+  "facade_spec": {
+    "podium": "continuous pale three-storey cornice, dark canopy, inset shared glazed foyer",
+    "tower": "approved upper tower retained"
+  },
+  "pending": [
+    "game vehicle collision",
+    "game lighting",
+    "automatic train operation"
+  ],
+  "source_nbt_sha256": "dfb2b477fa82fbc4134e681c1c86205d48c982fc594c7e9d2fa255472ce6d59e",
+  "engine_consumed": "case_specific build_depot + campus_r13_fragment + yard_r10_fragment"
+}

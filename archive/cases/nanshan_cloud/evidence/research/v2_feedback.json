@@ -1,0 +1,49 @@
+{
+  "case": "nanshan_cloud",
+  "baseline_run": "V1_r04",
+  "input_image": "images/user-001.png",
+  "input_sha256": "eedfd1042d2c7094128267001b2df9a9baecf1005bbf93d01bed47e6d7513307",
+  "user_requests": [
+    "平台占据立面过宽；楼高够，先集中收小露台",
+    "上面三层近似等宽，然后向下分级加宽",
+    "以后导出固定包含东南、西南、东北、西北四个 45 度方向"
+  ],
+  "observations": [
+    "原方案逐层等量收窄产生规则金字塔轮廓",
+    "新图和已有 img-022 支持中部窄平台与上部等宽段",
+    "地面有遮挡，不能由此单张照片重定整栋高度"
+  ],
+  "adopted": {
+    "height_and_main_prisms": "frozen V1",
+    "front_max_glazing_width": [
+      64,
+      50
+    ],
+    "front_ratio_to_72_block_tower_span": [
+      0.8888888888888888,
+      0.6944444444444444
+    ],
+    "front_profile_bottom_to_top": [
+      50,
+      44,
+      38,
+      32,
+      26,
+      26,
+      26
+    ],
+    "outward_projection_front_and_right": [
+      8,
+      5
+    ]
+  },
+  "consumers": [
+    "Cloud.mass_masks",
+    "Cloud.lightlines",
+    "hafusion.views.ensure_diagonal_views"
+  ],
+  "status": "implemented_V2_r01; offline checks and manual preview complete; user approval pending",
+  "north": null,
+  "output_nbt_sha256": "11cdb08cb2d0202fcb802ae0bd91648e523a74d5599349d5fe56b223bd288425",
+  "projection_note": "values refer to glazing footprint, not the additional one-block edge trim"
+}

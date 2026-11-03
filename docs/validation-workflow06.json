@@ -1,0 +1,255 @@
+{
+  "python": "3.12.14",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "--version"
+      ],
+      "exit_code": 0,
+      "result": "Haibara's Architect workflow 0.6.0"
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "demo",
+        "--runs-root",
+        "runs/release-validation",
+        "--run",
+        "demo-001"
+      ],
+      "exit_code": 0,
+      "result": {
+        "schema_version": "0.6",
+        "workflow_version": "0.6.0",
+        "run_id": "demo-001",
+        "created_utc": "2026-11-01T14:56:12.754320+00:00",
+        "state": "planned",
+        "request_sha256": "068ba390df76c5d0b6b47218c33883f5018a26db0f30d1e6c44bfa364a86b116",
+        "parent": null,
+        "validation": {
+          "contract": "pass",
+          "geometry": "pending_adapter",
+          "visual": "pending",
+          "game": "pending"
+        },
+        "generated_geometry": false,
+        "artifacts": [
+          {
+            "path": "handoff_plan.json",
+            "sha256": "733fd31b7d0ba7607314a68bc54820d1bd660e7b656ef721c920b210a0deaca6",
+            "bytes": 7307
+          },
+          {
+            "path": "request.json",
+            "sha256": "927160d67a975660e3fa36c69082858cb16a289ff09e9693028d4e69e87a093c",
+            "bytes": 5085
+          },
+          {
+            "path": "variation_plan.json",
+            "sha256": "0f4f11a952b2e7c5e48d950c200e09cc95eb52c4709df58b9b2abba9d6175cb3",
+            "bytes": 2677
+          }
+        ]
+      }
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "verify",
+        "--runs-root",
+        "runs/release-validation",
+        "--run",
+        "demo-001"
+      ],
+      "exit_code": 0,
+      "result": {
+        "status": "pass",
+        "run_id": "demo-001",
+        "artifacts_verified": 3,
+        "request_sha256": "068ba390df76c5d0b6b47218c33883f5018a26db0f30d1e6c44bfa364a86b116",
+        "generated_geometry": false,
+        "verification_scope": "content_rules_and_parent_lineage",
+        "source_authenticity": "not_verified",
+        "geometry_status": "pending_adapter",
+        "visual_status": "pending",
+        "game_status": "pending"
+      }
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "import-proposal",
+        "examples/workflow06/desk-proposal.json",
+        "--runs-root",
+        "runs/release-validation",
+        "--parent",
+        "demo-001",
+        "--run",
+        "revision-001"
+      ],
+      "exit_code": 0,
+      "result": {
+        "schema_version": "0.6",
+        "workflow_version": "0.6.0",
+        "run_id": "revision-001",
+        "created_utc": "2026-11-01T14:56:13.030681+00:00",
+        "state": "planned",
+        "request_sha256": "60c40b3224e4658575ebb9404d09c68309cbd17d5317fa8577f4fb717ec598b6",
+        "parent": {
+          "run_id": "demo-001",
+          "request_sha256": "068ba390df76c5d0b6b47218c33883f5018a26db0f30d1e6c44bfa364a86b116"
+        },
+        "validation": {
+          "contract": "pass",
+          "geometry": "pending_adapter",
+          "visual": "pending",
+          "game": "pending"
+        },
+        "generated_geometry": false,
+        "artifacts": [
+          {
+            "path": "handoff_plan.json",
+            "sha256": "4e0e8aadaddd317acbe6de22f2a292b17197ddb2cad1ab36f4f17ff1f3da6aca",
+            "bytes": 7309
+          },
+          {
+            "path": "model_proposal.json",
+            "sha256": "29915919781956f95b71617bd04ae4405ef9882130d545c7ddeccc9a1f1aeb5a",
+            "bytes": 641
+          },
+          {
+            "path": "request.json",
+            "sha256": "b38287b4c909a17f0df73da29220906971ce25efba6dc2c7bf3de2e93583955e",
+            "bytes": 5086
+          },
+          {
+            "path": "variation_plan.json",
+            "sha256": "0f4f11a952b2e7c5e48d950c200e09cc95eb52c4709df58b9b2abba9d6175cb3",
+            "bytes": 2677
+          }
+        ]
+      }
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "verify",
+        "--runs-root",
+        "runs/release-validation",
+        "--run",
+        "revision-001"
+      ],
+      "exit_code": 0,
+      "result": {
+        "status": "pass",
+        "run_id": "revision-001",
+        "artifacts_verified": 4,
+        "request_sha256": "60c40b3224e4658575ebb9404d09c68309cbd17d5317fa8577f4fb717ec598b6",
+        "generated_geometry": false,
+        "verification_scope": "content_rules_and_parent_lineage",
+        "source_authenticity": "not_verified",
+        "geometry_status": "pending_adapter",
+        "visual_status": "pending",
+        "game_status": "pending"
+      }
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "dispatch",
+        "examples/workflow06/model-call.json",
+        "--runs-root",
+        "runs/release-validation",
+        "--parent",
+        "demo-001"
+      ],
+      "exit_code": 0,
+      "result": {
+        "schema_version": "0.6",
+        "workflow_version": "0.6.0",
+        "run_id": "model-001",
+        "created_utc": "2026-11-01T14:56:13.330001+00:00",
+        "state": "planned",
+        "request_sha256": "60c40b3224e4658575ebb9404d09c68309cbd17d5317fa8577f4fb717ec598b6",
+        "parent": {
+          "run_id": "demo-001",
+          "request_sha256": "068ba390df76c5d0b6b47218c33883f5018a26db0f30d1e6c44bfa364a86b116"
+        },
+        "validation": {
+          "contract": "pass",
+          "geometry": "pending_adapter",
+          "visual": "pending",
+          "game": "pending"
+        },
+        "generated_geometry": false,
+        "artifacts": [
+          {
+            "path": "handoff_plan.json",
+            "sha256": "4e0e8aadaddd317acbe6de22f2a292b17197ddb2cad1ab36f4f17ff1f3da6aca",
+            "bytes": 7309
+          },
+          {
+            "path": "model_proposal.json",
+            "sha256": "29915919781956f95b71617bd04ae4405ef9882130d545c7ddeccc9a1f1aeb5a",
+            "bytes": 641
+          },
+          {
+            "path": "request.json",
+            "sha256": "b38287b4c909a17f0df73da29220906971ce25efba6dc2c7bf3de2e93583955e",
+            "bytes": 5086
+          },
+          {
+            "path": "variation_plan.json",
+            "sha256": "0f4f11a952b2e7c5e48d950c200e09cc95eb52c4709df58b9b2abba9d6175cb3",
+            "bytes": 2677
+          }
+        ]
+      }
+    },
+    {
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "verify",
+        "--runs-root",
+        "runs/release-validation",
+        "--run",
+        "model-001"
+      ],
+      "exit_code": 0,
+      "result": {
+        "status": "pass",
+        "run_id": "model-001",
+        "artifacts_verified": 4,
+        "request_sha256": "60c40b3224e4658575ebb9404d09c68309cbd17d5317fa8577f4fb717ec598b6",
+        "generated_geometry": false,
+        "verification_scope": "content_rules_and_parent_lineage",
+        "source_authenticity": "not_verified",
+        "geometry_status": "pending_adapter",
+        "visual_status": "pending",
+        "game_status": "pending"
+      }
+    }
+  ]
+}

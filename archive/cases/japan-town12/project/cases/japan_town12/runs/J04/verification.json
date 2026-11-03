@@ -1,0 +1,161 @@
+{
+  "source_nbt_sha256": "9f82d00fccb5dd7364dec2a441c481d0c6ac104d2fd6207cd1ed5850ffe2de00",
+  "checks": [
+    {
+      "name": "building_count_12",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "uses_7_residential_2_commercial_3_public",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "building_footprints_do_not_overlap",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "all_door_leaf_inside_outside_two_cell_clearance",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "stairs_2_wide_two_cell_clearance",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "three_cell_entry_paths_clear",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "occupied_floors_have_recessed_ceiling_lights",
+      "pass_": true,
+      "detail": [
+        [
+          "H01.F1",
+          2
+        ],
+        [
+          "H01.F2",
+          3
+        ],
+        [
+          "H02.F1",
+          2
+        ],
+        [
+          "H02.F2",
+          3
+        ],
+        [
+          "H03.F1",
+          2
+        ],
+        [
+          "H03.F2",
+          3
+        ],
+        [
+          "H04.F1",
+          2
+        ],
+        [
+          "H04.F2",
+          3
+        ],
+        [
+          "H05.F1",
+          2
+        ],
+        [
+          "H05.F2",
+          3
+        ],
+        [
+          "H06.F1",
+          2
+        ],
+        [
+          "H06.F2",
+          3
+        ],
+        [
+          "H07.F1",
+          2
+        ],
+        [
+          "H07.F2",
+          3
+        ],
+        [
+          "S01.F1",
+          2
+        ],
+        [
+          "S01.F2",
+          3
+        ],
+        [
+          "S02.F1",
+          2
+        ],
+        [
+          "S02.F2",
+          3
+        ],
+        [
+          "P01.F1",
+          3
+        ],
+        [
+          "P02.F1",
+          3
+        ],
+        [
+          "P03.F1",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "drain_water_has_bottom_and_side_containment",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "registered_vanilla_blockstates",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "ground_plants_supported",
+      "pass_": true,
+      "detail": 47
+    },
+    {
+      "name": "entry_paths_have_support",
+      "pass_": false,
+      "detail": [
+        [
+          60,
+          7,
+          22
+        ]
+      ]
+    }
+  ],
+  "block_count": 192043,
+  "file_status": "readback exact in build exporter",
+  "geometry": "fail",
+  "preview": "pending",
+  "game": "pending; client not run",
+  "limitations": [
+    "Door opening, stair collision and entity interactions need game test",
+    "Furniture, cars, vending machines decorative",
+    "Water containment is voxel enclosure only"
+  ]
+}

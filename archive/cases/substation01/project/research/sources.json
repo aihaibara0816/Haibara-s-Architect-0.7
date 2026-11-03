@@ -1,0 +1,31 @@
+[
+  {
+    "id": "HE_AIS",
+    "url": "https://www.hitachienergy.com/products-and-solutions/substations/ais-substations",
+    "used": "AIS yard as independent components, industrial/railway supply application; manufacturer text read",
+    "status": "read_text"
+  },
+  {
+    "id": "PL_INFRA",
+    "url": "https://www.powerlink.com.au/our-infrastructure",
+    "used": "transformer, switches, instrument transformers, busbars, control-building roles; three phase tower vocabulary",
+    "status": "read_text"
+  },
+  {
+    "id": "NG_LAYOUT",
+    "url": "https://www.nationalgrid.com/electricity-transmission/substation-configuration-and-build-types",
+    "used": "open-air switchyard vs enclosed GIS; not applying UK connection rules to this fictional station",
+    "status": "read_text"
+  },
+  {
+    "id": "JICA_S3",
+    "url": "https://openjicareport.jica.go.jp/pdf/12360541_02.pdf",
+    "used": "main-transformer form, outdoor yard equipment, control panels and functional groups; different voltage classes are not copied",
+    "status": "PDF physical pages 72 and 86 rendered and visually reviewed",
+    "visual_observations": [
+      "Tall porcelain bushings, radiator banks, horizontal cylindrical conservator, raised transformer foundations and perimeter containment",
+      "Lattice outdoor support structures and spaced vertical switchgear on stone yard",
+      "Repeated cabinet fronts and clear operating aisle in control-panel room"
+    ]
+  }
+]

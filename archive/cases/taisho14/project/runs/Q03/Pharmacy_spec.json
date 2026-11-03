@@ -1,0 +1,1500 @@
+{
+  "case_id": "Pharmacy",
+  "run": "Q03",
+  "seed": 141145,
+  "buildings": [
+    {
+      "id": "Pharmacy",
+      "name": "白鷺薬局｜转角洋式药局",
+      "size": [
+        34,
+        28,
+        36
+      ],
+      "floors": [
+        2,
+        8
+      ],
+      "entry": [
+        25,
+        3,
+        22
+      ],
+      "rooms": [
+        {
+          "id": "Pharmacy.retail",
+          "name": "陈列、咨询与等候",
+          "bounds": [
+            7,
+            3,
+            15,
+            26,
+            7,
+            27
+          ],
+          "floor_y": 3,
+          "capacity": 8,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Pharmacy.prep",
+          "name": "调配、柜台、药柜",
+          "bounds": [
+            10,
+            3,
+            6,
+            27,
+            7,
+            14
+          ],
+          "floor_y": 3,
+          "capacity": 3,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Pharmacy.office",
+          "name": "账房与资料",
+          "bounds": [
+            9,
+            9,
+            6,
+            18,
+            13,
+            27
+          ],
+          "floor_y": 9,
+          "capacity": 3,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Pharmacy.stock",
+          "name": "分类储藏",
+          "bounds": [
+            19,
+            9,
+            6,
+            27,
+            13,
+            17
+          ],
+          "floor_y": 9,
+          "capacity": 1,
+          "evidence": "adapted"
+        },
+        {
+          "id": "Pharmacy.rest",
+          "name": "店主休息",
+          "bounds": [
+            20,
+            9,
+            19,
+            27,
+            13,
+            27
+          ],
+          "floor_y": 9,
+          "capacity": 2,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Pharmacy.stairs.bottom",
+          "pos": [
+            6,
+            3,
+            14
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.stairs.top",
+          "pos": [
+            6,
+            9,
+            7
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Pharmacy.entry",
+          "pos": [
+            25,
+            3,
+            23
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.shop",
+          "pos": [
+            16,
+            3,
+            21
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.service",
+          "pos": [
+            19,
+            3,
+            13
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.prep",
+          "pos": [
+            22,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Pharmacy.office",
+          "pos": [
+            16,
+            9,
+            21
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Pharmacy.stock",
+          "pos": [
+            22,
+            9,
+            15
+          ],
+          "floor_block_y": 8
+        },
+        {
+          "id": "Pharmacy.bed",
+          "pos": [
+            24,
+            9,
+            22
+          ],
+          "floor_block_y": 8
+        }
+      ],
+      "doors": [
+        {
+          "id": "Pharmacy.door.0",
+          "pos": [
+            25,
+            3,
+            22
+          ],
+          "lintel": [
+            25,
+            5,
+            22
+          ],
+          "facing": "south"
+        },
+        {
+          "id": "Pharmacy.door.1",
+          "pos": [
+            22,
+            3,
+            25
+          ],
+          "lintel": [
+            22,
+            5,
+            25
+          ],
+          "facing": "east"
+        },
+        {
+          "id": "Pharmacy.door.2",
+          "pos": [
+            22,
+            9,
+            17
+          ],
+          "lintel": [
+            22,
+            11,
+            17
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            15,
+            6,
+            17
+          ],
+          "support": [
+            15,
+            7,
+            17
+          ]
+        },
+        {
+          "position": [
+            22,
+            6,
+            20
+          ],
+          "support": [
+            22,
+            7,
+            20
+          ]
+        },
+        {
+          "position": [
+            18,
+            6,
+            9
+          ],
+          "support": [
+            18,
+            7,
+            9
+          ]
+        },
+        {
+          "position": [
+            9,
+            6,
+            22
+          ],
+          "support": [
+            9,
+            7,
+            22
+          ]
+        },
+        {
+          "position": [
+            8,
+            6,
+            15
+          ],
+          "support": [
+            8,
+            7,
+            15
+          ]
+        },
+        {
+          "position": [
+            12,
+            12,
+            20
+          ],
+          "support": [
+            12,
+            13,
+            20
+          ]
+        },
+        {
+          "position": [
+            13,
+            12,
+            8
+          ],
+          "support": [
+            13,
+            13,
+            8
+          ]
+        },
+        {
+          "position": [
+            22,
+            12,
+            12
+          ],
+          "support": [
+            22,
+            13,
+            12
+          ]
+        },
+        {
+          "position": [
+            24,
+            12,
+            23
+          ],
+          "support": [
+            24,
+            13,
+            23
+          ]
+        },
+        {
+          "position": [
+            25,
+            6,
+            25
+          ],
+          "support": [
+            25,
+            7,
+            25
+          ]
+        }
+      ],
+      "stairs": [
+        [
+          [
+            6.5,
+            3,
+            14.5
+          ],
+          [
+            6.5,
+            3,
+            14.375
+          ],
+          [
+            6.5,
+            3,
+            14.25
+          ],
+          [
+            6.5,
+            3,
+            14.125
+          ],
+          [
+            6.5,
+            3,
+            14.0
+          ],
+          [
+            6.5,
+            3,
+            13.875
+          ],
+          [
+            6.5,
+            3,
+            13.75
+          ],
+          [
+            6.5,
+            3,
+            13.625
+          ],
+          [
+            6.5,
+            3,
+            13.5
+          ],
+          [
+            6.5,
+            3,
+            13.375
+          ],
+          [
+            6.5,
+            3,
+            13.25
+          ],
+          [
+            6.5,
+            3,
+            13.125
+          ],
+          [
+            6.5,
+            3,
+            13.0
+          ],
+          [
+            6.5,
+            3,
+            12.875
+          ],
+          [
+            6.5,
+            3,
+            12.75
+          ],
+          [
+            6.5,
+            3,
+            12.625
+          ],
+          [
+            6.5,
+            3,
+            12.5
+          ],
+          [
+            6.5,
+            3,
+            12.375
+          ],
+          [
+            6.5,
+            3,
+            12.25
+          ],
+          [
+            6.5,
+            3,
+            12.125
+          ],
+          [
+            6.5,
+            3,
+            12.0
+          ],
+          [
+            6.5,
+            3,
+            11.875
+          ],
+          [
+            6.5,
+            3,
+            11.75
+          ],
+          [
+            6.5,
+            3,
+            11.625
+          ],
+          [
+            6.5,
+            3,
+            11.5
+          ],
+          [
+            6.5,
+            3,
+            11.375
+          ],
+          [
+            6.5,
+            3,
+            11.25
+          ],
+          [
+            6.5,
+            3,
+            11.125
+          ],
+          [
+            6.5,
+            3,
+            11.0
+          ],
+          [
+            6.5,
+            3,
+            10.875
+          ],
+          [
+            6.5,
+            3,
+            10.75
+          ],
+          [
+            6.5,
+            3,
+            10.625
+          ],
+          [
+            6.5,
+            3,
+            10.5
+          ],
+          [
+            6.5,
+            3,
+            10.375
+          ],
+          [
+            6.5,
+            3,
+            10.25
+          ],
+          [
+            6.5,
+            3,
+            10.125
+          ],
+          [
+            6.5,
+            3,
+            10.0
+          ],
+          [
+            6.5,
+            3,
+            9.875
+          ],
+          [
+            6.5,
+            3,
+            9.75
+          ],
+          [
+            6.5,
+            3,
+            9.625
+          ],
+          [
+            6.5,
+            3,
+            9.5
+          ],
+          [
+            6.5,
+            3,
+            9.375
+          ],
+          [
+            6.5,
+            3,
+            9.25
+          ],
+          [
+            6.5,
+            3,
+            9.125
+          ],
+          [
+            6.5,
+            3,
+            9.0
+          ],
+          [
+            6.5,
+            3,
+            8.875
+          ],
+          [
+            6.5,
+            3,
+            8.75
+          ],
+          [
+            6.5,
+            3,
+            8.625
+          ],
+          [
+            6.5,
+            3,
+            8.5
+          ],
+          [
+            6.5,
+            3,
+            8.375
+          ],
+          [
+            6.5,
+            3,
+            8.25
+          ],
+          [
+            6.5,
+            3,
+            8.125
+          ],
+          [
+            6.5,
+            3,
+            8.0
+          ],
+          [
+            6.5,
+            3,
+            7.875
+          ],
+          [
+            6.5,
+            3,
+            7.75
+          ],
+          [
+            6.5,
+            3,
+            7.625
+          ],
+          [
+            6.5,
+            3,
+            7.5
+          ]
+        ]
+      ],
+      "groups": [
+        {
+          "id": "Pharmacy.preparation.dining_table.17_1_9",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            17,
+            3,
+            9,
+            21,
+            4,
+            10
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.sink.water_basin.24_1_6",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            24,
+            3,
+            6,
+            25,
+            4,
+            7
+          ],
+          "use_points": [
+            [
+              24,
+              3,
+              7
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.display.dining_table.10_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            3,
+            19,
+            14,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.display.dining_table.18_1_19",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            18,
+            3,
+            19,
+            22,
+            4,
+            20
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.consult.dining_table.7_1_18",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            7,
+            3,
+            18,
+            8,
+            4,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.chair.seat.7_1_20",
+          "recipe": "seat",
+          "bounds_xyz": [
+            7,
+            3,
+            20,
+            8,
+            4,
+            21
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.office.dining_table.10_1_20",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            10,
+            9,
+            20,
+            15,
+            10,
+            22
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.chair.seat.12_1_18",
+          "recipe": "seat",
+          "bounds_xyz": [
+            12,
+            9,
+            18,
+            13,
+            10,
+            19
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.chair.seat.11_1_23",
+          "recipe": "seat",
+          "bounds_xyz": [
+            11,
+            9,
+            23,
+            12,
+            10,
+            24
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.records.bookshelf_group.10_1_6",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            10,
+            9,
+            6,
+            17,
+            13,
+            7
+          ],
+          "use_points": [
+            [
+              10,
+              9,
+              7
+            ],
+            [
+              11,
+              9,
+              7
+            ],
+            [
+              12,
+              9,
+              7
+            ],
+            [
+              13,
+              9,
+              7
+            ],
+            [
+              14,
+              9,
+              7
+            ],
+            [
+              15,
+              9,
+              7
+            ],
+            [
+              16,
+              9,
+              7
+            ]
+          ],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Pharmacy.bed.bed.22_1_21",
+          "recipe": "bed",
+          "bounds_xyz": [
+            22,
+            9,
+            21,
+            23,
+            10,
+            23
+          ],
+          "use_points": [
+            [
+              23,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.bed.bed.23_1_21",
+          "recipe": "bed",
+          "bounds_xyz": [
+            23,
+            9,
+            21,
+            24,
+            10,
+            23
+          ],
+          "use_points": [
+            [
+              24,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.linen.storage_container.26_1_21",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            26,
+            9,
+            21,
+            27,
+            10,
+            22
+          ],
+          "use_points": [
+            [
+              26,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.linen.storage_container.26_2_21",
+          "recipe": "storage_container",
+          "bounds_xyz": [
+            26,
+            10,
+            21,
+            27,
+            11,
+            22
+          ],
+          "use_points": [
+            [
+              26,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Pharmacy.linen.storage_wall.26_1_21",
+          "recipe": "storage_wall",
+          "bounds_xyz": [
+            26,
+            9,
+            21,
+            27,
+            12,
+            22
+          ],
+          "use_points": [
+            [
+              26,
+              9,
+              22
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        }
+      ],
+      "sources": [
+        "Murakami1928",
+        "Dekiru-pharmacy"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotated_180": false,
+      "entry_world": [
+        62,
+        13,
+        67
+      ],
+      "upper_start": [
+        6,
+        7
+      ],
+      "street_row": 0
+    }
+  ],
+  "uses": [
+    {
+      "id": "Pharmacy.stairs.bottom",
+      "pos": [
+        6,
+        3,
+        14
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Pharmacy.stairs.top",
+      "pos": [
+        6,
+        9,
+        7
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Pharmacy.entry",
+      "pos": [
+        25,
+        3,
+        23
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Pharmacy.shop",
+      "pos": [
+        16,
+        3,
+        21
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Pharmacy.service",
+      "pos": [
+        19,
+        3,
+        13
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Pharmacy.prep",
+      "pos": [
+        22,
+        3,
+        9
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Pharmacy.office",
+      "pos": [
+        16,
+        9,
+        21
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Pharmacy.stock",
+      "pos": [
+        22,
+        9,
+        15
+      ],
+      "floor_block_y": 8
+    },
+    {
+      "id": "Pharmacy.bed",
+      "pos": [
+        24,
+        9,
+        22
+      ],
+      "floor_block_y": 8
+    }
+  ],
+  "doors": [
+    {
+      "id": "Pharmacy.door.0",
+      "pos": [
+        25,
+        3,
+        22
+      ],
+      "lintel": [
+        25,
+        5,
+        22
+      ],
+      "facing": "south"
+    },
+    {
+      "id": "Pharmacy.door.1",
+      "pos": [
+        22,
+        3,
+        25
+      ],
+      "lintel": [
+        22,
+        5,
+        25
+      ],
+      "facing": "east"
+    },
+    {
+      "id": "Pharmacy.door.2",
+      "pos": [
+        22,
+        9,
+        17
+      ],
+      "lintel": [
+        22,
+        11,
+        17
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        15,
+        6,
+        17
+      ],
+      "support": [
+        15,
+        7,
+        17
+      ]
+    },
+    {
+      "position": [
+        22,
+        6,
+        20
+      ],
+      "support": [
+        22,
+        7,
+        20
+      ]
+    },
+    {
+      "position": [
+        18,
+        6,
+        9
+      ],
+      "support": [
+        18,
+        7,
+        9
+      ]
+    },
+    {
+      "position": [
+        9,
+        6,
+        22
+      ],
+      "support": [
+        9,
+        7,
+        22
+      ]
+    },
+    {
+      "position": [
+        8,
+        6,
+        15
+      ],
+      "support": [
+        8,
+        7,
+        15
+      ]
+    },
+    {
+      "position": [
+        12,
+        12,
+        20
+      ],
+      "support": [
+        12,
+        13,
+        20
+      ]
+    },
+    {
+      "position": [
+        13,
+        12,
+        8
+      ],
+      "support": [
+        13,
+        13,
+        8
+      ]
+    },
+    {
+      "position": [
+        22,
+        12,
+        12
+      ],
+      "support": [
+        22,
+        13,
+        12
+      ]
+    },
+    {
+      "position": [
+        24,
+        12,
+        23
+      ],
+      "support": [
+        24,
+        13,
+        23
+      ]
+    },
+    {
+      "position": [
+        25,
+        6,
+        25
+      ],
+      "support": [
+        25,
+        7,
+        25
+      ]
+    }
+  ],
+  "stairs": [
+    [
+      [
+        6.5,
+        3,
+        14.5
+      ],
+      [
+        6.5,
+        3,
+        14.375
+      ],
+      [
+        6.5,
+        3,
+        14.25
+      ],
+      [
+        6.5,
+        3,
+        14.125
+      ],
+      [
+        6.5,
+        3,
+        14.0
+      ],
+      [
+        6.5,
+        3,
+        13.875
+      ],
+      [
+        6.5,
+        3,
+        13.75
+      ],
+      [
+        6.5,
+        3,
+        13.625
+      ],
+      [
+        6.5,
+        3,
+        13.5
+      ],
+      [
+        6.5,
+        3,
+        13.375
+      ],
+      [
+        6.5,
+        3,
+        13.25
+      ],
+      [
+        6.5,
+        3,
+        13.125
+      ],
+      [
+        6.5,
+        3,
+        13.0
+      ],
+      [
+        6.5,
+        3,
+        12.875
+      ],
+      [
+        6.5,
+        3,
+        12.75
+      ],
+      [
+        6.5,
+        3,
+        12.625
+      ],
+      [
+        6.5,
+        3,
+        12.5
+      ],
+      [
+        6.5,
+        3,
+        12.375
+      ],
+      [
+        6.5,
+        3,
+        12.25
+      ],
+      [
+        6.5,
+        3,
+        12.125
+      ],
+      [
+        6.5,
+        3,
+        12.0
+      ],
+      [
+        6.5,
+        3,
+        11.875
+      ],
+      [
+        6.5,
+        3,
+        11.75
+      ],
+      [
+        6.5,
+        3,
+        11.625
+      ],
+      [
+        6.5,
+        3,
+        11.5
+      ],
+      [
+        6.5,
+        3,
+        11.375
+      ],
+      [
+        6.5,
+        3,
+        11.25
+      ],
+      [
+        6.5,
+        3,
+        11.125
+      ],
+      [
+        6.5,
+        3,
+        11.0
+      ],
+      [
+        6.5,
+        3,
+        10.875
+      ],
+      [
+        6.5,
+        3,
+        10.75
+      ],
+      [
+        6.5,
+        3,
+        10.625
+      ],
+      [
+        6.5,
+        3,
+        10.5
+      ],
+      [
+        6.5,
+        3,
+        10.375
+      ],
+      [
+        6.5,
+        3,
+        10.25
+      ],
+      [
+        6.5,
+        3,
+        10.125
+      ],
+      [
+        6.5,
+        3,
+        10.0
+      ],
+      [
+        6.5,
+        3,
+        9.875
+      ],
+      [
+        6.5,
+        3,
+        9.75
+      ],
+      [
+        6.5,
+        3,
+        9.625
+      ],
+      [
+        6.5,
+        3,
+        9.5
+      ],
+      [
+        6.5,
+        3,
+        9.375
+      ],
+      [
+        6.5,
+        3,
+        9.25
+      ],
+      [
+        6.5,
+        3,
+        9.125
+      ],
+      [
+        6.5,
+        3,
+        9.0
+      ],
+      [
+        6.5,
+        3,
+        8.875
+      ],
+      [
+        6.5,
+        3,
+        8.75
+      ],
+      [
+        6.5,
+        3,
+        8.625
+      ],
+      [
+        6.5,
+        3,
+        8.5
+      ],
+      [
+        6.5,
+        3,
+        8.375
+      ],
+      [
+        6.5,
+        3,
+        8.25
+      ],
+      [
+        6.5,
+        3,
+        8.125
+      ],
+      [
+        6.5,
+        3,
+        8.0
+      ],
+      [
+        6.5,
+        3,
+        7.875
+      ],
+      [
+        6.5,
+        3,
+        7.75
+      ],
+      [
+        6.5,
+        3,
+        7.625
+      ],
+      [
+        6.5,
+        3,
+        7.5
+      ]
+    ]
+  ],
+  "spawn_local": [
+    25,
+    3,
+    23
+  ],
+  "upper_start": [
+    6,
+    7
+  ],
+  "source_nbt_sha256": "a3ffc910ebcdbd54e82c5ee0f45c28d0ef538976e55c9fbe8fd609632302e4b9",
+  "non_air": 7490,
+  "size_xyz": [
+    34,
+    28,
+    36
+  ],
+  "block_entities": 78,
+  "entities": 3
+}

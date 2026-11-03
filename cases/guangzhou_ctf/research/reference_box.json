@@ -1,0 +1,43 @@
+{
+  "status": "multi-view evidence organization; not calibrated camera recovery or image stitching",
+  "groups": {
+    "overall": [
+      "P00",
+      "P02",
+      "P03",
+      "A238165",
+      "A238168",
+      "A238174"
+    ],
+    "facade": [
+      "N02",
+      "N03",
+      "N05"
+    ],
+    "plan_and_height": [
+      "A238176",
+      "A238177",
+      "A238179",
+      "A238180",
+      "A238181",
+      "A238182",
+      "A238185"
+    ],
+    "base_and_bridge": [
+      "N04",
+      "A238170",
+      "A238172",
+      "A238173"
+    ],
+    "night": [
+      "P06"
+    ]
+  },
+  "geographic_north": null,
+  "excluded_as_duplicate": [
+    "N02 duplicates P04 raw bytes",
+    "N04 duplicates P05 raw bytes",
+    "A238179 duplicates N07 raw bytes"
+  ],
+  "old_four_image_upload_limit_applies": false
+}

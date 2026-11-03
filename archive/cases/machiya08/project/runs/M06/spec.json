@@ -1,0 +1,1241 @@
+{
+  "case_id": "Machiya08",
+  "run": "M06",
+  "title": "日和小食 · 老式日式町屋",
+  "mainline": "HAF 0.4",
+  "seed": 1145,
+  "algorithm": "machiya08.3-understair",
+  "size_xyz": [
+    34,
+    21,
+    34
+  ],
+  "floor_blocks": [
+    2,
+    7
+  ],
+  "building_bounds": [
+    7,
+    2,
+    7,
+    24,
+    18,
+    23
+  ],
+  "doors": [
+    {
+      "id": "stairs.entry.2",
+      "pos": [
+        11,
+        3,
+        17
+      ],
+      "facing": "south",
+      "lintel": [
+        11,
+        5,
+        17
+      ]
+    },
+    {
+      "id": "stairs.entry.7",
+      "pos": [
+        11,
+        8,
+        17
+      ],
+      "facing": "south",
+      "lintel": [
+        11,
+        10,
+        17
+      ]
+    },
+    {
+      "id": "bath.door",
+      "pos": [
+        21,
+        3,
+        12
+      ],
+      "facing": "south",
+      "lintel": [
+        21,
+        5,
+        12
+      ]
+    },
+    {
+      "id": "kitchen.pass",
+      "pos": [
+        17,
+        3,
+        13
+      ],
+      "facing": "south",
+      "lintel": [
+        17,
+        5,
+        13
+      ]
+    },
+    {
+      "id": "entry.main",
+      "pos": [
+        16,
+        3,
+        22
+      ],
+      "facing": "south",
+      "lintel": [
+        16,
+        5,
+        22
+      ]
+    },
+    {
+      "id": "entry.side",
+      "pos": [
+        23,
+        3,
+        19
+      ],
+      "facing": "east",
+      "lintel": [
+        23,
+        5,
+        19
+      ]
+    },
+    {
+      "id": "entry.garden",
+      "pos": [
+        15,
+        3,
+        7
+      ],
+      "facing": "north",
+      "lintel": [
+        15,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "bedroom.door",
+      "pos": [
+        17,
+        8,
+        15
+      ],
+      "facing": "south",
+      "lintel": [
+        17,
+        10,
+        15
+      ]
+    }
+  ],
+  "use_points": [
+    {
+      "id": "stairs.start.2",
+      "pos": [
+        8,
+        3,
+        16
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "stairs.start.7",
+      "pos": [
+        8,
+        8,
+        16
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "G.bar_storage",
+      "pos": [
+        17,
+        3,
+        16
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.main",
+      "pos": [
+        16,
+        3,
+        21
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.side",
+      "pos": [
+        22,
+        3,
+        19
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.garden",
+      "pos": [
+        15,
+        3,
+        8
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.stove",
+      "pos": [
+        14,
+        3,
+        9
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.sink",
+      "pos": [
+        16,
+        3,
+        9
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.stock",
+      "pos": [
+        18,
+        3,
+        9
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.counter",
+      "pos": [
+        17,
+        3,
+        15
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.counter_customer",
+      "pos": [
+        15,
+        3,
+        17
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.table_west",
+      "pos": [
+        11,
+        3,
+        20
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.table_east",
+      "pos": [
+        22,
+        3,
+        20
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.return",
+      "pos": [
+        21,
+        3,
+        16
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.wc_sink",
+      "pos": [
+        20,
+        3,
+        10
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.wc_toilet",
+      "pos": [
+        22,
+        3,
+        10
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "U.landing",
+      "pos": [
+        11,
+        8,
+        16
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.bedroom_entry",
+      "pos": [
+        17,
+        8,
+        14
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.bed_left",
+      "pos": [
+        15,
+        8,
+        10
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.bed_right",
+      "pos": [
+        18,
+        8,
+        10
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.wardrobe",
+      "pos": [
+        20,
+        8,
+        10
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.desk",
+      "pos": [
+        20,
+        8,
+        12
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.sofa",
+      "pos": [
+        20,
+        8,
+        20
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.tea",
+      "pos": [
+        19,
+        8,
+        19
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.study",
+      "pos": [
+        11,
+        8,
+        19
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.books",
+      "pos": [
+        9,
+        8,
+        20
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "U.storage",
+      "pos": [
+        11,
+        8,
+        21
+      ],
+      "floor_block_y": 7
+    },
+    {
+      "id": "garden.path",
+      "pos": [
+        17,
+        3,
+        5
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "garden.basin",
+      "pos": [
+        20,
+        3,
+        5
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.landing_stock",
+      "pos": [
+        11,
+        3,
+        10
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.under_stair_stock",
+      "pos": [
+        11,
+        3,
+        16
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.drinks",
+      "pos": [
+        20,
+        3,
+        14
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.return_linen",
+      "pos": [
+        22,
+        3,
+        14
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.prep_strip",
+      "pos": [
+        15,
+        3,
+        11
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.pantry_strip",
+      "pos": [
+        17,
+        3,
+        11
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.understair_rear",
+      "pos": [
+        11,
+        3,
+        13
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.understair_shelf",
+      "pos": [
+        11,
+        3,
+        14
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "G.understair_counter",
+      "pos": [
+        11,
+        3,
+        15
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "plants": [
+    {
+      "id": "front.high",
+      "anchor": [
+        9,
+        4,
+        24
+      ],
+      "support": [
+        9,
+        3,
+        24
+      ],
+      "state": "potted_fern"
+    },
+    {
+      "id": "front.low",
+      "anchor": [
+        10,
+        4,
+        25
+      ],
+      "support": [
+        10,
+        3,
+        25
+      ],
+      "state": "potted_flowering_azalea_bush"
+    },
+    {
+      "id": "service.plant",
+      "anchor": [
+        22,
+        4,
+        17
+      ],
+      "support": [
+        22,
+        3,
+        17
+      ],
+      "state": "potted_fern"
+    },
+    {
+      "id": "desk",
+      "anchor": [
+        22,
+        9,
+        13
+      ],
+      "support": [
+        22,
+        8,
+        13
+      ],
+      "state": "potted_flowering_azalea_bush"
+    },
+    {
+      "id": "alcove",
+      "anchor": [
+        14,
+        9,
+        21
+      ],
+      "support": [
+        14,
+        8,
+        21
+      ],
+      "state": "potted_bamboo"
+    },
+    {
+      "id": "bedside",
+      "anchor": [
+        18,
+        9,
+        9
+      ],
+      "support": [
+        18,
+        8,
+        9
+      ],
+      "state": "potted_flowering_azalea_bush"
+    },
+    {
+      "id": "study.plant",
+      "anchor": [
+        9,
+        9,
+        19
+      ],
+      "support": [
+        9,
+        8,
+        19
+      ],
+      "state": "potted_bamboo"
+    },
+    {
+      "id": "garden.9.4",
+      "anchor": [
+        9,
+        3,
+        4
+      ],
+      "height": 2,
+      "support": [
+        9,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "garden.11.3",
+      "anchor": [
+        11,
+        3,
+        3
+      ],
+      "height": 2,
+      "support": [
+        11,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "garden.12.5",
+      "anchor": [
+        12,
+        3,
+        5
+      ],
+      "height": 4,
+      "support": [
+        12,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "garden.low",
+      "anchor": [
+        21,
+        4,
+        3
+      ],
+      "support": [
+        21,
+        3,
+        3
+      ],
+      "state": "potted_fern"
+    },
+    {
+      "id": "sofa.tall",
+      "anchor": [
+        22,
+        8,
+        18
+      ],
+      "support": [
+        22,
+        7,
+        18
+      ],
+      "height": 3
+    },
+    {
+      "id": "landing.stock",
+      "anchor": [
+        12,
+        4,
+        9
+      ],
+      "support": [
+        12,
+        3,
+        9
+      ],
+      "state": "potted_fern"
+    },
+    {
+      "id": "entry.shoes",
+      "anchor": [
+        12,
+        4,
+        21
+      ],
+      "support": [
+        12,
+        3,
+        21
+      ],
+      "state": "potted_fern"
+    },
+    {
+      "id": "kitchen.herb",
+      "anchor": [
+        14,
+        5,
+        12
+      ],
+      "support": [
+        14,
+        4,
+        12
+      ],
+      "state": "potted_flowering_azalea_bush"
+    }
+  ],
+  "lights": [
+    {
+      "id": "stairs.light.2",
+      "position": [
+        10,
+        5,
+        8
+      ],
+      "support": [
+        10,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "stairs.light.7",
+      "position": [
+        10,
+        10,
+        8
+      ],
+      "support": [
+        10,
+        11,
+        8
+      ]
+    },
+    {
+      "id": "entry.lantern.13",
+      "position": [
+        13,
+        5,
+        24
+      ],
+      "support": [
+        13,
+        6,
+        24
+      ]
+    },
+    {
+      "id": "entry.lantern.19",
+      "position": [
+        19,
+        5,
+        24
+      ],
+      "support": [
+        19,
+        6,
+        24
+      ]
+    },
+    {
+      "id": "shop.lantern.16.10",
+      "position": [
+        16,
+        5,
+        10
+      ],
+      "support": [
+        16,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "shop.lantern.21.10",
+      "position": [
+        21,
+        5,
+        10
+      ],
+      "support": [
+        21,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "shop.lantern.16.18",
+      "position": [
+        16,
+        5,
+        18
+      ],
+      "support": [
+        16,
+        6,
+        18
+      ]
+    },
+    {
+      "id": "shop.lantern.10.21",
+      "position": [
+        10,
+        5,
+        21
+      ],
+      "support": [
+        10,
+        6,
+        21
+      ]
+    },
+    {
+      "id": "shop.lantern.21.21",
+      "position": [
+        21,
+        5,
+        21
+      ],
+      "support": [
+        21,
+        6,
+        21
+      ]
+    },
+    {
+      "id": "bedside",
+      "position": [
+        15,
+        9,
+        9
+      ],
+      "support": [
+        15,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "home.lantern.17.11",
+      "position": [
+        17,
+        10,
+        11
+      ],
+      "support": [
+        17,
+        11,
+        11
+      ]
+    },
+    {
+      "id": "home.lantern.21.11",
+      "position": [
+        21,
+        10,
+        11
+      ],
+      "support": [
+        21,
+        11,
+        11
+      ]
+    },
+    {
+      "id": "home.lantern.17.18",
+      "position": [
+        17,
+        10,
+        18
+      ],
+      "support": [
+        17,
+        11,
+        18
+      ]
+    },
+    {
+      "id": "home.lantern.10.18",
+      "position": [
+        10,
+        10,
+        18
+      ],
+      "support": [
+        10,
+        11,
+        18
+      ]
+    },
+    {
+      "id": "home.lantern.20.21",
+      "position": [
+        20,
+        10,
+        21
+      ],
+      "support": [
+        20,
+        11,
+        21
+      ]
+    },
+    {
+      "id": "garden",
+      "position": [
+        19,
+        4,
+        3
+      ],
+      "support": [
+        19,
+        3,
+        3
+      ]
+    },
+    {
+      "id": "understair.task_lamp",
+      "position": [
+        12,
+        5,
+        15
+      ],
+      "support": [
+        12,
+        6,
+        15
+      ]
+    }
+  ],
+  "stairs": [
+    {
+      "floor": 2,
+      "rise": 5,
+      "id": "main_stair",
+      "lower_x": 8.5,
+      "upper_x": 11.5,
+      "start_z": 16.5,
+      "turn_z": 12.5,
+      "end_z": 16.5
+    }
+  ],
+  "floor_starts": {
+    "2": [
+      16,
+      24
+    ],
+    "7": [
+      11,
+      16
+    ]
+  },
+  "rooms": [
+    {
+      "id": "shop",
+      "name": "居酒屋客席与吧台",
+      "floor": 2,
+      "bounds": [
+        8,
+        14,
+        23,
+        22
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "后厨",
+      "floor": 2,
+      "bounds": [
+        14,
+        8,
+        19,
+        13
+      ]
+    },
+    {
+      "id": "bath",
+      "name": "卫浴",
+      "floor": 2,
+      "bounds": [
+        20,
+        8,
+        23,
+        12
+      ]
+    },
+    {
+      "id": "bed",
+      "name": "起居卧室",
+      "floor": 7,
+      "bounds": [
+        14,
+        8,
+        23,
+        15
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "茶席与沙发",
+      "floor": 7,
+      "bounds": [
+        14,
+        16,
+        23,
+        22
+      ]
+    },
+    {
+      "id": "study",
+      "name": "书桌与收纳",
+      "floor": 7,
+      "bounds": [
+        8,
+        18,
+        13,
+        22
+      ]
+    }
+  ],
+  "non_air": 5767,
+  "block_entities": 40,
+  "source_nbt_sha256": "234c566d32af2661910d49dc43ca36ea37f8a14734d2fec00cfdd25f0dc67b14",
+  "design_brief": {
+    "route": "original inspired by previously recorded observations; not a Freedom replica",
+    "scope": "One 2-storey old Japanese-style shop-house, ground izakaya and upper residence, small rear courtyard",
+    "units": "Minecraft blocks; authored furniture-scale compromise, not measured historic machiya",
+    "coordinates": "+X east, +Z south, front south",
+    "capacity": "11 decorative dining places: 3 bar + 4 west booth + 4 east table; 2 actual beds",
+    "constraints": [
+      "same-plane door frames",
+      "full roof/ceilings on eye views",
+      "wood and white-plaster frame",
+      "layered eaves",
+      "fixed activity paths",
+      "plant groups with explicit support"
+    ]
+  },
+  "reference_scope": "Re-read JapanDetail01 research record. No newly watched video; exact Freedom block recipes were not established by that record.",
+  "randomness": {
+    "channels": [
+      "plant.<group>"
+    ],
+    "fixed": [
+      "roof",
+      "windows",
+      "furniture",
+      "stairs",
+      "doors",
+      "lights"
+    ],
+    "scope": "species and bamboo height only; authored asymmetric storefront arrangement is not randomized layout"
+  },
+  "status": {
+    "game": "pending",
+    "aesthetic": "pending",
+    "prior_town_interiors": "needs_revision",
+    "previous_M03_first_floor": "needs_revision: user found sparse furnishings and underused walls/landing"
+  },
+  "limitations": [
+    "Original functional reinterpretation, not a measured reproduction",
+    "Tatami/shoji/bedding are vanilla material approximations",
+    "Seating, shower/toilet and cups are decorative; cups use flower pots",
+    "Offline textured models are not game footage; banner/sign/bed models approximate",
+    "Sea pickles stand for grouped bottles; unlit candles for small table objects; not new gameplay objects",
+    "Paintings are actual vanilla entities; their persistence is checked offline, client behavior pending"
+  ],
+  "paintings": [
+    {
+      "id": "landing_picture",
+      "variant": "minecraft:wasteland",
+      "anchor": [
+        12,
+        4,
+        11
+      ],
+      "facing": "west",
+      "support": [
+        13,
+        4,
+        11
+      ],
+      "size": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "booth_picture",
+      "variant": "minecraft:plant",
+      "anchor": [
+        8,
+        5,
+        20
+      ],
+      "facing": "east",
+      "support": [
+        7,
+        5,
+        20
+      ],
+      "size": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "bar_picture",
+      "variant": "minecraft:kebab",
+      "anchor": [
+        15,
+        5,
+        14
+      ],
+      "facing": "south",
+      "support": [
+        15,
+        5,
+        13
+      ],
+      "size": [
+        1,
+        1
+      ]
+    }
+  ],
+  "entities": 3,
+  "refit_groups": [
+    {
+      "id": "landing_stock",
+      "name": "楼道库存与楼梯下木桶",
+      "purpose": "备货、临时储物",
+      "approaches": [
+        "G.landing_stock",
+        "G.under_stair_stock"
+      ]
+    },
+    {
+      "id": "west_booth",
+      "name": "西侧四人卡座与壁架",
+      "purpose": "靠墙聚餐、墙画端景",
+      "approaches": [
+        "G.table_west"
+      ]
+    },
+    {
+      "id": "east_table",
+      "name": "东侧四人桌组",
+      "purpose": "临窗就餐",
+      "approaches": [
+        "G.table_east"
+      ]
+    },
+    {
+      "id": "backbar",
+      "name": "吧台菜单、墙画、储酒与杯具",
+      "purpose": "点单、取物、出餐",
+      "approaches": [
+        "G.counter",
+        "G.bar_storage"
+      ]
+    },
+    {
+      "id": "service",
+      "name": "两侧备餐柜与回收布巾",
+      "purpose": "酒水、布巾、餐具备取",
+      "approaches": [
+        "G.drinks",
+        "G.return_linen"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "厨房两侧工作带与壁架",
+      "purpose": "烹饪、清洗、备餐、储藏",
+      "approaches": [
+        "G.prep_strip",
+        "G.pantry_strip"
+      ]
+    },
+    {
+      "id": "under_stair_nook",
+      "name": "楼梯下半开放备货凹间",
+      "purpose": "备用器皿、布巾、库存和就近取物",
+      "approaches": [
+        "G.understair_rear",
+        "G.understair_shelf",
+        "G.understair_counter"
+      ]
+    }
+  ],
+  "under_stair": {
+    "program": "semi-open izakaya supply nook; concealed low storage at rear, open retrieval shelf toward hall",
+    "changed_bounds_xyz": [
+      10,
+      3,
+      12,
+      13,
+      7,
+      16
+    ],
+    "floor_block_y": 2,
+    "entry_cell": [
+      11,
+      3,
+      16
+    ],
+    "protected_upper_stair": "existing return stairs and landing unchanged",
+    "approach_cells": [
+      [
+        11,
+        3,
+        13
+      ],
+      [
+        11,
+        3,
+        14
+      ],
+      [
+        11,
+        3,
+        15
+      ],
+      [
+        11,
+        3,
+        16
+      ]
+    ],
+    "functional_containers": [
+      [
+        11,
+        3,
+        12
+      ],
+      [
+        12,
+        3,
+        13
+      ],
+      [
+        12,
+        3,
+        15
+      ]
+    ],
+    "decorative_contents": "empty containers; sea-pickle bottle group, flower-pot crock, carpet folded cloth",
+    "lighting": "supported hanging lantern below landing, above the side cabinet",
+    "scope": "case_specific; not an arbitrary stair-storage generator",
+    "game": "pending",
+    "aesthetic": "pending"
+  }
+}

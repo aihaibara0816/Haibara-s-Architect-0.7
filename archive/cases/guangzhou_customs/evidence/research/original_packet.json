@@ -1,0 +1,1479 @@
+{
+  "schema_version": "1.1",
+  "packet_id": "gafacraft-guangzhou-new-customs-20261023",
+  "collected_at": "2026-10-23",
+  "subject": {
+    "name": "广州海关新业务技术综合楼",
+    "aliases": [
+      "广州新海关",
+      "珠江新城广州海关大楼",
+      "Guangzhou Customs Building"
+    ],
+    "city": "广州",
+    "kind": "single",
+    "identity_status": "confirmed",
+    "version": "以珠江新城新海关建成外观为原型；多年代照片按构件互证，非2026年现状全向测绘",
+    "core_identifiers": [
+      {
+        "text": "横向柱式基座＋中轴抬高的高层塔身",
+        "fact_ids": [
+          "fact-tower"
+        ]
+      },
+      {
+        "text": "顶部大拱窗、方形钟室与层层檐口",
+        "fact_ids": [
+          "fact-crown"
+        ]
+      },
+      {
+        "text": "浅灰米色实墙与深色竖向窗列",
+        "fact_ids": [
+          "fact-colour"
+        ]
+      },
+      {
+        "text": "成对入口圆柱、平檐和台阶",
+        "fact_ids": [
+          "fact-entry"
+        ]
+      }
+    ],
+    "boundary": "花城大道83号的主塔、一体低层基座、中央柱式入口及简洁配套地景；排除沿江西路老海关和照片中邻楼",
+    "areas": {
+      "land_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "gross_floor_area": {
+        "value_m2": 61739,
+        "fact_id": "fact-gfa"
+      },
+      "footprint_area": {
+        "value_m2": null,
+        "fact_id": null
+      }
+    }
+  },
+  "provenance": {
+    "origin_conversation_id": "6ad1fed7-3564-83ea-be40-f45497a3b724",
+    "user_input": "重新制作广州新海关；默认六张参考，低于200米保持1:1",
+    "research_status": "incomplete"
+  },
+  "sources": [
+    {
+      "source_id": "src-news",
+      "title": "广州海关搬家 90岁大钟休假",
+      "url": "https://news.sina.cn/sa/2006-09-06/detail-ikknscsk0909956.d.html?wm=3049_0015",
+      "publisher": "广州日报／新浪，2006-09-06",
+      "type": "professional_media",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-move",
+      "title": "广州海关下周搬至珠江新城",
+      "url": "https://news.sina.cn/sa/2006-09-08/detail-ikkntiam7761731.d.html",
+      "publisher": "信息时报／新浪，2006-09-08",
+      "type": "professional_media",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-open",
+      "title": "广州海关新大楼昨启用",
+      "url": "https://news.sina.cn/sa/2006-09-13/detail-ikknscsk0941362.d.html?vt=4",
+      "publisher": "信息时报／新浪，2006-09-13",
+      "type": "professional_media",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-cvu",
+      "title": "Guangzhou Customs Building",
+      "url": "https://www.skyscrapercenter.com/building/guangzhou-customs-building/23892",
+      "publisher": "Council on Vertical Urbanism建筑数据库",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-design",
+      "title": "Guangzhou Design Institute项目列表",
+      "url": "https://www.skyscrapercenter.com/company/6220",
+      "publisher": "Council on Vertical Urbanism",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-photo",
+      "title": "广州海关大楼（游记第13张图片）",
+      "url": "https://you.m.autohome.com.cn/details/bigimage?from=1&img_index=12&pageIndex=1&seriesId=&tripId=130651",
+      "publisher": "汽车之家游记，原页公开图片列表",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-sohu",
+      "title": "广州海关搬家 90岁大钟休假（组图）",
+      "url": "https://news.sohu.com/20060906/n245183545.shtml",
+      "publisher": "广州日报／搜狐，王子恒摄影署名",
+      "type": "professional_media",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-wiki-02",
+      "title": "广州海关大楼照片文件页",
+      "url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E4%B8%AD%E5%9C%8B%E6%B5%B7%E9%97%9C_China_Customs_%E5%BB%A3%E5%B7%9E%E6%B5%B7%E9%97%9C_building_September_2024_R12S_02.jpg",
+      "publisher": "Wikimedia Commons",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-wiki-03",
+      "title": "广州海关大楼照片文件页",
+      "url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E4%B8%AD%E5%9C%8B%E6%B5%B7%E9%97%9C_China_Customs_%E5%BB%A3%E5%B7%9E%E6%B5%B7%E9%97%9C_building_September_2024_R12S_03.jpg",
+      "publisher": "Wikimedia Commons",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-wiki-04",
+      "title": "广州海关大楼照片文件页",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E6%B5%B7%E5%85%B3%E5%A4%A7%E5%8E%A6_-_panoramio.jpg",
+      "publisher": "Wikimedia Commons",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-wiki-05",
+      "title": "广州海关大楼照片文件页",
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E6%B5%B7%E5%85%B3%E5%A4%A7%E6%A5%BC.jpg",
+      "publisher": "Wikimedia Commons",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-baike",
+      "title": "中华人民共和国广州海关：条目照片",
+      "url": "https://www.baike.com/wikiid/1624267802059567592",
+      "publisher": "快懂百科；摄影者未署名",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-contractor",
+      "title": "鲁班奖工程回顾：广州海关新建业务技术综合楼",
+      "url": "https://www.sohu.com/a/282204526_761259",
+      "publisher": "中建四局华南搜狐号，2018-12-15",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    },
+    {
+      "source_id": "src-wiki-12",
+      "title": "2024年广州海关照片01文件页",
+      "url": "https://commons.wikimedia.org/wiki/File:GD_廣東_Guangdong_廣州_Guangzhou_花城大道_HuaCheng_Avenue_中國海關_China_Customs_廣州海關_building_September_2024_R12S_01.jpg",
+      "publisher": "Wikimedia Commons，Ghaud Lnegauk",
+      "type": "other",
+      "accessed_at": "2026-10-23"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "fact-location",
+      "field": "location",
+      "value": "广州市天河区珠江新城花城大道83号",
+      "unit": null,
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-news",
+        "src-move"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": null,
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-use",
+      "field": "function",
+      "value": "海关办公与对外业务服务",
+      "unit": null,
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-open"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": null,
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-open",
+      "field": "opening_date",
+      "value": "2006-09-12",
+      "unit": null,
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-open"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": null,
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-completion",
+      "field": "completion_year",
+      "value": 2006,
+      "unit": "year",
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-open"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "启用报道记载历时4载建成；不等同取得竣工验收文件",
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-height",
+      "field": "architectural_height",
+      "value": 137,
+      "unit": "m",
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-news"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "新闻引用负责基建的海关财务处副处长：建筑高度137米；屋顶、钟室及杆尖分项口径未给出，作为报道建筑高度参考",
+      "conflict_group": "height",
+      "adoption_reason": "137米保留为启用报道口径及本次可编辑试作参考，不代表冲突已解决；施工方另报103米，数据库114米为估算。总高／屋顶／针尖口径待图纸确认，禁止将103+10等擅自拼成总高。"
+    },
+    {
+      "fact_id": "fact-height-alt",
+      "field": "reported_height_estimate",
+      "value": 114,
+      "unit": "m",
+      "kind": "estimate",
+      "status": "conflicted",
+      "source_ids": [
+        "src-cvu"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "数据库明确按26层与同类办公建筑统计估算，不是测量高度",
+      "conflict_group": "height",
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-floors",
+      "field": "aboveground_floor_count",
+      "value": 28,
+      "unit": "storey",
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-news"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "地下2层另列；28层为报道口径，详细楼层表未取得",
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-basement",
+      "field": "basement_floor_count",
+      "value": 2,
+      "unit": "storey",
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-news"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": null,
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-floors-alt",
+      "field": "floor_count_unspecified",
+      "value": 30,
+      "unit": "storey",
+      "kind": "fact",
+      "status": "conflicted",
+      "source_ids": [
+        "src-move",
+        "src-open"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "报道写楼高30层，未说明是否含地下；不能擅自解释为地下2+地上28",
+      "conflict_group": "floors",
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-floors-cvu",
+      "field": "floor_count_database",
+      "value": 26,
+      "unit": "storey",
+      "kind": "fact",
+      "status": "conflicted",
+      "source_ids": [
+        "src-cvu"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "与28/30口径不一；不用于分层放线",
+      "conflict_group": "floors",
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-gfa",
+      "field": "gross_floor_area",
+      "value": 61739,
+      "unit": "m2",
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-news"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": null,
+      "conflict_group": "gfa",
+      "adoption_reason": "保留启用报道61739平方米；施工方回顾另报58214平方米，统计范围未解释，不据此推占地。"
+    },
+    {
+      "fact_id": "fact-design",
+      "field": "designer",
+      "value": null,
+      "unit": null,
+      "kind": "fact",
+      "status": "unverified",
+      "source_ids": [
+        "src-design"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "数据库将该楼列入Guangzhou Design Institute项目列表，未获得设计院原始项目页及明确分工，暂不认定主创",
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-concept",
+      "field": "design_reference",
+      "value": "保留原长堤大钟楼的欧陆建筑意象，以顶层大钟延续记忆",
+      "unit": null,
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-news"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "工程负责人经媒体转述；非独立获得建筑师设计说明",
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-tower",
+      "field": "visible_form",
+      "value": "宽基座承托较窄高层塔身，中央竖向段抬高并承托钟室；两侧较低顶部有分段檐口",
+      "unit": null,
+      "kind": "observation",
+      "status": "verified",
+      "source_ids": [
+        "src-baike",
+        "src-contractor"
+      ],
+      "image_ids": [
+        "img-nc-08",
+        "img-nc-11"
+      ],
+      "derived_from_fact_ids": [],
+      "basis": null,
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-crown",
+      "field": "visible_crown",
+      "value": "中央正面大拱窗、两侧柱列与外挑檐口，上部方形钟室、圆弧顶与细针；斜侧图可见钟室两个相邻面表盘",
+      "unit": null,
+      "kind": "observation",
+      "status": "verified",
+      "source_ids": [
+        "src-photo",
+        "src-baike",
+        "src-contractor"
+      ],
+      "image_ids": [
+        "img-nc-07",
+        "img-nc-08",
+        "img-nc-11"
+      ],
+      "derived_from_fact_ids": [],
+      "basis": "正面与高位斜侧互证；未见的其他面、顶部准确截面与标高不推断。",
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-entry",
+      "field": "visible_entry",
+      "value": "中央外挑平檐入口、两侧成对圆柱、后退玻璃门及前方台阶",
+      "unit": null,
+      "kind": "observation",
+      "status": "verified",
+      "source_ids": [
+        "src-move"
+      ],
+      "image_ids": [
+        "img-nc-01"
+      ],
+      "derived_from_fact_ids": [],
+      "basis": null,
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-colour",
+      "field": "visible_colour",
+      "value": "灰米色或浅暖灰实体外墙，深灰蓝窗；墙面分格与竖向窗列",
+      "unit": null,
+      "kind": "observation",
+      "status": "verified",
+      "source_ids": [
+        "src-photo",
+        "src-move"
+      ],
+      "image_ids": [
+        "img-nc-07",
+        "img-nc-01"
+      ],
+      "derived_from_fact_ids": [],
+      "basis": "照片颜色观察，不是材料样本或精确石材鉴定",
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-height-contractor",
+      "field": "reported_height_contractor",
+      "value": 103,
+      "unit": "m",
+      "kind": "fact",
+      "status": "conflicted",
+      "source_ids": [
+        "src-contractor"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "承建方回顾称高103m，未给高度端点；不能直接解释为屋顶高或排除针尖的高度。",
+      "conflict_group": "height",
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-gfa-contractor",
+      "field": "gross_floor_area_alternative",
+      "value": 58214,
+      "unit": "m2",
+      "kind": "fact",
+      "status": "conflicted",
+      "source_ids": [
+        "src-contractor"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "承建方回顾，范围与启用报道未统一。",
+      "conflict_group": "gfa",
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-contractor-material",
+      "field": "reported_facade_material",
+      "value": "干挂花岗岩外墙；低层基座与24层以上外窗较多采用玻璃幕墙",
+      "unit": null,
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-contractor"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "施工方项目回顾的材料说明；石材色号、节点和准确楼层标高仍未取得。",
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-spire-length",
+      "field": "reported_spire_length",
+      "value": 10,
+      "unit": "m",
+      "kind": "fact",
+      "status": "verified",
+      "source_ids": [
+        "src-contractor"
+      ],
+      "image_ids": [],
+      "derived_from_fact_ids": [],
+      "basis": "施工方称弧形顶之上长针10m；这是构件长度，不是针尖绝对标高，也不用于自动加到103或137米。",
+      "conflict_group": null,
+      "adoption_reason": null
+    },
+    {
+      "fact_id": "fact-oblique",
+      "field": "visible_oblique_form",
+      "value": "斜侧图显示基座多层窗墙、屋顶退台和两个深色玻璃围合方体；塔身侧背面无正面同样的大拱窗，钟室两个相邻面可见表盘",
+      "unit": null,
+      "kind": "observation",
+      "status": "verified",
+      "source_ids": [
+        "src-contractor"
+      ],
+      "image_ids": [
+        "img-nc-11"
+      ],
+      "derived_from_fact_ids": [],
+      "basis": "600×800历史照片可见关系；玻璃围合体功能、准确进深和现状设备待核，不把绿色平面直接认作草坪。",
+      "conflict_group": null,
+      "adoption_reason": null
+    }
+  ],
+  "components": [
+    {
+      "component_id": "component-tower",
+      "name": "高层主塔",
+      "parent_component_id": null,
+      "fact_ids": [
+        "fact-tower"
+      ]
+    },
+    {
+      "component_id": "component-base",
+      "name": "一体低层基座与入口",
+      "parent_component_id": null,
+      "fact_ids": [
+        "fact-entry"
+      ]
+    },
+    {
+      "component_id": "component-crown",
+      "name": "中央拱窗及钟室",
+      "parent_component_id": null,
+      "fact_ids": [
+        "fact-crown"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "image_id": "img-nc-01",
+      "source_ids": [
+        "src-move"
+      ],
+      "page_url": "https://news.sina.cn/sa/2006-09-08/detail-ikkntiam7761731.d.html",
+      "direct_image_url": "https://image2.sina.com.cn/dy/o/2006-09-08/7bc340ffc8817304e5a0757eda5f4b3a.jpg",
+      "creator": null,
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "2006报道图，具体拍摄日未明",
+      "view": "入口柱廊补充",
+      "orientation": "入口／中央钟面为局部正面；地理方位角未核实",
+      "covers": [
+        "base"
+      ],
+      "component_ids": [
+        "component-base"
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": true,
+      "actual_pixels": [
+        300,
+        443
+      ],
+      "quality": {
+        "eligible": true,
+        "assessment": "只补成对柱、平檐、后退门厅和台阶的连接。",
+        "limitations": [
+          "300×443，低分辨率且强仰视；仅可用来判断大关系，不是高清纹样依据。"
+        ]
+      },
+      "license_status": "unknown",
+      "license_url": null,
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "补中央双柱、平檐、后退门厅与台阶"
+    },
+    {
+      "image_id": "img-nc-02",
+      "source_ids": [
+        "src-wiki-02"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E4%B8%AD%E5%9C%8B%E6%B5%B7%E9%97%9C_China_Customs_%E5%BB%A3%E5%B7%9E%E6%B5%B7%E9%97%9C_building_September_2024_R12S_02.jpg",
+      "direct_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E4%B8%AD%E5%9C%8B%E6%B5%B7%E9%97%9C_China_Customs_%E5%BB%A3%E5%B7%9E%E6%B5%B7%E9%97%9C_building_September_2024_R12S_02.jpg",
+      "creator": "Ghaud Lnegauk",
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "原页年份：2024",
+      "view": "2024照片02候选",
+      "orientation": null,
+      "covers": [],
+      "component_ids": [],
+      "verification_state": "page_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": null,
+      "actual_pixels": null,
+      "quality": {
+        "eligible": false,
+        "assessment": "待补互补视角",
+        "limitations": [
+          "文件页已访问，原文件下载403；大图未核实，不能计入上传组"
+        ]
+      },
+      "license_status": "public_domain",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "待补互补视角"
+    },
+    {
+      "image_id": "img-nc-03",
+      "source_ids": [
+        "src-wiki-03"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E4%B8%AD%E5%9C%8B%E6%B5%B7%E9%97%9C_China_Customs_%E5%BB%A3%E5%B7%9E%E6%B5%B7%E9%97%9C_building_September_2024_R12S_03.jpg",
+      "direct_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E4%B8%AD%E5%9C%8B%E6%B5%B7%E9%97%9C_China_Customs_%E5%BB%A3%E5%B7%9E%E6%B5%B7%E9%97%9C_building_September_2024_R12S_03.jpg",
+      "creator": "Ghaud Lnegauk",
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "原页年份：2024",
+      "view": "2024照片03候选",
+      "orientation": null,
+      "covers": [],
+      "component_ids": [],
+      "verification_state": "page_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": null,
+      "actual_pixels": null,
+      "quality": {
+        "eligible": false,
+        "assessment": "待补互补视角",
+        "limitations": [
+          "文件页已访问，原文件下载403；大图未核实，不能计入上传组"
+        ]
+      },
+      "license_status": "public_domain",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "待补互补视角"
+    },
+    {
+      "image_id": "img-nc-04",
+      "source_ids": [
+        "src-wiki-04"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E6%B5%B7%E5%85%B3%E5%A4%A7%E5%8E%A6_-_panoramio.jpg",
+      "direct_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%E5%B9%BF%E5%B7%9E%E6%B5%B7%E5%85%B3%E5%A4%A7%E5%8E%A6_-_panoramio.jpg",
+      "creator": "zengsx",
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "原页年份：2008",
+      "view": "2008 Panoramio候选",
+      "orientation": null,
+      "covers": [],
+      "component_ids": [],
+      "verification_state": "page_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": null,
+      "actual_pixels": null,
+      "quality": {
+        "eligible": false,
+        "assessment": "待补早期主体全貌",
+        "limitations": [
+          "文件页已访问，原文件下载403；大图未核实，不能计入上传组"
+        ]
+      },
+      "license_status": "licensed",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "待补早期主体全貌"
+    },
+    {
+      "image_id": "img-nc-05",
+      "source_ids": [
+        "src-wiki-05"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E5%B7%9E%E6%B5%B7%E5%85%B3%E5%A4%A7%E6%A5%BC.jpg",
+      "direct_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/%E5%B9%BF%E5%B7%9E%E6%B5%B7%E5%85%B3%E5%A4%A7%E6%A5%BC.jpg",
+      "creator": "Lhzss8",
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "原页年份：2024",
+      "view": "2024广州海关大楼候选",
+      "orientation": null,
+      "covers": [],
+      "component_ids": [],
+      "verification_state": "page_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": null,
+      "actual_pixels": null,
+      "quality": {
+        "eligible": false,
+        "assessment": "待补主体全貌",
+        "limitations": [
+          "文件页已访问，原文件下载403；大图未核实，不能计入上传组"
+        ]
+      },
+      "license_status": "licensed",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "待补主体全貌"
+    },
+    {
+      "image_id": "img-nc-06",
+      "source_ids": [
+        "src-sohu"
+      ],
+      "page_url": "https://news.sohu.com/20060906/n245183545.shtml",
+      "direct_image_url": "https://photocdn.sohu.com/20060906/Img245183548.jpg",
+      "creator": "王子恒（文章摄影署名）",
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "2006报道图，具体拍摄日未明",
+      "view": "早期斜向整体线索",
+      "orientation": "入口／中央钟面为局部正面；地理方位角未核实",
+      "covers": [
+        "tower",
+        "base"
+      ],
+      "component_ids": [
+        "component-tower",
+        "component-base"
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": true,
+      "actual_pixels": [
+        300,
+        200
+      ],
+      "quality": {
+        "eligible": false,
+        "assessment": "黑白整体关系线索，已有更强斜侧图，留档不进入生成组。",
+        "limitations": [
+          "300×200，低清黑白历史图，不用于颜色、细节或凑第5张。"
+        ]
+      },
+      "license_status": "unknown",
+      "license_url": null,
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "辅助认识宽基座与塔身关系；不建议上传"
+    },
+    {
+      "image_id": "img-nc-07",
+      "source_ids": [
+        "src-photo"
+      ],
+      "page_url": "https://you.m.autohome.com.cn/details/bigimage?from=1&img_index=12&pageIndex=1&seriesId=&tripId=130651",
+      "direct_image_url": "https://img2.autoimg.cn/travelplat/g27/M06/96/B2/ChsEnV3iVAWAYuf0AFIUdd_oYFU680.jpg",
+      "creator": null,
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "具体拍摄日期待核",
+      "view": "塔身与钟冠主参考",
+      "orientation": "入口／中央钟面为局部正面；地理方位角未核实",
+      "covers": [
+        "tower",
+        "crown"
+      ],
+      "component_ids": [
+        "component-tower",
+        "component-crown"
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": true,
+      "actual_pixels": [
+        6016,
+        4016
+      ],
+      "quality": {
+        "eligible": true,
+        "assessment": "放大原文件核对拱窗、柱列、石材分格和钟面；用途是细部而不是重复占一张整体图。",
+        "limitations": [
+          "6016×4016，中央主体之外邻楼很多，底部树遮挡；原文件保留，不把周边楼或树冠当作建筑。"
+        ]
+      },
+      "license_status": "unknown",
+      "license_url": null,
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "锁定塔身中轴、左右分段、拱窗与钟室"
+    },
+    {
+      "image_id": "img-nc-08",
+      "source_ids": [
+        "src-baike"
+      ],
+      "page_url": "https://www.baike.com/wikiid/1624267802059567592",
+      "direct_image_url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/0661512770be46cc9822ce730ed42f5f~tplv-xv4ileqgde-resize-w%3A750.image",
+      "creator": null,
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "拍摄日期未核实；已建成照片",
+      "view": "01 · 主体正面／轮廓主图",
+      "orientation": "按有大拱窗的立面定义项目正面；真实方位角未测",
+      "covers": [
+        "tower",
+        "crown",
+        "base"
+      ],
+      "component_ids": [
+        "component-tower",
+        "component-crown",
+        "component-base"
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": true,
+      "actual_pixels": [
+        750,
+        828
+      ],
+      "quality": {
+        "eligible": true,
+        "assessment": "主体占比高，锁定塔身、肩部、中央抬高段与钟冠连续轮廓。",
+        "limitations": [
+          "750×828，底部绿化遮挡，近地仰视，拍摄日期及摄影者未知；非正射立面。"
+        ]
+      },
+      "license_status": "unknown",
+      "license_url": null,
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "主体占比高，锁定塔身、肩部、中央抬高段与钟冠连续轮廓。"
+    },
+    {
+      "image_id": "img-nc-11",
+      "source_ids": [
+        "src-contractor"
+      ],
+      "page_url": "https://www.sohu.com/a/282204526_761259",
+      "direct_image_url": "https://5b0988e595225.cdn.sohucs.com/images/20181216/ad5712040c584e6eb0f40a3662754946.jpeg",
+      "creator": null,
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "拍摄日期未核实；已建成照片",
+      "view": "02 · 高位斜侧／体量关键图",
+      "orientation": "按有大拱窗的立面定义项目正面；真实方位角未测",
+      "covers": [
+        "tower",
+        "base",
+        "crown"
+      ],
+      "component_ids": [
+        "component-tower",
+        "component-base",
+        "component-crown"
+      ],
+      "verification_state": "full_image_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": true,
+      "actual_pixels": [
+        600,
+        800
+      ],
+      "quality": {
+        "eligible": true,
+        "assessment": "新增进深、侧背面窗墙、基座退台及钟室双面信息；防止正面四向复制。",
+        "limitations": [
+          "600×800，历史照片，细针接近画面边缘；并非测绘总平，部分背景处于施工状态，不能复刻周边工地。"
+        ]
+      },
+      "license_status": "unknown",
+      "license_url": null,
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "新增进深、侧背面窗墙、基座退台及钟室双面信息；防止正面四向复制。"
+    },
+    {
+      "image_id": "img-nc-12",
+      "source_ids": [
+        "src-wiki-12"
+      ],
+      "page_url": "https://commons.wikimedia.org/wiki/File:GD_廣東_Guangdong_廣州_Guangzhou_花城大道_HuaCheng_Avenue_中國海關_China_Customs_廣州海關_building_September_2024_R12S_01.jpg",
+      "direct_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8A%B1%E5%9F%8E%E5%A4%A7%E9%81%93_HuaCheng_Avenue_%E4%B8%AD%E5%9C%8B%E6%B5%B7%E9%97%9C_China_Customs_%E5%BB%A3%E5%B7%9E%E6%B5%B7%E9%97%9C_building_September_2024_R12S_01.jpg",
+      "creator": "Ghaud Lnegauk",
+      "media_type": "photo",
+      "built_state": "constructed",
+      "version": "文件页记载2024-09-20",
+      "view": "2024候选01",
+      "orientation": null,
+      "covers": [],
+      "component_ids": [],
+      "verification_state": "page_viewed",
+      "checked_at": "2026-10-23",
+      "building_match_confirmed": null,
+      "actual_pixels": null,
+      "quality": {
+        "eligible": false,
+        "assessment": "未取得实际大图，不能判断价值",
+        "limitations": [
+          "原文件下载403，页面已访问，大图未核实"
+        ]
+      },
+      "license_status": "public_domain",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "training_authorized": false,
+      "training_authorization_basis": null,
+      "candidate_value": "待获得大图再判断"
+    }
+  ],
+  "selection": {
+    "target_image_limit": null,
+    "consistency_checks": {
+      "same_version": null,
+      "clean_subject": false,
+      "orientation_aligned": null,
+      "layout_basis_image_ids": [
+        "img-nc-11"
+      ],
+      "podium_closeup_image_ids": [
+        "img-nc-01"
+      ],
+      "shell_crosscheck_image_ids": [
+        "img-nc-08",
+        "img-nc-11",
+        "img-nc-07"
+      ],
+      "notes": [
+        "六张目标，当前4张入选、2槽空缺。",
+        "已有正面与高位斜侧互证，但年代不同；只能确认可见共同构件，不能声称全楼现状已核。",
+        "高位照片提供相对体量，不是正射总平，世界北向未确认。"
+      ]
+    },
+    "omitted_constraints": [
+      "未见另一侧完整立面、精确总平与钟冠标高；不得将正面镜像四面。"
+    ],
+    "legacy_slots": [],
+    "core": [
+      {
+        "image_id": "img-nc-08",
+        "purpose": "主体占比高，锁定塔身、肩部、中央抬高段与钟冠连续轮廓。",
+        "rationale": "主体正面较干净"
+      },
+      {
+        "image_id": "img-nc-11",
+        "purpose": "新增进深、侧背面窗墙、基座退台及钟室双面信息；防止正面四向复制。",
+        "rationale": "提供此前缺失的高位侧背与基座约束"
+      }
+    ],
+    "detail_groups": [
+      {
+        "component_id": "component-crown",
+        "image_ids": [
+          "img-nc-07"
+        ],
+        "purpose": "放大原文件核对拱窗、柱列、石材分格和钟面；用途是细部而不是重复占一张整体图。"
+      },
+      {
+        "component_id": "component-base",
+        "image_ids": [
+          "img-nc-01"
+        ],
+        "purpose": "只补成对柱、平檐、后退门厅和台阶的连接。"
+      }
+    ],
+    "views": [
+      {
+        "image_id": "img-nc-01",
+        "face": "front",
+        "orientation_basis": "依据实际图片中的中央钟面或入口确认局部朝向，非测绘北向",
+        "layer": "outer",
+        "occlusion": "partial",
+        "component_ids": [
+          "component-base"
+        ],
+        "duplicate_of": null,
+        "sha256": "a55950867490a3ee03aa98b378f22b8094cc981a0284a3fe21e980ad2fb34182"
+      },
+      {
+        "image_id": "img-nc-02",
+        "face": "unknown",
+        "orientation_basis": null,
+        "layer": "outer",
+        "occlusion": "unknown",
+        "component_ids": [],
+        "duplicate_of": null,
+        "sha256": null
+      },
+      {
+        "image_id": "img-nc-03",
+        "face": "unknown",
+        "orientation_basis": null,
+        "layer": "outer",
+        "occlusion": "unknown",
+        "component_ids": [],
+        "duplicate_of": null,
+        "sha256": null
+      },
+      {
+        "image_id": "img-nc-04",
+        "face": "unknown",
+        "orientation_basis": null,
+        "layer": "outer",
+        "occlusion": "unknown",
+        "component_ids": [],
+        "duplicate_of": null,
+        "sha256": null
+      },
+      {
+        "image_id": "img-nc-05",
+        "face": "unknown",
+        "orientation_basis": null,
+        "layer": "outer",
+        "occlusion": "unknown",
+        "component_ids": [],
+        "duplicate_of": null,
+        "sha256": null
+      },
+      {
+        "image_id": "img-nc-06",
+        "face": "oblique",
+        "orientation_basis": "依据实际图片中的中央钟面或入口确认局部朝向，非测绘北向",
+        "layer": "outer",
+        "occlusion": "partial",
+        "component_ids": [
+          "component-tower",
+          "component-base"
+        ],
+        "duplicate_of": null,
+        "sha256": "ae625ccbc1a4ca367fd401b60174f46b12d2f52a5f0b2b7b51d1670459de7a89"
+      },
+      {
+        "image_id": "img-nc-07",
+        "face": "front",
+        "orientation_basis": "依据实际图片中的中央钟面或入口确认局部朝向，非测绘北向",
+        "layer": "outer",
+        "occlusion": "partial",
+        "component_ids": [
+          "component-tower",
+          "component-crown"
+        ],
+        "duplicate_of": null,
+        "sha256": "148ac8e6bd15304a1e45f239b20bc6e7833677dd9cc04fb486d9e709fe6cbe12"
+      },
+      {
+        "image_id": "img-nc-08",
+        "face": "front",
+        "orientation_basis": "按有大拱窗的立面定义项目正面；真实方位角未测",
+        "layer": "outer",
+        "occlusion": "partial",
+        "component_ids": [
+          "component-tower",
+          "component-crown",
+          "component-base"
+        ],
+        "duplicate_of": null,
+        "sha256": "1f904a31c461d53c145c1ee6ebc99f10f2cd8588aa4626693937013ab3ad8c47"
+      },
+      {
+        "image_id": "img-nc-11",
+        "face": "oblique",
+        "orientation_basis": "按有大拱窗的立面定义项目正面；真实方位角未测",
+        "layer": "outer",
+        "occlusion": "partial",
+        "component_ids": [
+          "component-tower",
+          "component-base",
+          "component-crown"
+        ],
+        "duplicate_of": null,
+        "sha256": "5943bad90f15637508cd5d4827b6439426077fb5dd7229a68e808b254ff73695"
+      },
+      {
+        "image_id": "img-nc-12",
+        "face": "unknown",
+        "orientation_basis": null,
+        "layer": "outer",
+        "occlusion": "unknown",
+        "component_ids": [],
+        "duplicate_of": null,
+        "sha256": null
+      }
+    ],
+    "coverage_requirements": [
+      {
+        "face": "back",
+        "component_id": "component-tower",
+        "missing_search": "第5槽：寻找花城大道83号另一侧／完整背立面的近期大图，以核对历史斜侧图未见部分。"
+      },
+      {
+        "face": "top",
+        "component_id": "component-crown",
+        "missing_search": "第6槽：寻找钟冠侧背近景或可辨屋顶的俯视；优先补现有4张仍不能解释的构件，不用场地图凑数。"
+      }
+    ]
+  },
+  "scale": {
+    "ratio_candidates": [
+      {
+        "label": "本项目默认：高度低于200米采用1:1",
+        "s": 1
+      }
+    ],
+    "selected_s": 1,
+    "rounding": "half_up",
+    "world_budget": {
+      "width": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "depth": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "height": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      }
+    },
+    "building_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "overall_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "architectural_height": {
+        "value_m": 137,
+        "range_m": null,
+        "fact_id": "fact-height",
+        "basis": "137米为报道口径的临时试作基准；施工方103米冲突未解，非精确实测。1:1参考137格。"
+      },
+      "roof_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "tip_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "site_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "conversions": [
+      {
+        "target": "building_dimensions.architectural_height",
+        "s": 1,
+        "blocks": 137,
+        "blocks_range": null,
+        "error_m": 0.0,
+        "error_range_m": null
+      }
+    ],
+    "uniform_scale_max": null,
+    "uncertainty": [
+      "面宽、进深、基底面积、用地范围、屋顶／钟室／细针标高未核实；不由总建筑面积推长宽。",
+      "137米（启用报道）与103米（施工方回顾）口径冲突，114米是数据库估算；137格只作可编辑试作参考，最终总高待图纸。",
+      "上述高度都低于200米，本项目默认1:1保持不变；若高度口径修正应同步更新体量，不能只改竖向。",
+      "世界可用宽深高余量未知，不能声称已适配服务器地块。"
+    ],
+    "local_exaggerations": []
+  },
+  "prompts": {
+    "full": "以广州珠江新城广州海关新业务技术综合楼（广州新海关，花城大道83号）为标准进行复刻，必须依据本次已核验且入选的参考资料，不能擅自修改原型设计。目标是现实中的浅色石材高层海关办公楼与一体基座、顶部钟冠，不是沿江西路的老海关，也不是套用欧式风格自由创作。允许的适配仅为本次1:1、方块化取整，以及明确标为合理补全的内部和简洁地景；禁止擅自拉宽、压矮、换色、删基座或新增尖塔雕像。\n\n严格按顺序使用四张已经取得的图片：第一张img-nc-08是主体正面，锁定从基座上方到细针的连续轮廓、左右肩部、中间抬高段、窗墙分区和钟冠主次；第二张img-nc-11是高位斜侧照片，用来纠正进深、侧背立面、一体低层基座、屋顶退台及钟室两个可见面，不能把第一张正面复制到四周；第三张img-nc-07保留高清原文件，用于放大查看正面大拱窗、柱列、檐口、分格与钟面，画面两边邻楼完全不参与建模；第四张img-nc-01只补入口成对圆柱、平直檐口、后退门厅及台阶。第四张分辨率低，不能用于微小雕饰。默认六图目标还有两槽缺失，不假装已有另一侧全貌与钟冠侧背特写，不把历史候选或场地照片塞进上传组。图片年代不完全一致，以互证的建筑构件为准，不复刻临时施工、车辆、树木遮挡或背景楼群。\n\n尺度采用每米1格，所有已知长度共用s=1。该楼来源高度均低于200米，遵循本项目低于200米保持1:1的规则。本次暂以启用报道的建筑高度137米作为137格可编辑试作参考；施工方回顾另写103米，数据库114米为估算，具体高度口径仍冲突。137格不是已经核定的针尖总高，也不能先做137格塔身再额外叠一座大钟楼。施工方提到顶针长10米，这只是构件长度，不能据此将103、137和10任意相加。准确屋顶、钟室、顶针标高，以及面宽、进深尚未取得；不要输出假精确的完整三维包围盒。将137格作为当前轮廓试作控制线，取得立面标高后再统一复核；不在本次混入64格缩尺方案。X沿有大拱窗立面横向，Y向上，Z向楼后；这是项目局部坐标，不声称是真实北向。\n\n先用浅灰实块搭出主次体量，不急着贴窗。基座是具有多层窗墙和入口空间的真实建筑体量，不是只有一块地板，也不是无关商场。高层主塔从基座中升起，塔身与基座之间有清楚的退让，整体要保留高层竖向感与底部横向承托感。正面中央竖向段持续上升至大拱窗和钟室，左右肩部低于中央顶部；外侧较宽实墙段与中间较细密窗列共同组织立面，不能平均切成五个完全相同的竖条。图中透视造成上部收缩，不能把它误读成塔身整体梯形；准确横截面仍须以补充尺度资料确认。\n\n第二张高位图是避免生成扁平正面布景的关键。沿可见侧背面保留细长竖向窗列、实体墙角和高低分段；这些面没有与正面完全相同的巨大拱窗，禁止为追求对称凭空复制。保留主塔落在基座中的相对位置，基座屋顶出现的露台边界与两个深色玻璃围合方体应按图作为可编辑体量表达，不能吞并成一层巨型玻璃商场，也不能臆断其内部功能。图中的绿色水平面用途未查明，不直接种满草或认定为屋顶公园。基座临近入口的柱式长立面、侧面普通窗墙和端部转折必须区分；不同入口、台阶和门厅不能因为都出现在照片中就重叠到同一个平面位置。不可见的一侧暂保留待校区，而不是完成镜像后宣称准确复原。\n\n塔身外墙以浅灰米色实体石材感为主，深灰偏蓝的窗嵌在墙后。施工方资料说明采用干挂花岗岩，低层基座和24层以上外窗较多使用玻璃幕墙；这不代表整栋是透明玻璃筒，也不能把24层作为已经拿到精确标高的施工线。游戏中先做连续内墙与楼板，再后退布置玻璃，外层用浅灰石类、平滑石英等表达石材板块、墙垛、柱和檐线。色彩保持中性浅暖灰，避免粉红、奶油黄过饱和以及全墙随机杂色。外墙板缝与窗框细节服从墙窗节奏，不用粗黑线把整楼切成棋盘。普通窗列遵循照片中的竖向秩序；首层、顶部拱窗段及钟室具有不同开口节奏，不将137简单除以28机械等分所有层高。\n\n正面中央大拱窗是顶部的深色开口，位于较大的中央立面段内，两侧柱列和上、下水平檐口有前后层次。先做拱形窗洞和深色玻璃，再做两侧柱、窗下外挑平台式收边与上方厚檐；保留凹进去的阴影，不做成凸出的大黑拱块，更不要挖成从地面贯穿整栋的门洞。两侧肩部的檐口与中央檐口不在同一高度，必须保留阶梯状高低关系。体量完成后从远处检查：应先看见高层办公楼、中央拱窗与小钟室，而不是一座占据半栋楼的教堂钟楼。\n\n钟冠按方形钟室、水平檐边、圆弧顶、细针的上下顺序搭建。高位图可见两个相邻钟面，分别贴在钟室相应的平面上，不能做成穿过立体空间的巨大圆球。其余未见面是否设置钟面待核，不能默认四面完全相同。表盘采用浅底、深色刻度和克制指针，先保证方框内的留白、表盘尺度和钟室体量，再决定可读数字；分辨率不够时宁可用简洁刻度，也不放大表盘或方盒。弧形顶用对称、逐层收进的小阶梯表达，但实际截面与精确标高尚未核定；不夸张成巨大半球、尖锐教堂塔顶或高耸宝塔。顶针保持细，施工方所述10米只作构件长度线索，不能用于强行解决总高冲突。\n\n入口与低层基座先保证可走。依据第四张图将成对圆柱放在入口两侧，柱后留真实空腔，平直门楣与厚檐跨在柱顶，玻璃门厅退入柱廊后方；柱不应黏成实墙。门前台阶连续接平台，平台再接室外铺装，具体高差未测时采用可编辑的合理补全。不能把旧海关的三角山花、拉丁文门楣或巨大雕像移植过来。1:1下扣除楼板、梁和吊顶后检查净高，普通可走空间建议至少3格，公共大厅优先4格以上，门洞净宽建议至少2格，楼梯逐级核对头顶净空与平台衔接。这些是游戏通行建议，不是原建筑实测尺寸；出现冲突应标出，不暗中拉高某层。\n\n未知内部只做合理补全：优先入口大厅、主交通、可走楼梯与少量示范办公室，不声称复原了真实办公室分隔。普通房间按总数约50%不亮、25%使用萤石、25%使用海晶灯，随机打乱；这等于一半房间点亮，而点亮房间中两种光源各占一半。同一房间多扇窗保持一致，不逐窗随机成棋盘；先划房间再分配，取整误差记录。把灯退到玻璃后，使用隔墙与楼板阻光，实现有深度的伪内透，外墙石材仍保持暗部，不整面玻璃或实墙发光。已经确认的避难层按用户游戏效果要求整层禁灯，并从普通房间配额分母剔除，同时阻止相邻层漏光；本楼具体避难层位置未核实，不能凭高层常识猜某层或定距画黑带。入口和钟面可以另设克制的柔和照明，不挤占房间配额；这种游戏禁灯表现不是对现实应急照明的描述。\n\n先验收建筑主体，再完成简洁地景。入口台阶接连续铺装步道，步道接窄幅道路接口，两侧保留少量低矮灌木、草地边缘和自然路缘过渡。建筑和地景共用s=1与地面基准；真实退界、路宽和高差缺总平，明确作为可调整合理补全。树木不能挡住入口、中央拱窗和钟面；不复制照片中密集树墙、相邻高楼、工地、停车场或整片公园，不擅自加水池。保留本体基座与必要入口，避免把“突出单体”误解成删除真实承托结构。\n\n同一模型内按体量占位→正侧背窗墙与退台→基座及入口→拱窗、檐口与钟室→内部样板→地景和照明施工，不将每一部分独立随机生成再拼接。每一步检查体量高宽关系、中央与肩部高度差、基座承托、柱廊空腔和可通行性。若变矮胖，先检查是否只缩了高度；若各面都长大拱窗，按高位图恢复侧背差异；若屋顶巨大，先还原小方形钟室再调整表盘；若基座消失，恢复图中一体多层承托。当前是补强后的可编辑试作资料，仍缺两张目标视角和精确尺寸，不声称全向测绘完成或生成实测成功。",
+    "short": "以广州珠江新城广州海关新业务技术综合楼（广州新海关，花城大道83号）为标准进行复刻，必须依据本次已核验且入选的参考资料，不能擅自修改原型设计。允许1:1方块化与明确标注的内部、地景合理补全。按顺序使用img-nc-08锁正面完整轮廓，img-nc-11锁高位斜侧、塔身进深、一体基座退台与钟室双面，img-nc-07放大核对正面拱窗、柱列、檐口及钟冠，img-nc-01只补入口双柱、平檐、后退门厅和台阶。六图目标仍缺两槽，未见部分待核，不镜像四面。\n现实高度来源均低于200米，本次s=1；暂沿用报道137米→参考137格试作，施工方103米与数据库估算114米的口径冲突未解，不能宣称准确总高。面宽、进深和分段标高未知；10米顶针线索不能随意加到137格塔身之上。所有构件统一尺度，不压矮拉宽、不混入64格方案。\n宽而有多层空间的基座承托较窄高层，中央段高于左右肩部；浅灰米色石材感墙面配后退深灰蓝窗，正面大拱窗与两侧柱列保留空腔。侧背面按高位图区别处理，不复制正面拱窗；退台和两个深色玻璃围合方体保持相对位置，功能未核不乱补。顶部依次为方形钟室、檐边、圆弧顶与细针，两可见面各有表盘，不做巨大钟球或教堂尖塔。入口台阶与门厅连通；普通空间建议净高≥3格、大厅≥4格、门宽≥2格，均为游戏建议。\n普通房间50%暗、25%萤石、25%海晶灯随机，同室窗一致、光源退到玻璃后并隔光；确认的避难层整层禁灯且排除统计，未知位置不编黑带。先验主体，再加入口步道接路、低矮绿化和路缘过渡；不复制邻楼、工地或密集树墙，不删真实基座。尺寸冲突与不可见构件保留待定。",
+    "image_ids": [
+      "img-nc-08",
+      "img-nc-11",
+      "img-nc-07",
+      "img-nc-01"
+    ],
+    "excluded_image_ids": []
+  },
+  "guidance": {
+    "scope": "花城大道83号的主塔、一体低层基座、中央柱式入口及简洁配套地景；排除沿江西路老海关和照片中邻楼",
+    "quality": "轮廓与正侧背体量→窗墙节奏、基座与退台→钟冠→装饰；4张可用，6张目标仍缺2张。",
+    "height": "默认1:1；137格为报道口径的临时试作参考，103米冲突保留；整体最高点与空间余量待核。",
+    "site": "简洁入口铺装、步道接路、低矮绿化；尺寸合理补全",
+    "landscape": {
+      "enabled": true,
+      "omission_reason": null,
+      "boundary": "入口及紧邻步道接口",
+      "elements": [
+        {
+          "name": "石阶接连续铺装、窄路接口、低矮灌木",
+          "kind": "suggestion",
+          "fact_ids": [
+            "fact-entry"
+          ],
+          "basis": "可见入口关系＋明确标注的场地合理补全"
+        }
+      ],
+      "reference_image_ids": [
+        "img-nc-08",
+        "img-nc-11",
+        "img-nc-01"
+      ],
+      "access_connections": [
+        "入口门厅—平台—台阶—步道—道路接口"
+      ],
+      "terrain_notes": "实际高差未测；不整体抬高底板",
+      "acceptance": [
+        "台阶连续可走",
+        "树木不遮柱廊与钟面",
+        "无大面积附属楼群",
+        "边界有路缘和绿化过渡"
+      ]
+    },
+    "interior": "未知平面，只作公共流线和示范办公室合理补全",
+    "lighting": "普通房间50%暗、25%萤石、25%海晶灯随机；确认的避难层整层禁灯、排除分母、隔绝漏光；未知位置不造黑带",
+    "material_mappings": [
+      {
+        "role": "浅灰米色实体外墙",
+        "minecraft": "浅灰石类与平滑石英，克制暖灰",
+        "basis": "照片外观的游戏替代，不是材料鉴定"
+      },
+      {
+        "role": "深色窗",
+        "minecraft": "灰色／深灰玻璃及深色窗框",
+        "basis": "照片观察的游戏替代"
+      }
+    ]
+  },
+  "risks": [
+    {
+      "risk": "侧背被正面覆盖",
+      "symptom": "四面重复大拱窗，塔身变薄片",
+      "correction": "图08锁正面，图11锁侧背与进深；不可见面继续待核。"
+    },
+    {
+      "risk": "高度口径混用",
+      "symptom": "137格塔身上又叠钟冠，或擅自103+10凑总高",
+      "correction": "137格仅为当前报道口径试作控制；103、114及针长分别记录，待立面标高统一。"
+    },
+    {
+      "risk": "压成矮胖楼",
+      "symptom": "保留原面宽却只缩高度",
+      "correction": "所有构件统一s，先验体量再做窗"
+    },
+    {
+      "risk": "图片树木遮挡",
+      "symptom": "树冠被当裙楼或基座消失",
+      "correction": "07只锁上部，01补入口；06只能粗看基座关系"
+    },
+    {
+      "risk": "钟冠失真",
+      "symptom": "巨大圆球、过宽表盘或教堂尖塔",
+      "correction": "先方形钟室与低弧顶，再克制表盘；侧背面待补"
+    },
+    {
+      "risk": "古典标签泛化",
+      "symptom": "移植老海关红砖、三角山花、雕像",
+      "correction": "只按新海关可见构件，入口保持平檐"
+    },
+    {
+      "risk": "内透失控",
+      "symptom": "全墙发光或每扇窗明暗不同",
+      "correction": "按房间分配50/25/25，窗后灯和隔墙；确认避难层禁灯"
+    },
+    {
+      "risk": "强透视当尺寸",
+      "symptom": "顶部越造越窄、窗层均分失真",
+      "correction": "透视只看可见关系，精确长宽标高不从图硬算"
+    }
+  ],
+  "staging": {
+    "required": false,
+    "reason": "单塔与一体基座，统一模型分工序可保持连接；缺精确尺寸与总平，不独立生成后装配。",
+    "coordinate_system": {
+      "origin": null,
+      "x_axis": "沿中央钟面所在主立面的横向",
+      "y_axis": "向上",
+      "z_axis": "向楼后",
+      "north": null,
+      "s": 1
+    },
+    "stages": []
+  },
+  "report_sections": [
+    {
+      "number": 1,
+      "title": "建筑概览与核心识别点",
+      "content": "本轮是花城大道83号的广州海关新业务技术综合楼，2006年9月12日启用，功能为海关办公与业务服务。地上28层、地下2层是启用报道口径；设计单位分工与主创仍未取得可靠原始说明。[src-news][src-open][src-design]\n范围：高层主塔、一体低层基座、中央柱式入口、钟冠和简洁地景。核心识别点为中央抬高段与两侧肩部、浅色窗墙、正面大拱窗、小方形钟室与圆弧顶。新增高位图显示侧背面、基座退台和两个深色玻璃围合方体；不得把正面复制到四周。[src-baike][src-photo][src-contractor]\n本次比旧版新增两张有用照片，建立正面＋高位斜侧互证。其他年代和看不见的构件仍保留待核。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": [
+        "src-news",
+        "src-open",
+        "src-design",
+        "src-photo",
+        "src-baike",
+        "src-contractor"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "可靠尺度与Minecraft比例建议",
+      "content": "按用户最新规则：高度低于200米默认1:1。本楼已取得的高度说法均低于200米，因此每米1格，所有构件和地景共用s=1。\n高度存在实质冲突：启用报道引用工程负责人给出137米；施工方回顾写103米；建筑数据库114米明确是按26层估算。103米是否不含钟冠等端点，来源没有解释，不能自行补解释。继续保留137格作为可编辑试作参考，不能标成已核定总高；针尖、屋顶和各分段绝对标高继续待核。[src-news][src-contractor][src-cvu]\n施工方称顶针长度10米，这是构件长度，不是最高点标高，也不能直接加在103或137米上。本次取消约64格备选，避免模型混用比例。137×1=137格，换算取整误差0，但来源的不确定性没有因此消失。[src-contractor][src-news]\n报道地上28层、地下2层与施工方一致；其他报道30层、数据库26层的计数口径仍冲突。总建筑面积61739㎡（启用报道）和58214㎡（施工方）也未统一统计范围。不能把建筑面积当基底面积或开平方推长宽。[src-news][src-move][src-cvu][src-contractor]\n宽、深、基底面积、用地长宽和世界可用余量未知，准确包围盒待核。统一比例上限只在已知约束中计算；目前无法证明适配某块服务器空地。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": [
+        "src-news",
+        "src-move",
+        "src-cvu",
+        "src-contractor"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "设计语言/材料/幕墙",
+      "content": "设计来源：启用报道解释顶部大钟承接旧大钟楼的记忆；施工方回顾说明结合欧陆意象与现代办公功能。它们不等于取得建筑师亲述，也不授权模型自由加教堂或宫殿装饰。[src-news][src-contractor]\n材料来源：施工方称外墙干挂花岗岩，低层基座及24层以上外窗较多采用玻璃幕墙。具体石材色号、节点和层高仍未知。游戏用浅灰石类／平滑石英表达实体墙柱，用后退的深灰蓝玻璃表达开窗；这种映射是生成建议。[src-contractor]\n正面由外侧宽实体段与内侧较密窗列组织，中央抬高段承托大拱窗，左右肩部较低。先搭墙体、后退窗，再做柱列与外挑檐口，以真实凹凸产生阴影；不要全墙贴玻璃或画粗黑格。[src-baike][src-photo]\n高位斜侧图补充主塔进深、基座多层窗墙、露台边缘及两个玻璃围合方体。绿色屋顶平面的用途未知，不认定为草坪。钟室两个相邻面有钟面，顶部是圆弧顶和细针；未见的面和内部功能不凭常识补齐。[src-contractor]",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": [
+        "src-news",
+        "src-photo",
+        "src-baike",
+        "src-contractor"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "参考图片候选分类",
+      "content": "收录5张真实建筑照片：4张进入本次上传组，1张低清历史图只留档。两张新图分别补正面高主体占比与高位斜侧几何；旧高清图转作正面细部参考。\n5张Commons候选已读文件页，但实际原图下载403，大图未核实；仅保留来源，不内嵌或推荐。另检查了汽车之家相邻两张照片，实际是周边现代楼宇／街景，排除，不用于凑图。商业图库原文件需付费，未购买或绕过限制。\n本包没有AI图、效果图或正式总平。内嵌照片均保留原取得字节及水印（若有），实际像素见卡片；这些照片许可未知，不能据公开可访问推定训练授权。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 5,
+      "title": "核心参考图与覆盖分析",
+      "content": "默认目标6张，当前4张可用＋2个明确空槽。上传顺序：08正面主图→11高位斜侧→07高清正面细部→01低清入口关系。06只归档，不上传。\n08与11互补说明正面与斜侧体量；07提供08像素不足时的钟冠、窗框和檐口细节；01补树木遮挡的门厅连接。不同年代照片只能互证可见共同构件，不代表现状全向一致；北向、精确总平和尺寸仍未知。[src-baike][src-contractor][src-photo][src-move]\n第5槽缺另一侧完整立面／近期背面，重点确认未见窗墙与基座转角；第6槽缺钟冠侧背近景或屋顶俯视，重点确认顶部收口。不要用同角度重复、广场或邻楼填槽。若工具只能收2张，先用08与11，但会失去高清细部和入口约束；若能收4张，用本次4张，不把六图偏好说成工具上限。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-nc-08",
+        "img-nc-11",
+        "img-nc-07",
+        "img-nc-01"
+      ],
+      "source_ids": [
+        "src-move",
+        "src-photo",
+        "src-baike",
+        "src-contractor"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "完整生成提示词",
+      "content": "以广州珠江新城广州海关新业务技术综合楼（广州新海关，花城大道83号）为标准进行复刻，必须依据本次已核验且入选的参考资料，不能擅自修改原型设计。目标是现实中的浅色石材高层海关办公楼与一体基座、顶部钟冠，不是沿江西路的老海关，也不是套用欧式风格自由创作。允许的适配仅为本次1:1、方块化取整，以及明确标为合理补全的内部和简洁地景；禁止擅自拉宽、压矮、换色、删基座或新增尖塔雕像。\n\n严格按顺序使用四张已经取得的图片：第一张img-nc-08是主体正面，锁定从基座上方到细针的连续轮廓、左右肩部、中间抬高段、窗墙分区和钟冠主次；第二张img-nc-11是高位斜侧照片，用来纠正进深、侧背立面、一体低层基座、屋顶退台及钟室两个可见面，不能把第一张正面复制到四周；第三张img-nc-07保留高清原文件，用于放大查看正面大拱窗、柱列、檐口、分格与钟面，画面两边邻楼完全不参与建模；第四张img-nc-01只补入口成对圆柱、平直檐口、后退门厅及台阶。第四张分辨率低，不能用于微小雕饰。默认六图目标还有两槽缺失，不假装已有另一侧全貌与钟冠侧背特写，不把历史候选或场地照片塞进上传组。图片年代不完全一致，以互证的建筑构件为准，不复刻临时施工、车辆、树木遮挡或背景楼群。\n\n尺度采用每米1格，所有已知长度共用s=1。该楼来源高度均低于200米，遵循本项目低于200米保持1:1的规则。本次暂以启用报道的建筑高度137米作为137格可编辑试作参考；施工方回顾另写103米，数据库114米为估算，具体高度口径仍冲突。137格不是已经核定的针尖总高，也不能先做137格塔身再额外叠一座大钟楼。施工方提到顶针长10米，这只是构件长度，不能据此将103、137和10任意相加。准确屋顶、钟室、顶针标高，以及面宽、进深尚未取得；不要输出假精确的完整三维包围盒。将137格作为当前轮廓试作控制线，取得立面标高后再统一复核；不在本次混入64格缩尺方案。X沿有大拱窗立面横向，Y向上，Z向楼后；这是项目局部坐标，不声称是真实北向。\n\n先用浅灰实块搭出主次体量，不急着贴窗。基座是具有多层窗墙和入口空间的真实建筑体量，不是只有一块地板，也不是无关商场。高层主塔从基座中升起，塔身与基座之间有清楚的退让，整体要保留高层竖向感与底部横向承托感。正面中央竖向段持续上升至大拱窗和钟室，左右肩部低于中央顶部；外侧较宽实墙段与中间较细密窗列共同组织立面，不能平均切成五个完全相同的竖条。图中透视造成上部收缩，不能把它误读成塔身整体梯形；准确横截面仍须以补充尺度资料确认。\n\n第二张高位图是避免生成扁平正面布景的关键。沿可见侧背面保留细长竖向窗列、实体墙角和高低分段；这些面没有与正面完全相同的巨大拱窗，禁止为追求对称凭空复制。保留主塔落在基座中的相对位置，基座屋顶出现的露台边界与两个深色玻璃围合方体应按图作为可编辑体量表达，不能吞并成一层巨型玻璃商场，也不能臆断其内部功能。图中的绿色水平面用途未查明，不直接种满草或认定为屋顶公园。基座临近入口的柱式长立面、侧面普通窗墙和端部转折必须区分；不同入口、台阶和门厅不能因为都出现在照片中就重叠到同一个平面位置。不可见的一侧暂保留待校区，而不是完成镜像后宣称准确复原。\n\n塔身外墙以浅灰米色实体石材感为主，深灰偏蓝的窗嵌在墙后。施工方资料说明采用干挂花岗岩，低层基座和24层以上外窗较多使用玻璃幕墙；这不代表整栋是透明玻璃筒，也不能把24层作为已经拿到精确标高的施工线。游戏中先做连续内墙与楼板，再后退布置玻璃，外层用浅灰石类、平滑石英等表达石材板块、墙垛、柱和檐线。色彩保持中性浅暖灰，避免粉红、奶油黄过饱和以及全墙随机杂色。外墙板缝与窗框细节服从墙窗节奏，不用粗黑线把整楼切成棋盘。普通窗列遵循照片中的竖向秩序；首层、顶部拱窗段及钟室具有不同开口节奏，不将137简单除以28机械等分所有层高。\n\n正面中央大拱窗是顶部的深色开口，位于较大的中央立面段内，两侧柱列和上、下水平檐口有前后层次。先做拱形窗洞和深色玻璃，再做两侧柱、窗下外挑平台式收边与上方厚檐；保留凹进去的阴影，不做成凸出的大黑拱块，更不要挖成从地面贯穿整栋的门洞。两侧肩部的檐口与中央檐口不在同一高度，必须保留阶梯状高低关系。体量完成后从远处检查：应先看见高层办公楼、中央拱窗与小钟室，而不是一座占据半栋楼的教堂钟楼。\n\n钟冠按方形钟室、水平檐边、圆弧顶、细针的上下顺序搭建。高位图可见两个相邻钟面，分别贴在钟室相应的平面上，不能做成穿过立体空间的巨大圆球。其余未见面是否设置钟面待核，不能默认四面完全相同。表盘采用浅底、深色刻度和克制指针，先保证方框内的留白、表盘尺度和钟室体量，再决定可读数字；分辨率不够时宁可用简洁刻度，也不放大表盘或方盒。弧形顶用对称、逐层收进的小阶梯表达，但实际截面与精确标高尚未核定；不夸张成巨大半球、尖锐教堂塔顶或高耸宝塔。顶针保持细，施工方所述10米只作构件长度线索，不能用于强行解决总高冲突。\n\n入口与低层基座先保证可走。依据第四张图将成对圆柱放在入口两侧，柱后留真实空腔，平直门楣与厚檐跨在柱顶，玻璃门厅退入柱廊后方；柱不应黏成实墙。门前台阶连续接平台，平台再接室外铺装，具体高差未测时采用可编辑的合理补全。不能把旧海关的三角山花、拉丁文门楣或巨大雕像移植过来。1:1下扣除楼板、梁和吊顶后检查净高，普通可走空间建议至少3格，公共大厅优先4格以上，门洞净宽建议至少2格，楼梯逐级核对头顶净空与平台衔接。这些是游戏通行建议，不是原建筑实测尺寸；出现冲突应标出，不暗中拉高某层。\n\n未知内部只做合理补全：优先入口大厅、主交通、可走楼梯与少量示范办公室，不声称复原了真实办公室分隔。普通房间按总数约50%不亮、25%使用萤石、25%使用海晶灯，随机打乱；这等于一半房间点亮，而点亮房间中两种光源各占一半。同一房间多扇窗保持一致，不逐窗随机成棋盘；先划房间再分配，取整误差记录。把灯退到玻璃后，使用隔墙与楼板阻光，实现有深度的伪内透，外墙石材仍保持暗部，不整面玻璃或实墙发光。已经确认的避难层按用户游戏效果要求整层禁灯，并从普通房间配额分母剔除，同时阻止相邻层漏光；本楼具体避难层位置未核实，不能凭高层常识猜某层或定距画黑带。入口和钟面可以另设克制的柔和照明，不挤占房间配额；这种游戏禁灯表现不是对现实应急照明的描述。\n\n先验收建筑主体，再完成简洁地景。入口台阶接连续铺装步道，步道接窄幅道路接口，两侧保留少量低矮灌木、草地边缘和自然路缘过渡。建筑和地景共用s=1与地面基准；真实退界、路宽和高差缺总平，明确作为可调整合理补全。树木不能挡住入口、中央拱窗和钟面；不复制照片中密集树墙、相邻高楼、工地、停车场或整片公园，不擅自加水池。保留本体基座与必要入口，避免把“突出单体”误解成删除真实承托结构。\n\n同一模型内按体量占位→正侧背窗墙与退台→基座及入口→拱窗、檐口与钟室→内部样板→地景和照明施工，不将每一部分独立随机生成再拼接。每一步检查体量高宽关系、中央与肩部高度差、基座承托、柱廊空腔和可通行性。若变矮胖，先检查是否只缩了高度；若各面都长大拱窗，按高位图恢复侧背差异；若屋顶巨大，先还原小方形钟室再调整表盘；若基座消失，恢复图中一体多层承托。当前是补强后的可编辑试作资料，仍缺两张目标视角和精确尺寸，不声称全向测绘完成或生成实测成功。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-nc-08",
+        "img-nc-11",
+        "img-nc-07",
+        "img-nc-01"
+      ],
+      "source_ids": []
+    },
+    {
+      "number": 7,
+      "title": "短版提示词",
+      "content": "以广州珠江新城广州海关新业务技术综合楼（广州新海关，花城大道83号）为标准进行复刻，必须依据本次已核验且入选的参考资料，不能擅自修改原型设计。允许1:1方块化与明确标注的内部、地景合理补全。按顺序使用img-nc-08锁正面完整轮廓，img-nc-11锁高位斜侧、塔身进深、一体基座退台与钟室双面，img-nc-07放大核对正面拱窗、柱列、檐口及钟冠，img-nc-01只补入口双柱、平檐、后退门厅和台阶。六图目标仍缺两槽，未见部分待核，不镜像四面。\n现实高度来源均低于200米，本次s=1；暂沿用报道137米→参考137格试作，施工方103米与数据库估算114米的口径冲突未解，不能宣称准确总高。面宽、进深和分段标高未知；10米顶针线索不能随意加到137格塔身之上。所有构件统一尺度，不压矮拉宽、不混入64格方案。\n宽而有多层空间的基座承托较窄高层，中央段高于左右肩部；浅灰米色石材感墙面配后退深灰蓝窗，正面大拱窗与两侧柱列保留空腔。侧背面按高位图区别处理，不复制正面拱窗；退台和两个深色玻璃围合方体保持相对位置，功能未核不乱补。顶部依次为方形钟室、檐边、圆弧顶与细针，两可见面各有表盘，不做巨大钟球或教堂尖塔。入口台阶与门厅连通；普通空间建议净高≥3格、大厅≥4格、门宽≥2格，均为游戏建议。\n普通房间50%暗、25%萤石、25%海晶灯随机，同室窗一致、光源退到玻璃后并隔光；确认的避难层整层禁灯且排除统计，未知位置不编黑带。先验主体，再加入口步道接路、低矮绿化和路缘过渡；不复制邻楼、工地或密集树墙，不删真实基座。尺寸冲突与不可见构件保留待定。",
+      "fact_ids": [],
+      "image_ids": [
+        "img-nc-08",
+        "img-nc-11",
+        "img-nc-07",
+        "img-nc-01"
+      ],
+      "source_ids": []
+    },
+    {
+      "number": 8,
+      "title": "规模/质量/高度/附属广场与内部空间建议",
+      "content": "统一1:1，137格仅作本次暂定试作参考；高度来源冲突、宽深与可用空间未核，不能给出精确完整包围盒。地景及地形抬升也要计入空间预算。[src-news][src-contractor]\n质量顺序：主塔＋一体基座关系→正侧背不同的窗墙和肩部→拱窗与钟冠→小装饰。当前已补进深线索，但没有正射总平，不将照片透视当平面坐标。[src-baike][src-contractor]\n内部仅合理补全，优先门厅、楼梯、示范办公室。扣板梁后普通空间净高建议≥3格、大厅≥4格、门宽≥2格；逐级检查楼梯净空，不机械平均全部楼层。\n灯光为用户游戏规则：普通房间50%暗、25%萤石、25%海晶灯，随机按房间分配，同室多窗一致。确认的避难层整层禁灯并排除统计；位置未知不造黑带，隔绝相邻漏光。入口与钟面少量柔和照明另算。\n主体完成后加入口台阶—铺装步道—窄路接口，少量低矮绿化和路缘收口。退界、高差与路宽作为可编辑合理补全，不复制周边工地、邻楼、停车场或密集树墙。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": [
+        "src-news",
+        "src-baike",
+        "src-contractor"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "风险与失败排查",
+      "content": "以下是待验收风险，不是外部模型实测结论：\n侧背被正面覆盖 → 四面重复大拱窗，塔身变薄片 → 图08锁正面，图11锁侧背与进深；不可见面继续待核。\n高度口径混用 → 137格塔身上又叠钟冠，或擅自103+10凑总高 → 137格仅为当前报道口径试作控制；103、114及针长分别记录，待立面标高统一。\n压成矮胖楼 → 保留原面宽却只缩高度 → 所有构件统一s，先验体量再做窗\n图片树木遮挡 → 树冠被当裙楼或基座消失 → 07只锁上部，01补入口；06只能粗看基座关系\n钟冠失真 → 巨大圆球、过宽表盘或教堂尖塔 → 先方形钟室与低弧顶，再克制表盘；侧背面待补\n古典标签泛化 → 移植老海关红砖、三角山花、雕像 → 只按新海关可见构件，入口保持平檐\n内透失控 → 全墙发光或每扇窗明暗不同 → 按房间分配50/25/25，窗后灯和隔墙；确认避难层禁灯\n强透视当尺寸 → 顶部越造越窄、窗层均分失真 → 透视只看可见关系，精确长宽标高不从图硬算",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 10,
+      "title": "复杂项目拆分顺序",
+      "content": "无需拆成独立生成的多个楼体：本轮是一座主塔与一体基座，统一模型内分工序更能保持承托和入口关系。\n顺序：体量占位→正侧背窗墙及基座退台→入口柱廊→拱窗、檐口、钟室→内部样板→地景、灯光。每步验收高宽关系、主次标高、空腔和可通行性，再进入细节。\n共享s=1，X沿有大拱窗的主立面横向、Y向上、Z向后；地理北向、世界原点、准确宽深及接口标高未核。不能称为已有完整坐标的施工装配包；精确放线阶段仍待定。\n137米与103米冲突、另两张目标视角、完整尺寸仍需补证。只交付研究与生成指令，未进行生成器或Minecraft实测。",
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    }
+  ],
+  "experiments": [],
+  "gaps": [
+    "面宽、进深、基底面积、用地范围、屋顶／钟室／细针标高未核实；不由总建筑面积推长宽。",
+    "137米（启用报道）与103米（施工方回顾）口径冲突，114米是数据库估算；137格只作可编辑试作参考，最终总高待图纸。",
+    "上述高度都低于200米，本项目默认1:1保持不变；若高度口径修正应同步更新体量，不能只改竖向。",
+    "世界可用宽深高余量未知，不能声称已适配服务器地块。",
+    "默认6张，当前4张可用：缺另一侧完整立面与钟冠侧背／屋顶图；新增高位斜侧不能代替精确总平。",
+    "5张Commons候选原文件403，大图未核实，不进入下载包或上传组。",
+    "精确楼层表、设计单位分工、避难层位置和完整室内平面未核实。",
+    "无外部生成或Minecraft实测。"
+  ]
+}

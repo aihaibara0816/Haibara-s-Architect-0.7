@@ -1,0 +1,98 @@
+{
+  "type": "offline-preservation-and-protocol-check",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-B",
+    "/root/.codex/skills/remote-skills/skill-6ad26bc8a18081918d5339dd69880ed2/scripts/validate_packet.py",
+    "/workspace/scratch/cfe8adbb046e/forward_reference/packet.json",
+    "--mode",
+    "report"
+  ],
+  "returncode": 0,
+  "stderr": "",
+  "validation_status": "PASS_WITH_GAPS",
+  "validation_errors_count": 0,
+  "validation_gaps_count": 48,
+  "validation_output_file": "validation.json",
+  "validator_file_sha256": {
+    "scripts/validate_packet.py": "2a14cf10b663fc25b95a9376052752fea1ce043e69a6aba63b038759d14efe51",
+    "scripts/reference_set.py": "063506fa0aee91d2955004c541a0181e8e299231c9cf2a14311373199000c756",
+    "scripts/scale.py": "b2b0a127c6fc5913e009a62d2dcf14661a67cd294c4db434673ae286b3a40b39",
+    "references/packet-v1.1-template.json": "9eeed1141b54d65eaf8b242924aa5d495507693c146573c8e9f3af2e32c04bb6"
+  },
+  "preservation_checks": {
+    "original_files_hashes_unchanged": true,
+    "original_inputs_semantically_preserved": true,
+    "candidate_ids_and_order_preserved": true,
+    "legacy_selection_and_order_preserved": true,
+    "legacy_selected_rows_match_pool": true,
+    "all_original_page_and_direct_urls_preserved": true,
+    "all_original_source_urls_preserved": true,
+    "reported_sha256_values_preserved": true,
+    "review_findings_status_views_priority_component_preserved": true,
+    "all_photo_faces_remain_unknown": true,
+    "no_invented_source_access_or_title": true,
+    "no_invented_image_viewing_or_quality": true,
+    "no_invented_license_or_training_permission": true,
+    "unqualified_selection_not_promoted": true,
+    "no_invented_normalized_model_review": true,
+    "no_verified_facts_invented": true,
+    "coverage_all_missing": true,
+    "recorded_image_hashes_unique": true,
+    "validator_dependencies_unchanged_during_run": true
+  },
+  "preservation_status": "PASS",
+  "mapping_rules": [
+    {
+      "from": "evidence_pool[*].id",
+      "to": "packet.images[*].image_id / packet.selection.views[*].image_id",
+      "rule": "原样保留 R01–R13；不加 img- 前缀、不改号。"
+    },
+    {
+      "from": "source / url",
+      "to": "images.page_url / direct_image_url；sources.url",
+      "rule": "原URL原样保留；页面标题、访问日期均未知。"
+    },
+    {
+      "from": "credit",
+      "to": "images.reported_credit / sources.reported_credits / 原始归档",
+      "rule": "保留归属文本；不等价为摄影者、照片许可或训练授权。"
+    },
+    {
+      "from": "status / pixels / file / sha256",
+      "to": "reference_box.original_inputs 原字段；views.sha256 仅继承所报值",
+      "rule": "downloaded 不映射 full_image_viewed；file 不映射 local_file，因本次未复制/核对图片。actual_pixels=null。"
+    },
+    {
+      "from": "selected / reference_set 顺序",
+      "to": "selection.legacy_selected_image_ids / inherited_reference_groups",
+      "rule": "保留既有选择；core/detail_groups 暂空，不越过核验门槛。"
+    },
+    {
+      "from": "purpose / component",
+      "to": "归档原字段 / 本次 component-* 资料索引",
+      "rule": "只按既有用途建立概念分组，不认定实际模型组件、可见几何或构造。"
+    },
+    {
+      "from": "review_view",
+      "to": "legacy_review_records.legacy_review_view",
+      "rule": "原模型镜头文本保留；所有照片 face=unknown。"
+    },
+    {
+      "from": "review_finding / review_status / priority",
+      "to": "legacy_review_records 对应 legacy_*；原始归档",
+      "rule": "原文原值保留，不映射为本次回查通过；规范状态、build_id、相机可比性缺失均null。"
+    },
+    {
+      "from": "case_parameters 全对象",
+      "to": "reference_box.original_inputs.case_parameters.json",
+      "rule": "语义内容完整保存；参数不静默升格为已核实事实或世界余量。"
+    }
+  ],
+  "prior_validator_observation": {
+    "kind": "static_code_read_only",
+    "executed": false,
+    "description": "最初读码发现旧校验器限制 img 前缀以及来源日期/标题不得未知；主任务随后修订通用兼容规则。本子任务没有执行旧版验证，没有旧版FAIL运行日志。"
+  },
+  "scope_limits": "这些检查只验证结构、元数据保存及引用一致性，不证明页面真实性、图像内容、照片许可、模型精度或生成效果。"
+}

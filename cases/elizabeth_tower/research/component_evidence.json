@@ -1,0 +1,79 @@
+{
+  "method": "图片与文字人工核对 + HAF 案例构件生成；非自动重建、非模型训练",
+  "scale_blocks_per_metre": 2,
+  "model_source": null,
+  "image_limit": null,
+  "coordinate_frame": "局部坐标；白金汉宫主面朝 -Z，真实东北向；X 对应东南，Z 对应西南",
+  "sources": [
+    [
+      "parliament_dimensions",
+      "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/facts-figures/",
+      "议会官方：塔高 96 米、四面钟盘，每面直径 7 米。"
+    ],
+    [
+      "restoration",
+      "https://purcellarchitecture.com/project/elizabeth-tower/",
+      "修复建筑师图库：整塔、钟盘、钟室、金属屋顶、内部及夜景。"
+    ],
+    [
+      "blue_restoration",
+      "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/elizabeth-tower-and-big-ben-conservation-works-2017-/turning-big-bens-clock-dials-blue/",
+      "修复后蓝色与金色装饰的证据。"
+    ]
+  ],
+  "decisions": [
+    {
+      "component_id": "tower",
+      "decision": "高 96 米 × 2 = 192 格；横断面与分段高度由照片估计。",
+      "source_ids": "parliament_dimensions;bb_purcell_02",
+      "parameters": "frame; tower",
+      "consumer": "Tower.shaft / belfry_roof",
+      "confidence": "高；局部分段中"
+    },
+    {
+      "component_id": "clock",
+      "decision": "四个 14 格直径乳白钟面，蓝色静态指针、金色边框，统一背光。",
+      "source_ids": "parliament_dimensions;bb_purcell_03;bb_purcell_08",
+      "parameters": "tower.dial_diameter_blocks; tower.clock_time",
+      "consumer": "Tower.clock",
+      "confidence": "高；数字简化"
+    },
+    {
+      "component_id": "belfry",
+      "decision": "实体角部围合开敞钟室，窄开口、铁栅屏和五个静态钟形。",
+      "source_ids": "bb_purcell_01;bb_purcell_07",
+      "parameters": "tower.belfry",
+      "consumer": "Tower.belfry_roof",
+      "confidence": "中"
+    },
+    {
+      "component_id": "roof",
+      "decision": "深色分段金属屋顶；上尖顶拉高，灯笼缩短，蓝金集中在饰带。",
+      "source_ids": "bb_purcell_02;bb_purcell_10",
+      "parameters": "tower.lower_roof; lantern; upper_spire",
+      "consumer": "Tower.belfry_roof",
+      "confidence": "中；不是精确铸铁花饰"
+    },
+    {
+      "component_id": "night",
+      "decision": "钟面与 Ayrton 灯为重点；塔身较暗，内部有服务灯。",
+      "source_ids": "bb_purcell_11",
+      "parameters": "seed; material emission",
+      "consumer": "Tower.clock / belfry_roof / shaft",
+      "confidence": "中；非游戏光照"
+    },
+    {
+      "component_id": "context",
+      "decision": "仅制作邻接翼楼片段；内部楼梯为可检视候选。",
+      "source_ids": "bb_site;bb_purcell_04",
+      "parameters": "case source constants",
+      "consumer": "Tower.context / shaft",
+      "confidence": "低；不复刻真实楼梯步数"
+    }
+  ],
+  "limitations": [
+    "14 格钟盘不能完整写出罗马数字，刻度与浮雕均简化。",
+    "尖顶、钟室分段高度、邻翼细节仍是照片解释；未使用测绘模型。",
+    "塔内楼梯未做玩家通行、碰撞或消防式通路验收；钟不会走时或报时。"
+  ]
+}

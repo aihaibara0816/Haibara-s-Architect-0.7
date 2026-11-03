@@ -1,0 +1,360 @@
+{
+  "source_nbt_sha256": "77bf743ffabd772e407598eea21726fe02ee26a91cbbb37d24b7a6f090d8efcb",
+  "checks": [
+    {
+      "id": "six_towers_120_households",
+      "status": "pass",
+      "details": {
+        "towers": 6,
+        "homes": 120
+      }
+    },
+    {
+      "id": "exact_10_block_step",
+      "status": "pass",
+      "details": [
+        [
+          "A1",
+          15,
+          118
+        ],
+        [
+          "A2",
+          65,
+          108
+        ],
+        [
+          "A3",
+          115,
+          98
+        ],
+        [
+          "B1",
+          10,
+          31
+        ],
+        [
+          "B2",
+          60,
+          21
+        ],
+        [
+          "B3",
+          110,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "front_3_beds_study_rear_2_beds",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_home_entries_clear_supported",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_room_entries_reachable",
+      "status": "fail",
+      "details": {
+        "failures": [
+          "B1.F01.U1.kitchen",
+          "B1.F01.U2.kitchen",
+          "B1.F02.U1.kitchen",
+          "B1.F02.U2.kitchen",
+          "B1.F03.U1.kitchen",
+          "B1.F03.U2.kitchen",
+          "B1.F04.U1.kitchen",
+          "B1.F04.U2.kitchen",
+          "B1.F05.U1.kitchen",
+          "B1.F05.U2.kitchen",
+          "B1.F06.U1.kitchen",
+          "B1.F06.U2.kitchen",
+          "B1.F07.U1.kitchen",
+          "B1.F07.U2.kitchen",
+          "B1.F08.U1.kitchen",
+          "B1.F08.U2.kitchen",
+          "B1.F09.U1.kitchen",
+          "B1.F09.U2.kitchen",
+          "B1.F10.U1.kitchen",
+          "B1.F10.U2.kitchen",
+          "B1.F11.U1.kitchen",
+          "B1.F11.U2.kitchen",
+          "B1.F12.U1.kitchen",
+          "B1.F12.U2.kitchen",
+          "B1.F13.U1.kitchen",
+          "B1.F13.U2.kitchen",
+          "B1.F14.U1.kitchen",
+          "B1.F14.U2.kitchen",
+          "B1.F15.U1.kitchen",
+          "B1.F15.U2.kitchen",
+          "B2.F01.U1.kitchen",
+          "B2.F01.U2.kitchen",
+          "B2.F02.U1.kitchen",
+          "B2.F02.U2.kitchen",
+          "B2.F03.U1.kitchen",
+          "B2.F03.U2.kitchen",
+          "B2.F04.U1.kitchen",
+          "B2.F04.U2.kitchen",
+          "B2.F05.U1.kitchen",
+          "B2.F05.U2.kitchen",
+          "B2.F06.U1.kitchen",
+          "B2.F06.U2.kitchen",
+          "B2.F07.U1.kitchen",
+          "B2.F07.U2.kitchen",
+          "B2.F08.U1.kitchen",
+          "B2.F08.U2.kitchen",
+          "B2.F09.U1.kitchen",
+          "B2.F09.U2.kitchen",
+          "B2.F10.U1.kitchen",
+          "B2.F10.U2.kitchen",
+          "B2.F11.U1.kitchen",
+          "B2.F11.U2.kitchen",
+          "B2.F12.U1.kitchen",
+          "B2.F12.U2.kitchen",
+          "B2.F13.U1.kitchen",
+          "B2.F13.U2.kitchen",
+          "B2.F14.U1.kitchen",
+          "B2.F14.U2.kitchen",
+          "B2.F15.U1.kitchen",
+          "B2.F15.U2.kitchen",
+          "B3.F01.U1.kitchen",
+          "B3.F01.U2.kitchen",
+          "B3.F02.U1.kitchen",
+          "B3.F02.U2.kitchen",
+          "B3.F03.U1.kitchen",
+          "B3.F03.U2.kitchen",
+          "B3.F04.U1.kitchen",
+          "B3.F04.U2.kitchen",
+          "B3.F05.U1.kitchen",
+          "B3.F05.U2.kitchen",
+          "B3.F06.U1.kitchen",
+          "B3.F06.U2.kitchen",
+          "B3.F07.U1.kitchen",
+          "B3.F07.U2.kitchen",
+          "B3.F08.U1.kitchen",
+          "B3.F08.U2.kitchen",
+          "B3.F09.U1.kitchen",
+          "B3.F09.U2.kitchen",
+          "B3.F10.U1.kitchen",
+          "B3.F10.U2.kitchen",
+          "B3.F11.U1.kitchen",
+          "B3.F11.U2.kitchen",
+          "B3.F12.U1.kitchen",
+          "B3.F12.U2.kitchen",
+          "B3.F13.U1.kitchen",
+          "B3.F13.U2.kitchen",
+          "B3.F14.U1.kitchen",
+          "B3.F14.U2.kitchen",
+          "B3.F15.U1.kitchen",
+          "B3.F15.U2.kitchen"
+        ],
+        "rooms": 780
+      }
+    },
+    {
+      "id": "all_75_landings_reach_120_homes",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "three_clear_two_separator_at_landings",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "69_stair_links_two_width_support_headroom",
+      "status": "pass",
+      "details": {
+        "errors": [],
+        "connections": 69,
+        "game_collision": "pending"
+      }
+    },
+    {
+      "id": "recessed_lamps_survive",
+      "status": "pass",
+      "details": {
+        "count": 328,
+        "errors": []
+      }
+    },
+    {
+      "id": "selected_household_lighting",
+      "status": "pass",
+      "details": {
+        "lit": 41,
+        "all": 120
+      }
+    },
+    {
+      "id": "all_furniture_modules_survive_final_assembly",
+      "status": "pass",
+      "details": {
+        "modules": 1620,
+        "errors": []
+      }
+    },
+    {
+      "id": "furniture_has_reachable_adjacent_floor",
+      "status": "fail",
+      "details": {
+        "unapproachable": [
+          "B1.F01.U1.kitchen.kitchen.0",
+          "B1.F01.U2.kitchen.kitchen.0",
+          "B1.F02.U1.kitchen.kitchen.0",
+          "B1.F02.U2.kitchen.kitchen.0",
+          "B1.F03.U1.kitchen.kitchen.0",
+          "B1.F03.U2.kitchen.kitchen.0",
+          "B1.F04.U1.kitchen.kitchen.0",
+          "B1.F04.U2.kitchen.kitchen.0",
+          "B1.F05.U1.kitchen.kitchen.0",
+          "B1.F05.U2.kitchen.kitchen.0",
+          "B1.F06.U1.kitchen.kitchen.0",
+          "B1.F06.U2.kitchen.kitchen.0",
+          "B1.F07.U1.kitchen.kitchen.0",
+          "B1.F07.U2.kitchen.kitchen.0",
+          "B1.F08.U1.kitchen.kitchen.0",
+          "B1.F08.U2.kitchen.kitchen.0",
+          "B1.F09.U1.kitchen.kitchen.0",
+          "B1.F09.U2.kitchen.kitchen.0",
+          "B1.F10.U1.kitchen.kitchen.0",
+          "B1.F10.U2.kitchen.kitchen.0",
+          "B1.F11.U1.kitchen.kitchen.0",
+          "B1.F11.U2.kitchen.kitchen.0",
+          "B1.F12.U1.kitchen.kitchen.0",
+          "B1.F12.U2.kitchen.kitchen.0",
+          "B1.F13.U1.kitchen.kitchen.0",
+          "B1.F13.U2.kitchen.kitchen.0",
+          "B1.F14.U1.kitchen.kitchen.0",
+          "B1.F14.U2.kitchen.kitchen.0",
+          "B1.F15.U1.kitchen.kitchen.0",
+          "B1.F15.U2.kitchen.kitchen.0",
+          "B2.F01.U1.kitchen.kitchen.0",
+          "B2.F01.U2.kitchen.kitchen.0",
+          "B2.F02.U1.kitchen.kitchen.0",
+          "B2.F02.U2.kitchen.kitchen.0",
+          "B2.F03.U1.kitchen.kitchen.0",
+          "B2.F03.U2.kitchen.kitchen.0",
+          "B2.F04.U1.kitchen.kitchen.0",
+          "B2.F04.U2.kitchen.kitchen.0",
+          "B2.F05.U1.kitchen.kitchen.0",
+          "B2.F05.U2.kitchen.kitchen.0",
+          "B2.F06.U1.kitchen.kitchen.0",
+          "B2.F06.U2.kitchen.kitchen.0",
+          "B2.F07.U1.kitchen.kitchen.0",
+          "B2.F07.U2.kitchen.kitchen.0",
+          "B2.F08.U1.kitchen.kitchen.0",
+          "B2.F08.U2.kitchen.kitchen.0",
+          "B2.F09.U1.kitchen.kitchen.0",
+          "B2.F09.U2.kitchen.kitchen.0",
+          "B2.F10.U1.kitchen.kitchen.0",
+          "B2.F10.U2.kitchen.kitchen.0",
+          "B2.F11.U1.kitchen.kitchen.0",
+          "B2.F11.U2.kitchen.kitchen.0",
+          "B2.F12.U1.kitchen.kitchen.0",
+          "B2.F12.U2.kitchen.kitchen.0",
+          "B2.F13.U1.kitchen.kitchen.0",
+          "B2.F13.U2.kitchen.kitchen.0",
+          "B2.F14.U1.kitchen.kitchen.0",
+          "B2.F14.U2.kitchen.kitchen.0",
+          "B2.F15.U1.kitchen.kitchen.0",
+          "B2.F15.U2.kitchen.kitchen.0",
+          "B3.F01.U1.kitchen.kitchen.0",
+          "B3.F01.U2.kitchen.kitchen.0",
+          "B3.F02.U1.kitchen.kitchen.0",
+          "B3.F02.U2.kitchen.kitchen.0",
+          "B3.F03.U1.kitchen.kitchen.0",
+          "B3.F03.U2.kitchen.kitchen.0",
+          "B3.F04.U1.kitchen.kitchen.0",
+          "B3.F04.U2.kitchen.kitchen.0",
+          "B3.F05.U1.kitchen.kitchen.0",
+          "B3.F05.U2.kitchen.kitchen.0",
+          "B3.F06.U1.kitchen.kitchen.0",
+          "B3.F06.U2.kitchen.kitchen.0",
+          "B3.F07.U1.kitchen.kitchen.0",
+          "B3.F07.U2.kitchen.kitchen.0",
+          "B3.F08.U1.kitchen.kitchen.0",
+          "B3.F08.U2.kitchen.kitchen.0",
+          "B3.F09.U1.kitchen.kitchen.0",
+          "B3.F09.U2.kitchen.kitchen.0",
+          "B3.F10.U1.kitchen.kitchen.0",
+          "B3.F10.U2.kitchen.kitchen.0",
+          "B3.F11.U1.kitchen.kitchen.0",
+          "B3.F11.U2.kitchen.kitchen.0",
+          "B3.F12.U1.kitchen.kitchen.0",
+          "B3.F12.U2.kitchen.kitchen.0",
+          "B3.F13.U1.kitchen.kitchen.0",
+          "B3.F13.U2.kitchen.kitchen.0",
+          "B3.F14.U1.kitchen.kitchen.0",
+          "B3.F14.U2.kitchen.kitchen.0",
+          "B3.F15.U1.kitchen.kitchen.0",
+          "B3.F15.U2.kitchen.kitchen.0"
+        ],
+        "scope": "Adjacent air cells, not block interaction mechanics"
+      }
+    },
+    {
+      "id": "full_declared_garden_paths_clear",
+      "status": "pass",
+      "details": {
+        "cells": 4212,
+        "errors": []
+      }
+    },
+    {
+      "id": "gate_reaches_every_main_entry",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "main_entry_to_stairs",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "mixed_security_grilles",
+      "status": "pass",
+      "details": {
+        "none": 401,
+        "cage": 193,
+        "flush": 126
+      }
+    },
+    {
+      "id": "approved_P01_footprints_in_final_NBT",
+      "status": "pass",
+      "details": {
+        "errors": [],
+        "A_area": 722,
+        "B_area": 822
+      }
+    },
+    {
+      "id": "segmented_roofs_cover_main_floor",
+      "status": "pass",
+      "details": {
+        "roof_parts": 21,
+        "missing_columns": []
+      }
+    },
+    {
+      "id": "retained_pond_contained",
+      "status": "pass",
+      "details": {
+        "water_cells": 93,
+        "leaks": []
+      }
+    }
+  ],
+  "passed": false,
+  "game_status": "pending",
+  "visual_status": "pending_user_review",
+  "limitations": [
+    "Vanilla game import/collision/light propagation not run",
+    "Static lifts and decorative beds/furniture",
+    "P01 zoning refined for block walls/core; exact main footprints retained"
+  ]
+}

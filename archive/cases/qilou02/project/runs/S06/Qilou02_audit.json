@@ -1,0 +1,256 @@
+{
+  "group": "Qilou02",
+  "source_nbt_sha256": "34e810f69c7251f87eb8085b7bc6e0f834de5f2c9f113ef0e843bb30fa4b1c07",
+  "blocks": 98945,
+  "states": 154,
+  "uses": [
+    {
+      "id": "Post.entry",
+      "reachable": true
+    },
+    {
+      "id": "Post.side_entry",
+      "reachable": true
+    },
+    {
+      "id": "Apothecary.entry",
+      "reachable": true
+    },
+    {
+      "id": "Apothecary.rear_entry",
+      "reachable": true
+    },
+    {
+      "id": "Grain.entry",
+      "reachable": true
+    },
+    {
+      "id": "Grain.rear_entry",
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.entry",
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.side_entry",
+      "reachable": true
+    },
+    {
+      "id": "Barber.entry",
+      "reachable": true
+    },
+    {
+      "id": "Barber.rear_entry",
+      "reachable": true
+    },
+    {
+      "id": "Hardware.entry",
+      "reachable": true
+    },
+    {
+      "id": "Hardware.rear_entry",
+      "reachable": true
+    },
+    {
+      "id": "Teahouse.entry",
+      "reachable": true
+    },
+    {
+      "id": "Teahouse.side_entry",
+      "reachable": true
+    },
+    {
+      "id": "Textile.entry",
+      "reachable": true
+    },
+    {
+      "id": "Textile.rear_entry",
+      "reachable": true
+    },
+    {
+      "id": "Grocery.entry",
+      "reachable": true
+    },
+    {
+      "id": "Grocery.rear_entry",
+      "reachable": true
+    },
+    {
+      "id": "Inn.entry",
+      "reachable": true
+    },
+    {
+      "id": "Inn.side_entry",
+      "reachable": true
+    },
+    {
+      "id": "Clinic.entry",
+      "reachable": true
+    },
+    {
+      "id": "Clinic.rear_entry",
+      "reachable": true
+    },
+    {
+      "id": "Bakery.entry",
+      "reachable": true
+    },
+    {
+      "id": "Bakery.rear_entry",
+      "reachable": true
+    },
+    {
+      "id": "court.[67, 3, 63]",
+      "reachable": true
+    },
+    {
+      "id": "court.[78, 3, 75]",
+      "reachable": true
+    },
+    {
+      "id": "court.[61, 3, 84]",
+      "reachable": true
+    }
+  ],
+  "stairs": [
+    {
+      "building": "Post",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Apothecary",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Apothecary",
+      "from_floor": 9,
+      "to_floor": 15,
+      "end_y": 16,
+      "errors": []
+    },
+    {
+      "building": "Grain",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Bookshop",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Barber",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Hardware",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Teahouse",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Teahouse",
+      "from_floor": 9,
+      "to_floor": 15,
+      "end_y": 16,
+      "errors": []
+    },
+    {
+      "building": "Textile",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Grocery",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Inn",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Inn",
+      "from_floor": 9,
+      "to_floor": 15,
+      "end_y": 16,
+      "errors": []
+    },
+    {
+      "building": "Clinic",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    },
+    {
+      "building": "Clinic",
+      "from_floor": 9,
+      "to_floor": 15,
+      "end_y": 16,
+      "errors": []
+    },
+    {
+      "building": "Bakery",
+      "from_floor": 2,
+      "to_floor": 9,
+      "end_y": 10,
+      "errors": []
+    }
+  ],
+  "arcade": [
+    {
+      "id": "arcade_cells",
+      "cells": 1292,
+      "obstructions": [],
+      "uncovered": []
+    },
+    {
+      "id": "lane_cells",
+      "cells": 925,
+      "obstructions": [],
+      "uncovered": []
+    },
+    {
+      "id": "road_cells",
+      "cells": 6336,
+      "obstructions": [],
+      "uncovered": []
+    }
+  ],
+  "block_entities": 387,
+  "paintings": 17,
+  "errors": [],
+  "game": "pending",
+  "aesthetic": "pending user review",
+  "scope": "Independent NBT readback; official model availability; approximate body/stair, doors open; no Minecraft execution"
+}

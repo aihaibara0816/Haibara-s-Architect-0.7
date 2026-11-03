@@ -1,0 +1,307 @@
+{
+  "schema_version": "1.1",
+  "packet_id": null,
+  "collected_at": null,
+  "subject": {
+    "name": null,
+    "aliases": [],
+    "city": null,
+    "kind": null,
+    "identity_status": null,
+    "version": null,
+    "core_identifiers": [],
+    "boundary": null,
+    "areas": {
+      "land_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "gross_floor_area": {
+        "value_m2": null,
+        "fact_id": null
+      },
+      "footprint_area": {
+        "value_m2": null,
+        "fact_id": null
+      }
+    }
+  },
+  "provenance": {
+    "origin_conversation_id": null,
+    "user_input": null,
+    "research_status": null
+  },
+  "sources": [],
+  "facts": [],
+  "components": [],
+  "images": [],
+  "selection": {
+    "target_image_limit": null,
+    "consistency_checks": {
+      "same_version": null,
+      "clean_subject": null,
+      "orientation_aligned": null,
+      "layout_basis_image_ids": [],
+      "podium_closeup_image_ids": [],
+      "shell_crosscheck_image_ids": [],
+      "notes": []
+    },
+    "omitted_constraints": [],
+    "legacy_slots": [
+      {
+        "slot": 1,
+        "image_id": null,
+        "purpose": null,
+        "rationale": null,
+        "missing_search": null
+      },
+      {
+        "slot": 2,
+        "image_id": null,
+        "purpose": null,
+        "rationale": null,
+        "missing_search": null
+      },
+      {
+        "slot": 3,
+        "image_id": null,
+        "purpose": null,
+        "rationale": null,
+        "missing_search": null
+      },
+      {
+        "slot": 4,
+        "image_id": null,
+        "purpose": null,
+        "rationale": null,
+        "missing_search": null
+      }
+    ],
+    "core": [],
+    "detail_groups": [],
+    "views": [],
+    "coverage_requirements": [
+      {
+        "face": "unknown",
+        "component_id": null,
+        "missing_search": "Legacy slot has no qualified image; investigate missing coverage."
+      },
+      {
+        "face": "unknown",
+        "component_id": null,
+        "missing_search": "Legacy slot has no qualified image; investigate missing coverage."
+      },
+      {
+        "face": "unknown",
+        "component_id": null,
+        "missing_search": "Legacy slot has no qualified image; investigate missing coverage."
+      },
+      {
+        "face": "unknown",
+        "component_id": null,
+        "missing_search": "Legacy slot has no qualified image; investigate missing coverage."
+      }
+    ]
+  },
+  "scale": {
+    "ratio_candidates": [],
+    "selected_s": null,
+    "rounding": "half_up",
+    "world_budget": {
+      "width": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "depth": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      },
+      "height": {
+        "blocks": null,
+        "confirmed": false,
+        "basis": null
+      }
+    },
+    "building_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "overall_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "architectural_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "roof_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "tip_height": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "site_dimensions": {
+      "width": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      },
+      "length": {
+        "value_m": null,
+        "range_m": null,
+        "fact_id": null,
+        "basis": null
+      }
+    },
+    "conversions": [],
+    "uniform_scale_max": null,
+    "uncertainty": [],
+    "local_exaggerations": []
+  },
+  "prompts": {
+    "full": null,
+    "short": null,
+    "image_ids": [],
+    "excluded_image_ids": []
+  },
+  "guidance": {
+    "scope": null,
+    "quality": null,
+    "height": null,
+    "site": null,
+    "landscape": {
+      "enabled": true,
+      "omission_reason": null,
+      "boundary": null,
+      "elements": [],
+      "reference_image_ids": [],
+      "access_connections": [],
+      "terrain_notes": null,
+      "acceptance": []
+    },
+    "interior": null,
+    "lighting": null,
+    "material_mappings": []
+  },
+  "risks": [],
+  "staging": {
+    "required": null,
+    "reason": null,
+    "coordinate_system": {
+      "origin": null,
+      "x_axis": null,
+      "y_axis": null,
+      "z_axis": null,
+      "north": null,
+      "s": null
+    },
+    "stages": []
+  },
+  "report_sections": [
+    {
+      "number": 1,
+      "title": "建筑概览与核心识别点",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 2,
+      "title": "可靠尺度与Minecraft比例建议",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 3,
+      "title": "设计语言/材料/幕墙",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 4,
+      "title": "参考图片候选分类",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 5,
+      "title": "核心参考图与覆盖分析",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 6,
+      "title": "完整生成提示词",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 7,
+      "title": "短版提示词",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 8,
+      "title": "规模/质量/高度/附属广场与内部空间建议",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 9,
+      "title": "风险与失败排查",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    },
+    {
+      "number": 10,
+      "title": "复杂项目拆分顺序",
+      "content": null,
+      "fact_ids": [],
+      "image_ids": [],
+      "source_ids": []
+    }
+  ],
+  "experiments": [],
+  "gaps": []
+}

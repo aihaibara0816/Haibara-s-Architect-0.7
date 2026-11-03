@@ -1,0 +1,316 @@
+{
+  "case_id": "Workshop",
+  "run": "Q03",
+  "seed": 141145,
+  "buildings": [
+    {
+      "id": "Workshop",
+      "name": "青木工房｜修理与木作",
+      "size": [
+        24,
+        28,
+        27
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        12,
+        3,
+        22
+      ],
+      "rooms": [
+        {
+          "id": "Workshop.main",
+          "name": "青木工房｜修理与木作",
+          "bounds": [
+            7,
+            3,
+            4,
+            20,
+            7,
+            22
+          ],
+          "floor_y": 3,
+          "capacity": 6,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Workshop.entry",
+          "pos": [
+            12,
+            3,
+            21
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Workshop.workbench",
+          "pos": [
+            12,
+            3,
+            11
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Workshop.assembly",
+          "pos": [
+            17,
+            3,
+            16
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Workshop.door.0",
+          "pos": [
+            12,
+            3,
+            22
+          ],
+          "lintel": [
+            12,
+            5,
+            22
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            12,
+            6,
+            18
+          ],
+          "support": [
+            12,
+            7,
+            18
+          ]
+        },
+        {
+          "position": [
+            17,
+            6,
+            7
+          ],
+          "support": [
+            17,
+            7,
+            7
+          ]
+        },
+        {
+          "position": [
+            7,
+            6,
+            13
+          ],
+          "support": [
+            7,
+            7,
+            13
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Workshop.bench.dining_table.6_1_10",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            6,
+            3,
+            10,
+            11,
+            4,
+            12
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Workshop.assembly.dining_table.15_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            15,
+            3,
+            13,
+            19,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Workshop.stove.cooking.18_1_4",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            18,
+            3,
+            4,
+            19,
+            4,
+            5
+          ],
+          "use_points": [
+            [
+              18,
+              3,
+              5
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Workshop.parts.bookshelf_group.4_1_14",
+          "recipe": "bookshelf_group",
+          "bounds_xyz": [
+            4,
+            3,
+            14,
+            5,
+            7,
+            15
+          ],
+          "use_points": [
+            [
+              4,
+              3,
+              15
+            ]
+          ],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "Taisho14 original program; prior video street observations"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotated_180": false,
+      "entry_world": [
+        89,
+        10,
+        113
+      ],
+      "upper_start": [
+        4,
+        4
+      ],
+      "street_row": 1
+    }
+  ],
+  "uses": [
+    {
+      "id": "Workshop.entry",
+      "pos": [
+        12,
+        3,
+        21
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Workshop.workbench",
+      "pos": [
+        12,
+        3,
+        11
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Workshop.assembly",
+      "pos": [
+        17,
+        3,
+        16
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Workshop.door.0",
+      "pos": [
+        12,
+        3,
+        22
+      ],
+      "lintel": [
+        12,
+        5,
+        22
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        12,
+        6,
+        18
+      ],
+      "support": [
+        12,
+        7,
+        18
+      ]
+    },
+    {
+      "position": [
+        17,
+        6,
+        7
+      ],
+      "support": [
+        17,
+        7,
+        7
+      ]
+    },
+    {
+      "position": [
+        7,
+        6,
+        13
+      ],
+      "support": [
+        7,
+        7,
+        13
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    12,
+    3,
+    23
+  ],
+  "upper_start": [
+    4,
+    4
+  ],
+  "source_nbt_sha256": "c218b05aa78ea1b12427118baec92925a7d18e4ebad9464501cd2cb2f8855113",
+  "non_air": 4464,
+  "size_xyz": [
+    24,
+    28,
+    27
+  ],
+  "block_entities": 12,
+  "entities": 0
+}

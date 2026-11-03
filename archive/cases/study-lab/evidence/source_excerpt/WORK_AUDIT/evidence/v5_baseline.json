@@ -1,0 +1,78 @@
+{
+  "archive_sha256": "d47a3d815dd2534fb7cd0b0599b765654846d4e78e80b5fa888b6dbddddd889d",
+  "nbt_actual_sha256": "9cacf7cc2ebe615e63b799c5fde792736af624a94b58414776e03e574855d18b",
+  "report": {
+    "build_id": "V5_r02",
+    "adapter": "canton-v5-0.1",
+    "geometry_sha256": "e1537d64e404da6604828a86b10e6ad1171b4c428eef034f5f6e728481a11a0e",
+    "nbt": {
+      "file": "canton280_plaza_v5.nbt",
+      "bytes": 359037,
+      "sha256": "9cacf7cc2ebe615e63b799c5fde792736af624a94b58414776e03e574855d18b",
+      "listed_blocks": 118566,
+      "non_air_blocks": 118566,
+      "size_xyz": [
+        128,
+        282,
+        232
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "e1537d64e404da6604828a86b10e6ad1171b4c428eef034f5f6e728481a11a0e",
+      "data_version": 3955
+    },
+    "tower_nbt": {
+      "file": "tower_v5.nbt",
+      "bytes": 90003,
+      "sha256": "2b4cb161e19dbf34d182318668deb5fd9cfe6dcc56c63f9a03349d0f768e3f58",
+      "listed_blocks": 25708,
+      "non_air_blocks": 25708,
+      "size_xyz": [
+        56,
+        282,
+        56
+      ],
+      "contains_explicit_air": false,
+      "geometry_sha256": "20905c0c1418dc7121199d6bfa9fdee44633bf7ed9765566ab3938769511ba7e",
+      "data_version": 3955
+    },
+    "non_air_blocks": 118566,
+    "checks": {
+      "nbt_roundtrip_exact": true,
+      "module_reassembly_exact": true,
+      "modules_under_1M_cells_and_256KiB": true,
+      "tower_structure_height_280": true,
+      "upper_tower_y12_plus_matches_V4": true,
+      "program_voids_and_core_shaft_preserved": true,
+      "court_bottoms_1F_and_open": true,
+      "no_underground_room_blocks": true,
+      "stairs_have_two_cell_clearance": true,
+      "pool_water_contained": true,
+      "tree_roots_have_support": true,
+      "tower_columns_meet_podium": true,
+      "all_five_program_groups_lit": true,
+      "actual_site_and_interior_light_blocks": true,
+      "ring_slab_box_inside_column_polygon": true
+    },
+    "status": "pass",
+    "interior_lights_by_band": {
+      "A": 46,
+      "B": 22,
+      "C": 5,
+      "D": 5,
+      "E": 33
+    },
+    "actual_light_blocks": 354,
+    "game_validation": "pending",
+    "seconds": 70.63,
+    "limitations": [
+      "Site heights and dimensions estimated",
+      "Court floors truncated at 1F; user-requested adaptation is not an as-built reconstruction",
+      "No complete commercial interiors",
+      "No surveyed geographic orientation or photo registration",
+      "46 inherited equally spaced tower hoop levels; tilt and core conflicts remain",
+      "No real RGB light show",
+      "Minecraft import, collisions and fluid updates untested"
+    ]
+  },
+  "verification_scope": "ZIP bytes, JSON and NBT byte hash rechecked; geometric checks reported unless separately rerun"
+}

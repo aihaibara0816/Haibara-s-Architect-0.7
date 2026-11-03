@@ -1,0 +1,19 @@
+{
+  "unchanged_count": 33,
+  "changed": [
+    {
+      "file": "support/detail_lab/mesh.py",
+      "before": "9df59b4a3a398f0c9f5db49fb1b27a40db0c8a373ffb3734514edc915f74ff22",
+      "after": "e68f30ef3881aacdb4a627543aaa0cb7c23bdda7c866217c9d1d760a79db2b34"
+    },
+    {
+      "file": "tools/render_building_case.py",
+      "before": "904a5a52ae3823ab6b39b3c328acd6e549b5aa9595cecd75d81d6368cb0341ad",
+      "after": "8ac35aa5d436ddb4264f68a7af0d850f8a03c1edc386b0c671deefe29230a54b"
+    }
+  ],
+  "added_tests": [
+    "tests/test_mesh_write.py"
+  ],
+  "reason": "Fix large preview cache partial writes and reject incomplete mesh buffers; no building geometry/state/lighting engine rewrite"
+}

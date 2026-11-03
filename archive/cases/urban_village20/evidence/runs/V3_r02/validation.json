@@ -1,0 +1,323 @@
+{
+  "source_nbt_sha256": "90a5f48a8323e7e88b6c45cab541623fe55b866b64a1147d882e9d6f5f6ae174",
+  "checks": [
+    {
+      "id": "20_unique_mass_dimensions",
+      "status": "pass",
+      "details": [
+        [
+          "A1",
+          18,
+          24,
+          8
+        ],
+        [
+          "A2",
+          32,
+          22,
+          5
+        ],
+        [
+          "A3",
+          22,
+          37,
+          7
+        ],
+        [
+          "A4",
+          26,
+          24,
+          3
+        ],
+        [
+          "B1",
+          37,
+          24,
+          4
+        ],
+        [
+          "B2",
+          18,
+          23,
+          6
+        ],
+        [
+          "B3",
+          27,
+          20,
+          2
+        ],
+        [
+          "B4",
+          23,
+          36,
+          7
+        ],
+        [
+          "C1",
+          31,
+          22,
+          5
+        ],
+        [
+          "C2",
+          22,
+          35,
+          8
+        ],
+        [
+          "C3",
+          17,
+          22,
+          4
+        ],
+        [
+          "C4",
+          22,
+          21,
+          2
+        ],
+        [
+          "D1",
+          47,
+          27,
+          5
+        ],
+        [
+          "D2",
+          35,
+          22,
+          7
+        ],
+        [
+          "D3",
+          20,
+          31,
+          4
+        ],
+        [
+          "D4",
+          22,
+          16,
+          3
+        ],
+        [
+          "D5",
+          32,
+          38,
+          6
+        ],
+        [
+          "E1",
+          24,
+          45,
+          6
+        ],
+        [
+          "E2",
+          29,
+          49,
+          7
+        ],
+        [
+          "E3",
+          20,
+          18,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "household_and_shop_lighting",
+      "status": "pass",
+      "details": {
+        "homes": 235,
+        "lit_homes": 164,
+        "ratio": 0.6978723404255319,
+        "shops": [
+          "restaurant",
+          "barber",
+          "tea",
+          "grocery",
+          "restaurant",
+          "laundry",
+          "grocery",
+          "repair",
+          "restaurant"
+        ]
+      }
+    },
+    {
+      "id": "file_bounds_and_readback",
+      "status": "pass",
+      "details": {
+        "size": [
+          216,
+          64,
+          205
+        ],
+        "non_air_blocks": 404707,
+        "DataVersion": 3955
+      }
+    },
+    {
+      "id": "all_unit_entries_supported_and_clear",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_function_zone_approaches_reachable",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_floor_landings_reach_units",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_two_wide_stair_links_support_headroom",
+      "status": "pass",
+      "details": {
+        "links": 101,
+        "errors": []
+      }
+    },
+    {
+      "id": "all_furniture_modules_present",
+      "status": "pass",
+      "details": {
+        "modules": 1890,
+        "lost": []
+      }
+    },
+    {
+      "id": "furniture_adjacent_floor_reachable",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "graded_streets_and_entry_paths_clear",
+      "status": "pass",
+      "details": {
+        "path_cells": 4443,
+        "errors": []
+      }
+    },
+    {
+      "id": "main_street_reaches_all_external_entries",
+      "status": "pass",
+      "details": {
+        "entries": 36,
+        "errors": []
+      }
+    },
+    {
+      "id": "shop_customer_and_service_doors_reach_interior",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "northwest_higher_and_open_east_south_streets",
+      "status": "pass",
+      "details": {
+        "northwest_y": 7,
+        "southeast_y": 3,
+        "east_road_y": 2,
+        "south_road_y": 2
+      }
+    },
+    {
+      "id": "nonrectangular_floor_plates_built",
+      "status": "pass",
+      "details": {
+        "buildings": [
+          "A1",
+          "A2",
+          "A3",
+          "A4",
+          "B1",
+          "B3",
+          "B4",
+          "C1",
+          "D1",
+          "D2",
+          "D5",
+          "E1",
+          "E2"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "id": "cutaway_corners_have_ground_bearing",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "balconies_and_roof_exits_reachable",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "all_lamps_present_recessed_and_exposed",
+      "status": "pass",
+      "details": {
+        "lamps": 770,
+        "errors": [],
+        "unrecorded": []
+      }
+    },
+    {
+      "id": "mixed_window_grilles",
+      "status": "pass",
+      "details": {
+        "none": 684,
+        "flush": 231,
+        "cage": 234
+      }
+    },
+    {
+      "id": "isolated_near_colour_variation",
+      "status": "pass",
+      "details": {
+        "tones": 3718,
+        "adjacent": []
+      }
+    },
+    {
+      "id": "weathering_remains_on_facade",
+      "status": "pass",
+      "details": {
+        "kinds": {
+          "near_colour": 3718,
+          "exposed_infill": 123,
+          "backed_chipped_edge": 15
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "roof_and_pipe_bases_supported",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "id": "20_haf_handoffs_compiled",
+      "status": "pass",
+      "details": {
+        "plans": 20,
+        "planner_does_not_generate_geometry": true
+      }
+    }
+  ],
+  "passed": true,
+  "game_status": "pending",
+  "visual_status": "pending",
+  "limits": [
+    "Cell-based access is not actual game collision/pathfinding",
+    "Vanilla textures and coloured light are not simulated",
+    "Beds, kitchen, plumbing and shop signs are decorative",
+    "Original design, no surveyed village identity"
+  ]
+}

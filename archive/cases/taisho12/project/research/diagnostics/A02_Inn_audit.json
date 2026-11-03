@@ -1,0 +1,262 @@
+{
+  "source_nbt_sha256": "03bda10d2291b1bffe613206ddb4c7a717325250b3d3976530de8bd5bdab5c76",
+  "non_air": 9254,
+  "entries": [
+    {
+      "id": "Inn",
+      "pos": [
+        18,
+        3,
+        29
+      ],
+      "reachable": false
+    }
+  ],
+  "use_points": 14,
+  "use_checks": [
+    {
+      "id": "Inn.stairs.bottom",
+      "pos": [
+        6,
+        3,
+        17
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Inn.stairs.top",
+      "pos": [
+        6,
+        9,
+        10
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.lobby",
+      "pos": [
+        18,
+        3,
+        27
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Inn.reception",
+      "pos": [
+        24,
+        3,
+        23
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Inn.tea",
+      "pos": [
+        14,
+        3,
+        23
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Inn.bath",
+      "pos": [
+        13,
+        3,
+        15
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Inn.kitchen",
+      "pos": [
+        27,
+        3,
+        14
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Inn.dining",
+      "pos": [
+        22,
+        3,
+        20
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Inn.hall",
+      "pos": [
+        18,
+        9,
+        25
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.west.room",
+      "pos": [
+        14,
+        9,
+        20
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.east.room",
+      "pos": [
+        26,
+        9,
+        20
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.bed.west",
+      "pos": [
+        14,
+        9,
+        11
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.bed.east",
+      "pos": [
+        27,
+        9,
+        11
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Inn.balcony",
+      "pos": [
+        18,
+        9,
+        31
+      ],
+      "floor_block_y": 8,
+      "reachable": false
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [
+    [
+      "use",
+      "Inn.stairs.bottom",
+      [
+        6,
+        3,
+        17
+      ],
+      []
+    ],
+    [
+      "use",
+      "Inn.lobby",
+      [
+        18,
+        3,
+        27
+      ],
+      []
+    ],
+    [
+      "use",
+      "Inn.reception",
+      [
+        24,
+        3,
+        23
+      ],
+      []
+    ],
+    [
+      "use",
+      "Inn.tea",
+      [
+        14,
+        3,
+        23
+      ],
+      []
+    ],
+    [
+      "use",
+      "Inn.bath",
+      [
+        13,
+        3,
+        15
+      ],
+      []
+    ],
+    [
+      "use",
+      "Inn.kitchen",
+      [
+        27,
+        3,
+        14
+      ],
+      []
+    ],
+    [
+      "use",
+      "Inn.dining",
+      [
+        22,
+        3,
+        20
+      ],
+      []
+    ],
+    [
+      "use",
+      "Inn.balcony",
+      [
+        18,
+        9,
+        31
+      ],
+      []
+    ],
+    [
+      "entry",
+      "Inn",
+      [
+        18,
+        3,
+        29
+      ]
+    ]
+  ],
+  "block_entities": 51,
+  "paintings": 4,
+  "official_model_states": 83,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

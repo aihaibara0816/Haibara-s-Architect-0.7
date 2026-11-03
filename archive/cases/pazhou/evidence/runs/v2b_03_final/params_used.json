@@ -1,0 +1,130 @@
+{
+  "case_revision": "Pazhou-V2",
+  "engine_version": "HAF 0.3 case adapter",
+  "size_xyz": [
+    56,
+    100,
+    82
+  ],
+  "seed": 20261025,
+  "scale_blocks_per_metre": 0.4666666666666667,
+  "height_m": 206.75,
+  "tower": {
+    "x0": 14,
+    "x1": 42,
+    "z0": 46,
+    "z1": 66,
+    "top_exclusive": 97,
+    "wing_inner_x": [
+      24,
+      32
+    ]
+  },
+  "platforms": [
+    {
+      "id": "T1",
+      "floor": 14,
+      "y": 34,
+      "front_z": 35,
+      "open_above": 4
+    },
+    {
+      "id": "T2",
+      "floor": 23,
+      "y": 56,
+      "front_z": 40,
+      "open_above": 4
+    },
+    {
+      "id": "T3",
+      "floor": 32,
+      "y": 78,
+      "front_z": 40,
+      "open_above": 4
+    },
+    {
+      "id": "T4",
+      "floor": 38,
+      "y": 94,
+      "front_z": 33,
+      "open_above": 0
+    }
+  ],
+  "canyon": {
+    "sections_y_z": [
+      [
+        7,
+        58
+      ],
+      [
+        21,
+        48
+      ],
+      [
+        34,
+        61
+      ],
+      [
+        56,
+        48
+      ],
+      [
+        78,
+        61
+      ],
+      [
+        94,
+        49
+      ]
+    ],
+    "width": 8,
+    "side_taper_blocks": 1
+  },
+  "podium": {
+    "x0": 14,
+    "x1": 42,
+    "z0": 10,
+    "z1": 26,
+    "roof_y": 26,
+    "middle_y": 10
+  },
+  "bridges": [
+    {
+      "id": "B1",
+      "y": 8,
+      "x0": 24,
+      "x1": 32
+    },
+    {
+      "id": "B2",
+      "y": 21,
+      "x0": 20,
+      "x1": 36
+    }
+  ],
+  "detail": {
+    "soffit_grid_pitch": 2,
+    "bridge_rib_pitch": 3,
+    "room_activity": 0.28,
+    "soffit_light_density": 0.1,
+    "upper_slot_x": [
+      26,
+      30
+    ],
+    "upper_slot_z": [
+      37,
+      49
+    ]
+  },
+  "unverified_dimensions": [
+    "tower width and depth",
+    "podium height/footprint",
+    "lower platform projections",
+    "canyon slope",
+    "platform heights except top construction datum",
+    "roof aperture dimensions",
+    "internal room plans",
+    "geographic bearing"
+  ],
+  "scope": "main tower, northern podium, cross-road bridges, schematic small site; excludes neighbors and basement"
+}

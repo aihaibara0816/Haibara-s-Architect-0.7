@@ -1,0 +1,180 @@
+<!-- Noto Sans SC / SIL OFL 1.1
+Google Inc.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+--><!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>市民服务中心 · NBT 几何查看</title><style>body{margin:0;background:#142f3c;color:#fff;font:13px system-ui}#controls{height:125px;padding:12px 18px;box-sizing:border-box}select{max-width:150px;padding:4px}label{display:inline-block;margin:4px 14px 4px 0}input[type=range]{width:100px;vertical-align:middle;accent-color:#5aa9ba}#c{display:block;touch-action:none}#msg{font-size:12px;color:#c5d7de}</style><style>@font-face{font-family:"Noto Sans CJK SC";src:url(data:font/woff;base64,AA==) format("woff");font-weight:100 900;font-style:normal;font-display:swap}</style><div id="controls"><label>视图 <select id="mode"><option value="all">整体</option><option value="facade">幕墙</option><option value="river">大厅与连桥</option><option value="top">真俯视</option><option value="garden">入口竹园</option><option value="community">三层公共活动</option><option value="ground">首层受理与等候</option><option value="section">办公层剖切</option></select></label><label><input id="night" type="checkbox">夜景</label><label>旋转 <input id="yaw" type="range" min="0" max="360" value="45"></label><label>缩放 <input id="zoom" type="range" min="0.7" max="2" step="0.05" value="1"></label><div id="msg">加载内嵌几何…</div></div><canvas id="c"></canvas><script>const BINS={};
+const META={};
+async function inflate(n){const b=Uint8Array.from(atob(BINS[n]),c=>c.charCodeAt(0));return await new Response(new Blob([b]).stream().pipeThrough(new DecompressionStream("deflate"))).arrayBuffer()}
+
+'use strict';
+const cv=document.getElementById('c'),gl=cv.getContext('webgl2',{antialias:true,preserveDrawingBuffer:true,alpha:false});
+if(!gl)throw Error('WebGL 2 required');
+const norm=v=>{let l=Math.hypot(...v);return v.map(x=>x/l)},sub=(a,b)=>a.map((v,i)=>v-b[i]),dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]];
+function mul(a,b){let r=new Float32Array(16);for(let c=0;c<4;c++)for(let row=0;row<4;row++)for(let k=0;k<4;k++)r[c*4+row]+=a[k*4+row]*b[c*4+k];return r}
+function look(eye,target){let z=norm(sub(eye,target)),x=norm(cross(Math.abs(z[1])>.999999?[0,0,-1]:[0,1,0],z)),y=cross(z,x);return new Float32Array([x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-dot(x,eye),-dot(y,eye),-dot(z,eye),1])}
+function persp(fov,aspect,near,far){let t=1/Math.tan(fov*Math.PI/360);return new Float32Array([t/aspect,0,0,0,0,t,0,0,0,0,(far+near)/(near-far),-1,0,0,2*far*near/(near-far),0])}
+function ortho(l,r,b,t,n,f){return new Float32Array([2/(r-l),0,0,0,0,2/(t-b),0,0,0,0,-2/(f-n),0,-(r+l)/(r-l),-(t+b)/(t-b),-(f+n)/(f-n),1])}
+function shader(type,src){let s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s}
+function prog(v,f){let p=gl.createProgram();gl.attachShader(p,shader(gl.VERTEX_SHADER,v));gl.attachShader(p,shader(gl.FRAGMENT_SHADER,f));gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(p));return p}
+const vs=`#version 300 es
+layout(location=0) in vec3 aPos; layout(location=1) in vec3 aNormal;layout(location=2) in vec3 aColor;layout(location=3) in float aEmission;
+uniform mat4 uVP;uniform mat4 uLightVP;out vec3 vPos;out vec3 vNormal;out vec3 vColor;out vec4 vShadow;out float vEmission;
+void main(){vPos=aPos;vNormal=aNormal;vColor=aColor;vEmission=aEmission;vShadow=uLightVP*vec4(aPos,1.);gl_Position=uVP*vec4(aPos,1.);}`;
+const fs=`#version 300 es
+precision highp float;
+in vec3 vPos;in vec3 vNormal;in vec3 vColor;in vec4 vShadow;in float vEmission;
+uniform sampler2D uShadow;uniform vec3 uSun;uniform vec3 uEye;uniform vec3 uFog;uniform highp sampler3D uBlockLight;uniform vec3 uSize;uniform float uNight;uniform float uGlass;uniform float uGround;uniform float uConcept;
+out vec4 color;
+float shadow(){vec3 q=vShadow.xyz/vShadow.w*.5+.5;if(any(lessThan(q,vec3(0.)))||any(greaterThan(q,vec3(1.))))return 1.;float bias=max(.00065,.0010*(1.-dot(vNormal,uSun)));float s=0.;for(int x=-1;x<=1;x++)for(int y=-1;y<=1;y++){float d=texture(uShadow,q.xy+vec2(x,y)/4096.).r;s+=q.z-bias>d?.40:1.;}return s/9.;}
+void main(){
+vec3 n=normalize(vNormal),view=normalize(uEye-vPos);float ndl=max(dot(n,uSun),0.);float shade=uConcept>.5?1.:shadow();
+float ambient=mix(.57,.30,uNight);float direct=mix(.58,.50,uNight);vec3 tint=mix(vec3(1.02,1.01,.99),vec3(.61,.76,1.03),uNight);
+vec3 c=vColor*(ambient+direct*ndl*shade)*tint;
+// Ground is display context; a very subtle grid makes the voxel scale readable.
+if(uGround>.5){float grid=step(.97,fract(vPos.x/10.))+step(.97,fract(vPos.z/10.));c*=1.-min(grid,1.)*.045;}
+if(uNight>.5 && uGround<.5){
+ float lev=texture(uBlockLight,clamp((vPos+n*.62)/uSize,vec3(.001),vec3(.999))).r*17.;
+ c+=vColor*vec3(1.0,.93,.77)*pow(lev,1.7)*.95;
+}
+if(vEmission>.5)c=vColor;
+float alpha=1.;if(uGlass>.5){float fr=pow(1.-abs(dot(n,view)),3.);c=mix(c,mix(vec3(.61,.77,.81),vec3(.20,.33,.48),uNight),.25+.28*fr);alpha=mix(.76,.48,uNight)+.10*fr;}
+float fog=1.-exp(-length(uEye-vPos)*mix(.00010,.00018,uNight));c=mix(c,uFog,uConcept>.5?0.:min(fog,.18));
+color=vec4(clamp(c,0.,1.),alpha);
+}`;
+const main=prog(vs,fs),depth=prog(`#version 300 es
+layout(location=0) in vec3 aPos;uniform mat4 uVP;void main(){gl_Position=uVP*vec4(aPos,1.);}`,`#version 300 es
+precision highp float;void main(){}`);
+const bg=prog(`#version 300 es
+out vec2 v;void main(){vec2 p=vec2((gl_VertexID<<1)&2,gl_VertexID&2);v=p;gl_Position=vec4(p*2.-1.,0.,1.);}`,`#version 300 es
+precision highp float;in vec2 v;uniform vec3 uTop;uniform vec3 uBottom;out vec4 color;void main(){color=vec4(mix(uBottom,uTop,clamp(v.y,0.,1.)),1.);}`);
+function mesh(arr){const vao=gl.createVertexArray(),buf=gl.createBuffer();gl.bindVertexArray(vao);gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,arr,gl.STATIC_DRAW);let sizes=[3,3,3,1],off=0;for(let i=0;i<4;i++){gl.enableVertexAttribArray(i);gl.vertexAttribPointer(i,sizes[i],gl.FLOAT,false,40,off*4);off+=sizes[i]}return {vao,buf,count:arr.length/10,data:arr}}
+function draw(m){gl.bindVertexArray(m.vao);gl.drawArrays(gl.TRIANGLES,0,m.count)}
+function uni(p,n,type,val){let loc=gl.getUniformLocation(p,n);if(type==='m')gl.uniformMatrix4fv(loc,false,val);if(type==='3')gl.uniform3fv(loc,val);if(type==='1')gl.uniform1f(loc,val)}
+const tex=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,tex);gl.texImage2D(gl.TEXTURE_2D,0,gl.DEPTH_COMPONENT24,4096,4096,0,gl.DEPTH_COMPONENT,gl.UNSIGNED_INT,null);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.NEAREST);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.NEAREST);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+const fb=gl.createFramebuffer();gl.bindFramebuffer(gl.FRAMEBUFFER,fb);gl.framebufferTexture2D(gl.FRAMEBUFFER,gl.DEPTH_ATTACHMENT,gl.TEXTURE_2D,tex,0);gl.drawBuffers([gl.NONE]);gl.readBuffer(gl.NONE);if(gl.checkFramebufferStatus(gl.FRAMEBUFFER)!==gl.FRAMEBUFFER_COMPLETE)throw Error('shadow framebuffer incomplete');gl.bindFramebuffer(gl.FRAMEBUFFER,null);
+const groundArr=[];for(let p of [[-600,-.03,-600],[-600,-.03,600],[600,-.03,600],[-600,-.03,-600],[600,-.03,600],[600,-.03,-600]])groundArr.push(...p,0,1,0,.71,.75,.72,0);
+const ground=mesh(new Float32Array(groundArr));let opaque,glass,meta,lightTex,originalOpaque,originalGlass,currentCut="none";
+async function init(){[opaque,glass]=await Promise.all(['opaque','glass'].map(async n=>mesh(new Float32Array(await inflate(n+'.bin')))));meta=META;const light=new Uint8Array(await inflate('blocklight.bin'));
+lightTex=gl.createTexture();gl.bindTexture(gl.TEXTURE_3D,lightTex);gl.pixelStorei(gl.UNPACK_ALIGNMENT,1);
+gl.texImage3D(gl.TEXTURE_3D,0,gl.R8,...meta.size_xyz,0,gl.RED,gl.UNSIGNED_BYTE,light);
+for(const axis of [gl.TEXTURE_WRAP_S,gl.TEXTURE_WRAP_T,gl.TEXTURE_WRAP_R])gl.texParameteri(gl.TEXTURE_3D,axis,gl.CLAMP_TO_EDGE);
+gl.texParameteri(gl.TEXTURE_3D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_3D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);originalOpaque=opaque;originalGlass=glass;window.ready=true}
+function sortGlass(eye,target){const d=norm(sub(target,eye)),arr=glass.data,tri=arr.length/30,order=Array.from({length:tri},(_,i)=>i);let depths=new Float32Array(tri);for(let i=0;i<tri;i++){let j=i*30;depths[i]=(arr[j]+arr[j+10]+arr[j+20])*d[0]+(arr[j+1]+arr[j+11]+arr[j+21])*d[1]+(arr[j+2]+arr[j+12]+arr[j+22])*d[2]}order.sort((a,b)=>depths[b]-depths[a]);let sorted=new Float32Array(arr.length);order.forEach((idx,i)=>sorted.set(arr.subarray(idx*30,idx*30+30),i*30));gl.bindBuffer(gl.ARRAY_BUFFER,glass.buf);gl.bufferData(gl.ARRAY_BUFFER,sorted,gl.DYNAMIC_DRAW)}
+function displayCut(o){
+ const key=JSON.stringify([o.cutY??null,o.cutX??null]);if(key===currentCut)return;
+ if(opaque!==originalOpaque){gl.deleteVertexArray(opaque.vao);gl.deleteBuffer(opaque.buf)}
+ if(glass!==originalGlass){gl.deleteVertexArray(glass.vao);gl.deleteBuffer(glass.buf)}
+ const filter=m=>{if(o.cutY==null&&o.cutX==null)return m;let out=[];
+  for(let i=0;i<m.data.length;i+=30){let keep=true;for(let k of [0,10,20])if((o.cutY!=null&&m.data[i+k+1]>o.cutY)||(o.cutX!=null&&m.data[i+k]>o.cutX))keep=false;
+   if(keep)for(let j=0;j<30;j++)out.push(m.data[i+j]);}return mesh(new Float32Array(out));};
+ opaque=filter(originalOpaque);glass=filter(originalGlass);currentCut=key;
+}
+window.render=async function(o){
+displayCut(o);
+cv.width=o.width;cv.height=o.height;cv.style.width='100%';cv.style.height='100%';
+let night=o.night?1:0,sun=norm(night?[-.55,.75,-.50]:[-.6,.9,-.8]),center=meta.size_xyz.map(v=>v/2),lightEye=center.map((v,i)=>v+sun[i]*450),lv=mul(ortho(-220,220,-220,220,20,900),look(lightEye,center));
+gl.enable(gl.DEPTH_TEST);gl.depthFunc(gl.LEQUAL);gl.enable(gl.CULL_FACE);gl.cullFace(gl.BACK);gl.disable(gl.BLEND);gl.depthMask(true);
+gl.bindFramebuffer(gl.FRAMEBUFFER,fb);gl.viewport(0,0,4096,4096);gl.clear(gl.DEPTH_BUFFER_BIT);gl.useProgram(depth);uni(depth,'uVP','m',lv);draw(opaque);gl.bindFramebuffer(gl.FRAMEBUFFER,null);
+gl.viewport(0,0,o.width,o.height);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.disable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);gl.useProgram(bg);uni(bg,'uTop','3',night?[.028,.055,.105]:[.63,.76,.80]);uni(bg,'uBottom','3',night?[.075,.13,.18]:[.89,.91,.86]);gl.bindVertexArray(null);gl.drawArrays(gl.TRIANGLES,0,3);
+gl.enable(gl.DEPTH_TEST);gl.enable(gl.CULL_FACE);gl.useProgram(main);let vp=mul(o.ortho?ortho(-o.spanX/2,o.spanX/2,-o.spanZ/2,o.spanZ/2,.3,1600):persp(o.fov,o.width/o.height,.3,1600),look(o.eye,o.target));
+for(let [n,t,v]of [['uVP','m',vp],['uLightVP','m',lv],['uSun','3',sun],['uEye','3',o.eye],['uFog','3',night?[.075,.13,.18]:[.89,.91,.86]],['uNight','1',night],['uGlass','1',0],['uGround','1',0],['uConcept','1',o.concept?1:0]])uni(main,n,t,v);
+uni(main,'uSize','3',meta.size_xyz);gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_3D,lightTex);gl.uniform1i(gl.getUniformLocation(main,'uBlockLight'),1);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,tex);gl.uniform1i(gl.getUniformLocation(main,'uShadow'),0);
+draw(opaque);uni(main,'uGround','1',1);draw(ground);uni(main,'uGround','1',0);
+sortGlass(o.eye,o.target);uni(main,'uGlass','1',1);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.depthMask(false);draw(glass);gl.depthMask(true);gl.disable(gl.BLEND);gl.finish();
+let err=gl.getError();if(err!==gl.NO_ERROR)throw Error('GL error '+err);
+return {data:cv.toDataURL('image/png'),camera:o,renderer:gl.getParameter(gl.RENDERER),geometry_sha256:meta.geometry_sha256};
+};
+let pending=false;function update(){if(!window.ready||pending)return;pending=true;requestAnimationFrame(async()=>{try{const yaw=Number(document.getElementById('yaw').value)*Math.PI/180;const zoom=Number(document.getElementById('zoom').value);const mode=document.getElementById('mode').value;const width=Math.min(1200,innerWidth),height=Math.min(1100,innerHeight-125);let target=[72,30,60],spanZ=145/zoom,rise=120,dist=260,extra={};if(mode==='facade'){target=[59,36,66];spanZ=70/zoom;rise=15;dist=200}if(mode==='river'){target=[80,12,42];spanZ=100/zoom;rise=95;dist=200;extra={cutY:20.9}}if(mode==='garden'){target=[99,9,86];spanZ=85/zoom;rise=55;dist=140}if(mode==='community'){target=[72,25,59];spanZ=118/zoom;rise=110;extra={cutY:29.9,minY:22}}if(mode==='ground'){target=[72,7,60];spanZ=140/zoom;rise=160;extra={cutY:11.9,minY:3}}if(mode==='section'){target=[65,33,60];spanZ=115/zoom;rise=90;extra={cutY:37.9}}let viewYaw=yaw;let eye=[target[0]+Math.sin(viewYaw)*dist,target[1]+rise,target[2]+Math.cos(viewYaw)*dist];if(mode==='top'){target=[72,4,60];eye=[72,400,60];spanZ=140/zoom}if(mode==='all')spanZ=Math.max(spanZ,200*height/width/zoom);if(mode==='top')spanZ=Math.max(spanZ,155*height/width/zoom);await window.render({width,height,spanZ,spanX:spanZ*width/height,eye,target,ortho:true,night:document.getElementById('night').checked,concept:false,...extra});document.getElementById('msg').textContent='NBT 同源几何 · 拖动旋转 · 玻璃及照明为近似预览';}catch(e){window.error=e.stack;document.getElementById('msg').textContent='实时预览不可用：'+e.message}pending=false})}
+for(const el of document.querySelectorAll('input,select'))el.addEventListener('input',update);let drag=null;cv.addEventListener('pointerdown',e=>{drag=[e.clientX,Number(document.getElementById('yaw').value)];cv.setPointerCapture(e.pointerId)});cv.addEventListener('pointermove',e=>{if(drag){document.getElementById('yaw').value=(drag[1]+(e.clientX-drag[0])*.5+720)%360;update()}});cv.addEventListener('pointerup',()=>drag=null);window.addEventListener('resize',update);init().then(update).catch(e=>{window.error=e.stack;document.getElementById('msg').textContent='实时预览不可用：'+e.message});
+</script></html>

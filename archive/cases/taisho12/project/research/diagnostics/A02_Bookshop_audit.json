@@ -1,0 +1,194 @@
+{
+  "source_nbt_sha256": "009fda0726fbd0aa4ef02fe97dd4775a57ba0ae9fb48ee9629dc2e81e5db988f",
+  "non_air": 6089,
+  "entries": [
+    {
+      "id": "Bookshop",
+      "pos": [
+        13,
+        3,
+        27
+      ],
+      "reachable": false
+    }
+  ],
+  "use_points": 8,
+  "use_checks": [
+    {
+      "id": "Bookshop.stairs.bottom",
+      "pos": [
+        5,
+        3,
+        14
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Bookshop.stairs.top",
+      "pos": [
+        5,
+        9,
+        7
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.browse",
+      "pos": [
+        13,
+        3,
+        21
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Bookshop.counter",
+      "pos": [
+        15,
+        3,
+        10
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Bookshop.packing",
+      "pos": [
+        16,
+        3,
+        7
+      ],
+      "floor_block_y": 2,
+      "reachable": false
+    },
+    {
+      "id": "Bookshop.read",
+      "pos": [
+        14,
+        9,
+        23
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.work",
+      "pos": [
+        16,
+        9,
+        17
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    },
+    {
+      "id": "Bookshop.bed",
+      "pos": [
+        20,
+        9,
+        10
+      ],
+      "floor_block_y": 8,
+      "reachable": true
+    }
+  ],
+  "stair_checks": [
+    {
+      "samples": 57,
+      "end_y": 9,
+      "errors": []
+    }
+  ],
+  "errors": [
+    [
+      "bed_entity",
+      [
+        18,
+        9,
+        8
+      ]
+    ],
+    [
+      "bed_entity",
+      [
+        19,
+        9,
+        8
+      ]
+    ],
+    [
+      "bed_entity",
+      [
+        18,
+        9,
+        9
+      ]
+    ],
+    [
+      "bed_entity",
+      [
+        19,
+        9,
+        9
+      ]
+    ],
+    [
+      "use",
+      "Bookshop.stairs.bottom",
+      [
+        5,
+        3,
+        14
+      ],
+      []
+    ],
+    [
+      "use",
+      "Bookshop.browse",
+      [
+        13,
+        3,
+        21
+      ],
+      []
+    ],
+    [
+      "use",
+      "Bookshop.counter",
+      [
+        15,
+        3,
+        10
+      ],
+      []
+    ],
+    [
+      "use",
+      "Bookshop.packing",
+      [
+        16,
+        3,
+        7
+      ],
+      []
+    ],
+    [
+      "entry",
+      "Bookshop",
+      [
+        13,
+        3,
+        27
+      ]
+    ]
+  ],
+  "block_entities": 0,
+  "paintings": 0,
+  "official_model_states": 82,
+  "scope": "Final NBT readback, door-frame/bed/painting/light support; approximate 0.6 x 1.8 body, doors treated open. Not game collision verification.",
+  "game": "pending",
+  "aesthetic": "pending"
+}

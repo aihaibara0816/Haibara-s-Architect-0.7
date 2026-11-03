@@ -1,0 +1,642 @@
+{
+  "schema_version": "0.4",
+  "project_id": "guangzhou-citic-office",
+  "route": "real_reconstruction",
+  "primary_use": "office",
+  "secondary_uses": [
+    "public lobby",
+    "meeting",
+    "staff lounge",
+    "commercial podium"
+  ],
+  "identity_features": [
+    "接待与电梯等候",
+    "成组办公与会议空间",
+    "独立茶水休息及窗边阅读"
+  ],
+  "style": "modern",
+  "interior_level": "L2",
+  "coordinates": {
+    "unit": "block",
+    "up": "Y",
+    "north": "-Z"
+  },
+  "storeys_total": 80,
+  "evidence_refs": [
+    "https://www.skyscrapercenter.com/building/citic-plaza/242",
+    "https://www.dln.com.hk/en/project/commercial/CITIC-Plaza"
+  ],
+  "authorized_scope": {
+    "editable_regions": [
+      [
+        0,
+        0,
+        0,
+        92,
+        188,
+        98
+      ]
+    ],
+    "locked_component_ids": [
+      "tower.facade",
+      "tower.crown",
+      "tower.spires"
+    ]
+  },
+  "floor_levels": [
+    {
+      "id": "lobby",
+      "floor_y": 4,
+      "upper_floor_y": 14,
+      "min_clear_height": 6
+    },
+    {
+      "id": "office_A",
+      "floor_y": 25,
+      "upper_floor_y": 32,
+      "min_clear_height": 4
+    },
+    {
+      "id": "office_B",
+      "floor_y": 81,
+      "upper_floor_y": 88,
+      "min_clear_height": 4
+    },
+    {
+      "id": "lounge",
+      "floor_y": 130,
+      "upper_floor_y": 137,
+      "min_clear_height": 4
+    }
+  ],
+  "rooms": [
+    {
+      "id": "lobby.reception",
+      "floor_id": "lobby",
+      "function": "reception",
+      "bounds_xyz": [
+        47,
+        4,
+        68,
+        54,
+        12,
+        73
+      ],
+      "entrances": [
+        [
+          48,
+          4,
+          72
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "lobby.waiting",
+      "floor_id": "lobby",
+      "function": "waiting",
+      "bounds_xyz": [
+        35,
+        4,
+        61,
+        40,
+        12,
+        69
+      ],
+      "entrances": [
+        [
+          39,
+          4,
+          66
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "office_A.work",
+      "floor_id": "office_A",
+      "function": "work",
+      "bounds_xyz": [
+        34,
+        25,
+        55,
+        40,
+        30,
+        69
+      ],
+      "entrances": [
+        [
+          35,
+          25,
+          56
+        ]
+      ],
+      "color_intent": "cool"
+    },
+    {
+      "id": "office_A.meeting",
+      "floor_id": "office_A",
+      "function": "meeting",
+      "bounds_xyz": [
+        50,
+        25,
+        55,
+        55,
+        30,
+        63
+      ],
+      "entrances": [
+        [
+          51,
+          25,
+          56
+        ]
+      ],
+      "color_intent": "cool"
+    },
+    {
+      "id": "office_A.rest",
+      "floor_id": "office_A",
+      "function": "rest",
+      "bounds_xyz": [
+        50,
+        25,
+        64,
+        55,
+        30,
+        73
+      ],
+      "entrances": [
+        [
+          51,
+          25,
+          65
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "office_B.work",
+      "floor_id": "office_B",
+      "function": "project collaboration",
+      "bounds_xyz": [
+        34,
+        81,
+        55,
+        40,
+        86,
+        69
+      ],
+      "entrances": [
+        [
+          35,
+          81,
+          56
+        ]
+      ],
+      "color_intent": "cool"
+    },
+    {
+      "id": "office_B.meeting",
+      "floor_id": "office_B",
+      "function": "tea and informal meeting",
+      "bounds_xyz": [
+        50,
+        81,
+        55,
+        55,
+        86,
+        63
+      ],
+      "entrances": [
+        [
+          51,
+          81,
+          56
+        ]
+      ],
+      "color_intent": "cool"
+    },
+    {
+      "id": "office_B.rest",
+      "floor_id": "office_B",
+      "function": "rest",
+      "bounds_xyz": [
+        50,
+        81,
+        64,
+        55,
+        86,
+        73
+      ],
+      "entrances": [
+        [
+          51,
+          81,
+          65
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "lounge.rest",
+      "floor_id": "lounge",
+      "function": "rest",
+      "bounds_xyz": [
+        34,
+        130,
+        55,
+        40,
+        135,
+        69
+      ],
+      "entrances": [
+        [
+          35,
+          130,
+          56
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "lounge.tea",
+      "floor_id": "lounge",
+      "function": "tea",
+      "bounds_xyz": [
+        50,
+        130,
+        55,
+        55,
+        135,
+        63
+      ],
+      "entrances": [
+        [
+          51,
+          130,
+          56
+        ]
+      ],
+      "color_intent": "warm"
+    },
+    {
+      "id": "lounge.reading",
+      "floor_id": "lounge",
+      "function": "reading",
+      "bounds_xyz": [
+        50,
+        130,
+        64,
+        55,
+        135,
+        73
+      ],
+      "entrances": [
+        [
+          51,
+          130,
+          65
+        ]
+      ],
+      "color_intent": "warm"
+    }
+  ],
+  "circulation_keepouts": [
+    [
+      40,
+      25,
+      54,
+      49,
+      30,
+      58
+    ],
+    [
+      40,
+      25,
+      69,
+      49,
+      30,
+      74
+    ],
+    [
+      39,
+      25,
+      58,
+      41,
+      30,
+      69
+    ],
+    [
+      49,
+      25,
+      58,
+      51,
+      30,
+      69
+    ],
+    [
+      40,
+      81,
+      54,
+      49,
+      86,
+      58
+    ],
+    [
+      40,
+      81,
+      69,
+      49,
+      86,
+      74
+    ],
+    [
+      39,
+      81,
+      58,
+      41,
+      86,
+      69
+    ],
+    [
+      49,
+      81,
+      58,
+      51,
+      86,
+      69
+    ],
+    [
+      40,
+      130,
+      54,
+      49,
+      135,
+      58
+    ],
+    [
+      40,
+      130,
+      69,
+      49,
+      135,
+      74
+    ],
+    [
+      39,
+      130,
+      58,
+      41,
+      135,
+      69
+    ],
+    [
+      49,
+      130,
+      58,
+      51,
+      135,
+      69
+    ],
+    [
+      42,
+      4,
+      52,
+      48,
+      7,
+      59
+    ],
+    [
+      39,
+      4,
+      58,
+      41,
+      7,
+      70
+    ],
+    [
+      49,
+      4,
+      58,
+      51,
+      7,
+      69
+    ],
+    [
+      40,
+      4,
+      69,
+      49,
+      7,
+      72
+    ]
+  ],
+  "proposed_modules": [
+    {
+      "component_id": "lobby.reception.reception",
+      "room_id": "lobby.reception",
+      "kind": "reception",
+      "bounds_xyz": [
+        50,
+        4,
+        69,
+        53,
+        6,
+        71
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "lobby.waiting.lounge",
+      "room_id": "lobby.waiting",
+      "kind": "lounge",
+      "bounds_xyz": [
+        35,
+        4,
+        62,
+        39,
+        6,
+        66
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "office_A.work.desk_group",
+      "room_id": "office_A.work",
+      "kind": "desk_group",
+      "bounds_xyz": [
+        35,
+        25,
+        57,
+        39,
+        27,
+        61
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "office_A.meeting.meeting",
+      "room_id": "office_A.meeting",
+      "kind": "meeting",
+      "bounds_xyz": [
+        51,
+        25,
+        57,
+        54,
+        28,
+        61
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "office_A.rest.lounge",
+      "room_id": "office_A.rest",
+      "kind": "lounge",
+      "bounds_xyz": [
+        51,
+        25,
+        66,
+        54,
+        27,
+        70
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "office_B.work.desk_group",
+      "room_id": "office_B.work",
+      "kind": "meeting",
+      "bounds_xyz": [
+        35,
+        81,
+        57,
+        39,
+        84,
+        61
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "office_B.meeting.meeting",
+      "room_id": "office_B.meeting",
+      "kind": "pantry",
+      "bounds_xyz": [
+        51,
+        81,
+        57,
+        54,
+        84,
+        61
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "office_B.rest.lounge",
+      "room_id": "office_B.rest",
+      "kind": "lounge",
+      "bounds_xyz": [
+        51,
+        81,
+        66,
+        54,
+        83,
+        70
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "lounge.rest.lounge",
+      "room_id": "lounge.rest",
+      "kind": "lounge",
+      "bounds_xyz": [
+        35,
+        130,
+        57,
+        39,
+        132,
+        61
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "lounge.tea.pantry",
+      "room_id": "lounge.tea",
+      "kind": "pantry",
+      "bounds_xyz": [
+        51,
+        130,
+        57,
+        54,
+        132,
+        61
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    },
+    {
+      "component_id": "lounge.reading.lounge",
+      "room_id": "lounge.reading",
+      "kind": "lounge",
+      "bounds_xyz": [
+        51,
+        130,
+        66,
+        54,
+        132,
+        70
+      ],
+      "use_faces": [
+        "south",
+        "east"
+      ]
+    }
+  ],
+  "lighting": {
+    "coverage_override": "selected_spaces",
+    "override_reason": "80层高楼，4个设计示范层与其余L1窗后空间分开；普通窗后按固定seed 50%暗/25%暖/25%冷分配，公共重点层保留照明"
+  },
+  "landscape": {
+    "archetype": "civic",
+    "bounds_xyz": [
+      4,
+      0,
+      4,
+      88,
+      15,
+      94
+    ],
+    "water_requested": true,
+    "water_reason": "DLN入口照片及2022现场照片可见浅水喷泉；本版仅作对称浅池意向，无真实喷泉机械"
+  },
+  "module_semantics": "Only desk_group / meeting / lounge / reception / pantry / planter are consumed by this explicit case adapter; no generic generator claim"
+}

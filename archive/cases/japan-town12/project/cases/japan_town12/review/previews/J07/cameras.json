@@ -1,0 +1,131 @@
+[
+  {
+    "id": "overview",
+    "eye": [
+      240,
+      160,
+      224
+    ],
+    "target": [
+      80,
+      6,
+      64
+    ],
+    "width": 1800,
+    "height": 1400,
+    "spanX": 220,
+    "spanZ": 171.111,
+    "ortho": true
+  },
+  {
+    "id": "shops",
+    "eye": [
+      98,
+      35,
+      130
+    ],
+    "target": [
+      63,
+      12,
+      47
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 36,
+    "spanZ": 24.75,
+    "ortho": true,
+    "night": false,
+    "bounds": [
+      50,
+      30,
+      76,
+      72
+    ]
+  },
+  {
+    "id": "shops_night",
+    "eye": [
+      98,
+      35,
+      130
+    ],
+    "target": [
+      63,
+      12,
+      47
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 36,
+    "spanZ": 24.75,
+    "ortho": true,
+    "night": true,
+    "bounds": [
+      50,
+      30,
+      76,
+      72
+    ]
+  },
+  {
+    "id": "tea_house",
+    "eye": [
+      -8,
+      33,
+      5
+    ],
+    "target": [
+      26,
+      12,
+      89
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 41,
+    "spanZ": 28.1875,
+    "ortho": true,
+    "night": false,
+    "bounds": [
+      10,
+      64,
+      42,
+      106
+    ]
+  },
+  {
+    "id": "walk",
+    "eye": [
+      6,
+      9,
+      68
+    ],
+    "target": [
+      100,
+      12,
+      66
+    ],
+    "width": 1600,
+    "height": 1000,
+    "ortho": false,
+    "fov": 62,
+    "night": false
+  },
+  {
+    "id": "walk_night",
+    "eye": [
+      6,
+      9,
+      68
+    ],
+    "target": [
+      100,
+      12,
+      66
+    ],
+    "width": 1600,
+    "height": 1000,
+    "ortho": false,
+    "fov": 62,
+    "night": true
+  }
+]

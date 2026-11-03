@@ -1,0 +1,370 @@
+[
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 455,
+    "spanZ": 341.25,
+    "ortho": true,
+    "concept": false,
+    "id": "se_day",
+    "eye": [
+      480,
+      320,
+      464
+    ],
+    "target": [
+      160,
+      6,
+      144
+    ],
+    "night": false
+  },
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 455,
+    "spanZ": 341.25,
+    "ortho": true,
+    "concept": false,
+    "id": "se_night",
+    "eye": [
+      480,
+      320,
+      464
+    ],
+    "target": [
+      160,
+      6,
+      144
+    ],
+    "night": true
+  },
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 455,
+    "spanZ": 341.25,
+    "ortho": true,
+    "concept": false,
+    "id": "sw_day",
+    "eye": [
+      -160,
+      320,
+      464
+    ],
+    "target": [
+      160,
+      6,
+      144
+    ],
+    "night": false
+  },
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 455,
+    "spanZ": 341.25,
+    "ortho": true,
+    "concept": false,
+    "id": "sw_night",
+    "eye": [
+      -160,
+      320,
+      464
+    ],
+    "target": [
+      160,
+      6,
+      144
+    ],
+    "night": true
+  },
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 455,
+    "spanZ": 341.25,
+    "ortho": true,
+    "concept": false,
+    "id": "ne_day",
+    "eye": [
+      480,
+      320,
+      -176
+    ],
+    "target": [
+      160,
+      6,
+      144
+    ],
+    "night": false
+  },
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 455,
+    "spanZ": 341.25,
+    "ortho": true,
+    "concept": false,
+    "id": "ne_night",
+    "eye": [
+      480,
+      320,
+      -176
+    ],
+    "target": [
+      160,
+      6,
+      144
+    ],
+    "night": true
+  },
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 455,
+    "spanZ": 341.25,
+    "ortho": true,
+    "concept": false,
+    "id": "nw_day",
+    "eye": [
+      -160,
+      320,
+      -176
+    ],
+    "target": [
+      160,
+      6,
+      144
+    ],
+    "night": false
+  },
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 455,
+    "spanZ": 341.25,
+    "ortho": true,
+    "concept": false,
+    "id": "nw_night",
+    "eye": [
+      -160,
+      320,
+      -176
+    ],
+    "target": [
+      160,
+      6,
+      144
+    ],
+    "night": true
+  },
+  {
+    "width": 1600,
+    "height": 1200,
+    "spanX": 350,
+    "spanZ": 312,
+    "ortho": true,
+    "concept": false,
+    "id": "top_day",
+    "eye": [
+      160,
+      500,
+      144
+    ],
+    "target": [
+      160,
+      0,
+      144
+    ]
+  },
+  {
+    "id": "village_close",
+    "eye": [
+      300,
+      130,
+      300
+    ],
+    "target": [
+      151,
+      10,
+      143
+    ],
+    "width": 1800,
+    "height": 1200,
+    "spanX": 204,
+    "spanZ": 136,
+    "ortho": true
+  },
+  {
+    "id": "village_night",
+    "eye": [
+      300,
+      130,
+      300
+    ],
+    "target": [
+      151,
+      10,
+      143
+    ],
+    "width": 1800,
+    "height": 1200,
+    "spanX": 204,
+    "spanZ": 136,
+    "ortho": true,
+    "night": true
+  },
+  {
+    "id": "greenhouse_close",
+    "eye": [
+      349,
+      65,
+      195
+    ],
+    "target": [
+      274,
+      5,
+      119
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 100,
+    "spanZ": 68.75,
+    "ortho": true
+  },
+  {
+    "id": "field_close",
+    "eye": [
+      142,
+      83,
+      318
+    ],
+    "target": [
+      95,
+      5,
+      235
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 121,
+    "spanZ": 83.1875,
+    "ortho": true
+  },
+  {
+    "id": "construction",
+    "eye": [
+      227,
+      54,
+      129
+    ],
+    "target": [
+      183,
+      11,
+      81
+    ],
+    "width": 1400,
+    "height": 1050,
+    "spanX": 58,
+    "spanZ": 43.5,
+    "ortho": true
+  },
+  {
+    "id": "home_cut",
+    "eye": [
+      170,
+      65,
+      160
+    ],
+    "target": [
+      128,
+      8,
+      120
+    ],
+    "width": 1400,
+    "height": 1050,
+    "spanX": 42,
+    "spanZ": 31.5,
+    "ortho": true,
+    "cutY": 9,
+    "bounds": [
+      114,
+      108,
+      142,
+      132
+    ],
+    "minY": 4
+  },
+  {
+    "id": "paddy_close",
+    "eye": [
+      125,
+      56,
+      304
+    ],
+    "target": [
+      37,
+      3,
+      247
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 88,
+    "spanZ": 60.5,
+    "ortho": true
+  },
+  {
+    "id": "pond_close",
+    "eye": [
+      274,
+      63,
+      150
+    ],
+    "target": [
+      208,
+      5,
+      81
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 84,
+    "spanZ": 57.75,
+    "ortho": true
+  },
+  {
+    "id": "orchard_close",
+    "eye": [
+      261,
+      62,
+      279
+    ],
+    "target": [
+      204,
+      5,
+      220
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 81,
+    "spanZ": 55.6875,
+    "ortho": true
+  },
+  {
+    "id": "service_close",
+    "eye": [
+      307,
+      48,
+      273
+    ],
+    "target": [
+      248,
+      5,
+      218
+    ],
+    "width": 1600,
+    "height": 1100,
+    "spanX": 65,
+    "spanZ": 44.6875,
+    "ortho": true
+  }
+]

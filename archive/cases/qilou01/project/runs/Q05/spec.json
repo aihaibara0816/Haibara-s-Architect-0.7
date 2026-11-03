@@ -1,0 +1,142 @@
+{
+  "case_id": "Qilou01",
+  "run": "Q05",
+  "mainline": "HAF 0.4",
+  "seed": 311145,
+  "scope": "Three connected prototype shop-houses; not a complete streetscape or measured replica",
+  "coordinates": {
+    "X": "east",
+    "Y": "up",
+    "Z": "south",
+    "front": "south"
+  },
+  "spawn_local": [
+    35,
+    3,
+    43
+  ],
+  "buildings": [
+    {
+      "id": "Grocery",
+      "name": "和顺杂货",
+      "origin": [
+        7,
+        0,
+        6
+      ],
+      "size": [
+        15,
+        34,
+        33
+      ],
+      "floors": [
+        2,
+        9
+      ],
+      "entry": [
+        14,
+        3,
+        29
+      ],
+      "kind": "plain"
+    },
+    {
+      "id": "Apothecary",
+      "name": "济安药铺",
+      "origin": [
+        22,
+        0,
+        6
+      ],
+      "size": [
+        17,
+        34,
+        33
+      ],
+      "floors": [
+        2,
+        9,
+        15
+      ],
+      "entry": [
+        30,
+        3,
+        29
+      ],
+      "kind": "classical"
+    },
+    {
+      "id": "Teahouse",
+      "name": "榕荫茶楼",
+      "origin": [
+        39,
+        0,
+        6
+      ],
+      "size": [
+        23,
+        34,
+        33
+      ],
+      "floors": [
+        2,
+        9,
+        15
+      ],
+      "entry": [
+        49,
+        3,
+        29
+      ],
+      "kind": "corner"
+    }
+  ],
+  "arcade_paths": [
+    {
+      "id": "continuous_front",
+      "bounds": [
+        7,
+        3,
+        30,
+        59,
+        7,
+        34
+      ]
+    },
+    {
+      "id": "corner_return",
+      "bounds": [
+        57,
+        3,
+        10,
+        61,
+        7,
+        30
+      ]
+    },
+    {
+      "id": "corner_splay",
+      "bounds": [
+        57,
+        3,
+        30,
+        61,
+        7,
+        33
+      ]
+    }
+  ],
+  "status": {
+    "game": "pending",
+    "aesthetic": "pending user review"
+  },
+  "source_nbt_sha256": "b103f731b38a36dc1a0446bc4b6a70f2eb9e37c33f5ab9e1e95e7f8dae08abb3",
+  "size_xyz": [
+    76,
+    40,
+    52
+  ],
+  "non_air": 22023,
+  "block_entities": 132,
+  "entities": 7
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "image_id": "img-01",
+    "rect_normalized": [
+      0.39,
+      0.22,
+      0.59,
+      0.66
+    ],
+    "observation": "可见长矩形主楼、后部设备和较宽基座；倾斜视角不能直接量平面。",
+    "parameter": "tower.x/z + roof constants",
+    "consumer": "Hiroshima.tower",
+    "review": "top_day / roof",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-02",
+    "rect_normalized": [
+      0.32,
+      0.1,
+      0.77,
+      0.81
+    ],
+    "observation": "浅色主竖肋突出于玻璃，转角玻璃退进；细梃与主肋尺度不同。",
+    "parameter": "facade.fin_x/fin_z/glass_offset",
+    "consumer": "Hiroshima.facade / tower",
+    "review": "facade / four day views",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-03",
+    "rect_normalized": [
+      0.15,
+      0.24,
+      0.91,
+      0.65
+    ],
+    "observation": "三段停车层、四道白挑檐，绿化槽在暗色围护外侧。",
+    "parameter": "podium.eave_y + planter constants",
+    "consumer": "Hiroshima.podium",
+    "review": "podium_detail",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-04",
+    "rect_normalized": [
+      0.02,
+      0.23,
+      0.98,
+      0.95
+    ],
+    "observation": "大柱、退进玻璃、楼梯和二层平台在悬挑板下形成空间层次。",
+    "parameter": "podium.front_lobby_z/soffit_y + deck constants",
+    "consumer": "Hiroshima.podium",
+    "review": "underside / landing clearance",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-05",
+    "rect_normalized": [
+      0.01,
+      0.01,
+      0.98,
+      0.96
+    ],
+    "observation": "可见平整金属感底面与细接缝、独立照明；未据此推断隐蔽吊杆。",
+    "parameter": "soffit_seam top trapdoor constants",
+    "consumer": "Hiroshima.podium",
+    "review": "underside / soffit sample",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-06",
+    "rect_normalized": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "observation": "种植槽错位排列，围护是通风暗带；挑檐不是四层发光实体。",
+    "parameter": "podium.planter/green_wall + eave constants",
+    "consumer": "Hiroshima.podium",
+    "review": "podium_detail",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-07",
+    "rect_normalized": [
+      0.25,
+      0.08,
+      0.78,
+      0.81
+    ],
+    "observation": "四角线性灯有供应商说明；可见底部竖肋照明与檐口照明，窗户明暗变化。",
+    "parameter": "lighting.seed/window_probability + fixed constants",
+    "consumer": "Hiroshima.tower / facade / podium",
+    "review": "four paired night views",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-08",
+    "rect_normalized": [
+      0.33,
+      0.1,
+      0.74,
+      0.84
+    ],
+    "observation": "屋顶多处粉红亮点可见，但用途/数量/闪烁未核实，暂不生成航空障碍灯。",
+    "parameter": "lighting.obstruction",
+    "consumer": "research_only for red roof points; other lighting generated",
+    "review": "night / gap register",
+    "execution_status": "research_only",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-09",
+    "rect_normalized": [
+      0.01,
+      0.04,
+      0.98,
+      0.95
+    ],
+    "observation": "设计方的现场样板，不是整栋已建全景；用于核对主肋、玻璃与竖向灯的位置关系。",
+    "parameter": "facade.glass_offset/backing_offset",
+    "consumer": "Hiroshima.facade",
+    "review": "section",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-10",
+    "rect_normalized": [
+      0.03,
+      0.12,
+      0.97,
+      0.86
+    ],
+    "observation": "设计样板帮助区分暖光洗亮与整片自发光；本版光源退进。",
+    "parameter": "lighting.eave_lights + inset coordinates",
+    "consumer": "Hiroshima.podium",
+    "review": "r01/r02 + podium_detail",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  },
+  {
+    "image_id": "img-11",
+    "rect_normalized": [
+      0.15,
+      0.08,
+      0.69,
+      0.6
+    ],
+    "observation": "确认与广岛站的二层连接关系；该图无比例尺，不用于推定精确桥长。",
+    "parameter": "deck.connector constants",
+    "consumer": "Hiroshima.podium",
+    "review": "base / scope cut",
+    "execution_status": "case_specific_generated",
+    "geometry_uncertainty": "尺寸/材质为有限方块量化，矩形仅为人工语义标注"
+  }
+]

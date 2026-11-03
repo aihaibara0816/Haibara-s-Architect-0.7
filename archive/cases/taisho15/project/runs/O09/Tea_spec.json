@@ -1,0 +1,371 @@
+{
+  "case_id": "Tea",
+  "run": "O09",
+  "seed": 151145,
+  "buildings": [
+    {
+      "id": "Tea",
+      "name": "山茶屋｜小茶食店",
+      "size": [
+        18,
+        28,
+        22
+      ],
+      "floors": [
+        2
+      ],
+      "entry": [
+        9,
+        3,
+        19
+      ],
+      "rooms": [
+        {
+          "id": "Tea.tea",
+          "name": "茶食、柜台与后厨",
+          "bounds": [
+            3,
+            3,
+            3,
+            15,
+            7,
+            19
+          ],
+          "floor_y": 3,
+          "capacity": 8,
+          "evidence": "adapted"
+        }
+      ],
+      "uses": [
+        {
+          "id": "Tea.order",
+          "pos": [
+            9,
+            3,
+            9
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Tea.table",
+          "pos": [
+            9,
+            3,
+            15
+          ],
+          "floor_block_y": 2
+        },
+        {
+          "id": "Tea.kitchen",
+          "pos": [
+            10,
+            3,
+            5
+          ],
+          "floor_block_y": 2
+        }
+      ],
+      "doors": [
+        {
+          "id": "Tea.door.0",
+          "pos": [
+            9,
+            3,
+            19
+          ],
+          "lintel": [
+            9,
+            5,
+            19
+          ],
+          "facing": "south"
+        }
+      ],
+      "lights": [
+        {
+          "position": [
+            9,
+            6,
+            12
+          ],
+          "support": [
+            9,
+            7,
+            12
+          ]
+        },
+        {
+          "position": [
+            12,
+            6,
+            6
+          ],
+          "support": [
+            12,
+            7,
+            6
+          ]
+        },
+        {
+          "position": [
+            5,
+            6,
+            17
+          ],
+          "support": [
+            5,
+            7,
+            17
+          ]
+        },
+        {
+          "position": [
+            9,
+            5,
+            20
+          ],
+          "support": [
+            9,
+            6,
+            20
+          ]
+        }
+      ],
+      "stairs": [],
+      "groups": [
+        {
+          "id": "Tea.stove.cooking.3_1_3",
+          "recipe": "cooking",
+          "bounds_xyz": [
+            3,
+            3,
+            3,
+            4,
+            4,
+            4
+          ],
+          "use_points": [
+            [
+              3,
+              3,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Tea.sink.water_basin.5_1_3",
+          "recipe": "water_basin",
+          "bounds_xyz": [
+            5,
+            3,
+            3,
+            6,
+            4,
+            4
+          ],
+          "use_points": [
+            [
+              5,
+              3,
+              4
+            ]
+          ],
+          "interaction": "vanilla_unverified"
+        },
+        {
+          "id": "Tea.tea.table.dining_table.4_1_11",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            4,
+            3,
+            11,
+            7,
+            4,
+            12
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Tea.chair.seat.5_1_9",
+          "recipe": "seat",
+          "bounds_xyz": [
+            5,
+            3,
+            9,
+            6,
+            4,
+            10
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Tea.tea.table.dining_table.4_1_16",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            4,
+            3,
+            16,
+            7,
+            4,
+            17
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Tea.chair.seat.5_1_14",
+          "recipe": "seat",
+          "bounds_xyz": [
+            5,
+            3,
+            14,
+            6,
+            4,
+            15
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        },
+        {
+          "id": "Tea.window.table.dining_table.12_1_13",
+          "recipe": "dining_table",
+          "bounds_xyz": [
+            12,
+            3,
+            13,
+            14,
+            4,
+            14
+          ],
+          "use_points": [],
+          "interaction": "decorative"
+        }
+      ],
+      "sources": [
+        "BV1Dx41187iG"
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "uses": [
+    {
+      "id": "Tea.order",
+      "pos": [
+        9,
+        3,
+        9
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Tea.table",
+      "pos": [
+        9,
+        3,
+        15
+      ],
+      "floor_block_y": 2
+    },
+    {
+      "id": "Tea.kitchen",
+      "pos": [
+        10,
+        3,
+        5
+      ],
+      "floor_block_y": 2
+    }
+  ],
+  "doors": [
+    {
+      "id": "Tea.door.0",
+      "pos": [
+        9,
+        3,
+        19
+      ],
+      "lintel": [
+        9,
+        5,
+        19
+      ],
+      "facing": "south"
+    }
+  ],
+  "lights": [
+    {
+      "position": [
+        9,
+        6,
+        12
+      ],
+      "support": [
+        9,
+        7,
+        12
+      ]
+    },
+    {
+      "position": [
+        12,
+        6,
+        6
+      ],
+      "support": [
+        12,
+        7,
+        6
+      ]
+    },
+    {
+      "position": [
+        5,
+        6,
+        17
+      ],
+      "support": [
+        5,
+        7,
+        17
+      ]
+    },
+    {
+      "position": [
+        9,
+        5,
+        20
+      ],
+      "support": [
+        9,
+        6,
+        20
+      ]
+    }
+  ],
+  "stairs": [],
+  "spawn_local": [
+    9,
+    3,
+    20
+  ],
+  "upper_start": [
+    3,
+    3
+  ],
+  "source_nbt_sha256": "210dcae67d53c61ba6e6f95625223ad0b936270c1672f33dad916ecbce22ec49",
+  "non_air": 2890,
+  "size_xyz": [
+    18,
+    28,
+    22
+  ],
+  "block_entities": 22,
+  "entities": 1
+}

@@ -1,0 +1,267 @@
+{
+  "release": "0.7.0",
+  "date": "2026-11-03",
+  "platform": "Windows",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "Pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "nbtlib": "2.0.4"
+  },
+  "recovery": {
+    "base_commit": "a46e13966e6bf24d4eb9d04fbc03582fcbe61d8a",
+    "original_update_manifest_files": 1602,
+    "exact_manifest_files": 1602,
+    "archive_entries": 56,
+    "expanded_archive_files": 3242,
+    "failures": []
+  },
+  "input_zip": {
+    "bytes": 141719466,
+    "sha256": "bc5480e2324b8bdd42136342d528b4499e924139f2da62adb82edd3c3bb79ada",
+    "crc": "pass"
+  },
+  "update_payload": {
+    "parts": 18,
+    "indices": "00-17",
+    "bytes": 37044622,
+    "sha256": "0933bd55b4e628239231971c2ee5f3c1749cf2eebc5b6afe9d7d2006722bc656",
+    "all_parts_match": true,
+    "embedded_zip_byte_identical": true
+  },
+  "unit_tests": {
+    "total": 114,
+    "passed": 114,
+    "failed": 0,
+    "skipped": 0,
+    "status": "pass",
+    "initial_attempt": "interrupted: unwritable system temporary location; rerun uses writable workspace temp"
+  },
+  "cli_checks": [
+    {
+      "name": "version",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "--version"
+      ],
+      "exit_code": 0,
+      "seconds": 0.219
+    },
+    {
+      "name": "archive-verify",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "archive",
+        "verify"
+      ],
+      "exit_code": 0,
+      "seconds": 1.312
+    },
+    {
+      "name": "skill-list",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "skill",
+        "list"
+      ],
+      "exit_code": 0,
+      "seconds": 0.219
+    },
+    {
+      "name": "recipes",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "recipes"
+      ],
+      "exit_code": 0,
+      "seconds": 0.203
+    },
+    {
+      "name": "garden-build",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "scene-build",
+        "examples/habitat07/reading-garden.json",
+        "--runs-root",
+        "runs/recovery07",
+        "--run",
+        "garden-001"
+      ],
+      "exit_code": 0,
+      "seconds": 0.875
+    },
+    {
+      "name": "garden-verify",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "scene-verify",
+        "--runs-root",
+        "runs/recovery07",
+        "--run",
+        "garden-001"
+      ],
+      "exit_code": 0,
+      "seconds": 0.593
+    },
+    {
+      "name": "industrial-build",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "scene-build",
+        "examples/habitat07/industrial-yard.json",
+        "--runs-root",
+        "runs/recovery07",
+        "--run",
+        "industry-001"
+      ],
+      "exit_code": 0,
+      "seconds": 1.688
+    },
+    {
+      "name": "industrial-verify",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "scene-verify",
+        "--runs-root",
+        "runs/recovery07",
+        "--run",
+        "industry-001"
+      ],
+      "exit_code": 0,
+      "seconds": 1.078
+    },
+    {
+      "name": "room06-build-audit",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "build-study",
+        "--case",
+        "room06",
+        "--runs-root",
+        "runs/recovery07",
+        "--run",
+        "room-001",
+        "--seed",
+        "1145"
+      ],
+      "exit_code": 0,
+      "seconds": 1.484
+    },
+    {
+      "name": "workflow06-demo",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "demo",
+        "--runs-root",
+        "runs/recovery06",
+        "--run",
+        "demo-001"
+      ],
+      "exit_code": 0,
+      "seconds": 0.219
+    },
+    {
+      "name": "workflow06-verify",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "verify",
+        "--runs-root",
+        "runs/recovery06",
+        "--run",
+        "demo-001"
+      ],
+      "exit_code": 0,
+      "seconds": 0.25
+    },
+    {
+      "name": "workflow06-dispatch",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "dispatch",
+        "examples/workflow06/model-call.json",
+        "--runs-root",
+        "runs/recovery06",
+        "--parent",
+        "demo-001"
+      ],
+      "exit_code": 0,
+      "seconds": 0.281
+    },
+    {
+      "name": "workflow06-revision-verify",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "verify",
+        "--runs-root",
+        "runs/recovery06",
+        "--run",
+        "model-001"
+      ],
+      "exit_code": 0,
+      "seconds": 0.266
+    },
+    {
+      "name": "legacy-clocktower",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "tools/haf.py",
+        "build-case",
+        "--case",
+        "elizabeth_tower",
+        "--run",
+        "recovery07-clocktower",
+        "--execute"
+      ],
+      "exit_code": 0,
+      "seconds": 5.313
+    }
+  ],
+  "personal_skills": "not_installed_by_this_release",
+  "game": "pending",
+  "visual": "pending",
+  "aesthetic": "pending",
+  "Corner01": "needs_revision",
+  "ci_status": "See GitHub Actions; this record covers local recovery validation only"
+}

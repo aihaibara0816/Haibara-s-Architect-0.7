@@ -1,0 +1,425 @@
+{
+  "id": "Substation01",
+  "title": "新港枢纽变电站",
+  "size_xyz": [
+    256,
+    64,
+    240
+  ],
+  "source_nbt_sha256": "be2a371a680a03c5ba89e65f6bd6245c0db72a0c3e601ef42f6fe9b76f0e28cc",
+  "spawn_local": [
+    102,
+    7,
+    238
+  ],
+  "world_y_offset": 58,
+  "buildings": [
+    {
+      "id": "site",
+      "name": "01 · 碎石场地、道路与电缆沟",
+      "w": 256,
+      "d": 240,
+      "geometry_bounds": [
+        [
+          0,
+          256
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          0,
+          240
+        ]
+      ],
+      "blocks": 204666,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "boundary",
+      "name": "02 · 围栏、门卫与入口",
+      "w": 223,
+      "d": 213,
+      "geometry_bounds": [
+        [
+          26,
+          249
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          24,
+          237
+        ]
+      ],
+      "blocks": 3029,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "incoming",
+      "name": "03 · 双回进线与钢构塔架",
+      "w": 42,
+      "d": 85,
+      "geometry_bounds": [
+        [
+          0,
+          42
+        ],
+        [
+          4,
+          51
+        ],
+        [
+          38,
+          123
+        ]
+      ],
+      "blocks": 2510,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "hv220",
+      "name": "04 · 220 kV 进线开关场",
+      "w": 47,
+      "d": 80,
+      "geometry_bounds": [
+        [
+          40,
+          87
+        ],
+        [
+          4,
+          22
+        ],
+        [
+          42,
+          122
+        ]
+      ],
+      "blocks": 2274,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "bus220",
+      "name": "05 · 220 kV 母线与预留间隔",
+      "w": 53,
+      "d": 126,
+      "geometry_bounds": [
+        [
+          55,
+          108
+        ],
+        [
+          4,
+          24
+        ],
+        [
+          39,
+          165
+        ]
+      ],
+      "blocks": 1668,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "T1",
+      "name": "06 · 一号主变压器",
+      "w": 95,
+      "d": 33,
+      "geometry_bounds": [
+        [
+          94,
+          189
+        ],
+        [
+          3,
+          33
+        ],
+        [
+          48,
+          81
+        ]
+      ],
+      "blocks": 7506,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "T2",
+      "name": "07 · 二号主变压器",
+      "w": 95,
+      "d": 33,
+      "geometry_bounds": [
+        [
+          94,
+          189
+        ],
+        [
+          3,
+          33
+        ],
+        [
+          106,
+          139
+        ]
+      ],
+      "blocks": 7506,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "bus110",
+      "name": "08 · 110 kV 母线与主变接口",
+      "w": 15,
+      "d": 106,
+      "geometry_bounds": [
+        [
+          175,
+          190
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          39,
+          145
+        ]
+      ],
+      "blocks": 657,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "outgoing110",
+      "name": "09 · 四回 110 kV 出线间隔",
+      "w": 80,
+      "d": 107,
+      "geometry_bounds": [
+        [
+          176,
+          256
+        ],
+        [
+          4,
+          26
+        ],
+        [
+          35,
+          142
+        ]
+      ],
+      "blocks": 4824,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "compensation",
+      "name": "10 · 电容器组与电抗器",
+      "w": 57,
+      "d": 23,
+      "geometry_bounds": [
+        [
+          177,
+          234
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          149,
+          172
+        ]
+      ],
+      "blocks": 5581,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "services",
+      "name": "11 · 消防水、泵房与事故集油设施",
+      "w": 116,
+      "d": 22,
+      "geometry_bounds": [
+        [
+          41,
+          157
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          150,
+          172
+        ]
+      ],
+      "blocks": 5599,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "control",
+      "name": "12 · 两层主控、继保与值班楼",
+      "levels": 2,
+      "floors": [
+        6,
+        12
+      ],
+      "w": 56,
+      "d": 44,
+      "geometry_bounds": [
+        [
+          39,
+          95
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          183,
+          227
+        ]
+      ],
+      "blocks": 16794
+    },
+    {
+      "id": "mv_hall",
+      "name": "13 · 10 kV 配电与十二回出线柜",
+      "levels": 1,
+      "floors": [
+        6
+      ],
+      "w": 84,
+      "d": 44,
+      "geometry_bounds": [
+        [
+          111,
+          195
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          183,
+          227
+        ]
+      ],
+      "blocks": 18338
+    },
+    {
+      "id": "workshop",
+      "name": "14 · 检修工器具与备品库",
+      "levels": 1,
+      "floors": [
+        6
+      ],
+      "w": 34,
+      "d": 44,
+      "geometry_bounds": [
+        [
+          203,
+          237
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          183,
+          227
+        ]
+      ],
+      "blocks": 7041
+    },
+    {
+      "id": "lighting",
+      "name": "15 · 道路低灯、工作照明与避雷针",
+      "w": 231,
+      "d": 199,
+      "geometry_bounds": [
+        [
+          22,
+          253
+        ],
+        [
+          6,
+          42
+        ],
+        [
+          30,
+          229
+        ]
+      ],
+      "blocks": 222,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "landscape",
+      "name": "16 · 入口树池与员工休息点",
+      "w": 179,
+      "d": 7,
+      "geometry_bounds": [
+        [
+          44,
+          223
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          222,
+          229
+        ]
+      ],
+      "blocks": 292,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    }
+  ],
+  "main_transformers": 2,
+  "voltage_theme": "220 / 110 / 10 kV",
+  "vanilla_only": true,
+  "power_simulation": false,
+  "game": "not_run",
+  "revision": "S04"
+}

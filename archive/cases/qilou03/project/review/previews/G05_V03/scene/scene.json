@@ -1,0 +1,155 @@
+{
+  "source_nbt_sha256": "724fb1c8f89e0429fa346d2071cfd8bb25bd000158ee8dc18bfe99490e39d4b6",
+  "size_xyz": [
+    17,
+    58,
+    33
+  ],
+  "triangles": {
+    "opaque": 496680,
+    "glass": 90016
+  },
+  "lamps": [
+    [
+      4,
+      7,
+      15,
+      15
+    ],
+    [
+      4,
+      14,
+      15,
+      15
+    ],
+    [
+      4,
+      21,
+      15,
+      15
+    ],
+    [
+      4,
+      28,
+      15,
+      15
+    ],
+    [
+      0,
+      7,
+      17,
+      15
+    ],
+    [
+      0,
+      7,
+      25,
+      15
+    ],
+    [
+      9,
+      8,
+      8,
+      15
+    ],
+    [
+      10,
+      8,
+      19,
+      15
+    ],
+    [
+      6,
+      8,
+      24,
+      15
+    ],
+    [
+      9,
+      15,
+      8,
+      15
+    ],
+    [
+      10,
+      15,
+      19,
+      15
+    ],
+    [
+      6,
+      15,
+      24,
+      15
+    ],
+    [
+      9,
+      22,
+      8,
+      15
+    ],
+    [
+      10,
+      22,
+      19,
+      15
+    ],
+    [
+      6,
+      22,
+      24,
+      15
+    ],
+    [
+      9,
+      29,
+      8,
+      15
+    ],
+    [
+      10,
+      29,
+      19,
+      15
+    ],
+    [
+      6,
+      29,
+      24,
+      15
+    ],
+    [
+      9,
+      36,
+      8,
+      15
+    ],
+    [
+      10,
+      36,
+      19,
+      15
+    ],
+    [
+      6,
+      36,
+      24,
+      15
+    ]
+  ],
+  "visual_box_volume": 8727.4209,
+  "source": "independent NBT readback, state-aware preview boxes",
+  "limitations": [
+    "Entity beds and banners use approximate boxes",
+    "1x1 paintings use their NBT positions and official variant textures",
+    "Biome tint approximated; weighted model variants use first item",
+    "UV lock and element rescale not fully reproduced; no Minecraft client lighting"
+  ],
+  "texture_grid_max": 4,
+  "painting_entities_rendered": 4,
+  "material_mode": "Minecraft Java 1.21.1 JSON models + first-frame texture colours, offline EGL; not game footage",
+  "model_fallbacks": {
+    "minecraft:oak_wall_sign": 1,
+    "minecraft:white_bed": 8
+  }
+}

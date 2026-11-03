@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "engine_version": "0.2.0",
+  "updated_at": "2026-10-23",
+  "purpose": "Read-only index of actual controls, consumers and gaps; NOT a build profile or automatically applied defaults.",
+  "grading": {
+    "A": "已实现且在注明范围内测试可复用",
+    "B": "基本实现，仍需补充测试或局部优化",
+    "C": "规范或局部原型，关键接入缺失",
+    "D": "尚未实现或验证环境尚未接入"
+  },
+  "capabilities": [
+    {
+      "id": "lighting.rooms",
+      "name": "分区窗灯与稳定随机",
+      "status": "integrated",
+      "grade": "B",
+      "controls": [
+        "CTF: lighting.seed / lighting.activity / lighting.crown_accents",
+        "深圳: interior.seed / interior.activity / podium.lighting_seed",
+        "room_lighting(seed, floor_id, room_id, zone, activity, namespace)"
+      ],
+      "implementation": [
+        "hafusion/lighting.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/src/build_case.py",
+        "cases/shenzhen_press/src/build_case.py"
+      ],
+      "evidence": [
+        "tests/test_lighting.py",
+        "cases/guangzhou_ctf/runs/V1/rooms.json",
+        "cases/shenzhen_press/runs/V2/rooms.json"
+      ],
+      "limits": "activity 只是概率基值，加入楼层/分区偏移后截断到 0.08–0.88；0/1 不是全关/全开。荧石选择阈值 0.46 是源码常量，不是可调参数。保留各案例原 namespace；CTF 每房至多放一个灯，不消费所有 fixture_count/offset 提案。crown_accents 为候选开关；CTF V1 实际专用 crown_accent 单元为 0。未在游戏中验证。"
+    },
+    {
+      "id": "lighting.slots",
+      "name": "不破坏幕墙的灯位预留",
+      "status": "integrated",
+      "grade": "B",
+      "controls": [
+        "first_clear_slot(candidates, occupied, reserved, connection_sensitive)"
+      ],
+      "implementation": [
+        "hafusion/lighting.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/src/build_case.py"
+      ],
+      "evidence": [
+        "tests/test_light_slots.py"
+      ],
+      "limits": "已用于 CTF；调用方负责边界、支撑与候选生成。暗房也预留灯位，避免换种子改变几何；不能据此推断深圳已接入同一预留策略。"
+    },
+    {
+      "id": "lighting.fixed",
+      "name": "按实景固定灯带与轮廓",
+      "status": "sample_only",
+      "grade": "C",
+      "controls": [
+        "night_study.py 的已观察立面、试验标高和灯位列表（案例源码）"
+      ],
+      "implementation": [
+        "cases/guangzhou_ctf/experiments/detail_v2/night_study.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/experiments/detail_v2/runs/night_pattern_candidate/building.nbt"
+      ],
+      "evidence": [
+        "cases/guangzhou_ctf/experiments/detail_v2/runs/night_pattern_candidate/diff.json"
+      ],
+      "limits": "306 个声明灯位改动，玻璃和竖肋未改。仅 +Z/-X 两面候选；约 198m 是试验锚点，北向/背面和最终标高未确认。尚未接入 agent 的建筑参数；不是整栋 CTF V2。"
+    },
+    {
+      "id": "lighting.obstruction",
+      "name": "航空障碍灯比例样板",
+      "status": "sample_only",
+      "grade": "C",
+      "controls": [
+        "beacon(kind,x,y,z): glass_ring / recessed_cap / torch"
+      ],
+      "implementation": [
+        "cases/guangzhou_ctf/experiments/detail_v2/study.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/experiments/detail_v2/runs/beacon_board/building.nbt"
+      ],
+      "evidence": [
+        "cases/guangzhou_ctf/experiments/detail_v2/runs/beacon_board/inspection.json",
+        "cases/guangzhou_ctf/experiments/detail_v2/runs/beacon_context_recessed_cap/inspection.json"
+      ],
+      "limits": "3×3 红玻璃片包罩、1×1 嵌入罩、红石火把已输出 NBT。CTF 1:2 的 3×3 约 6m，容易夸大；上下文位置仅比例试验。无真实灯位确认、闪烁电路或游戏投射光色验证。"
+    },
+    {
+      "id": "interiors.case",
+      "name": "窗后层、背墙与基础陈设",
+      "status": "integrated",
+      "grade": "B",
+      "controls": [
+        "CTF: interior.room_bay_blocks / depth_blocks / floor_slab",
+        "深圳: interior.floor_ys / room_centers_x（及已有种子）"
+      ],
+      "implementation": [
+        "cases/guangzhou_ctf/src/build_case.py",
+        "cases/shenzhen_press/src/build_case.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/runs/V1/building.nbt",
+        "cases/shenzhen_press/runs/V2/building.nbt"
+      ],
+      "evidence": [
+        "cases/guangzhou_ctf/runs/V1/rooms.json",
+        "cases/shenzhen_press/runs/V2/rooms.json"
+      ],
+      "limits": "已存在案例化窗后遮挡、楼板和简单家具。playable_floors=false 是范围声明，不是可切换的可游玩楼层生成开关；不宣称真实户型。"
+    },
+    {
+      "id": "interiors.styles",
+      "name": "四类伪内饰与净高控制",
+      "status": "sample_only",
+      "grade": "C",
+      "controls": [
+        "room_style(seed,room_id,clear_height,zone)",
+        "furnishing_cells(style,clear_height): work / library / lounge / green"
+      ],
+      "implementation": [
+        "hafusion/interiors.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/experiments/detail_v2/study.py"
+      ],
+      "evidence": [
+        "tests/test_detail_feedback.py",
+        "cases/guangzhou_ctf/experiments/detail_v2/runs/facade_hybrid/inspection.json"
+      ],
+      "limits": "书架、铁砧、台面、座椅和树叶盆栽已用于 24 个局部样板房间。净高不足不放两格盆栽；office/residential/hotel 暖光比例 0.55/0.75/0.80 是源码常量，和整栋 room_lighting 的 0.46 阈值不是同一控制。尚未替换两个整栋适配器的室内逻辑。"
+    },
+    {
+      "id": "facade.layers",
+      "name": "竖向幕墙与薄构件",
+      "status": "integrated",
+      "grade": "B",
+      "controls": [
+        "CTF: facade.pitch_blocks / phase / glass / fin / lobby_clear_height",
+        "skin_cell 的方向、节距、相位、玻璃与外肋"
+      ],
+      "implementation": [
+        "hafusion/facade.py",
+        "support/detail_lab/states.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/src/build_case.py"
+      ],
+      "evidence": [
+        "tests/test_vertical_facade.py",
+        "cases/guangzhou_ctf/runs/V1/building.nbt"
+      ],
+      "limits": "玻璃片、墙、铁栅栏、半砖、楼梯、活板门等已有状态表达；不是任意方块/模组注册器。铁栏杆/混合主肋对照仍属样板，不能默认用深色铁栏替换所有浅色主肋。"
+    },
+    {
+      "id": "render.emission",
+      "name": "材质发光颜色与旧版回放",
+      "status": "integrated",
+      "grade": "B",
+      "controls": [
+        "emission_shader(source, policy=material/legacy)；实际函数入口及渲染器参数见源码"
+      ],
+      "implementation": [
+        "support/detail_lab/shading.py",
+        "support/vendor/render_egl.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/experiments/detail_v2/study.py"
+      ],
+      "evidence": [
+        "tests/test_detail_feedback.py",
+        "cases/guangzhou_ctf/experiments/detail_v2/night_outputs.json"
+      ],
+      "limits": "已纠正把不同发光材料强制染成同色的预览问题；保留旧策略。状态盒与近似光照不是原版材质、RGB 投射光或游戏碰撞；渲染改善不得计为新增建筑几何。"
+    },
+    {
+      "id": "evidence.parameters",
+      "name": "构件取舍、参数守卫与缓存",
+      "status": "integrated",
+      "grade": "B",
+      "controls": [
+        "稳定 component_id / 候选来源 / adopted_parameters / frame_id",
+        "apply_reviewed / apply_building_spec / Stages"
+      ],
+      "implementation": [
+        "hafusion/evidence.py",
+        "hafusion/cache.py"
+      ],
+      "consumers": [
+        "cases/guangzhou_ctf/src/build_case.py",
+        "cases/shenzhen_press/src/build_case.py"
+      ],
+      "evidence": [
+        "tests/test_hafusion.py"
+      ],
+      "limits": "由研究者明确构件和参数；不做自动相机配准或通用构件识别。阶段失效是保守策略，不保证任何局部改动都只重算该构件。"
+    },
+    {
+      "id": "model.research",
+      "name": "可选模型读取与检查",
+      "status": "inherited",
+      "grade": "B",
+      "controls": [
+        "ha03/tools/model_research.py import / preview / attach"
+      ],
+      "implementation": [
+        "ha03/tools/model_research.py",
+        "ha03/architect/model_io.py"
+      ],
+      "consumers": [
+        "ha03/architect/model_compare.py"
+      ],
+      "evidence": [
+        "ha03/docs/MODEL_RESEARCH_0.3.md"
+      ],
+      "limits": "继承 HA0.3 已有研究入口与历史格式验证；本次不重跑全部 SKP/GLB/glTF/OBJ/STL/PLY/DAE 套件。attach 只登记候选。CTF 尚无下载并导入的 SU/三维网格；纯图片路线继续可用。"
+    },
+    {
+      "id": "agent.cases",
+      "name": "统一主线入口",
+      "status": "integrated",
+      "grade": "B",
+      "controls": [
+        "python3 tools/agent.py --case <registered_case> --run NEW_RUN [--params FILE]",
+        "--version / --catalog（只读）"
+      ],
+      "implementation": [
+        "tools/agent.py",
+        "agent_config.json"
+      ],
+      "consumers": [
+        "cases/shenzhen_press/src/build_case.py",
+        "cases/guangzhou_ctf/src/build_case.py"
+      ],
+      "evidence": [
+        "tests/test_hafusion.py"
+      ],
+      "limits": "仅注册深圳特区报业大厦和广州周大福；广州塔旧入口保留供历史复跑。新建筑需要新的构件研究和适配器；目录中存在控制目录不代表所有条目已由生成器消费。"
+    },
+    {
+      "id": "game.acceptance",
+      "name": "游戏内导入、碰撞和夜景验收",
+      "status": "pending",
+      "grade": "D",
+      "controls": [],
+      "implementation": [],
+      "consumers": [],
+      "evidence": [],
+      "limits": "尚未连接游戏。本版本不宣称完成导入、透明纹理、障碍灯远距可见性、内饰通行或原版/光影亮度验收。"
+    }
+  ]
+}

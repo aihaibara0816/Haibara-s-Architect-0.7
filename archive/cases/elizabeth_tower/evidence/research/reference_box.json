@@ -1,0 +1,19 @@
+{
+  "status": "已建立多视角证据索引；未恢复相机、未拼接成标定三维参考盒",
+  "views": [
+    "整体现状",
+    "正面/钟面",
+    "斜视",
+    "花园面/屋顶",
+    "内部构件",
+    "夜景",
+    "地图/平面"
+  ],
+  "relation": "按构件手工对应；方向不明的照片不强行标为东南西北",
+  "model_alignment": "no external model used",
+  "scale_anchor": [
+    "parliament_dimensions",
+    "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/facts-figures/",
+    "议会官方：塔高 96 米、四面钟盘，每面直径 7 米。"
+  ]
+}

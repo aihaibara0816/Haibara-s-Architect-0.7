@@ -1,0 +1,126 @@
+{
+  "scope": "PlanCraft source executed on analytic house; existing Architect/BuildKit NBT writer reused",
+  "quantization": [
+    {
+      "width_cm": 1000,
+      "real_clear_width_m": 9.2,
+      "mode": "round",
+      "tolerance_blocks": 0.1,
+      "mapped_outer_width_blocks": 10.0,
+      "mapped_clear_span_blocks": 9.2,
+      "clear_air_cells": 8,
+      "grid_size": [
+        14,
+        7,
+        12
+      ],
+      "non_air": 256
+    },
+    {
+      "width_cm": 1000,
+      "real_clear_width_m": 9.2,
+      "mode": "ceil",
+      "tolerance_blocks": 0.1,
+      "mapped_outer_width_blocks": 11.0,
+      "mapped_clear_span_blocks": 9.583333333333332,
+      "clear_air_cells": 10,
+      "grid_size": [
+        14,
+        7,
+        12
+      ],
+      "non_air": 318
+    },
+    {
+      "width_cm": 1000,
+      "real_clear_width_m": 9.2,
+      "mode": "ceil",
+      "tolerance_blocks": 0.0,
+      "mapped_outer_width_blocks": 11.0,
+      "mapped_clear_span_blocks": 9.583333333333332,
+      "clear_air_cells": 10,
+      "grid_size": [
+        14,
+        7,
+        12
+      ],
+      "non_air": 318
+    },
+    {
+      "width_cm": 985,
+      "real_clear_width_m": 9.05,
+      "mode": "round",
+      "tolerance_blocks": 0.1,
+      "mapped_outer_width_blocks": 9.85,
+      "mapped_clear_span_blocks": 9.049999999999999,
+      "clear_air_cells": 8,
+      "grid_size": [
+        14,
+        7,
+        12
+      ],
+      "non_air": 256
+    },
+    {
+      "width_cm": 985,
+      "real_clear_width_m": 9.05,
+      "mode": "ceil",
+      "tolerance_blocks": 0.1,
+      "mapped_outer_width_blocks": 11.0,
+      "mapped_clear_span_blocks": 9.576719576719576,
+      "clear_air_cells": 10,
+      "grid_size": [
+        14,
+        7,
+        12
+      ],
+      "non_air": 318
+    },
+    {
+      "width_cm": 985,
+      "real_clear_width_m": 9.05,
+      "mode": "ceil",
+      "tolerance_blocks": 0.0,
+      "mapped_outer_width_blocks": 11.0,
+      "mapped_clear_span_blocks": 9.576719576719576,
+      "clear_air_cells": 10,
+      "grid_size": [
+        14,
+        7,
+        12
+      ],
+      "non_air": 318
+    }
+  ],
+  "nbt": {
+    "file": "plancraft_house_bridge.nbt",
+    "bytes": 1024,
+    "sha256": "a908eec99f000a8e8ab587e9c5984e65bd92e17bc8c907bacd4c34b9158999a9",
+    "listed_blocks": 318,
+    "non_air_blocks": 318,
+    "size_xyz": [
+      14,
+      7,
+      12
+    ],
+    "contains_explicit_air": false,
+    "geometry_sha256": "38b974261a951d23e1fed25113648d0f56013a43eac7800539f22b8a1cb2a1aa",
+    "data_version": 3955
+  },
+  "buildpaste_readback": {
+    "ok": true,
+    "mismatch_count": 0,
+    "mismatches": []
+  },
+  "nbt_exact": true,
+  "block_states": [
+    "minecraft:oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]",
+    "minecraft:oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]",
+    "minecraft:stone",
+    "minecraft:white_concrete"
+  ],
+  "component_identity": "one fixture owner; PlanCraft Grid has no original per-component ownership",
+  "registry_validation": "not_run: target Minecraft registry absent",
+  "game_validation": "not_tested",
+  "building_spec_changed": false
+}

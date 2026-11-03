@@ -1,0 +1,164 @@
+{
+  "schema_version": "haf-model-tools-0.6",
+  "format": "Provider-neutral tool descriptions; adapt input_schema to your host tool-registration format.",
+  "host_bindings": [
+    "runs_root",
+    "parent_id"
+  ],
+  "tools": [
+    {
+      "name": "haf_verify_parent",
+      "description": "Verify hashes and planning constraints for the host-bound parent run.",
+      "input_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [],
+        "properties": {}
+      }
+    },
+    {
+      "name": "haf_validate_proposal",
+      "description": "Validate proposed module replacement against the immutable host-bound parent; writes nothing.",
+      "input_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "proposal"
+        ],
+        "properties": {
+          "proposal": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "schema_version",
+              "source_request_sha256",
+              "proposed_modules"
+            ],
+            "properties": {
+              "schema_version": {
+                "const": "0.6-model-proposal"
+              },
+              "source_request_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "proposed_modules": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "component_id",
+                    "room_id",
+                    "bounds_xyz"
+                  ],
+                  "properties": {
+                    "component_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "room_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "bounds_xyz": {
+                      "type": "array",
+                      "minItems": 6,
+                      "maxItems": 6,
+                      "items": {
+                        "type": "integer"
+                      }
+                    },
+                    "use_faces": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "haf_import_proposal",
+      "description": "Validate a proposal and create a new immutable planning revision; does not produce geometry.",
+      "input_schema": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "run_id",
+          "proposal"
+        ],
+        "properties": {
+          "run_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+          },
+          "proposal": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "schema_version",
+              "source_request_sha256",
+              "proposed_modules"
+            ],
+            "properties": {
+              "schema_version": {
+                "const": "0.6-model-proposal"
+              },
+              "source_request_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "proposed_modules": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "component_id",
+                    "room_id",
+                    "bounds_xyz"
+                  ],
+                  "properties": {
+                    "component_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "room_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "bounds_xyz": {
+                      "type": "array",
+                      "minItems": 6,
+                      "maxItems": 6,
+                      "items": {
+                        "type": "integer"
+                      }
+                    },
+                    "use_faces": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

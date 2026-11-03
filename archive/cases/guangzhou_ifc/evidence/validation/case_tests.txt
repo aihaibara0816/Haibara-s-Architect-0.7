@@ -1,0 +1,129 @@
+{
+  "case": "guangzhou_ifc",
+  "run": "V1_r02",
+  "checks": [
+    {
+      "id": "ownership_covers_exact_final_blocks",
+      "status": "pass"
+    },
+    {
+      "id": "tower_height_220",
+      "status": "pass",
+      "height_blocks": 220
+    },
+    {
+      "id": "spindle_narrows_above_and_below",
+      "status": "pass",
+      "base": 36,
+      "maximum": 37,
+      "top": 29,
+      "axes": "X, discrete outer glass"
+    },
+    {
+      "id": "broadest_band_near_lower_third",
+      "status": "pass",
+      "mean_maximum_height": 72.0,
+      "range": [
+        45,
+        99
+      ]
+    },
+    {
+      "id": "office_core_stops_below_atrium",
+      "status": "pass",
+      "max_core_y": 151
+    },
+    {
+      "id": "opposing_diagrid_families_retained",
+      "status": "pass",
+      "component_count": 30
+    },
+    {
+      "id": "warm_cool_and_thin_blocks_present",
+      "status": "pass",
+      "counts": {
+        "minecraft:smooth_stone_slab": 4587,
+        "minecraft:glass_pane": 1646,
+        "minecraft:polished_deepslate_slab": 46564,
+        "minecraft:diorite_wall": 4062,
+        "minecraft:gray_stained_glass_pane": 12214,
+        "minecraft:dark_oak_slab": 386,
+        "minecraft:glowstone": 868,
+        "minecraft:sea_lantern": 606,
+        "minecraft:smooth_quartz_slab": 9818,
+        "minecraft:polished_andesite_slab": 113,
+        "minecraft:quartz_slab": 13
+      }
+    },
+    {
+      "id": "deterministic_replay",
+      "status": "pass"
+    },
+    {
+      "id": "activity_change_only_affects_room_lamps",
+      "status": "pass",
+      "changed_cells": 104,
+      "non_lamp_changes": 0
+    },
+    {
+      "id": "declared_final_geometry_samples",
+      "status": "pass",
+      "checks": [
+        {
+          "id": "entry_floor",
+          "kind": "full_bearing",
+          "samples": 70,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "entry_clearance",
+          "kind": "air",
+          "samples": 210,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "declared_column_bearing",
+          "kind": "full_bearing",
+          "samples": 32,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "recorded_lamp_survival",
+          "kind": "material",
+          "samples": 1410,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        },
+        {
+          "id": "hotel_central_void",
+          "kind": "air",
+          "samples": 305,
+          "status": "pass",
+          "failures": 0,
+          "unknown": 0,
+          "examples": []
+        }
+      ]
+    },
+    {
+      "id": "matched_views_and_true_top",
+      "status": "pass",
+      "status_detail": "pass"
+    }
+  ],
+  "status": "pass",
+  "game_status": "pending",
+  "visual_fidelity": "manual limited inspection; user review pending",
+  "scope": "No survey validation or real-world structural safety assessment"
+}

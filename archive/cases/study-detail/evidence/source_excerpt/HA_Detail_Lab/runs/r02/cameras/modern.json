@@ -1,0 +1,125 @@
+[
+  {
+    "width": 1400,
+    "height": 1050,
+    "fov": 36,
+    "ortho": true,
+    "spanX": 42.0,
+    "spanZ": 31.5,
+    "concept": true,
+    "id": "oblique",
+    "eye": [
+      67.76,
+      39.84,
+      -58.2
+    ],
+    "target": [
+      14.0,
+      6.88,
+      9.0
+    ]
+  },
+  {
+    "width": 1400,
+    "height": 1050,
+    "fov": 36,
+    "ortho": true,
+    "spanX": 42.0,
+    "spanZ": 31.5,
+    "concept": true,
+    "id": "front",
+    "eye": [
+      14.0,
+      7.52,
+      -58.2
+    ],
+    "target": [
+      14.0,
+      7.52,
+      9.0
+    ]
+  },
+  {
+    "width": 1400,
+    "height": 1050,
+    "fov": 36,
+    "ortho": true,
+    "spanX": 42.0,
+    "spanZ": 31.5,
+    "concept": false,
+    "id": "night",
+    "eye": [
+      67.76,
+      39.84,
+      -58.2
+    ],
+    "target": [
+      14.0,
+      6.88,
+      9.0
+    ],
+    "night": true
+  },
+  {
+    "width": 1400,
+    "height": 1050,
+    "fov": 36,
+    "ortho": true,
+    "spanX": 42.0,
+    "spanZ": 31.5,
+    "concept": true,
+    "id": "cutaway",
+    "eye": [
+      81.2,
+      41.6,
+      -58.2
+    ],
+    "target": [
+      14.0,
+      6.88,
+      9.0
+    ],
+    "cutX": 15
+  },
+  {
+    "width": 1400,
+    "height": 1050,
+    "fov": 36,
+    "ortho": true,
+    "spanX": 33.599999999999994,
+    "spanZ": 25.2,
+    "concept": true,
+    "id": "plan",
+    "eye": [
+      14.0,
+      83.2,
+      9.0
+    ],
+    "target": [
+      14.0,
+      0,
+      9.0
+    ],
+    "cutY": 6
+  },
+  {
+    "width": 1400,
+    "height": 1050,
+    "fov": 36,
+    "ortho": true,
+    "spanX": 16.0,
+    "spanZ": 12,
+    "concept": true,
+    "id": "detail",
+    "target": [
+      11.76,
+      5.5,
+      5
+    ],
+    "eye": [
+      35.952,
+      15.58,
+      -62.2
+    ]
+  }
+]

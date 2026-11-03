@@ -1,0 +1,221 @@
+{
+  "source_nbt_sha256": "5680209296ac56a4f36b30a4e0851966ec90f2b1babc94d883ece1300dcf3dbc",
+  "checks": [
+    {
+      "name": "building_count_18",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "uses_8_homes_6_shops_4_public",
+      "pass_": true,
+      "detail": null
+    },
+    {
+      "name": "building_footprints_do_not_overlap",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "all_door_leaf_inside_outside_two_cell_clearance",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "stairs_2_wide_two_cell_clearance",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "three_cell_entry_paths_clear",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "upper_stair_landings_clear_and_supported",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "occupied_floors_have_supported_ceiling_lights",
+      "pass_": true,
+      "detail": [
+        [
+          "H01.F1",
+          3
+        ],
+        [
+          "H01.F2",
+          4
+        ],
+        [
+          "H02.F1",
+          3
+        ],
+        [
+          "H02.F2",
+          4
+        ],
+        [
+          "S01.F1",
+          3
+        ],
+        [
+          "S01.F2",
+          4
+        ],
+        [
+          "S02.F1",
+          3
+        ],
+        [
+          "S02.F2",
+          4
+        ],
+        [
+          "S03.F1",
+          3
+        ],
+        [
+          "S03.F2",
+          4
+        ],
+        [
+          "P01.F1",
+          4
+        ],
+        [
+          "P01.F2",
+          4
+        ],
+        [
+          "H03.F1",
+          4
+        ],
+        [
+          "H04.F1",
+          3
+        ],
+        [
+          "H04.F2",
+          4
+        ],
+        [
+          "P02.F1",
+          4
+        ],
+        [
+          "S04.F1",
+          3
+        ],
+        [
+          "S04.F2",
+          4
+        ],
+        [
+          "H05.F1",
+          3
+        ],
+        [
+          "H05.F2",
+          4
+        ],
+        [
+          "P03.F1",
+          4
+        ],
+        [
+          "H06.F1",
+          4
+        ],
+        [
+          "S05.F1",
+          3
+        ],
+        [
+          "S05.F2",
+          4
+        ],
+        [
+          "H07.F1",
+          3
+        ],
+        [
+          "H07.F2",
+          4
+        ],
+        [
+          "S06.F1",
+          4
+        ],
+        [
+          "H08.F1",
+          3
+        ],
+        [
+          "H08.F2",
+          4
+        ],
+        [
+          "P04.F1",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "drain_water_has_bottom_and_side_containment",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "registered_vanilla_blockstates",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "display_candles_and_pots_have_level_support",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "ground_plants_supported",
+      "pass_": true,
+      "detail": 45
+    },
+    {
+      "name": "entry_paths_have_support",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "path_steps_at_most_one_block_and_no_vertical_duplicates",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "vehicle_road_three_cell_clearance",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "wall_banners_have_attachment_block",
+      "pass_": true,
+      "detail": []
+    },
+    {
+      "name": "hanging_lanterns_have_support_above",
+      "pass_": true,
+      "detail": []
+    }
+  ],
+  "block_count": 146969,
+  "file_status": "readback exact in build exporter",
+  "geometry": "pass",
+  "preview": "pending",
+  "game": "pending; client not run",
+  "limitations": [
+    "Door opening, stair collision and banner appearance need game test",
+    "Furniture decorative",
+    "Water containment is voxel enclosure only"
+  ]
+}

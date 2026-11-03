@@ -1,0 +1,38 @@
+{
+  "case": "Taisho15",
+  "mainline": "HAF 0.4",
+  "date": "2026-10-30",
+  "basis": "Taisho14 user feedback; current Komorebi09 T07 comparison",
+  "hard_constraints": [
+    "18 main buildings with occupied interiors",
+    "preserve northwest ridge/peak surface",
+    "terrain precedes placement",
+    "retain categorized viewer with direction and day/night",
+    "two private rear/side yards",
+    "river clock plaza and separate mountain lookout/torii"
+  ],
+  "superseded": [
+    "3x3 clock face is no longer a hard constraint after user clarification"
+  ],
+  "original_proposals": [
+    "5x5 clipped dial clock hall with slender upper body",
+    "open hillside pavilion with Japanese roof and torii; not a documented religious site",
+    "program-linked L/T wings"
+  ],
+  "random_channels": {
+    "terrain": "fixed authored input",
+    "layout": "seeded candidate tie-break with footprint cut/fill score and four cardinal possibilities",
+    "massing": "authored per-use recipe library",
+    "facade": "building-use palette, no per-block white-noise",
+    "interior": "different functional recipes; wing functions match parent use",
+    "lighting": "entrances and route nodes; irregular spacing, inhabited rooms retained",
+    "plants": "seeded grove centers, varied crowns/heights and exclusion masks"
+  },
+  "unknowns": [
+    "actual game lighting/collision",
+    "user aesthetic approval",
+    "unseen video construction details"
+  ],
+  "long_prompt": "原创大正浪漫山溪聚落，18栋按原始起伏选址，保留西北完整山体与林地，建筑真正占地内局部基础，长条、L形、T形、凹院和低附属翼穿插。河畔石铺钟楼广场连接店铺与坐凳，山顶日式屋檐眺望亭与鸟居经山路接镇；私宅后院围栏、店前硬地、砂砾浅滩、成簇樱花、云杉和竹林。用途决定内饰，功能照明与路口灯保留，不做等间距排屋或整片台地。",
+  "short_prompt": "地形先行，山顶眺望、河畔钟楼广场，18栋异形街屋，分用途内饰，私家院界，成簇樱花与自然河岸。"
+}

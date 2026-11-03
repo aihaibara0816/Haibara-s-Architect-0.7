@@ -1,0 +1,346 @@
+{
+  "baseline": "V1_r03",
+  "run": "V2_r01",
+  "before": [
+    {
+      "id": "column_base_bearing",
+      "pass": false,
+      "detail": {
+        "samples": 200,
+        "unsupported": 166
+      }
+    },
+    {
+      "id": "portico_landing_continuity",
+      "pass": false,
+      "detail": {
+        "samples": 567,
+        "missing": 567
+      }
+    },
+    {
+      "id": "porch_to_hall_path",
+      "pass": false,
+      "detail": {
+        "visited": 366,
+        "test": "flat full-block floor and two-cell headroom; not a game collision test"
+      }
+    },
+    {
+      "id": "clerestory_bottom_sealed",
+      "pass": false,
+      "detail": {
+        "base_cells": 257,
+        "open_below": 192,
+        "first_gaps": [
+          [
+            79,
+            61,
+            82
+          ],
+          [
+            79,
+            61,
+            83
+          ],
+          [
+            79,
+            61,
+            117
+          ],
+          [
+            79,
+            61,
+            118
+          ],
+          [
+            80,
+            61,
+            81
+          ],
+          [
+            80,
+            61,
+            119
+          ],
+          [
+            81,
+            61,
+            81
+          ],
+          [
+            81,
+            61,
+            119
+          ],
+          [
+            82,
+            61,
+            79
+          ],
+          [
+            82,
+            61,
+            80
+          ],
+          [
+            82,
+            61,
+            120
+          ],
+          [
+            82,
+            61,
+            121
+          ]
+        ]
+      }
+    },
+    {
+      "id": "four_roof_corner_connections",
+      "pass": false,
+      "detail": [
+        {
+          "xz": [
+            -46,
+            -38
+          ],
+          "blue_roof_y": []
+        },
+        {
+          "xz": [
+            -46,
+            38
+          ],
+          "blue_roof_y": []
+        },
+        {
+          "xz": [
+            46,
+            -38
+          ],
+          "blue_roof_y": []
+        },
+        {
+          "xz": [
+            46,
+            38
+          ],
+          "blue_roof_y": []
+        }
+      ]
+    },
+    {
+      "id": "corner_recessed_enclosure",
+      "pass": false,
+      "detail": {
+        "samples": 12,
+        "missing": 12
+      }
+    },
+    {
+      "id": "small_symbolic_plaque",
+      "pass": false,
+      "detail": {
+        "width": 43,
+        "height": 12,
+        "one_block_symbols": 0
+      }
+    },
+    {
+      "id": "portico_soffit_coverage",
+      "pass": false,
+      "detail": {
+        "samples": 21,
+        "missing": 14
+      }
+    }
+  ],
+  "after": [
+    {
+      "id": "column_base_bearing",
+      "pass": true,
+      "detail": {
+        "samples": 200,
+        "unsupported": 0
+      }
+    },
+    {
+      "id": "portico_landing_continuity",
+      "pass": true,
+      "detail": {
+        "samples": 567,
+        "missing": 0
+      }
+    },
+    {
+      "id": "porch_to_hall_path",
+      "pass": true,
+      "detail": {
+        "visited": 1386,
+        "test": "flat full-block floor and two-cell headroom; not a game collision test"
+      }
+    },
+    {
+      "id": "clerestory_bottom_sealed",
+      "pass": false,
+      "detail": {
+        "base_cells": 257,
+        "open_below": 36,
+        "first_gaps": [
+          [
+            79,
+            61,
+            118
+          ],
+          [
+            80,
+            61,
+            119
+          ],
+          [
+            82,
+            61,
+            121
+          ],
+          [
+            83,
+            61,
+            122
+          ],
+          [
+            84,
+            61,
+            123
+          ],
+          [
+            85,
+            61,
+            124
+          ],
+          [
+            87,
+            61,
+            126
+          ],
+          [
+            88,
+            61,
+            127
+          ],
+          [
+            89,
+            61,
+            128
+          ],
+          [
+            136,
+            61,
+            61
+          ],
+          [
+            136,
+            61,
+            139
+          ],
+          [
+            137,
+            61,
+            62
+          ]
+        ]
+      }
+    },
+    {
+      "id": "four_roof_corner_connections",
+      "pass": true,
+      "detail": [
+        {
+          "xz": [
+            -46,
+            -38
+          ],
+          "blue_roof_y": [
+            52
+          ]
+        },
+        {
+          "xz": [
+            -46,
+            38
+          ],
+          "blue_roof_y": [
+            52
+          ]
+        },
+        {
+          "xz": [
+            46,
+            -38
+          ],
+          "blue_roof_y": [
+            52
+          ]
+        },
+        {
+          "xz": [
+            46,
+            38
+          ],
+          "blue_roof_y": [
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "id": "corner_recessed_enclosure",
+      "pass": true,
+      "detail": {
+        "samples": 12,
+        "missing": 0
+      }
+    },
+    {
+      "id": "small_symbolic_plaque",
+      "pass": true,
+      "detail": {
+        "width": 11,
+        "height": 3,
+        "one_block_symbols": 4
+      }
+    },
+    {
+      "id": "portico_soffit_coverage",
+      "pass": true,
+      "detail": {
+        "samples": 21,
+        "missing": 0
+      }
+    }
+  ],
+  "new_checks_passed": 7,
+  "new_checks_total": 8,
+  "negative_control_detects": [
+    "column_base_bearing",
+    "portico_landing_continuity",
+    "porch_to_hall_path",
+    "clerestory_bottom_sealed",
+    "four_roof_corner_connections",
+    "corner_recessed_enclosure",
+    "small_symbolic_plaque",
+    "portico_soffit_coverage"
+  ],
+  "changed_cells": 14487,
+  "outside_authorized_regions": 0,
+  "first_stray": [],
+  "changed_owner_groups": {
+    "entry": 8231,
+    "junction": 6256
+  },
+  "baseline_nbt_sha256": "1b0b5b6f8299dd4c81011634a0d73c1d9675e3057565c78a83be9c46b963c3d7",
+  "final_nbt_sha256": "6eee4b5893e8d8c324a8880637f9192681fdb7123919897b071d4f0f65c326d0",
+  "game_status": "pending",
+  "engine_version": "HAF 0.2",
+  "haf03_status": "planned after additional independent cases"
+}

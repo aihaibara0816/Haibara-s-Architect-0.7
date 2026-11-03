@@ -1,0 +1,154 @@
+{
+  "method": "manual reviewed regions and plan trace, not automatic segmentation",
+  "components": [
+    {
+      "component": "shape",
+      "images": [
+        "P00",
+        "P02",
+        "P03",
+        "A238174",
+        "A238177",
+        "A238179",
+        "A238180",
+        "A238181",
+        "A238182",
+        "A238185"
+      ],
+      "regions": {
+        "A238177": [
+          0.08,
+          0.12,
+          0.88,
+          0.98
+        ],
+        "A238185": [
+          0.1,
+          0,
+          0.9,
+          0.96
+        ]
+      },
+      "observation": "Bowed asymmetric floorplate, corner notches, left/right setbacks at different heights, sloping crown; sections constrain heights, completed photos constrain appearance.",
+      "consumer": "shape(); tower.*_polygon / transition_metres",
+      "confidence": "medium",
+      "gap": "Manual tracing and drawing date; not a calibrated reconstruction or current as-built survey"
+    },
+    {
+      "component": "facade",
+      "images": [
+        "N02",
+        "N03",
+        "N05",
+        "P02"
+      ],
+      "regions": {
+        "N02": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "N05": [
+          0.02,
+          0.1,
+          0.98,
+          0.95
+        ]
+      },
+      "observation": "Light ceramic piers protrude ahead of blue/grey glazing; horizontal mullions are thinner and recessed. Internal window frames do not imply whole floors are solid facade.",
+      "consumer": "hafusion.facade.skin_cell(), facade(); facade.pitch_blocks / glass / fin",
+      "confidence": "high on ordering, medium on voxel aggregation",
+      "gap": "2-block repeat groups multiple real bays; diorite texture differs from glazed terracotta"
+    },
+    {
+      "component": "podium",
+      "images": [
+        "N04",
+        "A238169",
+        "A238170",
+        "A238172",
+        "A238173",
+        "A238176"
+      ],
+      "regions": {
+        "N04": [
+          0.23,
+          0.0,
+          1,
+          1
+        ],
+        "A238172": [
+          0,
+          0.25,
+          1,
+          0.96
+        ]
+      },
+      "observation": "Warm bronze-colored lower fins, light glazed upper facade, open separation and connecting glazed bridge; entrance/bridge soffit separate from tower curtain.",
+      "consumer": "podium(); podium.polygon / bridge_box / upper_glass_y",
+      "confidence": "medium",
+      "gap": "Approximate partial K11 extent; no detailed mall interiors or off-site connections"
+    },
+    {
+      "component": "interior",
+      "images": [
+        "N03",
+        "A238177",
+        "A238179",
+        "A238180"
+      ],
+      "regions": {
+        "N03": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "observation": "Recessed window-back layers, floor/ceiling depth and core; provide bounded pseudo rooms, not a hollow see-through shell.",
+      "consumer": "interior(); interior.depth_blocks / floor_slab",
+      "confidence": "low for furniture; high for need for backing",
+      "gap": "Not actual hotel/office room plans; miniature clear heights not universally walkable"
+    },
+    {
+      "component": "lighting",
+      "images": [
+        "P06",
+        "P02"
+      ],
+      "regions": {
+        "P06": [
+          0.45,
+          0.22,
+          0.63,
+          0.83
+        ]
+      },
+      "observation": "LPA describes indirect vertical facade accents and stepped crown glow. Synthetic room occupancy is separate, with stable room IDs and mixed sea lantern/glowstone.",
+      "consumer": "lighting(); hafusion.lighting.room_lighting",
+      "confidence": "medium for accent intent; game adaptation for room pattern",
+      "gap": "No photometric or current occupancy survey"
+    },
+    {
+      "component": "site",
+      "images": [
+        "A238176",
+        "A238170",
+        "A238174"
+      ],
+      "regions": {
+        "A238176": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "observation": "Tower and podium linked at ground, planted edge and approach; compact above-grade setting.",
+      "consumer": "site(); site.trees",
+      "confidence": "low-medium",
+      "gap": "Site dimensions and planting positions estimated; underground intentionally excluded"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "revision": "Q04 R18",
+  "mainline": "HAF 0.4",
+  "baseline": "Q04 R12",
+  "final_source_nbt_sha256": "857293345482be976858f2b89608da647618d41c1862a49ee25ca9b301e7e97e",
+  "revisions": [
+    {
+      "topic": "massing",
+      "changes": "44 independent buildings; N03/S01/S04 large qilou 46/38/51 blocks wide; A3=11 floors, E2=12 floors"
+    },
+    {
+      "topic": "colour_and_roofs",
+      "changes": "whole-building colour families, coherent repair patches; flat, terrace, gable and hip roofs; completed front roof edge"
+    },
+    {
+      "topic": "landscape",
+      "changes": "26 branch-first trees and 5411 planted ground cells; clustered shrubs/ferns/flowers; coherent gray paving repairs"
+    },
+    {
+      "topic": "presentation",
+      "changes": "34 fresh unaltered 1920x1080 client PNGs; 9 exterior and 8 interior day/night pairs; model rotation and per-floor viewing"
+    }
+  ],
+  "randomness_validation": {
+    "same_seed_nbt_bytes_identical": true,
+    "changed_massing": 32,
+    "changed_setbacks": 23,
+    "changed_whole_building_palette": 37,
+    "changed_qilou_roof_type": 4,
+    "variant_offline_audit_pass": true
+  },
+  "research_access_limit": "Tutorial watch-page metadata, thumbnails and available chapters examined. No full video/caption access; no claim of step-by-step replication."
+}

@@ -1,0 +1,4856 @@
+{
+  "buildings": [
+    {
+      "id": "H01",
+      "name": "木格町屋",
+      "use": "home",
+      "x": 10,
+      "z": 45,
+      "w": 14,
+      "d": 15,
+      "g": 4,
+      "face": "S",
+      "floors": 2,
+      "roof": "parallel",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_oak_log",
+      "bay_step": 4,
+      "lattice_family": "screen",
+      "eave_depth": 3,
+      "maintenance": 0.7,
+      "age": 60,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 14,
+      "local_depth": 15,
+      "accent": "white",
+      "upper_width": 14,
+      "upper_depth": 15,
+      "stair_local": [
+        2,
+        7,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          12,
+          11,
+          46
+        ],
+        [
+          13,
+          11,
+          46
+        ]
+      ]
+    },
+    {
+      "id": "H02",
+      "name": "木匠之家",
+      "use": "home",
+      "x": 29,
+      "z": 42,
+      "w": 14,
+      "d": 16,
+      "g": 5,
+      "face": "S",
+      "floors": 2,
+      "roof": "cross",
+      "wall": "spruce_planks",
+      "timber": "stripped_oak_log",
+      "bay_step": 5,
+      "lattice_family": "vertical",
+      "eave_depth": 3,
+      "maintenance": 0.88,
+      "age": 51,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 14,
+      "local_depth": 16,
+      "accent": "white",
+      "upper_width": 14,
+      "upper_depth": 16,
+      "stair_local": [
+        2,
+        7,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          31,
+          12,
+          44
+        ],
+        [
+          32,
+          12,
+          44
+        ]
+      ]
+    },
+    {
+      "id": "S01",
+      "name": "紫帘和菓子铺",
+      "use": "sweets",
+      "x": 49,
+      "z": 40,
+      "w": 16,
+      "d": 17,
+      "g": 4,
+      "face": "S",
+      "floors": 2,
+      "roof": "parallel",
+      "wall": "oak_planks",
+      "timber": "stripped_oak_log",
+      "bay_step": 5,
+      "lattice_family": "vertical",
+      "eave_depth": 3,
+      "maintenance": 0.74,
+      "age": 58,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 16,
+      "local_depth": 17,
+      "accent": "purple",
+      "upper_width": 16,
+      "upper_depth": 17,
+      "stair_local": [
+        2,
+        8,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          51,
+          11,
+          42
+        ],
+        [
+          52,
+          11,
+          42
+        ]
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "山口味噌店",
+      "use": "miso",
+      "x": 69,
+      "z": 43,
+      "w": 14,
+      "d": 16,
+      "g": 4,
+      "face": "S",
+      "floors": 2,
+      "roof": "parallel",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_spruce_log",
+      "bay_step": 5,
+      "lattice_family": "framed",
+      "eave_depth": 3,
+      "maintenance": 0.82,
+      "age": 58,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 14,
+      "local_depth": 16,
+      "accent": "white",
+      "upper_width": 14,
+      "upper_depth": 16,
+      "stair_local": [
+        2,
+        7,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          71,
+          11,
+          45
+        ],
+        [
+          72,
+          11,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "松影茶屋",
+      "use": "tea",
+      "x": 89,
+      "z": 38,
+      "w": 19,
+      "d": 20,
+      "g": 4,
+      "face": "S",
+      "floors": 2,
+      "roof": "offset",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_oak_log",
+      "bay_step": 5,
+      "lattice_family": "screen",
+      "eave_depth": 3,
+      "maintenance": 0.72,
+      "age": 30,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 19,
+      "local_depth": 20,
+      "accent": "blue",
+      "upper_width": 15,
+      "upper_depth": 20,
+      "stair_local": [
+        2,
+        11,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          91,
+          11,
+          40
+        ],
+        [
+          92,
+          11,
+          40
+        ]
+      ]
+    },
+    {
+      "id": "P01",
+      "name": "灯坂旅馆",
+      "use": "inn",
+      "x": 115,
+      "z": 41,
+      "w": 24,
+      "d": 22,
+      "g": 4,
+      "face": "S",
+      "floors": 2,
+      "roof": "hip",
+      "wall": "white_concrete",
+      "timber": "stripped_oak_log",
+      "bay_step": 4,
+      "lattice_family": "framed",
+      "eave_depth": 3,
+      "maintenance": 0.69,
+      "age": 45,
+      "floor_step": 6,
+      "door_u": 11,
+      "local_width": 24,
+      "local_depth": 22,
+      "accent": "blue",
+      "upper_width": 24,
+      "upper_depth": 20,
+      "stair_local": [
+        2,
+        11,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          117,
+          11,
+          45
+        ],
+        [
+          118,
+          11,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "H03",
+      "name": "巷上平屋",
+      "use": "home",
+      "x": 22,
+      "z": 10,
+      "w": 17,
+      "d": 18,
+      "g": 6,
+      "face": "S",
+      "floors": 1,
+      "roof": "hip",
+      "wall": "white_concrete",
+      "timber": "stripped_spruce_log",
+      "bay_step": 5,
+      "lattice_family": "screen",
+      "eave_depth": 2,
+      "maintenance": 0.8,
+      "age": 67,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 17,
+      "local_depth": 18,
+      "accent": "white",
+      "upper_width": 17,
+      "upper_depth": 18
+    },
+    {
+      "id": "H04",
+      "name": "竹院旧宅",
+      "use": "home",
+      "x": 61,
+      "z": 10,
+      "w": 16,
+      "d": 17,
+      "g": 6,
+      "face": "S",
+      "floors": 2,
+      "roof": "offset",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_spruce_log",
+      "bay_step": 5,
+      "lattice_family": "screen",
+      "eave_depth": 2,
+      "maintenance": 0.9,
+      "age": 72,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 16,
+      "local_depth": 17,
+      "accent": "white",
+      "upper_width": 12,
+      "upper_depth": 17,
+      "stair_local": [
+        2,
+        8,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          63,
+          13,
+          12
+        ],
+        [
+          64,
+          13,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "日和汤",
+      "use": "bath",
+      "x": 20,
+      "z": 82,
+      "w": 26,
+      "d": 22,
+      "g": 4,
+      "face": "N",
+      "floors": 1,
+      "roof": "bath",
+      "wall": "white_concrete",
+      "timber": "stripped_oak_log",
+      "bay_step": 4,
+      "lattice_family": "vertical",
+      "eave_depth": 3,
+      "maintenance": 0.84,
+      "age": 71,
+      "floor_step": 6,
+      "door_u": 12,
+      "local_width": 26,
+      "local_depth": 22,
+      "accent": "blue",
+      "upper_width": 26,
+      "upper_depth": 22
+    },
+    {
+      "id": "S04",
+      "name": "赤灯小食堂",
+      "use": "tavern",
+      "x": 53,
+      "z": 77,
+      "w": 16,
+      "d": 19,
+      "g": 4,
+      "face": "N",
+      "floors": 2,
+      "roof": "cross",
+      "wall": "spruce_planks",
+      "timber": "stripped_oak_log",
+      "bay_step": 4,
+      "lattice_family": "screen",
+      "eave_depth": 3,
+      "maintenance": 0.76,
+      "age": 31,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 16,
+      "local_depth": 19,
+      "accent": "red",
+      "upper_width": 16,
+      "upper_depth": 19,
+      "stair_local": [
+        2,
+        10,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          66,
+          11,
+          93
+        ],
+        [
+          65,
+          11,
+          93
+        ]
+      ]
+    },
+    {
+      "id": "H05",
+      "name": "桥边住家",
+      "use": "home",
+      "x": 81,
+      "z": 79,
+      "w": 15,
+      "d": 18,
+      "g": 4,
+      "face": "N",
+      "floors": 2,
+      "roof": "parallel",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_oak_log",
+      "bay_step": 4,
+      "lattice_family": "framed",
+      "eave_depth": 3,
+      "maintenance": 0.76,
+      "age": 33,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 15,
+      "local_depth": 18,
+      "accent": "white",
+      "upper_width": 15,
+      "upper_depth": 18,
+      "stair_local": [
+        2,
+        9,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          93,
+          11,
+          94
+        ],
+        [
+          92,
+          11,
+          94
+        ]
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "町会所",
+      "use": "community",
+      "x": 111,
+      "z": 83,
+      "w": 23,
+      "d": 21,
+      "g": 4,
+      "face": "N",
+      "floors": 1,
+      "roof": "hip",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_oak_log",
+      "bay_step": 4,
+      "lattice_family": "vertical",
+      "eave_depth": 3,
+      "maintenance": 0.85,
+      "age": 72,
+      "floor_step": 6,
+      "door_u": 10,
+      "local_width": 23,
+      "local_depth": 21,
+      "accent": "white",
+      "upper_width": 23,
+      "upper_depth": 21
+    },
+    {
+      "id": "H06",
+      "name": "巷口平屋",
+      "use": "home",
+      "x": 4,
+      "z": 9,
+      "w": 13,
+      "d": 17,
+      "g": 6,
+      "face": "S",
+      "floors": 1,
+      "roof": "cross",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_oak_log",
+      "bay_step": 5,
+      "lattice_family": "framed",
+      "eave_depth": 3,
+      "maintenance": 0.8,
+      "age": 31,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 13,
+      "local_depth": 17,
+      "accent": "white",
+      "upper_width": 13,
+      "upper_depth": 17
+    },
+    {
+      "id": "S05",
+      "name": "青纸文具店",
+      "use": "stationery",
+      "x": 44,
+      "z": 9,
+      "w": 12,
+      "d": 18,
+      "g": 6,
+      "face": "S",
+      "floors": 2,
+      "roof": "parallel",
+      "wall": "spruce_planks",
+      "timber": "stripped_oak_log",
+      "bay_step": 5,
+      "lattice_family": "vertical",
+      "eave_depth": 3,
+      "maintenance": 0.84,
+      "age": 41,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 12,
+      "local_depth": 18,
+      "accent": "blue",
+      "upper_width": 12,
+      "upper_depth": 18,
+      "stair_local": [
+        2,
+        9,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          46,
+          13,
+          11
+        ],
+        [
+          47,
+          13,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "H07",
+      "name": "织户旧宅",
+      "use": "home",
+      "x": 82,
+      "z": 10,
+      "w": 12,
+      "d": 18,
+      "g": 6,
+      "face": "S",
+      "floors": 2,
+      "roof": "cross",
+      "wall": "oak_planks",
+      "timber": "stripped_spruce_log",
+      "bay_step": 5,
+      "lattice_family": "framed",
+      "eave_depth": 3,
+      "maintenance": 0.76,
+      "age": 65,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 12,
+      "local_depth": 18,
+      "accent": "white",
+      "upper_width": 12,
+      "upper_depth": 18,
+      "stair_local": [
+        2,
+        9,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          84,
+          13,
+          12
+        ],
+        [
+          85,
+          13,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "S06",
+      "name": "三升米店",
+      "use": "rice",
+      "x": 99,
+      "z": 9,
+      "w": 12,
+      "d": 17,
+      "g": 6,
+      "face": "S",
+      "floors": 1,
+      "roof": "hip",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_oak_log",
+      "bay_step": 4,
+      "lattice_family": "framed",
+      "eave_depth": 3,
+      "maintenance": 0.74,
+      "age": 54,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 12,
+      "local_depth": 17,
+      "accent": "white",
+      "upper_width": 12,
+      "upper_depth": 17
+    },
+    {
+      "id": "H08",
+      "name": "桥北长屋",
+      "use": "home",
+      "x": 116,
+      "z": 9,
+      "w": 12,
+      "d": 18,
+      "g": 6,
+      "face": "S",
+      "floors": 2,
+      "roof": "parallel",
+      "wall": "smooth_sandstone",
+      "timber": "stripped_oak_log",
+      "bay_step": 4,
+      "lattice_family": "vertical",
+      "eave_depth": 2,
+      "maintenance": 0.78,
+      "age": 37,
+      "floor_step": 6,
+      "door_u": 2,
+      "local_width": 12,
+      "local_depth": 18,
+      "accent": "white",
+      "upper_width": 12,
+      "upper_depth": 18,
+      "stair_local": [
+        2,
+        9,
+        2,
+        6
+      ],
+      "stair_landing_samples": [
+        [
+          118,
+          13,
+          11
+        ],
+        [
+          119,
+          13,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "巷尾小祠",
+      "use": "shrine",
+      "x": 133,
+      "z": 11,
+      "w": 13,
+      "d": 16,
+      "g": 6,
+      "face": "S",
+      "floors": 1,
+      "roof": "hip",
+      "wall": "spruce_planks",
+      "timber": "stripped_spruce_log",
+      "bay_step": 5,
+      "lattice_family": "screen",
+      "eave_depth": 3,
+      "maintenance": 0.8,
+      "age": 53,
+      "floor_step": 6,
+      "door_u": 5,
+      "local_width": 13,
+      "local_depth": 16,
+      "accent": "red",
+      "upper_width": 13,
+      "upper_depth": 16
+    }
+  ],
+  "rooms": [
+    {
+      "id": "H01.F1",
+      "building": "H01",
+      "use": "home",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        11,
+        5,
+        46,
+        23,
+        10,
+        59
+      ]
+    },
+    {
+      "id": "H01.F2",
+      "building": "H01",
+      "use": "home",
+      "floor_block_y": 10,
+      "standing_y": 11,
+      "ceiling_y": 16,
+      "clear_height": 5,
+      "bounds_xyz": [
+        11,
+        11,
+        46,
+        23,
+        16,
+        59
+      ]
+    },
+    {
+      "id": "H02.F1",
+      "building": "H02",
+      "use": "home",
+      "floor_block_y": 5,
+      "standing_y": 6,
+      "ceiling_y": 11,
+      "clear_height": 5,
+      "bounds_xyz": [
+        30,
+        6,
+        43,
+        42,
+        11,
+        57
+      ]
+    },
+    {
+      "id": "H02.F2",
+      "building": "H02",
+      "use": "home",
+      "floor_block_y": 11,
+      "standing_y": 12,
+      "ceiling_y": 17,
+      "clear_height": 5,
+      "bounds_xyz": [
+        30,
+        12,
+        43,
+        42,
+        17,
+        57
+      ]
+    },
+    {
+      "id": "S01.F1",
+      "building": "S01",
+      "use": "sweets",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        50,
+        5,
+        41,
+        64,
+        10,
+        56
+      ]
+    },
+    {
+      "id": "S01.F2",
+      "building": "S01",
+      "use": "sweets",
+      "floor_block_y": 10,
+      "standing_y": 11,
+      "ceiling_y": 16,
+      "clear_height": 5,
+      "bounds_xyz": [
+        50,
+        11,
+        41,
+        64,
+        16,
+        56
+      ]
+    },
+    {
+      "id": "S02.F1",
+      "building": "S02",
+      "use": "miso",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        70,
+        5,
+        44,
+        82,
+        10,
+        58
+      ]
+    },
+    {
+      "id": "S02.F2",
+      "building": "S02",
+      "use": "miso",
+      "floor_block_y": 10,
+      "standing_y": 11,
+      "ceiling_y": 16,
+      "clear_height": 5,
+      "bounds_xyz": [
+        70,
+        11,
+        44,
+        82,
+        16,
+        58
+      ]
+    },
+    {
+      "id": "S03.F1",
+      "building": "S03",
+      "use": "tea",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        90,
+        5,
+        39,
+        107,
+        10,
+        57
+      ]
+    },
+    {
+      "id": "S03.F2",
+      "building": "S03",
+      "use": "tea",
+      "floor_block_y": 10,
+      "standing_y": 11,
+      "ceiling_y": 16,
+      "clear_height": 5,
+      "bounds_xyz": [
+        90,
+        11,
+        39,
+        103,
+        16,
+        57
+      ]
+    },
+    {
+      "id": "P01.F1",
+      "building": "P01",
+      "use": "inn",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        116,
+        5,
+        42,
+        138,
+        10,
+        62
+      ]
+    },
+    {
+      "id": "P01.F2",
+      "building": "P01",
+      "use": "inn",
+      "floor_block_y": 10,
+      "standing_y": 11,
+      "ceiling_y": 16,
+      "clear_height": 5,
+      "bounds_xyz": [
+        116,
+        11,
+        44,
+        138,
+        16,
+        62
+      ]
+    },
+    {
+      "id": "H03.F1",
+      "building": "H03",
+      "use": "home",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "bounds_xyz": [
+        23,
+        7,
+        11,
+        38,
+        12,
+        27
+      ]
+    },
+    {
+      "id": "H04.F1",
+      "building": "H04",
+      "use": "home",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "bounds_xyz": [
+        62,
+        7,
+        11,
+        76,
+        12,
+        26
+      ]
+    },
+    {
+      "id": "H04.F2",
+      "building": "H04",
+      "use": "home",
+      "floor_block_y": 12,
+      "standing_y": 13,
+      "ceiling_y": 18,
+      "clear_height": 5,
+      "bounds_xyz": [
+        62,
+        13,
+        11,
+        72,
+        18,
+        26
+      ]
+    },
+    {
+      "id": "P02.F1",
+      "building": "P02",
+      "use": "bath",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        21,
+        5,
+        83,
+        45,
+        10,
+        103
+      ]
+    },
+    {
+      "id": "S04.F1",
+      "building": "S04",
+      "use": "tavern",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        54,
+        5,
+        78,
+        68,
+        10,
+        95
+      ]
+    },
+    {
+      "id": "S04.F2",
+      "building": "S04",
+      "use": "tavern",
+      "floor_block_y": 10,
+      "standing_y": 11,
+      "ceiling_y": 16,
+      "clear_height": 5,
+      "bounds_xyz": [
+        54,
+        11,
+        78,
+        68,
+        16,
+        95
+      ]
+    },
+    {
+      "id": "H05.F1",
+      "building": "H05",
+      "use": "home",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        82,
+        5,
+        80,
+        95,
+        10,
+        96
+      ]
+    },
+    {
+      "id": "H05.F2",
+      "building": "H05",
+      "use": "home",
+      "floor_block_y": 10,
+      "standing_y": 11,
+      "ceiling_y": 16,
+      "clear_height": 5,
+      "bounds_xyz": [
+        82,
+        11,
+        80,
+        95,
+        16,
+        96
+      ]
+    },
+    {
+      "id": "P03.F1",
+      "building": "P03",
+      "use": "community",
+      "floor_block_y": 4,
+      "standing_y": 5,
+      "ceiling_y": 10,
+      "clear_height": 5,
+      "bounds_xyz": [
+        112,
+        5,
+        84,
+        133,
+        10,
+        103
+      ]
+    },
+    {
+      "id": "H06.F1",
+      "building": "H06",
+      "use": "home",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "bounds_xyz": [
+        5,
+        7,
+        10,
+        16,
+        12,
+        25
+      ]
+    },
+    {
+      "id": "S05.F1",
+      "building": "S05",
+      "use": "stationery",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "bounds_xyz": [
+        45,
+        7,
+        10,
+        55,
+        12,
+        26
+      ]
+    },
+    {
+      "id": "S05.F2",
+      "building": "S05",
+      "use": "stationery",
+      "floor_block_y": 12,
+      "standing_y": 13,
+      "ceiling_y": 18,
+      "clear_height": 5,
+      "bounds_xyz": [
+        45,
+        13,
+        10,
+        55,
+        18,
+        26
+      ]
+    },
+    {
+      "id": "H07.F1",
+      "building": "H07",
+      "use": "home",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "bounds_xyz": [
+        83,
+        7,
+        11,
+        93,
+        12,
+        27
+      ]
+    },
+    {
+      "id": "H07.F2",
+      "building": "H07",
+      "use": "home",
+      "floor_block_y": 12,
+      "standing_y": 13,
+      "ceiling_y": 18,
+      "clear_height": 5,
+      "bounds_xyz": [
+        83,
+        13,
+        11,
+        93,
+        18,
+        27
+      ]
+    },
+    {
+      "id": "S06.F1",
+      "building": "S06",
+      "use": "rice",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "bounds_xyz": [
+        100,
+        7,
+        10,
+        110,
+        12,
+        25
+      ]
+    },
+    {
+      "id": "H08.F1",
+      "building": "H08",
+      "use": "home",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "bounds_xyz": [
+        117,
+        7,
+        10,
+        127,
+        12,
+        26
+      ]
+    },
+    {
+      "id": "H08.F2",
+      "building": "H08",
+      "use": "home",
+      "floor_block_y": 12,
+      "standing_y": 13,
+      "ceiling_y": 18,
+      "clear_height": 5,
+      "bounds_xyz": [
+        117,
+        13,
+        10,
+        127,
+        18,
+        26
+      ]
+    },
+    {
+      "id": "P04.F1",
+      "building": "P04",
+      "use": "shrine",
+      "floor_block_y": 6,
+      "standing_y": 7,
+      "ceiling_y": 12,
+      "clear_height": 5,
+      "bounds_xyz": [
+        134,
+        7,
+        12,
+        145,
+        12,
+        26
+      ]
+    }
+  ],
+  "interior_zones": [
+    {
+      "id": "H01.F1.entry_kitchen",
+      "building": "H01",
+      "floor": 1,
+      "function": "entry_kitchen",
+      "bounds_xyz": [
+        11,
+        5,
+        53,
+        23,
+        10,
+        59
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H01.F1.tatami_living",
+      "building": "H01",
+      "floor": 1,
+      "function": "tatami_living",
+      "bounds_xyz": [
+        15,
+        5,
+        46,
+        23,
+        10,
+        52
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H01.F2.sleeping",
+      "building": "H01",
+      "floor": 2,
+      "function": "sleeping",
+      "bounds_xyz": [
+        15,
+        11,
+        46,
+        23,
+        16,
+        59
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H02.F1.entry_kitchen",
+      "building": "H02",
+      "floor": 1,
+      "function": "entry_kitchen",
+      "bounds_xyz": [
+        30,
+        6,
+        50,
+        42,
+        11,
+        57
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H02.F1.tatami_living",
+      "building": "H02",
+      "floor": 1,
+      "function": "tatami_living",
+      "bounds_xyz": [
+        34,
+        6,
+        43,
+        42,
+        11,
+        49
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H02.F2.sleeping",
+      "building": "H02",
+      "floor": 2,
+      "function": "sleeping",
+      "bounds_xyz": [
+        34,
+        12,
+        43,
+        42,
+        17,
+        57
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S01.F1.sales_and_service",
+      "building": "S01",
+      "floor": 1,
+      "function": "sales_and_service",
+      "bounds_xyz": [
+        54,
+        5,
+        46,
+        64,
+        10,
+        56
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S01.F1.rear_rest",
+      "building": "S01",
+      "floor": 1,
+      "function": "rear_rest",
+      "bounds_xyz": [
+        54,
+        5,
+        41,
+        64,
+        10,
+        45
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S01.F2.shopkeeper_home",
+      "building": "S01",
+      "floor": 2,
+      "function": "shopkeeper_home",
+      "bounds_xyz": [
+        54,
+        11,
+        41,
+        64,
+        16,
+        56
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S02.F1.sales_and_service",
+      "building": "S02",
+      "floor": 1,
+      "function": "sales_and_service",
+      "bounds_xyz": [
+        74,
+        5,
+        49,
+        82,
+        10,
+        58
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S02.F1.stock",
+      "building": "S02",
+      "floor": 1,
+      "function": "stock",
+      "bounds_xyz": [
+        74,
+        5,
+        44,
+        82,
+        10,
+        48
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S02.F2.shopkeeper_home",
+      "building": "S02",
+      "floor": 2,
+      "function": "shopkeeper_home",
+      "bounds_xyz": [
+        74,
+        11,
+        44,
+        82,
+        16,
+        58
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S03.F1.sales_and_service",
+      "building": "S03",
+      "floor": 1,
+      "function": "sales_and_service",
+      "bounds_xyz": [
+        94,
+        5,
+        44,
+        107,
+        10,
+        57
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S03.F1.rear_rest",
+      "building": "S03",
+      "floor": 1,
+      "function": "rear_rest",
+      "bounds_xyz": [
+        94,
+        5,
+        39,
+        107,
+        10,
+        43
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S03.F2.tea_room",
+      "building": "S03",
+      "floor": 2,
+      "function": "tea_room",
+      "bounds_xyz": [
+        94,
+        11,
+        39,
+        103,
+        16,
+        57
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P01.F1.reception",
+      "building": "P01",
+      "floor": 1,
+      "function": "reception",
+      "bounds_xyz": [
+        116,
+        5,
+        56,
+        138,
+        10,
+        62
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P01.F1.lounge_garden",
+      "building": "P01",
+      "floor": 1,
+      "function": "lounge_garden",
+      "bounds_xyz": [
+        120,
+        5,
+        42,
+        138,
+        10,
+        55
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P01.F2.guest_rooms_and_corridor",
+      "building": "P01",
+      "floor": 2,
+      "function": "guest_rooms_and_corridor",
+      "bounds_xyz": [
+        116,
+        11,
+        44,
+        138,
+        16,
+        62
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H03.F1.entry_kitchen",
+      "building": "H03",
+      "floor": 1,
+      "function": "entry_kitchen",
+      "bounds_xyz": [
+        23,
+        7,
+        19,
+        38,
+        12,
+        27
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H03.F1.tatami_living",
+      "building": "H03",
+      "floor": 1,
+      "function": "tatami_living",
+      "bounds_xyz": [
+        27,
+        7,
+        11,
+        38,
+        12,
+        18
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H04.F1.entry_kitchen",
+      "building": "H04",
+      "floor": 1,
+      "function": "entry_kitchen",
+      "bounds_xyz": [
+        62,
+        7,
+        19,
+        76,
+        12,
+        26
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H04.F1.tatami_living",
+      "building": "H04",
+      "floor": 1,
+      "function": "tatami_living",
+      "bounds_xyz": [
+        66,
+        7,
+        11,
+        76,
+        12,
+        18
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H04.F2.sleeping",
+      "building": "H04",
+      "floor": 2,
+      "function": "sleeping",
+      "bounds_xyz": [
+        66,
+        13,
+        11,
+        72,
+        18,
+        26
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P02.F1.entry_changing",
+      "building": "P02",
+      "floor": 1,
+      "function": "entry_changing",
+      "bounds_xyz": [
+        21,
+        5,
+        83,
+        45,
+        10,
+        91
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P02.F1.washing_pools",
+      "building": "P02",
+      "floor": 1,
+      "function": "washing_pools",
+      "bounds_xyz": [
+        21,
+        5,
+        92,
+        45,
+        10,
+        103
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S04.F1.sales_and_service",
+      "building": "S04",
+      "floor": 1,
+      "function": "sales_and_service",
+      "bounds_xyz": [
+        54,
+        5,
+        78,
+        64,
+        10,
+        90
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S04.F1.rear_rest",
+      "building": "S04",
+      "floor": 1,
+      "function": "rear_rest",
+      "bounds_xyz": [
+        54,
+        5,
+        91,
+        64,
+        10,
+        95
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S04.F2.tea_room",
+      "building": "S04",
+      "floor": 2,
+      "function": "tea_room",
+      "bounds_xyz": [
+        54,
+        11,
+        78,
+        64,
+        16,
+        95
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H05.F1.entry_kitchen",
+      "building": "H05",
+      "floor": 1,
+      "function": "entry_kitchen",
+      "bounds_xyz": [
+        82,
+        5,
+        80,
+        95,
+        10,
+        88
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H05.F1.tatami_living",
+      "building": "H05",
+      "floor": 1,
+      "function": "tatami_living",
+      "bounds_xyz": [
+        82,
+        5,
+        89,
+        91,
+        10,
+        96
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H05.F2.sleeping",
+      "building": "H05",
+      "floor": 2,
+      "function": "sleeping",
+      "bounds_xyz": [
+        82,
+        11,
+        80,
+        91,
+        16,
+        96
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P03.F1.foyer",
+      "building": "P03",
+      "floor": 1,
+      "function": "foyer",
+      "bounds_xyz": [
+        112,
+        5,
+        84,
+        133,
+        10,
+        88
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P03.F1.meeting_reading",
+      "building": "P03",
+      "floor": 1,
+      "function": "meeting_reading",
+      "bounds_xyz": [
+        112,
+        5,
+        89,
+        133,
+        10,
+        103
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H06.F1.entry_kitchen",
+      "building": "H06",
+      "floor": 1,
+      "function": "entry_kitchen",
+      "bounds_xyz": [
+        5,
+        7,
+        18,
+        16,
+        12,
+        25
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H06.F1.tatami_living",
+      "building": "H06",
+      "floor": 1,
+      "function": "tatami_living",
+      "bounds_xyz": [
+        9,
+        7,
+        10,
+        16,
+        12,
+        17
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S05.F1.sales_and_service",
+      "building": "S05",
+      "floor": 1,
+      "function": "sales_and_service",
+      "bounds_xyz": [
+        49,
+        7,
+        15,
+        55,
+        12,
+        26
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S05.F1.stock",
+      "building": "S05",
+      "floor": 1,
+      "function": "stock",
+      "bounds_xyz": [
+        49,
+        7,
+        10,
+        55,
+        12,
+        14
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S05.F2.shopkeeper_home",
+      "building": "S05",
+      "floor": 2,
+      "function": "shopkeeper_home",
+      "bounds_xyz": [
+        49,
+        13,
+        10,
+        55,
+        18,
+        26
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H07.F1.entry_kitchen",
+      "building": "H07",
+      "floor": 1,
+      "function": "entry_kitchen",
+      "bounds_xyz": [
+        83,
+        7,
+        19,
+        93,
+        12,
+        27
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H07.F1.tatami_living",
+      "building": "H07",
+      "floor": 1,
+      "function": "tatami_living",
+      "bounds_xyz": [
+        87,
+        7,
+        11,
+        93,
+        12,
+        18
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H07.F2.sleeping",
+      "building": "H07",
+      "floor": 2,
+      "function": "sleeping",
+      "bounds_xyz": [
+        87,
+        13,
+        11,
+        93,
+        18,
+        27
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S06.F1.sales_and_service",
+      "building": "S06",
+      "floor": 1,
+      "function": "sales_and_service",
+      "bounds_xyz": [
+        104,
+        7,
+        15,
+        110,
+        12,
+        25
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "S06.F1.stock",
+      "building": "S06",
+      "floor": 1,
+      "function": "stock",
+      "bounds_xyz": [
+        104,
+        7,
+        10,
+        110,
+        12,
+        14
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H08.F1.entry_kitchen",
+      "building": "H08",
+      "floor": 1,
+      "function": "entry_kitchen",
+      "bounds_xyz": [
+        117,
+        7,
+        18,
+        127,
+        12,
+        26
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H08.F1.tatami_living",
+      "building": "H08",
+      "floor": 1,
+      "function": "tatami_living",
+      "bounds_xyz": [
+        121,
+        7,
+        10,
+        127,
+        12,
+        17
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "H08.F2.sleeping",
+      "building": "H08",
+      "floor": 2,
+      "function": "sleeping",
+      "bounds_xyz": [
+        121,
+        13,
+        10,
+        127,
+        18,
+        26
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P04.F1.worship",
+      "building": "P04",
+      "floor": 1,
+      "function": "worship",
+      "bounds_xyz": [
+        134,
+        7,
+        16,
+        145,
+        12,
+        26
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    },
+    {
+      "id": "P04.F1.altar",
+      "building": "P04",
+      "floor": 1,
+      "function": "altar",
+      "bounds_xyz": [
+        134,
+        7,
+        12,
+        145,
+        12,
+        15
+      ],
+      "lighting": "supported warm lantern; game illuminance pending"
+    }
+  ],
+  "roads": [
+    {
+      "id": "main",
+      "path": [
+        [
+          0,
+          69
+        ],
+        [
+          28,
+          69
+        ],
+        [
+          56,
+          65
+        ],
+        [
+          98,
+          65
+        ],
+        [
+          128,
+          70
+        ],
+        [
+          160,
+          71
+        ]
+      ],
+      "width": 7,
+      "kind": "asphalt"
+    },
+    {
+      "id": "north_lane",
+      "path": [
+        [
+          4,
+          34
+        ],
+        [
+          36,
+          34
+        ],
+        [
+          58,
+          32
+        ],
+        [
+          96,
+          32
+        ],
+        [
+          126,
+          33
+        ],
+        [
+          145,
+          38
+        ],
+        [
+          145,
+          70
+        ]
+      ],
+      "width": 3,
+      "kind": "stone"
+    },
+    {
+      "id": "south_lane",
+      "path": [
+        [
+          8,
+          70
+        ],
+        [
+          8,
+          109
+        ],
+        [
+          53,
+          112
+        ],
+        [
+          95,
+          107
+        ],
+        [
+          143,
+          110
+        ],
+        [
+          150,
+          73
+        ]
+      ],
+      "width": 3,
+      "kind": "stone"
+    }
+  ],
+  "entrances": [
+    {
+      "building": "H01",
+      "inside": [
+        12,
+        5,
+        58
+      ],
+      "door": [
+        12,
+        5,
+        59
+      ],
+      "outside": [
+        12,
+        5,
+        60
+      ]
+    },
+    {
+      "building": "H01",
+      "inside": [
+        13,
+        5,
+        58
+      ],
+      "door": [
+        13,
+        5,
+        59
+      ],
+      "outside": [
+        13,
+        5,
+        60
+      ]
+    },
+    {
+      "building": "H02",
+      "inside": [
+        31,
+        6,
+        56
+      ],
+      "door": [
+        31,
+        6,
+        57
+      ],
+      "outside": [
+        31,
+        6,
+        58
+      ]
+    },
+    {
+      "building": "H02",
+      "inside": [
+        32,
+        6,
+        56
+      ],
+      "door": [
+        32,
+        6,
+        57
+      ],
+      "outside": [
+        32,
+        6,
+        58
+      ]
+    },
+    {
+      "building": "S01",
+      "inside": [
+        51,
+        5,
+        55
+      ],
+      "door": [
+        51,
+        5,
+        56
+      ],
+      "outside": [
+        51,
+        5,
+        57
+      ]
+    },
+    {
+      "building": "S01",
+      "inside": [
+        52,
+        5,
+        55
+      ],
+      "door": [
+        52,
+        5,
+        56
+      ],
+      "outside": [
+        52,
+        5,
+        57
+      ]
+    },
+    {
+      "building": "S02",
+      "inside": [
+        71,
+        5,
+        57
+      ],
+      "door": [
+        71,
+        5,
+        58
+      ],
+      "outside": [
+        71,
+        5,
+        59
+      ]
+    },
+    {
+      "building": "S02",
+      "inside": [
+        72,
+        5,
+        57
+      ],
+      "door": [
+        72,
+        5,
+        58
+      ],
+      "outside": [
+        72,
+        5,
+        59
+      ]
+    },
+    {
+      "building": "S03",
+      "inside": [
+        91,
+        5,
+        56
+      ],
+      "door": [
+        91,
+        5,
+        57
+      ],
+      "outside": [
+        91,
+        5,
+        58
+      ]
+    },
+    {
+      "building": "S03",
+      "inside": [
+        92,
+        5,
+        56
+      ],
+      "door": [
+        92,
+        5,
+        57
+      ],
+      "outside": [
+        92,
+        5,
+        58
+      ]
+    },
+    {
+      "building": "P01",
+      "inside": [
+        126,
+        5,
+        61
+      ],
+      "door": [
+        126,
+        5,
+        62
+      ],
+      "outside": [
+        126,
+        5,
+        63
+      ]
+    },
+    {
+      "building": "P01",
+      "inside": [
+        127,
+        5,
+        61
+      ],
+      "door": [
+        127,
+        5,
+        62
+      ],
+      "outside": [
+        127,
+        5,
+        63
+      ]
+    },
+    {
+      "building": "H03",
+      "inside": [
+        24,
+        7,
+        26
+      ],
+      "door": [
+        24,
+        7,
+        27
+      ],
+      "outside": [
+        24,
+        7,
+        28
+      ]
+    },
+    {
+      "building": "H03",
+      "inside": [
+        25,
+        7,
+        26
+      ],
+      "door": [
+        25,
+        7,
+        27
+      ],
+      "outside": [
+        25,
+        7,
+        28
+      ]
+    },
+    {
+      "building": "H04",
+      "inside": [
+        63,
+        7,
+        25
+      ],
+      "door": [
+        63,
+        7,
+        26
+      ],
+      "outside": [
+        63,
+        7,
+        27
+      ]
+    },
+    {
+      "building": "H04",
+      "inside": [
+        64,
+        7,
+        25
+      ],
+      "door": [
+        64,
+        7,
+        26
+      ],
+      "outside": [
+        64,
+        7,
+        27
+      ]
+    },
+    {
+      "building": "P02",
+      "inside": [
+        33,
+        5,
+        83
+      ],
+      "door": [
+        33,
+        5,
+        82
+      ],
+      "outside": [
+        33,
+        5,
+        81
+      ]
+    },
+    {
+      "building": "P02",
+      "inside": [
+        32,
+        5,
+        83
+      ],
+      "door": [
+        32,
+        5,
+        82
+      ],
+      "outside": [
+        32,
+        5,
+        81
+      ]
+    },
+    {
+      "building": "S04",
+      "inside": [
+        66,
+        5,
+        78
+      ],
+      "door": [
+        66,
+        5,
+        77
+      ],
+      "outside": [
+        66,
+        5,
+        76
+      ]
+    },
+    {
+      "building": "S04",
+      "inside": [
+        65,
+        5,
+        78
+      ],
+      "door": [
+        65,
+        5,
+        77
+      ],
+      "outside": [
+        65,
+        5,
+        76
+      ]
+    },
+    {
+      "building": "H05",
+      "inside": [
+        93,
+        5,
+        80
+      ],
+      "door": [
+        93,
+        5,
+        79
+      ],
+      "outside": [
+        93,
+        5,
+        78
+      ]
+    },
+    {
+      "building": "H05",
+      "inside": [
+        92,
+        5,
+        80
+      ],
+      "door": [
+        92,
+        5,
+        79
+      ],
+      "outside": [
+        92,
+        5,
+        78
+      ]
+    },
+    {
+      "building": "P03",
+      "inside": [
+        123,
+        5,
+        84
+      ],
+      "door": [
+        123,
+        5,
+        83
+      ],
+      "outside": [
+        123,
+        5,
+        82
+      ]
+    },
+    {
+      "building": "P03",
+      "inside": [
+        122,
+        5,
+        84
+      ],
+      "door": [
+        122,
+        5,
+        83
+      ],
+      "outside": [
+        122,
+        5,
+        82
+      ]
+    },
+    {
+      "building": "H06",
+      "inside": [
+        6,
+        7,
+        24
+      ],
+      "door": [
+        6,
+        7,
+        25
+      ],
+      "outside": [
+        6,
+        7,
+        26
+      ]
+    },
+    {
+      "building": "H06",
+      "inside": [
+        7,
+        7,
+        24
+      ],
+      "door": [
+        7,
+        7,
+        25
+      ],
+      "outside": [
+        7,
+        7,
+        26
+      ]
+    },
+    {
+      "building": "S05",
+      "inside": [
+        46,
+        7,
+        25
+      ],
+      "door": [
+        46,
+        7,
+        26
+      ],
+      "outside": [
+        46,
+        7,
+        27
+      ]
+    },
+    {
+      "building": "S05",
+      "inside": [
+        47,
+        7,
+        25
+      ],
+      "door": [
+        47,
+        7,
+        26
+      ],
+      "outside": [
+        47,
+        7,
+        27
+      ]
+    },
+    {
+      "building": "H07",
+      "inside": [
+        84,
+        7,
+        26
+      ],
+      "door": [
+        84,
+        7,
+        27
+      ],
+      "outside": [
+        84,
+        7,
+        28
+      ]
+    },
+    {
+      "building": "H07",
+      "inside": [
+        85,
+        7,
+        26
+      ],
+      "door": [
+        85,
+        7,
+        27
+      ],
+      "outside": [
+        85,
+        7,
+        28
+      ]
+    },
+    {
+      "building": "S06",
+      "inside": [
+        101,
+        7,
+        24
+      ],
+      "door": [
+        101,
+        7,
+        25
+      ],
+      "outside": [
+        101,
+        7,
+        26
+      ]
+    },
+    {
+      "building": "S06",
+      "inside": [
+        102,
+        7,
+        24
+      ],
+      "door": [
+        102,
+        7,
+        25
+      ],
+      "outside": [
+        102,
+        7,
+        26
+      ]
+    },
+    {
+      "building": "H08",
+      "inside": [
+        118,
+        7,
+        25
+      ],
+      "door": [
+        118,
+        7,
+        26
+      ],
+      "outside": [
+        118,
+        7,
+        27
+      ]
+    },
+    {
+      "building": "H08",
+      "inside": [
+        119,
+        7,
+        25
+      ],
+      "door": [
+        119,
+        7,
+        26
+      ],
+      "outside": [
+        119,
+        7,
+        27
+      ]
+    },
+    {
+      "building": "P04",
+      "inside": [
+        138,
+        7,
+        25
+      ],
+      "door": [
+        138,
+        7,
+        26
+      ],
+      "outside": [
+        138,
+        7,
+        27
+      ]
+    },
+    {
+      "building": "P04",
+      "inside": [
+        139,
+        7,
+        25
+      ],
+      "door": [
+        139,
+        7,
+        26
+      ],
+      "outside": [
+        139,
+        7,
+        27
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "building": "H01",
+      "width": 3,
+      "path": [
+        [
+          12,
+          5,
+          61
+        ],
+        [
+          12,
+          5,
+          62
+        ],
+        [
+          12,
+          5,
+          63
+        ],
+        [
+          12,
+          5,
+          64
+        ]
+      ]
+    },
+    {
+      "building": "H02",
+      "width": 3,
+      "path": [
+        [
+          31,
+          6,
+          59
+        ],
+        [
+          32,
+          6,
+          60
+        ],
+        [
+          32,
+          5,
+          61
+        ],
+        [
+          33,
+          5,
+          62
+        ],
+        [
+          34,
+          5,
+          63
+        ]
+      ]
+    },
+    {
+      "building": "S01",
+      "width": 3,
+      "path": [
+        [
+          51,
+          5,
+          58
+        ],
+        [
+          51,
+          5,
+          59
+        ],
+        [
+          51,
+          5,
+          60
+        ],
+        [
+          51,
+          5,
+          61
+        ]
+      ]
+    },
+    {
+      "building": "S02",
+      "width": 3,
+      "path": [
+        [
+          71,
+          5,
+          60
+        ]
+      ]
+    },
+    {
+      "building": "S03",
+      "width": 3,
+      "path": [
+        [
+          91,
+          5,
+          59
+        ],
+        [
+          91,
+          5,
+          60
+        ]
+      ]
+    },
+    {
+      "building": "P01",
+      "width": 3,
+      "path": [
+        [
+          126,
+          5,
+          64
+        ],
+        [
+          126,
+          5,
+          65
+        ]
+      ]
+    },
+    {
+      "building": "H03",
+      "width": 3,
+      "path": [
+        [
+          24,
+          7,
+          29
+        ],
+        [
+          24,
+          7,
+          30
+        ],
+        [
+          24,
+          6,
+          31
+        ],
+        [
+          24,
+          5,
+          32
+        ],
+        [
+          24,
+          5,
+          33
+        ]
+      ]
+    },
+    {
+      "building": "H04",
+      "width": 3,
+      "path": [
+        [
+          63,
+          7,
+          28
+        ],
+        [
+          63,
+          6,
+          29
+        ],
+        [
+          63,
+          6,
+          30
+        ],
+        [
+          63,
+          5,
+          31
+        ]
+      ]
+    },
+    {
+      "building": "P02",
+      "width": 3,
+      "path": [
+        [
+          33,
+          5,
+          80
+        ],
+        [
+          33,
+          5,
+          79
+        ],
+        [
+          33,
+          5,
+          78
+        ],
+        [
+          33,
+          5,
+          77
+        ],
+        [
+          33,
+          5,
+          76
+        ],
+        [
+          33,
+          5,
+          75
+        ],
+        [
+          33,
+          5,
+          74
+        ],
+        [
+          33,
+          5,
+          73
+        ]
+      ]
+    },
+    {
+      "building": "S04",
+      "width": 3,
+      "path": [
+        [
+          66,
+          5,
+          75
+        ],
+        [
+          66,
+          5,
+          74
+        ],
+        [
+          66,
+          5,
+          73
+        ],
+        [
+          66,
+          5,
+          72
+        ],
+        [
+          66,
+          5,
+          71
+        ],
+        [
+          66,
+          5,
+          70
+        ]
+      ]
+    },
+    {
+      "building": "H05",
+      "width": 3,
+      "path": [
+        [
+          93,
+          5,
+          77
+        ],
+        [
+          93,
+          5,
+          76
+        ],
+        [
+          93,
+          5,
+          75
+        ],
+        [
+          93,
+          5,
+          74
+        ],
+        [
+          93,
+          5,
+          73
+        ],
+        [
+          93,
+          5,
+          72
+        ],
+        [
+          93,
+          5,
+          71
+        ],
+        [
+          93,
+          5,
+          70
+        ]
+      ]
+    },
+    {
+      "building": "P03",
+      "width": 3,
+      "path": [
+        [
+          123,
+          5,
+          81
+        ],
+        [
+          123,
+          5,
+          80
+        ],
+        [
+          123,
+          5,
+          79
+        ],
+        [
+          123,
+          5,
+          78
+        ],
+        [
+          123,
+          5,
+          77
+        ],
+        [
+          123,
+          5,
+          76
+        ],
+        [
+          123,
+          5,
+          75
+        ],
+        [
+          123,
+          5,
+          74
+        ]
+      ]
+    },
+    {
+      "building": "H06",
+      "width": 3,
+      "path": [
+        [
+          6,
+          7,
+          27
+        ],
+        [
+          6,
+          7,
+          28
+        ],
+        [
+          6,
+          6,
+          29
+        ],
+        [
+          6,
+          6,
+          30
+        ],
+        [
+          6,
+          6,
+          31
+        ],
+        [
+          6,
+          5,
+          32
+        ],
+        [
+          6,
+          5,
+          33
+        ]
+      ]
+    },
+    {
+      "building": "S05",
+      "width": 3,
+      "path": [
+        [
+          46,
+          7,
+          28
+        ],
+        [
+          46,
+          7,
+          29
+        ],
+        [
+          46,
+          6,
+          30
+        ],
+        [
+          47,
+          5,
+          31
+        ],
+        [
+          47,
+          5,
+          32
+        ]
+      ]
+    },
+    {
+      "building": "H07",
+      "width": 3,
+      "path": [
+        [
+          84,
+          7,
+          29
+        ],
+        [
+          84,
+          6,
+          30
+        ],
+        [
+          84,
+          5,
+          31
+        ]
+      ]
+    },
+    {
+      "building": "S06",
+      "width": 3,
+      "path": [
+        [
+          101,
+          7,
+          27
+        ],
+        [
+          101,
+          7,
+          28
+        ],
+        [
+          101,
+          6,
+          29
+        ],
+        [
+          101,
+          6,
+          30
+        ],
+        [
+          101,
+          5,
+          31
+        ],
+        [
+          101,
+          5,
+          32
+        ]
+      ]
+    },
+    {
+      "building": "H08",
+      "width": 3,
+      "path": [
+        [
+          118,
+          7,
+          28
+        ],
+        [
+          118,
+          7,
+          29
+        ],
+        [
+          118,
+          6,
+          30
+        ],
+        [
+          118,
+          5,
+          31
+        ],
+        [
+          118,
+          5,
+          32
+        ]
+      ]
+    },
+    {
+      "building": "P04",
+      "width": 3,
+      "path": [
+        [
+          138,
+          7,
+          28
+        ],
+        [
+          138,
+          7,
+          29
+        ],
+        [
+          138,
+          6,
+          30
+        ],
+        [
+          138,
+          6,
+          31
+        ],
+        [
+          137,
+          6,
+          32
+        ],
+        [
+          137,
+          6,
+          33
+        ],
+        [
+          137,
+          5,
+          34
+        ],
+        [
+          137,
+          5,
+          35
+        ]
+      ]
+    }
+  ],
+  "stair_clearance_samples": [
+    [
+      12,
+      6,
+      52
+    ],
+    [
+      13,
+      6,
+      52
+    ],
+    [
+      12,
+      7,
+      51
+    ],
+    [
+      13,
+      7,
+      51
+    ],
+    [
+      12,
+      8,
+      50
+    ],
+    [
+      13,
+      8,
+      50
+    ],
+    [
+      12,
+      9,
+      49
+    ],
+    [
+      13,
+      9,
+      49
+    ],
+    [
+      12,
+      10,
+      48
+    ],
+    [
+      13,
+      10,
+      48
+    ],
+    [
+      12,
+      11,
+      47
+    ],
+    [
+      13,
+      11,
+      47
+    ],
+    [
+      31,
+      7,
+      50
+    ],
+    [
+      32,
+      7,
+      50
+    ],
+    [
+      31,
+      8,
+      49
+    ],
+    [
+      32,
+      8,
+      49
+    ],
+    [
+      31,
+      9,
+      48
+    ],
+    [
+      32,
+      9,
+      48
+    ],
+    [
+      31,
+      10,
+      47
+    ],
+    [
+      32,
+      10,
+      47
+    ],
+    [
+      31,
+      11,
+      46
+    ],
+    [
+      32,
+      11,
+      46
+    ],
+    [
+      31,
+      12,
+      45
+    ],
+    [
+      32,
+      12,
+      45
+    ],
+    [
+      51,
+      6,
+      48
+    ],
+    [
+      52,
+      6,
+      48
+    ],
+    [
+      51,
+      7,
+      47
+    ],
+    [
+      52,
+      7,
+      47
+    ],
+    [
+      51,
+      8,
+      46
+    ],
+    [
+      52,
+      8,
+      46
+    ],
+    [
+      51,
+      9,
+      45
+    ],
+    [
+      52,
+      9,
+      45
+    ],
+    [
+      51,
+      10,
+      44
+    ],
+    [
+      52,
+      10,
+      44
+    ],
+    [
+      51,
+      11,
+      43
+    ],
+    [
+      52,
+      11,
+      43
+    ],
+    [
+      71,
+      6,
+      51
+    ],
+    [
+      72,
+      6,
+      51
+    ],
+    [
+      71,
+      7,
+      50
+    ],
+    [
+      72,
+      7,
+      50
+    ],
+    [
+      71,
+      8,
+      49
+    ],
+    [
+      72,
+      8,
+      49
+    ],
+    [
+      71,
+      9,
+      48
+    ],
+    [
+      72,
+      9,
+      48
+    ],
+    [
+      71,
+      10,
+      47
+    ],
+    [
+      72,
+      10,
+      47
+    ],
+    [
+      71,
+      11,
+      46
+    ],
+    [
+      72,
+      11,
+      46
+    ],
+    [
+      91,
+      6,
+      46
+    ],
+    [
+      92,
+      6,
+      46
+    ],
+    [
+      91,
+      7,
+      45
+    ],
+    [
+      92,
+      7,
+      45
+    ],
+    [
+      91,
+      8,
+      44
+    ],
+    [
+      92,
+      8,
+      44
+    ],
+    [
+      91,
+      9,
+      43
+    ],
+    [
+      92,
+      9,
+      43
+    ],
+    [
+      91,
+      10,
+      42
+    ],
+    [
+      92,
+      10,
+      42
+    ],
+    [
+      91,
+      11,
+      41
+    ],
+    [
+      92,
+      11,
+      41
+    ],
+    [
+      117,
+      6,
+      51
+    ],
+    [
+      118,
+      6,
+      51
+    ],
+    [
+      117,
+      7,
+      50
+    ],
+    [
+      118,
+      7,
+      50
+    ],
+    [
+      117,
+      8,
+      49
+    ],
+    [
+      118,
+      8,
+      49
+    ],
+    [
+      117,
+      9,
+      48
+    ],
+    [
+      118,
+      9,
+      48
+    ],
+    [
+      117,
+      10,
+      47
+    ],
+    [
+      118,
+      10,
+      47
+    ],
+    [
+      117,
+      11,
+      46
+    ],
+    [
+      118,
+      11,
+      46
+    ],
+    [
+      63,
+      8,
+      18
+    ],
+    [
+      64,
+      8,
+      18
+    ],
+    [
+      63,
+      9,
+      17
+    ],
+    [
+      64,
+      9,
+      17
+    ],
+    [
+      63,
+      10,
+      16
+    ],
+    [
+      64,
+      10,
+      16
+    ],
+    [
+      63,
+      11,
+      15
+    ],
+    [
+      64,
+      11,
+      15
+    ],
+    [
+      63,
+      12,
+      14
+    ],
+    [
+      64,
+      12,
+      14
+    ],
+    [
+      63,
+      13,
+      13
+    ],
+    [
+      64,
+      13,
+      13
+    ],
+    [
+      66,
+      6,
+      87
+    ],
+    [
+      65,
+      6,
+      87
+    ],
+    [
+      66,
+      7,
+      88
+    ],
+    [
+      65,
+      7,
+      88
+    ],
+    [
+      66,
+      8,
+      89
+    ],
+    [
+      65,
+      8,
+      89
+    ],
+    [
+      66,
+      9,
+      90
+    ],
+    [
+      65,
+      9,
+      90
+    ],
+    [
+      66,
+      10,
+      91
+    ],
+    [
+      65,
+      10,
+      91
+    ],
+    [
+      66,
+      11,
+      92
+    ],
+    [
+      65,
+      11,
+      92
+    ],
+    [
+      93,
+      6,
+      88
+    ],
+    [
+      92,
+      6,
+      88
+    ],
+    [
+      93,
+      7,
+      89
+    ],
+    [
+      92,
+      7,
+      89
+    ],
+    [
+      93,
+      8,
+      90
+    ],
+    [
+      92,
+      8,
+      90
+    ],
+    [
+      93,
+      9,
+      91
+    ],
+    [
+      92,
+      9,
+      91
+    ],
+    [
+      93,
+      10,
+      92
+    ],
+    [
+      92,
+      10,
+      92
+    ],
+    [
+      93,
+      11,
+      93
+    ],
+    [
+      92,
+      11,
+      93
+    ],
+    [
+      46,
+      8,
+      17
+    ],
+    [
+      47,
+      8,
+      17
+    ],
+    [
+      46,
+      9,
+      16
+    ],
+    [
+      47,
+      9,
+      16
+    ],
+    [
+      46,
+      10,
+      15
+    ],
+    [
+      47,
+      10,
+      15
+    ],
+    [
+      46,
+      11,
+      14
+    ],
+    [
+      47,
+      11,
+      14
+    ],
+    [
+      46,
+      12,
+      13
+    ],
+    [
+      47,
+      12,
+      13
+    ],
+    [
+      46,
+      13,
+      12
+    ],
+    [
+      47,
+      13,
+      12
+    ],
+    [
+      84,
+      8,
+      18
+    ],
+    [
+      85,
+      8,
+      18
+    ],
+    [
+      84,
+      9,
+      17
+    ],
+    [
+      85,
+      9,
+      17
+    ],
+    [
+      84,
+      10,
+      16
+    ],
+    [
+      85,
+      10,
+      16
+    ],
+    [
+      84,
+      11,
+      15
+    ],
+    [
+      85,
+      11,
+      15
+    ],
+    [
+      84,
+      12,
+      14
+    ],
+    [
+      85,
+      12,
+      14
+    ],
+    [
+      84,
+      13,
+      13
+    ],
+    [
+      85,
+      13,
+      13
+    ],
+    [
+      118,
+      8,
+      17
+    ],
+    [
+      119,
+      8,
+      17
+    ],
+    [
+      118,
+      9,
+      16
+    ],
+    [
+      119,
+      9,
+      16
+    ],
+    [
+      118,
+      10,
+      15
+    ],
+    [
+      119,
+      10,
+      15
+    ],
+    [
+      118,
+      11,
+      14
+    ],
+    [
+      119,
+      11,
+      14
+    ],
+    [
+      118,
+      12,
+      13
+    ],
+    [
+      119,
+      12,
+      13
+    ],
+    [
+      118,
+      13,
+      12
+    ],
+    [
+      119,
+      13,
+      12
+    ]
+  ],
+  "trees": [
+    {
+      "id": "south1",
+      "x": 11,
+      "z": 92,
+      "height": 7,
+      "radius": 4
+    },
+    {
+      "id": "south2",
+      "x": 39,
+      "z": 116,
+      "height": 8,
+      "radius": 4
+    },
+    {
+      "id": "south3",
+      "x": 71,
+      "z": 113,
+      "height": 8,
+      "radius": 3
+    },
+    {
+      "id": "south4",
+      "x": 101,
+      "z": 115,
+      "height": 9,
+      "radius": 4
+    },
+    {
+      "id": "east2",
+      "x": 141,
+      "z": 97,
+      "height": 8,
+      "radius": 3
+    }
+  ],
+  "furniture": [
+    {
+      "building": "H01",
+      "kind": "low_table",
+      "anchor": [
+        18,
+        5,
+        49
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H01",
+      "kind": "futon_decorative",
+      "anchor": [
+        18,
+        11,
+        57
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H01",
+      "kind": "futon_decorative",
+      "anchor": [
+        18,
+        11,
+        50
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H01",
+      "kind": "low_table",
+      "anchor": [
+        16,
+        11,
+        48
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H02",
+      "kind": "low_table",
+      "anchor": [
+        37,
+        6,
+        46
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H02",
+      "kind": "futon_decorative",
+      "anchor": [
+        37,
+        12,
+        55
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H02",
+      "kind": "futon_decorative",
+      "anchor": [
+        37,
+        12,
+        47
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H02",
+      "kind": "low_table",
+      "anchor": [
+        35,
+        12,
+        45
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S01",
+      "kind": "low_table",
+      "anchor": [
+        56,
+        5,
+        43
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S01",
+      "kind": "futon_decorative",
+      "anchor": [
+        56,
+        11,
+        53
+      ],
+      "interactive": false
+    },
+    {
+      "building": "S01",
+      "kind": "low_table",
+      "anchor": [
+        55,
+        5,
+        59
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S02",
+      "kind": "futon_decorative",
+      "anchor": [
+        76,
+        11,
+        55
+      ],
+      "interactive": false
+    },
+    {
+      "building": "S03",
+      "kind": "low_table",
+      "anchor": [
+        96,
+        5,
+        41
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S03",
+      "kind": "low_table",
+      "anchor": [
+        96,
+        11,
+        54
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S03",
+      "kind": "low_table",
+      "anchor": [
+        99,
+        11,
+        42
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P01",
+      "kind": "low_table",
+      "anchor": [
+        122,
+        5,
+        51
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P01",
+      "kind": "futon_decorative",
+      "anchor": [
+        121,
+        11,
+        58
+      ],
+      "interactive": false
+    },
+    {
+      "building": "P01",
+      "kind": "low_table",
+      "anchor": [
+        123,
+        11,
+        58
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P01",
+      "kind": "futon_decorative",
+      "anchor": [
+        130,
+        11,
+        58
+      ],
+      "interactive": false
+    },
+    {
+      "building": "P01",
+      "kind": "low_table",
+      "anchor": [
+        136,
+        11,
+        58
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P01",
+      "kind": "futon_decorative",
+      "anchor": [
+        121,
+        11,
+        51
+      ],
+      "interactive": false
+    },
+    {
+      "building": "P01",
+      "kind": "low_table",
+      "anchor": [
+        123,
+        11,
+        51
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P01",
+      "kind": "futon_decorative",
+      "anchor": [
+        130,
+        11,
+        51
+      ],
+      "interactive": false
+    },
+    {
+      "building": "P01",
+      "kind": "low_table",
+      "anchor": [
+        136,
+        11,
+        51
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P01",
+      "kind": "futon_decorative",
+      "anchor": [
+        121,
+        11,
+        44
+      ],
+      "interactive": false
+    },
+    {
+      "building": "P01",
+      "kind": "low_table",
+      "anchor": [
+        123,
+        11,
+        44
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P01",
+      "kind": "futon_decorative",
+      "anchor": [
+        130,
+        11,
+        44
+      ],
+      "interactive": false
+    },
+    {
+      "building": "P01",
+      "kind": "low_table",
+      "anchor": [
+        136,
+        11,
+        44
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H03",
+      "kind": "low_table",
+      "anchor": [
+        30,
+        7,
+        15
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H04",
+      "kind": "low_table",
+      "anchor": [
+        69,
+        7,
+        15
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H04",
+      "kind": "futon_decorative",
+      "anchor": [
+        69,
+        13,
+        24
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H04",
+      "kind": "futon_decorative",
+      "anchor": [
+        69,
+        13,
+        16
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H04",
+      "kind": "low_table",
+      "anchor": [
+        67,
+        13,
+        13
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S04",
+      "kind": "low_table",
+      "anchor": [
+        61,
+        5,
+        92
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S04",
+      "kind": "low_table",
+      "anchor": [
+        61,
+        11,
+        80
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S04",
+      "kind": "low_table",
+      "anchor": [
+        57,
+        11,
+        91
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H05",
+      "kind": "low_table",
+      "anchor": [
+        87,
+        5,
+        91
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H05",
+      "kind": "futon_decorative",
+      "anchor": [
+        87,
+        11,
+        81
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H05",
+      "kind": "futon_decorative",
+      "anchor": [
+        87,
+        11,
+        90
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H05",
+      "kind": "low_table",
+      "anchor": [
+        89,
+        11,
+        93
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P03",
+      "kind": "low_table",
+      "anchor": [
+        127,
+        5,
+        92
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P03",
+      "kind": "low_table",
+      "anchor": [
+        118,
+        5,
+        92
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P03",
+      "kind": "low_table",
+      "anchor": [
+        127,
+        5,
+        98
+      ],
+      "decorative": true
+    },
+    {
+      "building": "P03",
+      "kind": "low_table",
+      "anchor": [
+        118,
+        5,
+        98
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H06",
+      "kind": "low_table",
+      "anchor": [
+        12,
+        7,
+        14
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S05",
+      "kind": "low_table",
+      "anchor": [
+        51,
+        7,
+        12
+      ],
+      "decorative": true
+    },
+    {
+      "building": "S05",
+      "kind": "futon_decorative",
+      "anchor": [
+        51,
+        13,
+        23
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H07",
+      "kind": "low_table",
+      "anchor": [
+        90,
+        7,
+        15
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H07",
+      "kind": "futon_decorative",
+      "anchor": [
+        90,
+        13,
+        25
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H07",
+      "kind": "futon_decorative",
+      "anchor": [
+        90,
+        13,
+        16
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H07",
+      "kind": "low_table",
+      "anchor": [
+        88,
+        13,
+        13
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H08",
+      "kind": "low_table",
+      "anchor": [
+        124,
+        7,
+        14
+      ],
+      "decorative": true
+    },
+    {
+      "building": "H08",
+      "kind": "futon_decorative",
+      "anchor": [
+        124,
+        13,
+        24
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H08",
+      "kind": "futon_decorative",
+      "anchor": [
+        124,
+        13,
+        15
+      ],
+      "interactive": false
+    },
+    {
+      "building": "H08",
+      "kind": "low_table",
+      "anchor": [
+        122,
+        13,
+        12
+      ],
+      "decorative": true
+    }
+  ],
+  "details": [
+    {
+      "building": "H01",
+      "kind": "layered_roof",
+      "eave_y": 16,
+      "axis": "u",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        14,
+        15
+      ]
+    },
+    {
+      "building": "H02",
+      "kind": "layered_roof",
+      "eave_y": 17,
+      "axis": "v",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        14,
+        16
+      ]
+    },
+    {
+      "building": "S01",
+      "kind": "layered_roof",
+      "eave_y": 16,
+      "axis": "u",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        16,
+        17
+      ]
+    },
+    {
+      "building": "S02",
+      "kind": "layered_roof",
+      "eave_y": 16,
+      "axis": "u",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        14,
+        16
+      ]
+    },
+    {
+      "building": "S03",
+      "kind": "layered_roof",
+      "eave_y": 10,
+      "axis": "v",
+      "hip": false,
+      "bounds_local": [
+        14,
+        0,
+        19,
+        20
+      ]
+    },
+    {
+      "building": "S03",
+      "kind": "layered_roof",
+      "eave_y": 16,
+      "axis": "u",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        15,
+        20
+      ]
+    },
+    {
+      "building": "P01",
+      "kind": "layered_roof",
+      "eave_y": 16,
+      "axis": "u",
+      "hip": true,
+      "bounds_local": [
+        0,
+        0,
+        24,
+        20
+      ]
+    },
+    {
+      "building": "H03",
+      "kind": "layered_roof",
+      "eave_y": 12,
+      "axis": "u",
+      "hip": true,
+      "bounds_local": [
+        0,
+        0,
+        17,
+        18
+      ]
+    },
+    {
+      "building": "H04",
+      "kind": "layered_roof",
+      "eave_y": 12,
+      "axis": "v",
+      "hip": false,
+      "bounds_local": [
+        11,
+        0,
+        16,
+        17
+      ]
+    },
+    {
+      "building": "H04",
+      "kind": "layered_roof",
+      "eave_y": 18,
+      "axis": "u",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        12,
+        17
+      ]
+    },
+    {
+      "building": "P02",
+      "kind": "layered_roof",
+      "eave_y": 10,
+      "axis": "u",
+      "hip": true,
+      "bounds_local": [
+        0,
+        0,
+        26,
+        22
+      ]
+    },
+    {
+      "building": "P02",
+      "kind": "layered_roof",
+      "eave_y": 10,
+      "axis": "v",
+      "hip": false,
+      "bounds_local": [
+        9,
+        -3,
+        17,
+        3
+      ]
+    },
+    {
+      "building": "S04",
+      "kind": "layered_roof",
+      "eave_y": 16,
+      "axis": "v",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        16,
+        19
+      ]
+    },
+    {
+      "building": "H05",
+      "kind": "layered_roof",
+      "eave_y": 16,
+      "axis": "u",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        15,
+        18
+      ]
+    },
+    {
+      "building": "P03",
+      "kind": "layered_roof",
+      "eave_y": 10,
+      "axis": "u",
+      "hip": true,
+      "bounds_local": [
+        0,
+        0,
+        23,
+        21
+      ]
+    },
+    {
+      "building": "H06",
+      "kind": "layered_roof",
+      "eave_y": 12,
+      "axis": "v",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        13,
+        17
+      ]
+    },
+    {
+      "building": "S05",
+      "kind": "layered_roof",
+      "eave_y": 18,
+      "axis": "u",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        12,
+        18
+      ]
+    },
+    {
+      "building": "H07",
+      "kind": "layered_roof",
+      "eave_y": 18,
+      "axis": "v",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        12,
+        18
+      ]
+    },
+    {
+      "building": "S06",
+      "kind": "layered_roof",
+      "eave_y": 12,
+      "axis": "u",
+      "hip": true,
+      "bounds_local": [
+        0,
+        0,
+        12,
+        17
+      ]
+    },
+    {
+      "building": "H08",
+      "kind": "layered_roof",
+      "eave_y": 18,
+      "axis": "u",
+      "hip": false,
+      "bounds_local": [
+        0,
+        0,
+        12,
+        18
+      ]
+    },
+    {
+      "building": "P04",
+      "kind": "layered_roof",
+      "eave_y": 12,
+      "axis": "u",
+      "hip": true,
+      "bounds_local": [
+        0,
+        0,
+        13,
+        16
+      ]
+    }
+  ],
+  "site": {
+    "size_xyz": [
+      160,
+      48,
+      128
+    ],
+    "base": 4
+  },
+  "protected_regions": [
+    "road",
+    "entrance",
+    "two-wide stairs",
+    "side passage",
+    "central passage",
+    "bus boarding"
+  ]
+}

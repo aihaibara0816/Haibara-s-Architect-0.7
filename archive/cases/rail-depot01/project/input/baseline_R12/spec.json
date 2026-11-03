@@ -1,0 +1,652 @@
+{
+  "id": "RailDepot01",
+  "title": "新港列车所 · 检修与研发基地",
+  "size_xyz": [
+    480,
+    104,
+    240
+  ],
+  "spawn_local": [
+    190,
+    7,
+    231
+  ],
+  "world_y_offset": 58,
+  "source_nbt_sha256": "25800f0ff1172e1e20e98817cf19820deb2d9d590d6dda4f2d48f67800e4a7c1",
+  "buildings": [
+    {
+      "id": "site",
+      "name": "01 · 场地、道路与步行系统",
+      "w": 480,
+      "d": 240,
+      "geometry_bounds": [
+        [
+          0,
+          480
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          0,
+          240
+        ]
+      ],
+      "blocks": 364463,
+      "levels": 1,
+      "floors": [
+        3,
+        7,
+        11,
+        15
+      ]
+    },
+    {
+      "id": "railway",
+      "name": "02 · Create 双线接入与十股道咽喉",
+      "w": 459,
+      "d": 133,
+      "geometry_bounds": [
+        [
+          0,
+          459
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          16,
+          149
+        ]
+      ],
+      "blocks": 6135,
+      "levels": 1,
+      "floors": [
+        6
+      ]
+    },
+    {
+      "id": "stabling",
+      "name": "03 · 四线停放与日常整备库",
+      "w": 153,
+      "d": 54,
+      "geometry_bounds": [
+        [
+          302,
+          455
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          35,
+          89
+        ]
+      ],
+      "blocks": 32202,
+      "levels": 1,
+      "floors": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ]
+    },
+    {
+      "id": "maintenance",
+      "name": "04 · 双线检修、车底坑与车顶平台",
+      "w": 154,
+      "d": 42,
+      "geometry_bounds": [
+        [
+          301,
+          455
+        ],
+        [
+          4,
+          28
+        ],
+        [
+          91,
+          133
+        ]
+      ],
+      "blocks": 27375,
+      "levels": 1,
+      "floors": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24
+      ]
+    },
+    {
+      "id": "heavy",
+      "name": "05 · 轮对、转向架与重修工位",
+      "w": 141,
+      "d": 37,
+      "geometry_bounds": [
+        [
+          306,
+          447
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          94,
+          131
+        ]
+      ],
+      "blocks": 754,
+      "levels": 1,
+      "floors": [
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "wash",
+      "name": "06 · 洗车线与循环水",
+      "w": 106,
+      "d": 16,
+      "geometry_bounds": [
+        [
+          301,
+          407
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          132,
+          148
+        ]
+      ],
+      "blocks": 1293,
+      "levels": 1,
+      "floors": [
+        6,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "tower",
+      "name": "07 · 十五层铁路研发综合楼",
+      "levels": 15,
+      "floors": [
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90
+      ],
+      "w": 41,
+      "d": 48,
+      "geometry_bounds": [
+        [
+          63,
+          104
+        ],
+        [
+          6,
+          103
+        ],
+        [
+          172,
+          220
+        ]
+      ],
+      "blocks": 44170
+    },
+    {
+      "id": "research",
+      "name": "08 · 试验室与技术培训楼",
+      "levels": 3,
+      "floors": [
+        6,
+        12,
+        18
+      ],
+      "w": 60,
+      "d": 47,
+      "geometry_bounds": [
+        [
+          119,
+          179
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          173,
+          220
+        ]
+      ],
+      "blocks": 16331
+    },
+    {
+      "id": "dispatch",
+      "name": "09 · 调度与运行控制中心",
+      "levels": 3,
+      "floors": [
+        6,
+        12,
+        18
+      ],
+      "w": 43,
+      "d": 33,
+      "geometry_bounds": [
+        [
+          205,
+          248
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          159,
+          192
+        ]
+      ],
+      "blocks": 8847
+    },
+    {
+      "id": "canteen",
+      "name": "10 · 两层食堂与员工活动",
+      "levels": 2,
+      "floors": [
+        6,
+        12
+      ],
+      "w": 56,
+      "d": 36,
+      "geometry_bounds": [
+        [
+          203,
+          259
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          194,
+          230
+        ]
+      ],
+      "blocks": 10270
+    },
+    {
+      "id": "dorm",
+      "name": "11 · 四层乘务宿舍",
+      "levels": 4,
+      "floors": [
+        6,
+        12,
+        18,
+        24
+      ],
+      "w": 70,
+      "d": 36,
+      "geometry_bounds": [
+        [
+          281,
+          351
+        ],
+        [
+          6,
+          34
+        ],
+        [
+          194,
+          230
+        ]
+      ],
+      "blocks": 22807
+    },
+    {
+      "id": "energy",
+      "name": "12 · 能源、压缩空气与消防水",
+      "w": 98,
+      "d": 25,
+      "geometry_bounds": [
+        [
+          353,
+          451
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          164,
+          189
+        ]
+      ],
+      "blocks": 8249,
+      "levels": 1,
+      "floors": [
+        6,
+        10,
+        14,
+        18
+      ]
+    },
+    {
+      "id": "parts",
+      "name": "13 · 备件库、材料与设备场",
+      "w": 159,
+      "d": 63,
+      "geometry_bounds": [
+        [
+          293,
+          452
+        ],
+        [
+          6,
+          18
+        ],
+        [
+          164,
+          227
+        ]
+      ],
+      "blocks": 9670,
+      "levels": 1,
+      "floors": [
+        6,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "bridges",
+      "name": "14 · 员工连廊与跨线步桥",
+      "w": 176,
+      "d": 206,
+      "geometry_bounds": [
+        [
+          174,
+          350
+        ],
+        [
+          7,
+          22
+        ],
+        [
+          10,
+          216
+        ]
+      ],
+      "blocks": 5290,
+      "levels": 1,
+      "floors": [
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "entry",
+      "name": "15 · 门卫、入口与员工庭院",
+      "w": 320,
+      "d": 72,
+      "geometry_bounds": [
+        [
+          42,
+          362
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          168,
+          240
+        ]
+      ],
+      "blocks": 1970,
+      "levels": 1,
+      "floors": [
+        6,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "substation",
+      "name": "16 · 围合变配电场与检修通道",
+      "w": 74,
+      "d": 38,
+      "geometry_bounds": [
+        [
+          36,
+          110
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          23,
+          61
+        ]
+      ],
+      "blocks": 8865,
+      "levels": 1,
+      "floors": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "id": "waterworks",
+      "name": "17 · 储水罐、泵房与管线平台",
+      "w": 57,
+      "d": 35,
+      "geometry_bounds": [
+        [
+          137,
+          194
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          15,
+          50
+        ]
+      ],
+      "blocks": 8130,
+      "levels": 1,
+      "floors": [
+        4,
+        8,
+        12,
+        16,
+        20
+      ]
+    },
+    {
+      "id": "airplant",
+      "name": "18 · 压缩空气与室外机组",
+      "w": 74,
+      "d": 28,
+      "geometry_bounds": [
+        [
+          207,
+          281
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          8,
+          36
+        ]
+      ],
+      "blocks": 6536,
+      "levels": 1,
+      "floors": [
+        4,
+        8,
+        12
+      ]
+    },
+    {
+      "id": "testline",
+      "name": "19 · 独立研发试验与检修车停放线",
+      "w": 147,
+      "d": 19,
+      "geometry_bounds": [
+        [
+          37,
+          184
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          131,
+          150
+        ]
+      ],
+      "blocks": 3550,
+      "levels": 1,
+      "floors": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    {
+      "id": "outdoor",
+      "name": "20 · 北侧新增两条露天整备线",
+      "w": 107,
+      "d": 19,
+      "geometry_bounds": [
+        [
+          352,
+          459
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          16,
+          35
+        ]
+      ],
+      "blocks": 841,
+      "levels": 1,
+      "floors": [
+        7
+      ]
+    },
+    {
+      "id": "yardlights",
+      "name": "21 · 股道之间的成排双侧灯组",
+      "w": 436,
+      "d": 121,
+      "geometry_bounds": [
+        [
+          9,
+          445
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          18,
+          139
+        ]
+      ],
+      "blocks": 1955,
+      "levels": 1,
+      "floors": [
+        5,
+        9,
+        13
+      ]
+    }
+  ],
+  "revision": "R12 twin-track interface, ten depot tracks, relocated independent lane and yard lighting",
+  "throat_topology": "six-track north ladder and four-track south ladder; separate double-track interfaces at Z87/Z93; independent maintenance track at Z135",
+  "rail_ground": "raised cobblestone formation at Y7, stepped shoulders at Y6, service basins at Y5; equipment platforms and roads at Y7",
+  "shed_start_x": 304,
+  "tower_storeys": 15,
+  "inspection_effective_length": 120,
+  "work_interval_x": [
+    312,
+    432
+  ],
+  "track_base_y": 7,
+  "car_envelope_width": 5,
+  "car_envelope_top_y": 13,
+  "pit_foot_y": 5,
+  "roof_platform_foot_y": 12,
+  "front_floor_pitch": 6,
+  "source_consist": "two cab-ended cars plus one centre car; approximately 68 blocks cell envelope",
+  "design_consist_max_length": 90,
+  "curve_lengths": [
+    51.573,
+    51.573,
+    52.668,
+    52.668,
+    52.668,
+    52.668,
+    52.668,
+    52.668,
+    52.668,
+    52.668
+  ],
+  "server_max_placement_user_report": 256,
+  "design_curve_target": [
+    50,
+    60
+  ],
+  "mod_versions": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.244 (user target)",
+    "create": "6.0.10"
+  },
+  "game": "not_run",
+  "limitations": [
+    "Authored Create block states, reciprocal curves, targeted signals/stations, and schedule item; runtime graph and dispatch pending game",
+    "No active train entities copied; original carriage entities depend on additional mods and external TrainId graph",
+    "Offline preview approximates materials and Create meshes; no game collision certification"
+  ]
+}

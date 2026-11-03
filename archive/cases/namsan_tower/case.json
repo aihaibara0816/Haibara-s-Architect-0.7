@@ -1,0 +1,21 @@
+{
+  "id": "namsan_tower",
+  "name": "首尔南山塔与公园",
+  "style": "landmark",
+  "origin": "HAF 0.4 快照",
+  "version": "V1_r02",
+  "history": "V1_r02",
+  "achievement": "OSM平面、SRTM坡势、照片细部各有适用范围；台地与地形应共同设计；设备环留空、观景舱才围护。",
+  "lesson": "基座先定承托面并渐变接坡；楼板止于核心内缘；分别限制包围体积与实际占用量。",
+  "failure": "楼板穿出核心筒形成假灰带；相机被前景遮挡；DEM混有树冠等偏差，不能直接贴楼。",
+  "open": "细部高差/植被估算，真实RGB投光及游戏坡道未验证。",
+  "acceptance": "用户未作整体验收；不能因转入下一案例记pass",
+  "game": "待实测",
+  "source": "HAF04.zip",
+  "source_evidence": [
+    "learning/namsan_site_v1.md",
+    "cases/namsan_tower/params.json"
+  ],
+  "nbt_member": "HAF-0.4/cases/namsan_tower/runs/V1_r02/building.nbt",
+  "style_name": "地标塔架"
+}
